@@ -1,8 +1,8 @@
 /* Service worker do Grimório de Mesa.
    - O app (HTML, JS, ícones) fica guardado para abrir offline.
-   - O conteúdo (pasta data/) sempre tenta a internet primeiro; sem internet, usa a última cópia.
+   - O conteúdo (arquivos .json) sempre tenta a internet primeiro; sem internet, usa a última cópia.
    Ao mudar index.html ou app.js, aumente VERSAO_APP para os celulares baixarem o app novo. */
-var VERSAO_APP = "1.0.0";
+var VERSAO_APP = "1.0.1";
 var CACHE_APP = "grimorio-app-" + VERSAO_APP;
 var CACHE_DADOS = "grimorio-dados";
 var CACHE_FONTES = "grimorio-fontes";
@@ -12,9 +12,9 @@ var ARQUIVOS_APP = [
   "index.html",
   "app.js",
   "manifest.webmanifest",
-  "icons/icon-192.png",
-  "icons/icon-512.png",
-  "icons/apple-touch-icon.png"
+  "icon-192.png",
+  "icon-512.png",
+  "apple-touch-icon.png"
 ];
 
 self.addEventListener("install", function (ev) {
@@ -53,7 +53,7 @@ self.addEventListener("fetch", function (ev) {
   if (url.origin !== self.location.origin) return;
 
   // Conteúdo: internet primeiro, cópia salva se estiver offline
-  if (url.pathname.indexOf("/data/") >= 0) {
+  if (/\.json$/.test(url.pathname)) {
     ev.respondWith(
       fetch(req, { cache: "no-cache" }).then(function (r) {
         if (r.ok) { var copia = r.clone(); caches.open(CACHE_DADOS).then(function (c) { c.put(url.pathname, copia); }); }

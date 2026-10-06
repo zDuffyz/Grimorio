@@ -10,9 +10,9 @@ App de consulta rápida de regras de D&D 2024 para a mesa. Funciona no celular c
 | `app.js` | Busca, filtros, favoritos e navegação |
 | `sw.js` | Faz o app abrir offline e buscar atualizações |
 | `manifest.webmanifest` | Nome, ícone e cores do app instalado |
-| `icons/` | Ícones do app |
-| `data/index.json` | Versão do conteúdo e lista de arquivos |
-| `data/*.json` | O conteúdo: regras, condições, ações e magias |
+| `icon-*.png`, `apple-touch-icon.png` | Ícones do app |
+| `index.json` | Versão do conteúdo e lista de arquivos |
+| `regras.json`, `condicoes.json`, `acoes.json`, `magias.json` | O conteúdo |
 
 ## Publicar no GitHub Pages (uma vez só)
 
@@ -35,13 +35,13 @@ Depois de aberto uma vez com internet, o app funciona offline.
 
 ## Atualizar o conteúdo
 
-1. No GitHub, abra o arquivo em `data/` que quer mudar e clique no lápis (✏️) para editar.
+1. No GitHub, abra o arquivo `.json` que quer mudar e clique no lápis (✏️) para editar.
 2. Faça a alteração e salve com **Commit changes**.
-3. Abra `data/index.json` e mude o campo `versao` (por exemplo, de `2026.10.06-1` para `2026.10.07-1`). Em `notas`, escreva uma linha sobre o que mudou. Salve.
+3. Abra `index.json` e mude o campo `versao` (por exemplo, de `2026.10.06-1` para `2026.10.07-1`). Em `notas`, escreva uma linha sobre o que mudou. Salve.
 
 Na próxima vez que os jogadores abrirem o app com internet, o conteúdo novo é baixado e aparece um aviso com a sua nota. Ninguém precisa reinstalar nada.
 
-Para criar uma categoria de arquivo nova (por exemplo, `data/cenario.json` para material do seu cenário), crie o arquivo e acrescente o nome dele na lista `arquivos` do `data/index.json`.
+Para criar uma categoria de arquivo nova (por exemplo, `cenario.json` para material do seu cenário), crie o arquivo e acrescente o nome dele na lista `arquivos` do `index.json`.
 
 ## Formato de uma entrada
 

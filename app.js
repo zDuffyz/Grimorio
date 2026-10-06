@@ -1,5 +1,5 @@
 /* Grimório de Mesa — consulta rápida de regras.
-   O conteúdo fica em data/*.json; este arquivo só lê e mostra. */
+   O conteúdo fica nos arquivos .json; este arquivo só lê e mostra. */
 (function () {
   "use strict";
 
@@ -367,9 +367,9 @@
   }
 
   function carregar(silencioso) {
-    return buscarJSON("data/index.json").then(function (indice) {
+    return buscarJSON("index.json").then(function (indice) {
       if (silencioso && indice.versao === estado.versao) return;
-      return Promise.all(indice.arquivos.map(function (a) { return buscarJSON("data/" + a); })).then(function (partes) {
+      return Promise.all(indice.arquivos.map(function (a) { return buscarJSON(a); })).then(function (partes) {
         var entradas = [];
         partes.forEach(function (p) { entradas = entradas.concat(p); });
         entradas.forEach(prepararIndice);
