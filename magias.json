@@ -1,0 +1,102 @@
+[
+  {
+    "id": "raio-de-fogo",
+    "nome": "Raio de Fogo",
+    "nome_en": "Fire Bolt",
+    "categoria": "magia",
+    "tags": ["truque", "fogo", "ataque", "dano"],
+    "resumo": "Truque. Ataque mágico à distância, 1d10 de dano de Fogo.",
+    "magia": { "nivel": 0, "escola": "Evocação", "tempo": "Ação", "alcance": "36 m (120 pés)", "componentes": "V, S", "duracao": "Instantânea", "classes": ["Feiticeiro", "Mago"] },
+    "texto": "Você arremessa uma fagulha de fogo numa criatura ou objeto dentro do alcance. Faça uma jogada de ataque mágico à distância contra o alvo. Se acertar, ele sofre 1d10 de dano de Fogo. Um objeto inflamável atingido começa a queimar se não estiver sendo vestido ou carregado.\n\n### Aprimoramento de truque\nO dano aumenta em 1d10 quando você chega aos níveis 5 (2d10), 11 (3d10) e 17 (4d10)."
+  },
+  {
+    "id": "chama-sagrada",
+    "nome": "Chama Sagrada",
+    "nome_en": "Sacred Flame",
+    "categoria": "magia",
+    "tags": ["truque", "radiante", "teste de resistência", "dano"],
+    "resumo": "Truque. Resistência de Destreza ou 1d8 Radiante; ignora meia cobertura.",
+    "magia": { "nivel": 0, "escola": "Evocação", "tempo": "Ação", "alcance": "18 m (60 pés)", "componentes": "V, S", "duracao": "Instantânea", "classes": ["Clérigo"] },
+    "texto": "Um brilho semelhante a chamas desce sobre uma criatura que você consegue ver dentro do alcance. O alvo precisa ser bem-sucedido num teste de resistência de Destreza ou sofre 1d8 de dano Radiante. O alvo não recebe nenhum benefício de [[cobertura|meia cobertura nem de cobertura de três quartos]] contra este teste.\n\n### Aprimoramento de truque\nO dano aumenta em 1d8 quando você chega aos níveis 5 (2d8), 11 (3d8) e 17 (4d8)."
+  },
+  {
+    "id": "orientacao",
+    "nome": "Orientação",
+    "nome_en": "Guidance",
+    "categoria": "magia",
+    "tags": ["truque", "perícia", "bônus", "d4"],
+    "resumo": "Truque. O alvo soma 1d4 aos testes de uma perícia escolhida.",
+    "magia": { "nivel": 0, "escola": "Adivinhação", "tempo": "Ação", "alcance": "Toque", "componentes": "V, S", "duracao": "Concentração, até 1 minuto", "classes": ["Clérigo", "Druida"], "concentracao": true },
+    "texto": "Você toca uma criatura voluntária e escolhe uma perícia. Até a magia terminar, a criatura soma 1d4 a qualquer teste de atributo feito com a perícia escolhida."
+  },
+  {
+    "id": "misseis-magicos",
+    "nome": "Mísseis Mágicos",
+    "nome_en": "Magic Missile",
+    "categoria": "magia",
+    "tags": ["força", "dano", "acerto automático"],
+    "resumo": "Nível 1. Três dardos que acertam sempre, 1d4 + 1 de Força cada.",
+    "magia": { "nivel": 1, "escola": "Evocação", "tempo": "Ação", "alcance": "36 m (120 pés)", "componentes": "V, S", "duracao": "Instantânea", "classes": ["Feiticeiro", "Mago"] },
+    "texto": "Você cria três dardos brilhantes de força mágica. Cada dardo atinge uma criatura à sua escolha que você consegue ver dentro do alcance e causa 1d4 + 1 de dano de Força. Todos os dardos atingem ao mesmo tempo, e você pode direcioná-los para uma criatura ou para várias.\n\n### Em níveis superiores\nA magia cria um dardo a mais para cada nível de espaço de magia acima do 1º.\n\nVeja também [[escudo-arcano|Escudo Arcano]], que anula o dano desta magia."
+  },
+  {
+    "id": "escudo-arcano",
+    "nome": "Escudo Arcano",
+    "nome_en": "Shield",
+    "categoria": "magia",
+    "tags": ["reação", "CA", "defesa"],
+    "resumo": "Nível 1, Reação. +5 na CA até o início do seu próximo turno.",
+    "magia": { "nivel": 1, "escola": "Abjuração", "tempo": "Reação, quando você é atingido por uma jogada de ataque ou é alvo de Mísseis Mágicos", "alcance": "Pessoal", "componentes": "V, S", "duracao": "1 rodada", "classes": ["Feiticeiro", "Mago"] },
+    "texto": "Uma barreira imperceptível de força mágica protege você. Até o início do seu próximo turno, você recebe +5 de bônus na CA, inclusive contra o ataque que disparou a magia, e não sofre dano de [[misseis-magicos|Mísseis Mágicos]]."
+  },
+  {
+    "id": "armadura-arcana",
+    "nome": "Armadura Arcana",
+    "nome_en": "Mage Armor",
+    "categoria": "magia",
+    "tags": ["CA", "defesa", "sem armadura"],
+    "resumo": "Nível 1. CA base 13 + Destreza por 8 horas, sem armadura.",
+    "magia": { "nivel": 1, "escola": "Abjuração", "tempo": "Ação", "alcance": "Toque", "componentes": "V, S, M (um pedaço de couro curtido)", "duracao": "8 horas", "classes": ["Feiticeiro", "Mago"] },
+    "texto": "Você toca uma criatura voluntária que não esteja usando armadura. Até a magia terminar, a CA base do alvo passa a ser 13 + o modificador de Destreza dele. A magia termina mais cedo se o alvo vestir uma armadura."
+  },
+  {
+    "id": "curar-ferimentos",
+    "nome": "Curar Ferimentos",
+    "nome_en": "Cure Wounds",
+    "categoria": "magia",
+    "tags": ["cura", "pontos de vida", "toque"],
+    "resumo": "Nível 1. Toque: recupera 2d8 + modificador de conjuração.",
+    "magia": { "nivel": 1, "escola": "Abjuração", "tempo": "Ação", "alcance": "Toque", "componentes": "V, S", "duracao": "Instantânea", "classes": ["Bardo", "Clérigo", "Druida", "Paladino", "Patrulheiro"] },
+    "texto": "Uma criatura que você toca recupera Pontos de Vida iguais a 2d8 + seu modificador de atributo de conjuração.\n\n### Em níveis superiores\nA cura aumenta em 2d8 para cada nível de espaço de magia acima do 1º."
+  },
+  {
+    "id": "palavra-curativa",
+    "nome": "Palavra Curativa",
+    "nome_en": "Healing Word",
+    "categoria": "magia",
+    "tags": ["cura", "ação bônus", "pontos de vida", "à distância"],
+    "resumo": "Nível 1, Ação Bônus. À distância: recupera 2d4 + modificador.",
+    "magia": { "nivel": 1, "escola": "Abjuração", "tempo": "Ação Bônus", "alcance": "18 m (60 pés)", "componentes": "V", "duracao": "Instantânea", "classes": ["Bardo", "Clérigo", "Druida"] },
+    "texto": "Uma criatura à sua escolha que você consegue ver dentro do alcance recupera Pontos de Vida iguais a 2d4 + seu modificador de atributo de conjuração.\n\n### Em níveis superiores\nA cura aumenta em 2d4 para cada nível de espaço de magia acima do 1º."
+  },
+  {
+    "id": "bencao",
+    "nome": "Bênção",
+    "nome_en": "Bless",
+    "categoria": "magia",
+    "tags": ["d4", "ataque", "teste de resistência", "aliados"],
+    "resumo": "Nível 1. Até três aliados somam 1d4 a ataques e resistências.",
+    "magia": { "nivel": 1, "escola": "Encantamento", "tempo": "Ação", "alcance": "9 m (30 pés)", "componentes": "V, S, M (um Símbolo Sagrado de pelo menos 5 PO)", "duracao": "Concentração, até 1 minuto", "classes": ["Clérigo", "Paladino"], "concentracao": true },
+    "texto": "Você abençoa até três criaturas dentro do alcance. Sempre que um alvo fizer uma jogada de ataque ou um teste de resistência antes de a magia terminar, ele soma 1d4 ao resultado.\n\n### Em níveis superiores\nVocê pode escolher uma criatura a mais para cada nível de espaço de magia acima do 1º."
+  },
+  {
+    "id": "bola-de-fogo",
+    "nome": "Bola de Fogo",
+    "nome_en": "Fireball",
+    "categoria": "magia",
+    "tags": ["fogo", "área", "explosão", "dano", "teste de resistência"],
+    "resumo": "Nível 3. Esfera de 6 m de raio: 8d6 de Fogo, metade com sucesso em Destreza.",
+    "magia": { "nivel": 3, "escola": "Evocação", "tempo": "Ação", "alcance": "45 m (150 pés)", "componentes": "V, S, M (uma bolinha de guano de morcego e enxofre)", "duracao": "Instantânea", "classes": ["Feiticeiro", "Mago"] },
+    "texto": "Um risco brilhante sai de você até um ponto que você escolhe dentro do alcance e explode num estrondo de chamas. Cada criatura numa esfera de 6 metros (20 pés) de raio centrada nesse ponto faz um teste de resistência de Destreza. Com falha, sofre 8d6 de dano de Fogo; com sucesso, metade desse dano. Objetos inflamáveis na área que não estejam sendo vestidos ou carregados começam a queimar.\n\n### Em níveis superiores\nO dano aumenta em 1d6 para cada nível de espaço de magia acima do 3º."
+  }
+]

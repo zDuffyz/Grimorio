@@ -1,0 +1,137 @@
+[
+  {
+    "id": "agarrado",
+    "nome": "Agarrado",
+    "nome_en": "Grappled",
+    "categoria": "condicao",
+    "tags": ["agarrar", "imobilizado", "escapar"],
+    "resumo": "Deslocamento 0; Desvantagem para atacar quem não é o agarrador.",
+    "texto": "- **Deslocamento 0.** Seu Deslocamento é 0 e não pode aumentar.\n- **Ataques afetados.** Você tem Desvantagem em jogadas de ataque contra qualquer alvo que não seja quem está agarrando você.\n- **Pode ser arrastado.** Quem agarra você pode arrastá-lo ou carregá-lo ao se mover, mas cada metro custa um metro extra de movimento, a menos que você seja Miúdo ou duas categorias de tamanho menor que ele.\n\n### Escapar\nUsando a sua ação, faça um teste de Força (Atletismo) ou Destreza (Acrobacia) contra a CD de fuga do agarrão. Com sucesso, a condição termina.\n\n### Quando termina sozinha\nA condição termina se quem agarra você ficar [[incapacitado|Incapacitado]] ou se a distância entre vocês ficar maior que o alcance do agarrão."
+  },
+  {
+    "id": "amedrontado",
+    "nome": "Amedrontado",
+    "nome_en": "Frightened",
+    "categoria": "condicao",
+    "tags": ["medo", "fonte do medo"],
+    "resumo": "Desvantagem com a fonte do medo à vista; não se aproxima dela.",
+    "texto": "- **Testes e ataques afetados.** Você tem Desvantagem em testes de atributo e jogadas de ataque enquanto a fonte do medo estiver em sua linha de visão.\n- **Não pode se aproximar.** Você não pode se mover voluntariamente para mais perto da fonte do medo."
+  },
+  {
+    "id": "atordoado",
+    "nome": "Atordoado",
+    "nome_en": "Stunned",
+    "categoria": "condicao",
+    "tags": ["atordoar", "golpe atordoante"],
+    "resumo": "Incapacitado; falha em Força e Destreza; ataques contra têm Vantagem.",
+    "texto": "- **Incapacitado.** Você tem a condição [[incapacitado|Incapacitado]].\n- **Testes de resistência afetados.** Você falha automaticamente em testes de resistência de Força e de Destreza.\n- **Ataques afetados.** Jogadas de ataque contra você têm Vantagem."
+  },
+  {
+    "id": "caido",
+    "nome": "Caído",
+    "nome_en": "Prone",
+    "categoria": "condicao",
+    "tags": ["derrubado", "no chão", "levantar", "rastejar"],
+    "resumo": "Levantar custa metade do Deslocamento. Desvantagem para atacar.",
+    "texto": "- **Movimento restrito.** Suas únicas opções de movimento são rastejar ou gastar movimento igual à metade do seu Deslocamento (arredondado para baixo) para se levantar, o que encerra a condição. Se seu Deslocamento for 0, você não consegue se levantar.\n- **Ataques afetados.** Você tem Desvantagem em jogadas de ataque. Uma jogada de ataque contra você tem Vantagem se o atacante estiver a até 1,5 metro (5 pés) de você. Caso contrário, tem Desvantagem."
+  },
+  {
+    "id": "cego",
+    "nome": "Cego",
+    "nome_en": "Blinded",
+    "categoria": "condicao",
+    "tags": ["cegueira", "não enxerga", "visão"],
+    "resumo": "Falha em testes que dependem de visão; Desvantagem para atacar.",
+    "texto": "- **Não enxerga.** Você não consegue ver e falha automaticamente em qualquer teste de atributo que dependa de visão.\n- **Ataques afetados.** Jogadas de ataque contra você têm Vantagem, e suas jogadas de ataque têm Desvantagem."
+  },
+  {
+    "id": "enfeiticado",
+    "nome": "Enfeitiçado",
+    "nome_en": "Charmed",
+    "categoria": "condicao",
+    "tags": ["encantado", "charme", "feitiço"],
+    "resumo": "Não pode ferir quem o enfeitiçou; ele tem Vantagem social com você.",
+    "texto": "- **Não pode ferir quem enfeitiçou.** Você não pode atacar quem o enfeitiçou nem torná-lo alvo de habilidades ou efeitos mágicos que causem dano.\n- **Vantagem social.** Quem enfeitiçou você tem Vantagem em testes de atributo para interagir socialmente com você."
+  },
+  {
+    "id": "envenenado",
+    "nome": "Envenenado",
+    "nome_en": "Poisoned",
+    "categoria": "condicao",
+    "tags": ["veneno", "intoxicado"],
+    "resumo": "Desvantagem em jogadas de ataque e testes de atributo.",
+    "texto": "- **Testes e ataques afetados.** Você tem Desvantagem em jogadas de ataque e testes de atributo."
+  },
+  {
+    "id": "exaustao",
+    "nome": "Exaustão",
+    "nome_en": "Exhaustion",
+    "categoria": "condicao",
+    "tags": ["cansaço", "níveis de exaustão", "fadiga"],
+    "resumo": "Cumulativa: −2 por nível nos testes de D20, −1,5 m de Deslocamento por nível. Nível 6 = morte.",
+    "texto": "- **Níveis cumulativos.** Cada vez que recebe esta condição, seu nível de Exaustão aumenta em 1. Você morre se ele chegar a 6.\n- **Testes de D20 afetados.** Quando faz um [[testes-de-d20|teste de D20]], o resultado diminui em 2 vezes o seu nível de Exaustão.\n- **Deslocamento reduzido.** Seu Deslocamento diminui em 1,5 metro (5 pés) vezes o seu nível de Exaustão.\n- **Remover.** Terminar um [[descanso-longo|Descanso Longo]] reduz o nível em 1. A condição termina quando o nível chega a 0.\n\n| Nível | Testes de D20 | Deslocamento |\n|---|---|---|\n| 1 | −2 | −1,5 m |\n| 2 | −4 | −3 m |\n| 3 | −6 | −4,5 m |\n| 4 | −8 | −6 m |\n| 5 | −10 | −7,5 m |\n| 6 | Morte | — |"
+  },
+  {
+    "id": "impedido",
+    "nome": "Impedido",
+    "nome_en": "Restrained",
+    "categoria": "condicao",
+    "tags": ["contido", "preso", "teia", "amarrado"],
+    "resumo": "Deslocamento 0; Desvantagem para atacar e em Destreza; ataques contra têm Vantagem.",
+    "texto": "- **Deslocamento 0.** Seu Deslocamento é 0 e não pode aumentar.\n- **Ataques afetados.** Jogadas de ataque contra você têm Vantagem, e suas jogadas de ataque têm Desvantagem.\n- **Testes de resistência afetados.** Você tem Desvantagem em testes de resistência de Destreza."
+  },
+  {
+    "id": "incapacitado",
+    "nome": "Incapacitado",
+    "nome_en": "Incapacitated",
+    "categoria": "condicao",
+    "tags": ["sem ação", "sem reação", "concentração"],
+    "resumo": "Sem ações, Ações Bônus nem Reações; perde a Concentração; não fala.",
+    "texto": "- **Inativo.** Você não pode fazer nenhuma ação, Ação Bônus nem Reação.\n- **Sem Concentração.** Sua [[concentracao|Concentração]] é interrompida.\n- **Sem fala.** Você não consegue falar.\n- **Surpreso.** Se estiver Incapacitado ao rolar [[iniciativa|Iniciativa]], você tem Desvantagem na jogada."
+  },
+  {
+    "id": "inconsciente",
+    "nome": "Inconsciente",
+    "nome_en": "Unconscious",
+    "categoria": "condicao",
+    "tags": ["desmaiado", "0 pv", "dormindo", "caído"],
+    "resumo": "Incapacitado e Caído; falha em Força e Destreza; acertos a 1,5 m são críticos.",
+    "texto": "- **Inerte.** Você tem as condições [[incapacitado|Incapacitado]] e [[caido|Caído]] e larga o que estiver segurando. Quando esta condição termina, você continua Caído.\n- **Deslocamento 0.** Seu Deslocamento é 0 e não pode aumentar.\n- **Ataques afetados.** Jogadas de ataque contra você têm Vantagem.\n- **Testes de resistência afetados.** Você falha automaticamente em testes de resistência de Força e de Destreza.\n- **Críticos automáticos.** Qualquer jogada de ataque que acerte você é um [[acerto-critico|Acerto Crítico]] se o atacante estiver a até 1,5 metro (5 pés).\n- **Alheio.** Você não percebe o que acontece ao seu redor."
+  },
+  {
+    "id": "invisivel",
+    "nome": "Invisível",
+    "nome_en": "Invisible",
+    "categoria": "condicao",
+    "tags": ["invisibilidade", "escondido", "oculto"],
+    "resumo": "Vantagem para atacar e na Iniciativa; ataques contra você têm Desvantagem.",
+    "texto": "- **Surpresa.** Se estiver Invisível ao rolar [[iniciativa|Iniciativa]], você tem Vantagem na jogada.\n- **Oculto.** Você não é afetado por nenhum efeito que exija que o alvo seja visto, a menos que quem cria o efeito consiga ver você de alguma forma. O equipamento que você veste ou carrega também fica oculto.\n- **Ataques afetados.** Jogadas de ataque contra você têm Desvantagem, e suas jogadas de ataque têm Vantagem. Se uma criatura consegue ver você de alguma forma, você não recebe esse benefício contra ela."
+  },
+  {
+    "id": "paralisado",
+    "nome": "Paralisado",
+    "nome_en": "Paralyzed",
+    "categoria": "condicao",
+    "tags": ["paralisia", "imobilizado", "crítico"],
+    "resumo": "Incapacitado, Deslocamento 0; acertos a 1,5 m são críticos.",
+    "texto": "- **Incapacitado.** Você tem a condição [[incapacitado|Incapacitado]].\n- **Deslocamento 0.** Seu Deslocamento é 0 e não pode aumentar.\n- **Testes de resistência afetados.** Você falha automaticamente em testes de resistência de Força e de Destreza.\n- **Ataques afetados.** Jogadas de ataque contra você têm Vantagem.\n- **Críticos automáticos.** Qualquer jogada de ataque que acerte você é um [[acerto-critico|Acerto Crítico]] se o atacante estiver a até 1,5 metro (5 pés)."
+  },
+  {
+    "id": "petrificado",
+    "nome": "Petrificado",
+    "nome_en": "Petrified",
+    "categoria": "condicao",
+    "tags": ["pedra", "petrificação", "estátua"],
+    "resumo": "Vira pedra: Incapacitado, Resistência a todo dano, imune a Envenenado.",
+    "texto": "- **Transformado em matéria inanimada.** Você e todos os objetos não mágicos que veste ou carrega são transformados numa substância sólida e inanimada, geralmente pedra. Seu peso fica dez vezes maior e você deixa de envelhecer.\n- **Incapacitado.** Você tem a condição [[incapacitado|Incapacitado]].\n- **Deslocamento 0.** Seu Deslocamento é 0 e não pode aumentar.\n- **Ataques afetados.** Jogadas de ataque contra você têm Vantagem.\n- **Testes de resistência afetados.** Você falha automaticamente em testes de resistência de Força e de Destreza.\n- **Resistência a dano.** Você tem Resistência a todo tipo de dano.\n- **Imune a veneno.** Você tem Imunidade à condição [[envenenado|Envenenado]]."
+  },
+  {
+    "id": "surdo",
+    "nome": "Surdo",
+    "nome_en": "Deafened",
+    "categoria": "condicao",
+    "tags": ["surdez", "não ouve", "audição"],
+    "resumo": "Falha em testes que dependem de audição.",
+    "texto": "- **Não ouve.** Você não consegue ouvir e falha automaticamente em qualquer teste de atributo que dependa de audição."
+  }
+]

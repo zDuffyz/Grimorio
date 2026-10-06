@@ -1,0 +1,110 @@
+[
+  {
+    "id": "atacar",
+    "nome": "Atacar",
+    "nome_en": "Attack",
+    "categoria": "acao",
+    "tags": ["ataque", "arma", "corpo a corpo", "à distância"],
+    "resumo": "Faça um ataque com uma arma ou um Ataque Desarmado.",
+    "texto": "Faça um ataque com uma arma ou um [[ataque-desarmado|Ataque Desarmado]].\n\n- **Equipar e desequipar.** Você pode sacar ou guardar uma arma como parte de cada ataque feito com esta ação.\n- **Movimento entre ataques.** Se uma característica (como Ataque Extra) der mais de um ataque com esta ação, você pode se mover entre eles."
+  },
+  {
+    "id": "disparada",
+    "nome": "Disparada",
+    "nome_en": "Dash",
+    "categoria": "acao",
+    "tags": ["correr", "movimento extra", "deslocamento"],
+    "resumo": "Ganha movimento extra igual ao seu Deslocamento neste turno.",
+    "texto": "Até o fim do turno, você ganha movimento extra igual ao seu Deslocamento, já contando com qualquer modificador. Por exemplo, com Deslocamento 9 metros, você pode se mover até 18 metros no turno."
+  },
+  {
+    "id": "desengajar",
+    "nome": "Desengajar",
+    "nome_en": "Disengage",
+    "categoria": "acao",
+    "tags": ["recuar", "fugir", "ataque de oportunidade"],
+    "resumo": "Seu movimento não provoca Ataques de Oportunidade neste turno.",
+    "texto": "Seu movimento não provoca [[ataque-de-oportunidade|Ataques de Oportunidade]] até o fim do turno atual."
+  },
+  {
+    "id": "esquivar",
+    "nome": "Esquivar",
+    "nome_en": "Dodge",
+    "categoria": "acao",
+    "tags": ["defesa", "defender", "esquiva"],
+    "resumo": "Ataques contra você têm Desvantagem; Vantagem em resistências de Destreza.",
+    "texto": "Até o início do seu próximo turno, jogadas de ataque contra você têm Desvantagem se você conseguir ver o atacante, e você tem Vantagem em testes de resistência de Destreza.\n\nVocê perde esse benefício se ficar [[incapacitado|Incapacitado]] ou se seu Deslocamento for 0."
+  },
+  {
+    "id": "ajudar",
+    "nome": "Ajudar",
+    "nome_en": "Help",
+    "categoria": "acao",
+    "tags": ["auxiliar", "vantagem", "primeiros socorros", "estabilizar"],
+    "resumo": "Dá Vantagem a um aliado num teste de atributo ou numa jogada de ataque.",
+    "texto": "Escolha uma das opções:\n\n- **Ajudar num teste de atributo.** Escolha uma perícia ou ferramenta em que você tem proficiência e uma criatura que você pode ajudar. O próximo teste de atributo dessa criatura com essa perícia ou ferramenta tem Vantagem, se feito antes do início do seu próximo turno.\n- **Ajudar numa jogada de ataque.** Você distrai momentaneamente um inimigo a até 1,5 metro (5 pés). A próxima jogada de ataque de um aliado seu contra esse inimigo tem Vantagem, se feita antes do início do seu próximo turno.\n- **Primeiros socorros.** Você também usa esta ação para tentar estabilizar uma criatura com 0 Pontos de Vida. Veja [[zero-pontos-de-vida|Cair a 0 Pontos de Vida]]."
+  },
+  {
+    "id": "esconder",
+    "nome": "Esconder",
+    "nome_en": "Hide",
+    "categoria": "acao",
+    "tags": ["furtividade", "invisível", "esconderijo"],
+    "resumo": "Destreza (Furtividade) CD 15 fora da vista dos inimigos; sucesso = Invisível.",
+    "texto": "Faça um teste de Destreza (Furtividade) **CD 15**. Você precisa estar numa área de escuridão ou vegetação densa (muito obscurecida) ou atrás de [[cobertura|cobertura]] de três quartos ou total, e fora da linha de visão de qualquer inimigo.\n\n- **Sucesso.** Você fica [[invisivel|Invisível]]. Anote o total do teste: ele é a CD para uma criatura encontrar você com um teste de Sabedoria (Percepção).\n- **Quando termina.** A condição acaba logo depois que você faz um som mais alto que um sussurro, um inimigo encontra você, você faz uma jogada de ataque ou lança uma magia com componente Verbal."
+  },
+  {
+    "id": "influenciar",
+    "nome": "Influenciar",
+    "nome_en": "Influence",
+    "categoria": "acao",
+    "tags": ["persuasão", "enganação", "intimidação", "atuação", "adestrar animais", "social"],
+    "resumo": "Tenta convencer um monstro a fazer algo com um teste social.",
+    "texto": "Você tenta convencer um monstro a fazer alguma coisa. Descreva ou interprete como você se comunica. O Mestre define se o monstro está disposto, indisposto ou hesitante.\n\n- **Disposto.** Se o pedido combina com o que o monstro quer, não é preciso teste: ele atende.\n- **Indisposto.** Se o pedido vai contra a natureza ou o alinhamento do monstro, nenhum teste funciona: ele recusa.\n- **Hesitante.** Faça um teste de Carisma (Atuação, Enganação, Intimidação ou Persuasão) ou de Sabedoria (Adestrar Animais), conforme a abordagem. A CD padrão é 15 ou o valor de Inteligência do monstro, o que for maior. Com sucesso, ele atende. Com falha, você precisa esperar 24 horas (ou o tempo que o Mestre definir) para insistir da mesma forma."
+  },
+  {
+    "id": "acao-magia",
+    "nome": "Magia",
+    "nome_en": "Magic",
+    "categoria": "acao",
+    "tags": ["lançar magia", "item mágico", "conjurar"],
+    "resumo": "Lança uma magia, usa um item mágico ou uma característica mágica.",
+    "texto": "Você lança uma magia que tem tempo de conjuração de uma ação, usa um item mágico ou usa uma característica mágica que exige esta ação.\n\nSe a magia tiver tempo de conjuração de 1 minuto ou mais, você usa a ação Magia em cada turno da conjuração e precisa manter [[concentracao|Concentração]] enquanto conjura."
+  },
+  {
+    "id": "preparar",
+    "nome": "Preparar",
+    "nome_en": "Ready",
+    "categoria": "acao",
+    "tags": ["esperar", "gatilho", "reação", "aguardar"],
+    "resumo": "Define um gatilho e responde com sua Reação quando ele acontecer.",
+    "texto": "Você se prepara para agir mais tarde na rodada, usando sua **Reação**. Defina qual circunstância perceptível dispara a reação e escolha a resposta: uma ação ou mover-se até o seu Deslocamento.\n\nQuando o gatilho acontecer, você pode reagir logo depois dele ou ignorá-lo.\n\n### Preparando uma magia\nA magia precisa ter tempo de conjuração de uma ação. Você a lança normalmente, mas guarda a energia para liberá-la com a Reação. Segurar a magia exige [[concentracao|Concentração]], que você mantém no máximo até o início do seu próximo turno; se ela for interrompida, a magia se dissipa sem efeito."
+  },
+  {
+    "id": "procurar",
+    "nome": "Procurar",
+    "nome_en": "Search",
+    "categoria": "acao",
+    "tags": ["percepção", "intuição", "medicina", "sobrevivência", "encontrar"],
+    "resumo": "Teste de Sabedoria para perceber algo que não é óbvio.",
+    "texto": "Faça um teste de Sabedoria para perceber algo que não é óbvio.\n\n| Perícia | Para detectar |\n|---|---|\n| Intuição | O estado mental de uma criatura |\n| Medicina | A doença de uma criatura ou a causa da morte |\n| Percepção | Uma criatura ou objeto escondido |\n| Sobrevivência | Rastros ou comida |"
+  },
+  {
+    "id": "estudar",
+    "nome": "Estudar",
+    "nome_en": "Study",
+    "categoria": "acao",
+    "tags": ["arcanismo", "história", "investigação", "natureza", "religião", "conhecimento"],
+    "resumo": "Teste de Inteligência para lembrar ou examinar algo.",
+    "texto": "Faça um teste de Inteligência para estudar sua memória, um livro, uma pista ou outra fonte de conhecimento.\n\n| Perícia | Áreas de conhecimento |\n|---|---|\n| Arcanismo | Magias, itens mágicos, símbolos místicos, planos de existência e certas criaturas (Aberrações, Constructos, Elementais, Fadas e Monstruosidades) |\n| História | Eventos e pessoas históricas, civilizações antigas, guerras e certas criaturas (Gigantes e Humanoides) |\n| Investigação | Armadilhas, cifras, enigmas e engenhocas |\n| Natureza | Terreno, flora, clima e certas criaturas (Bestas, Dragões, Gosmas e Plantas) |\n| Religião | Divindades, hierarquias religiosas, rituais e certas criaturas (Celestiais, Corruptores e Mortos-Vivos) |"
+  },
+  {
+    "id": "usar",
+    "nome": "Usar",
+    "nome_en": "Utilize",
+    "categoria": "acao",
+    "tags": ["objeto", "item", "poção", "alavanca", "interagir"],
+    "resumo": "Usa um objeto não mágico que exige uma ação.",
+    "texto": "Você normalmente interage com um objeto enquanto faz outra coisa, como sacar uma espada ao atacar. Quando um objeto exige uma ação para ser usado, você faz a ação Usar.\n\nPara itens mágicos, use a ação [[acao-magia|Magia]], a menos que a descrição do item diga outra coisa."
+  }
+]
