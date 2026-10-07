@@ -2,7 +2,7 @@
    - O app (HTML, JS, ícones) fica guardado para abrir offline.
    - O conteúdo (arquivos .json) sempre tenta a internet primeiro; sem internet, usa a última cópia.
    Ao mudar index.html ou app.js, aumente VERSAO_APP para os celulares baixarem o app novo. */
-var VERSAO_APP = "1.9.0";
+var VERSAO_APP = "1.9.1";
 var CACHE_APP = "grimorio-app-" + VERSAO_APP;
 var CACHE_DADOS = "grimorio-dados";
 var CACHE_FONTES = "grimorio-fontes";
@@ -18,7 +18,10 @@ var ARQUIVOS_APP = [
 ];
 
 self.addEventListener("install", function (ev) {
-  ev.waitUntil(caches.open(CACHE_APP).then(function (c) { return c.addAll(ARQUIVOS_APP); }));
+  ev.waitUntil(caches.open(CACHE_APP).then(function (c) {
+    // cache: "reload" ignora o cache HTTP do navegador, para nunca guardar um app.js antigo
+    return c.addAll(ARQUIVOS_APP.map(function (u) { return new Request(u, { cache: "reload" }); }));
+  }));
 });
 
 self.addEventListener("activate", function (ev) {

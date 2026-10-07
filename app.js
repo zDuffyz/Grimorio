@@ -635,8 +635,14 @@
   var registro = null;
   if ("serviceWorker" in navigator) {
     try {
-      navigator.serviceWorker.register("sw.js").then(function (reg) {
+      navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then(function (reg) {
         registro = reg;
+        // Versão nova já baixada e esperando (ex.: o aviso foi fechado antes): oferecer de novo
+        if (reg.waiting && navigator.serviceWorker.controller) {
+          avisar("Nova versão do app disponível.", "Atualizar", function () { reg.waiting.postMessage("pular-espera"); });
+        }
+        // Procurar versão nova sempre que o app voltar para a tela
+        document.addEventListener("visibilitychange", function () { if (!document.hidden) reg.update(); });
         reg.addEventListener("updatefound", function () {
           var novo = reg.installing;
           if (!novo) return;
