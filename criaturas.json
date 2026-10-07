@@ -1,0 +1,885 @@
+[
+ {
+  "id": "criaturas-como-ler",
+  "nome": "Como Ler um Bloco de Estatísticas",
+  "nome_en": "Stat Block",
+  "categoria": "regra",
+  "capitulo": "apendices",
+  "tags": [
+   "bloco de estatísticas",
+   "stat block",
+   "criatura",
+   "monstro",
+   "ficha de criatura"
+  ],
+  "resumo": "Guia das partes de um bloco de estatísticas de criatura: CA, PV, atributos, ND, traços e ações.",
+  "texto": "Um bloco de estatísticas reúne os dados de jogo de uma criatura. O Apêndice B traz, em ordem alfabética, os blocos das criaturas citadas nas classes, no equipamento e nas magias (familiares, montarias, formas da [[forma-selvagem|Forma Selvagem]] etc.). O *Livro dos Monstros* tem muitas outras.\n\nO Mestre pode alterar qualquer detalhe de um bloco quando usá-lo.\n\n### Cabeçalho\n\n- **Tamanho:** Minúsculo, Pequeno, Médio, Grande, Enorme ou Imenso.\n- **Tipo de criatura:** a família a que ela pertence (Fera, Ínfero, Morto-Vivo...), às vezes com um marcador entre parênteses, como “(Diabo)”.\n- **Alinhamento:** é só uma sugestão; o Mestre decide o alinhamento real.\n\n### Defesa e movimento\n\n- **CA:** Classe de Armadura.\n- **Iniciativa:** o modificador vem primeiro; o número entre parênteses é o valor de Iniciativa da criatura.\n- **PV:** os Pontos de Vida médios. Entre parênteses vêm os Dados de Vida e a parte que vem da Constituição, se houver. Ex.: “22 (3d10 + 6)”.\n- **Deslocamento:** o Deslocamento normal e os especiais (Escalada, Escavação, Natação, Voo).\n\nAlgumas criaturas criadas por magia não têm Dados de Vida nem Iniciativa.\n\n### Atributos\n\nUma tabela traz cada atributo com três números: o **valor**, o **modificador** (coluna MOD) e o **modificador de salvaguarda** (coluna SG). Quando a criatura é proficiente numa salvaguarda, o número de SG é maior que o MOD. Ex.: “For 17, +3, +5”.\n\n| Coluna | Significa |\n|---|---|\n| Valor | o valor de atributo |\n| MOD | modificador para testes |\n| SG | modificador da salvaguarda |\n\n### Linhas de detalhes\n\n- **Perícias:** as perícias em que a criatura tem proficiência, já com o bônus total.\n- **Resistências e Vulnerabilidades:** tipos de dano que ela sofre pela metade ou em dobro.\n- **Imunidades:** tipos de dano e condições que não a afetam (danos primeiro, condições depois do ponto e vírgula).\n- **Equipamento:** itens que podem ser entregues ou recuperados dela.\n- **Sentidos:** sentidos especiais, como Visão no Escuro, e a Percepção Passiva.\n- **Idiomas:** os idiomas que ela conhece. “—” significa nenhum.\n- **ND:** o Nível de Desafio, que resume o quanto a criatura é perigosa. Entre parênteses vêm os Pontos de Experiência dados por derrotá-la e o [[bonus-de-proficiencia|Bônus de Proficiência]] dela. Algumas criaturas criadas por magia não têm ND.\n\n### Traços, Ações, Ações Bônus e Reações\n\n- **Traços:** características sempre ativas ou que valem em certas situações.\n- **Ações:** o que a criatura pode fazer com sua ação, além das ações comuns que todos têm (como [[atacar|Atacar]] ou [[esconder|Esconder]]).\n- **Ações Bônus** e **Reações:** aparecem só se a criatura tiver opções especiais desse tipo.\n\nMarcas como “(1/Dia)” ou “(2/Dia)” limitam quantas vezes por dia a habilidade pode ser usada. “(Recarga 5–6)” indica uma habilidade de uso recarregável, detalhada no *Livro dos Monstros*.\n\n### Ataques e efeitos\n\n**Ataque:** começa dizendo se é corpo a corpo ou à distância, depois o bônus da jogada de ataque, o alcance ou distância e o que acontece no acerto. Cada ataque tem um único alvo, salvo indicação em contrário.\n\n**Efeito com salvaguarda:** diz qual salvaguarda é feita, a CD, quem precisa fazê-la e o que acontece na falha ou no sucesso.\n\n**Dano:** aparece como um número fixo seguido de uma expressão de dados, como “4 (1d4 + 2)”. O Mestre escolhe usar o número fixo **ou** rolar os dados, nunca os dois.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-alce",
+  "nome": "Alce",
+  "nome_en": "Elk",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "elk",
+   "alce",
+   "fera",
+   "montaria",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Grande, ND 1/4. Investe de cabeça e derruba quem recebe a carga depois de 6 m de corrida.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 11 (2d10) |\n| Deslocamento | 15 m |\n| Atributos | For 16 (+3), Des 10 (+0), Con 11 (+0), Int 2 (–4), Sab 10 (+0), Car 6 (–2) |\n| Perícias | Percepção +2 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Cabeçada Aríete.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 6 (1d6 + 3) de dano Contundente. Se o alce tiver avançado pelo menos 6 metros em linha reta até o alvo logo antes do ataque, o alvo sofre mais 3 (1d6) de dano Contundente e, se for Enorme ou menor, recebe a condição [[caido|Caído]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-aranha",
+  "nome": "Aranha",
+  "nome_en": "Spider",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "spider",
+   "aranha",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Anda em teias, escala tetos e tem mordida venenosa. Opção de familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 6 m, Escalada 6 m |\n| Atributos | For 2 (–4), Des 14 (+2), Con 8 (–1), Int 1 (–5), Sab 10 (+0), Car 2 (–4) |\n| Perícias | Furtividade +4 |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Andar na Teia.** A aranha não sofre restrições de movimento por causa de teias e sabe onde está qualquer outra criatura que esteja tocando a mesma teia.\n\n**Escalada de Aranha.** A aranha escala superfícies difíceis, até de cabeça para baixo no teto, sem precisar de teste de atributo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante mais 2 (1d4) de dano Venenoso.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-aranha-gigante",
+  "nome": "Aranha Gigante",
+  "nome_en": "Giant Spider",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "giant spider",
+   "aranha",
+   "teia",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1. Mordida com veneno forte e teia que deixa o alvo Contido (CD 13 Des).",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +3 (13) |\n| PV | 26 (4d10 + 4) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 14 (+2), Des 16 (+3), Con 12 (+1), Int 2 (–4), Sab 11 (+0), Car 4 (–3) |\n| Perícias | Furtividade +7, Percepção +4 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 14 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Andar na Teia.** A aranha não sofre restrições de movimento por causa de teias e sabe onde está qualquer outra criatura que esteja tocando a mesma teia.\n\n**Escalada de Aranha.** A aranha escala superfícies difíceis, até de cabeça para baixo no teto, sem precisar de teste de atributo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 7 (1d8 + 3) de dano Perfurante mais 7 (2d6) de dano Venenoso.\n\n**Teia (Recarga 5–6).** *Salvaguarda de Destreza:* CD 13, uma criatura que a aranha consiga ver a até 18 metros. *Falha:* o alvo fica com a condição [[impedido|Contido]] até a teia ser destruída. A teia tem CA 10, 5 PV, Vulnerabilidade a dano Ígneo e Imunidade a dano Psíquico e Venenoso.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cabra",
+  "nome": "Cabra",
+  "nome_en": "Goat",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "goat",
+   "cabra",
+   "fera",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Média, ND 0. Escala bem e dá cabeçada mais forte depois de correr 6 m em linha reta.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 4 (1d8) |\n| Deslocamento | 12 m, Escalada 9 m |\n| Atributos | For 11 (+0), Des 10 (+0), Con 11 (+0), Int 2 (–4), Sab 10 (+0), Car 5 (–3) |\n| Salvaguardas | For +2 |\n| Perícias | Percepção +2 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Cabeçada Aríete.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Contundente. Se a cabra tiver avançado pelo menos 6 metros em linha reta até o alvo logo antes do ataque, o dano passa a ser 2 (1d4) Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cabra-gigante",
+  "nome": "Cabra Gigante",
+  "nome_en": "Giant Goat",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "giant goat",
+   "cabra",
+   "montaria",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1/2. Cabeçada em carga que causa dano extra e derruba o alvo.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 19 (3d10 + 3) |\n| Deslocamento | 12 m, Escalada 9 m |\n| Atributos | For 17 (+3), Des 13 (+1), Con 12 (+1), Int 3 (–4), Sab 12 (+1), Car 6 (–2) |\n| Salvaguardas | For +5 |\n| Perícias | Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Ações\n\n**Cabeçada Aríete.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 6 (1d6 + 3) de dano Contundente. Se a cabra tiver avançado pelo menos 6 metros em linha reta até o alvo logo antes do ataque, o alvo sofre mais 5 (2d4) de dano Contundente e, se for Enorme ou menor, recebe a condição [[caido|Caído]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-camelo",
+  "nome": "Camelo",
+  "nome_en": "Camel",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "camel",
+   "camelo",
+   "montaria",
+   "fera",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Grande, ND 1/8. Montaria resistente (salvaguarda de Con +5) com mordida simples.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | –1 (9) |\n| PV | 17 (2d10 + 6) |\n| Deslocamento | 15 m |\n| Atributos | For 15 (+2), Des 8 (–1), Con 17 (+3), Int 2 (–4), Sab 11 (+0), Car 5 (–3) |\n| Salvaguardas | Con +5 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-caranguejo",
+  "nome": "Caranguejo",
+  "nome_en": "Crab",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "crab",
+   "caranguejo",
+   "familiar",
+   "anfíbio",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Anfíbio com Visão às Cegas 9 m. Opção de familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +0 (10) |\n| PV | 3 (1d4 + 1) |\n| Deslocamento | 6 m, Natação 6 m |\n| Atributos | For 6 (–2), Des 11 (+0), Con 12 (+1), Int 1 (–5), Sab 8 (–1), Car 2 (–4) |\n| Perícias | Furtividade +2 |\n| Sentidos | Visão às Cegas 9 m, Percepção Passiva 9 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Anfíbio.** O caranguejo respira tanto ar quanto água.\n\n### Ações\n\n**Garra.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-caranguejo-gigante",
+  "nome": "Caranguejo Gigante",
+  "nome_en": "Giant Crab",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "giant crab",
+   "caranguejo",
+   "anfíbio",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/8. CA 15, anfíbio; cada uma das duas garras pode imobilizar um alvo.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 15 |\n| Iniciativa | +1 (11) |\n| PV | 13 (3d8) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 13 (+1), Des 13 (+1), Con 11 (+0), Int 1 (–5), Sab 9 (–1), Car 3 (–4) |\n| Perícias | Furtividade +3 |\n| Sentidos | Visão às Cegas 9 m, Percepção Passiva 9 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Traços\n\n**Anfíbio.** O caranguejo respira tanto ar quanto água.\n\n### Ações\n\n**Garra.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 4 (1d6 + 1) de dano Contundente. Se o alvo for Médio ou menor, ele recebe a condição [[agarrado|Imobilizado]] (CD 11 para escapar). O caranguejo tem duas garras e cada uma pode manter um alvo Imobilizado.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cavalo-de-carga",
+  "nome": "Cavalo de Carga",
+  "nome_en": "Draft Horse",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "draft horse",
+   "cavalo",
+   "montaria",
+   "carga",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1/4. Cavalo forte (For 18) para puxar carroças e carregar peso.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 15 (2d10 + 4) |\n| Deslocamento | 12 m |\n| Atributos | For 18 (+4), Des 10 (+0), Con 15 (+2), Int 2 (–4), Sab 11 (+0), Car 7 (–2) |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Cascos.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 6 (1d4 + 4) de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cavalo-de-montaria",
+  "nome": "Cavalo de Montaria",
+  "nome_en": "Riding Horse",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "riding horse",
+   "cavalo",
+   "montaria",
+   "fera",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Grande, ND 1/4. Cavalo rápido (Deslocamento 18 m) para viagens.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 13 (2d10 + 2) |\n| Deslocamento | 18 m |\n| Atributos | For 16 (+3), Des 13 (+1), Con 12 (+1), Int 2 (–4), Sab 11 (+0), Car 7 (–2) |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Cascos.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 7 (1d8 + 3) de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cavalo-de-guerra",
+  "nome": "Cavalo de Guerra",
+  "nome_en": "Warhorse",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "warhorse",
+   "cavalo",
+   "montaria",
+   "fera",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Grande, ND 1/2. Cavalo treinado para combate; carga derruba o alvo.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 19 (3d10 + 3) |\n| Deslocamento | 18 m |\n| Atributos | For 18 (+4), Des 12 (+1), Con 13 (+1), Int 2 (–4), Sab 12 (+1), Car 7 (–2) |\n| Sentidos | Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Ações\n\n**Cascos.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 9 (2d4 + 4) de dano Contundente. Se o cavalo tiver avançado pelo menos 6 metros em linha reta até o alvo logo antes do ataque, o alvo sofre mais 5 (2d4) de dano Contundente e, se for Enorme ou menor, recebe a condição [[caido|Caído]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cavalo-marinho-gigante",
+  "nome": "Cavalo-Marinho Gigante",
+  "nome_en": "Giant Seahorse",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "giant seahorse",
+   "cavalo-marinho",
+   "montaria",
+   "aquático",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Grande aquática, ND 1/2. Montaria subaquática com cabeçada em carga.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +1 (11) |\n| PV | 16 (3d10) |\n| Deslocamento | 1,5 m, Natação 12 m |\n| Atributos | For 15 (+2), Des 12 (+1), Con 11 (+0), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Sentidos | Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Traços\n\n**Respirar na Água.** O cavalo-marinho só consegue respirar embaixo d’água.\n\n### Ações\n\n**Cabeçada Aríete.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 9 (2d6 + 2) de dano Contundente, ou 11 (2d8 + 2) de dano Contundente se o cavalo-marinho tiver avançado pelo menos 6 metros em linha reta até o alvo logo antes do ataque.\n\n### Ações Bônus\n\n**Propulsão.** Se estiver embaixo d’água, o cavalo-marinho se move até metade do seu Deslocamento de Natação sem provocar [[ataque-de-oportunidade|Ataques de Oportunidade]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cobra-constritora",
+  "nome": "Cobra Constritora",
+  "nome_en": "Constrictor Snake",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "constrictor snake",
+   "cobra",
+   "serpente",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1/4. Esmaga e imobiliza criaturas Médias ou menores (CD 12 For).",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +2 (12) |\n| PV | 13 (2d10 + 2) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 15 (+2), Des 14 (+2), Con 12 (+1), Int 1 (–5), Sab 10 (+0), Car 3 (–4) |\n| Perícias | Furtividade +4, Percepção +2 |\n| Sentidos | Visão às Cegas 3 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Constrição.** *Salvaguarda de Força:* CD 12, uma criatura Média ou menor que a cobra consiga ver a até 1,5 metro. *Falha:* 7 (3d4) de dano Contundente, e o alvo recebe a condição [[agarrado|Imobilizado]] (CD 12 para escapar).\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 6 (1d8 + 2) de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-cobra-peconhenta",
+  "nome": "Cobra Peçonhenta",
+  "nome_en": "Venomous Snake",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "venomous snake",
+   "cobra",
+   "serpente",
+   "familiar",
+   "pacto da corrente",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Minúscula, ND 1/8. Mordida com veneno. Familiar do Pacto da Corrente.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 5 (2d4) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 2 (–4), Des 15 (+2), Con 11 (+0), Int 1 (–5), Sab 10 (+0), Car 3 (–4) |\n| Sentidos | Visão às Cegas 3 m, Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Perfurante mais 3 (1d6) de dano Venenoso.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-coruja",
+  "nome": "Coruja",
+  "nome_en": "Owl",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "owl",
+   "coruja",
+   "familiar",
+   "ave",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Voa 18 m, enxerga no escuro a 36 m e foge sem Ataque de Oportunidade.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 1,5 m, Voo 18 m |\n| Atributos | For 3 (–4), Des 13 (+1), Con 8 (–1), Int 2 (–4), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Furtividade +5, Percepção +5 |\n| Sentidos | Visão no Escuro 36 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Sobrevoo.** A coruja não provoca [[ataque-de-oportunidade|Ataques de Oportunidade]] quando voa para fora do alcance de um inimigo.\n\n### Ações\n\n**Garras.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Cortante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-crocodilo",
+  "nome": "Crocodilo",
+  "nome_en": "Crocodile",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "crocodile",
+   "crocodilo",
+   "jacaré",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1/2. Mordida que imobiliza e prende (Contido); segura o fôlego por 1 hora.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +0 (10) |\n| PV | 13 (2d10 + 2) |\n| Deslocamento | 6 m, Natação 9 m |\n| Atributos | For 15 (+2), Des 10 (+0), Con 13 (+1), Int 2 (–4), Sab 10 (+0), Car 5 (–3) |\n| Perícias | Furtividade +2 |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Traços\n\n**Prender a Respiração.** O crocodilo consegue prender a respiração por 1 hora.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 6 (1d8 + 2) de dano Perfurante. Se o alvo for Médio ou menor, ele recebe a condição [[agarrado|Imobilizado]] (CD 12 para escapar). Enquanto estiver Imobilizado assim, o alvo também tem a condição [[impedido|Contido]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-corvo",
+  "nome": "Corvo",
+  "nome_en": "Raven",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "raven",
+   "corvo",
+   "familiar",
+   "ave",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Voa 15 m e imita sons simples (Intuição CD 10 para notar). Familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 2 (1d4) |\n| Deslocamento | 3 m, Voo 15 m |\n| Atributos | For 2 (–4), Des 14 (+2), Con 10 (+0), Int 5 (–3), Sab 13 (+1), Car 6 (–2) |\n| Perícias | Percepção +3 |\n| Sentidos | Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Mímica.** O corvo imita sons simples que já ouviu, como um sussurro ou um piado. Quem ouve percebe que é imitação se passar num teste de Sabedoria (Intuição) CD 10.\n\n### Ações\n\n**Bico.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-diabrete",
+  "nome": "Diabrete",
+  "nome_en": "Imp",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "imp",
+   "diabrete",
+   "diabo",
+   "familiar",
+   "pacto da corrente"
+  ],
+  "resumo": "Ínfero Minúsculo, ND 1. Diabo que muda de forma, fica invisível e tem ferrão venenoso.",
+  "texto": "*Ínfero Minúsculo (Diabo), Ordeiro e Mau*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 21 (6d4 + 6) |\n| Deslocamento | 6 m, Voo 12 m |\n| Atributos | For 6 (–2), Des 17 (+3), Con 13 (+1), Int 11 (+0), Sab 12 (+1), Car 14 (+2) |\n| Perícias | Enganação +4, Furtividade +5, Intuição +3 |\n| Resistências | Gélido |\n| Imunidades | Ígneo, Venenoso; Envenenado |\n| Sentidos | Visão no Escuro 36 m, Percepção Passiva 11 |\n| Idiomas | Comum, Infernal |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Resistência à Magia.** O diabrete tem [[vantagem|Vantagem]] em salvaguardas contra magias e outros efeitos mágicos.\n\n**Visão Diabólica.** Escuridão mágica não atrapalha a Visão no Escuro do diabrete.\n\n### Ações\n\n**Alterar Forma.** O diabrete se transforma (multimorfa) em algo parecido com uma aranha (Deslocamento 6 m, Escalada 6 m), um corvo (6 m, Voo 18 m) ou um rato (6 m), ou volta à forma verdadeira. As estatísticas são as mesmas em qualquer forma, menos o Deslocamento. O equipamento que ele usa ou carrega não se transforma. Se morrer, volta à forma verdadeira.\n\n**Invisibilidade.** O diabrete conjura *[[invisibilidade|Invisibilidade]]* em si mesmo, sem precisar de componentes, usando Carisma como atributo de conjuração.\n\n**Ferroada.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 6 (1d6 + 3) de dano Perfurante mais 7 (2d6) de dano Venenoso.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-doninha",
+  "nome": "Doninha",
+  "nome_en": "Weasel",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "weasel",
+   "doninha",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Ágil e furtiva, escala 9 m. Opção de familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 3 (–4), Des 16 (+3), Con 8 (–1), Int 2 (–4), Sab 12 (+1), Car 3 (–4) |\n| Perícias | Acrobacia +5, Furtividade +5, Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-doninha-gigante",
+  "nome": "Doninha Gigante",
+  "nome_en": "Giant Weasel",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "giant weasel",
+   "doninha",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/8. Rápida (12 m), escala e morde com precisão.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 9 (2d8) |\n| Deslocamento | 12 m, Escalada 9 m |\n| Atributos | For 11 (+0), Des 17 (+3), Con 10 (+0), Int 4 (–3), Sab 12 (+1), Car 5 (–3) |\n| Perícias | Acrobacia +5, Furtividade +5, Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-elefante",
+  "nome": "Elefante",
+  "nome_en": "Elephant",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "elephant",
+   "elefante",
+   "montaria",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Enorme, ND 4. Duas investidas por turno e pisão como Ação Bônus em alvos caídos.",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | –1 (9) |\n| PV | 76 (8d12 + 24) |\n| Deslocamento | 12 m |\n| Atributos | For 22 (+6), Des 9 (–1), Con 17 (+3), Int 3 (–4), Sab 11 (+0), Car 6 (–2) |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 4 (XP 1.100; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O elefante faz dois ataques de Investida.\n\n**Investida.** *Jogada de Ataque Corpo a Corpo:* +8 para acertar, alcance 1,5 m. *Acerto:* 15 (2d8 + 6) de dano Perfurante. Se o elefante tiver avançado pelo menos 6 metros em linha reta até o alvo logo antes do ataque, o alvo também recebe a condição [[caido|Caído]].\n\n### Ações Bônus\n\n**Pisão.** *Salvaguarda de Destreza:* CD 16, uma criatura a até 1,5 metro que esteja com a condição Caído. *Falha:* 17 (2d10 + 6) de dano Contundente. *Sucesso:* metade do dano.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-escorpiao",
+  "nome": "Escorpião",
+  "nome_en": "Scorpion",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "scorpion",
+   "escorpião",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Lenta, com ferrão venenoso. Pode servir de familiar (Fera de ND 0).",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +0 (10) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 3 m |\n| Atributos | For 2 (–4), Des 11 (+0), Con 8 (–1), Int 1 (–5), Sab 8 (–1), Car 2 (–4) |\n| Sentidos | Visão às Cegas 3 m, Percepção Passiva 9 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Ferroada.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante mais 3 (1d6) de dano Venenoso.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-esfinge-maravilhosa",
+  "nome": "Esfinge Maravilhosa",
+  "nome_en": "Sphinx of Wonder",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "sphinx of wonder",
+   "esfinge",
+   "celestial",
+   "familiar",
+   "pacto da corrente"
+  ],
+  "resumo": "Celestial Minúsculo, ND 1. Garras radiantes e Reação que soma +2 a testes e salvaguardas.",
+  "texto": "*Celestial Minúsculo, Ordeiro e Bom*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 24 (7d4 + 7) |\n| Deslocamento | 6 m, Voo 12 m |\n| Atributos | For 6 (–2), Des 17 (+3), Con 13 (+1), Int 15 (+2), Sab 12 (+1), Car 11 (+0) |\n| Perícias | Arcanismo +4, Furtividade +5, Religião +4 |\n| Resistências | Necrótico, Psíquico, Radiante |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 11 |\n| Idiomas | Celestial, Comum |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Resistência à Magia.** A esfinge tem [[vantagem|Vantagem]] em salvaguardas contra magias e outros efeitos mágicos.\n\n### Ações\n\n**Dilacerar.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Cortante mais 7 (2d6) de dano Radiante.\n\n### Reações\n\n**Ampliar Engenhosidade (2/Dia).** *Gatilho:* a esfinge ou outra criatura a até 9 metros faz um teste de atributo ou uma salvaguarda. *Resposta:* a esfinge soma 2 ao resultado.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-esqueleto",
+  "nome": "Esqueleto",
+  "nome_en": "Skeleton",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "skeleton",
+   "esqueleto",
+   "morto-vivo",
+   "animar mortos",
+   "familiar",
+   "pacto da corrente"
+  ],
+  "resumo": "Morto-Vivo Médio, ND 1/4. Arqueiro com espada curta; vulnerável a dano Contundente.",
+  "texto": "*Morto-Vivo Médio, Ordeiro e Mau*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 13 (2d8 + 4) |\n| Deslocamento | 9 m |\n| Atributos | For 10 (+0), Des 16 (+3), Con 15 (+2), Int 6 (–2), Sab 8 (–1), Car 5 (–3) |\n| Vulnerabilidades | Contundente |\n| Imunidades | Venenoso; Envenenado, Exaustão |\n| Equipamento | Arco Curto, Espada Curta |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 9 |\n| Idiomas | Entende os idiomas que conhecia em vida, mas não fala |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Arco Curto.** *Jogada de Ataque à Distância:* +5 para acertar, distância 24/96 m. *Acerto:* 6 (1d6 + 3) de dano Perfurante.\n\n**Espada Curta.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 6 (1d6 + 3) de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-gato",
+  "nome": "Gato",
+  "nome_en": "Cat",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "cat",
+   "gato",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Escala 12 m e salta usando Destreza. Opção de familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 2 (1d4) |\n| Deslocamento | 12 m, Escalada 12 m |\n| Atributos | For 3 (–4), Des 15 (+2), Con 10 (+0), Int 3 (–4), Sab 12 (+1), Car 7 (–2) |\n| Salvaguardas | Des +4 |\n| Perícias | Furtividade +4, Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Saltador.** O gato calcula a distância dos seus saltos usando Destreza em vez de Força.\n\n### Ações\n\n**Arranhar.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Cortante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-gaviao",
+  "nome": "Gavião",
+  "nome_en": "Hawk",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "hawk",
+   "gavião",
+   "falcão",
+   "familiar",
+   "ave",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Voa 18 m e tem Percepção Passiva 16. Ótimo batedor e familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 3 m, Voo 18 m |\n| Atributos | For 5 (–3), Des 16 (+3), Con 8 (–1), Int 2 (–4), Sab 14 (+2), Car 6 (–2) |\n| Perícias | Percepção +6 |\n| Sentidos | Percepção Passiva 16 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Garras.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Cortante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-gorila",
+  "nome": "Gorila",
+  "nome_en": "Ape",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "ape",
+   "gorila",
+   "macaco",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/2. Dois socos por turno e arremesso de pedra (Recarga 6).",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 19 (3d8 + 6) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 16 (+3), Des 14 (+2), Con 14 (+2), Int 6 (–2), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Atletismo +5, Percepção +3 |\n| Sentidos | Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O gorila faz dois ataques de Punho.\n\n**Punho.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Contundente.\n\n**Rocha (Recarga 6).** *Jogada de Ataque à Distância:* +5 para acertar, distância 7,5/15 m. *Acerto:* 10 (2d6 + 3) de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-javali",
+  "nome": "Javali",
+  "nome_en": "Boar",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "boar",
+   "javali",
+   "porco",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/4. Investida que derruba; fica mais perigoso quando Sangrando.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +0 (10) |\n| PV | 13 (2d8 + 4) |\n| Deslocamento | 12 m |\n| Atributos | For 13 (+1), Des 11 (+0), Con 14 (+2), Int 2 (–4), Sab 9 (–1), Car 5 (–3) |\n| Sentidos | Percepção Passiva 9 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Fúria Sangrenta.** Enquanto estiver Sangrando (com metade dos PV ou menos), o javali tem [[vantagem|Vantagem]] nas jogadas de ataque.\n\n### Ações\n\n**Investida.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 4 (1d6 + 1) de dano Perfurante. Se o javali tiver avançado pelo menos 6 metros em linha reta até o alvo logo antes do ataque, o alvo sofre mais 3 (1d6) de dano Perfurante e, se for Grande ou menor, recebe a condição [[caido|Caído]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-lagarto",
+  "nome": "Lagarto",
+  "nome_en": "Lizard",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "lizard",
+   "lagarto",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Anda pelas paredes e pelo teto. Opção de familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 2 (1d4) |\n| Deslocamento | 6 m, Escalada 6 m |\n| Atributos | For 2 (–4), Des 11 (+0), Con 10 (+0), Int 1 (–5), Sab 8 (–1), Car 3 (–4) |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 9 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Escalada de Aranha.** O lagarto escala superfícies difíceis, até de cabeça para baixo no teto, sem precisar de teste de atributo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-leao",
+  "nome": "Leão",
+  "nome_en": "Lion",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "lion",
+   "leão",
+   "felino",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1. Táticas de Grupo, dois ataques e rugido que amedronta (CD 11 Sab).",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 22 (4d10) |\n| Deslocamento | 15 m |\n| Atributos | For 17 (+3), Des 15 (+2), Con 11 (+0), Int 3 (–4), Sab 12 (+1), Car 8 (–1) |\n| Perícias | Furtividade +4, Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Salto com Impulso.** Se tiver se deslocado pelo menos 3 metros, o leão pode dar um Salto em Distância de até 7,5 metros.\n\n**Táticas de Grupo.** O leão tem [[vantagem|Vantagem]] numa jogada de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 metro dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Ataques Múltiplos.** O leão faz dois ataques de Dilacerar. Ele pode trocar um desses ataques por um uso de Rugido.\n\n**Dilacerar.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 7 (1d8 + 3) de dano Cortante.\n\n**Rugido.** *Salvaguarda de Sabedoria:* CD 11, uma criatura a até 4,5 metros. *Falha:* o alvo fica com a condição [[amedrontado|Amedrontado]] até o início do próximo turno do leão.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-lobo",
+  "nome": "Lobo",
+  "nome_en": "Wolf",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "wolf",
+   "lobo",
+   "forma selvagem",
+   "fera",
+   "matilha"
+  ],
+  "resumo": "Fera Média, ND 1/4. Caça em bando (Táticas de Grupo) e derruba com a mordida.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 11 (2d8 + 2) |\n| Deslocamento | 12 m |\n| Atributos | For 14 (+2), Des 15 (+2), Con 12 (+1), Int 3 (–4), Sab 12 (+1), Car 6 (–2) |\n| Perícias | Furtividade +4, Percepção +5 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** O lobo tem [[vantagem|Vantagem]] em jogadas de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 metro dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (1d6 + 2) de dano Perfurante, e o alvo recebe a condição [[caido|Caído]] se for Médio ou menor.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-lobo-atroz",
+  "nome": "Lobo Atroz",
+  "nome_en": "Dire Wolf",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "dire wolf",
+   "lobo atroz",
+   "lobo",
+   "montaria",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Grande, ND 1. Lobo enorme com Táticas de Grupo; a mordida derruba até alvos Enormes.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +2 (12) |\n| PV | 22 (3d10 + 6) |\n| Deslocamento | 15 m |\n| Atributos | For 17 (+3), Des 15 (+2), Con 15 (+2), Int 3 (–4), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Furtividade +4, Percepção +5 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** O lobo tem [[vantagem|Vantagem]] numa jogada de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 metro dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 8 (1d10 + 3) de dano Perfurante, e o alvo recebe a condição [[caido|Caído]] se for Enorme ou menor.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-mastim",
+  "nome": "Mastim",
+  "nome_en": "Mastiff",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "mastiff",
+   "mastim",
+   "cachorro",
+   "cão",
+   "montaria",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Média, ND 1/8. Cão de guarda atento (Percepção Passiva 15) cuja mordida derruba.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 5 (1d8 + 1) |\n| Deslocamento | 12 m |\n| Atributos | For 13 (+1), Des 14 (+2), Con 12 (+1), Int 3 (–4), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Percepção +5 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 4 (1d6 + 1) de dano Perfurante, e o alvo recebe a condição [[caido|Caído]] se for Grande ou menor.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-morcego",
+  "nome": "Morcego",
+  "nome_en": "Bat",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "bat",
+   "morcego",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Voa 9 m e percebe tudo a 18 m com Visão às Cegas. Familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 1,5 m, Voo 9 m |\n| Atributos | For 2 (–4), Des 15 (+2), Con 8 (–1), Int 2 (–4), Sab 12 (+1), Car 4 (–3) |\n| Sentidos | Visão às Cegas 18 m, Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-mula",
+  "nome": "Mula",
+  "nome_en": "Mule",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "mule",
+   "mula",
+   "montaria",
+   "carga",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/8. Carrega como se fosse Grande. Montaria e animal de carga.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 11 (2d8 + 2) |\n| Deslocamento | 12 m |\n| Atributos | For 14 (+2), Des 10 (+0), Con 13 (+1), Int 2 (–4), Sab 10 (+0), Car 5 (–3) |\n| Salvaguardas | For +4 |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Traços\n\n**Animal de Carga.** Para calcular sua capacidade de carga, a mula conta como se fosse um tamanho maior.\n\n### Ações\n\n**Cascos.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-pantera",
+  "nome": "Pantera",
+  "nome_en": "Panther",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "panther",
+   "pantera",
+   "felino",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/4. Ataca, recua sem Ataque de Oportunidade e se esconde no mesmo turno.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 13 (3d8) |\n| Deslocamento | 15 m, Escalada 12 m |\n| Atributos | For 14 (+2), Des 15 (+2), Con 10 (+0), Int 3 (–4), Sab 14 (+2), Car 7 (–2) |\n| Perícias | Furtividade +6, Percepção +4 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 14 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** A pantera faz um ataque de Bote e usa Rondar.\n\n**Bote.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Cortante, ou 7 (2d4 + 2) de dano Cortante se a pantera teve [[vantagem|Vantagem]] na jogada de ataque.\n\n**Rondar.** A pantera se move até metade do seu Deslocamento sem provocar [[ataque-de-oportunidade|Ataques de Oportunidade]]. Ao fim desse movimento, ela pode realizar a ação [[esconder|Esconder]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-polvo",
+  "nome": "Polvo",
+  "nome_en": "Octopus",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "octopus",
+   "polvo",
+   "familiar",
+   "aquático",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Pequena aquática, ND 0. Passa por frestas de 2,5 cm e foge soltando tinta. Familiar.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 3 (1d6) |\n| Deslocamento | 1,5 m, Natação 9 m |\n| Atributos | For 4 (–3), Des 15 (+2), Con 11 (+0), Int 3 (–4), Sab 10 (+0), Car 4 (–3) |\n| Perícias | Furtividade +6, Percepção +2 |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Compressão.** O polvo passa por aberturas de até 2,5 cm de largura sem gastar movimento extra.\n\n**Respirar na Água.** O polvo só consegue respirar embaixo d’água.\n\n### Ações\n\n**Tentáculos.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Contundente.\n\n### Reações\n\n**Nuvem de Tinta (1/Dia).** *Gatilho:* uma criatura termina o turno a até 1,5 metro do polvo enquanto ele está embaixo d’água. *Resposta:* o polvo solta tinta, que enche um Cubo de 1,5 metro de lado centrado nele, e nada até todo o seu Deslocamento de Natação. O Cubo fica Totalmente Obscurecido por 1 minuto ou até uma corrente forte ou efeito parecido dispersar a tinta.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-ponei",
+  "nome": "Pônei",
+  "nome_en": "Pony",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "pony",
+   "pônei",
+   "cavalo",
+   "montaria",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/8. Montaria comum para personagens Pequenos.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 11 (2d8 + 2) |\n| Deslocamento | 12 m |\n| Atributos | For 15 (+2), Des 10 (+0), Con 13 (+1), Int 2 (–4), Sab 11 (+0), Car 7 (–2) |\n| Salvaguardas | For +4 |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Ações\n\n**Cascos.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-pseudodragao",
+  "nome": "Pseudodragão",
+  "nome_en": "Pseudodragon",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "pseudodragon",
+   "pseudodragão",
+   "dragão",
+   "familiar",
+   "pacto da corrente"
+  ],
+  "resumo": "Dragão Minúsculo, ND 1/4. Ferrão que envenena e pode desacordar o alvo. Familiar do Pacto.",
+  "texto": "*Dragão Minúsculo, Neutro e Bom*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +2 (12) |\n| PV | 10 (3d4 + 3) |\n| Deslocamento | 4,5 m, Voo 18 m |\n| Atributos | For 6 (–2), Des 15 (+2), Con 13 (+1), Int 10 (+0), Sab 12 (+1), Car 10 (+0) |\n| Perícias | Furtividade +4, Percepção +5 |\n| Sentidos | Visão às Cegas 3 m, Visão no Escuro 18 m, Percepção Passiva 15 |\n| Idiomas | Entende Comum e Dracônico, mas não fala |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Resistência à Magia.** O pseudodragão tem [[vantagem|Vantagem]] em salvaguardas contra magias e outros efeitos mágicos.\n\n### Ações\n\n**Ataques Múltiplos.** O pseudodragão faz dois ataques de Mordida.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Perfurante.\n\n**Ferroada.** *Salvaguarda de Constituição:* CD 12, uma criatura que o pseudodragão consiga ver a até 1,5 metro. *Falha:* 5 (2d4) de dano Venenoso, e o alvo recebe a condição [[envenenado|Envenenado]] por 1 hora. *Falha por 5 ou mais:* enquanto estiver Envenenado assim, o alvo também fica com a condição [[inconsciente|Inconsciente]], até sofrer dano ou outra criatura usar uma ação para sacudi-lo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-quasit",
+  "nome": "Quasit",
+  "nome_en": "Quasit",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "quasit",
+   "demônio",
+   "ínfero",
+   "familiar",
+   "pacto da corrente"
+  ],
+  "resumo": "Ínfero Minúsculo, ND 1. Demônio que muda de forma, assusta, fica invisível e envenena.",
+  "texto": "*Ínfero Minúsculo (Demônio), Caótico e Mau*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 25 (10d4) |\n| Deslocamento | 12 m |\n| Atributos | For 5 (–3), Des 17 (+3), Con 10 (+0), Int 7 (–2), Sab 10 (+0), Car 10 (+0) |\n| Perícias | Furtividade +5 |\n| Resistências | Elétrico, Gélido, Ígneo |\n| Imunidades | Venenoso; Envenenado |\n| Sentidos | Visão no Escuro 36 m, Percepção Passiva 10 |\n| Idiomas | Abissal, Comum |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Resistência à Magia.** O quasit tem [[vantagem|Vantagem]] em salvaguardas contra magias e outros efeitos mágicos.\n\n### Ações\n\n**Alterar Forma.** O quasit se transforma (multimorfa) em algo parecido com uma centopeia (Deslocamento 12 m, Escalada 12 m), um morcego (3 m, Voo 12 m) ou um sapo (12 m, Natação 12 m), ou volta à forma verdadeira. As estatísticas são as mesmas em qualquer forma, menos o Deslocamento. O equipamento que ele usa ou carrega não se transforma. Se morrer, volta à forma verdadeira.\n\n**Assustar (1/Dia).** *Salvaguarda de Sabedoria:* CD 10, uma criatura a até 6 metros. *Falha:* o alvo recebe a condição [[amedrontado|Amedrontado]]. Ao fim de cada turno dele, o alvo repete a salvaguarda e encerra o efeito em si se passar. Depois de 1 minuto, ele passa automaticamente.\n\n**Invisibilidade.** O quasit conjura *[[invisibilidade|Invisibilidade]]* em si mesmo, sem precisar de componentes, usando Carisma como atributo de conjuração.\n\n**Dilacerar.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Cortante, e o alvo fica com a condição [[envenenado|Envenenado]] até o início do próximo turno do quasit.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-ra",
+  "nome": "Rã",
+  "nome_en": "Frog",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "frog",
+   "rã",
+   "sapo",
+   "familiar",
+   "forma selvagem"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Anfíbia e salta 3 m sem corrida. Opção de familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 6 m, Natação 6 m |\n| Atributos | For 1 (–5), Des 13 (+1), Con 8 (–1), Int 1 (–5), Sab 8 (–1), Car 3 (–4) |\n| Perícias | Furtividade +3, Percepção +1 |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Anfíbio.** A rã respira tanto ar quanto água.\n\n**Salto Parado.** Com ou sem corrida antes, o Salto em Distância da rã chega a 3 metros e o Salto em Altura a 1,5 metro.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-rato",
+  "nome": "Rato",
+  "nome_en": "Rat",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "rat",
+   "rato",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Escala e foge sem provocar Ataque de Oportunidade. Familiar.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 6 m, Escalada 6 m |\n| Atributos | For 2 (–4), Des 11 (+0), Con 9 (–1), Int 2 (–4), Sab 10 (+0), Car 4 (–3) |\n| Perícias | Percepção +2 |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Ágil.** O rato não provoca [[ataque-de-oportunidade|Ataques de Oportunidade]] quando sai do alcance de um inimigo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-slaad-girino",
+  "nome": "Slaad Girino",
+  "nome_en": "Slaad Tadpole",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "slaad tadpole",
+   "slaad",
+   "aberração",
+   "familiar",
+   "pacto da corrente"
+  ],
+  "resumo": "Aberração Minúscula, ND 1/8. Cava túneis e resiste a cinco tipos de dano. Familiar do Pacto.",
+  "texto": "*Aberração Minúscula, Caótico e Neutro*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 7 (3d4) |\n| Deslocamento | 9 m, Escavação 3 m |\n| Atributos | For 7 (–2), Des 15 (+2), Con 10 (+0), Int 3 (–4), Sab 5 (–3), Car 3 (–4) |\n| Perícias | Furtividade +4 |\n| Resistências | Ácido, Elétrico, Gélido, Ígneo, Trovejante |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 7 |\n| Idiomas | Entende Slaad, mas não fala |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Traços\n\n**Resistência à Magia.** O slaad tem [[vantagem|Vantagem]] em salvaguardas contra magias e outros efeitos mágicos.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (1d6 + 2) de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-sprite",
+  "nome": "Sprite",
+  "nome_en": "Sprite",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "sprite",
+   "fada",
+   "feérico",
+   "familiar",
+   "pacto da corrente"
+  ],
+  "resumo": "Feérico Minúsculo, ND 1/4. Flechas que enfeitiçam, invisibilidade e leitura de emoções.",
+  "texto": "*Feérico Minúsculo, Neutro e Bom*\n\n| Atributo | Valor |\n|---|---|\n| CA | 15 |\n| Iniciativa | +4 (14) |\n| PV | 10 (4d4) |\n| Deslocamento | 3 m, Voo 12 m |\n| Atributos | For 3 (–4), Des 18 (+4), Con 10 (+0), Int 14 (+2), Sab 13 (+1), Car 11 (+0) |\n| Perícias | Furtividade +8, Percepção +3 |\n| Sentidos | Percepção Passiva 13 |\n| Idiomas | Comum, Élfico, Silvestre |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Agulha-Espada.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 6 (1d4 + 4) de dano Perfurante.\n\n**Arco Encantado.** *Jogada de Ataque à Distância:* +6 para acertar, distância 12/48 m. *Acerto:* 1 de dano Perfurante, e o alvo fica com a condição [[enfeiticado|Enfeitiçado]] até o início do próximo turno do sprite.\n\n**Invisibilidade.** O sprite conjura *[[invisibilidade|Invisibilidade]]* em si mesmo, sem precisar de componentes, usando Carisma como atributo de conjuração.\n\n**Ver o Coração.** *Salvaguarda de Carisma:* CD 10, uma criatura que o sprite consiga ver a até 1,5 metro. Celestiais, Ínferos e Mortos-Vivos falham automaticamente. *Falha:* o sprite descobre as emoções e o alinhamento do alvo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-texugo",
+  "nome": "Texugo",
+  "nome_en": "Badger",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "badger",
+   "texugo",
+   "familiar",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Minúscula, ND 0. Cava 1,5 m e resiste a veneno. Pode servir de familiar (Fera de ND 0).",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +0 (10) |\n| PV | 5 (1d4 + 3) |\n| Deslocamento | 6 m, Escavação 1,5 m |\n| Atributos | For 10 (+0), Des 11 (+0), Con 16 (+3), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Perícias | Percepção +3 |\n| Resistências | Venenoso |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-texugo-gigante",
+  "nome": "Texugo Gigante",
+  "nome_en": "Giant Badger",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "giant badger",
+   "texugo",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/4. Cava túneis (3 m) e resiste a veneno.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +0 (10) |\n| PV | 15 (2d8 + 6) |\n| Deslocamento | 9 m, Escavação 3 m |\n| Atributos | For 13 (+1), Des 10 (+0), Con 17 (+3), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Perícias | Percepção +3 |\n| Resistências | Venenoso |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 6 (2d4 + 1) de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-tigre",
+  "nome": "Tigre",
+  "nome_en": "Tiger",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "tiger",
+   "tigre",
+   "felino",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1. Ataca, recua e se esconde; com Vantagem, o bote derruba.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 22 (3d10 + 6) |\n| Deslocamento | 12 m |\n| Atributos | For 17 (+3), Des 16 (+3), Con 14 (+2), Int 3 (–4), Sab 12 (+1), Car 8 (–1) |\n| Perícias | Furtividade +7, Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O tigre faz um ataque de Bote e usa Rondar.\n\n**Bote.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 6 (1d6 + 3) de dano Cortante. Se o tigre teve [[vantagem|Vantagem]] na jogada de ataque, o alvo sofre mais 3 (1d6) de dano Cortante e, se for Enorme ou menor, recebe a condição [[caido|Caído]].\n\n**Rondar.** O tigre se move até metade do seu Deslocamento sem provocar [[ataque-de-oportunidade|Ataques de Oportunidade]]. Ao fim desse movimento, ele pode realizar a ação [[esconder|Esconder]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-tubarao-do-recife",
+  "nome": "Tubarão do Recife",
+  "nome_en": "Reef Shark",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "reef shark",
+   "tubarão",
+   "aquático",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média aquática, ND 1/2. Caça em grupo com Visão às Cegas 9 m.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 22 (4d8 + 4) |\n| Deslocamento | 1,5 m, Natação 9 m |\n| Atributos | For 14 (+2), Des 15 (+2), Con 13 (+1), Int 1 (–5), Sab 10 (+0), Car 4 (–3) |\n| Perícias | Percepção +2 |\n| Sentidos | Visão às Cegas 9 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Traços\n\n**Respirar na Água.** O tubarão só consegue respirar embaixo d’água.\n\n**Táticas de Grupo.** O tubarão tem [[vantagem|Vantagem]] numa jogada de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 metro dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 7 (2d4 + 2) de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-urso-negro",
+  "nome": "Urso Negro",
+  "nome_en": "Black Bear",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "black bear",
+   "urso",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Média, ND 1/2. Escala, nada e ataca duas vezes por turno.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 19 (3d8 + 6) |\n| Deslocamento | 9 m, Escalada 9 m, Natação 9 m |\n| Atributos | For 15 (+2), Des 12 (+1), Con 14 (+2), Int 2 (–4), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Percepção +5 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O urso faz dois ataques de Dilacerar.\n\n**Dilacerar.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (1d6 + 2) de dano Cortante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-urso-pardo",
+  "nome": "Urso Pardo",
+  "nome_en": "Brown Bear",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "brown bear",
+   "urso",
+   "urso-pardo",
+   "forma selvagem",
+   "fera"
+  ],
+  "resumo": "Fera Grande, ND 1. Mordida e garras no mesmo turno; as garras derrubam.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 22 (3d10 + 6) |\n| Deslocamento | 12 m, Escalada 9 m |\n| Atributos | For 17 (+3), Des 12 (+1), Con 15 (+2), Int 2 (–4), Sab 13 (+1), Car 7 (–2) |\n| Perícias | Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O urso faz um ataque de Mordida e um de Garras.\n\n**Garras.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Cortante, e o alvo recebe a condição [[caido|Caído]] se for Enorme ou menor.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 7 (1d8 + 3) de dano Perfurante.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura-zumbi",
+  "nome": "Zumbi",
+  "nome_en": "Zombie",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "tags": [
+   "zombie",
+   "zumbi",
+   "morto-vivo",
+   "animar mortos"
+  ],
+  "resumo": "Morto-Vivo Médio, ND 1/4. Lento e teimoso: pode voltar a 1 PV ao cair (Fortitude de Morto-Vivo).",
+  "texto": "*Morto-Vivo Médio, Neutro e Mau*\n\n| Atributo | Valor |\n|---|---|\n| CA | 8 |\n| Iniciativa | –2 (8) |\n| PV | 15 (2d8 + 6) |\n| Deslocamento | 6 m |\n| Atributos | For 13 (+1), Des 6 (–2), Con 16 (+3), Int 3 (–4), Sab 6 (–2), Car 5 (–3) |\n| Salvaguardas | Sab +0 |\n| Imunidades | Venenoso; Envenenado, Exaustão |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 8 |\n| Idiomas | Entende os idiomas que conhecia em vida, mas não fala |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Fortitude de Morto-Vivo.** Quando um dano deixa o zumbi com 0 Pontos de Vida, ele faz uma salvaguarda de Constituição com CD igual a 5 + o dano sofrido, a não ser que o dano seja Radiante ou venha de um [[acerto-critico|Acerto Crítico]]. Se passar, fica com 1 Ponto de Vida.\n\n### Ações\n\n**Pancada.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 4 (1d6 + 1) de dano Contundente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ }
+]

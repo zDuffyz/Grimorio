@@ -14,6 +14,10 @@ App de consulta rápida de regras de D&D 2024 para a mesa. Funciona no celular c
 | `index.json` | Versão do conteúdo e lista de arquivos |
 | `regras.json`, `condicoes.json`, `acoes.json`, `magias.json` | O conteúdo |
 | `classe-*.json` | As 12 classes, subclasses e regras comuns de classe |
+| `jogo.json`, `criacao.json` | Capítulos 1 e 2 |
+| `origens.json`, `talentos.json`, `equipamento.json` | Capítulos 4, 5 e 6 |
+| `magias.json`, `conjuracao.json` | Capítulo 7 (391 magias e regras de conjuração) |
+| `criaturas.json`, `glossario.json` | Apêndices B e C (o A está em `criacao.json`) |
 
 ## Publicar no GitHub Pages (uma vez só)
 
@@ -59,7 +63,8 @@ Para criar uma categoria de arquivo nova (por exemplo, `cenario.json` para mater
 ```
 
 - `id`: só letras minúsculas sem acento, números e hífen. Precisa ser único.
-- `categoria`: `regra`, `condicao`, `acao` ou `magia`.
+- `categoria`: `regra`, `condicao`, `acao`, `magia`, `classe`, `antecedente`, `especie`, `talento`, `equipamento` ou `criatura`.
+- `capitulo` (opcional): em qual aba a ficha aparece (`jogo`, `criacao`, `classes`, `origens`, `talentos`, `equipamento`, `magias`, `apendices`, `glossario`).
 - Para criar um link para outra entrada dentro do texto, use `[[id]]` ou `[[id|texto do link]]`. Exemplo: `[[incapacitado|Incapacitado]]`. A ficha também mostra automaticamente as entradas relacionadas.
 - Magias têm um campo extra `magia` com `nivel` (0 para truque), `escola`, `tempo`, `alcance`, `componentes`, `duracao` e `classes`.
 - Quebras de linha dentro do `texto` são escritas como `\n`. Aspas dentro do texto precisam ser `\"` ou, mais simples, use aspas curvas “assim”.

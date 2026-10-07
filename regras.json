@@ -68,7 +68,7 @@
       "início do combate"
     ],
     "resumo": "Teste de Destreza que define a ordem dos turnos. Surpreso = Desvantagem.",
-    "texto": "No início do combate, todos os envolvidos fazem um **teste de Destreza** para determinar a Iniciativa. Os turnos seguem do maior resultado para o menor.\n\n- **Empates.** O Mestre decide a ordem entre monstros empatados, e os jogadores decidem entre personagens empatados. Num empate entre monstro e personagem, o Mestre decide.\n- **Surpresa.** Uma criatura surpreendida no início do combate tem [[vantagem|Desvantagem]] na jogada de Iniciativa.\n- **Invisível.** Quem está [[invisivel|Invisível]] ao rolar Iniciativa tem Vantagem.\n- **Incapacitado.** Quem está [[incapacitado|Incapacitado]] ao rolar Iniciativa tem Desvantagem."
+    "texto": "No início do combate, todos os envolvidos fazem um **teste de Destreza** para determinar a Iniciativa. Os turnos seguem do maior resultado para o menor.\n\n**Valor de Iniciativa.** Quem não rola (como monstros, à escolha do Mestre) usa 10 + modificador de Destreza; +5 se tiver Vantagem, −5 se tiver Desvantagem.\n\n- **Empates.** O Mestre decide a ordem entre monstros empatados, e os jogadores decidem entre personagens empatados. Num empate entre monstro e personagem, o Mestre decide.\n- **Surpresa.** Uma criatura surpreendida no início do combate tem [[vantagem|Desvantagem]] na jogada de Iniciativa.\n- **Invisível.** Quem está [[invisivel|Invisível]] ao rolar Iniciativa tem Vantagem.\n- **Incapacitado.** Quem está [[incapacitado|Incapacitado]] ao rolar Iniciativa tem Desvantagem."
   },
   {
     "id": "acerto-critico",

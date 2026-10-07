@@ -1,0 +1,317 @@
+[
+ {
+  "id": "criacao-passo-a-passo",
+  "nome": "Criando Seu Personagem",
+  "nome_en": "Creating a Character",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "criacao de personagem",
+   "ficha",
+   "sessao zero",
+   "passo a passo",
+   "character creation",
+   "grupo"
+  ],
+  "resumo": "Os 5 passos da criação: classe, origem, valores de atributo, alinhamento e detalhes.",
+  "texto": "Seu personagem junta estatísticas de jogo, interpretação e criatividade. Você escolhe uma classe, um antecedente e uma espécie, define personalidade e aparência, e o resultado é o seu avatar no multiverso de D&D.\n\n### Antes de começar\n- **Fale com o Mestre.** Pergunte que estilo de campanha ele pretende narrar (mitologia grega, aventura no mar etc.) e pense no tipo de aventureiro que combina com isso.\n- **Escolha uma ficha.** “Ficha de personagem” é qualquer meio de anotar seus dados: ficha impressa, ficha digital (como a do D&D Beyond) ou uma folha em branco.\n- **Sessão zero.** Alguns Mestres abrem a campanha com uma reunião só para criar personagens, alinhar expectativas e combinar temas a evitar ou abraçar. É uma boa hora para decidir se os personagens já se conhecem e que aventuras o grupo quer buscar.\n\n### Os passos\n1. **Escolha uma classe.** Define a vocação, os talentos especiais e as táticas do personagem. Veja [[criacao-escolher-classe|Passo 1]].\n2. **Determine a origem.** Antecedente, espécie e idiomas. Veja [[criacao-origem|Passo 2]] e [[criacao-idiomas|Idiomas]].\n3. **Determine os valores de atributo.** Quase tudo que você faz depende dos seis atributos. Veja [[criacao-valores-de-atributo|Passo 3]].\n4. **Escolha um alinhamento.** Um resumo da bússola moral do personagem. Veja [[criacao-alinhamento|Alinhamento]].\n5. **Preencha os detalhes.** Complete o resto da ficha com base nas escolhas anteriores. Veja [[criacao-preencha-os-detalhes|Passo 5]].\n\n### Um grupo equilibrado\nO grupo clássico tem Clérigo, Guerreiro, Ladino e Mago. Você pode usar essa formação ou trocar cada papel:\n- **Clérigo:** Bardo ou Druida.\n- **Guerreiro:** Bárbaro, Guardião, Monge ou Paladino.\n- **Ladino:** Bardo ou Guardião.\n- **Mago:** Bardo, Bruxo ou Feiticeiro.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-escolher-classe",
+  "nome": "Passo 1: Escolha uma Classe",
+  "nome_en": "Step 1: Choose a Class",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "classe",
+   "atributo primario",
+   "complexidade",
+   "choose a class",
+   "visao geral"
+  ],
+  "resumo": "Resumo das 12 classes (interesse, atributo primário, complexidade) e o que anotar na ficha.",
+  "texto": "Escolha uma classe e anote na ficha. É a decisão mais importante da criação: ela orienta quase todas as escolhas seguintes, e você vai consultar a descrição da classe muitas vezes.\n\n### Visão geral das classes\nFormato: interesse — atributo primário — complexidade.\n- [[barbaro|Bárbaro]]: batalha — Força — média.\n- [[bardo|Bardo]]: atuação — Carisma — alta.\n- [[bruxo|Bruxo]]: conhecimento obscuro — Carisma — alta.\n- [[clerigo|Clérigo]]: deuses — Sabedoria — média.\n- [[druida|Druida]]: natureza — Sabedoria — alta.\n- [[feiticeiro|Feiticeiro]]: poder — Carisma — alta.\n- [[guardiao|Guardião]]: sobrevivência — Destreza e Sabedoria — média.\n- [[guerreiro|Guerreiro]]: armas — Força ou Destreza — baixa.\n- [[ladino|Ladino]]: furtividade — Destreza — baixa.\n- [[mago|Mago]]: livros de magia — Inteligência — média.\n- [[monge|Monge]]: combate desarmado — Destreza e Sabedoria — alta.\n- [[paladino|Paladino]]: proteção — Força e Carisma — média.\n\n### O que anotar\n- **Nível.** Normalmente você começa no nível 1, com 0 XP. Ganhe Pontos de Experiência para subir (veja [[criacao-avanco-de-nivel|Avanço de Nível]]).\n- **Nível mais alto.** Se o Mestre começar a campanha no nível 3 ou acima, anote também sua subclasse. Veja [[criacao-niveis-mais-altos|Começando em Níveis Mais Altos]].\n- **Treinamento com armadura.** Anote as categorias de armadura que sua classe permite. Com treinamento, você usa a armadura de forma eficaz e recebe seus benefícios defensivos.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-origem",
+  "nome": "Passo 2: Determine a Origem",
+  "nome_en": "Step 2: Determine Origin",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "origem",
+   "antecedente",
+   "especie",
+   "equipamento inicial",
+   "background",
+   "species"
+  ],
+  "resumo": "Escolha antecedente, espécie e idiomas; anote talento, proficiências e equipamento inicial.",
+  "texto": "A origem é formada por um antecedente, uma espécie e dois idiomas. O antecedente mostra o lugar e a ocupação que mais marcaram o personagem antes da vida de aventuras.\n\n### Escolha um antecedente\nEscolha um dos [[antecedentes|antecedentes]] (o Mestre pode oferecer outros) e anote na ficha. Ele afeta os seus valores de atributo no Passo 3. Se estiver em dúvida, veja quais antecedentes favorecem o atributo primário da sua classe:\n\n| Atributo | Antecedentes |\n|---|---|\n| Força | Artesão, Artista, Fazendeiro, Guarda, Marinheiro, Nobre, Soldado |\n| Destreza | Andarilho, Artesão, Artista, Charlatão, Criminoso, Escriba, Guia, Marinheiro, Soldado |\n| Constituição | Charlatão, Criminoso, Eremita, Fazendeiro, Guia, Mercador, Sábio, Soldado |\n| Inteligência | Acólito, Artesão, Criminoso, Escriba, Guarda, Mercador, Nobre, Sábio |\n| Sabedoria | Acólito, Andarilho, Eremita, Escriba, Fazendeiro, Guarda, Guia, Marinheiro, Sábio |\n| Carisma | Acólito, Andarilho, Artista, Charlatão, Eremita, Mercador, Nobre |\n\n- **Talento.** O antecedente concede um [[talentos|talento]]. Anote-o.\n- **Proficiências.** O antecedente dá proficiência em duas perícias e uma ferramenta. Sua classe também concede proficiências; anote todas. Marque o círculo ao lado das perícias e salvaguardas em que você é proficiente.\n- **Bônus de Proficiência.** No nível 1 ele é +2 (veja [[bonus-de-proficiencia|Bônus de Proficiência]]). Anote-o; os números que dependem dele são preenchidos no Passo 5.\n\n### Equipamento inicial\nAntecedente e classe fornecem o equipamento inicial. As moedas recebidas aqui podem ser gastas na hora em equipamento. Você também ganha uma [[criacao-bugigangas|bugiganga]] de graça. Anote o equipamento e as moedas que sobrarem.\n\n### Escolha uma espécie\nEscolha uma das [[especies|espécies]]: Aasimar, Anão, Draconato, Elfo, Gnomo, Golias, Humano, Orc, Pequenino ou Tiferino. Anote a espécie e seus traços. A espécie define seu tamanho (pode anotar só a inicial) e seu Deslocamento.\n\n### Idiomas\nVocê conhece Comum e mais dois idiomas comuns à sua escolha. Veja [[criacao-idiomas|Idiomas]].\n\n### Imagine o passado\nUse antecedente e espécie para imaginar a história do personagem. Responda como ele:\n- Quem criou você?\n- Quem foi seu melhor amigo na infância?\n- Você teve um animal de estimação?\n- Você já se apaixonou? Por quem?\n- Fez parte de alguma organização, como guilda ou religião? Ainda faz?\n- O que no seu passado o levou a se aventurar?\n\n### Antecedentes e espécies de livros antigos\n- **Antecedente antigo:** ele não traz ajustes de atributo. Aumente um valor em 2 e outro em 1, ou três valores em 1, sem passar de 20. Se não der talento, ganhe um talento de Origem à sua escolha.\n- **Espécie antiga:** ignore os aumentos de atributo dela e use só os do antecedente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-idiomas",
+  "nome": "Idiomas",
+  "nome_en": "Languages",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "idiomas",
+   "linguas",
+   "comum",
+   "primordial",
+   "languages",
+   "raros"
+  ],
+  "resumo": "Todo personagem fala Comum + 2 idiomas comuns; tabelas de idiomas comuns (d12) e raros.",
+  "texto": "Seu personagem conhece pelo menos três idiomas: Comum e mais dois da tabela de idiomas comuns. Conhecer um idioma significa falar, ler e escrever nele. Classe e outras características podem dar idiomas extras.\n\nTodo personagem jogador conhece o Comum, que surgiu em [[multiverso-planos-exteriores|Sigil]], a cidade no centro do multiverso. Os outros idiomas comuns nasceram com os primeiros membros das espécies mais influentes e se espalharam.\n\n### Idiomas comuns\n| 1d12 | Idioma | Origem |\n|---|---|---|\n| — | Comum | Sigil |\n| 1 | Linguagem de Sinais Comum | Sigil |\n| 2 | Dracônico | Dragões |\n| 3–4 | Anão | Anões |\n| 5–6 | Élfico | Elfos |\n| 7 | Gigante | Gigantes |\n| 8 | Gnômico | Gnomos |\n| 9 | Goblin | Goblinoides |\n| 10–11 | Pequenino | Pequeninos |\n| 12 | Orc | Orcs |\n\n### Idiomas raros\nSão idiomas secretos ou vindos de outros planos, pouco falados no Plano Material. Só algumas características permitem aprendê-los.\n\n| Idioma | Origem |\n|---|---|\n| Abissal | Demônios do Abismo |\n| Celestial | Celestiais |\n| Dialeto Obscuro | Aberrações |\n| Druídico | Círculos druídicos |\n| Gíria dos Ladrões | Guildas criminosas |\n| Infernal | Diabos dos Nove Infernos |\n| Primordial | Elementais |\n| Silvestre | Faéria |\n| Subcomum | Umbraeterna |\n\n**Primordial** reúne os dialetos Aquan, Auran, Ignan e Terran. Quem conhece um deles consegue se comunicar com quem conhece qualquer outro.\n\nVeja também [[idioma-druidico|Idioma Druídico]] e [[giria-dos-ladroes|Gíria dos Ladrões]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-valores-de-atributo",
+  "nome": "Passo 3: Gerando Valores de Atributo",
+  "nome_en": "Step 3: Determine Ability Scores",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "valores de atributo",
+   "compra de pontos",
+   "point buy",
+   "conjunto padrao",
+   "rolagem 4d6",
+   "standard array"
+  ],
+  "resumo": "Conjunto padrão (15,14,13,12,10,8), compra de 27 pontos ou 4d6; depois ajuste pelo antecedente.",
+  "texto": "Primeiro você gera seis números; depois distribui entre Força, Destreza, Constituição, Inteligência, Sabedoria e Carisma. O Mestre pode exigir um método específico.\n\n### Os três métodos\n- **Conjunto padrão.** Use 15, 14, 13, 12, 10 e 8. Veja sugestões em [[criacao-conjunto-padrao|Conjunto Padrão por Classe]].\n- **Geração aleatória.** Role 4d6 e some os três maiores. Faça isso seis vezes.\n- **Compra de pontos.** Você tem 27 pontos para gastar conforme a tabela abaixo. Ex.: um 14 custa 7 pontos.\n\n### Custo de pontos\n| Valor | Custo |\n|---|---|\n| 8 | 0 |\n| 9 | 1 |\n| 10 | 2 |\n| 11 | 3 |\n| 12 | 4 |\n| 13 | 5 |\n| 14 | 7 |\n| 15 | 9 |\n\n### Distribua os valores\nColoque os valores pensando no atributo primário da sua classe. A tabela de conjunto padrão por classe serve de guia para qualquer método.\n\n### Ajuste pelo antecedente\nSeu antecedente lista três atributos. Aumente um deles em 2 e outro em 1, **ou** aumente os três em 1. Nenhum aumento pode levar um valor acima de 20. Alguns jogadores reforçam o atributo primário; outros corrigem um valor baixo.\n\n### Modificadores\nPor fim, anote o modificador de cada atributo. Veja [[criacao-modificadores-de-atributo|Valores e Modificadores de Atributo]].\n\n### Aparência e personalidade\nPense no que os valores dizem sobre o personagem: alguém muito forte e de pouco Carisma age e parece diferente de alguém carismático e fraco. Veja [[criacao-descricao-por-atributo|Descrição por Atributo]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-conjunto-padrao",
+  "nome": "Conjunto Padrão por Classe",
+  "nome_en": "Standard Array by Class",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "conjunto padrao",
+   "standard array",
+   "distribuicao",
+   "atributos por classe"
+  ],
+  "resumo": "Distribuição sugerida do conjunto padrão (15,14,13,12,10,8) para cada classe.",
+  "texto": "Sugestão de onde colocar o conjunto padrão em cada classe. Os maiores valores vão nos atributos principais. Também serve de guia se você gerou valores por outro método.\n\nOrdem: For / Des / Con / Int / Sab / Car.\n\n| Classe | For / Des / Con / Int / Sab / Car |\n|---|---|\n| Bárbaro | 15 / 13 / 14 / 10 / 12 / 8 |\n| Bardo | 8 / 14 / 12 / 13 / 10 / 15 |\n| Bruxo | 8 / 14 / 13 / 12 / 10 / 15 |\n| Clérigo | 14 / 8 / 13 / 10 / 15 / 12 |\n| Druida | 8 / 12 / 14 / 13 / 15 / 10 |\n| Feiticeiro | 10 / 13 / 14 / 8 / 12 / 15 |\n| Guardião | 12 / 15 / 13 / 8 / 14 / 10 |\n| Guerreiro | 15 / 14 / 13 / 8 / 10 / 12 |\n| Ladino | 12 / 15 / 13 / 14 / 10 / 8 |\n| Mago | 8 / 12 / 13 / 15 / 14 / 10 |\n| Monge | 12 / 15 / 13 / 10 / 14 / 8 |\n| Paladino | 15 / 10 / 13 / 8 / 12 / 14 |\n\nDepois aplique os aumentos do antecedente (veja [[criacao-valores-de-atributo|Gerando Valores de Atributo]]).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-modificadores-de-atributo",
+  "nome": "Valores e Modificadores de Atributo",
+  "nome_en": "Ability Scores and Modifiers",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "modificador",
+   "valor de atributo",
+   "tabela",
+   "ability modifier",
+   "mod"
+  ],
+  "resumo": "Tabela de modificadores: 10–11 = +0; cada 2 pontos acima ou abaixo muda 1. Valor 20 = +5.",
+  "texto": "Cada valor de atributo tem um modificador, que é o número que você soma de fato nos testes. Anote-o ao lado do valor.\n\n| Valor | Modificador |\n|---|---|\n| 3 | −4 |\n| 4–5 | −3 |\n| 6–7 | −2 |\n| 8–9 | −1 |\n| 10–11 | +0 |\n| 12–13 | +1 |\n| 14–15 | +2 |\n| 16–17 | +3 |\n| 18–19 | +4 |\n| 20 | +5 |\n\n**Dica:** subtraia 10 do valor e divida por 2, arredondando para baixo.\n\nQuando um valor sobe para um número par, o modificador aumenta. Atualize tudo na ficha que usa esse modificador (veja [[criacao-avanco-de-nivel|Avanço de Nível]]).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-descricao-por-atributo",
+  "nome": "Descrição por Atributo",
+  "nome_en": "Ability Score Descriptors",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "aparencia",
+   "personalidade",
+   "descricao",
+   "interpretacao",
+   "roleplay"
+  ],
+  "resumo": "Palavras (d4) para descrever aparência e personalidade conforme um atributo alto ou baixo.",
+  "texto": "Sugestões para descrever o personagem a partir de um atributo alto ou baixo. Role 1d4 ou escolha.\n\n### Força\n| d4 | Alta | Baixa |\n|---|---|---|\n| 1 | Musculoso | Fraco |\n| 2 | Robusto | Magro |\n| 3 | Protetor | Inseguro |\n| 4 | Direto | Indireto |\n\n### Destreza\n| d4 | Alta | Baixa |\n|---|---|---|\n| 1 | Ágil | Atrapalhado |\n| 2 | Dinâmico | Desajeitado |\n| 3 | Inquieto | Hesitante |\n| 4 | Equilibrado | Instável |\n\n### Constituição\n| d4 | Alta | Baixa |\n|---|---|---|\n| 1 | Energético | Débil |\n| 2 | Vigoroso | Sensível |\n| 3 | Saudável | Letárgico |\n| 4 | Firme | Frágil |\n\n### Inteligência\n| d4 | Alta | Baixa |\n|---|---|---|\n| 1 | Decidido | Inapto |\n| 2 | Lógico | Ilógico |\n| 3 | Informado | Desinformado |\n| 4 | Curioso | Fútil |\n\n### Sabedoria\n| d4 | Alta | Baixa |\n|---|---|---|\n| 1 | Sereno | Impulsivo |\n| 2 | Atento | Distraído |\n| 3 | Observador | Alheio |\n| 4 | Vigilante | Ingênuo |\n\n### Carisma\n| d4 | Alto | Baixo |\n|---|---|---|\n| 1 | Encantador | Pedante |\n| 2 | Imponente | Carrancudo |\n| 3 | Engraçado | Reservado |\n| 4 | Inspirador | Indelicado |\n\nAnote aparência e personalidade na ficha.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-alinhamento",
+  "nome": "Alinhamento",
+  "nome_en": "Alignment",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "alinhamento",
+   "moral",
+   "ordeiro",
+   "caotico",
+   "alignment",
+   "bom mau"
+  ],
+  "resumo": "Os nove alinhamentos (ordem × moral), criaturas sem alinhamento e traços sugeridos.",
+  "texto": "O alinhamento resume as atitudes éticas e os ideais de uma criatura. Ele combina dois eixos:\n- **Moral:** bom, mau ou neutro.\n- **Ordem:** ordeiro, caótico ou neutro.\n\nAs descrições mostram o comportamento típico; cada indivíduo pode variar. D&D parte do princípio de que personagens jogadores **não** são maus. Fale com o Mestre antes de criar um personagem mau.\n\n### Os nove alinhamentos\n- **Ordeiro e Bom (OB):** faz a coisa certa do jeito que a sociedade espera. Ex.: quem combate a injustiça e protege inocentes sem hesitar.\n- **Neutro e Bom (NB):** faz o melhor possível, respeitando as regras sem se prender a elas. Ex.: alguém bondoso que ajuda conforme a necessidade de cada um.\n- **Caótico e Bom (CB):** segue a própria consciência, pouco ligando para expectativas. Ex.: um rebelde que rouba os cobradores de um barão cruel para ajudar os pobres.\n- **Ordeiro e Neutro (ON):** age conforme lei, tradição ou código pessoal. Ex.: alguém de vida disciplinada, que não se deixa levar por apelos nem por tentações.\n- **Neutro (N):** evita questões morais e não toma partido; faz o que parece melhor na hora. Ex.: quem se entedia com debates morais.\n- **Caótico e Neutro (CN):** segue impulsos e valoriza a liberdade acima de tudo. Ex.: um patife que vaga pelo mundo vivendo por conta própria.\n- **Ordeiro e Mau (OM):** toma o que quer de forma metódica, dentro de um código de tradição, lealdade ou ordem. Ex.: um aristocrata que explora o povo enquanto trama pelo poder.\n- **Neutro e Mau (NM):** não se importa com o mal que causa para conseguir o que deseja. Ex.: um criminoso que rouba e mata quando bem entende.\n- **Caótico e Mau (CM):** age com violência arbitrária, movido por ódio ou sede de sangue. Ex.: um vilão obcecado por vingança e caos.\n\n### Criaturas sem alinhamento\nA maioria das criaturas incapazes de pensamento racional não tem alinhamento. Um tubarão é um predador selvagem, mas não é mau.\n\n### Traços por alinhamento (1d4)\nUse cada parte do alinhamento para inspirar a personalidade:\n- **Bom:** 1 compassivo, 2 prestativo, 3 honesto, 4 gentil.\n- **Caótico:** 1 orgulhoso, 2 impulsivo, 3 rebelde, 4 egocêntrico.\n- **Mau:** 1 desonesto, 2 vingativo, 3 cruel, 4 ganancioso.\n- **Neutro:** 1 egoísta, 2 desinteressado, 3 lacônico, 4 pragmático.\n- **Ordeiro:** 1 cooperativo, 2 leal, 3 julgador, 4 metódico.\n\nOs alinhamentos também marcam os [[multiverso-planos-exteriores|Planos Externos]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-preencha-os-detalhes",
+  "nome": "Passo 5: Preencha os Detalhes",
+  "nome_en": "Step 5: Fill In Details",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "pontos de vida nivel 1",
+   "classe de armadura",
+   "percepcao passiva",
+   "cd de magia",
+   "bonus de ataque",
+   "ficha"
+  ],
+  "resumo": "Calcule salvaguardas, perícias, Percepção Passiva, PV, CA, Iniciativa, ataques e conjuração no nível 1.",
+  "texto": "Complete a ficha.\n\n### Características de classe\nNa tabela da sua classe, anote as características de nível 1. Leia todas e faça as escolhas que elas pedem.\n\n### Salvaguardas e perícias\n- **Com proficiência:** modificador do atributo + Bônus de Proficiência.\n- **Sem proficiência:** só o modificador do atributo (anotar é opcional).\n\n### Percepção Passiva\nO Mestre pode usá-la para saber se você nota algo sem rolar. Ela reflete sua atenção geral quando você não está procurando nada.\n\n**Percepção Passiva = 10 + modificador de Sabedoria (Percepção)**, incluindo tudo que afeta esse teste. Ex.: Sabedoria 15 e proficiência em Percepção = 10 + 2 + 2 = 14.\n\n### Pontos de Vida no nível 1\n| Classe | PV máximos |\n|---|---|\n| Bárbaro | 12 + mod. de Con |\n| Guardião, Guerreiro, Paladino | 10 + mod. de Con |\n| Bardo, Bruxo, Clérigo, Druida, Ladino, Monge | 8 + mod. de Con |\n| Feiticeiro, Mago | 6 + mod. de Con |\n\nA ficha também tem espaço para PV atuais, Pontos de Vida Temporários e salvaguardas contra morte (veja [[zero-pontos-de-vida|Cair a 0 Pontos de Vida]]).\n\n### Dados de Pontos de Vida\nSua classe indica o tipo de dado. No nível 1 você tem 1 Dado de Vida. Você pode gastá-los num [[descanso-curto|Descanso Curto]] para recuperar PV; anote quantos já gastou.\n\n### Iniciativa\nAnote seu modificador de Destreza (veja [[iniciativa|Iniciativa]]).\n\n### Classe de Armadura\nSem armadura nem escudo, sua CA é **10 + modificador de Destreza**. Com armadura ou escudo, calcule pelas regras de equipamento. Algumas características de classe dão outro jeito de calcular a CA.\n\n### Ataques\nAnote suas armas. Com uma arma em que você tem proficiência, o bônus de ataque é (salvo propriedade da arma que diga outra coisa):\n- **Corpo a corpo:** mod. de Força + Bônus de Proficiência.\n- **À distância:** mod. de Destreza + Bônus de Proficiência.\n\nNo dano, some o mesmo modificador de atributo usado no ataque.\n\n### Conjuração\n- **CD para evitar magia** = 8 + mod. do atributo de conjuração + Bônus de Proficiência.\n- **Bônus de ataque mágico** = mod. do atributo de conjuração + Bônus de Proficiência.\n\nO atributo de conjuração vem da característica que permite conjurar a magia. Se sua classe tem Conjuração ou [[magia-de-pacto|Magia de Pacto]], a tabela dela mostra espaços de magia, truques conhecidos e magias preparadas. Escolha e anote.\n\n### Nome e detalhes finais\nEscolha um nome: homenagem a um ancestral, algo religioso, um nome que você mesmo adotou? Se quiser, pense também:\n- Qual é seu gênero?\n- Quem mais importa para você?\n- Qual é seu maior medo?\n- Nas aventuras, você busca conhecimento, riqueza, glória, iluminação, justiça, misericórdia, poder ou outra coisa?",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-avanco-de-nivel",
+  "nome": "Avanço de Nível",
+  "nome_en": "Level Advancement",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "xp",
+   "experiencia",
+   "subir de nivel",
+   "level up",
+   "tabela de nivel",
+   "pv por nivel"
+  ],
+  "resumo": "Tabela de XP por nível e Bônus de Proficiência; passos ao subir de nível e PV fixos por classe.",
+  "texto": "Nas aventuras você ganha Pontos de Experiência (XP). Quando seu total de XP alcança um valor da tabela, você atinge aquele nível.\n\n### Evolução do personagem\n| Nível | XP | Bônus de Prof. |\n|---|---|---|\n| 1 | 0 | +2 |\n| 2 | 300 | +2 |\n| 3 | 900 | +2 |\n| 4 | 2.700 | +2 |\n| 5 | 6.500 | +3 |\n| 6 | 14.000 | +3 |\n| 7 | 23.000 | +3 |\n| 8 | 34.000 | +3 |\n| 9 | 48.000 | +4 |\n| 10 | 64.000 | +4 |\n| 11 | 85.000 | +4 |\n| 12 | 100.000 | +4 |\n| 13 | 120.000 | +5 |\n| 14 | 140.000 | +5 |\n| 15 | 165.000 | +5 |\n| 16 | 195.000 | +5 |\n| 17 | 225.000 | +6 |\n| 18 | 265.000 | +6 |\n| 19 | 305.000 | +6 |\n| 20 | 355.000 | +6 |\n\n### Ao subir de nível\n1. **Escolha a classe.** Normalmente a mesma; ou ganhe o nível em outra classe pelas regras de [[criacao-multiclasse|Multiclasse]].\n2. **PV e Dados de Vida.** Ganhe 1 Dado de Vida. Role-o, some o mod. de Constituição e adicione o total (mínimo 1) aos PV máximos. Ou use o valor fixo abaixo.\n3. **Novas características.** Anote o que a classe dá no novo nível e faça as escolhas pedidas.\n4. **Bônus de Proficiência.** Se aumentou, atualize todos os números da ficha que o usam (veja [[bonus-de-proficiencia|Bônus de Proficiência]]).\n5. **Modificadores.** Se um talento elevou um atributo para um número par, o modificador sobe; atualize tudo que o usa. Se o mod. de Constituição sobe 1, seus PV máximos sobem 1 por nível que você tem. Ex.: no nível 8, Con de 17 para 18 (+4) dá +8 PV, além dos PV do próprio nível.\n\n### PV fixos por nível\n| Classe | PV por nível |\n|---|---|\n| Bárbaro | 7 + mod. de Con |\n| Guardião, Guerreiro, Paladino | 6 + mod. de Con |\n| Bardo, Bruxo, Clérigo, Druida, Ladino, Monge | 5 + mod. de Con |\n| Feiticeiro, Mago | 4 + mod. de Con |\n\n### Talentos após o nível 20\nOpcionalmente, o Mestre pode dar um talento à escolha a cada 30.000 XP acima de 355.000. [[dadiva-epica|Dádivas Épicas]] combinam bem, mas vale qualquer talento para o qual o personagem se qualifique.\n\nVeja também [[criacao-estagios-de-jogo|Estágios de Jogo]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-estagios-de-jogo",
+  "nome": "Estágios de Jogo",
+  "nome_en": "Tiers of Play",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "estagios",
+   "tiers",
+   "patamares",
+   "niveis",
+   "tom da campanha"
+  ],
+  "resumo": "Quatro estágios (níveis 1–4, 5–10, 11–16, 17–20) que mostram como o tom da campanha muda.",
+  "texto": "Conforme os personagens sobem de nível, os desafios e o que está em jogo crescem. Os estágios não têm regras próprias; apenas descrevem como a experiência muda.\n\n### Estágio 1 (níveis 1–4)\nAventureiros aprendizes, mas já acima da população comum. Ganham as primeiras características e escolhem a subclasse. Enfrentam ameaças a fazendas e vilarejos.\n\n### Estágio 2 (níveis 5–10)\nAventureiros completos. Conjuradores ganham magias marcantes, como [[bola-de-fogo|Bola de Fogo]], [[relampago|Relâmpago]] e [[reviver-os-mortos|Reviver os Mortos]]. A maioria das classes de combate passa a atacar várias vezes no turno. As ameaças atingem cidades e reinos.\n\n### Estágio 3 (níveis 11–16)\nPersonagens especiais até entre aventureiros. No nível 11, muitos conjuradores aprendem magias que alteram a realidade; outros atacam mais vezes ou de formas mais impressionantes. Enfrentam ameaças a regiões inteiras.\n\n### Estágio 4 (níveis 17–20)\nO auge das características de classe: arquétipos heroicos. O destino do mundo, ou a ordem do multiverso, pode estar em jogo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-niveis-mais-altos",
+  "nome": "Começando em Níveis Mais Altos",
+  "nome_en": "Starting at Higher Levels",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "nivel inicial",
+   "equipamento inicial",
+   "itens magicos iniciais",
+   "higher level",
+   "ouro inicial"
+  ],
+  "resumo": "Comece com o XP mínimo do nível; tabela de dinheiro e itens mágicos iniciais por nível.",
+  "texto": "O Mestre pode começar a campanha acima do nível 1. O nível 3 é especialmente indicado para grupos de jogadores experientes.\n\n### Criando o personagem\nSiga os passos normais de criação e depois as regras de [[criacao-avanco-de-nivel|Avanço de Nível]] para cada nível acima de 1. Você começa com o XP mínimo do nível inicial. Ex.: no nível 10, você tem 64.000 XP. A partir do nível 3, anote sua subclasse.\n\n### Equipamento inicial\nO Mestre decide se você recebe mais que o equipamento normal de nível 1, talvez com itens mágicos. Todos recebem o equipamento inicial normal; a tabela mostra o extra sugerido.\n\n| Nível | Dinheiro extra | Itens mágicos |\n|---|---|---|\n| 2–4 | — | 1 Comum |\n| 5–10 | 500 PO + 1d10 × 25 PO | 1 Comum, 1 Incomum |\n| 11–16 | 5.000 PO + 1d10 × 250 PO | 2 Comuns, 3 Incomuns, 1 Raro |\n| 17–20 | 20.000 PO + 1d10 × 250 PO | 2 Comuns, 4 Incomuns, 3 Raros, 1 Muito Raro |\n\nCombine com o Mestre o que está à venda. Armas de fogo, por exemplo, são caras demais no nível 1, mas podem estar disponíveis se o Mestre permitir.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-multiclasse",
+  "nome": "Multiclasse",
+  "nome_en": "Multiclassing",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "multiclasse",
+   "multiclassing",
+   "pre-requisitos",
+   "dados de vida",
+   "ataque extra",
+   "duas classes"
+  ],
+  "resumo": "Ganhe níveis em outra classe: exige 13 nos atributos primários; regras de PV, proficiências e características.",
+  "texto": "Com a multiclasse, sempre que sobe de nível você pode ganhar o nível numa nova classe em vez da atual, combinando habilidades.\n\n### Pré-requisitos\nVocê precisa de **13 ou mais** no atributo primário da nova classe **e** das classes que já tem. Ex.: um Bárbaro que quer virar Druida precisa de Força 13 e Sabedoria 13.\n\n### Pontos de Experiência\nO XP necessário segue o seu **nível total de personagem**. Ex.: um Clérigo 6 / Guerreiro 1 precisa do XP do nível 8 para ganhar Guerreiro 2 ou Clérigo 7.\n\n### Pontos de Vida e Dados de Vida\n- Na nova classe, você ganha os PV previstos para níveis acima de 1. Os PV de nível 1 só valem quando seu nível total é 1.\n- Some os Dados de Vida de todas as classes. Dados do mesmo tipo se juntam (Guerreiro 5 / Paladino 5 = 10d10); tipos diferentes ficam separados (Clérigo 5 / Paladino 5 = 5d8 e 5d10).\n\n### Bônus de Proficiência\nSegue o nível total. Ex.: Guerreiro 3 / Ladino 2 tem +3, de nível 5.\n\n### Proficiências\nNo primeiro nível de uma classe que não é a inicial, você ganha só parte das proficiências dela, conforme a descrição da classe.\n\n### Características de classe\nVocê ganha as características do nível alcançado naquela classe. Algumas têm regras extras de multiclasse na descrição da classe.\n\n- **Ataque Extra.** Não acumula entre classes: você não faz mais de dois ataques com ele, a menos que tenha algo que permita mais, como [[dois-ataques-extras|Dois Ataques Extras]] do Guerreiro. A invocação [[lamina-sedenta|Lâmina Sedenta]] também não dá ataque a mais se você já tem Ataque Extra.\n- **Classe de Armadura.** Com várias formas de calcular a CA, use só uma por vez. Ex.: um Feiticeiro/Monge escolhe entre [[defesa-sem-armadura-monge|Defesa sem Armadura]] e [[resiliencia-draconica|Resiliência Dracônica]].\n- **Conjuração.** Veja [[criacao-multiclasse-conjuracao|Conjuração em Multiclasse]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-multiclasse-conjuracao",
+  "nome": "Conjuração em Multiclasse",
+  "nome_en": "Multiclass Spellcasting",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "conjurador multiclasse",
+   "espacos de magia",
+   "multiclass spellcasting",
+   "nivel de conjurador",
+   "slots"
+  ],
+  "resumo": "Some níveis de conjurador (inteiro, metade ou um terço) e consulte a tabela de espaços de magia.",
+  "texto": "Se você tem Conjuração de **mais de uma** classe, use estas regras. Se só uma classe tem Conjuração, siga as regras dela.\n\n### Magias preparadas\nDetermine as magias de cada classe separadamente, como se tivesse só aquela classe. Ex.: Guardião 4 / Feiticeiro 3 prepara cinco magias de 1º círculo de Guardião e seis magias de 1º ou 2º círculo de Feiticeiro (mais quatro truques de Feiticeiro). Cada magia fica ligada a uma classe e usa o atributo de conjuração dela.\n\n### Truques\nTruques que melhoram com o nível usam o seu nível total de personagem, salvo indicação contrária na magia.\n\n### Nível de conjurador (espaços de magia)\nSome:\n- todos os níveis de Bardo, Clérigo, Druida, Feiticeiro e Mago;\n- metade (arredondada para cima) dos níveis de Guardião e Paladino;\n- um terço (arredondado para baixo) dos níveis de Guerreiro ou Ladino, se você for [[cavaleiro-mistico|Cavaleiro Místico]] ou [[trapaceiro-arcano|Trapaceiro Arcano]].\n\nConsulte o total na tabela. Esses espaços servem para conjurar magias de qualquer classe sua que tenha Conjuração.\n\n### Espaços de magia por nível de conjurador\nValores do 1º círculo em diante, separados por barra.\n\n| Nível | Espaços (1º / 2º / 3º …) |\n|---|---|\n| 1 | 2 |\n| 2 | 3 |\n| 3 | 4 / 2 |\n| 4 | 4 / 3 |\n| 5 | 4 / 3 / 2 |\n| 6 | 4 / 3 / 3 |\n| 7 | 4 / 3 / 3 / 1 |\n| 8 | 4 / 3 / 3 / 2 |\n| 9 | 4 / 3 / 3 / 3 / 1 |\n| 10 | 4 / 3 / 3 / 3 / 2 |\n| 11 | 4 / 3 / 3 / 3 / 2 / 1 |\n| 12 | 4 / 3 / 3 / 3 / 2 / 1 |\n| 13 | 4 / 3 / 3 / 3 / 2 / 1 / 1 |\n| 14 | 4 / 3 / 3 / 3 / 2 / 1 / 1 |\n| 15 | 4 / 3 / 3 / 3 / 2 / 1 / 1 / 1 |\n| 16 | 4 / 3 / 3 / 3 / 2 / 1 / 1 / 1 |\n| 17 | 4 / 3 / 3 / 3 / 2 / 1 / 1 / 1 / 1 |\n| 18 | 4 / 3 / 3 / 3 / 3 / 1 / 1 / 1 / 1 |\n| 19 | 4 / 3 / 3 / 3 / 3 / 2 / 1 / 1 / 1 |\n| 20 | 4 / 3 / 3 / 3 / 3 / 2 / 2 / 1 / 1 |\n\n### Espaços acima das suas magias\nA tabela pode dar espaços de círculo maior que o das magias que você prepara. Você pode usá-los para conjurar magias de círculo menor; se a magia melhora em círculo maior (como [[maos-flamejantes|Mãos Flamejantes]]), o efeito melhorado vale.\n\nEx.: Guardião 4 / Feiticeiro 3 conta como nível 5 (3 + 2): quatro espaços de 1º, três de 2º e dois de 3º. Ele não pode preparar magias de 3º círculo nem de 2º círculo de Guardião, mas pode usar esses espaços para as magias que preparou.\n\n### Magia de Pacto\nCom [[magia-de-pacto|Magia de Pacto]] do Bruxo e Conjuração de outra classe, os espaços de cada uma servem para as magias preparadas da outra.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criacao-bugigangas",
+  "nome": "Bugigangas",
+  "nome_en": "Trinkets",
+  "categoria": "regra",
+  "capitulo": "criacao",
+  "tags": [
+   "bugiganga",
+   "trinket",
+   "d100",
+   "item curioso",
+   "equipamento inicial"
+  ],
+  "resumo": "Tabela d100 de bugigangas Minúsculas e misteriosas; todo personagem pode ganhar uma na criação.",
+  "texto": "Na criação, você pode rolar uma vez nesta tabela e ganhar uma bugiganga Minúscula: um objeto simples com um toque de mistério. O Mestre também pode usá-la para mobiliar uma sala de masmorra ou encher os bolsos de uma criatura.\n\n### 1d100\n- **01** Mão de goblin mumificada.\n- **02** Cristal que brilha fraco sob o luar.\n- **03** Moeda de ouro cunhada numa terra desconhecida.\n- **04** Diário num idioma que você não conhece.\n- **05** Anel de latão que nunca escurece.\n- **06** Antiga peça de xadrez de vidro.\n- **07** Par de dados de osso com um crânio no lugar do seis.\n- **08** Pequeno ídolo de uma criatura aterradora que traz pesadelos se você dorme perto dele.\n- **09** Mecha de cabelo de alguém.\n- **10** Escritura de um terreno num reino que você não conhece.\n- **11** Bloco de 30 gramas de um material desconhecido.\n- **12** Bonequinha de pano espetada de agulhas.\n- **13** Dente de uma fera desconhecida.\n- **14** Escama enorme, talvez de dragão.\n- **15** Pena verde brilhante.\n- **16** Velha carta de adivinhação com uma figura parecida com você.\n- **17** Orbe de vidro com fumaça se mexendo dentro.\n- **18** Ovo de 500 gramas com casca vermelha e lustrosa.\n- **19** Cachimbo que solta bolhas.\n- **20** Pote de vidro com um pedaço de carne boiando em salmoura.\n- **21** Caixinha de música gnômica que toca uma canção vagamente lembrada da sua infância.\n- **22** Estatueta de madeira de um pequenino cheio de si.\n- **23** Orbe de bronze gravado com runas estranhas.\n- **24** Disco de pedra multicolorido.\n- **25** Ícone de prata de um corvo.\n- **26** Bolsinha com 47 dentes, um deles podre.\n- **27** Lasca de obsidiana que parece quente ao toque.\n- **28** Garra de dragão pendurada num cordão de couro.\n- **29** Par de meias velhas.\n- **30** Livro em branco cujas páginas não aceitam tinta, giz, grafite nem qualquer marca.\n- **31** Broche de prata de uma estrela de cinco pontas.\n- **32** Faca que pertenceu a um parente.\n- **33** Frasco de vidro cheio de unhas cortadas.\n- **34** Peça de metal retangular com dois copinhos numa ponta que solta faíscas quando molhada.\n- **35** Luva branca enfeitada, feita para humano.\n- **36** Colete com cem bolsinhos minúsculos.\n- **37** Pedra que não pesa nada.\n- **38** Esboço de um goblin desenhado à mão.\n- **39** Frasco vazio com cheiro de perfume.\n- **40** Gema que parece carvão para qualquer um que não seja você.\n- **41** Retalho de uma bandeira antiga.\n- **42** Insígnia de patente de um legionário desaparecido.\n- **43** Sino de prata sem badalo.\n- **44** Canário mecânico dentro de uma lamparina.\n- **45** Baú em miniatura entalhado como se tivesse vários pezinhos.\n- **46** Sprite morto numa garrafa transparente.\n- **47** Lata de metal sem abertura que soa cheia de líquido, areia, aranhas ou vidro quebrado (você escolhe).\n- **48** Globo de vidro com água onde nada um peixinho dourado mecânico.\n- **49** Colher de prata com um M gravado no cabo.\n- **50** Apito de madeira dourada.\n- **51** Escaravelho morto do tamanho da sua mão.\n- **52** Dois soldadinhos de brinquedo, um sem cabeça.\n- **53** Caixinha com botões de vários tamanhos.\n- **54** Vela que não acende.\n- **55** Gaiola em miniatura sem porta.\n- **56** Chave antiga.\n- **57** Mapa do tesouro impossível de decifrar.\n- **58** Cabo de uma espada quebrada.\n- **59** Pé de coelho.\n- **60** Olho de vidro.\n- **61** Camafeu com o rosto de uma pessoa horrenda.\n- **62** Caveira de prata do tamanho de uma moeda.\n- **63** Máscara de alabastro.\n- **64** Cone de incenso preto e grudento que fede.\n- **65** Touca de dormir que dá sonhos agradáveis.\n- **66** Um único estrepe feito de osso.\n- **67** Armação de monóculo de ouro sem lente.\n- **68** Cubo de 2,5 cm com cada face de uma cor.\n- **69** Maçaneta de cristal.\n- **70** Pacotinho de pó cor-de-rosa.\n- **71** Trecho de uma bela canção, em partitura escrita em dois pergaminhos.\n- **72** Brinco de prata em forma de gota com uma lágrima de verdade dentro.\n- **73** Casca de ovo pintada com cenas de sofrimento em detalhes perturbadores.\n- **74** Leque que, aberto, mostra um gato sonolento.\n- **75** Flauta de pã de osso.\n- **76** Trevo de quatro folhas prensado num livro de etiqueta e boas maneiras.\n- **77** Pergaminho com o desenho de uma engenhoca mecânica.\n- **78** Bainha ornamentada que não serve em nenhuma lâmina que você achou.\n- **79** Convite para uma festa onde aconteceu um assassinato.\n- **80** Pentáculo de bronze com uma cabeça de rato gravada no centro.\n- **81** Lenço roxo bordado com o nome de um arquimago.\n- **82** Metade da planta baixa de um templo, castelo ou outra construção.\n- **83** Pano dobrado que, aberto, vira um chapéu elegante.\n- **84** Recibo de depósito num banco de uma cidade distante.\n- **85** Diário com sete páginas arrancadas.\n- **86** Rapé de prata vazio com a palavra “sonhos” na tampa.\n- **87** Símbolo sagrado de ferro de um deus desconhecido.\n- **88** Livro sobre a ascensão e queda de um herói lendário, sem o último capítulo.\n- **89** Frasco de sangue de dragão.\n- **90** Flecha antiga de feitio élfico.\n- **91** Agulha que nunca entorta.\n- **92** Broche ornamentado de feitio anão.\n- **93** Garrafa de vinho vazia com um rótulo bonito: “Vinícola do Mago dos Vinhos, Safra Dragão Vermelho, 331422-W”.\n- **94** Azulejo de mosaico com superfície vitrificada multicolorida.\n- **95** Camundongo petrificado.\n- **96** Bandeira pirata negra com caveira de dragão e ossos cruzados.\n- **97** Caranguejo ou aranha mecânica minúscula que anda quando ninguém está olhando.\n- **98** Pote de vidro com banha e o rótulo “Graxa de Grifo”.\n- **99** Caixa de madeira com fundo de cerâmica onde vive uma minhoca com uma cabeça em cada ponta.\n- **00** Urna de metal com as cinzas de um herói.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "multiverso-planos",
+  "nome": "Planos de Existência",
+  "nome_en": "Planes of Existence",
+  "categoria": "regra",
+  "capitulo": "apendices",
+  "tags": [
+   "planos",
+   "multiverso",
+   "plano astral",
+   "plano etereo",
+   "elementais",
+   "planes"
+  ],
+  "resumo": "Visão geral do multiverso: Reinos Materiais, Planos Transitivos, Internos e Externos.",
+  "texto": "O multiverso é a realidade que reúne todos os mundos e aventuras de D&D. O Livro do Mestre detalha esses reinos e outros, como o Reino Distante, o Plano Negativo e o Plano Positivo.\n\n### Reinos Materiais\n- **Plano Material.** Onde acontece a maioria das aventuras. Abriga mundos como Dragonlance, Eberron, Forgotten Realms e Greyhawk, e qualquer mundo que seu grupo criar. Leis físicas e mágicas moldam esses mundos.\n- **Faéria.** Reino vibrante e idealizado, transbordando de vida e emoção, mais intensas nos Domínios do Deleite.\n- **Sombral.** Reino tomado pela escuridão, com terras sombrias, ruínas assombradas e os temidos Domínios do Pavor.\n\n### Planos Transitivos\nFuncionam como caminhos entre planos.\n- **Plano Astral.** Vastidão prateada e infinita que liga o Plano Material aos Planos Externos. Há civilizações inteiras nele, e outras o cruzam em naus movidas a magia.\n- **Plano Etéreo.** Reino fantasmagórico que liga o Plano Material aos Planos Internos. Onde ele se sobrepõe a outro plano fica a **Fronteira Etérea**, de onde se vislumbram outros planos.\n\n### Planos Internos\nOrigem das forças elementais, os blocos de construção da realidade.\n- **Plano Elemental da Água:** oceano sem fundo cheio de vida marinha misteriosa.\n- **Plano Elemental da Terra:** labirinto de cavernas em meio a rocha e riquezas minerais sem fim.\n- **Plano Elemental do Ar:** céu infinito onde ventos carregam nuvens e ilhas flutuantes.\n- **Plano Elemental do Fogo:** inferno eterno, com vida em ilhas vulcânicas.\n- **Caos Elemental:** nas bordas dos Planos Internos, onde as forças elementais se chocam sem controle.\n- **Planos Inter-Elementais:** fronteiras entre os Planos Elementais, onde os elementos se misturam em reinos de cinzas, gelo, lama e magma.\n\n### Planos Externos\nReinos onde ideias ganham forma e espíritos passam a pós-vida; são o lar dos imortais. Cada um é dominado por forças ligadas a um ou mais [[criacao-alinhamento|alinhamentos]]. Veja [[multiverso-planos-exteriores|Planos Externos e Sigil]].\n\nVários idiomas raros vêm desses planos (veja [[criacao-idiomas|Idiomas]]).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "multiverso-planos-exteriores",
+  "nome": "Planos Externos e Sigil",
+  "nome_en": "Outer Planes and Sigil",
+  "categoria": "regra",
+  "capitulo": "apendices",
+  "tags": [
+   "sigil",
+   "planos exteriores",
+   "outer planes",
+   "cidade das portas",
+   "terras alem",
+   "alinhamento dos planos"
+  ],
+  "resumo": "Sigil, a Cidade das Portas; Terras Além; e o alinhamento de cada Plano Exterior.",
+  "texto": "Os Planos Externos são o lar dos imortais e o destino dos espíritos após a morte. Alguns são paraísos, outros pesadelos, outros simplesmente estranhos. Cada um é dominado por forças de um ou mais [[criacao-alinhamento|alinhamentos]].\n\n### Sigil\n**Sigil, a Cidade das Portas**, é uma metrópole (não um plano) no centro dos Planos Externos. Seus portais levam a todo o multiverso, e a enigmática **Senhora da Dor** mantém a ordem. O idioma Comum nasceu lá.\n\n### Terras Além\nNas Terras Além convergem as influências dos outros Planos Externos, e há portais para cada um deles. No centro ergue-se o **Pináculo**, uma coluna sobre cujo topo Sigil flutua.\n\n### Alinhamentos dos Planos Externos\n| Plano | Alinhamento |\n|---|---|\n| Abismo | Caótico e Mau |\n| Aqueronte | Ordeiro e Mau, Ordeiro e Neutro |\n| Arbórea | Caótico e Bom |\n| Arcádia | Ordeiro e Bom, Ordeiro e Neutro |\n| Bitopia | Ordeiro e Bom, Neutro e Bom |\n| Cárceri | Caótico e Mau, Neutro e Mau |\n| Elísio | Neutro e Bom |\n| Gehenna | Ordeiro e Mau, Neutro e Mau |\n| Hades | Neutro e Mau |\n| Limbo | Caótico e Neutro |\n| Mecânos | Ordeiro e Neutro |\n| Monte Celéstia | Ordeiro e Bom |\n| Nove Infernos de Baator | Ordeiro e Mau |\n| Pandemônio | Caótico e Mau, Caótico e Neutro |\n| Terras Além | Neutro |\n| Terras Ferais | Caótico e Bom, Neutro e Bom |\n| Ysgard | Caótico e Bom, Caótico e Neutro |\n\nVeja também [[multiverso-planos|Planos de Existência]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ }
+]

@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.06-7",
-  "notas": "Capítulo 7 completo: as 391 magias do Livro do Jogador, regras de conjuração e filtro de magias por classe.",
+  "versao": "2026.10.06-8",
+  "notas": "Livro completo: regras do Capítulo 1, Criação de Personagens (Cap. 2), Apêndices (Multiverso e Criaturas) e o Glossário de Regras.",
   "arquivos": [
     "regras.json",
     "condicoes.json",
@@ -22,6 +22,10 @@
     "origens.json",
     "talentos.json",
     "equipamento.json",
-    "conjuracao.json"
+    "conjuracao.json",
+    "jogo.json",
+    "criacao.json",
+    "glossario.json",
+    "criaturas.json"
   ]
 }

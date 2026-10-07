@@ -12,18 +12,22 @@
     antecedente: { rotulo: "Antecedente", plural: "Antecedentes", letra: "An", cor: "var(--cat-origem)" },
     especie:  { rotulo: "Espécie",  plural: "Espécies",  letra: "Es", cor: "var(--cat-origem)" },
     talento:  { rotulo: "Talento",  plural: "Talentos",  letra: "T", cor: "var(--cat-talento)" },
-    equipamento: { rotulo: "Equipamento", plural: "Equipamento", letra: "Eq", cor: "var(--cat-equip)" }
+    equipamento: { rotulo: "Equipamento", plural: "Equipamento", letra: "Eq", cor: "var(--cat-equip)" },
+    criatura: { rotulo: "Criatura", plural: "Criaturas", letra: "Cr", cor: "var(--cat-criatura)" }
   };
-  var ORDEM_CAT = ["regra", "condicao", "acao", "antecedente", "especie", "talento", "equipamento", "magia", "classe"];
+  var ORDEM_CAT = ["regra", "condicao", "acao", "antecedente", "especie", "talento", "equipamento", "criatura", "magia", "classe"];
   var FONTE_PADRAO = "SRD 5.2 · tradução para consulta de mesa";
   // Abas seguindo os capítulos do Livro do Jogador
   var ABAS = [
     { id: "jogo",      cap: "Cap. 1", nome: "Jogando o Jogo" },
+    { id: "criacao",   cap: "Cap. 2", nome: "Criação" },
     { id: "classes",   cap: "Cap. 3", nome: "Classes" },
     { id: "origens",   cap: "Cap. 4", nome: "Origens" },
     { id: "talentos",  cap: "Cap. 5", nome: "Talentos" },
     { id: "equipamento", cap: "Cap. 6", nome: "Equipamento" },
     { id: "magias",    cap: "Cap. 7", nome: "Magias" },
+    { id: "apendices", cap: "Ap. A–B", nome: "Apêndices" },
+    { id: "glossario", cap: "Ap. C", nome: "Glossário" },
     { id: "favoritos", cap: "Seus",   nome: "★ Favoritos" }
   ];
   function capitulo(e) {
@@ -305,6 +309,20 @@
         secao("Ferramentas", g("Ferramentas")) +
         secao("Itens com regras", g("Item")) +
         secao("Montarias, serviços e itens mágicos", g(""));
+    } else if (estado.aba === "criacao") {
+      html = '<header class="cap-cab"><span class="cap-num">Capítulo 2</span><h2>Criação de Personagens</h2></header>' +
+        secao("Criação e avanço", porCapitulo("criacao").sort(ordenarPadrao));
+    } else if (estado.aba === "apendices") {
+      var ap = porCapitulo("apendices").sort(ordenarPadrao);
+      html = '<header class="cap-cab"><span class="cap-num">Apêndices A e B</span><h2>Multiverso e Criaturas</h2></header>' +
+        secao("O Multiverso", ap.filter(function (e) { return e.id.indexOf("multiverso") === 0; })) +
+        secao("Como ler as estatísticas", ap.filter(function (e) { return e.categoria === "regra" && e.id.indexOf("multiverso") !== 0; })) +
+        secao("Criaturas", ap.filter(function (e) { return e.categoria === "criatura"; }));
+    } else if (estado.aba === "glossario") {
+      var gl = porCapitulo("glossario").sort(function (a, b) { return a.nome.localeCompare(b.nome, "pt-BR"); });
+      html = '<header class="cap-cab"><span class="cap-num">Apêndice C</span><h2>Glossário de Regras</h2></header>' +
+        '<p class="vazio" style="text-align:left">Condições, ações e as demais regras já estão nos capítulos; a busca encontra todas.</p>' +
+        secao("Verbetes", gl);
     } else if (estado.aba === "magias") {
       var todasM = porCapitulo("magias").sort(ordenarPadrao);
       var regrasM = todasM.filter(function (e) { return e.categoria !== "magia"; });

@@ -1,0 +1,1784 @@
+[
+ {
+  "id": "glossario-convencoes",
+  "nome": "Convenções do Glossário",
+  "nome_en": "Glossary Conventions",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "glossario",
+   "convencoes",
+   "abreviacoes",
+   "siglas",
+   "marcadores"
+  ],
+  "resumo": "Como ler o glossário: marcadores entre colchetes, o “você” das regras e as abreviações.",
+  "texto": "O Glossário de Regras segue algumas convenções que valem também para o resto das regras.\n\n### Marcadores entre colchetes\nAlguns verbetes trazem um marcador depois do nome, como em “Atacar [Ação]”. O marcador indica a família de regras a que o termo pertence:\n- **Ação**\n- **Área de Efeito**\n- **Atitude**\n- **Condição**\n- **Risco**\n\n### O “você” das regras\nQuando uma regra diz que algo acontece com “você”, ela se refere à criatura ou ao objeto a que a regra se aplica naquele momento. Por exemplo, o “você” da condição [[caido|Caído]] é a criatura que está com essa condição.\n\n### Veja também e termos antigos\nAlguns verbetes indicam outros verbetes ou capítulos relacionados em “Veja também”. O glossário só define termos das regras atuais; termos de versões anteriores da quinta edição ficam no índice do livro.\n\n### Abreviações\n| Sigla | Significado |\n|---|---|\n| BP | Bônus de Proficiência |\n| C | Concentração |\n| CA | Classe de Armadura |\n| CD | Classe de Dificuldade |\n| DM | Dungeon Master (Mestre) |\n| ND | Nível de Desafio |\n| PNJ | Personagem Não Jogador |\n| PV | Pontos de Vida |\n| XP | Pontos de Experiência |\n| R | Ritual |\n| V / S / M | Componente Verbal / Somático / Material |\n\n**Atributos:** For (Força), Des (Destreza), Con (Constituição), Int (Inteligência), Sab (Sabedoria), Car (Carisma).\n\n**Moedas:** PC (cobre), PP (prata), PE (electro), PO (ouro), PL (platina).\n\n**Alinhamentos:** OB (Ordeiro e Bom), NB (Neutro e Bom), CB (Caótico e Bom), ON (Ordeiro e Neutro), N (Neutro), CN (Caótico e Neutro), OM (Ordeiro e Mau), NM (Neutro e Mau), CM (Caótico e Mau).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "acao",
+  "nome": "Ação",
+  "nome_en": "Action",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "acao",
+   "acoes",
+   "action",
+   "turno",
+   "acoes basicas"
+  ],
+  "resumo": "No seu turno você executa uma ação, escolhida entre as ações básicas ou as dadas por características.",
+  "texto": "No seu turno, você pode executar **uma ação**. Escolha uma das ações básicas abaixo ou uma ação especial concedida por uma de suas características.\n\nAções básicas:\n- [[ajudar|Ajudar]]\n- [[estudar|Analisar]]\n- [[atacar|Atacar]]\n- [[disparada|Correr]]\n- [[desengajar|Desengajar]]\n- [[esconder|Esconder]]\n- [[esquivar|Esquivar]]\n- [[influenciar|Influenciar]]\n- [[preparar|Preparar]]\n- [[procurar|Procurar]]\n- [[acao-magia|Usar Magia]]\n- [[usar|Usar Objeto]]\n\nAlém da ação, um turno pode ter uma [[acao-bonus|Ação Bônus]] (se uma regra conceder uma) e movimento. Veja também [[turno-em-combate|Seu turno em combate]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "acao-bonus",
+  "nome": "Ação Bônus",
+  "nome_en": "Bonus Action",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "acao bonus",
+   "bonus action",
+   "acao extra",
+   "turno"
+  ],
+  "resumo": "Ação extra no turno, só se uma regra conceder; no máximo uma Ação Bônus por turno.",
+  "texto": "Uma **Ação Bônus** é uma ação especial que você pode executar no mesmo turno em que executa sua [[acao|Ação]].\n\n- Você só tem uma Ação Bônus disponível quando uma regra (magia, característica, talento etc.) diz explicitamente que algo pode ser feito como Ação Bônus.\n- Você não pode executar mais de uma Ação Bônus por turno.\n\nVeja também [[turno-em-combate|Seu turno em combate]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "aliado",
+  "nome": "Aliado",
+  "nome_en": "Ally",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "aliado",
+   "ally",
+   "companheiro",
+   "grupo"
+  ],
+  "resumo": "Membro do grupo, amigo, quem luta do seu lado ou quem as regras/o Mestre dizem que é aliado.",
+  "texto": "Uma criatura é sua **aliada** se ela:\n- faz parte do seu grupo de aventureiros;\n- é sua amiga;\n- está lutando do seu lado; ou\n- foi designada como aliada por uma regra ou pelo Mestre.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "alinhamento",
+  "nome": "Alinhamento",
+  "nome_en": "Alignment",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "alinhamento",
+   "alignment",
+   "moral",
+   "etica",
+   "tendencia"
+  ],
+  "resumo": "Resumo das atitudes éticas de uma criatura: moral (bom/mau/neutro) + ordem (ordeiro/caótico/neutro).",
+  "texto": "O **alinhamento** descreve, de forma ampla, a ética e os ideais de uma criatura. Ele junta dois eixos:\n- **Moral:** bom, mau ou neutro.\n- **Ordem:** ordeiro, caótico ou neutro.\n\nA combinação dos dois gera nove alinhamentos, como Ordeiro e Bom ou Neutro e Mau. As siglas estão em [[glossario-convencoes|Convenções do Glossário]].\n\nVeja também o capítulo 2 (“Criando Seu Personagem”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "alvo",
+  "nome": "Alvo",
+  "nome_en": "Target",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "alvo",
+   "target",
+   "mirar",
+   "escolher alvo"
+  ],
+  "resumo": "A criatura ou objeto atingido por um ataque, obrigado a uma salvaguarda ou escolhido por um efeito.",
+  "texto": "Um **alvo** é a criatura ou o objeto que:\n- é atingido por uma jogada de ataque;\n- é obrigado a fazer uma salvaguarda por causa de um efeito; ou\n- é escolhido para receber os efeitos de uma magia ou de outro fenômeno.\n\nPara alvos de magias, veja [[alvos-e-efeitos|Alvos, Salvaguardas e Ataques Mágicos]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "amigavel",
+  "nome": "Amigável",
+  "nome_en": "Friendly",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "amigavel",
+   "friendly",
+   "atitude",
+   "influenciar",
+   "social"
+  ],
+  "resumo": "Atitude: a criatura vê você com bons olhos; você tem Vantagem para influenciá-la.",
+  "texto": "*[Atitude]*\n\nUma criatura **Amigável** tem uma visão favorável de você. Você tem [[vantagem|Vantagem]] em testes de atributo feitos para influenciar uma criatura Amigável.\n\nVeja também [[atitude|Atitude]] e [[influenciar|Influenciar]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "area-de-efeito",
+  "nome": "Área de Efeito",
+  "nome_en": "Area of Effect",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "area de efeito",
+   "area of effect",
+   "ponto de origem",
+   "aoe",
+   "formas"
+  ],
+  "resumo": "Formas de área (cilindro, cone, cubo, emanação, esfera, linha) e como funciona o ponto de origem.",
+  "texto": "Várias magias e características afetam uma **área de efeito**, que costuma ter uma de seis formas: [[cilindro|Cilindro]], [[cone|Cone]], [[cubo|Cubo]], Emanação, Esfera e Linha.\n\n### Ponto de origem\nToda área de efeito tem um **ponto de origem**, o local de onde a energia do efeito se espalha. A regra de cada forma diz onde fica esse ponto.\n\n- Um local só faz parte da área se pelo menos uma linha reta do ponto de origem até ele estiver livre. Se todas essas linhas estiverem bloqueadas, o local fica fora da área.\n- Para bloquear uma linha, o obstáculo precisa dar Cobertura Total (veja [[cobertura|Cobertura]]).\n- Se quem cria a área escolher um ponto que não consegue ver e houver um obstáculo (como uma parede) entre ele e esse ponto, o ponto de origem surge do lado mais próximo do obstáculo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "armas-improvisadas",
+  "nome": "Armas Improvisadas",
+  "nome_en": "Improvised Weapons",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "arma improvisada",
+   "improvised weapon",
+   "objeto",
+   "garrafa",
+   "cadeira"
+  ],
+  "resumo": "Objeto usado como arma: sem Bônus de Proficiência, 1d4 de dano, arremesso 6/18 m.",
+  "texto": "Uma **arma improvisada** é qualquer objeto usado como arma, como um caco de vidro, uma perna de mesa ou uma frigideira.\n\nUma arma Simples ou Marcial também conta como improvisada quando usada de um jeito diferente do previsto. Por exemplo: atacar corpo a corpo com uma arma à Distância, ou arremessar uma arma corpo a corpo que não tem a propriedade [[arremesso|Arremesso]].\n\n### Regras\n- **Proficiência.** Você não soma seu [[bonus-de-proficiencia|Bônus de Proficiência]] às jogadas de ataque com uma arma improvisada.\n- **Dano.** Ao acertar, ela causa 1d4 de dano, de um tipo que o Mestre considere adequado ao objeto.\n- **Alcance.** Se arremessada, tem alcance normal de 6 metros e alcance máximo de 18 metros.\n- **Parecida com uma arma.** Se o objeto lembrar uma arma Simples ou Marcial, o Mestre pode tratá-lo como essa arma, com todas as regras dela. Uma perna de mesa, por exemplo, pode funcionar como uma Clava.\n\nVeja também [[armas|Armas]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "arredondar-para-baixo",
+  "nome": "Arredondar para Baixo",
+  "nome_en": "Round Down",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "arredondar",
+   "round down",
+   "fracao",
+   "metade",
+   "divisao"
+  ],
+  "resumo": "Ao dividir ou multiplicar, arredonde frações para baixo, salvo regra que mande arredondar para cima.",
+  "texto": "Sempre que dividir ou multiplicar um número no jogo e o resultado tiver fração, **arredonde para baixo**, mesmo que a fração seja de meio ou mais.\n\nAlgumas regras abrem exceção e dizem explicitamente para arredondar para cima.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "asfixia",
+  "nome": "Asfixia",
+  "nome_en": "Suffocation",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "asfixia",
+   "suffocation",
+   "sufocar",
+   "prender a respiracao",
+   "afogar"
+  ],
+  "resumo": "Fôlego de 1 + mod. Con minutos (mín. 30 s); sem ar, ganha 1 nível de Exaustão por turno.",
+  "texto": "*[Risco]*\n\nUma criatura consegue prender a respiração por um número de minutos igual a **1 + seu modificador de Constituição** (mínimo de 30 segundos). Depois disso, começa a asfixiar.\n\n- Enquanto estiver sem ar ou engasgada, a criatura ganha **1 nível de [[exaustao|Exaustão]]** no final de cada um dos turnos dela.\n- Quando volta a respirar, ela remove todos os níveis de Exaustão que ganhou por causa da asfixia.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "ataque-armado",
+  "nome": "Ataque Armado",
+  "nome_en": "Weapon Attack",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "ataque armado",
+   "weapon attack",
+   "ataque com arma",
+   "arma"
+  ],
+  "resumo": "Jogada de ataque feita com uma arma.",
+  "texto": "Um **ataque armado** é uma jogada de ataque feita com uma arma.\n\nVeja também [[armas|Armas]] e [[armas-improvisadas|Armas Improvisadas]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "atitude",
+  "nome": "Atitude",
+  "nome_en": "Attitude",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "atitude",
+   "attitude",
+   "hostil",
+   "indiferente",
+   "social"
+  ],
+  "resumo": "Postura inicial de um monstro diante de um personagem: Amigável, Hostil ou Indiferente.",
+  "texto": "Um monstro começa com uma de três **atitudes** em relação a um personagem do jogador:\n- [[amigavel|Amigável]]\n- Hostil\n- Indiferente\n\nA atitude afeta as tentativas de [[influenciar|Influenciar]] a criatura.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "aventura",
+  "nome": "Aventura",
+  "nome_en": "Adventure",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "aventura",
+   "adventure",
+   "encontros",
+   "historia"
+  ],
+  "resumo": "Sequência de encontros que, ao ser jogada, forma uma narrativa.",
+  "texto": "Uma **aventura** é uma sequência de encontros. Ao jogar esses encontros, forma-se uma história.\n\nVárias aventuras juntas formam uma [[campanha|Campanha]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "bloco-de-estatisticas",
+  "nome": "Bloco de Estatísticas",
+  "nome_en": "Stat Block",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "bloco de estatisticas",
+   "stat block",
+   "ficha de monstro",
+   "monstro",
+   "nd"
+  ],
+  "resumo": "Como ler a ficha de um monstro: tamanho, tipo, CA, PV, atributos, sentidos, ND, traços e ações.",
+  "texto": "O **bloco de estatísticas** reúne os dados de jogo de um monstro. Depois do nome, ele traz:\n\n- **Tamanho.** Minúsculo, Pequeno, Médio, Grande, Enorme ou Imenso.\n- **Tipo de criatura.** A família de seres do monstro, com eventuais marcadores descritivos.\n- **Alinhamento.** Uma sugestão; o Mestre decide o alinhamento real. Veja [[alinhamento|Alinhamento]].\n- **CA, Iniciativa e PV.** [[classe-de-armadura|Classe de Armadura]], [[iniciativa|Iniciativa]] e Pontos de Vida. Entre parênteses, depois dos PV, vêm os Dados de Vida e a parte que a Constituição soma aos PV. Depois do modificador de Iniciativa aparece um valor de Iniciativa. Algumas criaturas criadas por magia não têm Dados de Vida nem Iniciativa.\n- **Deslocamento.** O Deslocamento normal e os especiais (Escalada, Escavação, Natação, Voo).\n- **Valores de atributo.** Tabela com valores, modificadores e modificadores de salvaguarda.\n- **Perícias.** As proficiências em perícia, se houver.\n- **Resistências e Vulnerabilidades.** Se houver.\n- **Imunidades.** Imunidades a dano e a condições, se houver.\n- **Equipamento.** Itens que podem ser entregues ou recolhidos, se houver.\n- **Sentidos.** Sentidos especiais, como Visão no Escuro, e a Percepção Passiva.\n- **Idiomas.** Os idiomas que o monstro conhece.\n- **ND.** O Nível de Desafio resume o perigo do monstro (detalhado no Livro dos Monstros). Os Pontos de Experiência por derrotá-lo e o Bônus de Proficiência dele dependem do ND. Algumas criaturas criadas por magia não têm ND.\n- **Traços.** Características sempre ativas ou ativas em certas situações.\n- **Ações.** Ações que o monstro pode executar além das ações do glossário (veja [[acao|Ação]]).\n- **Ações Bônus** e **Reações.** Opções especiais, se houver.\n\n### Como ler ataques, salvaguardas e dano\n- **Ataque:** diz se é corpo a corpo ou à distância, o bônus da jogada, o alcance ou a distância e o que acontece ao acertar. Atinge um alvo, salvo indicação em contrário.\n- **Efeito com salvaguarda:** diz o tipo de salvaguarda, a CD, quem precisa fazê-la e o que acontece na falha e no sucesso.\n- **Dano:** aparece como número fixo e expressão de dados, como 4 (1d4 + 2). O Mestre usa um ou outro, nunca os dois.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "campanha",
+  "nome": "Campanha",
+  "nome_en": "Campaign",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "campanha",
+   "campaign",
+   "aventuras",
+   "serie"
+  ],
+  "resumo": "Uma série de aventuras.",
+  "texto": "Uma **campanha** é uma série de aventuras. Veja também [[aventura|Aventura]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "capacidade-de-carga",
+  "nome": "Capacidade de Carga",
+  "nome_en": "Carrying Capacity",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "capacidade de carga",
+   "carrying capacity",
+   "peso",
+   "carregar",
+   "empurrar",
+   "levantar"
+  ],
+  "resumo": "Peso máximo carregado e arrastado/levantado conforme Força e tamanho; acima disso, máx. 1,5 m.",
+  "texto": "Seu tamanho e seu valor de Força definem o peso máximo que você consegue **carregar** e o peso máximo que consegue **arrastar, empurrar ou levantar**.\n\nEnquanto arrasta, empurra ou levanta um peso maior do que consegue carregar, seu Deslocamento não pode passar de **1,5 metro**.\n\n| Tamanho | Carregar | Arrastar/Empurrar/Levantar |\n|---|---|---|\n| Minúsculo | For × 3,5 kg | For × 7 kg |\n| Pequeno | For × 7 kg | For × 13,5 kg |\n| Médio | For × 7 kg | For × 13,5 kg |\n| Grande | For × 13,5 kg | For × 27 kg |\n| Enorme | For × 27 kg | For × 54,5 kg |\n| Imenso | For × 54,5 kg | For × 109 kg |",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "cilindro",
+  "nome": "Cilindro",
+  "nome_en": "Cylinder",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "cilindro",
+   "cylinder",
+   "area de efeito",
+   "coluna"
+  ],
+  "resumo": "Área com origem no centro da base ou do topo circular; o efeito define raio e altura.",
+  "texto": "*[Área de Efeito]*\n\nUm **Cilindro** é uma [[area-de-efeito|área de efeito]] que se estende em linhas retas a partir de um ponto de origem localizado no centro do círculo do topo ou da base do Cilindro.\n\n- O efeito que cria o Cilindro informa o raio da base e a altura.\n- O ponto de origem **faz parte** da área.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "classe-de-armadura",
+  "nome": "Classe de Armadura",
+  "nome_en": "Armor Class",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "classe de armadura",
+   "ca",
+   "armor class",
+   "ac",
+   "defesa"
+  ],
+  "resumo": "CA é o número-alvo de ataques; base 10 + mod. Destreza, usando só um cálculo de CA.",
+  "texto": "A **Classe de Armadura (CA)** é o número-alvo de uma jogada de ataque: indica o quanto é difícil acertar você.\n\n- Sua CA base é **10 + seu modificador de Destreza**.\n- Se uma regra der outra forma de calcular a CA base (armadura, Defesa sem Armadura etc.), você escolhe qual cálculo usar. Não dá para combinar mais de um.\n\nVeja também [[armaduras|Armaduras]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "classe-de-dificuldade",
+  "nome": "Classe de Dificuldade",
+  "nome_en": "Difficulty Class",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "classe de dificuldade",
+   "cd",
+   "difficulty class",
+   "dc",
+   "teste"
+  ],
+  "resumo": "CD é o número-alvo de um teste de atributo ou de uma salvaguarda.",
+  "texto": "A **Classe de Dificuldade (CD)** é o número que você precisa alcançar num teste de atributo ou numa salvaguarda.\n\nVeja também [[testes-de-d20|Testes de D20]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "combustao",
+  "nome": "Combustão",
+  "nome_en": "Burning",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "combustao",
+   "burning",
+   "fogo",
+   "pegando fogo",
+   "chamas"
+  ],
+  "resumo": "Em chamas: 1d4 de dano Ígneo no início de cada turno; apague com uma ação ficando Caído.",
+  "texto": "*[Risco]*\n\nUma criatura ou objeto **em chamas** sofre **1d4 de dano Ígneo** no início de cada um dos turnos dele.\n\n- Com uma ação, você pode apagar o fogo em si mesmo ficando com a condição [[caido|Caído]] e rolando no chão.\n- O fogo também se apaga se o alvo for encharcado, submerso ou abafado.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "condicao",
+  "nome": "Condição",
+  "nome_en": "Condition",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "condicao",
+   "condicoes",
+   "condition",
+   "estado",
+   "efeito"
+  ],
+  "resumo": "Estado temporário de jogo; não se acumula consigo mesmo, exceto Exaustão.",
+  "texto": "Uma **condição** é um estado temporário de jogo. A definição de cada condição diz como ela afeta quem a tem, e várias regras dizem como encerrá-la.\n\nCondições do jogo:\n- [[amedrontado|Amedrontado]]\n- [[atordoado|Atordoado]]\n- [[caido|Caído]]\n- [[cego|Cego]]\n- [[impedido|Contido]]\n- [[enfeiticado|Enfeitiçado]]\n- [[envenenado|Envenenado]]\n- [[exaustao|Exaustão]]\n- [[agarrado|Imobilizado]]\n- [[incapacitado|Incapacitado]]\n- [[inconsciente|Inconsciente]]\n- [[invisivel|Invisível]]\n- [[paralisado|Paralisado]]\n- [[petrificado|Petrificado]]\n- [[surdo|Surdo]]\n\nUma condição **não se acumula** com ela mesma: ou você a tem, ou não tem. A exceção é a Exaustão, que tem níveis.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "cone",
+  "nome": "Cone",
+  "nome_en": "Cone",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "cone",
+   "area de efeito",
+   "sopro",
+   "leque"
+  ],
+  "resumo": "Área que se abre a partir da origem; largura em cada ponto = distância até a origem.",
+  "texto": "*[Área de Efeito]*\n\nUm **Cone** é uma [[area-de-efeito|área de efeito]] que se estende em linhas retas a partir de um ponto de origem, na direção que quem o cria escolher.\n\n- Em qualquer ponto do comprimento, a largura do Cone é igual à distância desse ponto até a origem. Exemplo: a 4,5 metros da origem, o Cone tem 4,5 metros de largura.\n- O efeito que cria o Cone informa o comprimento máximo.\n- O ponto de origem **não faz parte** da área, a menos que quem cria o Cone decida incluí-lo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "criatura",
+  "nome": "Criatura",
+  "nome_en": "Creature",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "criatura",
+   "creature",
+   "ser",
+   "monstro",
+   "personagem"
+  ],
+  "resumo": "Qualquer ser do jogo, inclusive os personagens dos jogadores.",
+  "texto": "Qualquer ser do jogo é uma **criatura**, incluindo os personagens dos jogadores.\n\nCada criatura tem um tipo (Humanoide, Fera, Morto-vivo etc.) que pode importar para magias e outras regras.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "cubo",
+  "nome": "Cubo",
+  "nome_en": "Cube",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "cubo",
+   "cube",
+   "area de efeito",
+   "quadrado"
+  ],
+  "resumo": "Área cuja origem fica em qualquer ponto de uma face; o tamanho é a medida de cada aresta.",
+  "texto": "*[Área de Efeito]*\n\nUm **Cubo** é uma [[area-de-efeito|área de efeito]] que se estende em linhas retas a partir de um ponto de origem localizado em qualquer ponto de uma das faces do Cubo.\n\n- O efeito que cria o Cubo informa o tamanho dele, que é o comprimento de cada lado.\n- O ponto de origem **não faz parte** da área, a menos que quem cria o Cubo decida incluí-lo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "cura",
+  "nome": "Cura",
+  "nome_en": "Healing",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "cura",
+   "healing",
+   "curar",
+   "recuperar pv",
+   "pontos de vida"
+  ],
+  "resumo": "Cura é a forma de recuperar Pontos de Vida.",
+  "texto": "**Cura** é como você recupera Pontos de Vida. Ela pode vir de magias, poções, descansos e outras fontes, mas nunca leva seus PV acima do máximo.\n\nVeja também [[descanso-curto|Descanso Curto]], [[descanso-longo|Descanso Longo]] e [[zero-pontos-de-vida|Cair a 0 Pontos de Vida]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "dados-de-pontos-de-vida",
+  "nome": "Dados de Pontos de Vida",
+  "nome_en": "Hit Point Dice",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "dados de vida",
+   "dv",
+   "hit dice",
+   "pv máximos",
+   "curar"
+  ],
+  "resumo": "Dados que definem seus PV máximos e que você gasta no Descanso Curto para se curar.",
+  "texto": "Os Dados de Pontos de Vida (abreviados como **Dados de Vida**) servem para calcular os Pontos de Vida máximos de um personagem do jogador, como explica o capítulo 2. A maioria dos monstros também tem Dados de Vida.\n\nDurante um [[descanso-curto|Descanso Curto]], uma criatura pode gastar Dados de Vida para recuperar Pontos de Vida. No [[descanso-longo|Descanso Longo]], você recupera todos os Dados de Vida gastos.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "dano",
+  "nome": "Dano",
+  "nome_en": "Damage",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "damage",
+   "perder pv",
+   "ferimento",
+   "pontos de vida"
+  ],
+  "resumo": "Qualquer efeito que faz uma criatura ou objeto perder Pontos de Vida.",
+  "texto": "**Dano** é o efeito que faz uma criatura ou um objeto perder Pontos de Vida.\n\nPara regras de jogadas de dano, tipos de dano e cura, veja o capítulo 1 (“Dano e Cura”). Se você tem [[imunidade|Imunidade]] a um tipo de dano, ele não o afeta.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "desidratacao",
+  "nome": "Desidratação",
+  "nome_en": "Dehydration",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "sede",
+   "água",
+   "dehydration",
+   "risco",
+   "exaustão"
+  ],
+  "resumo": "Beber menos da metade da água diária dá 1 nível de Exaustão no fim do dia.",
+  "texto": "*Risco*\n\nToda criatura precisa de uma quantidade de água por dia que depende do tamanho dela (tabela abaixo).\n\nSe beber **menos da metade** do necessário em um dia, ela ganha 1 nível de [[exaustao|Exaustão]] no fim desse dia.\n\nA Exaustão causada pela desidratação não pode ser removida enquanto a criatura não beber a quantidade diária completa de água.\n\n### Água por dia\n| Tamanho | Água |\n|---|---|\n| Minúsculo | 1,25 litro |\n| Pequeno | 4 litros |\n| Médio | 4 litros |\n| Grande | 16 litros |\n| Enorme | 60 litros |\n| Imenso | 240 litros |",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "deslocamento",
+  "nome": "Deslocamento",
+  "nome_en": "Speed",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "speed",
+   "movimento",
+   "metros",
+   "andar",
+   "mover"
+  ],
+  "resumo": "Quantos metros você anda no seu turno; como alternar entre Deslocamentos especiais.",
+  "texto": "Toda criatura tem um **Deslocamento**: a distância, em metros, que ela pode percorrer quando se move no seu turno. Veja também [[escalar|Escalar]] e o capítulo 1 (“Combate”).\n\n### Deslocamentos especiais\nAlgumas criaturas têm [[deslocamento-de-escalada|Deslocamento de Escalada]], [[deslocamento-de-escavacao|de Escavação]], [[deslocamento-de-natacao|de Natação]] ou [[deslocamento-de-voo|de Voo]].\n\nSe você tem mais de um, escolha qual usar ao se mover. Você pode trocar no meio do movimento: a cada troca, subtraia do novo Deslocamento a distância que já percorreu. O que sobra é quanto você ainda pode se mover. Se der 0 ou menos, você não pode usar o novo Deslocamento nesse movimento.\n\n*Exemplo:* com Deslocamento 9 m e Deslocamento de Voo 12 m, você pode voar 3 m, andar 3 m e saltar no ar para voar mais 6 m.\n\n### Mudanças no Deslocamento\nSe um efeito aumenta ou reduz seu Deslocamento por um tempo, todos os seus Deslocamentos especiais mudam na mesma medida durante esse tempo.\n\n- Deslocamento reduzido a 0 → Deslocamento de Escalada também vira 0.\n- Deslocamento reduzido à metade → Deslocamento de Voo também cai à metade.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "deslocamento-de-escalada",
+  "nome": "Deslocamento de Escalada",
+  "nome_en": "Climb Speed",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "climb speed",
+   "escalar",
+   "subir",
+   "parede"
+  ],
+  "resumo": "Permite subir superfícies verticais sem pagar o movimento extra de escalar.",
+  "texto": "Você pode usar um Deslocamento de Escalada no lugar do seu [[deslocamento|Deslocamento]] para se mover por uma superfície vertical **sem gastar o movimento extra** que [[escalar|escalar]] normalmente custa.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "deslocamento-de-escavacao",
+  "nome": "Deslocamento de Escavação",
+  "nome_en": "Burrow Speed",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "burrow speed",
+   "cavar",
+   "escavar",
+   "túnel",
+   "subterrâneo"
+  ],
+  "resumo": "Permite cavar e se mover através de areia, terra, lama ou gelo (não rocha sólida).",
+  "texto": "Uma criatura com Deslocamento de Escavação pode usá-lo para se mover através de **areia, terra, lama ou gelo**.\n\nEla não atravessa rocha sólida, a não ser que tenha um traço que permita isso. Veja também [[deslocamento|Deslocamento]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "deslocamento-de-natacao",
+  "nome": "Deslocamento de Natação",
+  "nome_en": "Swim Speed",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "swim speed",
+   "nadar",
+   "natação",
+   "água"
+  ],
+  "resumo": "Permite nadar sem pagar o movimento extra da natação.",
+  "texto": "Você pode usar um Deslocamento de Natação para nadar **sem gastar o movimento extra** que a natação normalmente custa. Veja também [[deslocamento|Deslocamento]] e o capítulo 1 (“Natação”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "deslocamento-de-voo",
+  "nome": "Deslocamento de Voo",
+  "nome_en": "Fly Speed",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "fly speed",
+   "voar",
+   "voo",
+   "ar",
+   "pairar"
+  ],
+  "resumo": "Permite se mover pelo ar; você fica no alto até pousar, cair ou morrer.",
+  "texto": "Você pode usar um Deslocamento de Voo para se mover pelo ar.\n\nEnquanto tiver um Deslocamento de Voo, você continua no ar até **pousar, cair ou morrer**. Veja também [[deslocamento|Deslocamento]] e o capítulo 1 (“Voar”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "desnutricao",
+  "nome": "Desnutrição",
+  "nome_en": "Malnutrition",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "fome",
+   "comida",
+   "malnutrition",
+   "risco",
+   "exaustão"
+  ],
+  "resumo": "Comer menos da metade exige salvaguarda de Con CD 10; 5 dias sem comer dão Exaustão.",
+  "texto": "*Risco*\n\nToda criatura precisa de uma quantidade de comida por dia que depende do tamanho dela (tabela abaixo).\n\n- **Comeu menos da metade:** no fim do dia, faça uma salvaguarda de Constituição CD 10. Se falhar, ganha 1 nível de [[exaustao|Exaustão]].\n- **Sem comer nada:** ao fim do 5º dia sem comida, a criatura ganha 1 nível de Exaustão automaticamente, e mais 1 nível no fim de cada dia seguinte sem comer.\n\nA Exaustão causada pela desnutrição não pode ser removida enquanto a criatura não comer a quantidade diária completa.\n\n### Comida por dia\n| Tamanho | Comida |\n|---|---|\n| Minúsculo | 125 g |\n| Pequeno | 0,5 kg |\n| Médio | 0,5 kg |\n| Grande | 2 kg |\n| Enorme | 8 kg |\n| Imenso | 32 kg |",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "efeito-magico",
+  "nome": "Efeito Mágico",
+  "nome_en": "Magical Effect",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "mágico",
+   "magical effect",
+   "magia",
+   "item mágico"
+  ],
+  "resumo": "É mágico tudo que vem de magia, item mágico ou fenômeno que uma regra chama de mágico.",
+  "texto": "Um efeito é **mágico** quando é criado por:\n\n- uma magia;\n- um item mágico; ou\n- um fenômeno que alguma regra classifica como mágico.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "efeitos-simultaneos",
+  "nome": "Efeitos Simultâneos",
+  "nome_en": "Simultaneous Effects",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "simultâneo",
+   "ordem",
+   "mesmo tempo",
+   "simultaneous"
+  ],
+  "resumo": "Coisas ao mesmo tempo num turno: quem está no turno decide a ordem.",
+  "texto": "Quando duas ou mais coisas acontecem ao mesmo tempo durante um turno, **a pessoa à mesa dona desse turno** (jogador ou Mestre) escolhe em que ordem elas acontecem.\n\n*Exemplo:* se dois efeitos disparam no início do turno de um personagem do jogador, esse jogador decide qual resolve primeiro.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "emanacao",
+  "nome": "Emanação",
+  "nome_en": "Emanation",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "emanation",
+   "área de efeito",
+   "aura",
+   "raio"
+  ],
+  "resumo": "Área que se espalha em todas as direções a partir de uma criatura ou objeto e se move com ele.",
+  "texto": "*Área de Efeito*\n\nUma Emanação se estende em linhas retas, **em todas as direções**, a partir de uma criatura ou objeto. O efeito diz até que distância ela chega.\n\n- **Acompanha a origem.** A Emanação se move junto com a criatura ou o objeto de onde sai, a menos que seja um efeito instantâneo ou fixo.\n- **Origem fora da área.** A criatura ou o objeto de origem não está incluído na área, a menos que o criador decida incluir.\n\nVeja também [[alvos-e-efeitos|Áreas de efeito]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "encontro",
+  "nome": "Encontro",
+  "nome_en": "Encounter",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "encounter",
+   "cena",
+   "combate",
+   "exploração",
+   "interação social"
+  ],
+  "resumo": "Cena de aventura ligada a combate, exploração ou interação social.",
+  "texto": "Um **encontro** é uma cena de aventura que envolve pelo menos um dos três pilares do jogo:\n\n- combate;\n- exploração;\n- interação social.\n\nVeja também o capítulo 1 (“Combate”, “Exploração” e “Interação Social”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "escalar",
+  "nome": "Escalar",
+  "nome_en": "Climbing",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "climbing",
+   "escalada",
+   "subir",
+   "atletismo",
+   "parede"
+  ],
+  "resumo": "Cada metro escalando custa 1 m extra (2 m em Terreno Difícil); pode exigir Atletismo CD 15.",
+  "texto": "Enquanto escala, **cada metro de movimento custa 1 metro extra** (2 metros extras em Terreno Difícil).\n\nVocê ignora esse custo extra se tiver um [[deslocamento-de-escalada|Deslocamento de Escalada]] e usá-lo para escalar.\n\nSe a superfície vertical for escorregadia ou tiver poucos apoios, o Mestre pode exigir um teste de Força (Atletismo) CD 15.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "escuridao-iluminacao",
+  "nome": "Escuridão",
+  "nome_en": "Darkness",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "darkness",
+   "luz",
+   "iluminação",
+   "totalmente obscurecido",
+   "breu"
+  ],
+  "resumo": "Nível de iluminação: uma área de Escuridão é Totalmente Obscurecida.",
+  "texto": "Uma área de **Escuridão** é Totalmente Obscurecida.\n\nNão confunda com a magia [[escuridao|Escuridão]]. Veja também “Totalmente Obscurecido” e o capítulo 1 (“Exploração”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "esfera",
+  "nome": "Esfera",
+  "nome_en": "Sphere",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "sphere",
+   "área de efeito",
+   "raio",
+   "explosão"
+  ],
+  "resumo": "Área que sai de um ponto em todas as direções; o efeito define o raio. Inclui o ponto de origem.",
+  "texto": "*Área de Efeito*\n\nUma Esfera se estende em linhas retas, **em todas as direções**, a partir de um ponto de origem. O efeito informa a distância que ela alcança, que é o **raio** da Esfera.\n\nDiferente de outras áreas, **o ponto de origem faz parte** da área de efeito.\n\nVeja também [[alvos-e-efeitos|Áreas de efeito]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "espaco-desocupado",
+  "nome": "Espaço Desocupado",
+  "nome_en": "Unoccupied Space",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "unoccupied space",
+   "espaço livre",
+   "vazio",
+   "quadrado"
+  ],
+  "resumo": "Espaço sem nenhuma criatura e que não está totalmente cheio de objetos.",
+  "texto": "Um espaço está **desocupado** quando não há nenhuma criatura nele e ele não está completamente preenchido por objetos. Veja também [[espaco-ocupado|Espaço Ocupado]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "espaco-ocupado",
+  "nome": "Espaço Ocupado",
+  "nome_en": "Occupied Space",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "occupied space",
+   "espaço",
+   "ocupado",
+   "quadrado"
+  ],
+  "resumo": "Espaço com uma criatura dentro ou totalmente cheio de objetos.",
+  "texto": "Um espaço está **ocupado** quando há uma criatura nele ou quando ele está completamente preenchido por objetos. Veja também [[espaco-desocupado|Espaço Desocupado]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "ficha-de-personagem",
+  "nome": "Ficha de Personagem",
+  "nome_en": "Character Sheet",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "character sheet",
+   "ficha",
+   "personagem",
+   "registro"
+  ],
+  "resumo": "Registro, em papel ou digital, das informações do seu personagem.",
+  "texto": "A **ficha de personagem** é o registro, em papel ou digital, onde você acompanha as informações do seu personagem. Veja também o capítulo 2.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "hostil",
+  "nome": "Hostil",
+  "nome_en": "Hostile",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "hostile",
+   "atitude",
+   "inimizade",
+   "influenciar"
+  ],
+  "resumo": "Atitude: a criatura não gosta de você; Desvantagem para influenciá-la.",
+  "texto": "*Atitude*\n\nUma criatura **Hostil** vê você com maus olhos. Você tem Desvantagem nos testes de atributo para influenciá-la.\n\nVeja também [[influenciar|Influenciar]] e [[indiferente|Indiferente]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "ilusoes",
+  "nome": "Ilusões",
+  "nome_en": "Illusions",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "illusion",
+   "ilusão",
+   "falso",
+   "imagem",
+   "enganar"
+  ],
+  "resumo": "Ilusões no espaço não têm substância nem peso, mas reagem ao ambiente como se fossem reais.",
+  "texto": "Magias e outros efeitos às vezes criam ilusões mágicas. O próprio efeito define o que a ilusão faz e quais sentidos ou faculdades mentais ela engana.\n\nUma ilusão que aparece no espaço é **insubstancial e não tem peso**, mas parece reagir ao ambiente como se fosse real, salvo se o efeito disser o contrário.\n\n*Exemplos:* a ilusão visual de uma criatura projeta sombra e reflexo, e o vento parece mexer nela. Uma ilusão sonora ecoa num lugar com eco.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "imunidade",
+  "nome": "Imunidade",
+  "nome_en": "Immunity",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "immunity",
+   "imune",
+   "dano",
+   "condição"
+  ],
+  "resumo": "Imunidade a um tipo de dano ou condição: aquilo não afeta você de jeito nenhum.",
+  "texto": "Se você tem **Imunidade** a um tipo de [[dano|dano]] ou a uma condição, ele não afeta você de forma alguma.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "indiferente",
+  "nome": "Indiferente",
+  "nome_en": "Indifferent",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "indifferent",
+   "atitude",
+   "neutro",
+   "influenciar"
+  ],
+  "resumo": "Atitude padrão dos monstros: não quer ajudar nem atrapalhar você.",
+  "texto": "*Atitude*\n\nUma criatura **Indiferente** não quer ajudar nem atrapalhar você. Essa é a atitude padrão de um monstro.\n\nVeja também [[influenciar|Influenciar]] e [[hostil|Hostil]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "inimigo",
+  "nome": "Inimigo",
+  "nome_en": "Enemy",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "enemy",
+   "adversário",
+   "hostil",
+   "oponente"
+  ],
+  "resumo": "Quem luta contra você, trabalha para prejudicá-lo ou é definido como inimigo.",
+  "texto": "Uma criatura é sua **inimiga** se:\n\n- luta contra você em combate;\n- trabalha ativamente para prejudicar você; ou\n- é definida como sua inimiga pelas regras ou pelo Mestre.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "inspiracao-heroica",
+  "nome": "Inspiração Heroica",
+  "nome_en": "Heroic Inspiration",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "inspiração",
+   "heroic inspiration",
+   "rejogar",
+   "reroll"
+  ],
+  "resumo": "Gaste para jogar de novo qualquer dado logo após jogá-lo; vale o novo resultado.",
+  "texto": "Se você (um personagem do jogador) tem **Inspiração Heroica**, pode gastá-la para jogar novamente qualquer dado logo depois de jogá-lo. Você precisa usar o novo resultado.\n\nVocê só pode ter uma. Se receber Inspiração Heroica quando já tem, a nova se perde, a menos que você a dê a outro personagem do jogador que não tenha.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogada-de-ataque",
+  "nome": "Jogada de Ataque",
+  "nome_en": "Attack Roll",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "ataque",
+   "jogada",
+   "acertar",
+   "attack roll",
+   "d20"
+  ],
+  "resumo": "Teste de D20 feito para atacar com arma, Ataque Desarmado ou magia.",
+  "texto": "Uma jogada de ataque é um tipo de [[testes-de-d20|Teste de D20]]. Você a faz sempre que tenta atingir algo com uma arma, um [[ataque-desarmado|Ataque Desarmado]] ou uma [[magia|magia]].\n\nMais detalhes no capítulo 1 (“Testes de D20”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogada-de-dano",
+  "nome": "Jogada de Dano",
+  "nome_en": "Damage Roll",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "dano",
+   "jogada",
+   "dados de dano",
+   "damage roll"
+  ],
+  "resumo": "Jogada de dados, somada aos modificadores, que define o dano causado a um alvo.",
+  "texto": "Uma jogada de dano é quando você joga os dados de dano e aplica os modificadores pertinentes. O total é o dano que o alvo sofre.\n\nVeja os [[tipos-de-dano|Tipos de Dano]] e o capítulo 1 (“Dano e Cura”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "limiar-de-dano",
+  "nome": "Limiar de Dano",
+  "nome_en": "Damage Threshold",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "limiar",
+   "dano",
+   "objeto",
+   "imunidade",
+   "damage threshold"
+  ],
+  "resumo": "Ignora todo dano de uma fonte abaixo do limiar; se igualar ou passar, sofre o dano inteiro.",
+  "texto": "Quem tem um limiar de dano (criatura ou objeto) tem Imunidade a qualquer dano, exceto quando um único ataque ou efeito causa dano **igual ou maior** que o limiar. Nesse caso, sofre o dano **todo**, não só o excedente.\n\nDano abaixo do limiar é superficial e não reduz os [[pontos-de-vida|Pontos de Vida]].\n\n### Exemplo\nUm objeto com limiar 10:\n- Sofre 9 de dano: não perde nada.\n- Sofre 11 de dano: perde os 11 PV.\n\nObjetos grandes, como muralhas, costumam ter limiar. Veja [[quebrando-objetos|Quebrando Objetos]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "linha",
+  "nome": "Linha [Área de Efeito]",
+  "nome_en": "Line",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "linha",
+   "area de efeito",
+   "line",
+   "aoe"
+  ],
+  "resumo": "Área de efeito reta que parte do ponto de origem, com comprimento e largura definidos.",
+  "texto": "A Linha é uma área de efeito que sai de um ponto de origem e segue em linha reta pelo seu comprimento, ocupando a largura indicada. O efeito informa o comprimento e a largura.\n\nO ponto de origem **não** faz parte da área, a menos que quem cria o efeito decida incluí-lo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "luz-plena",
+  "nome": "Luz Plena",
+  "nome_en": "Bright Light",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "luz",
+   "iluminacao",
+   "bright light",
+   "visao"
+  ],
+  "resumo": "Iluminação normal; nela se enxerga sem penalidades.",
+  "texto": "Luz Plena é a iluminação normal, em que se enxerga sem dificuldade.\n\nCompare com [[meia-luz|Meia-luz]] e Escuridão. Mais no capítulo 1 (“Exploração”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "magia",
+  "nome": "Magia",
+  "nome_en": "Spell",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "magia",
+   "feitico",
+   "spell",
+   "conjurar"
+  ],
+  "resumo": "Efeito mágico com as características descritas no capítulo 7.",
+  "texto": "Uma magia é um efeito mágico com as características (círculo, tempo de conjuração, alcance, componentes, duração etc.) descritas no capítulo 7.\n\nVeja [[conjurando-magias|Conjurando Magias]] e [[truque|Truque]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "maldicoes",
+  "nome": "Maldições",
+  "nome_en": "Curses",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "maldicao",
+   "amaldicoado",
+   "curse",
+   "remover maldicao"
+  ],
+  "resumo": "O efeito que amaldiçoa define as consequências; Remover Maldição e Restauração Maior encerram.",
+  "texto": "Certos efeitos amaldiçoam uma criatura ou um objeto. As consequências são definidas pelo próprio efeito que criou a maldição.\n\nPara remover uma maldição, use [[remover-maldicao|Remover Maldição]], [[restauracao-maior|Restauração Maior]] ou outra magia que diga explicitamente que encerra maldições.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "meia-luz",
+  "nome": "Meia-luz",
+  "nome_en": "Dim Light",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "meia-luz",
+   "penumbra",
+   "dim light",
+   "iluminacao"
+  ],
+  "resumo": "Uma área em Meia-luz é Levemente Obscurecida.",
+  "texto": "Áreas com Meia-luz contam como [[parcialmente-obscurecido|Levemente Obscurecidas]] (o livro chama de “Parcialmente Obscurecido”).\n\nVeja também [[luz-plena|Luz Plena]] e o capítulo 1 (“Exploração”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "monstro",
+  "nome": "Monstro",
+  "nome_en": "Monster",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "monstro",
+   "criatura",
+   "inimigo",
+   "monster"
+  ],
+  "resumo": "Qualquer criatura controlada pelo Mestre, mesmo que seja benevolente.",
+  "texto": "Monstro é toda criatura controlada pelo Mestre, ainda que seja bondosa.\n\nUm monstro com nome próprio e personalidade marcante é um [[personagem-nao-jogador|PNJ]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "morto",
+  "nome": "Morto",
+  "nome_en": "Dead",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "morte",
+   "morto",
+   "reviver",
+   "ressuscitar",
+   "dead"
+  ],
+  "resumo": "Sem PV e sem cura; só volta com magia de reviver. Retorna com 1 nível de Exaustão a menos.",
+  "texto": "Uma criatura morta não tem [[pontos-de-vida|Pontos de Vida]] e não pode recuperá-los, a não ser que seja trazida de volta por magia, como [[reviver-os-mortos|Reviver os Mortos]] ou [[revivificar|Revivificar]].\n\nO espírito do morto deixou o corpo e foi para os Planos Externos; reviver significa trazê-lo de volta. Quando uma dessas magias é conjurada, o espírito sabe quem está conjurando e pode recusar.\n\n### Ao voltar à vida\n- Os PV atuais são definidos pelo efeito que a reviveu. Se ele não disser nada, a criatura volta com todos os PV.\n- Condições, contágios mágicos e maldições que a afetavam na morte continuam, se ainda não tiverem expirado.\n- Se morreu com níveis de [[exaustao|Exaustão]], volta com **1 nível a menos**.\n- Perde a [[sintonizacao|Sintonização]] com todos os itens mágicos.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "multimorfia",
+  "nome": "Multimorfia",
+  "nome_en": "Shape-Shifting",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "mudar de forma",
+   "transformacao",
+   "shape-shifting",
+   "metamorfose"
+  ],
+  "resumo": "Ao mudar de forma, efeitos contínuos seguem com você; ao morrer, volta à forma verdadeira.",
+  "texto": "Quando um efeito permite que você mude de forma (como [[polimorfia|Polimorfia]] ou [[forma-selvagem|Forma Selvagem]]), a descrição dele explica o que acontece com você.\n\nSalvo indicação contrária:\n- Efeitos contínuos sobre você (condições, magias, maldições etc.) passam de uma forma para a outra.\n- Se você morrer, volta à sua forma verdadeira.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "natacao",
+  "nome": "Natação",
+  "nome_en": "Swimming",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "nadar",
+   "agua",
+   "swimming",
+   "deslocamento de natacao",
+   "atletismo"
+  ],
+  "resumo": "Nadar custa 1 m extra por metro (2 m em Terreno Difícil), exceto com Deslocamento de Natação.",
+  "texto": "Ao nadar, cada metro de movimento custa **1 metro extra** (**2 metros extras** em [[terreno-dificil|Terreno Difícil]]).\n\nSe você tem Deslocamento de Natação e o usa para nadar, ignora esse custo extra.\n\nEm águas agitadas, o Mestre pode exigir um teste de Força (Atletismo) CD 15 para avançar qualquer distância.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "nivel-de-desafio",
+  "nome": "Nível de Desafio",
+  "nome_en": "Challenge Rating",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "nd",
+   "desafio",
+   "challenge rating",
+   "cr",
+   "encontro"
+  ],
+  "resumo": "ND: o quanto um monstro ameaça um grupo de quatro personagens.",
+  "texto": "O Nível de Desafio (**ND**) resume o perigo que um monstro representa para um grupo de quatro personagens dos jogadores.\n\n- ND acima do nível dos personagens: provavelmente uma ameaça séria.\n- ND abaixo: tende a ser pouco perigoso.\n\nNa prática, as circunstâncias e o tamanho do grupo podem mudar bastante esse perigo. O Livro do Mestre explica como usar o ND para montar encontros. O ND aparece no bloco de estatísticas do monstro.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "nocautear",
+  "nome": "Nocauteando uma Criatura",
+  "nome_en": "Knocking Out a Creature",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "nocaute",
+   "desmaiar",
+   "nao letal",
+   "knock out",
+   "inconsciente"
+  ],
+  "resumo": "Ao zerar os PV com ataque corpo a corpo, pode deixar o alvo com 1 PV e Inconsciente.",
+  "texto": "Quando você reduziria uma criatura a 0 PV com um ataque **corpo a corpo**, pode escolher deixá-la com **1 PV**. Ela ganha a condição [[inconsciente|Inconsciente]] e começa um [[descanso-curto|Descanso Curto]]; ao fim dele, a condição termina.\n\nA condição termina antes se a criatura recuperar qualquer PV ou se alguém usar uma ação para prestar primeiros socorros, com sucesso em um teste de Sabedoria (Medicina) CD 10.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "objeto",
+  "nome": "Objeto",
+  "nome_en": "Object",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "objeto",
+   "coisa",
+   "object",
+   "item"
+  ],
+  "resumo": "Coisa distinta e não viva; estruturas como edifícios são vários objetos.",
+  "texto": "Um objeto é uma coisa individual e sem vida. Estruturas compostas, como edifícios, são formadas por vários objetos.\n\nPara danificar objetos, veja [[quebrando-objetos|Quebrando Objetos]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "pairar",
+  "nome": "Pairar",
+  "nome_en": "Hover",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "pairar",
+   "flutuar",
+   "hover",
+   "voo"
+  ],
+  "resumo": "Quem paira não cai ao voar mesmo Caído, Incapacitado ou com Deslocamento de Voo 0.",
+  "texto": "Algumas criaturas podem pairar (indicado no bloco de estatísticas), e certas magias e efeitos concedem essa habilidade.\n\nPairar enquanto voa evita que você caia em situações em que normalmente cairia. Veja [[voar|Voar]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "parcialmente-obscurecido",
+  "nome": "Parcialmente Obscurecido",
+  "nome_en": "Lightly Obscured",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "levemente obscurecido",
+   "obscurecido",
+   "lightly obscured",
+   "percepcao",
+   "visibilidade",
+   "levemente obscurecido"
+  ],
+  "resumo": "Desvantagem em Sabedoria (Percepção) para ver algo na área (Levemente Obscurecido).",
+  "texto": "Em um espaço Levemente Obscurecido (chamado no livro de “Parcialmente Obscurecido”), você tem Desvantagem em testes de Sabedoria (Percepção) para ver algo ali.\n\nVeja também [[meia-luz|Meia-luz]], [[totalmente-obscurecido|Totalmente Obscurecido]] e o capítulo 1 (“Exploração”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "percepcao-passiva",
+  "nome": "Percepção Passiva",
+  "nome_en": "Passive Perception",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "percepcao",
+   "passiva",
+   "notar",
+   "passive perception",
+   "sabedoria"
+  ],
+  "resumo": "10 + bônus de Sabedoria (Percepção); +5 com Vantagem, −5 com Desvantagem.",
+  "texto": "A Percepção Passiva mede a atenção geral de uma criatura ao redor. O Mestre a usa para saber se ela nota algo sem fazer um teste de Sabedoria (Percepção).\n\n**Percepção Passiva = 10 + bônus do teste de Sabedoria (Percepção)**\n\n- Com Vantagem nesses testes: +5.\n- Com Desvantagem: −5.\n\n### Exemplo\nPersonagem de nível 1, Sabedoria 15 e proficiência em Percepção: 10 + 2 + 2 = **14**. Se tiver Vantagem em Percepção, fica **19**.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "pericia",
+  "nome": "Perícia",
+  "nome_en": "Skill",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "pericia",
+   "skill",
+   "proficiencia",
+   "teste"
+  ],
+  "resumo": "Área de especialidade de um teste de atributo; com proficiência, soma o Bônus de Proficiência.",
+  "texto": "Uma perícia é uma área de conhecimento ligada a um [[teste-de-atributo|teste de atributo]]. Se você tem [[proficiencia|proficiência]] na perícia, soma seu [[bonus-de-proficiencia|Bônus de Proficiência]] aos testes de atributo que a envolvem.\n\nVeja também [[especializacao|Especialização]] e o capítulo 1 (“Proficiência”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "personagem-do-jogador",
+  "nome": "Personagem do Jogador",
+  "nome_en": "Player Character",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "pj",
+   "personagem",
+   "jogador",
+   "player character",
+   "pc"
+  ],
+  "resumo": "Personagem controlado por um jogador (PJ).",
+  "texto": "Um personagem do jogador (**PJ**) é o personagem controlado por um dos jogadores. A criação de personagem está no capítulo 2.\n\nPersonagens controlados pelo Mestre são [[monstro|monstros]] ou [[personagem-nao-jogador|PNJs]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "personagem-nao-jogador",
+  "nome": "Personagem Não Jogador",
+  "nome_en": "Nonplayer Character",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "pnj",
+   "npc",
+   "nonplayer character",
+   "mestre"
+  ],
+  "resumo": "PNJ: monstro com nome próprio e personalidade marcante.",
+  "texto": "Um personagem não jogador (**PNJ**) é um [[monstro|monstro]] que tem nome próprio e personalidade própria. Ele é controlado pelo Mestre.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "pontos-de-experiencia",
+  "nome": "Pontos de Experiência",
+  "nome_en": "Experience Points",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "xp",
+   "experiencia",
+   "subir de nivel",
+   "experience points"
+  ],
+  "resumo": "XP dado pelo Mestre; ao passar certos totais, o personagem sobe de nível.",
+  "texto": "Ao superar desafios e concluir aventuras, os personagens ganham Pontos de Experiência (**XP**), dados pelo Mestre. Quando o total de XP passa de certos limites, o personagem sobe de nível.\n\nO Livro do Mestre orienta como conceder XP. Veja o capítulo 2 (“Avanço de Nível”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "pontos-de-vida",
+  "nome": "Pontos de Vida",
+  "nome_en": "Hit Points",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "pv",
+   "vida",
+   "hp",
+   "hit points",
+   "dano"
+  ],
+  "resumo": "PV medem o quanto é difícil matar ou destruir algo; ficam entre 0 e o máximo.",
+  "texto": "Pontos de Vida (**PV**) medem o quanto é difícil matar ou destruir uma criatura ou um objeto. Dano reduz PV e cura os recupera.\n\nVocê nunca fica com mais PV que seu máximo nem com menos de 0.\n\nVeja também [[pontos-de-vida-temporarios|Pontos de Vida Temporários]], [[zero-pontos-de-vida|Cair a 0 Pontos de Vida]], [[quebrando-objetos|Quebrando Objetos]] e o capítulo 1 (“Dano e Cura”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "pontos-de-vida-temporarios",
+  "nome": "Pontos de Vida Temporários",
+  "nome_en": "Temporary Hit Points",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "pv temporarios",
+   "temporarios",
+   "temp hp",
+   "temporary hit points",
+   "escudo"
+  ],
+  "resumo": "PV extras concedidos por efeitos; absorvem dano antes dos seus PV reais.",
+  "texto": "Pontos de Vida Temporários vêm de certos efeitos e servem de barreira: o dano os consome antes de atingir seus [[pontos-de-vida|Pontos de Vida]] reais.\n\nDetalhes no capítulo 1 (“Dano e Cura”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "por-dia",
+  "nome": "Por Dia",
+  "nome_en": "Per Day",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "por dia",
+   "usos",
+   "recarga",
+   "per day",
+   "descanso longo"
+  ],
+  "resumo": "Usos “por dia” só voltam depois de terminar um Descanso Longo.",
+  "texto": "Quando uma regra diz que você pode usar algo certo número de vezes **por dia**, depois de gastar todos os usos você precisa terminar um [[descanso-longo|Descanso Longo]] para usá-lo de novo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "possessao",
+  "nome": "Possessão",
+  "nome_en": "Possession",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "possessao",
+   "possuido",
+   "possession",
+   "controle"
+  ],
+  "resumo": "Efeito de possessão define as regras; Proteção contra o Bem e o Mal previne, Dissipar encerra.",
+  "texto": "Alguns efeitos fazem uma criatura ou entidade possuir outra criatura. O próprio efeito explica como a possessão funciona.\n\n- Para impedir: [[protecao-contra-o-bem-e-o-mal|Proteção Contra o Bem e o Mal]].\n- Para encerrar: [[dissipar-o-bem-e-o-mal|Dissipar o Bem e o Mal]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "proficiencia",
+  "nome": "Proficiência",
+  "nome_en": "Proficiency",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "proficiencia",
+   "proficiency",
+   "treinado",
+   "bonus"
+  ],
+  "resumo": "Com proficiência em algo, soma o Bônus de Proficiência aos Testes de D20 que o envolvem.",
+  "texto": "Ter proficiência em algo permite somar seu [[bonus-de-proficiencia|Bônus de Proficiência]] a qualquer [[testes-de-d20|Teste de D20]] que envolva aquilo.\n\nUma criatura pode ter proficiência com:\n- armas;\n- ferramentas;\n- salvaguardas;\n- [[pericia|perícias]].\n\nVeja o capítulo 1 (“Proficiência”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "quebrando-objetos",
+  "nome": "Quebrando Objetos",
+  "nome_en": "Breaking Objects",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "quebrar",
+   "objeto",
+   "destruir",
+   "breaking objects",
+   "ca de objeto"
+  ],
+  "resumo": "CA, PV e imunidades sugeridas para objetos atacados ou alvos de magia.",
+  "texto": "Objetos podem ser danificados por ataques e por algumas magias. Se o objeto for muito frágil, o Mestre pode deixar uma criatura quebrá-lo automaticamente com a ação [[atacar|Atacar]] ou [[usar|Usar Objeto]].\n\n### Classe de Armadura\n| Substância | CA |\n|---|---|\n| Corda, papel, tecido | 11 |\n| Cristal, gelo, vidro | 13 |\n| Madeira | 15 |\n| Pedra | 17 |\n| Aço, ferro | 19 |\n| Mitral | 21 |\n| Adamantina | 23 |\n\n### Pontos de Vida\nO objeto é destruído ao chegar a 0 PV. Valores sugeridos para objetos Grandes ou menores:\n\n| Tamanho | Frágil | Resistente |\n|---|---|---|\n| Minúsculo (garrafa, fechadura) | 2 (1d4) | 5 (2d4) |\n| Pequeno (alaúde, baú) | 3 (1d6) | 10 (3d6) |\n| Médio (barril, lustre) | 4 (1d8) | 18 (4d8) |\n| Grande (carroça, mesa) | 5 (1d10) | 27 (5d10) |\n\nPara objetos Enormes ou Imensos, divida-os em seções Grandes ou menores e controle os PV de cada uma. O Mestre decide se destruir uma parte destrói o objeto inteiro.\n\n### Tipos de dano\n- Objetos têm Imunidade a dano Psíquico e Venenoso.\n- O Mestre pode decidir que certos tipos funcionam melhor ou pior. Ex.: Contundente é bom para esmagar, mas ruim para cortar; papel e tecido podem ter [[vulnerabilidade|Vulnerabilidade]] a dano Ígneo.\n\n### Limiar de dano\nObjetos grandes, como muralhas de castelo, costumam ter um [[limiar-de-dano|limiar de dano]].\n\n### Sem valores de atributo\nSalvo regra em contrário, objetos não têm valores de atributo: não fazem testes de atributo e falham em todas as salvaguardas.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "queda",
+  "nome": "Queda [Risco]",
+  "nome_en": "Falling",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "queda",
+   "cair",
+   "falling",
+   "dano de queda",
+   "risco"
+  ],
+  "resumo": "1d6 Contundente a cada 3 m caídos (máx. 20d6) e fica Caído; em água, pode reduzir à metade.",
+  "texto": "Ao final de uma queda, a criatura sofre **1d6 de dano Contundente para cada 3 metros** caídos, até o máximo de **20d6**. Ao atingir o chão, fica [[caido|Caída]], a menos que evite todo o dano da queda.\n\n### Queda na água\nSe cair em água ou outro líquido, a criatura pode usar sua [[reacao|Reação]] para fazer um teste de Força (Atletismo) CD 15 ou Destreza (Acrobacia) CD 15 e entrar de cabeça ou de pés. Se passar, o dano da queda cai pela metade.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "rastejar",
+  "nome": "Rastejar",
+  "nome_en": "Crawling",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "rastejar",
+   "engatinhar",
+   "crawling",
+   "caido",
+   "movimento"
+  ],
+  "resumo": "Rastejar custa 1 m extra por metro (2 m extras em Terreno Difícil).",
+  "texto": "Ao rastejar, cada metro de movimento custa **1 metro extra** (**2 metros extras** em [[terreno-dificil|Terreno Difícil]]).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "reacao",
+  "nome": "Reação",
+  "nome_en": "Reaction",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "reacao",
+   "reaction",
+   "gatilho",
+   "acao"
+  ],
+  "resumo": "Ação especial em resposta a um gatilho, até no turno de outros; uma por rodada.",
+  "texto": "Uma Reação é uma ação especial feita em resposta a um gatilho descrito nela. Você pode usá-la até durante o turno de outra criatura.\n\n- Usar Ação, Ação Bônus ou ambas no seu turno não impede a Reação.\n- Depois de usar uma Reação, só pode usar outra a partir do início do seu próximo turno.\n\nO [[ataque-de-oportunidade|Ataque de Oportunidade]] é uma Reação que todas as criaturas têm. Veja também [[preparar|Preparar]] e o capítulo 1 (“Ações”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "resistencia-a-dano",
+  "nome": "Resistência",
+  "nome_en": "Resistance",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "resistencia",
+   "resistance",
+   "metade do dano",
+   "dano"
+  ],
+  "resumo": "Dano do tipo resistido é reduzido à metade (arredondado para baixo).",
+  "texto": "Se você tem Resistência a um tipo de dano, o dano desse tipo contra você cai **pela metade** (arredondado para baixo).\n\nA Resistência é aplicada só uma vez por instância de dano. Veja [[vulnerabilidade|Vulnerabilidade]], [[tipos-de-dano|Tipos de Dano]] e o capítulo 1 (“Dano e Cura”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "risco",
+  "nome": "Risco",
+  "nome_en": "Hazard",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "risco",
+   "perigo",
+   "ambiente",
+   "hazard"
+  ],
+  "resumo": "Perigo do ambiente: asfixia, combustão, desidratação, desnutrição e queda.",
+  "texto": "Um risco é um perigo do ambiente. Os riscos do glossário são:\n- Asfixia\n- Combustão\n- Desidratação\n- Desnutrição\n- [[queda|Queda]]",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "ritual",
+  "nome": "Ritual",
+  "nome_en": "Ritual",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "ritual",
+   "conjurar",
+   "sem espaco",
+   "magia ritual"
+  ],
+  "resumo": "Magia preparada com marcador Ritual: +10 min de conjuração, sem gastar espaço de magia.",
+  "texto": "Se você tem preparada uma [[magia|magia]] com o marcador Ritual, pode conjurá-la como Ritual.\n\n- A conjuração leva **10 minutos a mais** que o normal.\n- Não gasta espaço de magia; por isso, a versão Ritual não pode ser conjurada em círculo superior.\n\nVeja o capítulo 7 e [[conjurando-magias|Conjurando Magias]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "salto-em-altura",
+  "nome": "Salto em Altura",
+  "nome_en": "High Jump",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "saltar",
+   "pular",
+   "salto",
+   "high jump",
+   "jump"
+  ],
+  "resumo": "Salto vertical: 1 m + 30 cm por ponto de modificador de Força, com 3 m de corrida.",
+  "texto": "Saltar pode ser um Salto em Altura (vertical) ou um [[salto-em-distancia|Salto em Distância]] (horizontal).\n\nNo Salto em Altura, você sobe **1 metro + 30 cm por ponto do seu modificador de Força** (mínimo 0), desde que se mova pelo menos 3 metros a pé logo antes. Parado, alcança só metade dessa altura.\n\nEm ambos os casos, cada metro saltado custa um metro de movimento.\n\nDurante o salto, você pode esticar os braços até metade da sua altura acima de você. Assim, alcança a altura do salto mais 1,5 vez a sua altura.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "salto-em-distancia",
+  "nome": "Salto em Distância",
+  "nome_en": "Long Jump",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "saltar",
+   "pular",
+   "salto",
+   "long jump",
+   "jump"
+  ],
+  "resumo": "Salto horizontal: 30 cm por ponto de Força, com 3 m de corrida; parado, metade.",
+  "texto": "Saltar pode ser um Salto em Distância (horizontal) ou um [[salto-em-altura|Salto em Altura]] (vertical).\n\nNo Salto em Distância, você avança **30 cm por ponto do seu valor de Força**, desde que se mova pelo menos 3 metros a pé logo antes. Parado, alcança só metade.\n\nEm ambos os casos, cada metro saltado custa 1 metro de movimento.\n\n- **Pouso em Terreno Difícil:** teste de Destreza (Acrobacia) CD 10 ou você fica [[caido|Caído]].\n- **Obstáculo baixo:** a regra ignora a altura (pular um riacho ou fenda). Para passar por cima de algo baixo (até 1/4 da distância do salto), como uma sebe ou muro baixo, o Mestre pode pedir Força (Atletismo) CD 10; se falhar, você bate no obstáculo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "salvaguarda",
+  "nome": "Salvaguarda",
+  "nome_en": "Saving Throw",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "salvaguarda",
+   "sg",
+   "saving throw",
+   "save",
+   "resistir"
+  ],
+  "resumo": "SG: Teste de D20 para evitar ou resistir a uma ameaça; o efeito define o resultado.",
+  "texto": "Uma salvaguarda (**SG**) representa a tentativa de evitar ou resistir a uma ameaça. É um dos três [[testes-de-d20|Testes de D20]].\n\n- Normalmente você só faz uma salvaguarda quando uma regra pede, mas pode escolher falhar sem jogar.\n- O resultado é descrito pelo efeito que pediu a salvaguarda.\n- Se o alvo não tem o valor de atributo exigido, falha automaticamente.\n\nVeja o capítulo 1 (“Testes de D20”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "sangrando",
+  "nome": "Sangrando",
+  "nome_en": "Bloodied",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "sangrando",
+   "bloodied",
+   "metade dos pv",
+   "ferido"
+  ],
+  "resumo": "A criatura está Sangrando com metade ou menos dos seus PV.",
+  "texto": "Uma criatura está **Sangrando** enquanto tiver metade ou menos dos seus [[pontos-de-vida|Pontos de Vida]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "sintonizacao",
+  "nome": "Sintonização",
+  "nome_en": "Attunement",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "sintonizacao",
+   "sintonizar",
+   "attunement",
+   "item magico"
+  ],
+  "resumo": "Vínculo exigido por alguns itens mágicos; no máximo três itens ao mesmo tempo.",
+  "texto": "Alguns itens mágicos exigem que a criatura crie um vínculo com eles, a **Sintonização**, antes de usar suas propriedades mágicas.\n\nUma criatura pode estar sintonizada com **no máximo três** itens mágicos ao mesmo tempo.\n\nVeja [[itens-magicos|Itens Mágicos]] (capítulo 6).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "sismiconsciencia",
+  "nome": "Sismiconsciência",
+  "nome_en": "Tremorsense",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "sismiconsciencia",
+   "tremorsense",
+   "sentido",
+   "vibracao"
+  ],
+  "resumo": "Localiza criaturas e objetos em movimento que tocam a mesma superfície ou líquido.",
+  "texto": "Com Sismiconsciência, você localiza criaturas e objetos **em movimento** dentro de um alcance, desde que você e eles estejam em contato com a mesma superfície (chão, parede, teto) ou o mesmo líquido.\n\n- Não detecta nada que esteja no ar.\n- Não é uma forma de visão.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "surpresa",
+  "nome": "Surpresa",
+  "nome_en": "Surprise",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "surpresa",
+   "surpreso",
+   "surprise",
+   "desprevenido",
+   "iniciativa"
+  ],
+  "resumo": "Criatura pega desprevenida no início do combate tem Desvantagem na Iniciativa.",
+  "texto": "Se uma criatura é pega desprevenida quando o combate começa, ela está surpresa e tem **Desvantagem** na jogada de [[iniciativa|Iniciativa]].\n\nVeja o capítulo 1 (“Combate”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "tamanho",
+  "nome": "Tamanho",
+  "nome_en": "Size",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "tamanho",
+   "size",
+   "espaco",
+   "categoria de tamanho"
+  ],
+  "resumo": "Minúsculo, Pequeno, Médio, Grande, Enorme ou Imenso; define espaço em combate.",
+  "texto": "Toda criatura ou objeto tem uma categoria de tamanho:\n- Minúsculo\n- Pequeno\n- Médio\n- Grande\n- Enorme\n- Imenso\n\nO tamanho de uma criatura define o espaço que ela ocupa em combate. O de um objeto influencia seus PV (veja [[quebrando-objetos|Quebrando Objetos]]).\n\nMais no capítulo 1 (“Combate”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "telepatia-habilidade",
+  "nome": "Telepatia",
+  "nome_en": "Telepathy",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "telepatia",
+   "telepathy",
+   "mente",
+   "comunicacao"
+  ],
+  "resumo": "Comunicação mental dentro de um alcance; não exige idioma comum nem ver o alvo.",
+  "texto": "Telepatia é uma habilidade mágica de se comunicar mentalmente com outra criatura dentro de um alcance.\n\n- Salvo regra em contrário, a criatura contatada não precisa falar o mesmo idioma, mas precisa entender pelo menos um idioma ou ser telepata.\n- O telepata não precisa ver a criatura e pode iniciar ou encerrar o contato a qualquer momento (sem ação).\n\n### O contato termina ou não começa se:\n- o telepata ou a outra criatura estiver [[incapacitado|Incapacitado]];\n- a criatura sair do alcance;\n- o telepata contatar outra criatura no alcance.\n\nQuem não tem telepatia pode receber mensagens, mas não iniciar a conversa. Depois que ela começa, pode responder mentalmente até a conexão acabar.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "teleporte-regra",
+  "nome": "Teleporte",
+  "nome_en": "Teleportation",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "teleporte",
+   "teletransporte",
+   "teleportation",
+   "teleportar"
+  ],
+  "resumo": "Some e reaparece em outro lugar; não gasta movimento nem provoca Ataque de Oportunidade.",
+  "texto": "Teleporte é um transporte mágico especial: você some e reaparece na hora em outro lugar, sem atravessar o espaço entre eles.\n\n- Não gasta movimento, salvo regra em contrário.\n- Nunca provoca [[ataque-de-oportunidade|Ataques de Oportunidade]].\n- Todo o equipamento que você veste e carrega vai junto.\n- Uma criatura que você esteja tocando **não** vai junto, a menos que o efeito diga.\n- Se o destino estiver ocupado por uma criatura ou bloqueado por algo sólido, você aparece no espaço desocupado mais próximo, à sua escolha.\n\nO efeito diz se você precisa ver o destino.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "terreno-dificil",
+  "nome": "Terreno Difícil",
+  "nome_en": "Difficult Terrain",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "terreno dificil",
+   "difficult terrain",
+   "movimento",
+   "deslocamento"
+  ],
+  "resumo": "Cada metro custa 1 m extra; não é cumulativo.",
+  "texto": "Em Terreno Difícil, cada metro percorrido custa **1 metro extra**. Ex.: andar 1,5 m custa 3 m de movimento.\n\nNão é cumulativo: o espaço é ou não é Terreno Difícil.\n\n### Exemplos\nUm espaço é Terreno Difícil se tiver algo como:\n- uma criatura que não seja Minúscula nem sua aliada;\n- móveis feitos para criaturas do seu tamanho ou maiores;\n- neve funda, gelo, escombros ou vegetação rasteira;\n- líquido entre a canela e a cintura;\n- passagem estreita feita para criaturas de tamanho menor que o seu;\n- inclinação de 20 graus ou mais.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "teste-de-atributo",
+  "nome": "Teste de Atributo",
+  "nome_en": "Ability Check",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "teste",
+   "atributo",
+   "ability check",
+   "pericia"
+  ],
+  "resumo": "Teste de D20 com um dos seis atributos (e talvez uma perícia) para superar um desafio.",
+  "texto": "Um teste de atributo é um [[testes-de-d20|Teste de D20]] em que você usa um dos seis atributos, às vezes com uma [[pericia|perícia]] ligada a ele, para superar um desafio.\n\nVeja o capítulo 1 (“Proficiência” e “Testes de D20”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "tipo-de-criatura",
+  "nome": "Tipo de Criatura",
+  "nome_en": "Creature Type",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "tipo",
+   "criatura",
+   "creature type",
+   "humanoide",
+   "morto-vivo"
+  ],
+  "resumo": "Marcador que classifica a criatura (Humanoide, Morto-vivo etc.); a maioria dos PJs é Humanoide.",
+  "texto": "Toda criatura, inclusive os personagens dos jogadores, tem um marcador de tipo. A maioria dos PJs é Humanoide.\n\n### Tipos\n- Aberração\n- Celestial\n- Constructo\n- Dragão\n- Elemental\n- Feérico\n- Fera\n- Gigante\n- Gosma\n- Humanoide\n- Ínfero\n- Monstruosidade\n- Morto-vivo\n- Planta\n\nOs tipos não têm regras próprias, mas algumas regras afetam certos tipos de forma diferente.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "tipos-de-dano",
+  "nome": "Tipos de Dano",
+  "nome_en": "Damage Types",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "dano",
+   "tipos de dano",
+   "damage types",
+   "elemento"
+  ],
+  "resumo": "Os 13 tipos de dano, com exemplos; regras como Resistência dependem deles.",
+  "texto": "Ataques e efeitos nocivos causam tipos diferentes de dano. Os tipos não têm regras próprias, mas outras regras, como [[resistencia-a-dano|Resistência]] e [[vulnerabilidade|Vulnerabilidade]], dependem deles.\n\nA tabela ajuda o Mestre a escolher o tipo de um efeito novo.\n\n| Tipo | Exemplos |\n|---|---|\n| Ácido | Líquidos corrosivos, enzimas digestivas |\n| Contundente | Objetos rombudos, constrição, queda |\n| Cortante | Garras, objetos afiados |\n| Elétrico | Eletricidade |\n| Energético | Energia mágica pura |\n| Gélido | Água congelante, rajadas de gelo |\n| Ígneo | Chamas, calor extremo |\n| Necrótico | Energia que drena a vida |\n| Perfurante | Presas, objetos pontudos |\n| Psíquico | Energia que dilacera a mente |\n| Radiante | Energia sagrada, radiação abrasadora |\n| Trovejante | Som concussivo |\n| Venenoso | Gases tóxicos, veneno |",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "totalmente-obscurecido",
+  "nome": "Totalmente Obscurecido",
+  "nome_en": "Heavily Obscured",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "totalmente obscurecido",
+   "heavily obscured",
+   "escuridao",
+   "cego",
+   "visibilidade"
+  ],
+  "resumo": "Ao tentar ver algo na área, você tem a condição Cego.",
+  "texto": "Enquanto tenta ver algo em um espaço Totalmente Obscurecido, você tem a condição [[cego|Cego]].\n\nVeja também [[parcialmente-obscurecido|Levemente Obscurecido]] e o capítulo 1 (“Exploração”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "treinamento-com-armadura",
+  "nome": "Treinamento com Armadura",
+  "nome_en": "Armor Training",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "armadura",
+   "treinamento",
+   "armor training",
+   "proficiencia em armadura",
+   "escudo"
+  ],
+  "resumo": "Sem treinamento: Desvantagem em Força/Destreza e sem magias; Escudo não dá CA.",
+  "texto": "O treinamento com armadura deixa você usar armaduras de certa categoria sem penalidades.\n\n### Sem treinamento\n- **Armadura Leve, Média ou Pesada:** Desvantagem em qualquer Teste de D20 que envolva Força ou Destreza, e você não pode conjurar magias.\n- **Escudo:** você não recebe o bônus de CA dele.\n\nVeja [[vantagem|Vantagem e Desvantagem]] e [[armaduras|Armaduras]] (capítulo 6).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "truque",
+  "nome": "Truque",
+  "nome_en": "Cantrip",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "truque",
+   "cantrip",
+   "circulo 0",
+   "magia"
+  ],
+  "resumo": "Magia de círculo 0, conjurada sem gastar espaço de magia.",
+  "texto": "Um truque é uma [[magia|magia]] de **círculo 0**, conjurada sem usar espaço de magia.\n\nVeja o capítulo 7.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "valor-de-atributo",
+  "nome": "Valor de Atributo e Modificador",
+  "nome_en": "Ability Score and Modifier",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "atributo",
+   "modificador",
+   "ability score",
+   "forca",
+   "destreza"
+  ],
+  "resumo": "Seis atributos, cada um com modificador somado aos Testes de D20 desse atributo.",
+  "texto": "Toda criatura tem seis valores de atributo:\n- Força\n- Destreza\n- Constituição\n- Inteligência\n- Sabedoria\n- Carisma\n\nCada um tem um modificador. Some o modificador quando fizer um [[testes-de-d20|Teste de D20]] com aquele atributo ou quando uma regra pedir.\n\nVeja o capítulo 1 (“Os Seis Atributos”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "visao-as-cegas",
+  "nome": "Visão às Cegas",
+  "nome_en": "Blindsight",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "visao as cegas",
+   "blindsight",
+   "sentido",
+   "invisivel"
+  ],
+  "resumo": "Enxerga no alcance sem usar os olhos, mesmo Cego ou no escuro, e percebe o Invisível.",
+  "texto": "Com Visão às Cegas, você enxerga dentro de um alcance sem depender da visão física.\n\nNesse alcance:\n- vê tudo que não estiver atrás de [[cobertura|Cobertura Total]], mesmo [[cego|Cego]] ou na Escuridão;\n- percebe o que estiver [[invisivel|Invisível]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "visao-no-escuro-sentido",
+  "nome": "Visão no Escuro",
+  "nome_en": "Darkvision",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "visao no escuro",
+   "darkvision",
+   "infravisao",
+   "escuridao"
+  ],
+  "resumo": "No alcance, Meia-luz vira Luz Plena e Escuridão vira Meia-luz (em tons de cinza).",
+  "texto": "Com Visão no Escuro, dentro de um alcance:\n- você vê na [[meia-luz|Meia-luz]] como se fosse [[luz-plena|Luz Plena]];\n- você vê na Escuridão como se fosse Meia-luz.\n\nNa Escuridão, as cores aparecem só em tons de cinza. Veja o capítulo 1 (“Exploração”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "visao-verdadeira",
+  "nome": "Visão Verdadeira",
+  "nome_en": "Truesight",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "visao verdadeira",
+   "truesight",
+   "ilusao",
+   "invisivel",
+   "etereo"
+  ],
+  "resumo": "No alcance, vê através de Escuridão, invisibilidade, ilusões e transformações, e no Etéreo.",
+  "texto": "Com Visão Verdadeira, dentro de um alcance, sua visão atravessa:\n\n- **Escuridão:** vê na Escuridão comum e mágica.\n- **Invisibilidade:** vê criaturas e objetos [[invisivel|Invisíveis]].\n- **Ilusões visuais:** parecem transparentes, e você passa automaticamente nas salvaguardas contra elas.\n- **Transformações:** vê a forma verdadeira de criaturas ou objetos transformados por magia.\n- **Plano Etéreo:** enxerga dentro dele (apêndice A, “Planos Transitivos”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "voar",
+  "nome": "Voar",
+  "nome_en": "Flying",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "voar",
+   "voo",
+   "flying",
+   "deslocamento de voo",
+   "queda"
+  ],
+  "resumo": "Voando, você cai se ficar Caído, Incapacitado ou com Deslocamento de Voo 0, salvo se pairar.",
+  "texto": "Vários efeitos permitem voar. Enquanto voa, você **cai** se:\n- ficar [[caido|Caído]];\n- ficar [[incapacitado|Incapacitado]];\n- seu Deslocamento de Voo cair para 0.\n\nSe você puder [[pairar|pairar]], continua no ar nessas situações. Veja também [[queda|Queda]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "vulnerabilidade",
+  "nome": "Vulnerabilidade",
+  "nome_en": "Vulnerability",
+  "categoria": "regra",
+  "capitulo": "glossario",
+  "tags": [
+   "vulnerabilidade",
+   "vulnerability",
+   "dano dobrado",
+   "fraqueza"
+  ],
+  "resumo": "Dano do tipo ao qual você é vulnerável é dobrado.",
+  "texto": "Se você tem Vulnerabilidade a um tipo de dano, o dano desse tipo contra você é **dobrado**.\n\nA Vulnerabilidade é aplicada só uma vez por instância de dano. Veja [[resistencia-a-dano|Resistência]] e o capítulo 1 (“Dano e Cura”).",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ }
+]

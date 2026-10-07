@@ -1,0 +1,592 @@
+[
+ {
+  "id": "jogo-ritmo-do-jogo",
+  "nome": "Ritmo do Jogo",
+  "nome_en": "Rhythm of Play",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "ritmo",
+   "mestre",
+   "jogador",
+   "campanha",
+   "aventura",
+   "pilares"
+  ],
+  "resumo": "O ciclo do jogo: o Mestre descreve, os jogadores dizem o que fazem, o Mestre narra o resultado.",
+  "texto": "D&D é um jogo cooperativo narrado em grupo. Uma mesa tem um **Mestre** e de três a seis **jogadores**.\n\n### Os três pilares\nO jogo gira em torno de **interação social**, **exploração** e **combate**. Em todos eles, a cena segue o mesmo ciclo:\n\n- **1. O Mestre descreve a cena.** Diz onde os aventureiros estão e o que há ao redor (quantas portas a sala tem, o que está sobre a mesa etc.).\n- **2. Os jogadores dizem o que os personagens fazem.** O grupo costuma agir junto, mas cada um pode fazer algo diferente: um procura um baú, outro examina um símbolo na parede, um terceiro vigia. Fora do combate, o Mestre garante que todos tenham sua vez. Em combate, todos agem em turnos.\n- **3. O Mestre narra o resultado.** Às vezes é automático (a porta simplesmente abre). Se houver tranca, armadilha ou outro obstáculo, o Mestre pode pedir uma jogada de dado. O resultado leva a uma nova decisão, e o ciclo recomeça.\n\n### Papel do jogador\n- **Crie um personagem**, seu alter ego no mundo do jogo.\n- **Forme uma equipe** com os personagens dos outros jogadores; o ideal é que as habilidades se complementem.\n- **Aventure-se**: responda como quiser às situações que o Mestre apresenta, dentro das regras. O Mestre controla os monstros, mas não é seu adversário.\n\n### Papel do Mestre\n- **Constrói aventuras** (o Livro do Mestre traz conselhos).\n- **Guia a história**: narra a maior parte da ação, descreve locais e criaturas e decide os resultados das escolhas dos jogadores.\n- **Arbitra as regras**, garantindo que elas sirvam à diversão de todos.\n\n### Sessão, aventura e campanha\nUma sessão pode ser uma história completa (“one-shot”). Mais comum é a sessão fazer parte de uma **aventura** que leva várias sessões; aventuras encadeadas formam uma **campanha**. Compare: campanha é a série de TV, aventura é a temporada, sessão é o episódio.\n\nUma aventura tem um cenário (masmorra, selva, cidade mágica), um elenco de PNJs controlados pelo Mestre (muitas vezes com um vilão) e pode durar de uma a dezenas de sessões. Campanhas podem ser episódicas ou ter enredos longos, com PNJs recorrentes; o Mestre pode criá-las, usar material publicado ou misturar os dois.\n\nAo jogar, pergunte-se: “O que meu personagem faria?”, mas evite escolhas que estraguem a diversão do grupo.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-regras-gerais",
+  "nome": "Exceções e Arredondamento",
+  "nome_en": "Exceptions Supersede General Rules",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "excecao",
+   "regra geral",
+   "arredondar",
+   "fracao",
+   "round down"
+  ],
+  "resumo": "Uma exceção específica vence a regra geral; ao dividir ou multiplicar, arredonde para baixo.",
+  "texto": "### Exceções sobrepõem regras gerais\nAs regras gerais valem sempre que nada no jogo disser o contrário. Por exemplo, a regra geral diz que ataques corpo a corpo usam Força e ataques à distância usam Destreza.\n\nCaracterísticas de classe, talentos, itens mágicos, propriedades de armas, habilidades de monstros, magias e afins às vezes contrariam uma regra geral. Quando isso acontece, **a exceção vence**. Se uma característica deixa você atacar corpo a corpo usando Carisma, você pode fazer isso.\n\n### Arredondar para baixo\nSempre que dividir ou multiplicar um número no jogo e sobrar fração, **arredonde para baixo**, mesmo que a fração seja metade ou mais. Só arredonde para cima quando uma regra mandar.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-dados",
+  "nome": "Dados",
+  "nome_en": "Dice",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "dados",
+   "d20",
+   "d100",
+   "porcentagem",
+   "d3",
+   "notacao"
+  ],
+  "resumo": "Notação dos dados (d4 a d20), d100 com dados de porcentagem, d3 e uso de tabelas aleatórias.",
+  "texto": "Os dados trazem aleatoriedade ao jogo e ajudam a decidir se personagens e monstros conseguem o que tentam.\n\n### Notação\nO jogo usa d4, d6, d8, d10, d12 e d20: a letra **d** seguida do número de lados. Uma expressão como “3d8 + 5” significa: jogue três dados de oito lados, some os resultados e adicione 5.\n\n### d100 (dados de porcentagem)\nNormalmente se joga 1d100 com dois d10 numerados de 0 a 9. Antes de jogar, escolha qual dado é a dezena e qual é a unidade. Dezena 7 e unidade 1 dão 71. Dois zeros dão **100**.\n\nSe um dos d10 for marcado em dezenas (00, 10, 20…), some os dois: 70 e 1 dão 71; 00 e 0 dão 100.\n\n### d3\nJogue 1d6 e divida o resultado por 2, **arredondando para cima**.\n\n### Para que servem\n- **[[testes-de-d20|Testes de D20]]**: o d20 decide sucesso ou falha quando o Mestre acha que há chance dos dois. Quanto maior, melhor.\n- **Dano**: os outros dados medem o dano de armas e magias (Adaga 1d4, Machado Grande 1d12, *Bola de Fogo* 8d6).\n- **Tabelas aleatórias**: o cabeçalho da coluna da esquerda mostra o dado (como d10 ou d100). Jogue, ache o número ou faixa e leia a linha.\n- **Probabilidade percentual**: se algo tem 5% de chance, jogue o d100; com 01 a 05, acontece.\n\nResultados inesperados fazem parte da diversão: o Mestre e os jogadores podem narrar por que algo deu muito certo ou muito errado.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-valores-de-atributo",
+  "nome": "Atributos e Modificadores",
+  "nome_en": "Ability Scores and Modifiers",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "atributos",
+   "modificador",
+   "forca",
+   "destreza",
+   "ability scores",
+   "valor"
+  ],
+  "resumo": "Os seis atributos, o que cada valor significa e a tabela de modificadores (de −5 a +10).",
+  "texto": "Toda criatura tem seis atributos:\n\n| Atributo | Mede |\n|---|---|\n| Força | Potência física |\n| Destreza | Agilidade, reflexos e equilíbrio |\n| Constituição | Saúde e vigor |\n| Inteligência | Raciocínio e memória |\n| Sabedoria | Percepção e firmeza mental |\n| Carisma | Confiança, presença e charme |\n\n### Valores\nCada atributo tem um valor de 1 a 20; alguns monstros chegam a 30.\n\n- **1**: o mínimo normal. Se um efeito reduzir um valor a 0, o próprio efeito diz o que acontece.\n- **2–9**: capacidade fraca.\n- **10–11**: média humana.\n- **12–19**: capacidade forte.\n- **20**: o máximo para um aventureiro, salvo característica que diga outra coisa.\n- **21–29**: capacidade extraordinária.\n- **30**: o máximo absoluto.\n\n### Modificadores\nO modificador vem do valor e é somado a todo [[testes-de-d20|Teste de D20]] que usa aquele atributo. Fórmula prática: (valor − 10) ÷ 2, arredondado para baixo.\n\n| Valor | Mod. |\n|---|---|\n| 1 | −5 |\n| 2–3 | −4 |\n| 4–5 | −3 |\n| 6–7 | −2 |\n| 8–9 | −1 |\n| 10–11 | +0 |\n| 12–13 | +1 |\n| 14–15 | +2 |\n| 16–17 | +3 |\n| 18–19 | +4 |\n| 20–21 | +5 |\n| 22–23 | +6 |\n| 24–25 | +7 |\n| 26–27 | +8 |\n| 28–29 | +9 |\n| 30 | +10 |",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-testes-de-atributo",
+  "nome": "Testes de Atributo",
+  "nome_en": "Ability Checks",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "teste de atributo",
+   "cd",
+   "classe de dificuldade",
+   "ability check",
+   "dificuldade"
+  ],
+  "resumo": "Teste para superar um desafio: d20 + modificador (+ proficiência) contra uma CD definida pelo Mestre.",
+  "texto": "Um teste de atributo mostra uma criatura usando talento e treino para vencer um desafio: forçar uma porta, abrir uma fechadura, entreter uma multidão, decifrar um símbolo. O Mestre pede o teste quando a criatura tenta algo (que não seja um ataque) com chance real de falha e cujo resultado é incerto e interessante para a história.\n\nÉ um tipo de [[testes-de-d20|Teste de D20]]: jogue 1d20, some o modificador do atributo e compare com a **Classe de Dificuldade (CD)**.\n\n### Qual atributo\nO teste leva o nome do atributo usado (teste de Força, de Inteligência etc.):\n\n| Atributo | Use para… |\n|---|---|\n| Força | Levantar, empurrar, puxar ou quebrar algo |\n| Destreza | Mover-se com agilidade, rapidez ou silêncio |\n| Constituição | Levar o corpo além dos limites |\n| Inteligência | Raciocinar ou lembrar |\n| Sabedoria | Notar coisas no ambiente ou no comportamento alheio |\n| Carisma | Influenciar, entreter ou enganar |\n\n### Proficiência\nSome seu [[bonus-de-proficiencia|Bônus de Proficiência]] se o Mestre decidir que uma perícia ou ferramenta em que você é proficiente se aplica. Um teste de Força (Atletismo), por exemplo, recebe o bônus se você for proficiente em Atletismo. Veja [[jogo-pericias|Perícias]] e [[jogo-proficiencia|Proficiência]].\n\n### Classe de Dificuldade\nQuanto mais difícil a tarefa, maior a CD. As regras sugerem CDs para alguns testes, mas quem decide é o Mestre.\n\n| Dificuldade | CD |\n|---|---|\n| Muito fácil | 5 |\n| Fácil | 10 |\n| Média | 15 |\n| Difícil | 20 |\n| Muito difícil | 25 |\n| Quase impossível | 30 |\n\nMesmo sem proficiência vale a pena jogar: um bom resultado no d20 pode surpreender.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-pericias",
+  "nome": "Perícias",
+  "nome_en": "Skills",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "pericias",
+   "skills",
+   "atletismo",
+   "furtividade",
+   "percepcao",
+   "intuicao"
+  ],
+  "resumo": "As 18 perícias, o atributo de cada uma e exemplos de uso; o Mestre pode trocar o atributo.",
+  "texto": "Uma perícia é uma categoria de coisas que se tenta com um teste de atributo. As ações e outras regras dizem qual perícia se aplica, mas o Mestre tem a palavra final.\n\nSe você é proficiente na perícia, soma seu [[bonus-de-proficiencia|Bônus de Proficiência]] aos testes dela. Sem proficiência, você ainda pode fazer o teste, só não soma o bônus. Exemplo: para escalar um penhasco, o Mestre pede Força (Atletismo); se você tiver Atletismo, soma o bônus.\n\n### Perícias por atributo\n**Força**\n- **Atletismo**: saltar mais longe que o normal, manter-se à tona em águas agitadas, quebrar algo.\n\n**Destreza**\n- **Acrobacia**: manter-se de pé numa situação difícil, fazer uma acrobacia.\n- **Furtividade**: passar despercebido, movendo-se em silêncio e se escondendo atrás das coisas.\n- **Prestidigitação**: bater uma carteira, esconder um objeto pequeno, fazer truques com as mãos.\n\n**Inteligência**\n- **Arcanismo**: lembrar fatos sobre magias, itens mágicos e planos de existência.\n- **História**: lembrar fatos sobre eventos históricos, pessoas, nações e culturas.\n- **Investigação**: achar informação obscura em livros, deduzir como algo funciona.\n- **Natureza**: lembrar fatos sobre terreno, plantas, animais e clima.\n- **Religião**: lembrar fatos sobre deuses, rituais e símbolos sagrados.\n\n**Sabedoria**\n- **Intuição**: perceber o humor e as intenções de alguém.\n- **Lidar com Animais**: acalmar ou treinar um animal, ou fazê-lo agir de certo jeito.\n- **Medicina**: diagnosticar uma doença, descobrir o que matou alguém que morreu há pouco.\n- **Percepção**: usar os sentidos para notar algo fácil de passar despercebido.\n- **Sobrevivência**: seguir rastros, buscar alimento, achar uma trilha, evitar perigos naturais.\n\n**Carisma**\n- **Atuação**: atuar, contar uma história, tocar música, dançar.\n- **Enganação**: mentir de forma convincente, usar um disfarce de modo crível.\n- **Intimidação**: assustar ou ameaçar alguém para que faça o que você quer.\n- **Persuasão**: convencer alguém de forma honesta e cortês.\n\nConstituição não tem perícias.\n\n### Perícia com outro atributo\nCada perícia está ligada a um atributo, mas o Mestre pode permitir usá-la com outro. Intimidar alguém com uma demonstração de força física pode virar um teste de **Força (Intimidação)**: você joga Força e soma o bônus se for proficiente em Intimidação.\n\n### De onde vêm\nAs perícias de um personagem são escolhidas na criação; as de um monstro estão no bloco de estatísticas. Para dobrar o bônus em uma perícia, veja [[especializacao|Especialização]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-salvaguardas",
+  "nome": "Salvaguardas",
+  "nome_en": "Saving Throws",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "salvaguarda",
+   "sg",
+   "saving throw",
+   "resistir",
+   "cd"
+  ],
+  "resumo": "Jogada para evitar ou resistir a um perigo: d20 + modificador (+ proficiência) contra a CD do efeito.",
+  "texto": "Uma salvaguarda (SG) representa a tentativa de evitar ou resistir a uma ameaça: uma explosão de chamas, uma nuvem de gás venenoso, uma magia invadindo sua mente. Normalmente você não escolhe fazê-la; ela acontece porque você está em perigo. O efeito que pediu a salvaguarda diz o que acontece no sucesso e na falha.\n\nSe não quiser resistir, você pode **falhar de propósito** sem jogar.\n\nÉ um tipo de [[testes-de-d20|Teste de D20]]: 1d20 + modificador do atributo, contra uma CD.\n\n### Qual atributo\n| Atributo | SG para… |\n|---|---|\n| Força | Resistir fisicamente a uma força direta |\n| Destreza | Sair do caminho do perigo |\n| Constituição | Aguentar um perigo tóxico |\n| Inteligência | Reconhecer que uma ilusão é falsa |\n| Sabedoria | Resistir a um ataque mental |\n| Carisma | Afirmar sua própria identidade |\n\n### Proficiência\nSome seu [[bonus-de-proficiencia|Bônus de Proficiência]] se for proficiente naquele tipo de salvaguarda. Cada classe dá proficiência em pelo menos duas (Magos, por exemplo, em Inteligência e Sabedoria). Monstros com proficiência mostram isso no bloco de estatísticas.\n\n### CD\nA CD vem do efeito ou do Mestre. Para magias, depende do atributo de conjuração e do Bônus de Proficiência do conjurador (veja [[alvos-e-efeitos|Alvos, Salvaguardas e Ataques Mágicos]]). Habilidades de monstros informam a CD.\n\nPara dano causado por salvaguardas (metade do dano, vários alvos), veja [[jogo-jogadas-de-dano|Jogadas de Dano]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-jogadas-de-ataque",
+  "nome": "Jogadas de Ataque e CA",
+  "nome_en": "Attack Rolls",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "ataque",
+   "ca",
+   "classe de armadura",
+   "attack roll",
+   "acertar",
+   "20 natural"
+  ],
+  "resumo": "Ataque acerta se d20 + modificadores igualar ou passar a CA; 20 natural sempre acerta, 1 sempre erra.",
+  "texto": "Uma jogada de ataque decide se um ataque atinge o alvo. **Acerta se o total for igual ou maior que a Classe de Armadura (CA) do alvo.** Costuma acontecer em combate, mas o Mestre pode pedir em outras situações, como uma competição de arco e flecha.\n\nÉ um tipo de [[testes-de-d20|Teste de D20]].\n\n### Qual atributo\n- **Força**: ataque corpo a corpo com arma ou [[ataque-desarmado|Ataque Desarmado]].\n- **Destreza**: ataque à distância com arma.\n- **Varia**: ataque mágico usa o atributo de conjuração do conjurador.\n\nAlgumas características mudam isso; a propriedade Acuidade, por exemplo, deixa usar Força ou Destreza.\n\n### Proficiência\nSome seu [[bonus-de-proficiencia|Bônus de Proficiência]] quando atacar com uma arma em que é proficiente e sempre que atacar com uma magia.\n\n### Classe de Armadura\nA CA mostra quão bem a criatura evita ser ferida. A de um personagem é definida na criação; a de um monstro está no bloco de estatísticas.\n\n- **CA base = 10 + modificador de Destreza.** Armaduras, itens mágicos, magias e outros efeitos podem alterá-la.\n- **Só uma CA base.** Se você tem várias características com formas diferentes de calcular a CA, escolha uma; só um cálculo base vale por vez.\n\n### 20 ou 1 natural\n- Tirar **20** no d20 numa jogada de ataque faz o ataque acertar, não importam modificadores nem CA: é um [[acerto-critico|Acerto Crítico]].\n- Tirar **1** no d20 faz o ataque errar, não importam modificadores nem CA.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-proficiencia",
+  "nome": "Proficiência",
+  "nome_en": "Proficiency",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "proficiencia",
+   "proficiency",
+   "ferramentas",
+   "armas",
+   "nao acumula"
+  ],
+  "resumo": "Quando somar o Bônus de Proficiência: perícias, salvaguardas, armas e ferramentas; nunca duas vezes.",
+  "texto": "Todas as criaturas têm um [[bonus-de-proficiencia|Bônus de Proficiência]], que reflete seu treino. Ele cresce com o nível do personagem ou o Nível de Desafio do monstro.\n\nO bônus entra num [[testes-de-d20|Teste de D20]] quando você é proficiente na perícia, na salvaguarda ou no item usado. Também entra em ataques mágicos e na CD das salvaguardas contra suas magias.\n\n### Não acumula\n- Você só soma o bônus **uma vez** por jogada ou número. Num teste de Carisma (Enganação ou Persuasão), ser proficiente nas duas não dá o bônus em dobro.\n- Se o bônus for multiplicado ou dividido (como na [[especializacao|Especialização]], que o dobra), ele pode ser **multiplicado só uma vez e dividido só uma vez** em cada uso.\n\n### Perícias\nProficiência numa perícia soma o bônus aos testes de atributo dela. Veja [[jogo-pericias|Perícias]].\n\n### Salvaguardas\nProficiência numa salvaguarda soma o bônus às salvaguardas daquele atributo. Toda classe dá pelo menos duas. Veja [[jogo-salvaguardas|Salvaguardas]].\n\n### Equipamento\nClasse e antecedente dão proficiência com armas e ferramentas.\n\n- **Armas**: qualquer um pode usar uma arma, mas com proficiência você soma o bônus às jogadas de ataque com ela.\n- **Ferramentas**: com proficiência, você soma o bônus a testes de atributo que usam a ferramenta. Se também for proficiente na perícia aplicada ao mesmo teste, você tem **[[vantagem|Vantagem]]**: aproveita as duas proficiências no mesmo teste.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-acoes",
+  "nome": "Ações",
+  "nome_en": "Actions",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "acoes",
+   "actions",
+   "acao",
+   "lista de acoes",
+   "improvisar"
+  ],
+  "resumo": "Resumo das ações do jogo (Atacar, Correr, Esconder, Influenciar…) e a regra de uma ação por vez.",
+  "texto": "Quando você faz algo além de se mover ou se comunicar, normalmente usa uma **ação**. As principais:\n\n- **[[ajudar|Ajudar]]**: ajudar no teste de atributo ou jogada de ataque de outra criatura, ou prestar primeiros socorros.\n- **[[estudar|Analisar]]**: teste de Inteligência (Arcanismo, História, Investigação, Natureza ou Religião).\n- **[[atacar|Atacar]]**: atacar com uma arma ou um Ataque Desarmado.\n- **[[disparada|Correr]]**: até o fim do turno, ganhe movimento extra igual ao seu Deslocamento.\n- **[[desengajar|Desengajar]]**: seu movimento não provoca Ataques de Oportunidade até o fim do turno.\n- **[[esconder|Esconder]]**: teste de Destreza (Furtividade).\n- **[[esquivar|Esquivar]]**: até seu próximo turno, ataques contra você têm Desvantagem e você tem Vantagem em salvaguardas de Destreza. Perde o benefício se ficar Incapacitado ou com Deslocamento 0.\n- **[[influenciar|Influenciar]]**: teste de Carisma (Atuação, Enganação, Intimidação ou Persuasão) ou Sabedoria (Lidar com Animais) para mudar a atitude de uma criatura.\n- **[[preparar|Preparar]]**: preparar uma ação para reagir a um gatilho que você define.\n- **[[procurar|Procurar]]**: teste de Sabedoria (Intuição, Medicina, Percepção ou Sobrevivência).\n- **[[acao-magia|Usar Magia]]**: conjurar uma magia, usar um item mágico ou uma característica mágica.\n- **[[usar|Usar Objeto]]**: usar um objeto não mágico.\n\n### Outras ações\nCaracterísticas de classe e outras habilidades dão mais opções, e você pode improvisar. Se descrever algo que as regras não cobrem, o Mestre diz se é possível e que Teste de D20 fazer, se for o caso.\n\n### Uma coisa de cada vez\nVocê só faz **uma ação por vez**. Isso pesa mais em combate, mas vale sempre: numa conversa, você não pode Influenciar e Procurar (ler a linguagem corporal) ao mesmo tempo; numa masmorra, não pode Procurar armadilhas e Ajudar um aliado a abrir uma porta emperrada ao mesmo tempo.\n\nVeja também [[jogo-acao-bonus|Ação Bônus]], [[jogo-reacoes|Reações]] e [[turno-em-combate|Seu turno em combate]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-acao-bonus",
+  "nome": "Ação Bônus",
+  "nome_en": "Bonus Action",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "acao bonus",
+   "bonus action",
+   "turno",
+   "acao extra"
+  ],
+  "resumo": "Ação extra no seu turno, só quando algo diz que pode ser feita como Ação Bônus; uma por turno.",
+  "texto": "Algumas características de classe, magias e habilidades permitem uma ação extra no seu turno, chamada **Ação Bônus**. A [[acao-ardilosa|Ação Ardilosa]] do Ladino é um exemplo.\n\n- Você só tem Ação Bônus quando uma habilidade, magia ou outra regra diz que algo pode ser feito como Ação Bônus. Sem isso, não há Ação Bônus para usar.\n- **Só uma Ação Bônus por turno.** Se tiver várias opções, escolha uma.\n- Você escolhe **quando** usá-la no turno, a menos que a regra fixe o momento.\n- Qualquer coisa que impeça você de fazer ações também impede a Ação Bônus.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-reacoes",
+  "nome": "Reações",
+  "nome_en": "Reactions",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "reacao",
+   "reaction",
+   "gatilho",
+   "fora do turno"
+  ],
+  "resumo": "Resposta instantânea a um gatilho, no seu turno ou no de outro; uma até o início do seu próximo turno.",
+  "texto": "Algumas habilidades, magias e situações permitem uma ação especial chamada **Reação**: uma resposta imediata a um gatilho, que pode acontecer no seu turno ou no de outra criatura. A Reação mais comum é o [[ataque-de-oportunidade|Ataque de Oportunidade]].\n\n- Depois de usar uma Reação, você **não pode usar outra até o início do seu próximo turno**.\n- Se a Reação interromper o turno de outra criatura, ela continua o turno logo depois.\n- A Reação acontece **logo após** o gatilho, salvo se a descrição disser outra coisa.\n\nExemplo: a magia *Escudo Arcano* pode ser conjurada fora do seu turno, usando sua Reação, quando você é atingido.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-interacao-social",
+  "nome": "Interação Social",
+  "nome_en": "Social Interaction",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "interacao social",
+   "pnj",
+   "atitude",
+   "amigavel",
+   "hostil",
+   "interpretacao"
+  ],
+  "resumo": "Conversar com PNJs: atitudes (Amigável, Indiferente, Hostil), interpretação e a ação Influenciar.",
+  "texto": "Nem toda criatura quer lutar. Em uma interação social você pode tentar fazer um ladrão confessar, bajular um guarda e assim por diante. O Mestre interpreta os PNJs.\n\n### Atitudes\nA atitude de um PNJ em relação a você pode ser **Amigável**, **Indiferente** ou **Hostil**. Amigáveis tendem a ajudar; hostis tendem a atrapalhar. É mais fácil convencer quem já está disposto: um PNJ Amigável pode dar Vantagem ao seu teste.\n\nA interação avança de duas formas: **interpretação** e **testes de atributo**.\n\n### Interpretação\nÉ você decidindo como seu personagem pensa, age e fala. Há dois estilos:\n\n- **Ativa**: você fala com a voz do personagem, como um ator, e pode imitar gestos. Ainda descreve o que não dá para encenar.\n- **Descritiva**: você conta o que o personagem diz e faz. Descreva emoções e atitudes, foque na intenção e em como os outros a percebem, e dê o detalhe com que se sentir confortável.\n\nO Mestre usa a personalidade do PNJ e o comportamento do seu personagem para decidir a reação: um bandido covarde se rende sob ameaça, uma comerciante teimosa se recusa se for importunada, um dragão vaidoso adora elogios. Ofereça o que o PNJ quer, ou explore seus medos e simpatias, e você pode fazer amigos, evitar violência ou obter informação. Insultos tendem a arruinar a conversa.\n\n### Testes de atributo\nA interpretação pode mudar a atitude do PNJ, mas o Mestre pode usar os dados para decidir a resposta. Nesse caso, ele normalmente pede a ação [[influenciar|Influenciar]]. Para perceber o que o PNJ esconde, pode pedir Sabedoria (Intuição).\n\nAproveite as perícias do grupo: para enganar um guarda, quem deve falar é o personagem proficiente em Enganação.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-exploracao",
+  "nome": "Exploração",
+  "nome_en": "Exploration",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "exploracao",
+   "exploration",
+   "masmorra",
+   "equipamento",
+   "explorar"
+  ],
+  "resumo": "Explorar lugares perigosos: uso do equipamento, ação livre, trabalho em equipe e regras relacionadas.",
+  "texto": "Exploração é investigar lugares perigosos e misteriosos e interagir com o ambiente.\n\n### Equipamento\nO equipamento resolve muitos problemas: uma Escada alcança lugares altos, uma Tocha revela detalhes, Ferramentas de Ladrão abrem trancas, Estrepes atrasam perseguidores. Armas também servem fora do combate: um Bordão pode apertar um botão suspeito à distância. Veja [[iluminacao|fontes de luz]] e o capítulo de equipamento.\n\n### Como funciona na mesa\n- **É livre**: ninguém age em turnos como no combate, mas o Mestre confere com frequência onde cada um está e o que está fazendo.\n- **Trabalho em equipe**: o grupo se move junto, cada um examina uma parte do lugar e todos se reúnem quando algo aparece. Quem vigia a porta também está contribuindo.\n- **Coisas escondidas**: armadilhas, portas secretas e tesouros costumam pedir testes de Sabedoria (veja a ação [[procurar|Procurar]]), mas às vezes são achados por acaso.\n- **Conheça suas magias**: tenha a descrição aberta antes de conjurar e esteja pronto para explicar como funciona.\n\n### Regras relacionadas\n- [[jogo-visao-e-luz|Visão e Luz]]\n- [[jogo-escondendo-se|Escondendo-se]]\n- [[jogo-interagindo-com-objetos|Interagindo com Objetos]]\n- [[jogo-riscos|Riscos]]\n- [[jogo-viagem|Viagem]]",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-visao-e-luz",
+  "nome": "Visão e Luz",
+  "nome_en": "Vision and Light",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "visao",
+   "luz",
+   "escuridao",
+   "meia-luz",
+   "obscurecido",
+   "vision"
+  ],
+  "resumo": "Levemente e Totalmente Obscurecido, Luz Plena, Meia-luz e Escuridão, e os sentidos especiais.",
+  "texto": "Várias tarefas dependem de enxergar, como notar perigos ou mirar certas magias.\n\n### Áreas obscurecidas\n- **Levemente Obscurecido** (Meia-luz, névoa leve, folhagem moderada): você tem [[vantagem|Desvantagem]] em testes de Sabedoria (Percepção) que dependem da visão.\n- **Totalmente Obscurecido** (Escuridão, névoa densa, folhagem espessa): não dá para ver através. Ao tentar ver algo ali, você tem a condição [[cego|Cego]].\n\n### Iluminação\n- **Luz Plena**: a maioria das criaturas enxerga normalmente. Vem do dia (mesmo nublado) e de tochas, lanternas, fogueiras e outras fontes num certo raio.\n- **Meia-luz** (penumbra): cria área Levemente Obscurecida. Costuma ficar na transição entre Luz Plena e Escuridão; crepúsculo, aurora e lua cheia também dão Meia-luz.\n- **Escuridão**: área Totalmente Obscurecida. Ocorre ao ar livre à noite (mesmo com lua), em masmorras sem luz e em Escuridão mágica.\n\n### Sentidos especiais\nAlgumas criaturas percebem coisas em situações específicas graças a sentidos definidos no glossário: **Sismiconsciência**, **Visão às Cegas**, **Visão no Escuro** e **Visão Verdadeira**.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-escondendo-se",
+  "nome": "Escondendo-se",
+  "nome_en": "Hiding",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "esconder",
+   "furtividade",
+   "hiding",
+   "emboscada",
+   "stealth"
+  ],
+  "resumo": "Para se esconder, use a ação Esconder; o Mestre decide quando a situação permite.",
+  "texto": "Aventureiros e monstros se escondem para espionar, passar por um guarda sem serem vistos ou armar uma emboscada. O Mestre decide em que circunstâncias dá para se esconder.\n\nPara tentar, use a ação [[esconder|Esconder]] (teste de Destreza (Furtividade)).\n\nSe você estiver escondido e fizer uma jogada de ataque, sua posição é revelada assim que o ataque acerta ou erra. Veja também [[invisivel|Invisível]] e [[jogo-realizando-um-ataque|Realizando um Ataque]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-interagindo-com-objetos",
+  "nome": "Interagindo com Objetos",
+  "nome_en": "Interacting with Objects",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "objetos",
+   "interacao",
+   "quebrar",
+   "carregar",
+   "porta secreta",
+   "objects"
+  ],
+  "resumo": "O que é um objeto, interação livre por turno, achar objetos escondidos, carregar e quebrar objetos.",
+  "texto": "Normalmente é simples: você diz o que faz (puxar uma alavanca, abrir uma porta) e o Mestre descreve o resultado. Algumas regras específicas, porém, limitam o que dá para fazer.\n\n### O que é um objeto\nUm item inanimado e distinto: cadeira, espada, janela, livro, mesa, pedra, porta. Prédios e veículos não são objetos; são feitos de muitos objetos.\n\n### Com o tempo contado\nEm combate e outras situações apertadas, você tem **uma interação livre com objeto por turno**, feita durante seu movimento ou sua ação (por exemplo, abrir uma porta enquanto avança). Interagir com um segundo objeto exige a ação [[usar|Usar Objeto]].\n\nAlguns itens mágicos e objetos especiais sempre exigem uma ação, como dizem suas descrições. O Mestre também pode exigir uma ação quando a tarefa pede cuidado ou há um obstáculo incomum, como abrir uma porta emperrada ou girar a manivela de uma ponte levadiça.\n\n### Achar objetos escondidos\nAo procurar armadilhas, portas secretas e afins, o Mestre costuma pedir um teste de Sabedoria (Percepção) se você descrever a busca **perto** do objeto. Com sucesso, você encontra o objeto, detalhes importantes ou ambos.\n\nSe você não está procurando, ou procura longe do objeto, o teste não o revela, qualquer que seja o resultado.\n\n### Carregar objetos\nEm geral você carrega equipamento e tesouro sem se preocupar com peso. Com um item muito pesado ou muitos itens leves, o Mestre pode aplicar as regras de capacidade de carga do glossário.\n\n### Quebrar objetos\nCom uma ação, você destrói automaticamente um objeto frágil e não mágico, como vidro ou papel. Para danificar algo mais resistente, o Mestre pode usar as regras de quebrar objetos do glossário.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-riscos",
+  "nome": "Riscos",
+  "nome_en": "Hazards",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "riscos",
+   "hazards",
+   "queda",
+   "asfixia",
+   "fome",
+   "sede"
+  ],
+  "resumo": "Perigos do ambiente definidos no glossário: Asfixia, Combustão, Desidratação, Desnutrição e Queda.",
+  "texto": "Monstros são o principal obstáculo, mas o ambiente também mata. O glossário de regras define estes riscos:\n\n- **Asfixia** (ficar sem ar)\n- **Combustão** (pegar fogo)\n- **Desidratação** (falta de água)\n- **Desnutrição** (falta de comida)\n- **Queda**\n\nConsulte cada um no glossário para os detalhes.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-viagem",
+  "nome": "Viagem",
+  "nome_en": "Travel",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "viagem",
+   "ritmo",
+   "travel pace",
+   "ordem de marcha",
+   "distancia",
+   "montaria"
+  ],
+  "resumo": "Ordem de marcha, ritmos Rápido/Normal/Lento (distâncias e efeitos), montarias e veículos.",
+  "texto": "Viagens podem levar horas ou dias. O Mestre pode resumi-las sem contar tempo e distância, ou usar as regras abaixo. Quando cada segundo conta, use [[jogo-movimento-e-posicao|Movimento e Posição]].\n\n### Ordem de marcha\nDefina a ordem em que o grupo anda, em lugares fechados ou abertos. Ela mostra quem pode cair numa armadilha, quem pode notar inimigos escondidos e quem fica mais perto se começar uma luta. Pode ser mudada fora do combate e registrada por escrito ou com miniaturas.\n\n### Ritmo de viagem\nFora do combate, o grupo escolhe ritmo **Rápido**, **Normal** ou **Lento**.\n\n| Ritmo | Por hora | Por dia |\n|---|---|---|\n| Rápido | 6 km | 45 km |\n| Normal | 4,5 km | 36 km |\n| Lento | 3 km | 27 km |\n\nPor minuto: Rápido 120 m, Normal 90 m, Lento 60 m.\n\n### Efeitos de cada ritmo\n- **Rápido**: Desvantagem em testes de Sabedoria (Percepção ou Sobrevivência) e de Destreza (Furtividade).\n- **Normal**: Desvantagem em testes de Destreza (Furtividade).\n- **Lento**: Vantagem em testes de Sabedoria (Percepção ou Sobrevivência).\n\n### Montarias\nMontado em cavalos ou outras montarias, o grupo pode **dobrar a distância por 1 hora**. Depois disso, as montarias precisam de um [[descanso-curto|Descanso Curto]] ou [[descanso-longo|Descanso Longo]] antes de repetir esse ritmo. O Livro do Mestre traz regras de terreno que afetam o ritmo.\n\n### Veículos\nQuem viaja em carroça, carruagem ou outro veículo terrestre costuma escolher um ritmo normalmente. Em embarcações, você fica preso ao deslocamento do barco e não escolhe ritmo; conforme o barco e a tripulação, um navio pode navegar até 24 horas por dia. Veja [[montarias-e-veiculos|Montarias e Veículos]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-combate",
+  "nome": "Combate",
+  "nome_en": "Combat",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "combate",
+   "rodada",
+   "surpresa",
+   "ordem de combate",
+   "combat",
+   "empate"
+  ],
+  "resumo": "Rodadas de 6 segundos: posições, Iniciativa (com surpresa e empates), turnos e fim do combate.",
+  "texto": "O combate acontece em **rodadas** de cerca de 6 segundos no mundo do jogo. Em cada rodada, cada participante tem um **turno**. Quando todos agiram, começa a próxima rodada, até um lado ser derrotado.\n\n### Passo a passo\n- **1. Posições.** O Mestre define onde estão todos, com base na ordem de marcha ou nas posições declaradas, e onde estão os adversários (distância e direção).\n- **2. Iniciativa.** Todos jogam [[iniciativa|Iniciativa]] (um teste de Destreza) para definir a ordem.\n- **3. Turnos.** Cada um age na ordem de Iniciativa. A rodada termina quando todos tiverem agido; repita até o fim do combate.\n\n### Iniciativa\n- O Mestre joga pelos monstros; criaturas idênticas podem usar uma única jogada.\n- **Surpresa**: quem é pego de surpresa no início do combate tem **Desvantagem** na Iniciativa (por exemplo, quem não percebeu o emboscador escondido).\n- **Ordem**: o total é a Iniciativa; age-se da maior para a menor.\n- **Empates**: o Mestre desempata entre monstros, os jogadores entre personagens, e o Mestre entre monstro e personagem.\n\n### No seu turno\nVocê pode se mover até seu Deslocamento e fazer uma ação, na ordem que quiser. Detalhes em [[turno-em-combate|Seu turno em combate]].\n\n- **Comunicação**: falas e gestos breves são livres. Explicações longas ou tentar convencer um inimigo exigem uma ação; a principal é [[influenciar|Influenciar]].\n- **Objetos**: uma interação livre durante o movimento ou a ação; a segunda exige [[usar|Usar Objeto]]. Veja [[jogo-interagindo-com-objetos|Interagindo com Objetos]].\n- **Não fazer nada**: você pode não se mover nem agir. Na dúvida, considere [[esquivar|Esquivar]] ou [[preparar|Preparar]].\n\n### Fim do combate\nTermina quando um lado é derrotado (mortos, nocauteados, rendidos ou em fuga) ou quando os dois lados concordam em parar.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-movimento-e-posicao",
+  "nome": "Movimento e Posição",
+  "nome_en": "Movement and Position",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "movimento",
+   "deslocamento",
+   "terreno dificil",
+   "tamanho",
+   "espaco",
+   "movement"
+  ],
+  "resumo": "Gastar o Deslocamento, Terreno Difícil, dividir o movimento, ficar Caído, passar por criaturas e tamanhos.",
+  "texto": "No seu turno, você pode se mover até o seu Deslocamento, ou não se mover.\n\nO movimento pode incluir escalar, nadar, rastejar e saltar (veja o glossário), combinados com a caminhada ou ocupando todo o movimento. Seja como for, desconte a distância de cada trecho até gastar todo o Deslocamento ou parar.\n\nO Deslocamento do personagem é definido na criação; o do monstro está no bloco de estatísticas. O glossário trata também de Deslocamentos especiais (Escalada, Natação, Voo).\n\n### Terreno Difícil\nEntulho, escadas íngremes, móveis baixos, neve, pântano raso e mato denso são exemplos. **Cada metro em Terreno Difícil custa 1 metro extra**, mesmo que haja vários elementos de Terreno Difícil no mesmo espaço.\n\n### Dividir o movimento\nVocê pode usar parte do Deslocamento antes e parte depois da ação, Ação Bônus ou Reação. Com 9 m: ande 3 m, faça a ação e ande mais 6 m.\n\n### Ficar Caído\nNo seu turno, você pode se jogar ao chão e ficar [[caido|Caído]] sem gastar ação nem movimento, a menos que seu Deslocamento seja 0.\n\n### Passar por outras criaturas\n- Você pode atravessar o espaço de um aliado, de uma criatura [[incapacitado|Incapacitada]], de uma criatura Minúscula ou de uma criatura **dois tamanhos** maior ou menor que você.\n- O espaço de outra criatura é **Terreno Difícil**, a menos que ela seja Minúscula ou sua aliada.\n- Você não pode terminar o movimento, por vontade própria, no espaço de outra criatura.\n- Se terminar um turno no espaço de outra criatura, você fica Caído, a menos que seja Minúsculo ou maior que ela.\n\n### Tamanho e espaço\nO tamanho define o quadrado que a criatura controla em combate. O do personagem vem da espécie; o do monstro, do bloco de estatísticas.\n\n| Tamanho | Espaço | Quadrados |\n|---|---|---|\n| Minúsculo | 0,75 × 0,75 m | 4 por quadrado |\n| Pequeno | 1,5 × 1,5 m | 1 |\n| Médio | 1,5 × 1,5 m | 1 |\n| Grande | 3 × 3 m | 4 (2 × 2) |\n| Enorme | 4,5 × 4,5 m | 9 (3 × 3) |\n| Imenso | 6 × 6 m | 16 (4 × 4) |\n\nJogando com mapa quadriculado? Veja [[jogo-jogando-com-grid|Jogando com um Grid]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-jogando-com-grid",
+  "nome": "Jogando com um Grid",
+  "nome_en": "Playing on a Grid",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "grid",
+   "quadrado",
+   "mapa",
+   "miniaturas",
+   "diagonal"
+  ],
+  "resumo": "Cada quadrado vale 1,5 m; diagonal custa 1 quadrado, Terreno Difícil custa 2; como contar distâncias.",
+  "texto": "Se você usa mapa quadriculado e miniaturas:\n\n- **Quadrados**: cada um representa 1,5 metro.\n- **Deslocamento**: mova-se quadrado a quadrado, em trechos de 1,5 m. Para converter, divida o Deslocamento por 1,5 (9 m = 6 quadrados). Vale anotar isso na ficha.\n- **Entrar num quadrado**: você precisa ter pelo menos 1 quadrado de movimento sobrando. Um quadrado vizinho livre, na diagonal ou em linha reta, custa 1. Um quadrado de Terreno Difícil custa 2. Outros efeitos podem encarecer.\n- **Cantos**: na diagonal, você não pode cortar o canto de paredes, árvores grossas ou qualquer coisa que ocupe todo o quadrado.\n- **Distâncias**: comece a contar de um quadrado vizinho a uma das coisas e pare no espaço da outra, pelo caminho mais curto.\n\nVeja [[jogo-movimento-e-posicao|Movimento e Posição]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-realizando-um-ataque",
+  "nome": "Realizando um Ataque",
+  "nome_en": "Making an Attack",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "ataque",
+   "alvo",
+   "invisivel",
+   "nao visto",
+   "making an attack"
+  ],
+  "resumo": "Estrutura do ataque (alvo, modificadores, resolução) e ataques contra ou por criaturas que não são vistas.",
+  "texto": "A ação [[atacar|Atacar]] permite um ataque; algumas ações, Ações Bônus e Reações também. Seja com arma corpo a corpo, arma à distância ou magia com jogada de ataque, siga:\n\n- **1. Escolha o alvo** dentro da distância do ataque: criatura, objeto ou local.\n- **2. Determine os modificadores.** O Mestre vê se o alvo tem [[cobertura|Cobertura]] e se você tem [[vantagem|Vantagem ou Desvantagem]]. Magias e habilidades podem dar bônus ou penalidades.\n- **3. Resolva.** Faça a [[jogo-jogadas-de-ataque|jogada de ataque]]. Se acertar, jogue o dano, salvo regra diferente para aquele ataque. Alguns ataques causam efeitos especiais em vez do dano ou além dele.\n\n### Quem não é visto\n- Atacando um alvo que você **não vê**, você tem **Desvantagem**. Vale quando você chuta onde ele está ou quando o ouve mas não o vê. Se ele não estiver no espaço escolhido, você **erra automaticamente**.\n- Quando uma criatura **não pode ver você**, seus ataques contra ela têm **Vantagem**.\n- Se você estiver escondido, sua posição é revelada quando o ataque acerta ou erra.\n\nVeja também [[jogo-ataques-a-distancia|Ataques à Distância]] e [[jogo-ataques-corpo-a-corpo|Ataques Corpo a Corpo]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-ataques-a-distancia",
+  "nome": "Ataques à Distância",
+  "nome_en": "Ranged Attacks",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "distancia",
+   "ranged",
+   "alcance",
+   "arco",
+   "desvantagem"
+  ],
+  "resumo": "Alcance normal e máximo, e Desvantagem ao atacar à distância com inimigo a até 1,5 m.",
+  "texto": "Ataques à distância incluem disparar um arco, arremessar um machado ou lançar projéteis. Muitas magias também são ataques à distância.\n\n### Alcance\n- Se o ataque tem um alcance único (como muitas magias), você não pode atacar alvos além dele.\n- Alguns (como o Arco Longo) têm dois números: o menor é o **alcance normal**, o maior é o **alcance máximo**. Além do normal, você tem **Desvantagem**; além do máximo, não pode atacar.\n\n### Inimigo por perto\nAtacar à distância (com arma, magia ou outro meio) tem **Desvantagem** se houver um inimigo a até 1,5 m de você que você possa ver e que não esteja [[incapacitado|Incapacitado]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-ataques-corpo-a-corpo",
+  "nome": "Ataques Corpo a Corpo",
+  "nome_en": "Melee Attacks",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "corpo a corpo",
+   "melee",
+   "alcance",
+   "ataque",
+   "1,5 metro"
+  ],
+  "resumo": "Ataque contra alvo ao seu alcance, normalmente 1,5 m; sair do alcance pode provocar Ataque de Oportunidade.",
+  "texto": "Um ataque corpo a corpo atinge um alvo ao seu alcance. Normalmente usa uma arma empunhada ou um [[ataque-desarmado|Ataque Desarmado]]; muitos monstros usam garras, dentes e afins, e algumas magias também fazem ataques corpo a corpo.\n\n### Alcance\nO alcance padrão é **1,5 metro**. Algumas criaturas e armas alcançam mais longe, como dizem suas descrições (veja a propriedade [[alcance-de-arma|Alcance]]).\n\n### Ataques de Oportunidade\nMover-se sem cuidado perto de inimigos abre a guarda. Quando uma criatura que você vê sai do seu alcance, você pode usar sua Reação para atacá-la corpo a corpo logo antes de ela sair. Detalhes, inclusive como evitá-lo, em [[ataque-de-oportunidade|Ataque de Oportunidade]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-combate-montado",
+  "nome": "Combate Montado",
+  "nome_en": "Mounted Combat",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "montado",
+   "montaria",
+   "cavalo",
+   "mounted",
+   "cavaleiro"
+  ],
+  "resumo": "Montar custa metade do Deslocamento; montaria só Corre, Desengaja ou Esquiva; SG de Des CD 10 para não cair.",
+  "texto": "Para servir de montaria, a criatura precisa estar disposta, ser **pelo menos um tamanho maior** que o cavaleiro e ter anatomia adequada.\n\n### Montar e desmontar\nDurante o movimento, você pode montar ou desmontar de uma criatura a até 1,5 m. Isso custa **metade do seu Deslocamento** (arredondado para baixo). Com 9 m, montar um cavalo gasta 4,5 m.\n\n### Controlar a montaria\nSó dá para controlar montarias treinadas para levar cavaleiro (cavalos, mulas e animais domesticados parecidos).\n\n- **Montaria controlada**: passa a usar a **sua Iniciativa**, move-se no seu turno como você mandar e só pode fazer três ações: [[disparada|Correr]], [[desengajar|Desengajar]] e [[esquivar|Esquivar]]. Ela pode se mover e agir no turno em que você monta.\n- **Montaria independente**: aceita você nas costas, mas não obedece. Mantém o próprio lugar na Iniciativa e age como quiser.\n\n### Cair da montaria\nSe um efeito tentar mover sua montaria contra a vontade dela enquanto você está montado, faça uma **salvaguarda de Destreza CD 10**. Se falhar, você cai e fica [[caido|Caído]] num espaço livre a até 1,5 m dela.\n\nEnquanto montado, você faz a mesma salvaguarda se você ou a montaria ficarem Caídos.\n\nVeja também o talento [[combatente-montado|Combatente Montado]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-combate-subaquatico",
+  "nome": "Combate Subaquático",
+  "nome_en": "Underwater Combat",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "subaquatico",
+   "agua",
+   "underwater",
+   "nadar",
+   "submerso"
+  ],
+  "resumo": "Sem Deslocamento de Natação, ataque corpo a corpo tem Desvantagem (exceto Perfurante); tudo resiste a Ígneo.",
+  "texto": "### Armas limitadas\n- **Corpo a corpo**: uma criatura **sem Deslocamento de Natação** tem Desvantagem em ataques com arma debaixo d'água, a menos que a arma cause dano Perfurante.\n- **À distância**: um ataque com arma debaixo d'água **erra automaticamente** alvos além do alcance normal e tem **Desvantagem** contra alvos dentro do alcance normal.\n\n### Fogo\nTudo que está debaixo d'água tem **Resistência a dano Ígneo**. Veja [[jogo-resistencia-e-vulnerabilidade|Resistência e Vulnerabilidade]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-jogadas-de-dano",
+  "nome": "Jogadas de Dano",
+  "nome_en": "Damage Rolls",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "dano",
+   "damage",
+   "jogada de dano",
+   "metade do dano",
+   "modificador"
+  ],
+  "resumo": "Jogue os dados de dano + modificador; nunca dano negativo; salvaguardas: uma jogada para todos e metade no sucesso.",
+  "texto": "Cada arma, magia e habilidade de monstro que causa dano diz quanto causa. Jogue os dados, some os modificadores e aplique ao alvo. Reduções podem levar o dano a **0, mas nunca abaixo de 0**.\n\n- **Armas**: some o mesmo modificador de atributo usado na jogada de ataque.\n- **Magias**: a magia diz quais dados jogar e se soma modificadores.\n- **Dano fixo**: salvo regra em contrário, não some modificador de atributo a um dano fixo sem dados (como o da Zarabatana).\n\n### Acerto Crítico\nNum [[acerto-critico|Acerto Crítico]], jogue os dados de dano do ataque duas vezes (inclusive dados extras como o do [[ataque-furtivo|Ataque Furtivo]]) e some os modificadores uma vez. Adaga: 2d4 + modificador.\n\n### Dano em salvaguardas\n- **Vários alvos**: quando um efeito força dois ou mais alvos a fazer salvaguarda ao mesmo tempo, jogue o dano **uma vez só** para todos (como na *Bola de Fogo*).\n- **Metade do dano**: muitos efeitos causam metade do dano (arredondado para baixo) a quem passa na salvaguarda.\n\nDepois, aplique [[jogo-resistencia-e-vulnerabilidade|Resistência e Vulnerabilidade]] e veja [[jogo-tipos-de-dano|Tipos de Dano]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-tipos-de-dano",
+  "nome": "Tipos de Dano",
+  "nome_en": "Damage Types",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "tipos de dano",
+   "damage types",
+   "igneo",
+   "necrotico",
+   "radiante",
+   "contundente"
+  ],
+  "resumo": "Os 13 tipos de dano (Ácido a Venenoso) com exemplos; não têm regras próprias, mas importam para Resistência.",
+  "texto": "Todo dano tem um tipo. Os tipos não têm regras próprias, mas outras regras, como [[jogo-resistencia-e-vulnerabilidade|Resistência]], dependem deles. Os exemplos ajudam o Mestre a dar tipo a um efeito novo.\n\n| Tipo | Exemplos |\n|---|---|\n| Ácido | Líquidos corrosivos, sucos digestivos |\n| Contundente | Objetos rombudos, constrição, queda |\n| Cortante | Garras, lâminas |\n| Elétrico | Eletricidade |\n| Energético | Energia mágica pura |\n| Gélido | Água congelante, rajadas de gelo |\n| Ígneo | Chamas, calor extremo |\n| Necrótico | Energia que drena a vida |\n| Perfurante | Presas, objetos pontiagudos |\n| Psíquico | Energia que dilacera a mente |\n| Radiante | Energia sagrada, radiação ardente |\n| Trovejante | Ondas de som violentas |\n| Venenoso | Gases tóxicos, veneno |",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-resistencia-e-vulnerabilidade",
+  "nome": "Resistência, Vulnerabilidade e Imunidade",
+  "nome_en": "Resistance and Vulnerability",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "resistencia",
+   "vulnerabilidade",
+   "imunidade",
+   "resistance",
+   "metade",
+   "dobro"
+  ],
+  "resumo": "Resistência corta o dano pela metade, Vulnerabilidade dobra, Imunidade anula; não acumulam.",
+  "texto": "Algumas criaturas e objetos reagem de forma diferente a certos [[jogo-tipos-de-dano|tipos de dano]].\n\n- **Resistência**: o dano daquele tipo cai pela **metade** (arredondado para baixo).\n- **Vulnerabilidade**: o dano daquele tipo é **dobrado**.\n- **Imunidade**: você **não sofre** dano daquele tipo. Imunidade a uma condição significa que ela não afeta você.\n\n### Não acumulam\nVárias fontes de Resistência (ou de Vulnerabilidade) ao mesmo tipo contam como uma só. Com Resistência a Necrótico e Resistência a todo dano, o dano Necrótico é reduzido à metade uma única vez.\n\n### Ordem de aplicação\n- 1. Ajustes (bônus, penalidades, multiplicadores).\n- 2. Resistência.\n- 3. Vulnerabilidade.\n\n**Exemplo:** uma criatura com Resistência a todo dano e Vulnerabilidade a Ígneo está numa aura que reduz todo dano em 5. Ela sofre 28 de dano Ígneo: 28 − 5 = 23; metade = 11; dobrado = **22**.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-cura",
+  "nome": "Cura",
+  "nome_en": "Healing",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "cura",
+   "healing",
+   "curar",
+   "recuperar pv",
+   "maximo"
+  ],
+  "resumo": "Cura soma PV até o máximo; o excesso se perde.",
+  "texto": "Pontos de Vida voltam por magia (como [[curar-ferimentos|Curar Ferimentos]] ou uma [[pocao-de-cura|Poção de Cura]]) ou por [[descanso-curto|Descanso Curto]] e [[descanso-longo|Descanso Longo]].\n\nAo ser curado, some os PV recuperados aos atuais, **sem passar do máximo**. O que exceder é perdido. Exemplo: com 14 de 20 PV, uma cura de 8 recupera só 6.\n\nPontos de Vida Temporários não são cura e a cura não os restaura; veja [[jogo-pontos-de-vida-temporarios|Pontos de Vida Temporários]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-pontos-de-vida",
+  "nome": "Pontos de Vida",
+  "nome_en": "Hit Points",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "pontos de vida",
+   "pv",
+   "hit points",
+   "sangrando",
+   "bloodied"
+  ],
+  "resumo": "PV medem resiliência; dano reduz até 0; com metade ou menos você está Sangrando.",
+  "texto": "Pontos de Vida (PV) representam resistência física e vontade de viver. Quem tem mais PV é mais difícil de derrubar.\n\n- **PV máximos**: o total quando você está ileso.\n- **PV atuais**: vão do máximo até o mínimo, que é **0**.\n\nAo sofrer dano, subtraia dos PV atuais. Enquanto não chegar a 0, perder PV não atrapalha suas capacidades.\n\n### Sangrando\nCom **metade ou menos** dos seus PV máximos, você está **Sangrando**. Isso não tem efeito próprio, mas outras regras podem reagir a ele.\n\n### Mais\n- Dano: [[jogo-jogadas-de-dano|Jogadas de Dano]].\n- Recuperar PV: [[jogo-cura|Cura]].\n- Chegar a 0 PV, morte, Salvaguardas contra Morte e nocaute: [[zero-pontos-de-vida|Cair a 0 Pontos de Vida]].\n- Proteção extra: [[jogo-pontos-de-vida-temporarios|Pontos de Vida Temporários]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-pontos-de-vida-temporarios",
+  "nome": "Pontos de Vida Temporários",
+  "nome_en": "Temporary Hit Points",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "pv temporarios",
+   "temporary hit points",
+   "pontos de vida temporarios",
+   "escudo",
+   "nao acumula"
+  ],
+  "resumo": "Absorvem dano primeiro, duram até acabar ou um Descanso Longo, não acumulam e não são cura.",
+  "texto": "Algumas magias e efeitos dão Pontos de Vida Temporários, uma camada de proteção antes dos seus PV reais.\n\n### Perdidos primeiro\nAo sofrer dano, os PV Temporários saem primeiro; o resto vai para os PV. Com 5 PV Temporários e 7 de dano, você perde os 5 e mais 2 PV.\n\n### Duração\nDuram até acabar ou até você terminar um [[descanso-longo|Descanso Longo]].\n\n### Não acumulam\nSe você já tem PV Temporários e recebe mais, escolha **ficar com os atuais ou pegar os novos**. Com 10 e recebendo 12, fique com 10 ou 12, nunca 22.\n\n### Não são PV nem cura\n- Não se somam aos PV, a cura não os restaura e recebê-los não conta como cura.\n- Por isso, você pode recebê-los mesmo com PV no máximo.\n- Com 0 PV, receber PV Temporários **não** devolve a consciência; só cura de verdade faz isso. Veja [[zero-pontos-de-vida|Cair a 0 Pontos de Vida]].",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ },
+ {
+  "id": "jogo-condicoes",
+  "nome": "Condições",
+  "nome_en": "Conditions",
+  "categoria": "regra",
+  "capitulo": "jogo",
+  "tags": [
+   "condicoes",
+   "conditions",
+   "status",
+   "duracao",
+   "nao acumula"
+  ],
+  "resumo": "Estados temporários que alteram capacidades; cada um tem sua duração e não acumulam (exceto Exaustão).",
+  "texto": "Uma condição é um estado temporário que muda o que o alvo consegue fazer. Algumas condições aplicam outras.\n\n### As condições\n- [[amedrontado|Amedrontado]]\n- [[atordoado|Atordoado]]\n- [[caido|Caído]]\n- [[cego|Cego]]\n- [[impedido|Contido]]\n- [[enfeiticado|Enfeitiçado]]\n- [[envenenado|Envenenado]]\n- [[exaustao|Exaustão]]\n- [[agarrado|Imobilizado]]\n- [[incapacitado|Incapacitado]]\n- [[inconsciente|Inconsciente]]\n- [[invisivel|Invisível]]\n- [[paralisado|Paralisado]]\n- [[petrificado|Petrificado]]\n- [[surdo|Surdo]]\n\n### Duração\nA condição dura o que o efeito que a causou disser, ou até ser encerrada (Caído termina quando você se levanta).\n\n### Não acumulam\nSe vários efeitos impõem a mesma condição, cada um mantém sua duração, mas os efeitos **não se somam nem pioram**: você tem ou não tem a condição. A exceção é **Exaustão**, que piora a cada vez que você a recebe.",
+  "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+ }
+]
