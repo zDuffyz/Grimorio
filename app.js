@@ -8,14 +8,19 @@
     condicao: { rotulo: "Condição", plural: "Condições", letra: "C", cor: "var(--cat-condicao)" },
     acao:     { rotulo: "Ação",     plural: "Ações",     letra: "A", cor: "var(--cat-acao)" },
     magia:    { rotulo: "Magia",    plural: "Magias",    letra: "M", cor: "var(--cat-magia)" },
-    classe:   { rotulo: "Classe",   plural: "Classes",   letra: "Cl", cor: "var(--cat-classe)" }
+    classe:   { rotulo: "Classe",   plural: "Classes",   letra: "Cl", cor: "var(--cat-classe)" },
+    antecedente: { rotulo: "Antecedente", plural: "Antecedentes", letra: "An", cor: "var(--cat-origem)" },
+    especie:  { rotulo: "Espécie",  plural: "Espécies",  letra: "Es", cor: "var(--cat-origem)" },
+    talento:  { rotulo: "Talento",  plural: "Talentos",  letra: "T", cor: "var(--cat-talento)" },
+    equipamento: { rotulo: "Equipamento", plural: "Equipamento", letra: "Eq", cor: "var(--cat-equip)" }
   };
-  var ORDEM_CAT = ["regra", "condicao", "acao", "magia", "classe"];
+  var ORDEM_CAT = ["regra", "condicao", "acao", "antecedente", "especie", "talento", "equipamento", "magia", "classe"];
   var FONTE_PADRAO = "SRD 5.2 · tradução para consulta de mesa";
   // Abas seguindo os capítulos do Livro do Jogador
   var ABAS = [
     { id: "jogo",      cap: "Cap. 1", nome: "Jogando o Jogo" },
     { id: "classes",   cap: "Cap. 3", nome: "Classes" },
+    { id: "origens",   cap: "Cap. 4", nome: "Origens" },
     { id: "talentos",  cap: "Cap. 5", nome: "Talentos" },
     { id: "magias",    cap: "Cap. 7", nome: "Magias" },
     { id: "favoritos", cap: "Seus",   nome: "★ Favoritos" }
@@ -202,12 +207,14 @@
   function rotuloLado(e) {
     if (e.magia) return rotuloNivel(e.magia.nivel);
     if (e.tipo === "subclasse") return "Subclasse";
+    if (e.categoria === "talento" && e.sub_curto) return e.sub_curto;
     if (e.de) return (e.sub_curto || e.subclasse || nomeClasse(e)) + " " + (e.nivel || "");
     return (CATEGORIAS[e.categoria] || CATEGORIAS.regra).rotulo;
   }
   function rotuloFicha(e, cat) {
     if (e.magia) return cat.rotulo + " · " + e.magia.escola;
     if (e.tipo === "subclasse") return "Subclasse de " + nomeClasse(e);
+    if (e.categoria === "talento" && e.sub_curto) return "Talento · " + e.sub_curto;
     if (e.de) return (e.subclasse || nomeClasse(e)) + " · Nível " + e.nivel;
     return cat.rotulo;
   }
@@ -269,9 +276,21 @@
           return itemLista(c).replace("</a></li>", "</a>" +
             '<div class="subs">' + subs.map(function (s) { return '<a class="chip" href="#' + s.id + '">' + esc(s.sub_curto || s.nome) + "</a>"; }).join("") + "</div></li>");
         }).join("") + "</ul>";
+    } else if (estado.aba === "origens") {
+      var org = porCapitulo("origens").sort(ordenarPadrao);
+      html = '<header class="cap-cab"><span class="cap-num">Capítulo 4</span><h2>Origens dos Personagens</h2></header>' +
+        secao("Regras", org.filter(function (e) { return e.categoria === "regra"; })) +
+        secao("Antecedentes", org.filter(function (e) { return e.categoria === "antecedente"; })) +
+        secao("Espécies", org.filter(function (e) { return e.categoria === "especie"; }));
     } else if (estado.aba === "talentos") {
+      var tal = porCapitulo("talentos").sort(ordenarPadrao);
+      var grupo = function (g) { return tal.filter(function (e) { return e.categoria === "talento" && e.sub_curto === g; }); };
       html = '<header class="cap-cab"><span class="cap-num">Capítulo 5</span><h2>Talentos</h2></header>' +
-        secao("Talentos", porCapitulo("talentos").sort(ordenarPadrao));
+        secao("Regras", tal.filter(function (e) { return e.categoria !== "talento"; })) +
+        secao("Talentos de Origem", grupo("Origem")) +
+        secao("Talentos Gerais", grupo("Geral")) +
+        secao("Estilos de Luta", grupo("Estilo de Luta")) +
+        secao("Dádivas Épicas", grupo("Dádiva Épica"));
     } else if (estado.aba === "magias") {
       var magias = porCapitulo("magias").sort(ordenarPadrao);
       var niveis = [];

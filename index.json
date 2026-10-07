@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.06-4",
-  "notas": "Novo visual com abas por capítulo; classes e subclasses mostram todas as características na própria ficha.",
+  "versao": "2026.10.06-5",
+  "notas": "Novos capítulos: Origens (16 antecedentes e 10 espécies) e Talentos completos (Origem, Gerais, Estilos de Luta e Dádivas Épicas).",
   "arquivos": [
     "regras.json",
     "condicoes.json",
@@ -18,6 +18,8 @@
     "classe-ladino.json",
     "classe-mago.json",
     "classe-monge.json",
-    "classe-paladino.json"
+    "classe-paladino.json",
+    "origens.json",
+    "talentos.json"
   ]
 }

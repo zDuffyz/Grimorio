@@ -1,0 +1,1259 @@
+[
+  {
+    "id": "talentos",
+    "nome": "Talentos",
+    "nome_en": "Feats",
+    "categoria": "regra",
+    "capitulo": "talentos",
+    "tags": [
+      "talento",
+      "feat",
+      "pré-requisito",
+      "repetível"
+    ],
+    "resumo": "Como funcionam: categorias, pré-requisitos e talentos repetíveis.",
+    "texto": "Um talento é uma capacidade especial que não depende da classe. Seu antecedente dá um talento de Origem, e em certos níveis sua classe dá o talento [[aumento-no-valor-de-atributo|Aumento no Valor de Atributo]] ou outro talento cujos pré-requisitos você cumpra.\n\n- **Categoria.** Origem, Geral, Estilo de Luta ou Dádiva Épica. Se uma regra mandar escolher um talento de uma categoria, ele tem de ser dessa categoria; se não especificar, vale qualquer uma.\n- **Pré-requisito.** Você precisa cumpri-lo, salvo se uma característica disser o contrário. Se o pré-requisito citar uma classe, você precisa ter pelo menos 1 nível nela.\n- **Benefício.** Você recebe tudo o que a descrição lista.\n- **Repetível.** Você só pode ter cada talento uma vez, a menos que ele tenha a seção *Repetível*.\n\nOs talentos Geral pedem nível 4 ou superior; as Dádivas Épicas, nível 19 ou superior. Nos talentos com aumento de atributo, o máximo é 20 (30 nas Dádivas Épicas).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "alerta",
+    "nome": "Alerta",
+    "nome_en": "Alert",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "iniciativa"
+    ],
+    "resumo": "Some o Bônus de Proficiência à Iniciativa e troque de Iniciativa com um aliado.",
+    "texto": "*Talento de Origem*\n\n**Proficiência em Iniciativa.** Ao jogar Iniciativa, some seu Bônus de Proficiência.\n\n**Troca de Iniciativa.** Logo depois de jogar Iniciativa, você pode trocar sua Iniciativa com a de um aliado voluntário no mesmo combate. Não dá para trocar se você ou ele estiver [[incapacitado|Incapacitado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "artifista",
+    "nome": "Artifista",
+    "nome_en": "Crafter",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "crafter",
+      "artesão",
+      "fabricar"
+    ],
+    "resumo": "Três Ferramentas de Artesão, 20% de desconto em itens não mágicos e fabricação rápida no Descanso Longo.",
+    "texto": "*Talento de Origem*\n\n**Proficiência com Ferramentas.** Três Ferramentas de Artesão diferentes da tabela Fabricação Rápida.\n\n**Desconto.** 20% de desconto em qualquer item não mágico que você compre.\n\n**Fabricação Rápida.** Ao terminar um Descanso Longo, você pode fabricar um item da tabela, se tiver as ferramentas correspondentes e proficiência com elas. O item dura até o fim do seu próximo Descanso Longo e então se desfaz.\n\n| Ferramentas | Itens |\n|---|---|\n| Carpinteiro | Escada, Tocha |\n| Coureiro | Algibeira, Estojo |\n| Entalhador | Cajado, Clava, Clava Grande |\n| Ferreiro | Arpéu, Balde, Esferas de Metal, Estrepes, Panela de Ferro |\n| Funileiro | Pederneira, Pá, Sino |\n| Oleiro | Jarro, Lâmpada |\n| Pedreiro | Roldana e Polias |\n| Tecelão | Cesta, Corda, Rede, Tenda |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "atacante-selvagem",
+    "nome": "Atacante Selvagem",
+    "nome_en": "Savage Attacker",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "dano"
+    ],
+    "resumo": "Uma vez por turno, jogue o dano da arma duas vezes e use o melhor.",
+    "texto": "*Talento de Origem*\n\nUma vez por turno, quando acerta um alvo com uma arma, você pode jogar os dados de dano da arma duas vezes e usar qualquer um dos resultados.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "curandeiro",
+    "nome": "Curandeiro",
+    "nome_en": "Healer",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "healer",
+      "cura",
+      "kit de curandeiro"
+    ],
+    "resumo": "Kit de Curandeiro cura com Dado de PV + Bônus de Proficiência; rejoga 1 nos dados de cura.",
+    "texto": "*Talento de Origem*\n\n**Médico de Combate.** Com um Kit de Curandeiro, você pode gastar um uso dele e tratar uma criatura a até 1,5 m como ação [[usar|Usar Objeto]]. Ela pode gastar um de seus Dados de Pontos de Vida; você joga o dado e ela recupera o resultado + seu Bônus de Proficiência.\n\n**Cura Garantida.** Quando jogar um dado para saber quantos PV são recuperados por uma magia ou pelo Médico de Combate, se sair 1 você pode jogar de novo e deve usar o novo resultado.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "habilidoso",
+    "nome": "Habilidoso",
+    "nome_en": "Skilled",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "skilled",
+      "perícias"
+    ],
+    "resumo": "Proficiência em três perícias ou ferramentas à escolha.",
+    "texto": "*Talento de Origem*\n\nVocê ganha proficiência em qualquer combinação de três perícias ou ferramentas à sua escolha.\n\n**Repetível.** Você pode pegar este talento mais de uma vez.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "iniciado-em-magia",
+    "nome": "Iniciado em Magia",
+    "nome_en": "Magic Initiate",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "magic initiate",
+      "truque",
+      "magia"
+    ],
+    "resumo": "Dois truques e uma magia de 1º círculo da lista de Clérigo, Druida ou Mago.",
+    "texto": "*Talento de Origem*\n\n**Dois Truques.** Aprenda dois truques da lista de Clérigo, Druida ou Mago. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração das magias deste talento.\n\n**Magia de 1º Círculo.** Escolha uma magia de 1º círculo da mesma lista. Ela fica sempre preparada; você pode conjurá-la uma vez sem espaço de magia (recupera no Descanso Longo) e também com seus espaços de magia.\n\n**Troca de Magia.** Sempre que subir de nível, você pode trocar uma das magias deste talento por outra do mesmo círculo e da mesma lista.\n\n**Repetível.** Pode pegar mais de uma vez, mas com uma lista de magias diferente a cada vez.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "musico",
+    "nome": "Músico",
+    "nome_en": "Musician",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "musician",
+      "instrumento",
+      "inspiração heroica"
+    ],
+    "resumo": "Três instrumentos; ao fim de um descanso, dá Inspiração Heroica a aliados.",
+    "texto": "*Talento de Origem*\n\n**Treinamento em Instrumentos.** Proficiência com três Instrumentos Musicais à sua escolha.\n\n**Canção Encorajadora.** Ao terminar um Descanso Curto ou Longo, você pode tocar um instrumento com que é proficiente e dar Inspiração Heroica a aliados que ouçam, até um número igual ao seu Bônus de Proficiência.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "sortudo",
+    "nome": "Sortudo",
+    "nome_en": "Lucky",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "lucky",
+      "sorte"
+    ],
+    "resumo": "Pontos de Sorte (= Bônus de Proficiência) para ganhar Vantagem ou impor Desvantagem.",
+    "texto": "*Talento de Origem*\n\n**Pontos de Sorte.** Você tem Pontos de Sorte iguais ao seu Bônus de Proficiência e os recupera num Descanso Longo.\n\n**Vantagem.** Ao jogar o d20 de um [[testes-de-d20|Teste de D20]], gaste 1 ponto para ter Vantagem.\n\n**Desvantagem.** Quando uma criatura jogar o d20 para atacar você, gaste 1 ponto para impor Desvantagem nessa jogada.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "valentao-de-taverna",
+    "nome": "Valentão de Taverna",
+    "nome_en": "Tavern Brawler",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "tavern brawler",
+      "soco",
+      "desarmado"
+    ],
+    "resumo": "Soco de 1d4 + For, rejoga 1 no dano, armas improvisadas e empurrão.",
+    "texto": "*Talento de Origem*\n\n**Ataque Desarmado Aprimorado.** Ao acertar com seu [[ataque-desarmado|Ataque Desarmado]] e causar dano, você pode causar 1d4 + mod. de Força de dano Contundente em vez do dano normal.\n\n**Dano Garantido.** Se tirar 1 no dado de dano do Ataque Desarmado, pode jogar de novo e deve usar o novo resultado.\n\n**Armamento Improvisado.** Proficiência com armas improvisadas.\n\n**Empurrar.** Ao acertar uma criatura com Ataque Desarmado como parte da ação [[atacar|Atacar]] no seu turno, você pode causar dano e também empurrá-la 1,5 m para longe. Uma vez por turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "vigoroso",
+    "nome": "Vigoroso",
+    "nome_en": "Tough",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "tough",
+      "pontos de vida"
+    ],
+    "resumo": "+2 PV máximos por nível de personagem.",
+    "texto": "*Talento de Origem*\n\nAo ganhar este talento, seus PV máximos aumentam em um valor igual ao dobro do seu nível de personagem. Depois, cada nível de personagem que você ganhar aumenta seus PV máximos em mais 2.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "adepto-elemental",
+    "nome": "Adepto Elemental",
+    "nome_en": "Elemental Adept",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "elemental adept"
+    ],
+    "resumo": "Suas magias ignoram Resistência a um tipo de dano elemental, e 1 no dado conta como 2.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Característica Conjuração ou Magia de Pacto*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Domínio Elemental.** Escolha Ácido, Elétrico, Gélido, Ígneo ou Trovejante. Suas magias ignoram Resistência a esse tipo de dano, e ao jogar dano desse tipo numa magia você pode tratar qualquer 1 como 2.\n\n**Repetível.** Pode pegar mais de uma vez, com um tipo de dano diferente a cada vez.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "agressor",
+    "nome": "Agressor",
+    "nome_en": "Charger",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "charger",
+      "investida"
+    ],
+    "resumo": "Correr mais 3 m e investida com +1d8 ou empurrão de 3 m.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Força ou Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Corrida Aprimorada.** Quando você faz a ação [[disparada|Correr]], seu Deslocamento aumenta em 3 m para essa ação.\n\n**Ataque em Investida.** Se você se mover pelo menos 3 m em linha reta na direção de um alvo logo antes de acertá-lo com um ataque corpo a corpo como parte da ação Atacar, escolha: +1d8 no dano desse ataque, ou empurrar o alvo até 3 m se ele não for mais de um tamanho maior que você. Uma vez em cada um dos seus turnos.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "analitico",
+    "nome": "Analítico",
+    "nome_en": "Observant",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "observant",
+      "percepção"
+    ],
+    "resumo": "Proficiência ou Especialização em Intuição, Investigação ou Percepção; Procurar como Ação Bônus.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Inteligência ou Sabedoria 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência ou Sabedoria (máximo 20).\n\n**Observador Atento.** Escolha Intuição, Investigação ou Percepção. Ganhe proficiência nela, ou Especialização se já for proficiente.\n\n**Pesquisa Rápida.** Você pode fazer a ação [[procurar|Procurar]] como Ação Bônus.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "atirador-arcano",
+    "nome": "Atirador Arcano",
+    "nome_en": "Spell Sniper",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "spell sniper"
+    ],
+    "resumo": "Ataques com magia ignoram cobertura parcial, sem desvantagem a 1,5 m e +18 m de alcance.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Característica Conjuração ou Magia de Pacto*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Ignorar Cobertura.** Suas jogadas de ataque com magia ignoram [[cobertura|Meia Cobertura e Cobertura de Três Quartos]].\n\n**Conjuração à Queima-Roupa.** Estar a 1,5 m de um inimigo não dá Desvantagem nas suas jogadas de ataque com magia.\n\n**Alcance Aumentado.** Ao conjurar uma magia com alcance de pelo menos 3 m que exija jogada de ataque, você pode aumentar o alcance dela em 18 m.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "atleta",
+    "nome": "Atleta",
+    "nome_en": "Athlete",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "athlete",
+      "escalar",
+      "salto"
+    ],
+    "resumo": "Deslocamento de Escalada, levanta com 1,5 m e salta com corrida curta.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Força ou Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Deslocamento de Escalada.** Igual ao seu Deslocamento.\n\n**Levantar.** Quando estiver [[caido|Caído]], você se levanta gastando só 1,5 m de movimento.\n\n**Saltar.** Você faz um Salto em Distância ou Salto em Altura com corrida depois de se mover só 1,5 m.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "ator",
+    "nome": "Ator",
+    "nome_en": "Actor",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "actor",
+      "disfarce",
+      "imitar"
+    ],
+    "resumo": "Vantagem para se passar por alguém disfarçado e imitação de sons e vozes.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Carisma 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Carisma (máximo 20).\n\n**Personificação.** Disfarçado como uma pessoa real ou fictícia, você tem Vantagem em testes de Carisma (Atuação ou Enganação) para convencer os outros de que é essa pessoa.\n\n**Mimetismo.** Você imita sons de outras criaturas, inclusive fala. Quem ouve percebe que é falso se passar num teste de Sabedoria (Intuição) com CD 8 + seu mod. de Carisma + Bônus de Proficiência.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "aumento-no-valor-de-atributo",
+    "nome": "Aumento no Valor de Atributo",
+    "nome_en": "Ability Score Improvement",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "asi",
+      "atributo"
+    ],
+    "resumo": "+2 em um atributo ou +1 em dois (máximo 20). Repetível.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\nAumente um valor de atributo à sua escolha em 2, ou dois valores à sua escolha em 1 cada. Este talento não pode levar um valor acima de 20.\n\nMuitas classes ganham este talento (ou outro à escolha) nos níveis 4, 8, 12 e 16 pela característica de mesmo nome.\n\n**Repetível.** Você pode pegar este talento mais de uma vez.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "chef",
+    "nome": "Chef",
+    "nome_en": "Chef",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "cozinhar",
+      "comida"
+    ],
+    "resumo": "Comida no Descanso Curto cura +1d8 e petiscos dão PV temporários.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Constituição ou Sabedoria (máximo 20).\n\n**Utensílios de Cozinheiro.** Proficiência com Utensílios de Cozinheiro, se ainda não tiver.\n\n**Refeição Reconfortante.** Durante um Descanso Curto, com ingredientes e utensílios à mão, você cozinha para até 4 + seu Bônus de Proficiência criaturas. No fim do descanso, quem comeu e gastou Dados de Pontos de Vida para se curar recupera 1d8 PV a mais.\n\n**Petiscos Revigorantes.** Com 1 hora de trabalho, ou ao terminar um Descanso Longo, você prepara petiscos em número igual ao seu Bônus de Proficiência (com ingredientes e utensílios). Eles duram 8 horas. Uma criatura pode usar uma Ação Bônus para comer um e ganhar PV temporários iguais ao seu Bônus de Proficiência.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "combatente-montado",
+    "nome": "Combatente Montado",
+    "nome_en": "Mounted Combatant",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "mounted combatant",
+      "montaria",
+      "cavalo"
+    ],
+    "resumo": "Vantagem contra alvos menores que a montaria e protege a montaria.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força, Destreza ou Sabedoria (máximo 20).\n\n**Golpe Montado.** Montado, você tem Vantagem em jogadas de ataque contra qualquer criatura não montada a até 1,5 m da montaria que seja pelo menos um tamanho menor que ela.\n\n**Pulo Lateral.** Se sua montaria sofrer um efeito com salvaguarda de Destreza para meio dano, ela não sofre dano se passar e só metade se falhar. Você precisa estar montado nela, e nenhum dos dois pode estar [[incapacitado|Incapacitado]].\n\n**Redirecionar Ataque.** Montado e sem estar Incapacitado, você pode fazer um ataque que acertaria sua montaria acertar você no lugar dela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "conjurador-belico",
+    "nome": "Conjurador Bélico",
+    "nome_en": "War Caster",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "war caster"
+    ],
+    "resumo": "Vantagem para manter Concentração, magia como Ataque de Oportunidade e componentes somáticos com as mãos ocupadas.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Característica Conjuração ou Magia de Pacto*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Concentração.** Vantagem nas salvaguardas de Constituição para manter a [[concentracao|Concentração]].\n\n**Magia Reativa.** Quando uma criatura provocar um [[ataque-de-oportunidade|Ataque de Oportunidade]] seu ao sair do seu alcance, você pode usar a Reação para conjurar nela uma magia com tempo de conjuração de uma ação que tenha só ela como alvo, em vez do ataque.\n\n**Componentes Somáticos.** Você faz os componentes somáticos de magias mesmo com armas ou Escudo em uma ou nas duas mãos.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "conjurador-ritualista",
+    "nome": "Conjurador Ritualista",
+    "nome_en": "Ritual Caster",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "ritual caster",
+      "ritual"
+    ],
+    "resumo": "Magias Rituais sempre preparadas e um ritual rápido por Descanso Longo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Inteligência, Sabedoria ou Carisma 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Magias Rituais.** Escolha magias de 1º círculo com a marcação Ritual, em número igual ao seu Bônus de Proficiência. Elas ficam sempre preparadas e você pode conjurá-las com qualquer espaço de magia que tenha. O atributo de conjuração é o que você aumentou com este talento. Sempre que seu Bônus de Proficiência aumentar, acrescente mais uma magia de 1º círculo com Ritual.\n\n**Ritual Rápido.** Você pode conjurar uma magia Ritual que tenha preparada no tempo de conjuração normal, em vez do tempo maior de ritual, sem gastar espaço de magia. Uma vez por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "duelista-defensivo",
+    "nome": "Duelista Defensivo",
+    "nome_en": "Defensive Duelist",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "defensive duelist",
+      "aparar",
+      "reação"
+    ],
+    "resumo": "Reação com arma de Acuidade: some o Bônus de Proficiência à CA.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Destreza (máximo 20).\n\n**Aparar.** Se estiver segurando uma arma de Acuidade e uma criatura acertar você com um ataque corpo a corpo, use a Reação para somar seu Bônus de Proficiência à CA, o que pode fazer o ataque errar. O bônus vale contra ataques corpo a corpo até o início do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "envenenador",
+    "nome": "Envenenador",
+    "nome_en": "Poisoner",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "poisoner",
+      "veneno"
+    ],
+    "resumo": "Ignora Resistência a Veneno e prepara doses de veneno (2d8 + Envenenado).",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Destreza ou Inteligência (máximo 20).\n\n**Veneno Potente.** Ao jogar dano que cause dano Venenoso, ignore Resistência a dano Venenoso.\n\n**Preparar Veneno.** Proficiência com Kit de Venenos. Com 1 hora de trabalho e 50 PO em materiais, você prepara doses de veneno em número igual ao seu Bônus de Proficiência. Como Ação Bônus, aplica uma dose numa arma ou munição; ela dura 1 minuto ou até você causar dano com o item. A criatura que sofrer esse dano faz salvaguarda de Constituição (CD 8 + mod. do atributo aumentado por este talento + Bônus de Proficiência) ou sofre 2d8 de dano Venenoso e fica [[envenenado|Envenenada]] até o fim do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "esmagador",
+    "nome": "Esmagador",
+    "nome_en": "Crusher",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "crusher",
+      "contundente"
+    ],
+    "resumo": "Dano Contundente empurra 1,5 m; crítico dá Vantagem contra o alvo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Constituição (máximo 20).\n\n**Empurrar.** Uma vez por turno, ao acertar uma criatura com ataque que cause dano Contundente, você pode movê-la 1,5 m para um espaço desocupado, se ela não for mais de um tamanho maior que você.\n\n**Crítico Melhorado.** Quando fizer um [[acerto-critico|Acerto Crítico]] que cause dano Contundente a uma criatura, as jogadas de ataque contra ela têm Vantagem até o início do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "especialista-ambidestro",
+    "nome": "Especialista Ambidestro",
+    "nome_en": "Dual Wielder",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "dual wielder",
+      "duas armas"
+    ],
+    "resumo": "Ataque extra com a segunda arma mesmo sem ela ser Leve e saque de duas armas.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Força ou Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Combate com Duas Armas Aprimorado.** Ao fazer a ação Atacar no seu turno com uma arma Leve, você pode fazer um ataque extra como Ação Bônus nesse turno com outra arma, que deve ser corpo a corpo e sem a propriedade Duas Mãos. Você não soma o modificador de atributo ao dano desse ataque extra, a menos que seja negativo.\n\n**Saque Rápido.** Você saca ou guarda duas armas sem a propriedade Duas Mãos no momento em que normalmente sacaria ou guardaria uma.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "especialista-em-armaduras-leves",
+    "nome": "Especialista em Armaduras Leves",
+    "nome_en": "Lightly Armored",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "lightly armored",
+      "armadura"
+    ],
+    "resumo": "Treinamento com Armadura Leve e Escudos.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Treinamento com Armadura.** Você ganha treinamento com Armadura Leve e Escudos.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "especialista-em-armaduras-medias",
+    "nome": "Especialista em Armaduras Médias",
+    "nome_en": "Moderately Armored",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "moderately armored",
+      "armadura"
+    ],
+    "resumo": "Treinamento com Armadura Média.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Treinamento com Armadura Leve*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Treinamento com Armadura.** Você ganha treinamento com Armadura Média.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "especialista-em-armaduras-pesadas",
+    "nome": "Especialista em Armaduras Pesadas",
+    "nome_en": "Heavily Armored",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "heavily armored",
+      "armadura"
+    ],
+    "resumo": "Treinamento com Armadura Pesada.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Treinamento com Armadura Média*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Constituição (máximo 20).\n\n**Treinamento com Armadura.** Você ganha treinamento com Armadura Pesada.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "especialista-em-besta",
+    "nome": "Especialista em Besta",
+    "nome_en": "Crossbow Expert",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "crossbow expert",
+      "besta"
+    ],
+    "resumo": "Ignora Recarga das bestas, sem desvantagem a 1,5 m e soma atributo no ataque extra.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Destreza (máximo 20).\n\n**Ignorar Recarga.** Você ignora a propriedade Recarga da Besta de Mão, Besta Leve e Besta Pesada. Segurando uma delas, pode recarregá-la mesmo sem mão livre.\n\n**Disparo à Queima-Roupa.** Estar a 1,5 m de um inimigo não dá Desvantagem nas suas jogadas de ataque com bestas.\n\n**Combate com Duas Armas.** No ataque extra da propriedade Leve, se for com uma besta Leve, você pode somar o modificador de atributo ao dano (se ainda não somasse).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "especialista-em-pericia",
+    "nome": "Especialista em Perícia",
+    "nome_en": "Skill Expert",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "skill expert",
+      "perícia"
+    ],
+    "resumo": "+1 em qualquer atributo, uma perícia nova e uma Especialização.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\n**Proficiência em Perícia.** Proficiência em uma perícia à sua escolha.\n\n**Especialização.** Escolha uma perícia em que é proficiente e ainda não tem [[especializacao|Especialização]]; ganhe Especialização nela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "exterminador-de-conjuradores",
+    "nome": "Exterminador de Conjuradores",
+    "nome_en": "Mage Slayer",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "mage slayer"
+    ],
+    "resumo": "Desvantagem na Concentração de quem você fere e um sucesso automático em salvaguarda mental.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Quebrador de Concentração.** Quando você causa dano a uma criatura concentrada numa magia, ela tem Desvantagem na salvaguarda para manter a [[concentracao|Concentração]].\n\n**Proteção Mental.** Se falhar numa salvaguarda de Inteligência, Sabedoria ou Carisma, você pode escolher passar. Uma vez por Descanso Curto ou Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "imobilizador",
+    "nome": "Imobilizador",
+    "nome_en": "Grappler",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "grappler",
+      "agarrar"
+    ],
+    "resumo": "Soco que causa dano e imobiliza no mesmo acerto, Vantagem contra quem você imobiliza.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Força ou Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Socar e Imobilizar.** Ao acertar uma criatura com [[ataque-desarmado|Ataque Desarmado]] como parte da ação Atacar no seu turno, você pode usar as opções Dano e Imobilizar juntas. Uma vez por turno.\n\n**Vantagem no Ataque.** Vantagem nas jogadas de ataque contra uma criatura [[agarrado|Imobilizada]] por você.\n\n**Imobilizador Veloz.** Mover uma criatura Imobilizada por você não custa movimento extra se ela for do seu tamanho ou menor.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "lider-inspirador",
+    "nome": "Líder Inspirador",
+    "nome_en": "Inspiring Leader",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "inspiring leader",
+      "pv temporários"
+    ],
+    "resumo": "Ao fim de um descanso, até seis aliados ganham PV temporários.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Sabedoria ou Carisma 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Sabedoria ou Carisma (máximo 20).\n\n**Apresentação Encorajadora.** Ao terminar um Descanso Curto ou Longo, você pode fazer um discurso, música ou dança. Escolha até seis aliados (pode incluir você) a até 9 m que assistiram; cada um ganha PV temporários iguais ao seu nível de personagem + o modificador do atributo aumentado por este talento.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mente-agucada",
+    "nome": "Mente Aguçada",
+    "nome_en": "Keen Mind",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "keen mind"
+    ],
+    "resumo": "Proficiência ou Especialização numa perícia de conhecimento e Analisar como Ação Bônus.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Inteligência 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência (máximo 20).\n\n**Conhecimento Vasto.** Escolha Arcanismo, História, Investigação, Natureza ou Religião. Ganhe proficiência nela, ou Especialização se já for proficiente.\n\n**Análise Rápida.** Você pode fazer a ação [[estudar|Analisar]] como Ação Bônus.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mestre-das-armas",
+    "nome": "Mestre das Armas",
+    "nome_en": "Weapon Master",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "weapon master",
+      "maestria"
+    ],
+    "resumo": "Usa a maestria de um tipo de arma à escolha (troca no Descanso Longo).",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Propriedade de Maestria.** Você pode usar a propriedade de maestria de um tipo de arma Simples ou Marcial com que é proficiente. Ao terminar um Descanso Longo, pode trocar por outro tipo de arma elegível.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mestre-em-armaduras-medias",
+    "nome": "Mestre em Armaduras Médias",
+    "nome_en": "Medium Armor Master",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "medium armor master",
+      "armadura"
+    ],
+    "resumo": "Com Destreza 16+, soma +3 (em vez de +2) na CA com armadura Média.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Treinamento com Armadura Média*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Portador Ágil.** Usando armadura Média, você soma 3, em vez de 2, à CA se tiver Destreza 16 ou mais.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mestre-em-armaduras-pesadas",
+    "nome": "Mestre em Armaduras Pesadas",
+    "nome_en": "Heavy Armor Master",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "heavy armor master",
+      "armadura"
+    ],
+    "resumo": "De armadura Pesada, reduz dano físico de ataques pelo Bônus de Proficiência.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Treinamento com Armadura Pesada*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Constituição (máximo 20).\n\n**Redução de Dano.** Quando um ataque acerta você enquanto usa armadura Pesada, o dano Contundente, Cortante e Perfurante desse ataque é reduzido em um valor igual ao seu Bônus de Proficiência.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mestre-em-armas-de-haste",
+    "nome": "Mestre em Armas de Haste",
+    "nome_en": "Polearm Master",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "polearm master",
+      "haste",
+      "lança"
+    ],
+    "resumo": "Ataque bônus de 1d4 com o cabo e ataque de reação quando entram no alcance.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Força ou Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Golpe de Haste.** Logo depois de fazer a ação Atacar com um Cajado, Lança ou arma com as propriedades Alcance e Pesada, você pode usar uma Ação Bônus para atacar corpo a corpo com a outra ponta: dano Contundente com d4.\n\n**Golpe Reativo.** Segurando um Cajado, Lança ou arma com Alcance e Pesada, você pode usar a Reação para atacar corpo a corpo uma criatura que entre no alcance dessa arma.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mestre-em-armas-grandes",
+    "nome": "Mestre em Armas Grandes",
+    "nome_en": "Great Weapon Master",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "great weapon master",
+      "gwm"
+    ],
+    "resumo": "Armas Pesadas causam + Bônus de Proficiência de dano; ataque bônus após crítico ou abate.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Força 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força (máximo 20).\n\n**Maestria em Armas Pesadas.** Ao acertar uma criatura com uma arma Pesada como parte da ação Atacar no seu turno, você pode causar dano extra igual ao seu Bônus de Proficiência.\n\n**Golpe Cortante.** Logo depois de fazer um Acerto Crítico ou reduzir uma criatura a 0 PV com uma arma corpo a corpo, você pode atacar com a mesma arma como Ação Bônus.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mestre-em-escudos",
+    "nome": "Mestre em Escudos",
+    "nome_en": "Shield Master",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "shield master",
+      "escudo"
+    ],
+    "resumo": "Golpe de escudo para empurrar ou derrubar e Reação para não sofrer dano em salvaguarda de Destreza.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Treinamento com Escudos*\n\n**Aumento no Valor de Atributo.** +1 em Força (máximo 20).\n\n**Golpe de Escudo.** Ao acertar uma criatura a até 1,5 m com arma corpo a corpo como parte da ação Atacar, você pode golpeá-la com o Escudo equipado: ela faz salvaguarda de Força (CD 8 + mod. de Força + Bônus de Proficiência) e, se falhar, você a empurra 1,5 m ou a deixa [[caido|Caída]] (à sua escolha). Uma vez em cada um dos seus turnos.\n\n**Interpor Escudo.** Se sofrer um efeito com salvaguarda de Destreza para meio dano e estiver segurando um Escudo, você pode usar a Reação para não sofrer dano nenhum se passar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mestre-atirador",
+    "nome": "Mestre-Atirador",
+    "nome_en": "Sharpshooter",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "sharpshooter",
+      "arco"
+    ],
+    "resumo": "Ataques à distância ignoram cobertura parcial, sem desvantagem a 1,5 m nem no alcance longo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Destreza (máximo 20).\n\n**Ignorar Cobertura.** Seus ataques à distância com armas ignoram Meia Cobertura e Cobertura de Três Quartos.\n\n**Disparo à Queima-Roupa.** Estar a 1,5 m de um inimigo não dá Desvantagem nos seus ataques à distância com armas.\n\n**Tiro Longo.** Atacar no alcance longo não dá Desvantagem nos seus ataques à distância com armas.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "perfurador",
+    "nome": "Perfurador",
+    "nome_en": "Piercer",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "piercer",
+      "perfurante"
+    ],
+    "resumo": "Rejoga um dado de dano Perfurante e dado extra no crítico.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Perfurar.** Uma vez por turno, ao acertar uma criatura com ataque que cause dano Perfurante, você pode jogar de novo um dos dados de dano e deve usar o novo resultado.\n\n**Crítico Melhorado.** Num Acerto Crítico com dano Perfurante, jogue um dado de dano adicional para o dano extra.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "resiliente",
+    "nome": "Resiliente",
+    "nome_en": "Resilient",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "resilient",
+      "salvaguarda"
+    ],
+    "resumo": "+1 num atributo e proficiência na salvaguarda dele.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo em que você não tem proficiência em salvaguarda (máximo 20).\n\n**Proficiência em Salvaguarda.** Você ganha proficiência nas salvaguardas do atributo escolhido.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "resistente",
+    "nome": "Resistente",
+    "nome_en": "Durable",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "durable"
+    ],
+    "resumo": "Vantagem em Salvaguardas Contra Morte e gasta Dado de PV como Ação Bônus.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Constituição (máximo 20).\n\n**Desafiar a Morte.** Vantagem em Salvaguardas Contra a Morte.\n\n**Recuperação Rápida.** Como Ação Bônus, gaste um Dado de Pontos de Vida, jogue-o e recupere essa quantidade de PV.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "sentinela",
+    "nome": "Sentinela",
+    "nome_en": "Sentry",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "sentinel"
+    ],
+    "resumo": "Ataque de Oportunidade quando desengajam ou atacam outro; acerto zera o Deslocamento.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Força ou Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Guardião.** Logo depois que uma criatura a até 1,5 m fizer a ação [[desengajar|Desengajar]] ou acertar outro alvo com um ataque, você pode fazer um [[ataque-de-oportunidade|Ataque de Oportunidade]] contra ela.\n\n**Deter.** Quando você acerta uma criatura com Ataque de Oportunidade, o Deslocamento dela vira 0 pelo resto do turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "sorrateiro",
+    "nome": "Sorrateiro",
+    "nome_en": "Skulker",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "skulker",
+      "furtividade"
+    ],
+    "resumo": "Visão às Cegas 3 m, Vantagem para se esconder em combate e errar não revela você.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Destreza 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Destreza (máximo 20).\n\n**Visão às Cegas.** 3 metros.\n\n**Névoa de Guerra.** Vantagem nos testes de Destreza (Furtividade) feitos como parte da ação [[esconder|Esconder]] durante o combate.\n\n**Atirador Oculto.** Se você atacar estando escondido e errar, o ataque não revela sua posição.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "talhador",
+    "nome": "Talhador",
+    "nome_en": "Slasher",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "slasher",
+      "cortante"
+    ],
+    "resumo": "Dano Cortante reduz 3 m do Deslocamento; crítico dá Desvantagem nos ataques do alvo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Retardar.** Uma vez por turno, ao acertar uma criatura com ataque que cause dano Cortante, reduza o Deslocamento dela em 3 m até o início do seu próximo turno.\n\n**Crítico Melhorado.** Num Acerto Crítico com dano Cortante, a criatura tem Desvantagem nas jogadas de ataque até o início do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "telecinetico",
+    "nome": "Telecinético",
+    "nome_en": "Telekinetic",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "telekinetic",
+      "telecinese"
+    ],
+    "resumo": "Mãos Mágicas invisível e sem componentes; empurrão telecinético como Ação Bônus.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Telecinese Menor.** Você aprende *Mãos Mágicas*. Pode conjurá-la sem componentes Verbais ou Somáticos, deixar a mão espectral Invisível, e o alcance aumenta em 9 m. O atributo de conjuração é o aumentado por este talento.\n\n**Empurrão Telecinético.** Como Ação Bônus, empurre telecineticamente uma criatura que você veja a até 9 m. Ela faz salvaguarda de Força (CD 8 + mod. do atributo aumentado + Bônus de Proficiência) ou é movida 1,5 m na sua direção ou para longe de você.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "telepatico",
+    "nome": "Telepático",
+    "nome_en": "Telepathic",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "telepathic",
+      "telepatia"
+    ],
+    "resumo": "Fala telepática a 18 m e Detectar Pensamentos grátis uma vez por Descanso Longo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Elocução Telepática.** Você fala telepaticamente com qualquer criatura que veja a até 18 m. A mensagem vai num idioma que você conhece e só é entendida se a criatura souber esse idioma. Isso não dá a ela meios de responder telepaticamente.\n\n**Detectar Pensamentos.** Você tem *Detectar Pensamentos* sempre preparada. Pode conjurá-la sem espaço de magia nem componentes uma vez por Descanso Longo, e também com seus espaços. O atributo de conjuração é o aumentado por este talento.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "tocado-pelas-sombras",
+    "nome": "Tocado pelas Sombras",
+    "nome_en": "Shadow-Touched",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "shadow touched",
+      "sombral"
+    ],
+    "resumo": "Invisibilidade e uma magia de Ilusão ou Necromancia de 1º círculo grátis.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Magia das Sombras.** Escolha uma magia de 1º círculo da escola de Ilusão ou Necromancia. Você tem ela e *Invisibilidade* sempre preparadas. Cada uma pode ser conjurada sem espaço de magia uma vez por Descanso Longo, e também com seus espaços. O atributo de conjuração é o aumentado por este talento.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "tocado-pelas-fadas",
+    "nome": "Tocado pelas Fadas",
+    "nome_en": "Fey-Touched",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "fey touched",
+      "feérico"
+    ],
+    "resumo": "Passo Nebuloso e uma magia de Adivinhação ou Encantamento de 1º círculo grátis.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\n**Magia Feérica.** Escolha uma magia de 1º círculo da escola de Adivinhação ou Encantamento. Você tem ela e *Passo Nebuloso* sempre preparadas. Cada uma pode ser conjurada sem espaço de magia uma vez por Descanso Longo, e também com seus espaços. O atributo de conjuração é o aumentado por este talento.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "treinamento-com-armas-marciais",
+    "nome": "Treinamento com Armas Marciais",
+    "nome_en": "Martial Weapon Training",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "armas marciais"
+    ],
+    "resumo": "Proficiência com armas Marciais.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 20).\n\n**Proficiência com Armas.** Você ganha proficiência com armas Marciais.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "velocista",
+    "nome": "Velocista",
+    "nome_en": "Speedy",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "speedy",
+      "velocidade"
+    ],
+    "resumo": "+3 m de Deslocamento, ignora Terreno Difícil ao Correr e Desvantagem em Ataques de Oportunidade contra você.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Destreza ou Constituição 13 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Destreza ou Constituição (máximo 20).\n\n**Aumento de Deslocamento.** Seu Deslocamento aumenta em 3 m.\n\n**Correr em Terreno Difícil.** Quando você faz a ação [[disparada|Correr]], Terreno Difícil não custa movimento extra pelo resto do turno.\n\n**Movimentação Ágil.** Ataques de Oportunidade contra você têm Desvantagem.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "arquearia",
+    "nome": "Arquearia",
+    "nome_en": "Archery",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "+2 nas jogadas de ataque com armas à distância.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nVocê recebe +2 nas jogadas de ataque com armas à distância.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "combate-com-armas-de-arremesso",
+    "nome": "Combate com Armas de Arremesso",
+    "nome_en": "Thrown Weapon Fighting",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "+2 no dano de ataques à distância com armas de Arremesso.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nAo acertar um ataque à distância com uma arma que tenha a propriedade Arremesso, você recebe +2 na jogada de dano.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "combate-com-armas-grandes",
+    "nome": "Combate com Armas Grandes",
+    "nome_en": "Great Weapon Fighting",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "Com arma corpo a corpo em duas mãos, 1 e 2 no dano contam como 3.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nAo jogar dano de um ataque com arma corpo a corpo empunhada com as duas mãos, trate qualquer 1 ou 2 num dado de dano como 3. A arma precisa ter a propriedade Duas Mãos ou Versátil.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "combate-com-duas-armas",
+    "nome": "Combate com Duas Armas",
+    "nome_en": "Two-Weapon Fighting",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "Soma o modificador de atributo ao dano do ataque extra da propriedade Leve.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nQuando fizer o ataque extra por usar uma arma com a propriedade Leve, você pode somar seu modificador de atributo ao dano desse ataque, se ainda não somasse.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "combate-desarmado",
+    "nome": "Combate Desarmado",
+    "nome_en": "Unarmed Fighting",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "Ataque Desarmado de 1d6 (1d8 de mãos livres) + For e 1d4 em quem você imobiliza.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nAo acertar seu [[ataque-desarmado|Ataque Desarmado]] e causar dano, você pode causar 1d6 + mod. de Força de dano Contundente em vez do dano normal. Se não estiver segurando arma nem Escudo ao fazer a jogada de ataque, o d6 vira d8.\n\nNo início de cada um dos seus turnos, você pode causar 1d4 de dano Contundente a uma criatura [[agarrado|Imobilizada]] por você.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "defensivo",
+    "nome": "Defensivo",
+    "nome_en": "Defense",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "+1 na CA usando armadura Leve, Média ou Pesada.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nUsando armadura Leve, Média ou Pesada, você recebe +1 na Classe de Armadura.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "duelismo",
+    "nome": "Duelismo",
+    "nome_en": "Dueling",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "+2 no dano com arma corpo a corpo numa só mão.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nSegurando uma arma corpo a corpo em uma mão e nenhuma outra arma, você recebe +2 nas jogadas de dano com ela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "interceptacao",
+    "nome": "Interceptação",
+    "nome_en": "Interception",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "Reação: reduz em 1d10 + Bônus de Proficiência o dano de um aliado a 1,5 m.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nQuando uma criatura que você vê acerta outra criatura a até 1,5 m de você com uma jogada de ataque, você pode usar a Reação para reduzir o dano desse alvo em 1d10 + seu Bônus de Proficiência. Você precisa estar segurando um Escudo ou uma arma Simples ou Marcial.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "luta-as-cegas",
+    "nome": "Luta às Cegas",
+    "nome_en": "Blind Fighting",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "Visão às Cegas de 3 metros.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nVocê tem Visão às Cegas com alcance de 3 metros.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "protetivo",
+    "nome": "Protetivo",
+    "nome_en": "Protection",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Estilo de Luta",
+    "tags": [
+      "talento",
+      "estilo de luta",
+      "estilo de luta"
+    ],
+    "resumo": "Reação com Escudo: Desvantagem nos ataques contra um aliado a 1,5 m.",
+    "texto": "*Talento de Estilo de Luta · Pré-requisito: Característica Estilo de Luta*\n\nQuando uma criatura que você vê ataca um alvo que não é você a até 1,5 m de você, use a Reação para interpor o Escudo que está segurando. Isso impõe Desvantagem nesse ataque e em todas as jogadas de ataque contra esse alvo até o início do seu próximo turno, enquanto você continuar a até 1,5 m dele.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-fortitude",
+    "nome": "Dádiva da Fortitude",
+    "nome_en": "Boon of Fortitude",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "+40 PV máximos e cura extra igual ao mod. de Constituição uma vez por turno.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Saúde Fortalecida.** Seus PV máximos aumentam em 40. Além disso, sempre que recuperar PV, você pode recuperar mais um valor igual ao seu mod. de Constituição; depois de fazer isso, só pode repetir no início do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-proeza-em-combate",
+    "nome": "Dádiva da Proeza em Combate",
+    "nome_en": "Boon of Combat Prowess",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Transforma um ataque errado em acerto, uma vez por rodada.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Mira Inigualável.** Quando errar uma jogada de ataque, você pode acertar em vez disso. Depois de usar, só pode de novo no início do seu próximo turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-proficiencia-em-pericia",
+    "nome": "Dádiva da Proficiência em Perícia",
+    "nome_en": "Boon of Skill",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Proficiência em todas as perícias e uma Especialização.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Perito Total.** Você ganha proficiência em todas as perícias.\n\n**Especialização.** Escolha uma perícia em que é proficiente e ainda não tem [[especializacao|Especialização]]; ganhe Especialização nela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-recordacao-de-magia",
+    "nome": "Dádiva da Recordação de Magia",
+    "nome_en": "Boon of Spell Recall",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Ao gastar espaço de 1º a 4º círculo, 1d4 igual ao círculo não gasta o espaço.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior, Característica Conjuração*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 30).\n\n**Conjuração Livre.** Sempre que conjurar uma magia com um espaço de 1º a 4º círculo, jogue 1d4. Se o resultado for igual ao círculo do espaço, ele não é gasto.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-recuperacao",
+    "nome": "Dádiva da Recuperação",
+    "nome_en": "Boon of Recovery",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Volta com metade dos PV ao cair a 0 e reserva de 10d10 para se curar.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Última Resistência.** Quando cair a 0 PV, você pode ficar com 1 PV e então recuperar PV iguais à metade dos seus PV máximos. Uma vez por Descanso Longo.\n\n**Recuperar Vitalidade.** Você tem uma reserva de dez d10. Como Ação Bônus, gaste dados da reserva, jogue-os e recupere o total em PV. A reserva volta inteira no Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-resistencia-a-energia",
+    "nome": "Dádiva da Resistência à Energia",
+    "nome_en": "Boon of Energy Resistance",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Resistência a dois tipos de dano e Reação para redirecionar esse dano.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Resistências à Energia.** Resistência a dois destes tipos à sua escolha: Ácido, Elétrico, Gélido, Ígneo, Necrótico, Psíquico, Radiante, Trovejante ou Venenoso. Pode trocar ao fim de cada Descanso Longo.\n\n**Redirecionar Energia.** Ao sofrer dano de um dos tipos escolhidos, use a Reação para mirar outra criatura que você veja a até 18 m e que não esteja sob Cobertura Total. Ela faz salvaguarda de Destreza (CD 8 + mod. de Constituição + Bônus de Proficiência) ou sofre 2d12 + seu mod. de Constituição de dano desse tipo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-velocidade",
+    "nome": "Dádiva da Velocidade",
+    "nome_en": "Boon of Speed",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "+9 m de Deslocamento e Desengajar como Ação Bônus que solta de Imobilizado.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Artista da Fuga.** Como Ação Bônus, faça a ação [[desengajar|Desengajar]]; isso também encerra a condição [[agarrado|Imobilizado]] em você.\n\n**Rapidez.** Seu Deslocamento aumenta em 9 m.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-viagem-dimensional",
+    "nome": "Dádiva da Viagem Dimensional",
+    "nome_en": "Boon of Dimensional Travel",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Teleporte de 9 m logo após Atacar ou Usar Magia.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Passos Fugazes.** Logo depois de fazer a ação Atacar ou [[acao-magia|Usar Magia]], você pode se teleportar até 9 m para um espaço desocupado que veja.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dadiva-da-visao-verdadeira",
+    "nome": "Dádiva da Visão Verdadeira",
+    "nome_en": "Boon of Truesight",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Visão Verdadeira de 18 metros.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Visão Verdadeira.** Você tem Visão Verdadeira com alcance de 18 metros.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dadiva-do-ataque-irresistivel",
+    "nome": "Dádiva do Ataque Irresistível",
+    "nome_en": "Boon of Irresistible Offense",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Dano físico ignora Resistência; 20 natural causa dano extra igual ao valor do atributo.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Destreza (máximo 30).\n\n**Superar Defesas.** O dano Contundente, Cortante e Perfurante que você causa sempre ignora Resistência.\n\n**Golpe Arrasador.** Quando tirar 20 no d20 de uma jogada de ataque, você pode causar dano extra igual ao valor do atributo aumentado por este talento, do mesmo tipo do ataque.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dadiva-do-destino",
+    "nome": "Dádiva do Destino",
+    "nome_en": "Boon of Fate",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Soma ou subtrai 2d4 de um Teste de D20 seu ou de alguém a 18 m.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Melhorar o Destino.** Quando você ou outra criatura a até 18 m passar ou falhar num [[testes-de-d20|Teste de D20]], você pode jogar 2d4 e aplicar o total como bônus ou penalidade no d20. Depois, só pode usar de novo quando jogar Iniciativa ou terminar um Descanso Curto ou Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dadiva-do-espirito-da-noite",
+    "nome": "Dádiva do Espírito da Noite",
+    "nome_en": "Boon of the Night Spirit",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica"
+    ],
+    "resumo": "Fica Invisível na penumbra como Ação Bônus e resiste a quase todo dano no escuro.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Fundir-se às Sombras.** Em Meia-luz ou Escuridão, você pode se dar a condição [[invisivel|Invisível]] como Ação Bônus. Ela termina logo depois que você fizer uma ação, Ação Bônus ou Reação.\n\n**Forma Sombria.** Em Meia-luz ou Escuridão, você tem Resistência a todo dano, exceto Psíquico e Radiante.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "antecedentes",
+    "nome": "Antecedentes",
+    "nome_en": "Backgrounds",
+    "categoria": "regra",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "background",
+      "origem",
+      "valores de atributo"
+    ],
+    "resumo": "O que o antecedente dá: valores de atributo, talento de Origem, 2 perícias, 1 ferramenta e equipamento.",
+    "texto": "O antecedente representa o lugar e a ocupação que mais marcaram seu personagem antes da vida de aventura. A história de cada antecedente é só uma sugestão; você pode mudar os detalhes.\n\nCada antecedente traz:\n\n- **Valores de Atributo.** Três atributos são listados. Aumente um deles em 2 e outro em 1, **ou** aumente os três em 1. Nenhum pode passar de 20 assim.\n- **Talento.** Um talento de Origem específico (Capítulo 5).\n- **Perícias.** Proficiência em duas perícias definidas.\n- **Ferramenta.** Proficiência com uma ferramenta, às vezes escolhida dentro de uma categoria (como Ferramentas de Artesão ou Instrumento Musical).\n- **Equipamento.** Um pacote de itens **ou** 50 PO.\n\n| Antecedente | Atributos | Talento |\n|---|---|---|\n| [[acolito|Acólito]] | Int, Sab, Car | Iniciado em Magia (Clérigo) |\n| [[andarilho|Andarilho]] | Des, Sab, Car | Sortudo |\n| [[artesao|Artesão]] | For, Des, Int | Artifista |\n| [[artista|Artista]] | For, Des, Car | Músico |\n| [[charlatao|Charlatão]] | Des, Con, Car | Habilidoso |\n| [[criminoso|Criminoso]] | Des, Con, Int | Alerta |\n| [[eremita|Eremita]] | Con, Sab, Car | Curandeiro |\n| [[escriba|Escriba]] | Des, Int, Sab | Habilidoso |\n| [[fazendeiro|Fazendeiro]] | For, Con, Sab | Vigoroso |\n| [[guarda|Guarda]] | For, Int, Sab | Alerta |\n| [[guia|Guia]] | Des, Con, Sab | Iniciado em Magia (Druida) |\n| [[marinheiro|Marinheiro]] | For, Des, Sab | Valentão de Taverna |\n| [[mercador|Mercador]] | Con, Int, Car | Sortudo |\n| [[nobre|Nobre]] | For, Int, Car | Habilidoso |\n| [[sabio|Sábio]] | Con, Int, Sab | Iniciado em Magia (Mago) |\n| [[soldado|Soldado]] | For, Des, Con | Atacante Selvagem |\n\nSe usar um antecedente de um livro mais antigo, os atributos e o talento seguem as regras do Capítulo 2.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "especies",
+    "nome": "Espécies",
+    "nome_en": "Species",
+    "categoria": "regra",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "species",
+      "race",
+      "origem"
+    ],
+    "resumo": "O que a espécie dá: tipo de criatura, tamanho, Deslocamento e traços especiais.",
+    "texto": "A espécie define se o personagem é humano ou de um povo fantástico. Os povos do multiverso vivem cerca de 80 anos, salvo onde a espécie diz outra coisa, e todos chegam à idade adulta mais ou menos na mesma idade. Seu personagem pode ter qualquer idade dentro do tempo de vida da espécie.\n\nCada espécie traz:\n\n- **Tipo de Criatura.** Todas as espécies deste livro são Humanoides.\n- **Tamanho.** Algumas espécies deixam você escolher entre Pequeno e Médio.\n- **Deslocamento.**\n- **Traços Especiais.** Você recebe todos os traços listados; alguns pedem uma escolha.\n\n| Espécie | Tamanho | Desloc. | Destaques |\n|---|---|---|---|\n| [[aasimar|Aasimar]] | Médio ou Pequeno | 9 m | Resistência Necrótico/Radiante, Mãos Curativas, Revelação Celestial |\n| [[anao|Anão]] | Médio | 9 m | Visão no Escuro 36 m, +1 PV por nível, Sismiconsciência |\n| [[draconato|Draconato]] | Médio | 9 m | Ataque de Sopro, Resistência, voo no nível 5 |\n| [[elfo|Elfo]] | Médio | 9 m | Linhagem Élfica, Transe, Vantagem contra Enfeitiçado |\n| [[gnomo|Gnomo]] | Pequeno | 9 m | Vantagem em salvaguardas de Int, Sab e Car |\n| [[golias|Golias]] | Médio | 10,5 m | Ancestralidade Gigante, Forma Grande |\n| [[humano|Humano]] | Médio ou Pequeno | 9 m | Inspiração Heroica, perícia e talento extra |\n| [[orc|Orc]] | Médio | 9 m | Pico de Adrenalina, Vigor Implacável |\n| [[pequenino|Pequenino]] | Pequeno | 9 m | Sorte, Corajoso, Furtividade Natural |\n| [[tiferino|Tiferino]] | Médio ou Pequeno | 9 m | Legado Ínfero, Taumaturgia |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "acolito",
+    "nome": "Acólito",
+    "nome_en": "Acolyte",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "acolyte"
+    ],
+    "resumo": "Inteligência, Sabedoria, Carisma · Iniciado em Magia (Clérigo) · Intuição, Religião",
+    "texto": "*Você serviu num templo, conduzindo ritos para um deus ou panteão. Sob a orientação de um sacerdote estudou religião e, pela devoção, aprendeu a canalizar um pouco de poder divino.*\n\n| | |\n|---|---|\n| Valores de Atributo | Inteligência, Sabedoria, Carisma |\n| Talento de Origem | [[iniciado-em-magia|Iniciado em Magia]] (Clérigo) |\n| Perícias | Intuição, Religião |\n| Ferramenta | Suprimentos de Calígrafo |\n| Equipamento | Escolha (A) Suprimentos de Calígrafo, Livro (orações), Símbolo Sagrado, Pergaminho (10 folhas), Túnica, 8 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "andarilho",
+    "nome": "Andarilho",
+    "nome_en": "Wayfarer",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "wayfarer",
+      "rua"
+    ],
+    "resumo": "Destreza, Sabedoria, Carisma · Sortudo · Furtividade, Intuição",
+    "texto": "*Você cresceu nas ruas entre outros esquecidos, dormindo onde dava e fazendo bicos por comida, às vezes furtando quando a fome apertava. Ainda assim, nunca perdeu o orgulho nem a esperança.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Sabedoria, Carisma |\n| Talento de Origem | [[sortudo|Sortudo]] |\n| Perícias | Furtividade, Intuição |\n| Ferramenta | Ferramentas de Ladrão |\n| Equipamento | Escolha (A) 2 Adagas, Ferramentas de Ladrão, Kit de Jogos (qualquer), 2 Algibeiras, Roupas de Viagem, Saco de Dormir, 16 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "artesao",
+    "nome": "Artesão",
+    "nome_en": "Artisan",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "artisan",
+      "artesanato"
+    ],
+    "resumo": "Força, Destreza, Inteligência · Artifista · Investigação, Persuasão",
+    "texto": "*Você começou limpando a oficina de um artesão por poucas moedas e virou aprendiz. Aprendeu a fazer peças básicas, a lidar com clientes exigentes e ganhou olho para detalhes.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Destreza, Inteligência |\n| Talento de Origem | [[artifista|Artifista]] |\n| Perícias | Investigação, Persuasão |\n| Ferramenta | Um tipo de Ferramentas de Artesão à escolha |\n| Equipamento | Escolha (A) as mesmas Ferramentas de Artesão, 2 Algibeiras, Roupas de Viagem, 32 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "artista",
+    "nome": "Artista",
+    "nome_en": "Entertainer",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "entertainer",
+      "músico",
+      "palco"
+    ],
+    "resumo": "Força, Destreza, Carisma · Músico · Acrobacia, Atuação",
+    "texto": "*Você cresceu em feiras e festivais itinerantes, trabalhando para músicos e acrobatas em troca de aulas. Aprendeu corda bamba, música e poesia, e até hoje vive pelo aplauso.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Destreza, Carisma |\n| Talento de Origem | [[musico|Músico]] |\n| Perícias | Acrobacia, Atuação |\n| Ferramenta | Um tipo de Instrumento Musical à escolha |\n| Equipamento | Escolha (A) o mesmo Instrumento Musical, Espelho, 2 Fantasias, Perfume, Roupas de Viagem, 11 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "charlatao",
+    "nome": "Charlatão",
+    "nome_en": "Charlatan",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "charlatan",
+      "golpista"
+    ],
+    "resumo": "Destreza, Constituição, Carisma · Habilidoso · Enganação, Prestidigitação",
+    "texto": "*Você frequentava tavernas e botequins da região vendendo mentiras confortáveis para quem precisava delas, como poções falsas ou árvores genealógicas forjadas.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Constituição, Carisma |\n| Talento de Origem | [[habilidoso|Habilidoso]] |\n| Perícias | Enganação, Prestidigitação |\n| Ferramenta | Kit de Falsificação |\n| Equipamento | Escolha (A) Kit de Falsificação, Fantasia, Roupas Finas, 15 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "criminoso",
+    "nome": "Criminoso",
+    "nome_en": "Criminal",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "criminal",
+      "ladrão"
+    ],
+    "resumo": "Destreza, Constituição, Inteligência · Alerta · Furtividade, Prestidigitação",
+    "texto": "*Você vivia em becos escuros, batendo carteiras ou assaltando lojas, talvez numa pequena gangue, talvez sozinho contra a guilda dos ladrões local.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Constituição, Inteligência |\n| Talento de Origem | [[alerta|Alerta]] |\n| Perícias | Furtividade, Prestidigitação |\n| Ferramenta | Ferramentas de Ladrão |\n| Equipamento | Escolha (A) 2 Adagas, Ferramentas de Ladrão, 2 Algibeiras, Pé de Cabra, Roupas de Viagem, 16 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "eremita",
+    "nome": "Eremita",
+    "nome_en": "Hermit",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "hermit",
+      "isolado"
+    ],
+    "resumo": "Constituição, Sabedoria, Carisma · Curandeiro · Medicina, Religião",
+    "texto": "*Você passou os primeiros anos isolado numa cabana ou mosteiro longe de tudo, com as criaturas da floresta por companhia, refletindo sobre os mistérios da criação.*\n\n| | |\n|---|---|\n| Valores de Atributo | Constituição, Sabedoria, Carisma |\n| Talento de Origem | [[curandeiro|Curandeiro]] |\n| Perícias | Medicina, Religião |\n| Ferramenta | Kit de Herbalismo |\n| Equipamento | Escolha (A) Cajado, Kit de Herbalismo, Lâmpada, Livro (filosofia), Óleo (3 frascos), Roupas de Viagem, Saco de Dormir, 16 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "escriba",
+    "nome": "Escriba",
+    "nome_en": "Scribe",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "scribe",
+      "escrita"
+    ],
+    "resumo": "Destreza, Inteligência, Sabedoria · Habilidoso · Investigação, Percepção",
+    "texto": "*Você se formou num scriptorium, mosteiro ou repartição do governo, escrevendo e copiando textos com mão firme. Acima de tudo, presta muita atenção aos detalhes.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Inteligência, Sabedoria |\n| Talento de Origem | [[habilidoso|Habilidoso]] |\n| Perícias | Investigação, Percepção |\n| Ferramenta | Suprimentos de Calígrafo |\n| Equipamento | Escolha (A) Suprimentos de Calígrafo, Lâmpada, Óleo (3 frascos), Pergaminho (12 folhas), Roupas Finas, 23 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "fazendeiro",
+    "nome": "Fazendeiro",
+    "nome_en": "Farmer",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "farmer",
+      "campo"
+    ],
+    "resumo": "Força, Constituição, Sabedoria · Vigoroso · Lidar com Animais, Natureza",
+    "texto": "*Você cresceu cuidando de animais e da terra, o que lhe deu paciência, boa saúde, apreço pela fartura da natureza e respeito pela fúria dela.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Constituição, Sabedoria |\n| Talento de Origem | [[vigoroso|Vigoroso]] |\n| Perícias | Lidar com Animais, Natureza |\n| Ferramenta | Ferramentas de Carpinteiro |\n| Equipamento | Escolha (A) Foice, Ferramentas de Carpinteiro, Kit de Curandeiro, Balde de Ferro, Pá, 30 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "guarda",
+    "nome": "Guarda",
+    "nome_en": "Guard",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "guard",
+      "vigia"
+    ],
+    "resumo": "Força, Inteligência, Sabedoria · Alerta · Atletismo, Percepção",
+    "texto": "*Você passou horas sem fim de vigia numa torre, com um olho nos saqueadores lá fora e o outro nos encrenqueiros do lado de dentro da muralha.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Inteligência, Sabedoria |\n| Talento de Origem | [[alerta|Alerta]] |\n| Perícias | Atletismo, Percepção |\n| Ferramenta | Um tipo de Kit de Jogos à escolha |\n| Equipamento | Escolha (A) Lança, Besta Leve, 20 Virotes, o mesmo Kit de Jogos, Aljava, Grilhões, Lanterna Coberta, Roupas de Viagem, 12 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "guia",
+    "nome": "Guia",
+    "nome_en": "Guide",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "guide",
+      "natureza"
+    ],
+    "resumo": "Destreza, Constituição, Sabedoria · Iniciado em Magia (Druida) · Furtividade, Sobrevivência",
+    "texto": "*Você cresceu ao ar livre, longe de cidades, explorando maravilhas e ruínas. De vez em quando guiava sacerdotes da natureza, que lhe ensinaram o básico da magia natural.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Constituição, Sabedoria |\n| Talento de Origem | [[iniciado-em-magia|Iniciado em Magia]] (Druida) |\n| Perícias | Furtividade, Sobrevivência |\n| Ferramenta | Ferramentas de Cartógrafo |\n| Equipamento | Escolha (A) Arco Curto, 20 Flechas, Ferramentas de Cartógrafo, Aljava, Roupas de Viagem, Saco de Dormir, Tenda, 3 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "marinheiro",
+    "nome": "Marinheiro",
+    "nome_en": "Sailor",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "sailor",
+      "navio",
+      "mar"
+    ],
+    "resumo": "Força, Destreza, Sabedoria · Valentão de Taverna · Acrobacia, Percepção",
+    "texto": "*Você viveu no mar, passou por incontáveis portos, enfrentou tempestades e trocou histórias com quem vive sob as ondas.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Destreza, Sabedoria |\n| Talento de Origem | [[valentao-de-taverna|Valentão de Taverna]] |\n| Perícias | Acrobacia, Percepção |\n| Ferramenta | Ferramentas de Navegador |\n| Equipamento | Escolha (A) Adaga, Ferramentas de Navegador, Corda, Roupas de Viagem, 20 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mercador",
+    "nome": "Mercador",
+    "nome_en": "Merchant",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "merchant",
+      "comércio"
+    ],
+    "resumo": "Constituição, Inteligência, Carisma · Sortudo · Lidar com Animais, Persuasão",
+    "texto": "*Você foi aprendiz de um comerciante, caravaneiro ou lojista, viajando e comprando e vendendo matérias-primas ou peças prontas.*\n\n| | |\n|---|---|\n| Valores de Atributo | Constituição, Inteligência, Carisma |\n| Talento de Origem | [[sortudo|Sortudo]] |\n| Perícias | Lidar com Animais, Persuasão |\n| Ferramenta | Ferramentas de Navegador |\n| Equipamento | Escolha (A) Ferramentas de Navegador, 2 Algibeiras, Roupas de Viagem, 22 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "nobre",
+    "nome": "Nobre",
+    "nome_en": "Noble",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "noble",
+      "aristocrata"
+    ],
+    "resumo": "Força, Inteligência, Carisma · Habilidoso · História, Persuasão",
+    "texto": "*Você cresceu num castelo, entre riqueza e privilégio, numa família de nobres menores. Recebeu ótima educação e, observando a corte, aprendeu muito sobre liderança.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Inteligência, Carisma |\n| Talento de Origem | [[habilidoso|Habilidoso]] |\n| Perícias | História, Persuasão |\n| Ferramenta | Um tipo de Kit de Jogos à escolha |\n| Equipamento | Escolha (A) o mesmo Kit de Jogos, Perfume, Roupas Finas, 29 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "sabio",
+    "nome": "Sábio",
+    "nome_en": "Sage",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "sage",
+      "estudioso"
+    ],
+    "resumo": "Constituição, Inteligência, Sabedoria · Iniciado em Magia (Mago) · Arcanismo, História",
+    "texto": "*Você viajou entre mansões e mosteiros trocando trabalho por acesso às bibliotecas, estudando o saber do multiverso e até rudimentos de magia.*\n\n| | |\n|---|---|\n| Valores de Atributo | Constituição, Inteligência, Sabedoria |\n| Talento de Origem | [[iniciado-em-magia|Iniciado em Magia]] (Mago) |\n| Perícias | Arcanismo, História |\n| Ferramenta | Suprimentos de Calígrafo |\n| Equipamento | Escolha (A) Cajado, Suprimentos de Calígrafo, Livro (história), Pergaminho (8 folhas), Túnica, 8 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "soldado",
+    "nome": "Soldado",
+    "nome_en": "Soldier",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "soldier",
+      "guerra"
+    ],
+    "resumo": "Força, Destreza, Constituição · Atacante Selvagem · Atletismo, Intimidação",
+    "texto": "*Você treina para a guerra desde que virou adulto e quase não lembra da vida antes das armas. A batalha está no seu sangue.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Destreza, Constituição |\n| Talento de Origem | [[atacante-selvagem|Atacante Selvagem]] |\n| Perícias | Atletismo, Intimidação |\n| Ferramenta | Um tipo de Kit de Jogos à escolha |\n| Equipamento | Escolha (A) Lança, Arco Curto, 20 Flechas, Kit de Curandeiro, o mesmo Kit de Jogos, Aljava, Roupas de Viagem, 14 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "aasimar",
+    "nome": "Aasimar",
+    "nome_en": "Aasimar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "celestial",
+      "anjo"
+    ],
+    "resumo": "Centelha celestial: resistência Necrótico/Radiante, Mãos Curativas, Luz e Revelação Celestial.",
+    "texto": "*Mortais com uma centelha dos Planos Superiores na alma. Vivem até 160 anos e têm sinais celestiais, como sardas metálicas, olhos luminosos ou auréola.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–2,10 m) ou Pequeno (0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Resistência Celestial.** Resistência a dano Necrótico e Radiante.\n\n**Visão no Escuro.** 18 metros.\n\n**Mãos Curativas.** Ação Usar Magia: toque uma criatura e jogue uma quantidade de d4 igual ao seu Bônus de Proficiência; ela recupera esse total em PV. Uma vez por Descanso Longo.\n\n**Portador da Luz.** Você conhece o truque *Luz*. Carisma é o atributo de conjuração.\n\n**Revelação Celestial.** A partir do nível 3 de personagem, como Ação Bônus, você se transforma por 1 minuto ou até encerrar (sem ação). Uma vez por Descanso Longo. Escolha a forma a cada uso.\n\nEnquanto durar, **uma vez em cada um dos seus turnos**, ao causar dano a um alvo com ataque ou magia, cause dano extra igual ao seu Bônus de Proficiência (Necrótico no Manto Necrótico; Radiante nas outras duas).\n\n- **Asas Celestiais.** Deslocamento de Voo igual ao seu Deslocamento.\n- **Manto Necrótico.** Cada criatura que não seja sua aliada a até 3 m faz salvaguarda de Carisma (CD 8 + mod. de Carisma + Bônus de Proficiência) ou fica [[amedrontado|Amedrontada]] até o fim do seu próximo turno.\n- **Transfiguração Radiante.** Você emite Luz Plena em 3 m e Meia-luz por mais 3 m. No fim de cada um dos seus turnos, cada criatura a até 3 m sofre dano Radiante igual ao seu Bônus de Proficiência.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "anao",
+    "nome": "Anão",
+    "nome_en": "Dwarf",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "dwarf",
+      "anões"
+    ],
+    "resumo": "Robusto: Visão no Escuro 36 m, Resistência a Veneno, +1 PV por nível e Sismiconsciência na pedra.",
+    "texto": "*Criados da terra por um deus da forja, os anões têm afinidade com pedra, metal e a vida subterrânea, e vivem cerca de 350 anos.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–1,50 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 36 metros.\n\n**Resistência Anã.** Resistência a dano Venenoso e Vantagem nas salvaguardas para evitar ou encerrar a condição [[envenenado|Envenenado]].\n\n**Tenacidade Anã.** Seus PV máximos aumentam em 1, e mais 1 a cada nível de personagem que você ganha.\n\n**Conhecimento de Pedras.** Ação Bônus: você ganha Sismiconsciência de 18 m por 10 minutos. Precisa estar sobre uma superfície de pedra (natural ou trabalhada) ou tocando nela. Usos iguais ao seu Bônus de Proficiência por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "draconato",
+    "nome": "Draconato",
+    "nome_en": "Dragonborn",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "dragonborn",
+      "dragão",
+      "sopro"
+    ],
+    "resumo": "Herança dracônica: Ataque de Sopro, Resistência ao tipo do dragão e voo temporário no nível 5.",
+    "texto": "*Descendentes de dragões cromáticos e metálicos, parecem dragões bípedes sem asas, com escamas, chifres e cores que lembram seus ancestrais.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,50–2,10 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Herança Dracônica.** Escolha um tipo de dragão; ele define o dano do sopro e da resistência.\n\n| Dragão | Dano | Dragão | Dano |\n|---|---|---|---|\n| Azul | Elétrico | Negro | Ácido |\n| Branco | Gélido | Ouro | Ígneo |\n| Bronze | Elétrico | Prata | Gélido |\n| Cobre | Ácido | Verde | Venenoso |\n| Latão | Ígneo | Vermelho | Ígneo |\n\n**Ataque de Sopro.** Quando faz a ação [[atacar|Atacar]], você pode trocar um dos ataques por um sopro num Cone de 4,5 m ou numa Linha de 9 m × 1,5 m (escolha a cada vez). Cada criatura na área faz salvaguarda de Destreza (CD 8 + mod. de Constituição + Bônus de Proficiência): sofre 1d10 do tipo da sua herança se falhar, ou metade se passar. O dano sobe para 2d10 no nível 5, 3d10 no 11 e 4d10 no 17. Usos iguais ao Bônus de Proficiência por Descanso Longo.\n\n**Resistência a Dano.** Resistência ao tipo de dano da sua herança.\n\n**Visão no Escuro.** 18 metros.\n\n**Voo Dracônico.** A partir do nível 5 de personagem, como Ação Bônus, asas espectrais surgem por 10 minutos (ou até você retraí-las sem ação, ou ficar [[incapacitado|Incapacitado]]). Nesse tempo você tem Deslocamento de Voo igual ao seu Deslocamento. Uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "elfo",
+    "nome": "Elfo",
+    "nome_en": "Elf",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "elf",
+      "drow",
+      "alto elfo",
+      "elfo silvestre",
+      "elfo da floresta"
+    ],
+    "resumo": "Linhagem Élfica (Alto Elfo, Drow ou Silvestre), Transe, Sentidos Aguçados e Vantagem contra Enfeitiçado.",
+    "texto": "*Criados por Corellon, os elfos têm orelhas pontudas, vivem cerca de 750 anos e não dormem: entram em transe, conscientes do que acontece ao redor.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,50–1,80 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Linhagem Élfica.** Escolha uma linhagem abaixo e receba o benefício de nível 1. Nos níveis 3 e 5 de personagem você aprende a magia indicada; ela fica sempre preparada e pode ser conjurada uma vez sem gastar espaço de magia (recupera no Descanso Longo), além de poder usar seus espaços normalmente. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao escolher a linhagem.\n\n- **Alto Elfo.** Nível 1: truque *Prestidigitação Arcana* (ao fim de cada Descanso Longo pode trocá-lo por outro truque da lista de Mago). Nível 3: *Detectar Magia*. Nível 5: *Passo Nebuloso*.\n- **Drow.** Nível 1: Visão no Escuro passa a 36 m e truque *Luzes Dançantes*. Nível 3: *Fogo das Fadas*. Nível 5: *Escuridão*.\n- **Elfo Silvestre.** Nível 1: Deslocamento passa a 10,5 m e truque *Arte Druídica*. Nível 3: *Passos Largos*. Nível 5: *Passos Sem Rastro*.\n\n**Ancestralidade Feérica.** Vantagem nas salvaguardas para evitar ou encerrar a condição [[enfeiticado|Enfeitiçado]].\n\n**Sentidos Aguçados.** Proficiência em Intuição, Percepção ou Sobrevivência (escolha uma).\n\n**Transe.** Você completa um Descanso Longo em 4 horas meditando, consciente, sem dormir. Magia não pode forçar você a dormir.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "gnomo",
+    "nome": "Gnomo",
+    "nome_en": "Gnome",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "gnome",
+      "gnomo das rochas",
+      "gnomo do bosque"
+    ],
+    "resumo": "Vantagem em salvaguardas de Int, Sab e Car; Linhagem Gnômica (das Rochas ou do Bosque).",
+    "texto": "*Seres mágicos e pequenos, de olhos grandes e orelhas pontudas, criados por deuses da invenção e das ilusões. Vivem cerca de 425 anos.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Pequeno (0,90–1,20 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Astúcia de Gnomo.** Vantagem em salvaguardas de Inteligência, Sabedoria e Carisma.\n\n**Linhagem Gnômica.** Escolha uma das opções e, junto, Inteligência, Sabedoria ou Carisma como atributo de conjuração destas magias.\n\n- **Gnomo das Rochas.** Você conhece *Consertar* e *Prestidigitação Arcana*. Gastando 10 minutos conjurando *Prestidigitação Arcana*, você monta um dispositivo mecânico minúsculo (CA 5, 1 PV), como um brinquedo, isqueiro ou caixinha de música. Ao montá-lo, escolha um efeito de *Prestidigitação Arcana* (e uma das opções dele, se houver); o dispositivo produz esse efeito quando alguém usa uma Ação Bônus para ativá-lo com um toque. Você pode ter até três ao mesmo tempo; cada um se desfaz após 8 horas ou quando você o desmonta com um toque (ação Usar Objeto).\n- **Gnomo do Bosque.** Você conhece *Ilusão Menor* e tem sempre preparada *Falar com Animais*, que pode conjurar sem espaço de magia um número de vezes igual ao Bônus de Proficiência (recupera no Descanso Longo), além de usar seus espaços.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golias",
+    "nome": "Golias",
+    "nome_en": "Goliath",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "goliath",
+      "gigante"
+    ],
+    "resumo": "Descendente de gigantes: Ancestralidade Gigante, Forma Grande no nível 5 e Porte Poderoso. Deslocamento 10,5 m.",
+    "texto": "*Altos descendentes distantes de gigantes, carregam bênçãos sobrenaturais de seus ancestrais e lembram fisicamente o tipo de gigante de sua linhagem.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (2,10–2,40 m) |\n| Deslocamento | 10,5 metros |\n\n### Traços\n\n**Ancestralidade Gigante.** Escolha um benefício. Usos iguais ao seu Bônus de Proficiência por Descanso Longo.\n\n- **Arrepio do Gelo (Gigante do Gelo).** Ao acertar e causar dano com uma jogada de ataque, cause também 1d6 de dano Gélido e reduza o Deslocamento do alvo em 3 m até o início do seu próximo turno.\n- **Queimadura de Fogo (Gigante do Fogo).** Ao acertar e causar dano com uma jogada de ataque, cause também 1d10 de dano Ígneo.\n- **Resistência da Pedra (Gigante da Pedra).** Ao sofrer dano, use sua Reação: jogue 1d12 + mod. de Constituição e reduza o dano nesse total.\n- **Salto da Nuvem (Gigante das Nuvens).** Ação Bônus: teleporte-se até 9 m para um espaço desocupado que você veja.\n- **Tombo da Colina (Gigante da Colina).** Ao acertar e causar dano a uma criatura Grande ou menor com uma jogada de ataque, deixe-a [[caido|Caída]].\n- **Trovão da Tempestade (Gigante da Tempestade).** Ao sofrer dano de uma criatura a até 18 m, use sua Reação para causar 1d8 de dano Trovejante a ela.\n\n**Forma Grande.** A partir do nível 5 de personagem, como Ação Bônus, você fica Grande (se houver espaço) por 10 minutos ou até encerrar (sem ação). Nesse tempo tem Vantagem em testes de Força e +3 m de Deslocamento. Uma vez por Descanso Longo.\n\n**Porte Poderoso.** Vantagem em testes de atributo para encerrar a condição [[agarrado|Imobilizado]], e você conta como um tamanho maior para a capacidade de carga.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "humano",
+    "nome": "Humano",
+    "nome_en": "Human",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "human"
+    ],
+    "resumo": "Versátil: Inspiração Heroica a cada Descanso Longo, uma perícia e um talento de Origem extra.",
+    "texto": "*Variados e numerosos, os humanos estão por todo o multiverso e são conhecidos pela ambição.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–2,10 m) ou Pequeno (0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Eficiente.** Você ganha Inspiração Heroica sempre que termina um Descanso Longo.\n\n**Hábil.** Proficiência em uma perícia à sua escolha.\n\n**Versátil.** Você ganha um talento de Origem à sua escolha. [[habilidoso|Habilidoso]] é recomendado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "orc",
+    "nome": "Orc",
+    "nome_en": "Orc",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "orc",
+      "meio-orc"
+    ],
+    "resumo": "Pico de Adrenalina (Correr como Ação Bônus + PV temporários), Vigor Implacável e Visão no Escuro 36 m.",
+    "texto": "*Filhos de Gruumsh, os orcs herdaram resistência, determinação e a capacidade de enxergar no escuro. São altos e robustos, com presas inferiores.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,80–2,10 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Pico de Adrenalina.** Você pode fazer a ação [[disparada|Correr]] como Ação Bônus. Quando faz isso, ganha PV temporários iguais ao seu Bônus de Proficiência. Usos iguais ao Bônus de Proficiência, recuperados num Descanso Curto ou Longo.\n\n**Visão no Escuro.** 36 metros.\n\n**Vigor Implacável.** Quando cai a 0 PV sem morrer na hora, você fica com 1 PV. Uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "pequenino",
+    "nome": "Pequenino",
+    "nome_en": "Halfling",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "halfling",
+      "hobbit",
+      "pequenino"
+    ],
+    "resumo": "Sorte (rejoga 1 no d20), Corajoso, Agilidade Pequenina e Furtividade Natural.",
+    "texto": "*Pequenos como uma criança humana, valorizam lar e comunidade, mas muitos têm espírito aventureiro e a famosa “sorte dos pequeninos”. Vivem cerca de 150 anos.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Pequeno (0,60–0,90 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Corajoso.** Vantagem nas salvaguardas para evitar ou encerrar a condição [[amedrontado|Amedrontado]].\n\n**Agilidade Pequenina.** Você pode atravessar o espaço de qualquer criatura pelo menos um tamanho maior que você, mas não pode parar nele.\n\n**Sorte.** Quando tirar 1 no d20 de um [[testes-de-d20|Teste de D20]], você pode jogar o dado de novo e deve usar o novo resultado.\n\n**Furtividade Natural.** Você pode fazer a ação [[esconder|Esconder]] mesmo quando encoberto só por uma criatura pelo menos um tamanho maior que você.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "tiferino",
+    "nome": "Tiferino",
+    "nome_en": "Tiefling",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "tiefling",
+      "abissal",
+      "ctônico",
+      "infernal"
+    ],
+    "resumo": "Legado Ínfero (Abissal, Ctônico ou Infernal) com resistência e magias, mais Taumaturgia.",
+    "texto": "*Ligados por sangue a um diabo, demônio ou outro ínfero dos Planos Inferiores. Esse legado traz poder, mas não define a moral do tiferino.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–2,10 m) ou Pequeno (0,90–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Legado Ínfero.** Escolha um legado abaixo e receba o benefício de nível 1. Nos níveis 3 e 5 de personagem você aprende a magia indicada; ela fica sempre preparada e pode ser conjurada uma vez sem gastar espaço de magia (recupera no Descanso Longo), além de poder usar seus espaços normalmente. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao escolher o legado.\n\n- **Abissal.** Nível 1: Resistência a dano Venenoso e truque *Rajada de Veneno*. Nível 3: *Raio Nauseante*. Nível 5: *Paralisar Pessoa*. Ligado ao Abismo, ao Pandemônio e ao Cárceri; costuma ter sangue demoníaco.\n- **Ctônico.** Nível 1: Resistência a dano Necrótico e truque *Toque Necrótico*. Nível 3: *Vitalidade Vazia*. Nível 5: *Raio do Enfraquecimento*. Ligado ao Cárceri, à Geena e ao Hades; ancestrais ínferos Neutros e Maus.\n- **Infernal.** Nível 1: Resistência a dano Ígneo e truque *Raio de Fogo*. Nível 3: *Repreensão Diabólica*. Nível 5: *Escuridão*. Ligado à Geena, aos Nove Infernos e ao Aqueronte; costuma ter ancestrais diabólicos.\n\n**Presença Sobrenatural.** Você conhece o truque *Taumaturgia*, conjurado com o mesmo atributo do seu Legado Ínfero.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  }
+]
