@@ -50,7 +50,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Clérigo",
-    "Druida"
+    "Druida",
+    "Artífice"
    ]
   },
   "texto": "Você escolhe uma criatura no alcance que esteja com 0 Pontos de Vida e ainda viva. Ela fica Estável (veja [[zero-pontos-de-vida|Cair a 0 Pontos de Vida]]).\n\n### Aprimoramento de truque\nO alcance dobra nos níveis 5 (9 metros), 11 (18 metros) e 17 (36 metros).",
@@ -78,7 +79,8 @@
    "duracao": "8 horas",
    "classes": [
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você protege uma porta, uma janela ou uma área no alcance que caiba num Cubo de 6 metros de aresta. Enquanto a magia durar, você é avisado sempre que uma criatura tocar a área protegida ou entrar nela. Ao conjurar, você pode indicar criaturas que não acionam o aviso.\n\nEscolha também o tipo de alarme:\n\n- **Mental.** Você sente um sinal na mente se estiver a até 1,5 quilômetro da área. O sinal te acorda se estiver dormindo.\n- **Sonoro.** Soa um tilintar de sineta por 10 segundos, audível a até 18 metros da área.",
@@ -161,7 +163,8 @@
    "duracao": "Concentração, até 1 hora",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você transforma o próprio corpo. Escolha uma das opções abaixo; o efeito dura enquanto a magia durar, e você pode usar uma ação [[acao-magia|Usar Magia]] para trocar por outra opção.\n\n- **Adaptação Aquática.** Surgem guelras e membranas entre os dedos. Você respira debaixo d’água e ganha Deslocamento de Natação igual ao seu Deslocamento.\n- **Armas Naturais.** Você ganha garras (Cortante), presas (Perfurante), chifres (Perfurante) ou cascos (Contundente). Quando causa dano com eles usando seu [[ataque-desarmado|Ataque Desarmado]], o dano é 1d6 do tipo indicado, em vez do normal, e você usa seu modificador de atributo de conjuração em vez de Força nas jogadas de ataque e de dano.\n- **Mudar Aparência.** Você define sua aparência: altura, peso, rosto, voz, cabelo (comprimento e cor) e outros traços marcantes. Pode parecer de outra espécie, mas suas estatísticas não mudam. Não pode parecer de outro tamanho, e sua forma básica continua a mesma (um bípede não vira quadrúpede, por exemplo). Enquanto a magia durar, uma ação Usar Magia permite mudar a aparência de novo.",
@@ -308,7 +311,8 @@
    "classes": [
     "Bardo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Escolha objetos não mágicos no alcance que ninguém esteja vestindo ou carregando, que não estejam presos a uma superfície e que não sejam Imensos. O total é limitado ao seu modificador de atributo de conjuração: cada objeto Médio ou menor conta como 1, Grande conta como 2 e Enorme conta como 3.\n\nCada alvo ganha vida, cria pernas e se torna um Constructo com as estatísticas de **Objeto Animado** (abaixo). Ele fica sob seu controle até a magia acabar ou até cair a 0 Pontos de Vida. As criaturas animadas são aliadas suas e dos seus aliados. Em combate, agem na sua contagem de [[iniciativa|Iniciativa]], logo depois do seu turno.\n\nEnquanto a magia durar, com uma Ação Bônus você dá ordens mentais a qualquer delas que esteja a até 150 metros; se forem várias, pode comandar quantas quiser com a mesma ordem. Sem ordens, a criatura só usa a ação [[esquivar|Esquivar]] e se move para evitar dano.\n\nQuando uma delas cai a 0 Pontos de Vida, volta a ser objeto, e o dano que sobrar passa para o objeto.\n\n### Em círculos superiores\nO dano da Pancada aumenta em 1d4 (Médio ou menor), 1d6 (Grande) ou 1d12 (Enorme) para cada círculo do espaço acima do 5º.\n\n### Objeto Animado\n*Constructo Enorme ou menor, sem alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 15 |\n| PV | 10 (Médio ou menor), 20 (Grande), 40 (Enorme) |\n| Deslocamento | 9 m |\n| Atributos | For 16, Des 10, Con 10, Int 3, Sab 3, Car 1 |\n| Imunidades | Psíquico, Venenoso; Amedrontado, Enfeitiçado, Envenenado, Exaustão, Paralisado |\n| Sentidos | Visão às Cegas 9 m, Percepção Passiva 6 |\n| Idiomas | Entende os idiomas que você conhece |\n| ND | Nenhum (XP 0; Bônus de Proficiência igual ao seu) |\n\n**Pancada.** *Ataque corpo a corpo:* bônus igual ao seu modificador de ataque mágico, alcance 1,5 m. *Acerto:* dano Energético de 1d4 + 3 (Médio ou menor), 2d6 + 3 + seu modificador de atributo de conjuração (Grande) ou 2d12 + 3 + seu modificador de atributo de conjuração (Enorme).",
@@ -369,7 +373,8 @@
     "Druida",
     "Feiticeiro",
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura e escolhe Força, Destreza, Inteligência, Sabedoria ou Carisma. Enquanto a magia durar, ela tem [[vantagem|Vantagem]] nos testes de atributo desse atributo.\n\n### Em círculos superiores\nVocê pode escolher uma criatura a mais para cada círculo do espaço acima do 2º. Cada alvo pode receber um atributo diferente.",
@@ -424,7 +429,8 @@
    "componentes": "V, S, M (um baú de 1 m por 60 cm por 60 cm, construído com materiais raros no valor de 5.000 ou mais PO, e uma réplica minúscula do baú fabricada com os mesmos materiais no valor de 50 ou mais PO)",
    "duracao": "Até ser dissipada",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você esconde um baú, com tudo que há nele, no Plano Etéreo. Para isso, toca o baú e sua réplica em miniatura (os componentes Materiais). O baú comporta até 340 litros de matéria não viva (1 m × 60 cm × 60 cm).\n\nEnquanto o baú estiver no Plano Etéreo, você pode usar uma ação [[acao-magia|Usar Magia]] tocando a réplica para trazê-lo de volta; ele surge num espaço desocupado no chão a até 1,5 metro de você. Para mandá-lo de volta ao Etéreo, use uma ação Usar Magia tocando o baú e a réplica.\n\nDepois de 60 dias, no fim de cada dia há uma chance cumulativa de 5% de a magia acabar. Ela também acaba se você conjurá-la de novo ou se a réplica Minúscula for destruída. Se a magia acabar com o baú no Plano Etéreo, ele fica lá, à espera de quem o encontrar.",
@@ -453,7 +459,8 @@
    "classes": [
     "Druida",
     "Guardião",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Uma arma não mágica que você toca vira uma arma mágica. Escolha um tipo de dano: Ácido, Elétrico, Gélido, Ígneo ou Trovejante. Enquanto a magia durar, a arma dá +1 nas jogadas de ataque e causa 1d4 de dano extra do tipo escolhido ao acertar.\n\n### Em círculos superiores\nCom espaço de 5º ou 6º círculo, o bônus vira +2 e o dano extra, 2d4. Com espaço de 7º círculo ou maior, o bônus vira +3 e o dano extra, 3d4.",
@@ -509,7 +516,8 @@
     "Feiticeiro",
     "Guardião",
     "Mago",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma arma não mágica. Até a magia acabar, ela é uma arma mágica com +1 nas jogadas de ataque e de dano. A magia termina se você conjurá-la de novo.\n\n### Em círculos superiores\nO bônus vira +2 com espaço de 3º a 5º círculo e +3 com espaço de 6º círculo ou maior.",
@@ -708,7 +716,8 @@
     "Bardo",
     "Druida",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Enquanto a magia durar, você aumenta ou reduz uma criatura ou um objeto que você vê no alcance. O objeto não pode estar sendo vestido nem carregado. Se o alvo for uma criatura que não quer ser afetada, ela pode fazer uma salvaguarda de Constituição; se passar, a magia não tem efeito.\n\nTudo o que a criatura veste e carrega muda de tamanho junto. Um item que ela solte volta logo ao tamanho normal. Uma arma arremessada ou munição volta ao normal assim que acerta ou erra o alvo.\n\n- **Aumentar.** O alvo sobe uma categoria de tamanho (de Médio para Grande, por exemplo). Ele tem Vantagem em testes e salvaguardas de Força. Seus ataques com armas aumentadas ou Ataques Desarmados causam 1d4 de dano extra ao acertar.\n- **Reduzir.** O alvo desce uma categoria de tamanho (de Médio para Pequeno, por exemplo). Ele tem Desvantagem em testes e salvaguardas de Força. Seus ataques com armas reduzidas ou Ataques Desarmados causam 1d4 de dano a menos ao acertar (mínimo 1).",
@@ -878,7 +887,8 @@
     "Clérigo",
     "Druida",
     "Guardião",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Escolha até três criaturas no alcance. Enquanto a magia durar, os Pontos de Vida máximos e os atuais de cada uma aumentam em 5.\n\n### Em círculos superiores\nO aumento de Pontos de Vida sobe mais 5 para cada círculo do espaço acima do 2º.",
@@ -1052,7 +1062,8 @@
    "duracao": "Até ser dissipada",
    "classes": [
     "Bardo",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você grava uma mensagem num objeto que você vê no alcance e que nenhuma outra criatura esteja vestindo ou carregando. Fale a mensagem — no máximo 25 palavras, que podem ser ditas ao longo de até 10 minutos — e depois defina a condição que vai ativá-la.\n\nQuando a condição acontecer, uma boca mágica surge no objeto e repete a mensagem com a sua voz e no mesmo volume em que você falou. Se o objeto tiver uma boca ou algo parecido (como a boca de uma estátua), a boca mágica aparece ali, como se o próprio objeto falasse.\n\nAo conjurar, decida se a magia acaba depois de entregar a mensagem uma vez ou se continua, repetindo-a toda vez que o gatilho ocorrer.\n\nO gatilho pode ser tão geral ou tão específico quanto você quiser, mas precisa se basear em algo visível ou audível que aconteça a até 9 metros do objeto. Exemplos: quando uma criatura chegar a até 9 metros, ou quando um sino de prata tocar a até 9 metros.",
@@ -1137,7 +1148,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você cria uma bolha de ácido num ponto no alcance, e ela estoura numa Esfera de 1,5 metro de raio. Cada criatura na Esfera faz uma salvaguarda de Destreza; quem falhar sofre 1d6 de dano Ácido.\n\n### Aprimoramento de truque\nO dano aumenta em 1d6 nos níveis 5 (2d6), 11 (3d6) e 17 (4d6).",
@@ -1305,7 +1317,8 @@
     "Clérigo",
     "Druida",
     "Feiticeiro",
-    "Guardião"
+    "Guardião",
+    "Artífice"
    ]
   },
   "texto": "Até dez criaturas voluntárias à sua escolha no alcance ganham, enquanto a magia durar, a capacidade de andar sobre qualquer superfície líquida — ácido, água, areia movediça, lama, lava, neve — como se fosse chão firme e inofensivo. Quem cruza lava ainda pode sofrer dano pelo calor.\n\nUm alvo precisa usar uma Ação Bônus para afundar da superfície para dentro do líquido ou subir de dentro dele para a superfície. Mas, se cair no líquido, atravessa a superfície e afunda.",
@@ -1360,7 +1373,8 @@
    "componentes": "V, S, M (um apito de prata)",
    "duracao": "8 horas",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você invoca um cão de guarda fantasmagórico num espaço desocupado que você vê no alcance. Ele dura enquanto a magia durar ou até vocês ficarem a mais de 90 metros um do outro.\n\nSó você vê o cão, e ele é intangível e invulnerável. Ele tem Visão Verdadeira de 9 metros. Se uma criatura Pequena ou maior chegar a até 9 metros dele sem antes dizer a senha que você definiu ao conjurar, ele começa a latir alto.\n\nNo início de cada turno seu, o cão tenta morder um inimigo a até 1,5 metro dele. Esse inimigo faz uma salvaguarda de Destreza; se falhar, sofre 4d8 de dano Energético.\n\nNos seus turnos seguintes, você pode usar uma ação [[acao-magia|Usar Magia]] para mover o cão até 9 metros.",
@@ -1475,7 +1489,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Escolha uma criatura voluntária que você consiga ver dentro do alcance. Enquanto a magia durar, o alvo:\n\n- tem o Deslocamento dobrado;\n- recebe +2 na Classe de Armadura;\n- tem [[vantagem|Vantagem]] em salvaguardas de Destreza;\n- ganha uma ação extra em cada turno dele.\n\nEssa ação extra só serve para [[atacar|Atacar]] (um único ataque), [[disparada|Correr]], [[desengajar|Desengajar]], [[esconder|Esconder]] ou [[usar|Usar Objeto]].\n\nQuando a magia acaba, uma onda de letargia toma o alvo: ele fica [[incapacitado|Incapacitado]] e com Deslocamento 0 até o fim do próximo turno dele.",
@@ -1503,7 +1518,8 @@
    "classes": [
     "Clérigo",
     "Druida",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma chama surge de um objeto que você toca. Ela produz Luz Plena num raio de 6 metros e Meia-luz por mais 6 metros.\n\nParece fogo comum, mas não esquenta e não gasta combustível. Você pode cobrir ou esconder a chama, mas ela não pode ser abafada nem apagada.",
@@ -1557,7 +1573,8 @@
    "componentes": "V, S, M (o caule de uma planta espinhosa)",
    "duracao": "Instantânea",
    "classes": [
-    "Druida"
+    "Druida",
+    "Artífice"
    ]
   },
   "texto": "Um chicote de vinha cheio de espinhos açoita uma criatura dentro do alcance. Faça um ataque mágico corpo a corpo contra ela.\n\nSe acertar, o alvo sofre 1d6 de dano Perfurante. Se for Grande ou menor, você pode puxá-lo até 3 metros na sua direção.\n\n### Aprimoramento de truque\nO dano sobe para 2d6 no nível 5, 3d6 no nível 11 e 4d6 no nível 17.",
@@ -1643,7 +1660,8 @@
    "classes": [
     "Clérigo",
     "Mago",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Uma aura sai de você numa Emanação de 9 metros enquanto a magia durar. Você e seus aliados dentro dela:\n\n- têm [[vantagem|Vantagem]] em salvaguardas contra magias e outros efeitos mágicos;\n- quando passam numa salvaguarda contra magia ou efeito mágico que daria metade do dano em sucesso, não sofrem dano nenhum.",
@@ -2379,7 +2397,8 @@
    "componentes": "V, S, M (um pedaço de corda)",
    "duracao": "1 hora",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma corda. Uma ponta dela sobe até a corda ficar em pé, perpendicular ao chão, ou até alcançar o teto. Na ponta de cima, abre-se um portal [[invisivel|Invisível]] de 1 por 1,5 metro para um espaço extradimensional, que dura até a magia acabar. Chega-se lá subindo pela corda, que pode ser recolhida para dentro do espaço ou solta para fora.\n\nO espaço comporta até oito criaturas Médias ou menores. Ataques, magias e outros efeitos não atravessam o portal em nenhum sentido, mas quem está dentro consegue enxergar o lado de fora por ele.\n\nTudo o que estiver no espaço cai quando a magia termina.",
@@ -2548,7 +2567,8 @@
    "duracao": "Especial",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você puxa fios de material sombrio do Sombral e forma um objeto dentro do alcance. Ele pode ser de matéria vegetal (tecido, corda, madeira e afins) ou mineral (pedra, cristal, metal e afins). O objeto cabe num Cubo de até 1,5 metro de lado, e você precisa já ter visto algo com essa forma e esse material.\n\nA duração depende do material, conforme a tabela. Se o objeto misturar materiais, vale a menor duração. Usar um objeto criado por esta magia como componente Material de outra magia faz essa outra magia falhar.\n\n| Material | Duração |\n|---|---|\n| Matéria vegetal | 24 horas |\n| Pedra ou cristal | 12 horas |\n| Metais preciosos | 1 hora |\n| Gemas | 10 minutos |\n| Adamante ou mitral | 1 minuto |\n\n### Em círculos superiores\nO lado do Cubo aumenta em 1,5 metro para cada círculo do espaço acima do 5º.",
@@ -2602,7 +2622,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Clérigo",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você cria 20 quilos de comida e 120 litros de água potável, no chão ou em recipientes dentro do alcance, o bastante para evitar fome e sede. A comida é sem graça, mas nutritiva, e tem a aparência de um alimento que você escolher. A água é limpa.\n\nA comida estraga se não for consumida em 24 horas.",
@@ -2796,7 +2817,8 @@
     "Clérigo",
     "Druida",
     "Guardião",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura, que recupera Pontos de Vida em quantidade igual a 2d8 + seu modificador de atributo de conjuração.\n\n### Em círculos superiores\nA cura aumenta em 2d8 para cada círculo do espaço acima do 1º.",
@@ -3356,7 +3378,8 @@
     "Feiticeiro",
     "Guardião",
     "Mago",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Enquanto a magia durar, você percebe a presença de efeitos mágicos a até 9 metros de você. Se perceber algum, pode usar a ação [[acao-magia|Usar Magia]] para enxergar uma aura tênue em volta de qualquer criatura ou objeto visível na área que carregue magia. Se o efeito vier de uma magia, você descobre a escola dela.\n\nA magia não atravessa 30 centímetros de pedra, terra ou madeira, 2,5 centímetros de metal ou uma folha fina de chumbo.",
@@ -3498,7 +3521,8 @@
    "classes": [
     "Bardo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Até a magia acabar, você muda sua aparência, incluindo roupas, armadura, armas e outros pertences. Pode parecer até 30 centímetros mais alto ou mais baixo e mais pesado ou mais magro, mas precisa manter o mesmo formato básico de membros. Fora isso, a ilusão fica a seu critério.\n\nA ilusão não resiste ao toque. Se você acrescentar um chapéu, por exemplo, objetos o atravessam e quem o tocar não sentirá nada.\n\nPara perceber o disfarce, uma criatura precisa usar a ação [[estudar|Analisar]] para examinar sua aparência e passar num teste de Inteligência (Investigação) contra a CD para evitar sua magia.",
@@ -3531,7 +3555,8 @@
     "Feiticeiro",
     "Guardião",
     "Mago",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Escolha uma criatura, um objeto ou um efeito mágico dentro do alcance. Toda magia ativa de 3º círculo ou menor nesse alvo termina.\n\nPara cada magia ativa de 4º círculo ou maior no alvo, faça um teste de atributo com seu atributo de conjuração, com CD igual a 10 + o círculo dessa magia. Se passar, ela termina; se falhar, continua.\n\n### Em círculos superiores\nVocê encerra automaticamente qualquer magia no alvo cujo círculo seja igual ou menor que o do espaço usado.",
@@ -3703,7 +3728,8 @@
    "classes": [
     "Druida",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você manipula os elementos e cria um dos efeitos abaixo dentro do alcance:\n\n- **Convocar Água.** Uma névoa fria molha de leve criaturas e objetos num Cubo de 1,5 metro de lado. Ou, se preferir, surge 1 xícara de água limpa num recipiente aberto ou numa superfície; ela evapora em 1 minuto.\n- **Convocar Brisa.** Num Cubo de 1,5 metro de lado, um vento balança tecidos, levanta poeira, agita folhas e fecha portas e janelas abertas. Portas e janelas mantidas abertas por alguém ou por alguma força não são afetadas.\n- **Convocar Fogo.** Num Cubo de 1,5 metro de lado aparece uma nuvem leve de fagulhas inofensivas e fumaça colorida e perfumada (você escolhe a cor e o cheiro). As fagulhas podem acender velas, tochas ou lamparinas ali. O cheiro dura 1 minuto.\n- **Convocar Terra.** Uma camada fina de poeira ou areia cobre as superfícies de um quadrado de 1,5 metro de lado, ou uma única palavra aparece, na sua letra, num trecho de terra ou areia.\n- **Esculpir Elemento.** Terra, areia, fogo, fumaça, névoa ou água que caiba num Cubo de 30 centímetros de lado toma uma forma simples (como a de uma criatura) por 1 hora.",
@@ -3904,7 +3930,8 @@
    "classes": [
     "Bruxo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Até a magia acabar, uma criatura voluntária que você tocar consegue se mover por superfícies verticais e pelo teto mantendo as mãos livres. Ela também ganha Deslocamento de Escalada igual ao seu Deslocamento.\n\n### Em círculos superiores\nVocê pode escolher uma criatura a mais como alvo para cada círculo do espaço acima do 2º.",
@@ -4129,7 +4156,8 @@
    "componentes": "V, S, M (uma esfera de vidro)",
    "duracao": "Concentração, até 1 minuto",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma Esfera brilhante envolve uma criatura ou objeto Grande ou menor dentro do alcance. Uma criatura que não queira ser envolvida pode evitar com uma salvaguarda de Destreza; se falhar, fica presa pela duração.\n\nNada atravessa a barreira em nenhum sentido: nem objetos, nem energia, nem efeitos de outras magias. Ainda assim, quem está dentro consegue respirar. A Esfera é imune a todo tipo de dano. Ataques e efeitos de fora não ferem quem ou o que está dentro, e quem está dentro não consegue causar dano a nada do lado de fora.\n\nA Esfera não tem peso e tem o tamanho exato para conter seu ocupante. Uma criatura presa pode usar uma ação para empurrar as paredes e rolar a Esfera até metade do Deslocamento dela. Outras criaturas também podem pegar e carregar o globo.\n\nUma magia [[desintegrar|Desintegrar]] que tenha o globo como alvo o destrói sem ferir o que estiver dentro.",
@@ -4243,7 +4271,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Bardo",
-    "Druida"
+    "Druida",
+    "Artífice"
    ]
   },
   "texto": "Escolha um objeto de metal fabricado que você consiga ver dentro do alcance, como uma arma ou uma armadura média ou pesada de metal. Ele fica incandescente.\n\nAo conjurar, toda criatura em contato físico com o objeto sofre 2d8 de dano Ígneo. Enquanto a magia durar, você pode usar uma Ação Bônus em cada turno seu depois disso para causar esse dano de novo, desde que o objeto continue dentro do alcance.\n\nQuando uma criatura que esteja segurando ou vestindo o objeto sofre esse dano, ela faz uma salvaguarda de Constituição. Se falhar, larga o objeto, caso consiga. Se não largar, tem [[vantagem|Desvantagem]] em jogadas de ataque e testes de atributo até o início do próximo turno dela.\n\n### Em círculos superiores\nO dano aumenta em 1d8 para cada círculo do espaço acima do 2º.",
@@ -4357,7 +4386,8 @@
    "componentes": "V, S",
    "duracao": "Instantânea",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você converte matéria-prima em produtos feitos do mesmo material: uma ponte de madeira a partir de árvores, uma corda a partir de cânhamo, roupas a partir de linho ou lã, e assim por diante.\n\nEscolha matéria-prima que você consiga ver dentro do alcance. Havendo material suficiente, você fabrica um objeto Grande ou menor (cabendo num Cubo de 3 metros, ou em oito Cubos de 1,5 metro conectados). Se o material for metal, pedra ou outra substância mineral, o objeto não pode passar de Médio (cabendo num Cubo de 1,5 metro). A qualidade do resultado depende da qualidade da matéria-prima.\n\nLimites:\n\n- A magia não cria criaturas nem itens mágicos.\n- Itens que exigem grande habilidade, como armas e armaduras, só podem ser feitos se você tiver proficiência com o tipo de Ferramentas de Artesão usado para fabricá-los.",
@@ -4609,7 +4639,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Bardo",
-    "Druida"
+    "Druida",
+    "Artífice"
    ]
   },
   "texto": "Objetos num Cubo de 6 metros dentro do alcance ficam contornados por luz azul, verde ou violeta (você escolhe). Cada criatura no Cubo faz uma salvaguarda de Destreza e também fica contornada se falhar.\n\nEnquanto a magia durar, objetos e criaturas afetados emitem Meia-luz num raio de 3 metros e não podem se beneficiar da condição [[invisivel|Invisível]].\n\nJogadas de ataque contra uma criatura ou objeto afetado têm [[vantagem|Vantagem]] se o atacante puder vê-lo.",
@@ -4839,7 +4870,8 @@
    "classes": [
     "Bardo",
     "Clérigo",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você inscreve um glifo que depois dispara um efeito mágico. Ele pode ficar numa superfície (uma mesa, um trecho do chão) ou dentro de um objeto que possa ser fechado (um livro, um baú), para ficar escondido. O glifo cobre no máximo 3 metros de diâmetro. Se a superfície ou o objeto for levado a mais de 3 metros de onde você conjurou, o glifo se rompe e a magia termina sem disparar.\n\nO glifo é quase invisível: notá-lo exige um teste de Sabedoria (Percepção) bem-sucedido contra a CD para evitar sua magia.\n\nAo inscrevê-lo, você define o gatilho e escolhe entre runa explosiva e glifo de magia.\n\n### Gatilho\nVocê decide o gatilho ao conjurar. Em superfícies, são comuns: tocar ou pisar no glifo, retirar um objeto que o cobre ou chegar a certa distância dele. Em objetos, são comuns: abrir o objeto ou olhar para o glifo. Depois que o glifo dispara, a magia termina.\n\nVocê pode restringir o gatilho a certos tipos de criatura (por exemplo, só Aberrações) e definir quem não o dispara, como quem disser uma senha.\n\n### Runa explosiva\nAo disparar, o glifo libera energia numa Esfera de 6 metros de raio centrada nele. Cada criatura na área faz uma salvaguarda de Destreza: sofre 5d8 de dano Ácido, Elétrico, Gélido, Ígneo ou Trovejante (escolhido ao criar o glifo) se falhar, ou metade se passar.\n\n### Glifo de magia\nVocê guarda no glifo uma magia preparada de 3º círculo ou menor, conjurando-a como parte da criação. Ela precisa ter como alvo uma única criatura ou uma área, e não faz efeito nenhum nesse momento.\n\nQuando o glifo dispara, a magia guardada entra em ação:\n\n- Se tiver alvo, o alvo é a criatura que disparou o glifo.\n- Se afetar uma área, a área fica centrada nessa criatura.\n- Se invocar criaturas hostis ou criar objetos ou armadilhas nocivos, eles surgem o mais perto possível do intruso e o atacam.\n- Se exigir [[concentracao|Concentração]], dura toda a sua duração máxima.\n\n### Em círculos superiores\nO dano da runa explosiva aumenta em 1d8 para cada círculo do espaço acima do 3º. Num glifo de magia, você pode guardar qualquer magia de círculo até o do espaço usado no *Glifo de Proteção*.",
@@ -4897,7 +4929,8 @@
     "Bardo",
     "Bruxo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Guiado por um lampejo de intuição mágica, você ataca com a arma usada para conjurar a magia. O ataque usa seu atributo de conjuração, em vez de Força ou Destreza, nas jogadas de ataque e de dano. Se causar dano, você escolhe se ele é Radiante ou do tipo normal da arma.\n\n### Aprimoramento de truque\nQualquer que seja o tipo escolhido, o ataque causa dano Radiante extra nos níveis 5 (1d6), 11 (2d6) e 17 (3d6).",
@@ -4981,7 +5014,8 @@
    "duracao": "1 minuto",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma graxa que não pega fogo cobre o chão num quadrado de 3 metros de lado, centrado num ponto dentro do alcance, e o torna Terreno Difícil enquanto a magia durar.\n\nQuando a graxa surge, cada criatura de pé na área faz uma salvaguarda de Destreza; quem falhar fica [[caido|Caído]]. A mesma salvaguarda vale para quem entrar na área ou terminar o turno nela.",
@@ -5065,7 +5099,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Bardo",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca um objeto durante toda a conjuração. Se for um item mágico ou outro objeto mágico, você descobre:\n\n- Suas propriedades e como usá-las.\n- Se exige Sintonização.\n- Quantas cargas tem, se tiver.\n- Quais magias o estão afetando, se houver.\n- Se foi criado por uma magia, o nome dela.\n\nSe, em vez disso, tocar uma criatura durante a conjuração, você descobre quais magias a estão afetando, se houver alguma.",
@@ -5323,7 +5358,8 @@
     "Bardo",
     "Bruxo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma criatura que você tocar fica com a condição [[invisivel|Invisível]] até a magia acabar. A magia termina antes se o alvo fizer uma jogada de ataque, causar dano ou conjurar uma magia.\n\n### Em círculos superiores\nVocê pode escolher uma criatura adicional para cada círculo do espaço acima do 2º.",
@@ -5516,7 +5552,8 @@
    "componentes": "V, S, M (um cofre no valor de 400 ou mais PO)",
    "duracao": "Concentração, até 1 hora",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você invoca o espírito de um Constructo. Ele aparece num espaço desocupado que você consiga ver dentro do alcance e usa o bloco de estatísticas **Espírito do Constructo** abaixo. Ao conjurar, escolha o material: Argila, Metal ou Pedra. A criatura parece uma estátua animada desse material (você decide a aparência), e o material define alguns detalhes do bloco. Ela some ao chegar a 0 Pontos de Vida ou quando a magia acaba.\n\nA criatura é aliada sua e dos seus aliados. Em combate, ela usa a sua contagem de [[iniciativa|Iniciativa]], mas age logo depois de você. Ela obedece a seus comandos verbais (sem gastar ação sua). Se você não der ordem nenhuma, ela usa a ação [[esquivar|Esquivar]] e se movimenta para fugir do perigo.\n\n### Em círculos superiores\nUse o círculo do espaço gasto como “círculo da magia” no bloco de estatísticas.\n\n### Espírito do Constructo\n*Constructo Médio, Neutro*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 + círculo da magia |\n| PV | 40 + 15 por círculo acima do 4º |\n| Deslocamento | 9 m |\n| Atributos | For 18, Des 10, Con 18, Int 14, Sab 11, Car 5 |\n| Resistências | Venenoso |\n| Imunidades | Amedrontado, Enfeitiçado, Envenenado, Exaustão, Paralisado |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 10 |\n| Idiomas | Entende os idiomas que você fala |\n| ND | Nenhum (XP 0; BP igual ao seu Bônus de Proficiência) |\n\n**Corpo Aquecido (só Metal).** Uma criatura que acerte o espírito com um ataque corpo a corpo, ou que comece o turno mantendo o espírito [[agarrado|Imobilizado]], sofre 1d10 de dano Ígneo.\n\n**Letargia Pétrea (só Pedra).** Quando uma criatura começa o turno a até 3 metros do espírito e ele consegue vê-la, ele pode atingi-la com energia mágica. Ela faz uma salvaguarda de Sabedoria contra a CD para evitar sua magia. Falha: até o início do próximo turno do espírito, não pode fazer [[ataque-de-oportunidade|Ataques de Oportunidade]] e tem o Deslocamento reduzido à metade.\n\n**Ataques Múltiplos (Ação).** O espírito faz um número de ataques de Pancada igual à metade do círculo da magia (arredondado para baixo).\n\n**Pancada (Ação).** Ataque corpo a corpo: bônus igual ao seu modificador de ataque mágico, alcance 1,5 m. Acerto: 1d8 + 4 + círculo da magia de dano Contundente.\n\n**Revide Furioso (Reação; só Argila).** Gatilho: o espírito sofre dano de uma criatura. Efeito: ele faz um ataque de Pancada contra essa criatura, se puder; se não, move-se até metade do Deslocamento na direção dela sem provocar Ataques de Oportunidade.",
@@ -5935,7 +5972,8 @@
    "duracao": "Concentração, até 10 minutos",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma criatura ou um objeto solto à sua escolha, que você consiga ver dentro do alcance, sobe na vertical até 6 metros e fica flutuando enquanto a magia durar. O objeto pode pesar até 200 quilos. Uma criatura que não queira ser afetada pode fazer uma salvaguarda de Constituição e, se passar, a magia não a afeta.\n\nO alvo só consegue se mover empurrando ou puxando algum objeto ou superfície fixa ao alcance dele, como uma parede ou o teto, como se estivesse escalando.\n\nNo seu turno, você pode mudar a altitude do alvo em até 6 metros para cima ou para baixo. Se o alvo for você, isso faz parte do seu movimento. Se não for, você precisa usar a ação [[acao-magia|Usar Magia]] para movê-lo, e ele tem de continuar dentro do alcance.\n\nQuando a magia acaba, o alvo, se ainda estiver no ar, desce flutuando devagar até o chão.",
@@ -6198,7 +6236,8 @@
     "Bardo",
     "Clérigo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca um objeto Grande ou menor que ninguém mais esteja vestindo ou carregando. Até a magia acabar, ele emite Luz Plena num raio de 6 metros e Meia-luz por mais 6 metros, na cor que você escolher.\n\nCobrir o objeto com algo opaco bloqueia a luz. A magia termina se você a conjurar de novo.",
@@ -6257,7 +6296,8 @@
    "classes": [
     "Bardo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você cria até quatro luzes do tamanho de tochas dentro do alcance. Elas flutuam enquanto a magia durar e podem parecer tochas, lanternas ou globos brilhantes. Se preferir, junte as quatro numa única forma brilhante Média, de aparência vagamente humanoide. Em qualquer formato, cada luz emite Meia-luz num raio de 3 metros.\n\nCom uma Ação Bônus, você pode mover as luzes até 18 metros, para espaços dentro do alcance. Cada luz precisa ficar a até 6 metros de outra luz desta magia, e uma luz que saia do alcance desaparece.",
@@ -6369,7 +6409,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma mão Grande de energia cintilante surge num espaço desocupado que você consegue ver dentro do alcance. Ela dura até a magia acabar e se move conforme você manda, imitando os gestos da sua própria mão.\n\nA mão é um objeto com CA 20 e Pontos de Vida iguais ao seu máximo de Pontos de Vida. Se ela cair a 0 PV, a magia termina. A mão não ocupa espaço.\n\nAo conjurar a magia e, nos turnos seguintes, com uma Ação Bônus, você pode mover a mão até 18 metros e escolher um destes efeitos:\n\n**Mão Esmagadora.** A mão tenta agarrar uma criatura Enorme ou menor a até 1,5 metro dela. O alvo faz uma salvaguarda de Destreza; na falha, fica [[agarrado|Imobilizado]], com CD para escapar igual à CD para evitar sua magia. Enquanto a mão o segurar, você pode usar uma Ação Bônus para esmagá-lo, causando 4d6 de dano Contundente + seu modificador de atributo de conjuração.\n\n**Mão Interposta.** A mão dá a você Meia [[cobertura|Cobertura]] contra ataques e outros efeitos que venham do espaço dela ou passem por ele. Além disso, o espaço da mão é Terreno Difícil para seus inimigos.\n\n**Mão Vigorosa.** A mão tenta empurrar uma criatura Enorme ou menor a até 1,5 metro dela. O alvo faz uma salvaguarda de Força; na falha, a mão o empurra 1,5 metro + 1,5 metro vezes o seu modificador de atributo de conjuração. A mão acompanha o alvo e continua a até 1,5 metro dele.\n\n**Punho Cerrado.** A mão golpeia um alvo a até 1,5 metro dela. Faça um ataque mágico corpo a corpo; se acertar, o alvo sofre 5d8 de dano Energético.\n\n### Em círculos superiores\nPara cada círculo do espaço acima do 5º, o dano do Punho Cerrado aumenta em 2d8 e o da Mão Esmagadora em 2d6.",
@@ -6426,7 +6467,8 @@
     "Bardo",
     "Bruxo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma mão espectral flutuante aparece num ponto à sua escolha dentro do alcance e dura enquanto a magia durar. Ela some se ficar a mais de 9 metros de você ou se você conjurar esta magia de novo.\n\nAo conjurar, você pode usar a mão para mexer num objeto, abrir uma porta ou um recipiente destrancado, guardar ou tirar itens de um recipiente aberto ou derramar o conteúdo de um frasco.\n\nNos turnos seguintes, você pode controlar a mão de novo usando a ação [[acao-magia|Usar Magia]]. Como parte dessa ação, pode movê-la até 9 metros.\n\nA mão não pode atacar, ativar itens mágicos nem carregar mais de 5 quilos.",
@@ -6571,7 +6613,8 @@
     "Bardo",
     "Druida",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você aponta para uma criatura dentro do alcance e sussurra uma mensagem. Só ela ouve, e ela pode responder num sussurro que apenas você escuta.\n\nVocê pode conjurar a magia através de objetos sólidos se conhecer o alvo e souber que ele está do outro lado da barreira. Silêncio mágico, 30 centímetros de pedra, metal ou madeira, ou uma folha fina de chumbo bloqueiam a magia.",
@@ -6770,7 +6813,8 @@
    "classes": [
     "Clérigo",
     "Druida",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca um objeto de pedra Médio ou menor, ou um trecho de pedra com no máximo 1,5 metro em qualquer dimensão, e dá a ele a forma que quiser. Dá para transformar uma rocha grande numa arma, estátua ou baú, abrir uma pequena passagem numa parede de até 1,5 metro de espessura ou moldar uma porta de pedra ou o batente dela para lacrá-la.\n\nO objeto criado pode ter até duas dobradiças e uma tranca, mas não é possível fazer mecanismos mais detalhados.",
@@ -6882,7 +6926,8 @@
     "Bardo",
     "Clérigo",
     "Druida",
-    "Guardião"
+    "Guardião",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura voluntária. Enquanto a magia durar:\n\n- O movimento dela não é afetado por Terreno Difícil.\n- Magias e outros efeitos mágicos não podem reduzir o Deslocamento dela nem deixá-la [[impedido|Contida]] ou [[paralisado|Paralisada]].\n- Ela ganha Deslocamento de Natação igual ao Deslocamento de caminhada.\n\nAlém disso, ela pode gastar 1,5 metro de movimento para escapar automaticamente de amarras não mágicas, como grilhões, ou de uma criatura que a esteja deixando [[agarrado|Imobilizada]].\n\n### Em círculos superiores\nVocê pode escolher uma criatura a mais para cada círculo do espaço acima do 4º.",
@@ -7023,7 +7068,8 @@
    "classes": [
     "Druida",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Uma parede de pedra sólida e não mágica aparece num ponto que você consegue ver dentro do alcance. Ela é formada por 10 painéis quadrados de 3 metros de lado, com 15 centímetros de espessura, e cada painel precisa encostar em outro. Se preferir, os painéis podem ter 3 por 6 metros, mas com apenas 7,5 centímetros de espessura.\n\nSe a parede surgir atravessando o espaço de uma criatura, você escolhe para qual lado ela é empurrada. Se a criatura ficar cercada por todos os lados (pela parede, ou pela parede e outra superfície sólida), ela faz uma salvaguarda de Destreza. Se passar, pode usar sua Reação para se mover até seu Deslocamento e sair do cerco.\n\nVocê define o formato livremente, mas a parede não pode ocupar o mesmo espaço que uma criatura ou objeto. Ela não precisa ficar na vertical nem estar inteiramente sobre uma base firme, mas tem de se unir e se apoiar com solidez em pedra já existente. Dá para usá-la como ponte sobre um abismo ou como rampa, por exemplo. Para vãos com mais de 6 metros de comprimento, cada painel tem o tamanho reduzido à metade, para formar os apoios. Você também pode dar à parede detalhes rústicos, como ameias e parapeitos.\n\nA parede é um objeto de pedra e pode ser danificada até se romper. Cada painel tem CA 15, 30 Pontos de Vida para cada 2,5 centímetros de espessura e Imunidade a dano Gélido, Psíquico e Venenoso. Um painel reduzido a 0 Pontos de Vida é destruído, e os painéis ligados a ele podem desabar, a critério do Mestre.\n\nSe você mantiver a [[concentracao|Concentração]] durante toda a duração, a parede passa a ser permanente e não pode ser dissipada. Do contrário, ela some quando a magia termina.",
@@ -7287,7 +7333,8 @@
    "componentes": "V, S, M (um pouco de pele de morcego)",
    "duracao": "Concentração, até 1 hora",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você cria um olho invisível e invulnerável, que flutua num ponto dentro do alcance enquanto a magia durar. Você recebe mentalmente tudo o que o olho vê. Ele enxerga em todas as direções e tem Visão no Escuro de 9 metros.\n\nCom uma Ação Bônus, você move o olho até 9 metros em qualquer direção. Barreiras sólidas impedem a passagem dele, mas o olho cabe por qualquer abertura com pelo menos 2,5 centímetros de diâmetro.",
@@ -7429,7 +7476,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Clérigo",
-    "Druida"
+    "Druida",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura voluntária e escolhe uma perícia. Até a magia terminar, ela soma 1d4 a todo teste de atributo que use essa perícia.",
@@ -7911,7 +7959,8 @@
     "Bardo",
     "Druida",
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura. Até a magia terminar, o Deslocamento dela aumenta em 3 metros.\n\n### Em círculos superiores\nVocê pode escolher uma criatura adicional para cada círculo do espaço acima do 1º.",
@@ -7970,7 +8019,8 @@
     "Druida",
     "Feiticeiro",
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura voluntária. Até a magia terminar, ela tem Resistência a dano Contundente, Cortante e Perfurante.",
@@ -8053,7 +8103,8 @@
    "duracao": "1 minuto",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "No fim de cada um dos seus turnos enquanto a magia durar, jogue 1d6. Com 4, 5 ou 6, você desaparece do plano em que está e vai para o Plano Etéreo (se já estiver nele, a magia termina na hora).\n\n**No Plano Etéreo.** Você vê o plano que deixou, em tons de cinza, mas só até 18 metros de distância. Você só pode afetar criaturas que estejam no Plano Etéreo, e só elas podem afetar você. Criaturas no outro plano não percebem você, a menos que tenham uma habilidade específica para perceber o Plano Etéreo.\n\n**Retorno.** Você volta ao outro plano no início do seu próximo turno, ou quando a magia terminar se ainda estiver no Plano Etéreo. Você reaparece num espaço desocupado à sua escolha que consiga ver, a até 3 metros do ponto de onde saiu. Se não houver espaço livre nessa distância, você aparece no espaço desocupado mais próximo.",
@@ -8317,7 +8368,8 @@
     "Bardo",
     "Bruxo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você produz um pequeno efeito mágico dentro do alcance, escolhido entre as opções abaixo. Conjurando várias vezes, você pode manter até três efeitos não instantâneos ativos ao mesmo tempo.\n\n- **Brincar com fogo.** Acende ou apaga na hora uma vela, uma tocha ou uma pequena fogueira.\n- **Criação menor.** Cria uma bugiganga não mágica ou uma imagem ilusória que caiba na sua mão. Ela dura até o fim do seu próximo turno. A bugiganga não causa dano e não tem valor em dinheiro.\n- **Efeito sensorial.** Cria um efeito sensorial instantâneo e inofensivo, como uma chuva de faíscas, uma lufada de ar, notas musicais suaves ou um cheiro estranho.\n- **Limpar ou sujar.** Limpa ou suja na hora um objeto de até 30 centímetros cúbicos.\n- **Marca mágica.** Faz surgir uma cor, uma pequena marca ou um símbolo num objeto ou superfície por 1 hora.\n- **Sensação ideal.** Esfria, aquece ou dá sabor a um material sem vida de até 30 centímetros cúbicos por 1 hora.",
@@ -8461,7 +8513,8 @@
     "Druida",
     "Feiticeiro",
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Enquanto a magia durar, a criatura voluntária que você tocar tem Resistência a um tipo de dano que você escolhe entre: Ácido, Elétrico, Gélido, Ígneo ou Trovejante.",
@@ -8552,7 +8605,8 @@
     "Clérigo",
     "Druida",
     "Guardião",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura e encerra a condição [[envenenado|Envenenado]] nela. Enquanto a magia durar, o alvo tem [[vantagem|Vantagem]] nas salvaguardas para evitar ou encerrar a condição Envenenado e tem Resistência a dano Venenoso.",
@@ -8610,7 +8664,8 @@
    "classes": [
     "Clérigo",
     "Druida",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você elimina veneno e apodrecimento de alimentos e bebidas não mágicos dentro de uma Esfera de 1,5 metro de raio centrada num ponto no alcance.",
@@ -8638,7 +8693,8 @@
    "classes": [
     "Bardo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Escolha até cinco criaturas no alcance que estejam caindo. Até a magia terminar, cada uma cai a no máximo 18 metros por rodada. Se uma delas pousar antes do fim da magia, não sofre dano de queda, e a magia termina para ela.",
@@ -8723,7 +8779,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você atira uma fagulha de fogo numa criatura ou objeto no alcance. Faça um ataque mágico à distância: se acertar, o alvo sofre 1d10 de dano Ígneo.\n\nUm objeto inflamável atingido pega fogo se ninguém o estiver vestindo ou carregando.\n\n### Aprimoramento de truque\nO dano sobe em 1d10 nos níveis 5 (2d10), 11 (3d10) e 17 (4d10).",
@@ -8751,7 +8808,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Um raio gelado de luz azul-clara vai até uma criatura no alcance. Faça um ataque mágico à distância: se acertar, ela sofre 1d8 de dano Gélido e tem o Deslocamento reduzido em 3 metros até o início do seu próximo turno.\n\n### Aprimoramento de truque\nO dano sobe em 1d8 nos níveis 5 (2d8), 11 (3d8) e 17 (4d8).",
@@ -8948,7 +9006,8 @@
     "Bruxo",
     "Druida",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você lança uma névoa tóxica contra uma criatura no alcance. Faça um ataque mágico à distância: se acertar, ela sofre 1d12 de dano Venenoso.\n\n### Aprimoramento de truque\nO dano sobe em 1d12 nos níveis 5 (2d12), 11 (3d12) e 17 (4d12).",
@@ -9315,7 +9374,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Clérigo",
-    "Druida"
+    "Druida",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura voluntária e escolhe um tipo de dano: Ácido, Contundente, Cortante, Elétrico, Gélido, Ígneo, Necrótico, Perfurante, Radiante, Trovejante ou Venenoso. Até a magia terminar, quando a criatura sofrer dano desse tipo, ela reduz o total em 1d4. Cada criatura só aproveita esse benefício uma vez por turno.",
@@ -9345,7 +9405,8 @@
     "Druida",
     "Feiticeiro",
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Até dez criaturas voluntárias que você escolher no alcance passam a conseguir respirar debaixo d’água até a magia terminar. Elas continuam respirando normalmente também.",
@@ -9431,7 +9492,8 @@
     "Clérigo",
     "Druida",
     "Guardião",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura e remove dela um destes efeitos:\n\n- 1 nível de [[exaustao|Exaustão]].\n- A condição [[enfeiticado|Enfeitiçado]] ou [[petrificado|Petrificado]].\n- Uma maldição, incluindo a Sintonização do alvo com um item mágico amaldiçoado.\n- Qualquer redução em um dos valores de atributo do alvo.\n- Qualquer redução nos Pontos de Vida máximos do alvo.",
@@ -9462,7 +9524,8 @@
     "Clérigo",
     "Druida",
     "Guardião",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura e encerra nela uma destas condições: [[cego|Cego]], [[envenenado|Envenenado]], [[paralisado|Paralisado]] ou [[surdo|Surdo]].",
@@ -9491,7 +9554,8 @@
    "classes": [
     "Bruxo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você realiza a ação [[disparada|Correr]] e, até a magia terminar, pode realizá-la de novo como Ação Bônus.",
@@ -9549,7 +9613,8 @@
     "Clérigo",
     "Druida",
     "Guardião",
-    "Paladino"
+    "Paladino",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura que morreu no último minuto, e ela volta à vida com 1 Ponto de Vida. A magia não revive quem morreu de velhice e não restaura partes do corpo perdidas.",
@@ -9607,7 +9672,8 @@
     "Druida",
     "Feiticeiro",
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura voluntária. Até a magia terminar, uma vez em cada turno dela, ela pode saltar até 9 metros gastando apenas 3 metros de movimento.\n\n### Em círculos superiores\nVocê pode escolher uma criatura a mais para cada círculo do espaço acima do 1º.",
@@ -9633,7 +9699,8 @@
    "componentes": "V, S, M (o caco de um espelho)",
    "duracao": "1 minuto",
    "classes": [
-    "Clérigo"
+    "Clérigo",
+    "Artífice"
    ]
   },
   "texto": "Você protege uma criatura no alcance. Até a magia terminar, quem escolher a criatura protegida como alvo de uma jogada de ataque ou de uma magia que cause dano precisa passar numa salvaguarda de Sabedoria. Se falhar, deve escolher outro alvo ou perde o ataque ou a magia.\n\nA magia não protege contra áreas de efeito. Ela termina se a criatura protegida fizer uma jogada de ataque, conjurar uma magia ou causar dano.",
@@ -9660,7 +9727,8 @@
    "componentes": "V, S, M (uma folha fina de chumbo)",
    "duracao": "24 horas",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você torna segura uma área no alcance: um Cubo com lado entre 1,5 e 30 metros, que se mantém pela duração.\n\nAo conjurar, escolha quantas destas proteções quiser:\n\n- O som não atravessa a barreira na borda da área.\n- A barreira parece escura e enevoada, bloqueando a visão através dela (inclusive Visão no Escuro).\n- Sensores criados por magias de Adivinhação não podem surgir dentro da área nem atravessar a barreira.\n- Criaturas na área não podem ser alvo de magias de Adivinhação.\n- Nada pode se teleportar para dentro ou para fora da área.\n- Viagens planares ficam bloqueadas dentro da área.\n\nSe você conjurar a magia no mesmo lugar todo dia durante 365 dias, ela passa a durar até ser dissipada.\n\n### Em círculos superiores\nO lado do Cubo pode aumentar em 30 metros para cada círculo do espaço acima do 4º.",
@@ -10062,7 +10130,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura voluntária e escolhe um tipo de dano: Ácido, Elétrico, Gélido, Ígneo ou Venenoso.\n\nAté a magia acabar, o alvo pode usar a ação [[acao-magia|Usar Magia]] para soprar um Cone de 4,5 metros. Cada criatura na área faz uma salvaguarda de Destreza: sofre 3d6 de dano do tipo escolhido se falhar, ou metade se passar.\n\n### Em círculos superiores\nO dano aumenta em 1d6 para cada círculo do espaço acima do 2º.",
@@ -10259,7 +10328,8 @@
    "duracao": "Concentração, até 1 hora",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você lança uma massa de teias grudentas num ponto no alcance. Pela duração, elas preenchem um Cubo de 6 metros de lado, que vira Terreno Difícil e fica Parcialmente Obscurecido.\n\nSe as teias não estiverem presas entre duas massas sólidas (como paredes ou árvores) nem estendidas sobre chão, parede ou teto, elas desabam e a magia termina no início do seu próximo turno. Teias estendidas sobre uma superfície plana têm 1,5 metro de espessura.\n\nNa primeira vez que uma criatura entra nas teias num turno, ou quando começa o turno nelas, faz uma salvaguarda de Destreza. Se falhar, fica [[impedido|Contido]] enquanto estiver nas teias ou até se soltar.\n\nUma criatura Contida pelas teias pode usar uma ação para fazer um teste de Força (Atletismo) contra a CD para evitar sua magia. Se passar, deixa de estar Contida.\n\nAs teias pegam fogo. Cada Cubo de 1,5 metro de teia exposto ao fogo queima em 1 rodada, causando 2d4 de dano Ígneo a qualquer criatura que comece o turno no fogo.",
@@ -10573,7 +10643,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Faíscas saltam de você para uma criatura que você tenta tocar. Faça um ataque mágico corpo a corpo contra ela. Se acertar, o alvo sofre 1d8 de dano Elétrico e não pode fazer [[ataque-de-oportunidade|Ataques de Oportunidade]] até o início do próximo turno dele.\n\n### Aprimoramento de truque\nO dano aumenta em 1d8 nos níveis 5 (2d8), 11 (3d8) e 17 (4d8).",
@@ -10657,7 +10728,8 @@
    "componentes": "V, S, M (pó de ouro no valor de 25 ou mais PO, que a magia consome)",
    "duracao": "Até ser dissipada",
    "classes": [
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma porta, janela, portão, recipiente ou alçapão fechado e o tranca magicamente pela duração. Essa tranca não pode ser aberta por nenhum meio não mágico.\n\nVocê e as criaturas que designar ao conjurar podem abrir e fechar o objeto normalmente. Você também pode definir uma senha: dita a até 1,5 metro do objeto, ela o destranca por 1 minuto.",
@@ -10745,7 +10817,8 @@
     "Bruxo",
     "Druida",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Cada criatura numa Emanação de 1,5 metro a partir de você faz uma salvaguarda de Constituição. Quem falhar sofre 1d6 de dano Trovejante. O estrondo pode ser ouvido a até 30 metros.\n\n### Aprimoramento de truque\nO dano aumenta em 1d6 nos níveis 5 (2d6), 11 (3d6) e 17 (4d6).",
@@ -10800,7 +10873,8 @@
    "duracao": "Concentração, até 1 minuto",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Seu corpo fica embaçado. Pela duração, qualquer criatura tem Desvantagem nas jogadas de ataque contra você. Um atacante que perceba você com Visão às Cegas ou Visão Verdadeira não sofre esse efeito.",
@@ -10828,7 +10902,8 @@
    "classes": [
     "Bardo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Pela duração, você vê criaturas e objetos com a condição [[invisivel|Invisível]] como se estivessem visíveis, e também enxerga o Plano Etéreo, onde criaturas e objetos aparecem como fantasmas.",
@@ -10885,7 +10960,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você usa a própria energia vital para se curar. Role um ou dois dos seus Dados de Pontos de Vida não gastos e recupere Pontos de Vida iguais ao total mais o seu modificador do atributo de conjuração. Esses dados passam a contar como gastos.\n\n### Em círculos superiores\nO número de Dados de Pontos de Vida não gastos que você pode rolar aumenta em um para cada círculo do espaço acima do 2º.",
@@ -11001,7 +11077,8 @@
     "Druida",
     "Feiticeiro",
     "Guardião",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Pela duração, uma criatura voluntária que você toca tem Visão no Escuro com alcance de 45 metros.",
@@ -11028,7 +11105,8 @@
    "duracao": "Instantânea",
    "classes": [
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você recebe 2d4 + 4 Pontos de Vida Temporários.\n\n### Em círculos superiores\nVocê recebe 5 Pontos de Vida Temporários a mais para cada círculo do espaço acima do 1º.",
@@ -11056,7 +11134,8 @@
    "classes": [
     "Bruxo",
     "Feiticeiro",
-    "Mago"
+    "Mago",
+    "Artífice"
    ]
   },
   "texto": "Você toca uma criatura voluntária. Pela duração, ela ganha Deslocamento de Voo de 18 metros e pode pairar. Se ainda estiver no ar quando a magia acabar, ela cai, a menos que tenha como evitar a queda.\n\n### Em círculos superiores\nVocê pode escolher uma criatura adicional para cada círculo do espaço acima do 3º.",

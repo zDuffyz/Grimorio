@@ -1,0 +1,935 @@
+[
+  {
+    "id": "dracossinais",
+    "nome": "Dracossinais",
+    "nome_en": "Dragonmarks",
+    "categoria": "regra",
+    "capitulo": "origens",
+    "tags": [
+      "dragonmark",
+      "eberron",
+      "casas dracomarcadas",
+      "siberys",
+      "talento"
+    ],
+    "resumo": "Marcas mágicas que dão poder às casas dracomarcadas de Khorvaire: como funcionam e como ganhar uma.",
+    "texto": "Dracossinais são marcas coloridas e intrincadas que surgem na pele de algumas pessoas e concedem poderes mágicos. Cada um dos doze dracossinais aparece sobretudo em certas linhagens, e as **casas dracomarcadas** organizaram essas famílias para lucrar com a marca. A Casa Jorasco, por exemplo, usou o Dracossinal da Cura para virar praticamente a única fornecedora de serviços de cura de Khorvaire. Quem manifesta a marca fora da casa logo é pressionado a entrar nela, seja qual for a família ou a espécie.\n\nA maioria das marcas é pequena (do tamanho da palma da mão) e dá um poder limitado, e mesmo essas são raras.\n\n### Dracossinais, casas e espécies\n| Dracossinal | Casa | Espécie mais comum |\n|---|---|---|\n| Criação | Cannith | Humano |\n| Cura | Jorasco | Pequenino |\n| Descoberta | Tharashk | Humano, Orc |\n| Detecção | Medani | Khoravar |\n| Adestramento | Vadalis | Humano |\n| Escrita | Sivis | Gnomo |\n| Hospitalidade | Ghallanda | Pequenino |\n| Passagem | Orien | Humano |\n| Proteção | Kundarak | Anão |\n| Sentinela | Deneith | Humano |\n| Sombra | Phiarlan, Thuranni | Elfo |\n| Tempestade | Lyrandar | Khoravar |\n\nNeste livro, **qualquer espécie pode manifestar qualquer dracossinal**; a tabela só mostra quem costuma carregar cada marca. *(Tabela-resumo do cenário montada para consulta; o capítulo não traz uma tabela assim.)*\n\n### O que mudou\n- Os benefícios de cada marca vêm de **talentos** da categoria **Dracossinal**, não mais de opções de espécie. Você só pode ter um talento de Dracossinal.\n- Você pode usar **qualquer espaço de magia** que tenha para conjurar as magias que a marca concede.\n- Pela regra de 2024, quem tem uma magia com o marcador Ritual preparada pode conjurá-la como [[ritual|Ritual]]; isso vale para as magias rituais dadas pelos talentos de Dracossinal.\n- Treze talentos Gerais representam **dracossinais maiores** (um para cada marca e um para o aberrante), e o [[dracossinal-potente|Dracossinal Potente]] reforça qualquer marca.\n- A Dádiva Épica [[dadiva-de-siberys|Dádiva de Siberys]] representa uma marca de Siberys ou uma marca aberrante poderosa.\n\n### Como ganhar um dracossinal\n- **No nível 1:** escolha um antecedente de herdeiro de casa (ou o [[herdeiro-aberrante|Herdeiro Aberrante]]). É o **único** jeito de ter um talento de Dracossinal no nível 1.\n- **Depois:** qualquer personagem pode escolher um talento de Dracossinal sempre que tiver uma escolha de talento sem restrição de categoria (a partir do nível 4).\n- O antecedente [[agente-de-casa|Agente de Casa]] liga você a uma casa sem dar marca.\n\nOs herdeiros das casas passam na adolescência pelo **Teste de Siberys**, um rito perigoso feito para despertar a marca. Em geral ela surge ali, se surgir; às vezes aparece anos depois de uma reprovação.\n\n### Origens possíveis da sua marca\n- **Herdeiro dracomarcado.** Você pertence à família e à casa. Use o antecedente de herdeiro da casa (ou outro antecedente e o talento depois).\n- **Ramo distante.** Você é da espécie que costuma ter a marca, mas sem laços com a casa, que tentaria trazer você e sua família para dentro dela se soubesse. Pegue o talento no nível 4 ou depois.\n- **Marca da Profecia.** A marca não segue a linhagem: ela não tem relação com sua espécie e pode ser um sinal direto da Profecia Dracônica ou uma marca aberrante que imita uma conhecida, e a casa talvez nem reconheça você. Pegue o talento no nível 4+ ou um antecedente de casa (ou o Herdeiro Aberrante); com permissão do Mestre, troque algumas proficiências do antecedente.\n- **Marca aberrante.** Marcas aberrantes surgem em qualquer espécie e incomodam as casas. Use o [[herdeiro-aberrante|Herdeiro Aberrante]] ou pegue o talento [[dracossinal-aberrante|Dracossinal Aberrante]] no nível 4+.\n\n### Dracossinais maiores e de Siberys\nUm **dracossinal maior** só surge em quem já tem uma marca comum: ela cresce até duas ou três vezes o tamanho original. As casas os consideram mais importantes em tudo, inclusive para a Profecia Dracônica.\n\nAs **marcas de Siberys** são um mistério completo: poderosas, imprevisíveis e raras. Um herdeiro pode dominar sua marca por anos sem nunca manifestar uma, enquanto um parente sem marca pode exibir uma de repente. As casas vigiam de perto quem as tem, e quem não se alinha com a casa vira alvo de assassinos. Além da [[dadiva-de-siberys|Dádiva de Siberys]], com aprovação do Mestre outra Dádiva Épica pode representar uma marca de Siberys: por exemplo, [[dadiva-da-resistencia-a-energia|Dádiva da Resistência à Energia]] (Elétrico e Trovejante) para a Tempestade de Lyrandar, ou [[dadiva-do-espirito-da-noite|Dádiva do Espírito da Noite]] para a Sombra de Phiarlan ou Thuranni.\n\n### Talentos de Dracossinal\n- [[dracossinal-aberrante|Dracossinal Aberrante]]\n- [[dracossinal-do-adestramento|Dracossinal do Adestramento]] (Vadalis)\n- [[dracossinal-da-criacao|Dracossinal da Criação]] (Cannith)\n- [[dracossinal-da-cura|Dracossinal da Cura]] (Jorasco)\n- [[dracossinal-da-descoberta|Dracossinal da Descoberta]] (Tharashk)\n- [[dracossinal-da-deteccao|Dracossinal da Detecção]] (Medani)\n- [[dracossinal-da-escrita|Dracossinal da Escrita]] (Sivis)\n- [[dracossinal-da-hospitalidade|Dracossinal da Hospitalidade]] (Ghallanda)\n- [[dracossinal-da-passagem|Dracossinal da Passagem]] (Orien)\n- [[dracossinal-da-protecao|Dracossinal da Proteção]] (Kundarak)\n- [[dracossinal-da-sentinela|Dracossinal da Sentinela]] (Deneith)\n- [[dracossinal-da-sombra|Dracossinal da Sombra]] (Phiarlan, Thuranni)\n- [[dracossinal-da-tempestade|Dracossinal da Tempestade]] (Lyrandar)\n\n### Talentos Gerais (nível 4+)\n- [[dracossinal-aberrante-maior|Dracossinal Aberrante Maior]]\n- [[dracossinal-maior-do-adestramento|Dracossinal Maior do Adestramento]]\n- [[dracossinal-maior-da-criacao|Dracossinal Maior da Criação]]\n- [[dracossinal-maior-da-cura|Dracossinal Maior da Cura]]\n- [[dracossinal-maior-da-descoberta|Dracossinal Maior da Descoberta]]\n- [[dracossinal-maior-da-deteccao|Dracossinal Maior da Detecção]]\n- [[dracossinal-maior-da-escrita|Dracossinal Maior da Escrita]]\n- [[dracossinal-maior-da-hospitalidade|Dracossinal Maior da Hospitalidade]]\n- [[dracossinal-maior-da-passagem|Dracossinal Maior da Passagem]]\n- [[dracossinal-maior-da-protecao|Dracossinal Maior da Proteção]]\n- [[dracossinal-maior-da-sentinela|Dracossinal Maior da Sentinela]]\n- [[dracossinal-maior-da-sombra|Dracossinal Maior da Sombra]]\n- [[dracossinal-maior-da-tempestade|Dracossinal Maior da Tempestade]]\n- [[dracossinal-potente|Dracossinal Potente]]\n\n### Dádiva Épica\n- [[dadiva-de-siberys|Dádiva de Siberys]]\n\n### Antecedentes\n- [[herdeiro-aberrante|Herdeiro Aberrante]], [[agente-de-casa|Agente de Casa]], [[arqueologo|Arqueólogo]], [[inquisitivo|Inquisitivo]]\n- Herdeiros: [[herdeiro-da-casa-cannith|Cannith]], [[herdeiro-da-casa-deneith|Deneith]], [[herdeiro-da-casa-ghallanda|Ghallanda]], [[herdeiro-da-casa-jorasco|Jorasco]], [[herdeiro-da-casa-kundarak|Kundarak]], [[herdeiro-da-casa-lyrandar|Lyrandar]], [[herdeiro-da-casa-medani|Medani]], [[herdeiro-da-casa-orien|Orien]], [[herdeiro-da-casa-phiarlan|Phiarlan]], [[herdeiro-da-casa-sivis|Sivis]], [[herdeiro-da-casa-tharashk|Tharashk]], [[herdeiro-da-casa-thuranni|Thuranni]], [[herdeiro-da-casa-vadalis|Vadalis]]\n\n### Espécies de Eberron\n- [[changeling|Changeling]], [[kalashtar|Kalashtar]], [[khoravar|Khoravar]], [[metamorfo|Metamorfo]], [[forjado-belico|Forjado Bélico]]",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-aberrante",
+    "nome": "Herdeiro Aberrante",
+    "nome_en": "Aberrant Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "aberrant heir",
+      "eberron",
+      "aberrante"
+    ],
+    "resumo": "Força, Constituição, Carisma · Dracossinal Aberrante · História, Intimidação",
+    "texto": "*Sua marca aberrante complicou sua vida desde que apareceu. Talvez você a tenha escondido por anos, talvez tenha enfrentado medo, desconfiança e a hostilidade das casas. Pode ter se ligado à organização criminosa Casa Tarkanan, batizada em homenagem a um líder aberrante da Guerra da Marca, ou seguido sozinho, contando com a esperteza e o poder da marca.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Constituição, Carisma |\n| Talento de Dracossinal | Dracossinal Aberrante |\n| Perícias | História, Intimidação |\n| Ferramenta | Kit de Disfarce |\n| Equipamento | Escolha (A) Adaga, Kit de Disfarce, Fantasia, Roupas de Viagem, 16 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-aberrante|Dracossinal Aberrante]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "arqueologo",
+    "nome": "Arqueólogo",
+    "nome_en": "Archaeologist",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "archaeologist",
+      "eberron",
+      "ruínas"
+    ],
+    "resumo": "Destreza, Inteligência, Sabedoria · Habilidoso · História, Sobrevivência",
+    "texto": "*Você dedicou a vida às culturas perdidas do passado: visitou suas ruínas, decifrou seus registros e examinou suas obras. Talvez tenha estudado na Universidade Morgrave, alternando biblioteca e escavações em lugares remotos. Em Eberron, o arqueólogo junta o saber do historiador com a coragem do caçador de tesouros.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Inteligência, Sabedoria |\n| Talento de Origem | Habilidoso |\n| Perícias | História, Sobrevivência |\n| Ferramenta | Ferramentas de Cartógrafo |\n| Equipamento | Escolha (A) Ferramentas de Cartógrafo, Lanterna Furta-fogo, Mapa, Estojo para Mapas ou Pergaminhos, Pá, Tenda, Roupas de Viagem, 17 PO; ou (B) 50 PO |\n\n**Talento de Origem:** [[habilidoso|Habilidoso]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "agente-de-casa",
+    "nome": "Agente de Casa",
+    "nome_en": "House Agent",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house agent",
+      "eberron",
+      "casa"
+    ],
+    "resumo": "Força, Inteligência, Carisma · Sortudo · Investigação, Persuasão",
+    "texto": "*Você está ligado a uma casa dracomarcada, mas (ainda) não manifestou marca. Pode ser da família de nascimento ou só um funcionário. Você ganha a vida tocando os negócios da casa, servindo de mãos, pés e olhos da liderança, e tem velhos amigos, mentores e rivais nela, além de aliados e inimigos em outras casas.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Inteligência, Carisma |\n| Talento de Origem | Sortudo |\n| Perícias | Investigação, Persuasão |\n| Ferramenta | Um tipo de Ferramentas de Artesão à escolha |\n| Equipamento | Escolha (A) as mesmas Ferramentas de Artesão, Roupas Finas, 20 PO; ou (B) 50 PO |\n\n**Talento de Origem:** [[sortudo|Sortudo]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-cannith",
+    "nome": "Herdeiro da Casa Cannith",
+    "nome_en": "House Cannith Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house cannith heir",
+      "eberron",
+      "cannith"
+    ],
+    "resumo": "Força, Destreza, Inteligência · Dracossinal da Criação · Investigação, Prestidigitação",
+    "texto": "*Você carrega o legado da Casa Cannith, criadora das maravilhas do mundo moderno, e deve contribuir com invenções, estudos, negócios ou diplomacia. O maior obstáculo é a divisão da própria casa: quanto antes os três barões decidirem quem a lidera (e você tem seu favorito), antes Cannith volta a liderar as casas.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Destreza, Inteligência |\n| Talento de Dracossinal | Dracossinal da Criação |\n| Perícias | Investigação, Prestidigitação |\n| Ferramenta | Um tipo de Ferramentas de Artesão à escolha |\n| Equipamento | Escolha (A) as mesmas Ferramentas de Artesão, Pé de Cabra, Roupas Finas, 2 Algibeiras, 17 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-criacao|Dracossinal da Criação]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-deneith",
+    "nome": "Herdeiro da Casa Deneith",
+    "nome_en": "House Deneith Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house deneith heir",
+      "eberron",
+      "deneith"
+    ],
+    "resumo": "Força, Constituição, Sabedoria · Dracossinal da Sentinela · Intuição, Percepção",
+    "texto": "*Você foi treinado para o combate, sem buscá-lo mas sem fugir dele, e aprendeu o valor do dever, da honra e das leis. Pode ter servido como guarda-costas, mercenário ou delegado caçando fugitivos. Agora quer o lugar que lhe cabe na mais poderosa das casas.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Constituição, Sabedoria |\n| Talento de Dracossinal | Dracossinal da Sentinela |\n| Perícias | Intuição, Percepção |\n| Ferramenta | Um tipo de Kit de Jogos à escolha |\n| Equipamento | Escolha (A) Lança, Arco Curto, 20 Flechas, o mesmo Kit de Jogos, Roupas Finas, Kit de Curandeiro, Aljava, 1 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-sentinela|Dracossinal da Sentinela]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-ghallanda",
+    "nome": "Herdeiro da Casa Ghallanda",
+    "nome_en": "House Ghallanda Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house ghallanda heir",
+      "eberron",
+      "ghallanda"
+    ],
+    "resumo": "Destreza, Sabedoria, Carisma · Dracossinal da Hospitalidade · Intuição, Persuasão",
+    "texto": "*Você cresceu entre conforto, boa conversa, boa bebida e comida deliciosa. Pode ser um anfitrião charmoso que adora uma noite junto à lareira, ou alguém que usa laços de amizade para manipular os outros. Talvez aventure-se para aprender cozinhas de outros povos e eras, ampliar sua rede de contatos ou juntar dinheiro para abrir sua própria estalagem.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Sabedoria, Carisma |\n| Talento de Dracossinal | Dracossinal da Hospitalidade |\n| Perícias | Intuição, Persuasão |\n| Ferramenta | Utensílios de Cozinheiro |\n| Equipamento | Escolha (A) Utensílios de Cozinheiro, Roupas Finas, Panela de Ferro, Lâmpada, Óleo (5 frascos), Perfume, 26 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-hospitalidade|Dracossinal da Hospitalidade]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-jorasco",
+    "nome": "Herdeiro da Casa Jorasco",
+    "nome_en": "House Jorasco Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house jorasco heir",
+      "eberron",
+      "jorasco"
+    ],
+    "resumo": "Destreza, Constituição, Sabedoria · Dracossinal da Cura · Furtividade, Medicina",
+    "texto": "*A Casa Jorasco ensina que doença e ferimento perseguem os vivos como fantasmas. Você aprendeu a combatê-los com magia e medicina, a serviço dos outros, sempre cobrando o preço justo. Pode ser um curandeiro gentil que detesta lutar ou um especialista frio que sabe exatamente onde golpear para incapacitar ou matar.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Constituição, Sabedoria |\n| Talento de Dracossinal | Dracossinal da Cura |\n| Perícias | Furtividade, Medicina |\n| Ferramenta | Kit de Herbalismo |\n| Equipamento | Escolha (A) Kit de Herbalismo, Roupas Finas, Kit de Curandeiro, 25 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-cura|Dracossinal da Cura]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-kundarak",
+    "nome": "Herdeiro da Casa Kundarak",
+    "nome_en": "House Kundarak Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house kundarak heir",
+      "eberron",
+      "kundarak"
+    ],
+    "resumo": "Força, Constituição, Inteligência · Dracossinal da Proteção · Arcanismo, Investigação",
+    "texto": "*Você se orgulha da família e de seu trabalho de guardar as riquezas de Khorvaire. Kundarak sempre liderou os clãs dos Domínios Mror e é famosa pelo profissionalismo, honra e ordem. Você pode zelar por essa fama, pôr a própria honra acima da família ou se rebelar contra tudo o que esperam de você.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Constituição, Inteligência |\n| Talento de Dracossinal | Dracossinal da Proteção |\n| Perícias | Arcanismo, Investigação |\n| Ferramenta | Ferramentas de Ladrão |\n| Equipamento | Escolha (A) Ferramentas de Ladrão, Roupas Finas, 10 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-protecao|Dracossinal da Proteção]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-lyrandar",
+    "nome": "Herdeiro da Casa Lyrandar",
+    "nome_en": "House Lyrandar Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house lyrandar heir",
+      "eberron",
+      "lyrandar"
+    ],
+    "resumo": "Força, Destreza, Carisma · Dracossinal da Tempestade · Acrobacia, Natureza",
+    "texto": "*O vento é seu aliado; o mar e o céu, seu domínio. Apesar da Última Guerra, sua casa está em alta graças às aeronaves. Você pode ter começado como marinheiro, navegador, construtor de navios ou membro da Guilda dos Chamadores de Chuva, ou estar entre os primeiros tripulantes de aeronaves. A casa pode mandar você caçar piratas no Mar de Lhazaar, buscar tecnologia elemental em ruínas ou resgatar uma aeronave caída na Terra Lamentosa.*\n\n| | |\n|---|---|\n| Valores de Atributo | Força, Destreza, Carisma |\n| Talento de Dracossinal | Dracossinal da Tempestade |\n| Perícias | Acrobacia, Natureza |\n| Ferramenta | Ferramentas de Navegador |\n| Equipamento | Escolha (A) Ferramentas de Navegador, Roupas Finas, 10 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-tempestade|Dracossinal da Tempestade]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-medani",
+    "nome": "Herdeiro da Casa Medani",
+    "nome_en": "House Medani Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house medani heir",
+      "eberron",
+      "medani"
+    ],
+    "resumo": "Destreza, Inteligência, Sabedoria · Dracossinal da Detecção · Intuição, Investigação",
+    "texto": "*Sua vida gira em torno de intrigas: não para criá-las, mas para impedi-las. Você vê o mundo como uma teia de tramas e contratramas e usa o instinto para prever ameaças aos clientes antes que virem perigo. Qualquer mercenário Deneith bloqueia a lâmina de um assassino; o jeito Medani é garantir que ela nunca seja sacada.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Inteligência, Sabedoria |\n| Talento de Dracossinal | Dracossinal da Detecção |\n| Perícias | Intuição, Investigação |\n| Ferramenta | Kit de Disfarce |\n| Equipamento | Escolha (A) Kit de Disfarce, Roupas Finas, 10 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-deteccao|Dracossinal da Detecção]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-orien",
+    "nome": "Herdeiro da Casa Orien",
+    "nome_en": "House Orien Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house orien heir",
+      "eberron",
+      "orien"
+    ],
+    "resumo": "Destreza, Constituição, Inteligência · Dracossinal da Passagem · Acrobacia, Atletismo",
+    "texto": "*Antes da Última Guerra, as estradas e o trem relâmpago de Orien eram as artérias de Galifar. A guerra cortou essas artérias e deixou a casa ferida. Os mensageiros ainda levam cargas pelos dois lados do continente, mas reabrir rotas pela Terra Lamentosa é a prioridade. Enquanto isso, aventureiros Orien investigam mensageiros sumidos, recuperam cargas roubadas e resolvem problemas no trem relâmpago.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Constituição, Inteligência |\n| Talento de Dracossinal | Dracossinal da Passagem |\n| Perícias | Acrobacia, Atletismo |\n| Ferramenta | Ferramentas de Cartógrafo |\n| Equipamento | Escolha (A) Ferramentas de Cartógrafo, Roupas Finas, Mapa, Estojo para Mapas ou Pergaminhos, 18 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-passagem|Dracossinal da Passagem]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-phiarlan",
+    "nome": "Herdeiro da Casa Phiarlan",
+    "nome_en": "House Phiarlan Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house phiarlan heir",
+      "eberron",
+      "phiarlan"
+    ],
+    "resumo": "Destreza, Sabedoria, Carisma · Dracossinal da Sombra · Enganação, Furtividade",
+    "texto": "*Você conheceu riqueza, fama e beleza, mas acha que o maior tesouro é o conhecimento e o poder que ele traz. Pode buscá-lo como artista, sempre atento a segredos enquanto encanta o público, ou se aproximar do braço de espionagem da casa: a Mesa Serpentina.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Sabedoria, Carisma |\n| Talento de Dracossinal | Dracossinal da Sombra |\n| Perícias | Enganação, Furtividade |\n| Ferramenta | Kit de Disfarce |\n| Equipamento | Escolha (A) Kit de Disfarce, Roupas Finas, 10 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-sombra|Dracossinal da Sombra]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-sivis",
+    "nome": "Herdeiro da Casa Sivis",
+    "nome_en": "House Sivis Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house sivis heir",
+      "eberron",
+      "sivis"
+    ],
+    "resumo": "Inteligência, Sabedoria, Carisma · Dracossinal da Escrita · História, Percepção",
+    "texto": "*Há quase trinta séculos sua família mantém a ordem. A comunicação une a civilização, e seus ancestrais mediaram disputas entre soberanos e ajudaram as casas a achar seu lugar no mundo. Pouca gente percebe quanto Sivis moldou a era moderna. Enquanto as outras casas disputam fama, Sivis joga um jogo longo de influência discreta nos bastidores.*\n\n| | |\n|---|---|\n| Valores de Atributo | Inteligência, Sabedoria, Carisma |\n| Talento de Dracossinal | Dracossinal da Escrita |\n| Perícias | História, Percepção |\n| Ferramenta | Suprimentos de Calígrafo |\n| Equipamento | Escolha (A) Suprimentos de Calígrafo, Roupas Finas, Tinta, 5 Penas de Escrever, Papel (30 folhas), Pergaminho (9 folhas), 8 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-escrita|Dracossinal da Escrita]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-tharashk",
+    "nome": "Herdeiro da Casa Tharashk",
+    "nome_en": "House Tharashk Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house tharashk heir",
+      "eberron",
+      "tharashk"
+    ],
+    "resumo": "Constituição, Inteligência, Sabedoria · Dracossinal da Descoberta · Percepção, Sobrevivência",
+    "texto": "*Herdeiros de outras casas vivem no luxo, mas em Tharashk você aprendeu cedo a se virar sozinho. O que falta em recursos à casa jovem sobra em garra, e ela tem um destino a cumprir. No combate ou na conversa, você age como caçador: estuda o inimigo, explora suas fraquezas e faz o que for preciso para vencer.*\n\n| | |\n|---|---|\n| Valores de Atributo | Constituição, Inteligência, Sabedoria |\n| Talento de Dracossinal | Dracossinal da Descoberta |\n| Perícias | Percepção, Sobrevivência |\n| Ferramenta | Um tipo de Kit de Jogos à escolha |\n| Equipamento | Escolha (A) o mesmo Kit de Jogos, Kit de Escalada, Roupas Finas, Armadilha de Caça, Grilhões, 2 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-descoberta|Dracossinal da Descoberta]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-thuranni",
+    "nome": "Herdeiro da Casa Thuranni",
+    "nome_en": "House Thuranni Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house thuranni heir",
+      "eberron",
+      "thuranni"
+    ],
+    "resumo": "Destreza, Inteligência, Carisma · Dracossinal da Sombra · Atuação, Furtividade",
+    "texto": "*Thuranni é uma casa jovem focada em espionagem, e seus líderes esperam que você sirva aos interesses dela sempre que puder; cada passo seu foi vigiado nestes anos de formação. Nem todo herdeiro é espião, mas até os artistas mais reclusos acompanham a política e repassam ou colhem informações quando pedem.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Inteligência, Carisma |\n| Talento de Dracossinal | Dracossinal da Sombra |\n| Perícias | Atuação, Furtividade |\n| Ferramenta | Um tipo de Instrumento Musical à escolha |\n| Equipamento | Escolha (A) o mesmo Instrumento Musical, Fantasia, Roupas Finas, 13 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-da-sombra|Dracossinal da Sombra]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "herdeiro-da-casa-vadalis",
+    "nome": "Herdeiro da Casa Vadalis",
+    "nome_en": "House Vadalis Heir",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "house vadalis heir",
+      "eberron",
+      "vadalis"
+    ],
+    "resumo": "Constituição, Sabedoria, Carisma · Dracossinal do Adestramento · Lidar com Animais, Natureza",
+    "texto": "*Você cresceu respeitando a família e a natureza. Conhece a cultura das Cinco Nações sem se deixar levar pelos jogos de ambição dos outros. Entende a beleza da vida e os mistérios do nascimento e da morte, e isso ajuda você a enxergar as mentiras do povo da cidade sem deixar transparecer quanto percebe.*\n\n| | |\n|---|---|\n| Valores de Atributo | Constituição, Sabedoria, Carisma |\n| Talento de Dracossinal | Dracossinal do Adestramento |\n| Perícias | Lidar com Animais, Natureza |\n| Ferramenta | Kit de Herbalismo |\n| Equipamento | Escolha (A) Kit de Herbalismo, Roupas Finas, Rede, 29 PO; ou (B) 50 PO |\n\n**Talento de Dracossinal:** [[dracossinal-do-adestramento|Dracossinal do Adestramento]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "inquisitivo",
+    "nome": "Inquisitivo",
+    "nome_en": "Inquisitive",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "inquisitive",
+      "eberron",
+      "detetive"
+    ],
+    "resumo": "Constituição, Inteligência, Carisma · Alerta · Intuição, Investigação",
+    "texto": "*Movido por uma curiosidade sem fim, você afiou o talento para investigar e deduzir: desvenda mistérios, encontra desaparecidos, recupera bens roubados e expõe corrupção e conspirações. Pode ter trabalhado por conta própria, numa agência (talvez licenciada por Medani ou Tharashk), para um jornal ou para a guarda.*\n\n| | |\n|---|---|\n| Valores de Atributo | Constituição, Inteligência, Carisma |\n| Talento de Origem | Alerta |\n| Perícias | Intuição, Investigação |\n| Ferramenta | Ferramentas de Ladrão |\n| Equipamento | Escolha (A) Ferramentas de Ladrão, Lanterna Furta-fogo, Pé de Cabra, Óleo (10 frascos), Roupas de Viagem, 10 PO; ou (B) 50 PO |\n\n**Talento de Origem:** [[alerta|Alerta]].\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]] e [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "changeling",
+    "nome": "Changeling",
+    "nome_en": "Changeling",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "changeling",
+      "eberron",
+      "metamorfo"
+    ],
+    "resumo": "Metamorfo feérico: muda rosto, voz e tamanho à vontade e ganha duas perícias sociais.",
+    "texto": "*Changelings mudam de rosto quando querem e vivem sem ser notados em muitas sociedades. Surgiram na Agrestia das Fadas, e a essência mutável desse plano ainda está neles. Na forma verdadeira parecem desbotados, quase sem traços; muitos criam personas completas, com história e crenças, e uma persona pode ser compartilhada ou passar de geração em geração.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Feérico |\n| Tamanho | Médio (1,20–2,10 m) ou Pequeno (0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Instintos Changeling.** Proficiência em duas destas perícias, à sua escolha: Atuação, Enganação, Intimidação, Intuição ou Persuasão.\n\n**Metamorfo.** Como ação, você muda sua aparência e sua voz. Você decide os detalhes: cor, comprimento do cabelo, sexo, altura e peso, e pode trocar de tamanho entre Médio e Pequeno. Pode parecer membro de outra espécie jogável, mas nenhuma estatística muda.\n\n- Não pode copiar a aparência de alguém que nunca viu.\n- A forma deve ter a mesma disposição básica de membros que a sua.\n- Roupas e equipamento não mudam.\n\nEnquanto estiver transformado por este traço, você tem Vantagem em testes de Carisma. Fica na nova forma até usar uma ação para voltar à forma verdadeira.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "kalashtar",
+    "nome": "Kalashtar",
+    "nome_en": "Kalashtar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "kalashtar",
+      "eberron",
+      "quori",
+      "psiônico"
+    ],
+    "resumo": "Ligados a espíritos quori: Vantagem em salvaguardas de Sab/Car, resistência Psíquico e telepatia.",
+    "texto": "*Kalashtar nascem da união entre humanos e espíritos quori renegados do plano dos sonhos. Parecem humanos de traços simétricos e um pouco angulosos, e os olhos costumam brilhar quando se concentram ou se emocionam. Não falam diretamente com seu quori, mas o sentem como instinto e inspiração, e às vezes revivem memórias dele ao dormir.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Aberração |\n| Tamanho | Médio (1,80–2,10 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Mente Dupla.** Vantagem em salvaguardas de Sabedoria e de Carisma.\n\n**Disciplina Mental.** Resistência a dano Psíquico.\n\n**Elo Mental.** Você tem [[telepatia-habilidade|telepatia]] com alcance de 3 metros × seu nível de personagem. Enquanto fala telepaticamente com uma criatura, pode usar a ação Usar Magia para que ela também possa falar telepaticamente com você por 1 hora, ou até você usar outra ação Usar Magia para encerrar.\n\n**Apartado dos Sonhos.** Você não pode ser alvo da magia [[sonho|Sonho]]. Além disso, ao terminar um Descanso Longo, ganhe proficiência numa perícia à sua escolha, que dura até você terminar outro Descanso Longo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "khoravar",
+    "nome": "Khoravar",
+    "nome_en": "Khoravar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "khoravar",
+      "eberron",
+      "meio-elfo",
+      "half-elf"
+    ],
+    "resumo": "Os “meio-elfos” de Khorvaire: Visão no Escuro, ancestralidade feérica, truque e perícia variáveis.",
+    "texto": "*Descendentes de humanos e elfos formaram comunidades e tradições próprias em Khorvaire, fortalecidas pelas Casas Lyrandar e Medani. Chamam-se Khoravar, “filhos de Khorvaire” em élfico, e não gostam do termo “meio-elfo”. Muitos se veem como “a ponte entre” culturas e povos, tornando-se bardos, diplomatas e mediadores; outros buscam pontes com Thelanis, a Agrestia das Fadas.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–1,80 m) ou Pequeno (0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** [[visao-no-escuro-sentido|Visão no Escuro]] de 18 metros.\n\n**Ancestralidade Feérica.** Vantagem nas salvaguardas para evitar ou encerrar a condição [[enfeiticado|Enfeitiçado]].\n\n**Dom Feérico.** Você conhece o truque [[amigos|Amigos]]. Ao terminar um Descanso Longo, pode trocá-lo por outro truque da lista de Clérigo, Druida ou Mago.\n\n**Resiliência à Letargia.** Quando falhar numa salvaguarda para evitar ou encerrar a condição [[inconsciente|Inconsciente]], você pode ser bem-sucedido em vez disso. Depois de usar, só pode de novo após terminar 1d4 Descansos Longos.\n\n**Versatilidade.** Proficiência em uma perícia ou ferramenta à sua escolha. Ao terminar um Descanso Longo, pode trocá-la por outra perícia ou ferramenta.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "metamorfo",
+    "nome": "Metamorfo",
+    "nome_en": "Shifter",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "shifter",
+      "eberron",
+      "licantropo"
+    ],
+    "resumo": "Herança licantrópica: vira uma forma bestial por 1 minuto, ganhando PV temporários e um benefício.",
+    "texto": "*Metamorfos, às vezes chamados de “tocados pela lua”, descendem de pessoas que contraíram licantropia total ou parcial. Não mudam de forma por completo, mas realçam por um tempo seus traços animais, no que chamam de “transformar-se”. Lembram humanos, porém mais ágeis, com olhos grandes, orelhas pontudas, caninos marcados e pelos por quase todo o corpo.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–2,10 m) ou Pequeno (0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Instintos Bestiais.** Proficiência em uma destas perícias, à sua escolha: Acrobacia, Atletismo, Intimidação ou Sobrevivência.\n\n**Visão no Escuro.** [[visao-no-escuro-sentido|Visão no Escuro]] de 18 metros.\n\n**Transformação.** Como Ação Bônus, você assume uma aparência mais bestial por 1 minuto, ou até voltar ao normal como Ação Bônus. Ao se transformar, ganha [[pontos-de-vida-temporarios|Pontos de Vida Temporários]] iguais a 2 × seu Bônus de Proficiência. Usos iguais ao seu Bônus de Proficiência; recupera todos num Descanso Longo.\n\nAo se transformar você ganha também o benefício de **uma** destas linhagens, escolhida quando você escolhe a espécie:\n\n- **Pele de Fera** (*Beasthide*). Ganhe mais 1d6 PV temporários ao se transformar. Enquanto transformado, +1 na CA.\n- **Presa Longa** (*Longtooth*). Ao se transformar, e como Ação Bônus nos seus outros turnos enquanto transformado, você pode fazer um [[ataque-desarmado|Ataque Desarmado]] com as presas. Se acertar e causar dano, pode causar 1d6 + mod. de Força de dano Perfurante em vez do dano normal.\n- **Passo Veloz** (*Swiftstride*). Enquanto transformado, seu Deslocamento aumenta em 3 m. Além disso, quando uma criatura termina o turno a até 1,5 m de você, você pode usar a Reação para se mover até 3 m sem provocar [[ataque-de-oportunidade|Ataques de Oportunidade]].\n- **Caça Selvagem** (*Wildhunt*). Enquanto transformado, você tem Vantagem em testes de Sabedoria, e nenhuma criatura a até 9 m de você pode ter Vantagem em jogadas de ataque contra você, a menos que você esteja [[incapacitado|Incapacitado]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "forjado-belico",
+    "nome": "Forjado Bélico",
+    "nome_en": "Warforged",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "raça",
+      "warforged",
+      "eberron",
+      "constructo"
+    ],
+    "resumo": "Constructo vivo da Última Guerra: +1 na CA, resistência a Veneno, não dorme e não se cansa.",
+    "texto": "*Os forjados bélicos foram construídos como armas para a Última Guerra, e um avanço inesperado os tornou seres conscientes, capazes de sentir dor e emoção. São feitos de materiais orgânicos e inorgânicos: cordas como raízes cheias de fluidos alquímicos servem de músculos em volta de uma estrutura de aço, madeira-escura ou pedra, sob placas de blindagem. Quanto mais cultivam a individualidade, mais personalizam o corpo com a ajuda de artífices.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Constructo |\n| Tamanho | Médio (1,80–2,40 m) ou Pequeno (0,90–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Resiliência de Constructo.** Resistência a dano Venenoso e Vantagem nas salvaguardas para evitar ou encerrar a condição [[envenenado|Envenenado]].\n\n**Proteção Integrada.** +1 na sua CA. A armadura que você veste não pode ser removida contra sua vontade enquanto você estiver vivo.\n\n**Repouso de Sentinela.** Você não precisa dormir, e magia não pode fazê-lo dormir. Você termina um Descanso Longo em 6 horas se passá-las inativo e imóvel; nesse tempo parece desligado, mas continua consciente.\n\n**Projeto Especializado.** Proficiência em uma perícia e uma ferramenta à sua escolha.\n\n**Incansável.** Você não ganha níveis de [[exaustao|Exaustão]] por desidratação, desnutrição ou sufocamento.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-aberrante",
+    "nome": "Dracossinal Aberrante",
+    "nome_en": "Aberrant Dragonmark",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "aberrant dragonmark",
+      "eberron",
+      "aberrante"
+    ],
+    "resumo": "Marca instável: +1d4 numa salvaguarda de Con, magia de Feiticeiro e surto de PV temporários ou dano.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Fortitude Aberrante.** Quando falhar numa salvaguarda de Constituição, você pode usar a Reação para jogar 1d4 e somar o resultado, podendo transformar a falha em sucesso. Uma vez por Descanso Longo.\n\n**Magia Aberrante.** Você conhece um truque à sua escolha da lista de magias de [[feiticeiro|Feiticeiro]]. Escolha também uma magia de 1º círculo dessa lista: ela fica sempre preparada. Você pode conjurá-la uma vez sem espaço de magia e recupera esse uso ao terminar um Descanso Curto ou Longo; também pode conjurá-la com qualquer espaço de magia que tenha. Constituição é seu atributo de conjuração para essa magia.\n\n**Surto Aberrante.** Ao conjurar a magia de 1º círculo deste talento, você pode gastar um dos seus [[dados-de-pontos-de-vida|Dados de Ponto de Vida]] e jogá-lo:\n\n- **Resultado par:** você ganha Pontos de Vida Temporários iguais ao resultado.\n- **Resultado ímpar:** uma criatura a até 9 m de você (que não seja você) sofre dano Energético igual ao resultado. Se não houver outra criatura no alcance, você sofre o dano.\n\nVeja também [[dracossinais|Dracossinais]] e [[herdeiro-aberrante|Herdeiro Aberrante]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-deteccao",
+    "nome": "Dracossinal da Detecção",
+    "nome_en": "Mark of Detection",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of detection",
+      "eberron",
+      "medani"
+    ],
+    "resumo": "Casa Medani: +1d4 em Investigação e Intuição, Detectar Magia, Detectar Veneno e Ver o Invisível.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição Dedutiva.** Ao fazer um teste de Inteligência (Investigação) ou Sabedoria (Intuição), jogue 1d4 e some ao resultado.\n\n**Detecção Mágica.** Você tem as magias [[detectar-magia|Detectar Magia]] e [[detectar-veneno-e-doenca|Detectar Veneno e Doença]] sempre preparadas. Você pode conjurar cada uma uma vez sem gastar espaço de magia e recupera esses usos ao terminar um Descanso Longo. Também pode conjurá-las com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\nA partir do nível 3 de personagem, você também tem [[ver-o-invisivel|Ver o Invisível]] sempre preparada e pode conjurá-la do mesmo jeito.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Detecção\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[detectar-o-bem-e-o-mal|Detectar o Bem e o Mal]], [[identificar|Identificar]]\n- **2º círculo:** [[detectar-pensamentos|Detectar Pensamentos]], [[encontrar-armadilhas|Encontrar Armadilhas]]\n- **3º círculo:** [[clarividencia|Clarividência]], [[indetectavel|Indetectável]]\n- **4º círculo:** [[olho-arcano|Olho Arcano]], [[pressagio|Presságio]]\n- **5º círculo:** [[lendas-e-historias|Lendas e Histórias]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-descoberta",
+    "nome": "Dracossinal da Descoberta",
+    "nome_en": "Mark of Finding",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of finding",
+      "eberron",
+      "tharashk"
+    ],
+    "resumo": "Casa Tharashk: +1d4 em Percepção e Sobrevivência, Marca do Predador e Localizar Objeto.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição do Caçador.** Ao fazer um teste de Sabedoria (Percepção ou Sobrevivência), jogue 1d4 e some ao resultado.\n\n**Magia do Rastreador.** Você tem a magia [[marca-do-predador|Marca do Predador]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\nA partir do nível 3 de personagem, você também tem [[localizar-objeto|Localizar Objeto]] sempre preparada e pode conjurá-la do mesmo jeito.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Descoberta\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[fogo-das-fadas|Fogo das Fadas]], [[passos-largos|Passos Largos]]\n- **2º círculo:** [[localizar-animais-ou-plantas|Localizar Animais ou Plantas]], [[espinho-mental|Espinho Mental]]\n- **3º círculo:** [[clarividencia|Clarividência]], [[falar-com-plantas|Falar com Plantas]]\n- **4º círculo:** [[pressagio|Presságio]], [[localizar-criatura|Localizar Criatura]]\n- **5º círculo:** [[comunhao-com-a-natureza|Comunhão com a Natureza]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-do-adestramento",
+    "nome": "Dracossinal do Adestramento",
+    "nome_en": "Mark of Handling",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of handling",
+      "eberron",
+      "vadalis"
+    ],
+    "resumo": "Casa Vadalis: +1d4 em Natureza e Lidar com Animais, Amizade Animal e Falar com Animais.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição Selvagem.** Ao fazer um teste de Inteligência (Natureza) ou Sabedoria (Lidar com Animais), jogue 1d4 e some ao resultado.\n\n**Conexão Primal.** Você tem as magias [[amizade-animal|Amizade Animal]] e [[falar-com-animais|Falar com Animais]] sempre preparadas. Você pode conjurar cada uma uma vez sem gastar espaço de magia e recupera esses usos ao terminar um Descanso Longo. Também pode conjurá-las com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\n**Conexões Monstruosas.** A partir do nível 3 de personagem, ao conjurar Amizade Animal ou Falar com Animais você pode escolher como alvo uma Monstruosidade com Inteligência 3 ou menos.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal do Adestramento\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[comando|Comando]], [[convocar-familiar|Convocar Familiar]]\n- **2º círculo:** [[sentido-feral|Sentido Feral]], [[acalmar-emocoes|Acalmar Emoções]]\n- **3º círculo:** [[sinal-de-esperanca|Sinal de Esperança]], [[invocar-animais|Invocar Animais]]\n- **4º círculo:** [[aura-de-vida|Aura de Vida]], [[dominar-fera|Dominar Fera]]\n- **5º círculo:** [[despertar|Despertar]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-cura",
+    "nome": "Dracossinal da Cura",
+    "nome_en": "Mark of Healing",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of healing",
+      "eberron",
+      "jorasco"
+    ],
+    "resumo": "Casa Jorasco: +1d4 em Medicina e Kit de Herbalismo, Curar Ferimentos e Restauração Menor.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição Médica.** Ao fazer um teste de Sabedoria (Medicina) ou um teste de atributo com Kit de Herbalismo, jogue 1d4 e some ao resultado.\n\n**Toque Curativo.** Você tem a magia [[curar-ferimentos|Curar Ferimentos]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\nA partir do nível 3 de personagem, você também tem [[restauracao-menor|Restauração Menor]] sempre preparada e pode conjurá-la do mesmo jeito.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Cura\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[vitalidade-vazia|Vitalidade Vazia]], [[palavra-curativa|Palavra Curativa]]\n- **2º círculo:** [[vigor-arcano|Vigor Arcano]], [[oracao-de-cura|Oração de Cura]]\n- **3º círculo:** [[aura-de-vitalidade|Aura de Vitalidade]], [[palavra-curativa-em-massa|Palavra Curativa em Massa]]\n- **4º círculo:** [[aura-de-vida|Aura de Vida]], [[aura-de-pureza|Aura de Pureza]]\n- **5º círculo:** [[restauracao-maior|Restauração Maior]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-hospitalidade",
+    "nome": "Dracossinal da Hospitalidade",
+    "nome_en": "Mark of Hospitality",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of hospitality",
+      "eberron",
+      "ghallanda"
+    ],
+    "resumo": "Casa Ghallanda: +1d4 em Persuasão e cozinha, Purificar Alimentos, Servo Invisível e Acalmar Emoções.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Sempre Hospitaleiro.** Ao fazer um teste de Carisma (Persuasão) ou um teste de atributo com Suprimentos de Cervejeiro ou Utensílios de Cozinheiro, jogue 1d4 e some ao resultado.\n\n**Magia do Estalajadeiro.** Você tem as magias [[purificar-alimentos-e-bebidas|Purificar Alimentos e Bebidas]] e [[servo-invisivel|Servo Invisível]] sempre preparadas. Você pode conjurar cada uma uma vez sem gastar espaço de magia e recupera esses usos ao terminar um Descanso Longo. Também pode conjurá-las com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\nA partir do nível 3 de personagem, você também tem [[acalmar-emocoes|Acalmar Emoções]] sempre preparada e pode conjurá-la do mesmo jeito.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Hospitalidade\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[bom-fruto|Bom Fruto]], [[sono|Sono]]\n- **2º círculo:** [[auxilio|Auxílio]], [[aprimorar-atributo|Aprimorar Atributo]]\n- **3º círculo:** [[criar-comida-e-agua|Criar Comida e Água]], [[pequeno-refugio-de-leomund|Pequeno Refúgio de Leomund]]\n- **4º círculo:** [[aura-de-pureza|Aura de Pureza]], [[santuario-particular-de-mordenkainen|Santuário Particular de Mordenkainen]]\n- **5º círculo:** [[consagrar|Consagrar]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-criacao",
+    "nome": "Dracossinal da Criação",
+    "nome_en": "Mark of Making",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of making",
+      "eberron",
+      "cannith"
+    ],
+    "resumo": "Casa Cannith: +1d4 em Arcanismo e Ferramentas de Artesão, truque Reparar e Arma Mágica.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição do Artesão.** Ao fazer um teste de Inteligência (Arcanismo) ou um teste de atributo com Ferramentas de Artesão, jogue 1d4 e some ao resultado.\n\n**Forjador de Magias.** Você conhece o truque [[reparar|Reparar]] e tem a magia [[arma-magica|Arma Mágica]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Criação\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[identificar|Identificar]], [[disco-flutuante-de-tenser|Disco Flutuante de Tenser]]\n- **2º círculo:** [[chama-continua|Chama Contínua]], [[arma-espiritual|Arma Espiritual]]\n- **3º círculo:** [[invocar-barragem|Invocar Barragem]], [[arma-elemental|Arma Elemental]]\n- **4º círculo:** [[fabricar|Fabricar]], [[moldar-rochas|Moldar Rochas]]\n- **5º círculo:** [[criacao|Criação]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-passagem",
+    "nome": "Dracossinal da Passagem",
+    "nome_en": "Mark of Passage",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of passage",
+      "eberron",
+      "orien"
+    ],
+    "resumo": "Casa Orien: +1,5 m de Deslocamento, +1d4 em Atletismo e Acrobacia e Passo Nebuloso.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Velocidade do Mensageiro.** Seu Deslocamento aumenta em 1,5 m.\n\n**Movimento Intuitivo.** Ao fazer um teste de Força (Atletismo) ou Destreza (Acrobacia), jogue 1d4 e some ao resultado.\n\n**Passagem Mágica.** Você tem a magia [[passo-nebuloso|Passo Nebuloso]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Passagem\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[retirada-acelerada|Retirada Acelerada]], [[salto|Salto]]\n- **2º círculo:** [[convocar-montaria|Convocar Montaria]], [[passo-sem-rastro|Passo Sem Rastro]]\n- **3º círculo:** [[piscar|Piscar]], [[montaria-fantasmagorica|Montaria Fantasmagórica]]\n- **4º círculo:** [[porta-dimensional|Porta Dimensional]], [[movimentacao-livre|Movimentação Livre]]\n- **5º círculo:** [[circulo-de-teleporte|Círculo de Teleporte]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-escrita",
+    "nome": "Dracossinal da Escrita",
+    "nome_en": "Mark of Scribing",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of scribing",
+      "eberron",
+      "sivis"
+    ],
+    "resumo": "Casa Sivis: +1d4 em História e caligrafia, truque Mensagem, Compreender Idiomas e Boca Encantada.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Escriba Talentoso.** Ao fazer um teste de Inteligência (História) ou um teste de atributo com Suprimentos de Calígrafo, jogue 1d4 e some ao resultado.\n\n**Percepção do Escriba.** Você conhece o truque [[mensagem|Mensagem]] e tem a magia [[compreender-idiomas|Compreender Idiomas]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\nA partir do nível 3 de personagem, você também tem [[boca-encantada|Boca Encantada]] sempre preparada e pode conjurá-la do mesmo jeito.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Escrita\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[comando|Comando]], [[escrita-ilusoria|Escrita Ilusória]]\n- **2º círculo:** [[mensageiro-animal|Mensageiro Animal]], [[silencio|Silêncio]]\n- **3º círculo:** [[remeter|Remeter]], [[linguas|Línguas]]\n- **4º círculo:** [[olho-arcano|Olho Arcano]], [[confusao|Confusão]]\n- **5º círculo:** [[sonho|Sonho]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-sentinela",
+    "nome": "Dracossinal da Sentinela",
+    "nome_en": "Mark of Sentinel",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of sentinel",
+      "eberron",
+      "deneith"
+    ],
+    "resumo": "Casa Deneith: +1d4 em Intuição e Percepção, Escudo Arcano e troca de lugar para receber um ataque.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição da Sentinela.** Ao fazer um teste de Sabedoria (Intuição ou Percepção), jogue 1d4 e some ao resultado.\n\n**Escudo do Guardião.** Você tem a magia [[escudo-arcano|Escudo Arcano]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\n**Guardião Vigilante.** Quando uma criatura que você consegue ver a até 1,5 m de você é atingida por uma jogada de ataque, você pode usar a Reação para trocar de lugar com ela; o ataque atinge você em vez dela. Usos iguais ao seu Bônus de Proficiência; recupera todos num Descanso Longo.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Sentinela\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[duelo-compelido|Duelo Compelido]], [[escudo-da-fe|Escudo da Fé]]\n- **2º círculo:** [[vinculo-de-protecao|Vínculo de Proteção]], [[zona-da-verdade|Zona da Verdade]]\n- **3º círculo:** [[contramagia|Contramagia]], [[protecao-contra-energia|Proteção Contra Energia]]\n- **4º círculo:** [[protecao-contra-a-morte|Proteção Contra a Morte]], [[defensor-da-fe|Defensor da Fé]]\n- **5º círculo:** [[mao-de-bigby|Mão de Bigby]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-sombra",
+    "nome": "Dracossinal da Sombra",
+    "nome_en": "Mark of Shadow",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of shadow",
+      "eberron",
+      "phiarlan",
+      "thuranni"
+    ],
+    "resumo": "Casas Phiarlan e Thuranni: +1d4 em Furtividade e Atuação, truque Ilusão Menor e Invisibilidade.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição Astuta.** Ao fazer um teste de Destreza (Furtividade) ou Carisma (Atuação), jogue 1d4 e some ao resultado.\n\n**Moldar Sombras.** Você conhece o truque [[ilusao-menor|Ilusão Menor]] e tem a magia [[invisibilidade|Invisibilidade]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Sombra\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[disfarcar-se|Disfarçar-se]], [[imagem-silenciosa|Imagem Silenciosa]]\n- **2º círculo:** [[escuridao|Escuridão]], [[passo-sem-rastro|Passo Sem Rastro]]\n- **3º círculo:** [[clarividencia|Clarividência]], [[imagem-maior|Imagem Maior]]\n- **4º círculo:** [[invisibilidade-maior|Invisibilidade Maior]], [[terreno-alucinatorio|Terreno Alucinatório]]\n- **5º círculo:** [[despistar|Despistar]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-tempestade",
+    "nome": "Dracossinal da Tempestade",
+    "nome_en": "Mark of Storm",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of storm",
+      "eberron",
+      "lyrandar"
+    ],
+    "resumo": "Casa Lyrandar: +1d4 em Acrobacia e navegação, resistência Elétrico, truque Trovão e Lufada de Vento.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição do Mestre dos Ventos.** Ao fazer um teste de Destreza (Acrobacia) ou um teste de atributo com Ferramentas de Navegador, jogue 1d4 e some ao resultado.\n\n**Dádiva da Tempestade.** Resistência a dano Elétrico.\n\n**Magia da Tempestade.** Você conhece o truque [[trovao|Trovão]]. A partir do nível 3 de personagem, você também tem a magia [[lufada-de-vento|Lufada de Vento]] sempre preparada. Você pode conjurá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um Descanso Longo. Também pode conjurá-la com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Tempestade\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[queda-suave|Queda Suave]], [[nevoa-obscurecente|Névoa Obscurecente]]\n- **2º círculo:** [[levitacao|Levitação]], [[despedacar|Despedaçar]]\n- **3º círculo:** [[nevasca|Nevasca]], [[muralha-de-vento|Muralha de Vento]]\n- **4º círculo:** [[invocar-elementais-menores|Invocar Elementais Menores]], [[controlar-agua|Controlar Água]]\n- **5º círculo:** [[invocar-elemental|Invocar Elemental]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-da-protecao",
+    "nome": "Dracossinal da Proteção",
+    "nome_en": "Mark of Warding",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dracossinal",
+    "tags": [
+      "talento",
+      "dracossinal",
+      "mark of warding",
+      "eberron",
+      "kundarak"
+    ],
+    "resumo": "Casa Kundarak: +1d4 em Investigação e Ferramentas de Ladrão, Alarme, Armadura Arcana e Tranca Arcana.",
+    "texto": "*Talento de Dracossinal · Pré-requisito: Campanha de Eberron; não ter outro talento de Dracossinal*\n\nVocê ganha os benefícios abaixo.\n\n**Intuição do Guardião.** Ao fazer um teste de Inteligência (Investigação) ou um teste de atributo com Ferramentas de Ladrão, jogue 1d4 e some ao resultado.\n\n**Proteções e Selos.** Você tem as magias [[alarme|Alarme]] e [[armadura-arcana|Armadura Arcana]] sempre preparadas. Você pode conjurar cada uma uma vez sem gastar espaço de magia e recupera esses usos ao terminar um Descanso Longo. Também pode conjurá-las com qualquer espaço de magia que tenha. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dessas magias ao pegar o talento.\n\nA partir do nível 3 de personagem, você também tem [[tranca-arcana|Tranca Arcana]] sempre preparada e pode conjurá-la do mesmo jeito.\n\n**Magias da Marca.** Veja abaixo.\n\n### Magias do Dracossinal da Proteção\nSe você tem a característica Conjuração ou Magia de Pacto, as magias abaixo entram na lista de magias dessa característica (elas não ficam preparadas automaticamente; veja [[dracossinal-potente|Dracossinal Potente]]).\n\n- **1º círculo:** [[armadura-de-agathys|Armadura de Agathys]], [[santuario|Santuário]]\n- **2º círculo:** [[arrombar|Arrombar]], [[aura-magica-de-nystul|Aura Mágica de Nystul]]\n- **3º círculo:** [[glifo-de-protecao|Glifo de Proteção]], [[circulo-magico|Círculo Mágico]]\n- **4º círculo:** [[arca-secreta-de-leomund|Arca Secreta de Leomund]], [[cao-fiel-de-mordenkainen|Cão Fiel de Mordenkainen]]\n- **5º círculo:** [[cupula-antivida|Cúpula Antivida]]\n\nVeja também [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-aberrante-maior",
+    "nome": "Dracossinal Aberrante Maior",
+    "nome_en": "Greater Aberrant Mark",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater aberrant mark",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Fortitude Aberrante com 1d6 e recarga no Descanso Curto; truques geram PV temporários e dano Energético.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal Aberrante*\n\n**Aumento no Valor de Atributo.** +1 em Constituição (máximo 20).\n\nRequer o talento [[dracossinal-aberrante|Dracossinal Aberrante]].\n\n**Fortitude Aprimorada.** Ao usar a Fortitude Aberrante do seu talento Dracossinal Aberrante, jogue 1d6 em vez de 1d4. Agora você recupera esse uso ao terminar um Descanso Curto ou Longo.\n\n**Marca da Inspiração.** Ao conjurar um truque, você pode jogar um ou dois dos seus [[dados-de-pontos-de-vida|Dados de Ponto de Vida]] não gastos. Você ganha Pontos de Vida Temporários iguais ao total + seu mod. de Constituição, e uma criatura à sua escolha a até 9 m (que não seja você) sofre dano Energético igual ao total. Esses dados ficam gastos. Usos iguais ao seu Bônus de Proficiência; recupera todos num Descanso Longo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-deteccao",
+    "nome": "Dracossinal Maior da Detecção",
+    "nome_en": "Greater Mark of Detection",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of detection",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Ver o Invisível gratuito também afeta um aliado.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Detecção*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-deteccao|Dracossinal da Detecção]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição Dedutiva do seu talento Dracossinal da Detecção, jogue 1d6 em vez de 1d4.\n\n**Detecção Compartilhada.** Quando usar a Detecção Mágica para conjurar [[ver-o-invisivel|Ver o Invisível]] sem espaço de magia, escolha uma criatura que você consiga ver a até 9 m. Ela também recebe os benefícios da magia enquanto durar.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-descoberta",
+    "nome": "Dracossinal Maior da Descoberta",
+    "nome_en": "Greater Mark of Finding",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of finding",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Marca do Predador gratuita com alcance dobrado e que anula Invisível.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Descoberta*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-descoberta|Dracossinal da Descoberta]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição do Caçador do seu talento Dracossinal da Descoberta, jogue 1d6 em vez de 1d4.\n\n**Descoberta Aprimorada.** Quando usar a Magia do Rastreador para conjurar [[marca-do-predador|Marca do Predador]] sem espaço de magia, o alcance da magia dobra, e você pode modificá-la para que o alvo não se beneficie da condição [[invisivel|Invisível]] enquanto ela durar.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-do-adestramento",
+    "nome": "Dracossinal Maior do Adestramento",
+    "nome_en": "Greater Mark of Handling",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of handling",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; a montaria age quando você acerta; amedronta Feras e Monstruosidades.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal do Adestramento*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-do-adestramento|Dracossinal do Adestramento]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição Selvagem do seu talento Dracossinal do Adestramento, jogue 1d6 em vez de 1d4.\n\n**Adestramento Aprimorado.** Enquanto estiver montado, logo depois de acertar com uma jogada de ataque corpo a corpo um alvo a até 1,5 m da sua montaria, ela pode usar a Reação para se mover até seu Deslocamento ou para fazer a ação Atacar com um único ataque (você escolhe).\n\n**Subjugar Animal.** Com a ação Usar Magia, você impõe sua vontade a uma Fera ou Monstruosidade que consiga ver a até 9 m. Ela faz uma salvaguarda de Sabedoria (CD 8 + seu mod. de Sabedoria + Bônus de Proficiência); se falhar, fica [[amedrontado|Amedrontada]] até o início do seu próximo turno. Usos iguais ao seu Bônus de Proficiência; recupera todos num Descanso Longo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-cura",
+    "nome": "Dracossinal Maior da Cura",
+    "nome_en": "Greater Mark of Healing",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of healing",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Curar Ferimentos grátis várias vezes e dados de cura com mínimo 3.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Cura*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-cura|Dracossinal da Cura]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição Médica do seu talento Dracossinal da Cura, jogue 1d6 em vez de 1d4.\n\n**Cura Aprimorada.** Agora o Toque Curativo permite conjurar [[curar-ferimentos|Curar Ferimentos]] sem espaço de magia um número de vezes igual ao seu Bônus de Proficiência; recupera todos os usos num Descanso Longo.\n\nAlém disso, ao conjurar Curar Ferimentos e jogar os dados de cura, trate qualquer 1 ou 2 como 3.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-hospitalidade",
+    "nome": "Dracossinal Maior da Hospitalidade",
+    "nome_en": "Greater Mark of Hospitality",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of hospitality",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Purificar Alimentos revigora aliados (−1 Exaustão e PV temporários).",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Hospitalidade*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-hospitalidade|Dracossinal da Hospitalidade]].\n\n**Intuição Aprimorada.** Quando usar o benefício Sempre Hospitaleiro do seu talento Dracossinal da Hospitalidade, jogue 1d6 em vez de 1d4.\n\n**Hospitalidade Inspirada.** Ao conjurar [[purificar-alimentos-e-bebidas|Purificar Alimentos e Bebidas]], você pode trocar o efeito normal por este: cada criatura à sua escolha a até 9 m de você se revigora. Ela reduz seu nível de [[exaustao|Exaustão]] em 1 e ganha Pontos de Vida Temporários iguais ao seu Bônus de Proficiência + seu mod. de Inteligência, Sabedoria ou Carisma (escolhido ao pegar o talento). Uma vez por Descanso Longo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-criacao",
+    "nome": "Dracossinal Maior da Criação",
+    "nome_en": "Greater Mark of Making",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of making",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Arma Mágica gratuita sai como versão de 3º círculo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Criação*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-criacao|Dracossinal da Criação]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição do Artesão do seu talento Dracossinal da Criação, jogue 1d6 em vez de 1d4.\n\n**Criação Aprimorada.** Quando usar o Forjador de Magias para conjurar [[arma-magica|Arma Mágica]] sem espaço de magia, você a conjura como versão de 3º círculo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-passagem",
+    "nome": "Dracossinal Maior da Passagem",
+    "nome_en": "Greater Mark of Passage",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of passage",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Passo Nebuloso gratuito leva até dois aliados junto.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Passagem*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-passagem|Dracossinal da Passagem]].\n\n**Intuição Aprimorada.** Quando usar o benefício Movimento Intuitivo do seu talento Dracossinal da Passagem, jogue 1d6 em vez de 1d4.\n\n**Passagem Inspirada.** Quando usar a Passagem Mágica para conjurar [[passo-nebuloso|Passo Nebuloso]] sem espaço de magia, antes de se teleportar você pode escolher até duas criaturas voluntárias que consiga ver a até 9 m. Cada uma pode então usar a Reação para se teleportar até 9 m para um espaço desocupado que consiga ver.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-escrita",
+    "nome": "Dracossinal Maior da Escrita",
+    "nome_en": "Greater Mark of Scribing",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of scribing",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Compreender Idiomas atinge três aliados e cria elo telepático.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Escrita*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-escrita|Dracossinal da Escrita]].\n\n**Intuição Aprimorada.** Quando usar o benefício Escriba Talentoso do seu talento Dracossinal da Escrita, jogue 1d6 em vez de 1d4.\n\n**Escrita Inspirada.** Ao conjurar [[compreender-idiomas|Compreender Idiomas]], você pode estendê-la a até três criaturas voluntárias que consiga ver a até 9 m; cada uma também recebe os benefícios da magia enquanto durar. Durante a magia, você e essas criaturas podem se comunicar por telepatia enquanto estiverem a até 1,5 km umas das outras. Uma vez por Descanso Longo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-sentinela",
+    "nome": "Dracossinal Maior da Sentinela",
+    "nome_en": "Greater Mark of Sentinel",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of sentinel",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Guardião Vigilante também permite um ataque na mesma Reação.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Sentinela*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-sentinela|Dracossinal da Sentinela]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição da Sentinela do seu talento Dracossinal da Sentinela, jogue 1d6 em vez de 1d4.\n\n**Sentinela Aprimorada.** Quando usar o Guardião Vigilante, você também pode fazer um ataque com uma arma ou um [[ataque-desarmado|Ataque Desarmado]] como parte da mesma Reação.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-sombra",
+    "nome": "Dracossinal Maior da Sombra",
+    "nome_en": "Greater Mark of Shadow",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of shadow",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Invisibilidade gratuita sai como versão de 3º círculo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Sombra*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-sombra|Dracossinal da Sombra]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição Astuta do seu talento Dracossinal da Sombra, jogue 1d6 em vez de 1d4.\n\n**Sombra Aprimorada.** Quando usar Moldar Sombras para conjurar [[invisibilidade|Invisibilidade]] sem espaço de magia, você a conjura como versão de 3º círculo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-tempestade",
+    "nome": "Dracossinal Maior da Tempestade",
+    "nome_en": "Greater Mark of Storm",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of storm",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Lufada de Vento gratuita dá Deslocamento de Voo de 18 m.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Tempestade*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-tempestade|Dracossinal da Tempestade]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição do Mestre dos Ventos do seu talento Dracossinal da Tempestade, jogue 1d6 em vez de 1d4.\n\n**Tempestade Aprimorada.** Quando usar a Magia da Tempestade para conjurar [[lufada-de-vento|Lufada de Vento]] sem espaço de magia, você também ganha [[deslocamento-de-voo|Deslocamento de Voo]] de 18 m enquanto a magia durar.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-maior-da-protecao",
+    "nome": "Dracossinal Maior da Proteção",
+    "nome_en": "Greater Mark of Warding",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "greater mark of warding",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Intuição com 1d6; Reação para impor Desvantagem num ataque contra você ou aliado próximo.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, talento Dracossinal da Proteção*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 20).\n\nVocê ganha os benefícios abaixo. Requer o talento [[dracossinal-da-protecao|Dracossinal da Proteção]].\n\n**Intuição Aprimorada.** Quando usar o benefício Intuição do Guardião do seu talento Dracossinal da Proteção, jogue 1d6 em vez de 1d4.\n\n**Proteção Aprimorada.** Quando uma criatura faz uma jogada de ataque contra você ou contra uma criatura que você consegue ver a até 9 m, você pode usar a Reação para impor Desvantagem nessa jogada. Usos iguais ao seu Bônus de Proficiência; recupera todos num Descanso Longo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dracossinal-potente",
+    "nome": "Dracossinal Potente",
+    "nome_en": "Potent Dragonmark",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "potent dragonmark",
+      "eberron",
+      "dracossinal"
+    ],
+    "resumo": "Magias da Marca sempre preparadas e um espaço extra (até 5º círculo) que volta no Descanso Curto.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, qualquer talento de Dracossinal*\n\n**Aumento no Valor de Atributo.** +1 no atributo de conjuração que seu talento de Dracossinal usa (máximo 20).\n\nRequer qualquer talento de [[dracossinais|Dracossinal]].\n\n**Preparação do Dracossinal.** Você tem sempre preparadas as magias da lista de Magias da Marca do seu talento de Dracossinal (se houver).\n\n**Conjuração do Dracossinal.** Você ganha um espaço de magia extra para conjurar as magias do seu talento de Dracossinal. O círculo do espaço é metade do seu nível de personagem (arredondado para cima), até o máximo de 5º círculo. Você recupera o espaço ao terminar um Descanso Curto ou Longo. Esse espaço só serve para magias que você tem preparadas por causa do seu talento de Dracossinal ou da Preparação do Dracossinal deste talento.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "dadiva-de-siberys",
+    "nome": "Dádiva de Siberys",
+    "nome_en": "Boon of Siberys",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Dádiva Épica",
+    "tags": [
+      "talento",
+      "dádiva épica",
+      "boon of siberys",
+      "eberron",
+      "dracossinal",
+      "siberys"
+    ],
+    "resumo": "Marca de Siberys: uma magia de até 8º círculo sempre preparada, grátis e sem componentes a cada descanso.",
+    "texto": "*Talento de Dádiva Épica · Pré-requisito: Nível 19 ou superior, Campanha de Eberron*\n\n**Aumento no Valor de Atributo.** +1 em um atributo à sua escolha (máximo 30).\n\n**Magia Aberrante.** Escolha uma magia de até 8º círculo da lista de magias de [[feiticeiro|Feiticeiro]] ou uma magia da lista abaixo. Ela fica sempre preparada. Você pode conjurá-la uma vez sem espaço de magia e sem componentes, e recupera esse uso ao terminar um Descanso Curto ou Longo. Também pode conjurá-la com espaços de magia do círculo adequado. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração dela ao pegar o talento.\n\n### Magias de Dracossinal de Siberys\nAo lado, o dracossinal sugerido para associar à magia, se quiser:\n\n- [[formas-animais|Formas Animais]]: Adestramento\n- [[controlar-o-clima|Controlar o Clima]]: Tempestade\n- [[semiplano|Semiplano]]: Criação\n- [[banquete-de-herois|Banquete de Heróis]]: Hospitalidade\n- [[labirinto|Labirinto]]: Proteção\n- [[limpar-a-mente|Limpar a Mente]]: Sentinela\n- [[transicao-planar|Transição Planar]]: Passagem\n- [[projetar-imagem|Projetar Imagem]]: Sombra\n- [[regeneracao|Regeneração]]: Cura\n- [[simbolo|Símbolo]]: Escrita\n- [[teleporte|Teleporte]]: Descoberta\n- [[visao-da-verdade|Visão da Verdade]]: Detecção\n\nEsta dádiva pode representar uma marca de Siberys ou uma marca aberrante poderosa. Veja [[dracossinais|Dracossinais]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  }
+]

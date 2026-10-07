@@ -235,6 +235,7 @@
     if (e.magia) return rotuloNivel(e.magia.nivel);
     if (e.tipo === "subclasse") return "Subclasse";
     if (e.categoria === "talento" && e.sub_curto) return e.sub_curto;
+    if (e.cenario === "eberron" && (e.categoria === "antecedente" || e.categoria === "especie")) return "Eberron";
     if (e.categoria === "equipamento") return e.sub_curto && e.sub_curto !== "Regras" ? e.sub_curto : "Equipamento";
     if (e.de) return (e.sub_curto || e.subclasse || nomeClasse(e)) + " " + (e.nivel || "");
     return (CATEGORIAS[e.categoria] || CATEGORIAS.regra).rotulo;
@@ -306,19 +307,28 @@
         }).join("") + "</ul>";
     } else if (estado.aba === "origens") {
       var org = porCapitulo("origens").sort(ordenarPadrao);
+      var base = org.filter(function (e) { return !e.cenario; }), ebo = org.filter(function (e) { return e.cenario === "eberron"; });
+      var cat = function (l, c) { return l.filter(function (e) { return e.categoria === c; }); };
       html = '<header class="cap-cab"><span class="cap-num">Capítulo 4</span><h2>Origens dos Personagens</h2></header>' +
-        secao("Regras", org.filter(function (e) { return e.categoria === "regra"; })) +
-        secao("Antecedentes", org.filter(function (e) { return e.categoria === "antecedente"; })) +
-        secao("Espécies", org.filter(function (e) { return e.categoria === "especie"; }));
+        secao("Regras", cat(base, "regra")) +
+        secao("Antecedentes", cat(base, "antecedente")) +
+        secao("Espécies", cat(base, "especie")) +
+        secao("Eberron · Dracossinais", cat(ebo, "regra")) +
+        secao("Eberron · Espécies", cat(ebo, "especie")) +
+        secao("Eberron · Antecedentes", cat(ebo, "antecedente"));
     } else if (estado.aba === "talentos") {
       var tal = porCapitulo("talentos").sort(ordenarPadrao);
-      var grupo = function (g) { return tal.filter(function (e) { return e.categoria === "talento" && e.sub_curto === g; }); };
+      var tb = tal.filter(function (e) { return !e.cenario; }), te = tal.filter(function (e) { return e.cenario === "eberron"; });
+      var grupo = function (g) { return tb.filter(function (e) { return e.categoria === "talento" && e.sub_curto === g; }); };
+      var marca = function (e) { return e.tags.indexOf("dracossinal") >= 0; };
       html = '<header class="cap-cab"><span class="cap-num">Capítulo 5</span><h2>Talentos</h2></header>' +
-        secao("Regras", tal.filter(function (e) { return e.categoria !== "talento"; })) +
+        secao("Regras", tb.filter(function (e) { return e.categoria !== "talento"; })) +
         secao("Talentos de Origem", grupo("Origem")) +
         secao("Talentos Gerais", grupo("Geral")) +
         secao("Estilos de Luta", grupo("Estilo de Luta")) +
-        secao("Dádivas Épicas", grupo("Dádiva Épica"));
+        secao("Dádivas Épicas", grupo("Dádiva Épica")) +
+        secao("Eberron · Dracossinais", te.filter(marca)) +
+        secao("Eberron · Outros talentos", te.filter(function (e) { return !marca(e); }));
     } else if (estado.aba === "equipamento") {
       var eqs = porCapitulo("equipamento").sort(ordenarPadrao);
       var g = function (x) { return eqs.filter(function (e) { return (e.sub_curto || "") === x; }); };
@@ -328,7 +338,8 @@
         secao("Propriedades de maestria", g("Maestria")) +
         secao("Ferramentas", g("Ferramentas")) +
         secao("Itens com regras", g("Item")) +
-        secao("Montarias, serviços e itens mágicos", g(""));
+        secao("Montarias, serviços e itens mágicos", g("")) +
+        secao("Eberron · Itens mágicos", g("Item mágico"));
     } else if (estado.aba === "criacao") {
       html = '<header class="cap-cab"><span class="cap-num">Capítulo 2</span><h2>Criação de Personagens</h2></header>' +
         secao("Criação e avanço", porCapitulo("criacao").sort(ordenarPadrao));
@@ -348,7 +359,7 @@
       var regrasM = todasM.filter(function (e) { return e.categoria !== "magia"; });
       var fc = estado.filtroClasse || "";
       var magias = todasM.filter(function (e) { return e.categoria === "magia" && (!fc || e.magia.classes.indexOf(fc) >= 0); });
-      var CLS = ["Bardo", "Bruxo", "Clérigo", "Druida", "Feiticeiro", "Guardião", "Mago", "Paladino"];
+      var CLS = ["Artífice", "Bardo", "Bruxo", "Clérigo", "Druida", "Feiticeiro", "Guardião", "Mago", "Paladino"];
       var niveis = [];
       magias.forEach(function (m) { if (niveis.indexOf(m.magia.nivel) < 0) niveis.push(m.magia.nivel); });
       html = '<header class="cap-cab"><span class="cap-num">Capítulo 7</span><h2>Magias</h2></header>' +

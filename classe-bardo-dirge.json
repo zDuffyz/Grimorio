@@ -1,0 +1,112 @@
+[
+  {
+    "id": "colegio-do-cantor-funebre",
+    "nome": "Colégio do Cantor Fúnebre",
+    "nome_en": "College of the Dirge Singer",
+    "categoria": "classe",
+    "de": "bardo",
+    "subclasse": "Colégio do Cantor Fúnebre",
+    "sub_curto": "Cantor Fúnebre",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bardo",
+      "dirge singer",
+      "eberron",
+      "dhakaan",
+      "cyre"
+    ],
+    "resumo": "Bardo historiador e estrategista: inspira dois aliados de uma vez e comanda ataques em batalha.",
+    "texto": "Estudiosos da história e da guerra, os Cantores Fúnebres usam as glórias do passado para animar os aliados e enxergar a hora certa de golpear o inimigo. A tradição nasceu no Império de Dhakaan, entre os duur'kala; durante a Última Guerra, Cyre criou sua própria versão, e hoje os bardos cyranos desse colégio mantêm viva em canções a memória da nação perdida.\n\n- **Nível 3:** [[inspiracao-ampla]], [[guardiao-da-historia]]\n- **Nível 6:** [[voz-de-comando]]\n- **Nível 14:** [[hino-de-batalha]]",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "inspiracao-ampla",
+    "nome": "Inspiração Ampla",
+    "nome_en": "Broad Inspiration",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "dirge singer",
+      "eberron",
+      "inspiração",
+      "orientação"
+    ],
+    "resumo": "Ganha o truque Orientação; cada Inspiração de Bardo pode ir para duas criaturas.",
+    "texto": "- **Truque.** Você aprende o truque [[orientacao|Orientação]]. Ele conta como magia de Bardo para você e não entra na sua contagem de truques conhecidos.\n- **Duas de uma vez.** Quando você dá um dado de [[inspiracao-de-bardo|Inspiração de Bardo]] a uma criatura, pode dar o mesmo dado também a uma **segunda criatura** dentro do alcance.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Cantor Fúnebre",
+    "sub_curto": "Cantor Fúnebre",
+    "cenario": "eberron"
+  },
+  {
+    "id": "guardiao-da-historia",
+    "nome": "Guardião da História",
+    "nome_en": "Keeper of History",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "dirge singer",
+      "eberron",
+      "perícias",
+      "história",
+      "atuação"
+    ],
+    "resumo": "Proficiência em História e Atuação; Especialização se já for proficiente.",
+    "texto": "Você ganha proficiência nas perícias **História** e **Atuação**. Se já tiver alguma delas, ganha [[especializacao|Especialização]] nela em vez da proficiência.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Cantor Fúnebre",
+    "sub_curto": "Cantor Fúnebre",
+    "cenario": "eberron"
+  },
+  {
+    "id": "voz-de-comando",
+    "nome": "Voz de Comando",
+    "nome_en": "Commanding Voice",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 6,
+    "tags": [
+      "bardo",
+      "dirge singer",
+      "eberron",
+      "inspiração",
+      "reação",
+      "ataque extra"
+    ],
+    "resumo": "Ao usar Atacar ou Usar Magia, dois aliados com sua Inspiração podem atacar com a Reação.",
+    "texto": "Quando você usa a ação **Atacar** ou **Usar Magia** no seu turno, até **duas criaturas** à sua escolha que tenham um dado de [[inspiracao-de-bardo|Inspiração de Bardo]] seu podem gastá-lo para usar a própria **Reação** e fazer na hora **um ataque** com arma ou [[ataque-desarmado|Ataque Desarmado]].\n\nSe o ataque acertar, a criatura soma o resultado do dado de Inspiração à jogada de dano.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Cantor Fúnebre",
+    "sub_curto": "Cantor Fúnebre",
+    "cenario": "eberron"
+  },
+  {
+    "id": "hino-de-batalha",
+    "nome": "Hino de Batalha",
+    "nome_en": "Battle Hymn",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 14,
+    "tags": [
+      "bardo",
+      "dirge singer",
+      "eberron",
+      "ação bônus",
+      "salvaguardas",
+      "apoio"
+    ],
+    "resumo": "Ação Bônus: até seu próximo turno, aliados a 9 m somam 1d4 a testes de atributo e salvaguardas.",
+    "texto": "Com uma **Ação Bônus**, você começa um Hino de Batalha, audível por todas as criaturas a até **18 metros (60 pés)**. Ele dura até o **início do seu próximo turno**.\n\nEnquanto o hino durar, sempre que um aliado a até **9 metros (30 pés)** que consiga ouvir você fizer um **teste de atributo** ou uma **salvaguarda**, ele pode somar **1d4** ao resultado.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Cantor Fúnebre",
+    "sub_curto": "Cantor Fúnebre",
+    "cenario": "eberron"
+  }
+]

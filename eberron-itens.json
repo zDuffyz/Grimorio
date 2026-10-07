@@ -1,0 +1,177 @@
+[
+  {
+    "id": "afiador-mental",
+    "nome": "Afiador Mental",
+    "nome_en": "Mind Sharpener",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "mind sharpener",
+      "eberron",
+      "item mágico",
+      "concentração",
+      "artífice"
+    ],
+    "resumo": "4 cargas: com Reação, transforma em sucesso uma salvaguarda de Concentração que falhou.",
+    "texto": "*Anel, incomum (exige Sintonização)*\n\nO item tem **4 cargas**. Quando você falha numa salvaguarda de Constituição para manter a [[concentracao|Concentração]], pode usar sua **Reação** e gastar 1 carga para passar nela.\n\nO item recupera **1d4** cargas gastas todo dia ao amanhecer.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "anel-de-reabastecimento-de-magia",
+    "nome": "Anel de Reabastecimento de Magia",
+    "nome_en": "Spell-Refueling Ring",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "spell-refueling ring",
+      "eberron",
+      "item mágico",
+      "espaço de magia",
+      "anel"
+    ],
+    "resumo": "Ação Bônus: recupera um espaço de magia de até 3º círculo; uma vez por dia.",
+    "texto": "*Anel, incomum (exige Sintonização por um conjurador)*\n\nUsando este anel, você pode recuperar **um espaço de magia gasto** com uma **Ação Bônus**. O espaço recuperado pode ser de **3º círculo ou menor**.\n\nDepois de usado, o anel só funciona de novo no próximo amanhecer.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "arma-deslumbrante",
+    "nome": "Arma Deslumbrante",
+    "nome_en": "Dazzling Weapon",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "dazzling weapon",
+      "eberron",
+      "item mágico",
+      "arma",
+      "cego",
+      "luz"
+    ],
+    "resumo": "Arma +1 que brilha; com Reação após ser atingido, pode Cegar o atacante (CD 15 Con).",
+    "texto": "*Arma (qualquer Simples ou Marcial), rara (exige Sintonização)*\n\nVocê ganha **+1** nas jogadas de ataque e de dano feitas com esta arma mágica.\n\n- **Luz.** Enquanto a segura, você pode usar uma **Ação Bônus** para fazê-la emitir [[luz-plena|Luz Plena]] num raio de 9 metros e [[meia-luz|Meia-luz]] por mais 9 metros. Outra Ação Bônus apaga a luz.\n- **Clarão.** A arma tem **4 cargas**. Logo depois de ser atingido por uma jogada de ataque, você pode usar sua **Reação** e gastar 1 carga para obrigar o atacante a fazer uma **salvaguarda de Constituição CD 15**. Se falhar, ele fica [[cego|Cego]] até o fim do próximo turno dele.\n\nA arma recupera **1d4** cargas gastas todo dia ao amanhecer.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "arma-retornante",
+    "nome": "Arma Retornante",
+    "nome_en": "Returning Weapon",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "returning weapon",
+      "eberron",
+      "item mágico",
+      "arma",
+      "arremesso"
+    ],
+    "resumo": "Arma de arremesso +1 que volta à sua mão logo após o ataque à distância.",
+    "texto": "*Arma (qualquer Simples ou Marcial com a propriedade Arremesso), incomum*\n\nVocê ganha **+1** nas jogadas de ataque e de dano feitas com esta arma mágica. Ela tem a propriedade [[arremesso|Arremesso]] e **volta para a sua mão** logo depois que você a usa para fazer uma jogada de ataque à distância.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "botas-do-caminho-sinuoso",
+    "nome": "Botas do Caminho Sinuoso",
+    "nome_en": "Boots of the Winding Path",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "boots of the winding path",
+      "eberron",
+      "item mágico",
+      "teleporte",
+      "botas"
+    ],
+    "resumo": "Ação Bônus: teleporta até 4,5 m para um espaço onde você já esteve neste turno.",
+    "texto": "*Item Maravilhoso, incomum (exige Sintonização)*\n\nEnquanto calça estas botas, você pode usar uma **Ação Bônus** para se [[teleporte-regra|teleportar]] até **4,5 metros** para um espaço desocupado que você veja. Você precisa ter ocupado esse espaço em algum momento **durante o turno atual**.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "disparo-repetidor",
+    "nome": "Disparo Repetidor",
+    "nome_en": "Repeating Shot",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "repeating shot",
+      "eberron",
+      "item mágico",
+      "arma",
+      "munição",
+      "distância"
+    ],
+    "resumo": "Arma de disparo +1 que ignora Recarga e cria a própria munição mágica.",
+    "texto": "*Arma (qualquer Simples ou Marcial com a propriedade Munição), incomum (exige Sintonização)*\n\nVocê ganha **+1** nas jogadas de ataque e de dano feitas com esta arma mágica quando a usa para um ataque à distância, e ela ignora a propriedade [[recarga|Recarga]], se a tiver.\n\nSe você não tiver munição para ela, a arma cria **uma peça de munição mágica** sempre que você faz uma jogada de ataque à distância com ela. Essa munição some logo depois de acertar ou errar o alvo.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "elmo-da-consciencia",
+    "nome": "Elmo da Consciência",
+    "nome_en": "Helm of Awareness",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "helm of awareness",
+      "eberron",
+      "item mágico",
+      "iniciativa",
+      "elmo"
+    ],
+    "resumo": "Vantagem nas jogadas de Iniciativa enquanto usa o elmo.",
+    "texto": "*Item Maravilhoso, incomum*\n\nEnquanto usa este elmo, você tem **Vantagem** nas jogadas de [[iniciativa|Iniciativa]].",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "escudo-de-repulsao",
+    "nome": "Escudo de Repulsão",
+    "nome_en": "Repulsion Shield",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "repulsion shield",
+      "eberron",
+      "item mágico",
+      "escudo",
+      "empurrar",
+      "ca"
+    ],
+    "resumo": "+1 na CA; 4 cargas: com Reação, empurra 4,5 m quem acertar você corpo a corpo.",
+    "texto": "*Armadura (Escudo), incomum*\n\nVocê ganha **+1 na CA** enquanto empunha este escudo, além do bônus normal dele.\n\nO escudo tem **4 cargas**. Enquanto o empunha, quando uma criatura **Grande ou menor** a até 1,5 metro acerta você com uma jogada de ataque corpo a corpo, você pode usar sua **Reação** e gastar 1 carga para empurrá-la até **4,5 metros** em linha reta para longe de você.\n\nO escudo recupera **1d4** cargas gastas todo dia ao amanhecer.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "ferramenta-multifuncional",
+    "nome": "Ferramenta Multifuncional",
+    "nome_en": "Manifold Tool",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "sub_curto": "Item mágico",
+    "tags": [
+      "manifold tool",
+      "eberron",
+      "item mágico",
+      "ferramentas",
+      "proficiência",
+      "artífice"
+    ],
+    "resumo": "Vira qualquer Ferramenta de Artesão, e você é proficiente com ela.",
+    "texto": "*Item Maravilhoso, comum (exige Sintonização)*\n\nA ferramenta tem a forma de uma chave inglesa, uma chave de fenda ou outra ferramenta simples. Com a ação [[acao-magia|Usar Magia]], você pode tocá-la e transformá-la num tipo de [[ferramentas-de-artesao|Ferramentas de Artesão]] à sua escolha.\n\nSeja qual for a forma, você tem **proficiência** com ela enquanto a usa.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  }
+]

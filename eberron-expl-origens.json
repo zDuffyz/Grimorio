@@ -1,0 +1,483 @@
+[
+  {
+    "id": "viajante-changeling",
+    "nome": "Viajante Changeling",
+    "nome_en": "Changeling Traveler",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "changeling traveler",
+      "changeling",
+      "eberron"
+    ],
+    "resumo": "Destreza, Sabedoria, Carisma · Personas Focadas · Enganação, Prestidigitação",
+    "texto": "*Você é um nômade urbano que vai de cidade em cidade. Cresceu viajando com a família e usando seus dons para escapar de inimigos. Quer mudar o mundo para melhor ou só cuida de si? Quase todo Viajante é Changeling; se você não for, nasceu de um pai ou mãe changeling, viajou com essa família e imita os dons dela com Kit de Disfarce ou magia de ilusão.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Sabedoria, Carisma |\n| Talento de Origem | [[personas-focadas|Personas Focadas]] |\n| Perícias | Enganação, Prestidigitação |\n| Ferramenta | Ferramentas de Ladrão |\n| Equipamento | Escolha (A) 2 Adagas, Ferramentas de Ladrão, Saco de Dormir, 2 Algibeiras, roupas de tecido mutável (shiftweave), 10 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "goblinoides-dhakaani",
+    "nome": "Goblinoides Dhakaani",
+    "nome_en": "Dhakaani Goblinoids",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "dhakaani goblinoids",
+      "dhakaan",
+      "dar",
+      "eberron"
+    ],
+    "resumo": "Sem antecedente próprio: quais antecedentes usar para dar criados nos Kech e talentos alternativos.",
+    "texto": "*Os goblinoides dhakaani (dar) costumam ser criados nos abrigos dos Kech, e o antecedente mostra o papel que tiveram ali.* Não há um antecedente exclusivo; use um destes:\n\n- **Espiões ou Khesh'dar (o Povo Silencioso):** [[criminoso|Criminoso]], [[charlatao|Charlatão]] ou [[andarilho|Andarilho]]. Criminosos de verdade são raros no sistema rígido dos abrigos; aqui eles representam o treinamento de espiões.\n- **Duur'kala (bardos dhakaani):** [[sabio|Sábio]] ou [[artista|Artista]] — mesmo sendo muito mais que artistas.\n\n**Talentos alternativos.** Com a permissão do Mestre, você pode trocar o talento do antecedente por um destes talentos de Origem:\n\n- [[uul-dhakaan|Uul Dhakaan]] — para qualquer personagem dhakaani.\n- [[treinamento-khesh-dar|Treinamento Khesh'dar]] — pensado para membros do Povo Silencioso.\n\nEspécies dhakaani: [[ghaal-dar-dhakaani|Ghaal'dar]], [[golin-dar-dhakaani|Golin'dar]] e [[guul-dar-dhakaani|Guul'dar]].",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "malenti",
+    "nome": "Malenti",
+    "nome_en": "Malenti",
+    "categoria": "antecedente",
+    "capitulo": "origens",
+    "tags": [
+      "antecedente",
+      "sahuagin",
+      "espião",
+      "eberron"
+    ],
+    "resumo": "Destreza, Inteligência, Carisma · Adaptação Aquática · Enganação, Intuição",
+    "texto": "*Você nasceu sahuagin no Domínio Eterno do Mar do Trovão. Um ritual com o sangue dos kar'lassa deixou você devorar e tomar o lugar de alguém da superfície. Nunca voltará à forma original: é idêntico a essa pessoa e tem memórias dela suficientes para enganar até a família — mas pensa como sahuagin e é leal ao Domínio. Por que o Domínio escolheu essa pessoa? Sua missão pode ser só observar os “pele-seca” e passar informações a um mestre-espião, ou ter um objetivo concreto que guia suas aventuras.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Inteligência, Carisma |\n| Talento de Origem | [[adaptacao-aquatica|Adaptação Aquática]] |\n| Perícias | Enganação, Intuição |\n| Ferramenta | Escolha uma: Ferramentas de Ladrão, Kit de Envenenador ou Kit de Falsificação |\n| Equipamento | Escolha (A) o equipamento de um antecedente ligado à pessoa que você substituiu; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "aasimar-ferniano",
+    "nome": "Aasimar Ferniano",
+    "nome_en": "Fernian Aasimar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "aasimar",
+      "fernian",
+      "fogo",
+      "eberron"
+    ],
+    "resumo": "Variante do Aasimar ligada a Fernia: resistência a Ígneo e Necrótico, Criar Chamas e revelação de fogo.",
+    "texto": "*Variante de Eberron do [[aasimar|Aasimar]]: seus poderes vêm de Fernia, o Mar de Fogo, e não de um plano celestial. Você tem os traços do Aasimar comum, com as trocas abaixo.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–2,10 m) ou Pequeno (0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Resistência Ferniana.** Resistência a dano Ígneo e Necrótico. *(Substitui a Resistência Celestial.)*\n\n**Visão no Escuro.** 18 metros.\n\n**Mãos Curativas.** Igual ao Aasimar comum: ação Usar Magia, toque uma criatura e role d4 em quantidade igual ao seu Bônus de Proficiência; ela recupera esse total em PV. Uma vez por Descanso Longo.\n\n**Portador da Chama.** Você conhece o truque [[criar-chamas|Criar Chamas]]. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração ao escolher a espécie. *(Substitui o Portador da Luz.)*\n\n**Revelação Celestial.** Funciona como no Aasimar comum (nível 3, Ação Bônus, 1 minuto, uma vez por Descanso Longo), mas com aparência de fogo:\n\n- **Asas Celestiais:** as asas são feitas de chamas.\n- **Manto Necrótico:** vira uma aura aterrorizante de fogo fantasmagórico.\n- **Transfiguração Radiante:** os inimigos sofrem dano **Ígneo** em vez de Radiante.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "aasimar-mabarano",
+    "nome": "Aasimar Mabarano",
+    "nome_en": "Mabaran Aasimar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "aasimar",
+      "mabaran",
+      "sombras",
+      "eberron"
+    ],
+    "resumo": "Variante do Aasimar ligada a Mabar: Badalar Fúnebre e Escuridão Interior no lugar da luz.",
+    "texto": "*Variante de Eberron do [[aasimar|Aasimar]]: seus poderes vêm de Mabar, a Noite Eterna, e você é ligado às sombras e ao desespero. Você tem os traços do Aasimar comum, com as trocas abaixo.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (1,20–2,10 m) ou Pequeno (0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Resistência Celestial.** Resistência a dano Necrótico e Radiante (como no Aasimar comum).\n\n**Visão no Escuro.** 18 metros.\n\n**Mãos Curativas.** Igual ao Aasimar comum: ação Usar Magia, toque uma criatura e role d4 em quantidade igual ao seu Bônus de Proficiência; ela recupera esse total em PV. Uma vez por Descanso Longo.\n\n**Arauto da Morte.** Você conhece o truque [[badalar-funebre|Badalar Fúnebre]]. Escolha Inteligência, Sabedoria ou Carisma como atributo de conjuração ao escolher a espécie. *(Substitui o Portador da Luz.)*\n\n**Revelação Celestial.** Funciona como no Aasimar comum (nível 3, Ação Bônus, 1 minuto, uma vez por Descanso Longo), com as opções Asas Celestiais e Manto Necrótico normais. A Transfiguração Radiante é trocada por:\n\n- **Escuridão Interior.** Você devora luz e vida e se envolve num manto de sombras. Enquanto durar, a Luz Plena num raio de **6 metros** ao seu redor vira Meia-luz, e no fim de cada um dos seus turnos **cada criatura a até 3 metros** de você sofre dano **Necrótico** igual ao seu Bônus de Proficiência.\n\n*O texto só troca a opção; o tipo do dano extra da Revelação nessa forma não é mencionado — combine com o Mestre.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "ghaal-dar-dhakaani",
+    "nome": "Ghaal'dar Dhakaani (Hobgoblin)",
+    "nome_en": "Dhakaani Ghaal'dar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "hobgoblin",
+      "dhakaani ghaal'dar",
+      "dar",
+      "eberron"
+    ],
+    "resumo": "Hobgoblin dhakaani: Visão no Escuro, Vantagem contra Enfeitiçado e bônus por aliados ao falhar.",
+    "texto": "*Os hobgoblins dhakaani se chamam ghaal'dar, “povo poderoso” (não confundir com as tribos Ghaal'dar de Darguun). São soldados, estudiosos e líderes, valorizados pela versatilidade e pela visão.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (cerca de 1,50–1,80 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Disciplina.** Vantagem nas salvaguardas para evitar ou encerrar a condição [[enfeiticado|Enfeitiçado]].\n\n**Força na União.** Quando você falha num [[testes-de-d20|Teste de D20]], pode somar ao resultado um bônus igual ao número de aliados que você vê a até 9 metros (máximo +5). Uma vez por Descanso Curto ou Longo.\n\n**Guerra e Paz.** Proficiência em duas destas perícias: Atletismo, História, Intimidação, Atuação.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "golin-dar-dhakaani",
+    "nome": "Golin'dar Dhakaani (Goblin)",
+    "nome_en": "Dhakaani Golin'dar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "goblin",
+      "dhakaani golin'dar",
+      "dar",
+      "eberron"
+    ],
+    "resumo": "Goblin dhakaani: Pequeno e rápido (10,5 m), esconde-se atrás de criaturas maiores.",
+    "texto": "*Os goblins dhakaani se chamam golin'dar, “povo ligeiro”. Amadurecem e se reproduzem mais rápido que os outros dar e formam a maior parte da força de trabalho: lavoura, cozinha, trabalho braçal e artesanato. São respeitados pelo que fazem; alguns seguem o caminho dos Khesh'dar, o Povo Silencioso que vive nas sombras do império.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Pequeno (cerca de 0,90–1,20 m) |\n| Deslocamento | 10,5 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Disciplina.** Vantagem nas salvaguardas para evitar ou encerrar a condição [[enfeiticado|Enfeitiçado]].\n\n**Furtividade Natural.** Você pode usar a ação [[esconder|Esconder]] mesmo quando só está encoberto por uma criatura pelo menos um tamanho maior que você.\n\n**Agilidade.** Você pode atravessar o espaço de qualquer criatura um tamanho maior que você, mas não pode parar nele.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "guul-dar-dhakaani",
+    "nome": "Guul'dar Dhakaani (Bugbear)",
+    "nome_en": "Dhakaani Guul'dar",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "bugbear",
+      "dhakaani guul'dar",
+      "dar",
+      "eberron"
+    ],
+    "resumo": "Bugbear dhakaani: corajoso, alcance maior no seu turno e Reação para aliados repetirem salvaguarda de medo.",
+    "texto": "*Os bugbears dhakaani se chamam guul'dar, “povo forte”, celebrados pela força e coragem. Fazem o trabalho pesado, mas a maioria quer provar o valor no campo de batalha e arrisca a vida pela glória chamada atcha.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (cerca de 1,80–2,40 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Corajoso.** Vantagem nas salvaguardas para evitar ou encerrar a condição [[amedrontado|Amedrontado]].\n\n**Membros Longos.** Quando você faz um ataque corpo a corpo no seu turno, o alcance dele é 1,5 metro maior que o normal.\n\n**Constituição Poderosa.** Vantagem em testes de atributo para encerrar a condição [[agarrado|Imobilizado]]. Para a [[capacidade-de-carga|Capacidade de Carga]], você conta como um tamanho maior.\n\n**Firme ao Lado dos Fortes.** Quando um aliado a até 9 metros que consiga ver você falha numa salvaguarda para evitar ou encerrar a condição Amedrontado, você pode usar sua **Reação** para deixá-lo rolar a salvaguarda de novo.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "gnoll",
+    "nome": "Gnoll",
+    "nome_en": "Gnoll",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "gnoll",
+      "droaam",
+      "mordida",
+      "eberron"
+    ],
+    "resumo": "Caçador feroz: Mordida 1d6, perícia de caça e Ação Bônus para avançar e morder.",
+    "texto": "*Os primeiros gnolls eram hienas infundidas de poder maligno por grandes ínferos da guerra e da selva, criadas como soldados cruéis. Com as gerações, alguns clãs romperam com os senhores ínferos; esses gnolls livres são leais ao bando e ao clã e ajudam a manter Droaam estável. Ainda guardam uma centelha ínfera que controlam — alguns viram Bruxos, outros (os hwyri) caçam demônios. Podem ser agressivos, mas são caçadores natos e fiéis a quem escolhem como família.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (cerca de 2,10–2,40 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Mordida.** Seus dentes são armas naturais para [[ataque-desarmado|Ataques Desarmados]]. Ao acertar com eles, você causa dano Perfurante igual a 1d6 + modificador de Força, em vez do dano Contundente normal.\n\n**Sentidos de Caçador.** Proficiência em uma destas perícias: Percepção, Furtividade ou Sobrevivência.\n\n**Carnificina.** Quando você usa a Mordida ou reduz uma criatura a 0 PV com um ataque, pode usar uma **Ação Bônus** para se mover até metade do seu Deslocamento e fazer um ataque com arma ou um Ataque Desarmado com a Mordida.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "jhorgun-taal",
+    "nome": "Jhorgun'taal (Meio-orc)",
+    "nome_en": "Jhorgun'taal",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "meio-orc",
+      "half-orc",
+      "marcas sombrias",
+      "eberron"
+    ],
+    "resumo": "Meio-orc das Marcas Sombrias: Visão no Escuro, Vigor Implacável e um talento de Origem extra.",
+    "texto": "*Há muito tempo, os orcs das Marcas Sombrias acolheram refugiados humanos de Sarlona, e os dois povos vivem juntos há séculos. Quem tem traços físicos dos dois é chamado Jhorgun'taal, “filhos de dois sangues”, símbolo dessa união: a resistência orc com a flexibilidade humana. Com a expansão da Casa Tharashk, são comuns como investigadores, caçadores de recompensas e garimpeiros. O Dracossinal da Descoberta pode surgir em humanos, orcs ou Jhorgun'taal com ancestralidade das Marcas Sombrias.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (cerca de 1,50–2,10 m) |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Vigor Implacável.** Quando você cai a 0 PV mas não morre na hora, pode ficar com 1 PV. Uma vez por Descanso Longo.\n\n**Versátil.** Você ganha um talento de Origem à sua escolha.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "kalamer-andarilho-da-terra",
+    "nome": "Kalamer Andarilho da Terra (Sereiano)",
+    "nome_en": "Kalamer Landwalker",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "kalamer landwalker",
+      "sereiano",
+      "merfolk",
+      "eberron"
+    ],
+    "resumo": "Sereiano Elemental do Mar do Trovão: anfíbio, nada 12 m e troca a cauda por pernas.",
+    "texto": "*Os sereianos kalamer vivem no Mar do Trovão, e quase todos passam a vida inteira sob as ondas. Alguns, porém, sentem o chamado de andar acima d'água e ganham o poder mágico de transformar a cauda em pernas. São raríssimos: uns buscam cumprir uma missão pelo bem do mundo, outros só querem conhecer lugares novos e coisas maravilhosas.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Elemental |\n| Tamanho | Médio (cerca de 1,50–2,10 m) |\n| Deslocamento | 3 metros; Natação 12 metros |\n\n### Traços\n\n**Visão no Escuro.** 18 metros.\n\n**Anfíbio.** Você respira ar e água.\n\n**Bênção do Mar.** Você tem duas formas: a natural, de sereiano, e a de andarilho da terra. Com uma ação **Usar Magia**, você muda da forma de sereiano para a de andarilho: a cauda se divide em duas pernas, seu Deslocamento aumenta em **6 metros** (fica 9 m) e seu [[deslocamento-de-natacao|Deslocamento de Natação]] cai para **0**. Você fica nessa forma até usar outra ação Usar Magia para voltar à de sereiano.\n\n**Saber de Karakala.** Proficiência em uma destas perícias: Natureza, Atuação ou Sobrevivência.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "vinculado-a-ruina",
+    "nome": "Vinculado à Ruína",
+    "nome_en": "Ruinbound",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "ruinbound",
+      "simbionte",
+      "daelkyr",
+      "eberron"
+    ],
+    "resumo": "Mutante com simbionte daelkyr: Visão no Escuro 36 m, truque do simbionte e resistência a Venenoso.",
+    "texto": "*Mutantes que podem nascer de qualquer povo humanoide exposto aos daelkyr ou seus servos. Cada um nasce fundido a um simbionte pessoal, que nunca pode ser separado. Fora as mutações, têm a aparência da espécie dos pais. Os nascimentos cresceram nos Domínios Mror desde o início da Guerra Abaixo, e sempre houve orcs e humanos assim nas Marcas Sombrias; mesmo lá são raros e quase nunca passam os traços aos filhos.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (cerca de 1,20–2,10 m) ou Pequeno (cerca de 0,60–1,20 m), escolhido ao criar |\n| Deslocamento | 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 36 metros.\n\n**Simbionte Pessoal.** Uma entidade alienígena faz parte do seu corpo e não pode ser removida. Ela tem um pequeno poder sobrenatural que usa por você. Escolha um truque desta lista; você pode trocá-lo por outro da lista ao terminar um [[descanso-longo|Descanso Longo]]:\n\n- [[bolha-acida|Bolha Ácida]], [[orientacao|Orientação]] (só em você), [[luz|Luz]], [[maos-magicas|Mãos Mágicas]], [[talho-mental|Talho Mental]], [[rajada-de-veneno|Rajada de Veneno]], [[resistencia|Resistência]] (só em você), [[toque-chocante|Toque Chocante]], [[chicote-de-espinhos|Chicote de Espinhos]].\n\nEscolha Inteligência, Sabedoria ou Carisma como atributo de conjuração desses truques ao escolher a espécie. Combine com o Mestre a aparência do simbionte: ele é orgânico, claramente alienígena, e fica evidente que é dele que vem o truque (um tentáculo fino que faz as Mãos Mágicas, um olho num pedúnculo que dá Orientação ou dispara Talho Mental…).\n\n**Domínio de Simbiontes.** Você pode se sintonizar com um item mágico que tenha a propriedade *Natureza Simbiótica* sem que ele conte no seu limite de itens sintonizados. Além disso, ao terminar um Descanso Longo, pode encerrar a sintonia com um item de Natureza Simbiótica, ignorando qualquer exigência de [[remover-maldicao|Remover Maldição]] ou magia parecida para tirar o simbionte.\n\n**Resiliência Antinatural.** Resistência a dano Venenoso e Vantagem nas salvaguardas para evitar ou encerrar a condição [[envenenado|Envenenado]].\n\n### Mutações (opcional)\nMutações extras são só aparência: não mudam regras nem dão benefícios (se você parece não ter olhos, ainda enxerga normalmente). Role ou escolha:\n\n| d8 | Mutação |\n|---|---|\n| 1 | Cabelo antinatural (cor, ectoplasma, mexe sozinho) |\n| 2 | Pele incomum (transparente, viscosa, cor estranha) |\n| 3 | Olhos aberrantes (luminosos, invisíveis, animais, ausentes) |\n| 4 | Apetites estranhos (comida carbonizada, flores, só coisas vivas) |\n| 5 | Tatuagens vivas que mudam sozinhas |\n| 6 | Sem idade aparente (velho demais ou jovem demais) |\n| 7 | Audição sem orelhas visíveis |\n| 8 | Articulações extras |",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "sahuagin",
+    "nome": "Sahuagin",
+    "nome_en": "Sahuagin",
+    "categoria": "especie",
+    "capitulo": "origens",
+    "tags": [
+      "espécie",
+      "sahuagin",
+      "mar do trovão",
+      "aquático",
+      "eberron"
+    ],
+    "resumo": "Predador do fundo do mar: Visão no Escuro 36 m, Frenesi de Sangue e armadura natural 12 + Des.",
+    "texto": "*Uma espécie antiga nascida nas profundezas do oceano, parente do tubarão e muitas vezes devota do Devorador. Têm pele coriácea, dentes afiados, mãos e pés palmados e cristas como barbatanas que se abrem conforme o humor; a maioria tem escamas cinza-esverdeadas, outros têm padrões coloridos. Não são maus por natureza: no fundo do Mar do Trovão, campeões sahuagin combatem ínferos e aberrações.*\n\n| | |\n|---|---|\n| Tipo de Criatura | Humanoide |\n| Tamanho | Médio (cerca de 1,50–2,10 m) |\n| Deslocamento | 9 metros; Natação 9 metros |\n\n### Traços\n\n**Visão no Escuro.** 36 metros.\n\n**Frenesi de Sangue.** Com uma **Ação Bônus**, você entra em frenesi até o início do seu próximo turno. Durante esse tempo, tem Vantagem nas jogadas de ataque contra qualquer criatura que não esteja com todos os PV. Usos iguais ao seu Bônus de Proficiência por Descanso Longo.\n\n**Armadura Natural.** Sem armadura, sua CA base é **12 + modificador de Destreza**. Você pode usar Escudo e manter esse benefício.\n\n**Anfíbio Limitado.** Você respira ar e água, mas precisa ficar submerso pelo menos uma vez a cada **4 horas** para não sufocar.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  },
+  {
+    "id": "adaptacao-aquatica",
+    "nome": "Adaptação Aquática",
+    "nome_en": "Aquatic Adaptation",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "aquatic adaptation",
+      "natação",
+      "eberron"
+    ],
+    "resumo": "Respira debaixo d'água, proficiência em Atletismo e Deslocamento de Natação igual ao Deslocamento.",
+    "texto": "*Talento de Origem*\n\nVocê consegue viver debaixo d'água — algo natural num Malenti ou num elfo de Valraea, ou fruto de transmutação arcana ou bênção divina.\n\n**Anfíbio.** Você respira debaixo d'água. Se também tiver o traço Anfíbio Limitado (como o [[sahuagin|Sahuagin]]), deixa de depender da água.\n\n**Corpo Atlético.** Proficiência na perícia Atletismo.\n\n**Nadador Nato.** [[deslocamento-de-natacao|Deslocamento de Natação]] igual ao seu Deslocamento.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Qualquer"
+  },
+  {
+    "id": "especializacao-aereni",
+    "nome": "Especialização Aereni",
+    "nome_en": "Aereni Expertise",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "aereni expertise",
+      "elfo",
+      "aerenal",
+      "eberron"
+    ],
+    "resumo": "Proficiência e Especialização numa perícia à sua escolha.",
+    "texto": "*Talento de Origem · Pré-requisito: Elfo*\n\nCrescendo em Aerenal, você passou décadas aperfeiçoando um único talento.\n\n**Proficiência.** Você ganha proficiência em uma perícia à sua escolha.\n\n**Especialização.** Você ganha [[especializacao|Especialização]] nessa perícia.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Elfo"
+  },
+  {
+    "id": "especialista-emissario",
+    "nome": "Especialista Emissário",
+    "nome_en": "Envoy Specialist",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "envoy specialist",
+      "forjado bélico",
+      "ferramentas",
+      "eberron"
+    ],
+    "resumo": "Proficiência numa ferramenta e uma ferramenta embutida no corpo que soma 1d4 aos testes.",
+    "texto": "*Talento de Origem · Pré-requisito: Forjado Bélico*\n\n**Competência de Emissário.** Proficiência com uma ferramenta à sua escolha.\n\n**Ferramenta Embutida.** Escolha uma ferramenta em que você é proficiente. Um modelo funcional dela fica embutido no seu corpo e não pode ser removido. Basta ter uma mão livre para usá-la.\n\n**Talento Inato.** Quando faz um teste de atributo com a ferramenta embutida, você pode rolar **1d4** e somar ao resultado.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Forjado Bélico"
+  },
+  {
+    "id": "treinamento-khesh-dar",
+    "nome": "Treinamento Khesh'dar",
+    "nome_en": "Khesh'dar Training",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "khesh'dar training",
+      "furtividade",
+      "dhakaan",
+      "eberron"
+    ],
+    "resumo": "Proficiência e Especialização em Furtividade; a CD para se Esconder cai para 10.",
+    "texto": "*Talento de Origem*\n\nTreinamento do Povo Silencioso dos dhakaani (mas aberto a qualquer espécie).\n\n**Rápido e Silencioso.** Proficiência na perícia Furtividade.\n\n**Mestre das Sombras.** [[especializacao|Especialização]] em Furtividade.\n\n**Sumir.** Quando você usa a ação [[esconder|Esconder]], a CD do teste cai para **10**. As outras exigências continuam valendo.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Qualquer"
+  },
+  {
+    "id": "personas-focadas",
+    "nome": "Personas Focadas",
+    "nome_en": "Focused Personas",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "focused personas",
+      "changeling",
+      "eberron"
+    ],
+    "resumo": "Duas personas: uma dá ferramenta com +1d4, outra dá Especialização; fala a Língua da Pele.",
+    "texto": "*Talento de Origem · Pré-requisito: Changeling*\n\nVocê criou personas que ajudam a concentrar seus talentos. Com o Mestre, defina **duas personas** diferentes, cada uma com aparência e personalidade próprias.\n\n**Persona Hábil.** Escolha uma ferramenta e associe a ela uma persona. Sempre que assumir essa persona com o traço Mudar de Forma (Shape-Shifter), você ganha proficiência com a ferramenta e, ao fazer um teste de atributo com ela, pode rolar **1d4** e somar ao resultado.\n\n**Persona Especialista.** Escolha uma perícia em que é proficiente e associe a ela a outra persona. Sempre que assumir essa persona com Mudar de Forma, você ganha [[especializacao|Especialização]] nessa perícia.\n\n**Língua da Pele.** Você fala fluentemente a Língua da Pele (Skin Cant), idioma dos Viajantes Changeling.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Changeling"
+  },
+  {
+    "id": "cantor-de-pensamentos",
+    "nome": "Cantor de Pensamentos",
+    "nome_en": "Thoughtsinger",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "thoughtsinger",
+      "kalashtar",
+      "telepatia",
+      "eberron"
+    ],
+    "resumo": "Telepatia de 36 m (ou 10 × nível), rede telepática com o grupo e Ajudar a distância.",
+    "texto": "*Talento de Origem · Pré-requisito: Kalashtar*\n\nVocê aperfeiçoou a telepatia e consegue unir e guiar o grupo.\n\n**Telepatia Superior.** A telepatia do seu traço Elo Mental (Mind Link) tem alcance de **36 metros (120 pés)** ou de **3 metros × seu nível**, o que for maior.\n\n**Canção do Pensamento.** Quando o Elo Mental permite que uma criatura fale telepaticamente com você, você forma uma conexão mental com ela. Ao se comunicar por telepatia, pode mandar a mensagem para todas as criaturas conectadas a você, e pode deixá-las falar telepaticamente entre si. Isso dura enquanto o Elo Mental estiver ativo.\n\n**Ajuda Telepática.** Se puder falar por telepatia com um aliado pelo Elo Mental, você pode usar a ação [[ajudar|Ajudar]] para auxiliá-lo a atacar uma criatura mesmo estando a mais de 1,5 metro dela.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Kalashtar"
+  },
+  {
+    "id": "uul-dhakaan",
+    "nome": "Uul Dhakaan",
+    "nome_en": "Uul Dhakaan",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Origem",
+    "tags": [
+      "talento",
+      "origem",
+      "uul dhakaan",
+      "dhakaan",
+      "sonhos",
+      "eberron"
+    ],
+    "resumo": "Sonhos lúcidos, um mentor espiritual no Uul Dhakaan e Resistência a dano Psíquico.",
+    "texto": "*Talento de Origem · Pré-requisito: Ghaal'dar, Golin'dar ou Guul'dar Dhakaani*\n\n**Andarilho dos Sonhos.** Você fica totalmente lúcido ao sonhar e, ao acordar, lembra com clareza de tudo o que aconteceu.\n\n**Mentor no Uul.** Um espírito no Uul Dhakaan é seu mentor. Defina com o Mestre quem ele é: a memória de um ancestral ou herói caído, ou um bardo uul'kala vivo. Sempre que terminar um [[descanso-longo|Descanso Longo]], há chance de você receber uma visão, uma missão ou uma pista sobre sua situação.\n\n**Protegido pelos Sonhos.** Resistência a dano Psíquico.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Ghaal'dar, Golin'dar ou Guul'dar Dhakaani"
+  },
+  {
+    "id": "meia-vida-aereni",
+    "nome": "Meia-Vida Aereni",
+    "nome_en": "Aereni Half-Life",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "aereni half-life",
+      "elfo",
+      "corte imortal",
+      "eberron"
+    ],
+    "resumo": "+1 Int ou Sab; Vantagem contra a morte, resistência a Necrótico e Radiante.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Elfo*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência ou Sabedoria (máximo 20).\n\nRituais ligaram você a Irian e à Corte Imortal. Muitos ficam com aparência ressequida, como de múmia; você decide se é o seu caso.\n\n**Imortal.** Vantagem nas salvaguardas contra a morte.\n\n**Resistência.** Resistência a dano Necrótico e Radiante.\n\n**Foco Radiante.** Quando lança uma magia que causa dano Necrótico, você pode fazê-la causar dano Radiante no lugar.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Elfo"
+  },
+  {
+    "id": "metamorfose-changeling",
+    "nome": "Metamorfose Changeling",
+    "nome_en": "Changeling Metamorphosis",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "changeling metamorphosis",
+      "changeling",
+      "eberron"
+    ],
+    "resumo": "+1 Con ou Des; +1 na CA e, ao mudar de forma, guelras, Visão no Escuro ou armas naturais.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Changeling*\n\n**Aumento no Valor de Atributo.** +1 em Constituição ou Destreza (máximo 20).\n\n**Pele Endurecida.** +1 na sua Classe de Armadura.\n\n**Metamorfose.** Ao usar seu traço Mudar de Forma (Shape-Shifter), você pode escolher uma opção abaixo. O benefício dura até você usar Mudar de Forma de novo.\n\n- **Adaptação Aquática.** Guelras e membranas entre os dedos: você respira debaixo d'água e ganha [[deslocamento-de-natacao|Deslocamento de Natação]] igual ao seu Deslocamento.\n- **Visão no Escuro.** 18 metros.\n- **Armas Naturais.** Garras (Cortante), presas (Perfurante), chifres (Perfurante) ou cascos (Contundente). Ao causar dano com elas num [[ataque-desarmado|Ataque Desarmado]], o dano é **1d6** do tipo indicado em vez do normal, e você pode usar Destreza em vez de Força nas jogadas de ataque e dano.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Changeling"
+  },
+  {
+    "id": "couraca-de-colosso",
+    "nome": "Couraça de Colosso",
+    "nome_en": "Juggernaut Plating",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "juggernaut plating",
+      "forjado bélico",
+      "armadura",
+      "eberron"
+    ],
+    "resumo": "+1 For ou Con; sua armadura não pode ser alvo de efeitos e críticos viram acertos normais.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Forjado Bélico*\n\n**Aumento no Valor de Atributo.** +1 em Força ou Constituição (máximo 20).\n\n**Armadura Resiliente.** Enquanto você estiver vivo, a armadura que veste não pode ser alvo de nenhum efeito contra a sua vontade (como a magia [[esquentar-metal|Esquentar Metal]] ou as antenas de um monstro da ferrugem).\n\n**Corpo de Adamante.** Qualquer [[acerto-critico|Acerto Crítico]] contra você vira um acerto normal.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Forjado Bélico"
+  },
+  {
+    "id": "vinculo-quori",
+    "nome": "Vínculo Quori",
+    "nome_en": "Quori Bond",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "quori bond",
+      "kalashtar",
+      "quori",
+      "eberron"
+    ],
+    "resumo": "+1 Int, Sab ou Car; linhagem quori dá +1d4 numa perícia e uma magia grátis por dia.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Kalashtar*\n\n**Aumento no Valor de Atributo.** +1 em Inteligência, Sabedoria ou Carisma (máximo 20).\n\nSeu vínculo com o espírito quori é especialmente forte.\n\n**Linhagem Quori.** Escolha uma linhagem na tabela; ela define a perícia e a magia abaixo.\n\n| Quori | Perícia | Magia |\n|---|---|---|\n| Du'ulora | Intimidação | Coroa da Loucura |\n| Hashalaq | Persuasão | Sugestão |\n| Kalaraq | Percepção | Espinho Mental |\n| Tsucora | Intimidação | Despedaçar† |\n\n† Lançada por este talento, Despedaçar causa dano Psíquico.\n\n**Perícia.** Ao fazer um teste de atributo com a perícia da sua linhagem, você pode rolar **1d4** e somar ao resultado.\n\n**Magia.** Você sempre tem a magia da linhagem preparada ([[coroa-da-loucura|Coroa da Loucura]], [[sugestao|Sugestão]], [[espinho-mental|Espinho Mental]] ou [[despedacar|Despedaçar]]). Pode lançá-la uma vez sem gastar espaço de magia e recupera esse uso ao terminar um [[descanso-longo|Descanso Longo]]. Também pode lançá-la com espaços de magia do círculo adequado. O atributo de conjuração é o que você aumentou com este talento.",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Kalashtar"
+  },
+  {
+    "id": "metamorfose-superior",
+    "nome": "Metamorfose Superior",
+    "nome_en": "Superior Shifting",
+    "categoria": "talento",
+    "capitulo": "talentos",
+    "sub_curto": "Geral",
+    "tags": [
+      "talento",
+      "geral",
+      "superior shifting",
+      "metamorfo",
+      "shifter",
+      "eberron"
+    ],
+    "resumo": "+1 For, Des ou Sab; transforma-se sem ação por 10 minutos e ganha um uso extra.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Metamorfo*\n\n**Aumento no Valor de Atributo.** +1 em Força, Destreza ou Sabedoria (máximo 20).\n\nSua ligação com a fera interior é poderosa.\n\n**Resistência na Metamorfose.** No início do seu turno, você pode usar seu traço Metamorfose (Shifting) sem gastar ação. A transformação agora dura **10 minutos**.\n\n**Recuperação do Metamorfo.** Você pode usar o traço Metamorfose **uma vez a mais**. Recupera 1 uso gasto ao terminar um [[descanso-curto|Descanso Curto]] e todos ao terminar um [[descanso-longo|Descanso Longo]].",
+    "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron",
+    "especie": "Metamorfo"
+  }
+]

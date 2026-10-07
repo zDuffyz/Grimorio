@@ -1,0 +1,31 @@
+[
+  {
+    "id": "servo-homunculo",
+    "nome": "Servo Homúnculo",
+    "nome_en": "Homunculus Servant",
+    "categoria": "magia",
+    "tags": [
+      "homunculus servant",
+      "eberron",
+      "artífice",
+      "constructo",
+      "ritual",
+      "companheiro"
+    ],
+    "resumo": "Invoca um homúnculo Constructo aliado que ataca com energia e entrega suas magias de toque.",
+    "magia": {
+      "nivel": 2,
+      "escola": "Invocação",
+      "tempo": "1 hora ou Ritual",
+      "alcance": "3 metros",
+      "componentes": "V, S, M (uma gema no valor de 100 ou mais PO)",
+      "duracao": "Instantânea",
+      "classes": [
+        "Artífice"
+      ]
+    },
+    "texto": "Você invoca um homúnculo especial num espaço desocupado dentro do alcance. Ele usa o bloco de estatísticas **Servo Homúnculo** abaixo. Se você já tiver um homúnculo desta magia, ele é substituído pelo novo. Você decide a aparência: um pássaro mecânico, um frasco com asas, um caldeirão animado em miniatura…\n\n**Combate.** O homúnculo é aliado seu e dos seus aliados. Em combate, ele usa a sua contagem de [[iniciativa|Iniciativa]], mas age logo depois de você. Ele obedece a seus comandos (sem gastar ação sua). Se você não der ordem nenhuma, ele usa a ação [[esquivar|Esquivar]] e se movimenta para fugir do perigo.\n\n### Em círculos superiores\nUse o círculo do espaço gasto como “círculo da magia” no bloco de estatísticas.\n\n### Servo Homúnculo\n*Constructo Minúsculo, Neutro*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| PV | 5 + 5 por círculo da magia |\n| Dados de PV | d4, um por círculo da magia |\n| Deslocamento | 6 m, Voo 9 m |\n| Atributos | For 4 (–3), Des 15 (+2), Con 12 (+1), Int 10 (+0), Sab 10 (+0), Car 7 (–2) |\n| Salvaguardas | Iguais aos modificadores |\n| Imunidades | Venenoso; Envenenado, Exaustão |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 10 |\n| Idiomas | Telepatia 1,5 km (só com você) |\n| ND | Nenhum (XP 0; BP igual ao seu Bônus de Proficiência) |\n\n**Evasão.** Quando um efeito permite uma salvaguarda de Destreza para sofrer metade do dano, o homúnculo não sofre dano se passar e sofre só metade se falhar. Não funciona se ele estiver [[incapacitado|Incapacitado]].\n\n**Vínculo Mágico.** Some o círculo da magia a qualquer teste de atributo ou salvaguarda que o homúnculo fizer.\n\n**Golpe de Energia (Ação).** *Jogada de Ataque Corpo a Corpo ou à Distância:* bônus igual ao seu modificador de ataque mágico, alcance 1,5 m ou distância 9 m. *Acerto:* 1d6 + o círculo da magia de dano Energético.\n\n**Canalizar Magia (Reação).** *Gatilho:* você lança uma magia de alcance Toque enquanto o homúnculo está a até 36 m de você. *Resposta:* o homúnculo entrega a magia pelo toque dele.",
+    "fonte": "Eberron: Forge of the Artificer · resumo das regras com outras palavras, para consulta de mesa",
+    "cenario": "eberron"
+  }
+]
