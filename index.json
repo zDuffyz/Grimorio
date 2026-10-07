@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.06-6",
-  "notas": "Novo capítulo: Equipamento (armas, maestrias, armaduras, ferramentas, itens, montarias, serviços, itens mágicos e fabricação).",
+  "versao": "2026.10.06-7",
+  "notas": "Capítulo 7 completo: as 391 magias do Livro do Jogador, regras de conjuração e filtro de magias por classe.",
   "arquivos": [
     "regras.json",
     "condicoes.json",
@@ -21,6 +21,7 @@
     "classe-paladino.json",
     "origens.json",
     "talentos.json",
-    "equipamento.json"
+    "equipamento.json",
+    "conjuracao.json"
   ]
 }

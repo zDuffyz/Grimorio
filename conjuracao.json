@@ -1,0 +1,62 @@
+[
+  {
+    "id": "conjurando-magias",
+    "nome": "Conjurando Magias",
+    "nome_en": "Casting Spells",
+    "categoria": "regra",
+    "capitulo": "magias",
+    "tags": [
+      "magia",
+      "espaço de magia",
+      "slot",
+      "ritual",
+      "preparar",
+      "círculo",
+      "conjurar"
+    ],
+    "resumo": "Preparar magias, espaços de magia, círculo superior, rituais e uma magia com espaço por turno.",
+    "texto": "Para conjurar, a magia precisa estar preparada (ou vir de um item, como um Pergaminho Mágico). Suas características dizem quais magias você tem e quais ficam sempre preparadas.\n\n### Trocar magias preparadas\n| Classe | Troca quando… | Quantas |\n|---|---|---|\n| Bardo, Bruxo, Feiticeiro | sobe de nível | uma |\n| Clérigo, Druida, Mago | termina um Descanso Longo | qualquer quantidade |\n| Guardião, Paladino | termina um Descanso Longo | uma |\n\nMagias **sempre preparadas** por alguma característica não contam no limite da sua lista.\n\n**Armadura.** Você só conjura usando armadura com que tem treinamento.\n\n### Círculos e espaços de magia\nCada magia tem um círculo de 0 (truque) a 9. Para conjurar uma magia de 1º círculo ou mais, você gasta um espaço de magia daquele círculo **ou maior**. Um Descanso Longo recupera todos os espaços.\n\n**Círculo superior.** Usando um espaço maior, a magia passa a ser daquele círculo; muitas ficam mais fortes (veja “Em círculos superiores” em cada uma).\n\n**Sem gastar espaço.** Truques; magias conjuradas como **Ritual** (precisam estar preparadas e levam 10 minutos a mais); habilidades especiais; itens mágicos.\n\n**Uma magia com espaço por turno.** Num turno você só pode gastar um espaço de magia. Não dá para usar um espaço na ação Usar Magia e outro numa Ação Bônus no mesmo turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "componentes-e-duracao",
+    "nome": "Tempo, Alcance, Componentes e Duração",
+    "nome_en": "Spell Elements",
+    "categoria": "regra",
+    "capitulo": "magias",
+    "tags": [
+      "componentes",
+      "verbal",
+      "somático",
+      "material",
+      "duração",
+      "alcance",
+      "tempo de conjuração",
+      "foco"
+    ],
+    "resumo": "Como ler o cabeçalho de uma magia: tempo de conjuração, alcance, V/S/M e duração.",
+    "texto": "### Tempo de Conjuração\nA maioria usa a ação [[acao-magia|Usar Magia]]; algumas são Ação Bônus ou Reação (com o gatilho descrito). Magias de 1 minuto ou mais exigem a ação Usar Magia a cada turno e [[concentracao|Concentração]] durante a conjuração; se a Concentração cair, a magia falha mas o espaço não é gasto.\n\n### Alcance\nDistância máxima de onde o efeito pode começar: em metros, **Toque** ou **Pessoal**. Efeitos que se movem depois não ficam presos ao alcance, salvo indicação.\n\n### Componentes\n- **Verbal (V):** palavras faladas em tom normal. Amordaçado ou em área de silêncio mágico, não dá.\n- **Somático (S):** gestos com pelo menos uma mão.\n- **Material (M):** os itens entre parênteses. Não são gastos, salvo indicação. Exige uma mão livre (pode ser a mesma dos gestos). Se o material não tiver custo nem for consumido, pode ser trocado por uma Bolsa de Componentes ou por um Foco de Conjuração (se uma característica permitir).\n\nSem conseguir cumprir algum componente, você não conjura a magia.\n\n### Duração\n- **Instantânea:** acontece e acaba.\n- **Concentração:** segue as regras de [[concentracao|Concentração]].\n- **Tempo definido:** rodadas, minutos, horas. Você pode encerrar a magia quando quiser (sem ação), se não estiver [[incapacitado|Incapacitado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "alvos-e-efeitos",
+    "nome": "Alvos, Salvaguardas e Ataques Mágicos",
+    "nome_en": "Spell Effects",
+    "categoria": "regra",
+    "capitulo": "magias",
+    "tags": [
+      "cd",
+      "cd da magia",
+      "ataque mágico",
+      "área",
+      "cone",
+      "esfera",
+      "alvo",
+      "escola",
+      "salvaguarda"
+    ],
+    "resumo": "CD para evitar magia, modificador de ataque mágico, áreas, alvos e magias que se sobrepõem.",
+    "texto": "**CD para evitar sua magia** = 8 + modificador do atributo de conjuração + Bônus de Proficiência.\n\n**Modificador de ataque mágico** = modificador do atributo de conjuração + Bônus de Proficiência.\n\n### Alvos\n- Você precisa de um caminho livre até o alvo: ele não pode estar atrás de Cobertura Total.\n- Se a magia mira “uma criatura à sua escolha”, você pode escolher a si mesmo, salvo se ela tiver de ser Hostil ou diferente de você.\n- Uma criatura só percebe que foi alvo se o efeito for perceptível.\n- Alvo inválido: nada acontece, mas o espaço é gasto. Se a magia não teria efeito num sucesso, o alvo parece ter passado na salvaguarda.\n\n### Áreas de efeito\nCilindro, Cone, Cubo, Emanação, Esfera ou Linha, sempre a partir de um ponto de origem.\n\n### Combinar efeitos\nMagias diferentes se somam. A **mesma magia** várias vezes no mesmo alvo não: vale o efeito mais forte (ou o mais recente, se forem iguais) enquanto as durações se sobrepõem. Ex.: duas *Bênçãos* não dão dois dados.\n\n### Identificar uma magia em andamento\nAção [[estudar|Analisar]] e teste de Inteligência (Arcanismo) CD 15.\n\n### Escolas de magia\n| Escola | Costuma… |\n|---|---|\n| Abjuração | proteger ou anular |\n| Adivinhação | revelar informação |\n| Encantamento | influenciar mentes |\n| Evocação | gerar energia, muitas vezes destrutiva |\n| Ilusão | enganar sentidos ou mente |\n| Invocação | transportar criaturas ou objetos |\n| Necromancia | manipular vida e morte |\n| Transmutação | transformar criaturas ou objetos |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  }
+]

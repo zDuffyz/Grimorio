@@ -42,8 +42,10 @@
     busca: "",
     scrollLista: 0,
     veioDaLista: false,
-    ultimaCarga: 0
+    ultimaCarga: 0,
+    filtroClasse: ""
   };
+  try { estado.filtroClasse = localStorage.getItem("grimorio:classe-magias") || ""; } catch (e) {}
 
   var app = document.getElementById("app");
   var campoBusca = document.getElementById("busca");
@@ -66,7 +68,7 @@
   function esc(s) {
     return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
-  function rotuloNivel(n) { return n === 0 ? "Truque" : "Nível " + n; }
+  function rotuloNivel(n) { return n === 0 ? "Truque" : n + "º círculo"; }
 
   /* ---------- texto formatado (Markdown simplificado) ---------- */
   function inline(t) {
@@ -304,10 +306,17 @@
         secao("Itens com regras", g("Item")) +
         secao("Montarias, serviços e itens mágicos", g(""));
     } else if (estado.aba === "magias") {
-      var magias = porCapitulo("magias").sort(ordenarPadrao);
+      var todasM = porCapitulo("magias").sort(ordenarPadrao);
+      var regrasM = todasM.filter(function (e) { return e.categoria !== "magia"; });
+      var fc = estado.filtroClasse || "";
+      var magias = todasM.filter(function (e) { return e.categoria === "magia" && (!fc || e.magia.classes.indexOf(fc) >= 0); });
+      var CLS = ["Bardo", "Bruxo", "Clérigo", "Druida", "Feiticeiro", "Guardião", "Mago", "Paladino"];
       var niveis = [];
       magias.forEach(function (m) { if (niveis.indexOf(m.magia.nivel) < 0) niveis.push(m.magia.nivel); });
       html = '<header class="cap-cab"><span class="cap-num">Capítulo 7</span><h2>Magias</h2></header>' +
+        secao("Regras de conjuração", regrasM) +
+        '<div class="chips filtro-classe">' + chip("", "Todas", !fc, undefined, "data-classe-f") +
+        CLS.map(function (c) { return chip(c, c, fc === c, undefined, "data-classe-f"); }).join("") + "</div>" +
         niveis.map(function (n) {
           return secao(n === 0 ? "Truques" : n + "º círculo", magias.filter(function (m) { return m.magia.nivel === n; }));
         }).join("");
@@ -374,7 +383,7 @@
     if (e.magia) {
       var m = e.magia;
       var campos = [
-        ["Nível", rotuloNivel(m.nivel)],
+        ["Círculo", rotuloNivel(m.nivel)],
         ["Escola", m.escola],
         ["Tempo de conjuração", m.tempo, m.tempo && m.tempo.length > 24],
         ["Alcance", m.alcance],
@@ -452,6 +461,12 @@
 
     if (alvo.matches(".item") || (alvo.matches("a") && rotaAtual() === "")) {
       estado.scrollLista = window.scrollY;
+    }
+    if (alvo.hasAttribute("data-classe-f")) {
+      estado.filtroClasse = alvo.getAttribute("data-classe-f");
+      try { localStorage.setItem("grimorio:classe-magias", estado.filtroClasse); } catch (e) {}
+      vistaLista();
+      return;
     }
     if (alvo.id === "voltar") {
       if (estado.veioDaLista && history.length > 1) history.back();
