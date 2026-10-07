@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.06-5",
-  "notas": "Novos capítulos: Origens (16 antecedentes e 10 espécies) e Talentos completos (Origem, Gerais, Estilos de Luta e Dádivas Épicas).",
+  "versao": "2026.10.06-6",
+  "notas": "Novo capítulo: Equipamento (armas, maestrias, armaduras, ferramentas, itens, montarias, serviços, itens mágicos e fabricação).",
   "arquivos": [
     "regras.json",
     "condicoes.json",
@@ -20,6 +20,7 @@
     "classe-monge.json",
     "classe-paladino.json",
     "origens.json",
-    "talentos.json"
+    "talentos.json",
+    "equipamento.json"
   ]
 }

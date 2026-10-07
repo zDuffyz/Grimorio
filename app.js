@@ -22,6 +22,7 @@
     { id: "classes",   cap: "Cap. 3", nome: "Classes" },
     { id: "origens",   cap: "Cap. 4", nome: "Origens" },
     { id: "talentos",  cap: "Cap. 5", nome: "Talentos" },
+    { id: "equipamento", cap: "Cap. 6", nome: "Equipamento" },
     { id: "magias",    cap: "Cap. 7", nome: "Magias" },
     { id: "favoritos", cap: "Seus",   nome: "★ Favoritos" }
   ];
@@ -208,6 +209,7 @@
     if (e.magia) return rotuloNivel(e.magia.nivel);
     if (e.tipo === "subclasse") return "Subclasse";
     if (e.categoria === "talento" && e.sub_curto) return e.sub_curto;
+    if (e.categoria === "equipamento") return e.sub_curto && e.sub_curto !== "Regras" ? e.sub_curto : "Equipamento";
     if (e.de) return (e.sub_curto || e.subclasse || nomeClasse(e)) + " " + (e.nivel || "");
     return (CATEGORIAS[e.categoria] || CATEGORIAS.regra).rotulo;
   }
@@ -291,6 +293,16 @@
         secao("Talentos Gerais", grupo("Geral")) +
         secao("Estilos de Luta", grupo("Estilo de Luta")) +
         secao("Dádivas Épicas", grupo("Dádiva Épica"));
+    } else if (estado.aba === "equipamento") {
+      var eqs = porCapitulo("equipamento").sort(ordenarPadrao);
+      var g = function (x) { return eqs.filter(function (e) { return (e.sub_curto || "") === x; }); };
+      html = '<header class="cap-cab"><span class="cap-num">Capítulo 6</span><h2>Equipamento</h2></header>' +
+        secao("Regras e tabelas", g("Regras")) +
+        secao("Propriedades de armas", g("Propriedade")) +
+        secao("Propriedades de maestria", g("Maestria")) +
+        secao("Ferramentas", g("Ferramentas")) +
+        secao("Itens com regras", g("Item")) +
+        secao("Montarias, serviços e itens mágicos", g(""));
     } else if (estado.aba === "magias") {
       var magias = porCapitulo("magias").sort(ordenarPadrao);
       var niveis = [];

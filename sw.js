@@ -2,7 +2,7 @@
    - O app (HTML, JS, ícones) fica guardado para abrir offline.
    - O conteúdo (arquivos .json) sempre tenta a internet primeiro; sem internet, usa a última cópia.
    Ao mudar index.html ou app.js, aumente VERSAO_APP para os celulares baixarem o app novo. */
-var VERSAO_APP = "1.2.0";
+var VERSAO_APP = "1.3.0";
 var CACHE_APP = "grimorio-app-" + VERSAO_APP;
 var CACHE_DADOS = "grimorio-dados";
 var CACHE_FONTES = "grimorio-fontes";

@@ -1,0 +1,878 @@
+[
+  {
+    "id": "moedas",
+    "nome": "Moedas",
+    "nome_en": "Coins",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "dinheiro",
+      "ouro",
+      "po",
+      "pp",
+      "pc",
+      "vender",
+      "comprar"
+    ],
+    "resumo": "PC, PP, PE, PO e PL: quanto cada uma vale. Vender equipamento rende metade do preço.",
+    "texto": "A Peça de Ouro (PO) é a moeda de referência. Cem moedas pesam cerca de 1 kg.\n\n| Moeda | Valor em PO |\n|---|---|\n| Peça de Cobre (PC) | 1/100 |\n| Peça de Prata (PP) | 1/10 |\n| Peça de Electro (PE) | 1/2 |\n| Peça de Ouro (PO) | 1 |\n| Peça de Platina (PL) | 10 |\n\n**Vender.** Equipamento é vendido pela metade do preço. Bens de comércio e objetos de valor (gemas, obras de arte) mantêm o preço cheio. O Mestre informa se uma loja tem o item e se o preço é o da tabela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Regras"
+  },
+  {
+    "id": "armas",
+    "nome": "Armas",
+    "nome_en": "Weapons",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "arma",
+      "dano",
+      "espada",
+      "arco",
+      "besta",
+      "machado",
+      "adaga",
+      "proficiência"
+    ],
+    "resumo": "Tabela de armas: dano, propriedades, maestria, peso e custo.",
+    "texto": "Cada arma é **Simples** ou **Marcial**, e **Corpo a Corpo** (ataca alvos a até 1,5 m) ou **à Distância**. Qualquer um pode usar uma arma, mas só soma o Bônus de Proficiência ao ataque se tiver proficiência com ela.\n\nAlcances estão em metros (normal/máximo). Veja as [[propriedades-de-armas|propriedades]] e as [[maestria-em-armas|propriedades de maestria]].\n\n### Armas Simples Corpo a Corpo\n| Arma e dano | Propriedades · *Maestria* · preço |\n|---|---|\n| **Adaga** 1d4 Perfurante | Acuidade, Arremesso (6/18), Leve · *Ágil* · 2 PO, 0,5 kg |\n| **Azagaia** 1d6 Perfurante | Arremesso (9/36) · *Lentidão* · 5 PP, 1 kg |\n| **Cajado** 1d6 Contundente | Versátil (1d8) · *Derrubar* · 2 PP, 2 kg |\n| **Clava** 1d4 Contundente | Leve · *Lentidão* · 1 PP, 1 kg |\n| **Clava Grande** 1d8 Contundente | Duas Mãos · *Empurrar* · 2 PP, 5 kg |\n| **Foice** 1d4 Cortante | Leve · *Ágil* · 1 PO, 1 kg |\n| **Lança** 1d6 Perfurante | Arremesso (6/18), Versátil (1d8) · *Drenar* · 1 PO, 1,5 kg |\n| **Maça** 1d6 Contundente | — · *Drenar* · 5 PO, 2 kg |\n| **Machadinha** 1d6 Cortante | Arremesso (6/18), Leve · *Afligir* · 5 PO, 1 kg |\n| **Martelo Leve** 1d4 Contundente | Arremesso (6/18), Leve · *Ágil* · 2 PO, 1 kg |\n\n### Armas Simples à Distância\n| Arma e dano | Propriedades · *Maestria* · preço |\n|---|---|\n| **Arco Curto** 1d6 Perfurante | Duas Mãos, Munição (24/96; Flecha) · *Afligir* · 25 PO, 1 kg |\n| **Besta Leve** 1d8 Perfurante | Duas Mãos, Munição (24/96; Virote), Recarga · *Lentidão* · 25 PO, 2,5 kg |\n| **Dardo** 1d4 Perfurante | Acuidade, Arremesso (6/18) · *Afligir* · 5 PC, 0,1 kg |\n| **Funda** 1d4 Contundente | Munição (9/36; Bala) · *Lentidão* · 1 PP, — |\n\n### Armas Marciais Corpo a Corpo\n| Arma e dano | Propriedades · *Maestria* · preço |\n|---|---|\n| **Alabarda** 1d10 Cortante | Duas Mãos, Extensão, Pesada · *Trespassar* · 20 PO, 3 kg |\n| **Chicote** 1d4 Cortante | Acuidade, Extensão · *Lentidão* · 2 PO, 1,5 kg |\n| **Cimitarra** 1d6 Cortante | Acuidade, Leve · *Ágil* · 25 PO, 1,5 kg |\n| **Espada Curta** 1d6 Perfurante | Acuidade, Leve · *Afligir* · 10 PO, 1 kg |\n| **Espada Grande** 2d6 Cortante | Duas Mãos, Pesada · *Garantido* · 50 PO, 3 kg |\n| **Espada Longa** 1d8 Cortante | Versátil (1d10) · *Drenar* · 15 PO, 1,5 kg |\n| **Glaive** 1d10 Cortante | Duas Mãos, Extensão, Pesada · *Garantido* · 20 PO, 3 kg |\n| **Lança de Montaria** 1d10 Perfurante | Duas Mãos (exceto montado), Extensão, Pesada · *Derrubar* · 10 PO, 3 kg |\n| **Lança Longa** 1d10 Perfurante | Duas Mãos, Extensão, Pesada · *Empurrar* · 5 PO, 9 kg |\n| **Maça Estrela** 1d8 Perfurante | — · *Drenar* · 15 PO, 2 kg |\n| **Machado de Batalha** 1d8 Cortante | Versátil (1d10) · *Derrubar* · 10 PO, 2 kg |\n| **Machado Grande** 1d12 Cortante | Duas Mãos, Pesada · *Trespassar* · 30 PO, 3,5 kg |\n| **Malho** 2d6 Contundente | Duas Mãos, Pesada · *Derrubar* · 10 PO, 5 kg |\n| **Mangual** 1d8 Contundente | — · *Drenar* · 10 PO, 1 kg |\n| **Martelo de Guerra** 1d8 Contundente | Versátil (1d10) · *Empurrar* · 15 PO, 2,5 kg |\n| **Picareta de Guerra** 1d8 Perfurante | Versátil (1d10) · *Drenar* · 5 PO, 2,5 kg |\n| **Rapieira** 1d8 Perfurante | Acuidade · *Afligir* · 25 PO, 1 kg |\n| **Tridente** 1d8 Perfurante | Arremesso (6/18), Versátil (1d10) · *Derrubar* · 5 PO, 2 kg |\n\n### Armas Marciais à Distância\n| Arma e dano | Propriedades · *Maestria* · preço |\n|---|---|\n| **Arco Longo** 1d8 Perfurante | Duas Mãos, Munição (45/180; Flecha), Pesada · *Lentidão* · 50 PO, 1 kg |\n| **Besta de Mão** 1d6 Perfurante | Leve, Munição (9/36; Virote), Recarga · *Afligir* · 75 PO, 1,5 kg |\n| **Besta Pesada** 1d10 Perfurante | Duas Mãos, Munição (30/120; Virote), Pesada, Recarga · *Empurrar* · 50 PO, 9 kg |\n| **Mosquete** 1d12 Perfurante | Duas Mãos, Munição (12/36; Bala), Recarga · *Lentidão* · 500 PO, 5 kg |\n| **Pistola** 1d10 Perfurante | Munição (9/27; Bala), Recarga · *Afligir* · 250 PO, 1,5 kg |\n| **Zarabatana** 1 Perfurante | Munição (7,5/30; Agulha), Recarga · *Afligir* · 10 PO, 0,5 kg |\n\nUsando um objeto qualquer (perna de mesa, garrafa) como arma, ou uma arma de jeito incomum, veja Armas Improvisadas no Glossário.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Regras"
+  },
+  {
+    "id": "propriedades-de-armas",
+    "nome": "Propriedades de Armas",
+    "nome_en": "Weapon Properties",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade"
+    ],
+    "resumo": "Resumo de Acuidade, Alcance, Arremesso, Duas Mãos, Extensão, Leve, Munição, Pesada, Recarga e Versátil.",
+    "texto": "| Propriedade | Em resumo |\n|---|---|\n| [[acuidade|Acuidade]] | Usa Força ou Destreza (a mesma no ataque e no dano). |\n| [[alcance-de-arma|Alcance]] | Normal/máximo; além do normal, Desvantagem; além do máximo, não dá. |\n| [[arremesso|Arremesso]] | Pode ser arremessada para um ataque à distância, sacando-a no ataque. |\n| [[duas-maos|Duas Mãos]] | Exige as duas mãos para atacar. |\n| [[extensao|Extensão]] | +1,5 m de alcance de ataque, inclusive para Ataques de Oportunidade. |\n| [[leve|Leve]] | Ataque extra com outra arma Leve como Ação Bônus, sem somar o modificador ao dano. |\n| [[municao|Munição]] | Precisa de munição; recupera metade depois da luta. |\n| [[pesada|Pesada]] | Desvantagem se Força (corpo a corpo) ou Destreza (distância) for menor que 13. |\n| [[recarga|Recarga]] | Só um disparo por ação, Ação Bônus ou Reação. |\n| [[versatil|Versátil]] | Pode ser usada com uma ou duas mãos; dano maior com duas. |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Regras"
+  },
+  {
+    "id": "acuidade",
+    "nome": "Acuidade",
+    "nome_en": "Finesse",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "finesse",
+      "destreza"
+    ],
+    "resumo": "Use Força ou Destreza no ataque e no dano.",
+    "texto": "*Propriedade de arma*\n\nAo atacar com uma arma de Acuidade, use seu modificador de Força ou de Destreza, à sua escolha, nas jogadas de ataque e dano. O mesmo modificador vale para as duas jogadas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "alcance-de-arma",
+    "nome": "Alcance",
+    "nome_en": "Range",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "range",
+      "distância",
+      "alcance longo"
+    ],
+    "resumo": "Dois números: alcance normal e máximo. Além do normal, Desvantagem.",
+    "texto": "*Propriedade de arma*\n\nUma arma com alcance mostra dois números entre parênteses junto a Munição ou Arremesso: o alcance normal e o máximo, em metros. Atacar um alvo além do alcance normal dá Desvantagem; além do máximo, não é possível.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "arremesso",
+    "nome": "Arremesso",
+    "nome_en": "Thrown",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "thrown",
+      "arremessar"
+    ],
+    "resumo": "Pode ser arremessada; sacar faz parte do ataque.",
+    "texto": "*Propriedade de arma*\n\nVocê pode arremessar a arma para fazer um ataque à distância, e pode sacá-la como parte desse ataque. Se for uma arma corpo a corpo, use no ataque e no dano o mesmo modificador que usaria num ataque corpo a corpo com ela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "duas-maos",
+    "nome": "Duas Mãos",
+    "nome_en": "Two-Handed",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "two-handed"
+    ],
+    "resumo": "Exige as duas mãos para atacar.",
+    "texto": "*Propriedade de arma*\n\nVocê precisa usar as duas mãos para atacar com esta arma.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "extensao",
+    "nome": "Extensão",
+    "nome_en": "Reach",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "reach",
+      "alcance"
+    ],
+    "resumo": "+1,5 m de alcance ao atacar e para Ataques de Oportunidade.",
+    "texto": "*Propriedade de arma*\n\nA arma acrescenta 1,5 m ao seu alcance quando você ataca com ela, e também para saber quando pode fazer [[ataque-de-oportunidade|Ataques de Oportunidade]] com ela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "leve",
+    "nome": "Leve",
+    "nome_en": "Light",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "light",
+      "duas armas",
+      "ação bônus"
+    ],
+    "resumo": "Ataque extra com outra arma Leve como Ação Bônus, sem modificador no dano.",
+    "texto": "*Propriedade de arma*\n\nQuando você faz a ação [[atacar|Atacar]] no seu turno com uma arma Leve, pode fazer um ataque extra como Ação Bônus mais tarde no mesmo turno. Esse ataque tem de ser com **outra** arma Leve, e você não soma o modificador de atributo ao dano dele, a menos que seja negativo.\n\nExemplo: Espada Curta numa mão e Adaga na outra; ataque com a ação Atacar e depois com a Ação Bônus, sem somar Força ou Destreza ao dano da Ação Bônus.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "municao",
+    "nome": "Munição",
+    "nome_en": "Ammunition",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "ammunition",
+      "flecha",
+      "virote",
+      "bala"
+    ],
+    "resumo": "Precisa de munição; cada ataque gasta uma; recupera metade depois.",
+    "texto": "*Propriedade de arma*\n\nVocê só ataca à distância com esta arma se tiver a munição indicada. Cada ataque gasta uma peça, e pegar a munição faz parte do ataque (é preciso uma mão livre para carregar uma arma de uma mão). Depois da luta, gastando 1 minuto, você recupera metade da munição usada (arredondada para baixo); o resto se perde.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "pesada",
+    "nome": "Pesada",
+    "nome_en": "Heavy",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "heavy"
+    ],
+    "resumo": "Desvantagem se Força (corpo a corpo) ou Destreza (distância) for menor que 13.",
+    "texto": "*Propriedade de arma*\n\nVocê tem Desvantagem nas jogadas de ataque com uma arma Pesada se ela for corpo a corpo e sua Força for menor que 13, ou se for à distância e sua Destreza for menor que 13.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "recarga",
+    "nome": "Recarga",
+    "nome_en": "Loading",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "loading",
+      "besta"
+    ],
+    "resumo": "Só um disparo por ação, Ação Bônus ou Reação.",
+    "texto": "*Propriedade de arma*\n\nVocê só pode disparar uma peça de munição com esta arma quando usa uma ação, Ação Bônus ou Reação para dispará-la, não importa quantos ataques normalmente faria.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "versatil",
+    "nome": "Versátil",
+    "nome_en": "Versatile",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "propriedade",
+      "versatile"
+    ],
+    "resumo": "Uma ou duas mãos; o dano entre parênteses vale com duas mãos.",
+    "texto": "*Propriedade de arma*\n\nA arma pode ser usada com uma ou duas mãos. O valor de dano entre parênteses é o que ela causa num ataque corpo a corpo empunhada com as duas mãos.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Propriedade"
+  },
+  {
+    "id": "maestria-em-armas",
+    "nome": "Propriedades de Maestria",
+    "nome_en": "Mastery Properties",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "weapon mastery"
+    ],
+    "resumo": "Afligir, Ágil, Derrubar, Drenar, Empurrar, Garantido, Lentidão e Trespassar.",
+    "texto": "Cada arma tem uma propriedade de maestria, que só pode ser usada por quem tem uma característica que a libere (como a característica de classe Maestria em Armas ou o talento [[mestre-das-armas|Mestre das Armas]]).\n\n| Maestria | Em resumo |\n|---|---|\n| [[maestria-afligir|Afligir]] | Acertou e causou dano: Vantagem no seu próximo ataque contra o alvo. |\n| [[maestria-agil|Ágil]] | O ataque extra da propriedade Leve sai na ação Atacar, não na Ação Bônus. |\n| [[maestria-derrubar|Derrubar]] | Acertou: salvaguarda de Constituição ou o alvo fica Caído. |\n| [[maestria-drenar|Drenar]] | Acertou: o alvo tem Desvantagem no próximo ataque dele. |\n| [[maestria-empurrar|Empurrar]] | Acertou: empurra até 3 m (Grande ou menor). |\n| [[maestria-garantido|Garantido]] | Errou: ainda causa dano igual ao modificador de atributo. |\n| [[maestria-lentidao|Lentidão]] | Acertou e causou dano: −3 m de Deslocamento. |\n| [[maestria-trespassar|Trespassar]] | Acertou corpo a corpo: ataca outra criatura a 1,5 m da primeira. |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Regras"
+  },
+  {
+    "id": "maestria-afligir",
+    "nome": "Afligir",
+    "nome_en": "Vex",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "vex"
+    ],
+    "resumo": "Acertou e causou dano: Vantagem no próximo ataque contra o alvo.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nSe você acertar uma criatura com esta arma e causar dano, tem Vantagem na sua próxima jogada de ataque contra ela antes do fim do seu próximo turno.\n\n**Armas:** Arco Curto, Besta de Mão, Dardo, Espada Curta, Machadinha, Pistola, Rapieira, Zarabatana.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "maestria-agil",
+    "nome": "Ágil",
+    "nome_en": "Nick",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "nick"
+    ],
+    "resumo": "O ataque extra da propriedade Leve faz parte da ação Atacar.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nQuando fizer o ataque extra da propriedade [[leve|Leve]], você pode fazê-lo como parte da ação Atacar, em vez de usar a Ação Bônus. Só uma vez por turno.\n\n**Armas:** Adaga, Cimitarra, Foice, Martelo Leve.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "maestria-derrubar",
+    "nome": "Derrubar",
+    "nome_en": "Topple",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "topple",
+      "caído"
+    ],
+    "resumo": "Acertou: salvaguarda de Constituição ou o alvo fica Caído.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nSe acertar uma criatura com esta arma, você pode obrigá-la a fazer uma salvaguarda de Constituição (CD 8 + modificador de atributo usado no ataque + Bônus de Proficiência). Se falhar, ela fica [[caido|Caída]].\n\n**Armas:** Cajado, Lança de Montaria, Machado de Batalha, Malho, Tridente.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "maestria-drenar",
+    "nome": "Drenar",
+    "nome_en": "Sap",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "sap"
+    ],
+    "resumo": "Acertou: Desvantagem no próximo ataque do alvo.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nSe acertar uma criatura com esta arma, ela tem Desvantagem na próxima jogada de ataque dela antes do início do seu próximo turno.\n\n**Armas:** Espada Longa, Lança, Maça, Maça Estrela, Mangual, Picareta de Guerra.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "maestria-empurrar",
+    "nome": "Empurrar",
+    "nome_en": "Push",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "push"
+    ],
+    "resumo": "Acertou: empurra até 3 m uma criatura Grande ou menor.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nSe acertar uma criatura com esta arma, você pode empurrá-la até 3 m para longe de você, se ela for Grande ou menor.\n\n**Armas:** Besta Pesada, Clava Grande, Lança Longa, Martelo de Guerra.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "maestria-garantido",
+    "nome": "Garantido",
+    "nome_en": "Graze",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "graze"
+    ],
+    "resumo": "Errou: causa dano igual ao modificador de atributo.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nSe sua jogada de ataque com esta arma errar uma criatura, você ainda causa a ela dano igual ao modificador de atributo usado no ataque, do mesmo tipo da arma. Esse dano só aumenta se o modificador aumentar.\n\n**Armas:** Espada Grande, Glaive.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "maestria-lentidao",
+    "nome": "Lentidão",
+    "nome_en": "Slow",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "slow"
+    ],
+    "resumo": "Acertou e causou dano: −3 m de Deslocamento até o seu próximo turno.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nSe acertar uma criatura com esta arma e causar dano, você pode reduzir o Deslocamento dela em 3 m até o início do seu próximo turno. Acertos repetidos com armas de Lentidão não reduzem mais que 3 m.\n\n**Armas:** Arco Longo, Azagaia, Besta Leve, Chicote, Clava, Funda, Mosquete.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "maestria-trespassar",
+    "nome": "Trespassar",
+    "nome_en": "Cleave",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "maestria",
+      "mastery",
+      "cleave"
+    ],
+    "resumo": "Acertou corpo a corpo: ataca uma segunda criatura a 1,5 m da primeira.",
+    "texto": "*Propriedade de maestria* · exige uma característica como [[maestria-em-armas|Maestria em Armas]]\n\nSe acertar uma criatura com um ataque corpo a corpo com esta arma, você pode fazer outra jogada de ataque corpo a corpo com ela contra uma segunda criatura a até 1,5 m da primeira e dentro do seu alcance. Se acertar, a segunda sofre o dano da arma sem somar o modificador de atributo (a menos que seja negativo). Uma vez por turno.\n\n**Armas:** Alabarda, Machado Grande.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Maestria"
+  },
+  {
+    "id": "armaduras",
+    "nome": "Armaduras",
+    "nome_en": "Armor",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "armadura",
+      "ca",
+      "classe de armadura",
+      "escudo",
+      "placas",
+      "cota de malha",
+      "couro"
+    ],
+    "resumo": "Tabela de armaduras e escudo, treinamento, Força mínima e Furtividade.",
+    "texto": "| Armadura | CA | Observações |\n|---|---|---|\n| **Leve** (1 min para vestir ou tirar) | | |\n| **Acolchoada** 5 PO · 4 kg | 11 + Des | Furtividade com Desvantagem |\n| **Couro** 10 PO · 5 kg | 11 + Des | — |\n| **Couro Batido** 45 PO · 6,5 kg | 12 + Des | — |\n| **Média** (5 min para vestir, 1 para tirar) | | |\n| **Gibão de Peles** 10 PO · 6 kg | 12 + Des (máx. 2) | — |\n| **Cota de Malha Parcial** 50 PO · 10 kg | 13 + Des (máx. 2) | — |\n| **Loriga de Escamas** 50 PO · 22 kg | 14 + Des (máx. 2) | Furtividade com Desvantagem |\n| **Couraça Peitoral** 400 PO · 10 kg | 14 + Des (máx. 2) | — |\n| **Placas Parcial** 750 PO · 20 kg | 15 + Des (máx. 2) | Furtividade com Desvantagem |\n| **Pesada** (10 min para vestir, 5 para tirar) | | |\n| **Cota de Anéis** 30 PO · 20 kg | 14 | Furtividade com Desvantagem |\n| **Cota de Malha** 75 PO · 27 kg | 16 | For 13; Furtividade com Desvantagem |\n| **Armadura de Tala** 200 PO · 30 kg | 17 | For 15; Furtividade com Desvantagem |\n| **Placas** 1.500 PO · 32 kg | 18 | For 15; Furtividade com Desvantagem |\n| **Escudo** (ação Usar Objeto para pôr ou tirar) | | |\n| **Escudo** 10 PO · 3 kg | +2 | — |\n\n- **CA.** A CA base com aquela armadura (Des = modificador de Destreza).\n- **Força mínima.** Se você não tiver o valor de Força indicado (For 13 ou For 15), seu Deslocamento cai 3 m.\n- **Furtividade.** Essas armaduras dão Desvantagem em testes de Destreza (Furtividade).\n- **Sem treinamento.** Usando armadura Leve, Média ou Pesada sem o treinamento dela, você tem Desvantagem em todo [[testes-de-d20|Teste de D20]] de Força ou Destreza e não pode conjurar magias. O Escudo só dá a CA se você tiver treinamento com ele.\n- **Uma de cada vez.** Uma criatura usa só uma armadura e um Escudo por vez.\n\n**Variante: tamanho do equipamento.** O Mestre pode exigir ajustes para que armaduras e roupas encontradas sirvam (custo de 1d4 × 10% do preço).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Regras"
+  },
+  {
+    "id": "ferramentas",
+    "nome": "Ferramentas",
+    "nome_en": "Tools",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "ferramenta",
+      "tool",
+      "proficiência"
+    ],
+    "resumo": "Proficiência com ferramenta: soma o Bônus de Proficiência; com perícia junto, Vantagem.",
+    "texto": "Uma ferramenta ajuda em testes de atributo especializados e na fabricação de itens. Cada ferramenta lista:\n\n- **Atributo** usado nos testes com ela.\n- **Usar Objeto:** o que você pode fazer com a ação [[usar|Usar Objeto]] e a CD.\n- **Fabricação:** o que dá para fabricar (veja [[fabricacao|Fabricação]]).\n- **Variantes:** cada variante exige proficiência separada.\n\n**Proficiência.** Se você é proficiente com a ferramenta, soma o Bônus de Proficiência aos testes de atributo com ela. Se também é proficiente numa perícia usada nesse teste, tem Vantagem.\n\nVeja [[ferramentas-de-artesao|Ferramentas de Artesão]] e [[outras-ferramentas|Outras Ferramentas]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Regras"
+  },
+  {
+    "id": "ferramentas-de-artesao",
+    "nome": "Ferramentas de Artesão",
+    "nome_en": "Artisan's Tools",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "ferramenta",
+      "artesão",
+      "ferreiro",
+      "carpinteiro",
+      "alquimista",
+      "calígrafo",
+      "cozinheiro"
+    ],
+    "resumo": "As 17 ferramentas de artesão: atributo, uso e o que fabricam.",
+    "texto": "Cada uma exige proficiência própria.\n\n**Ferramentas de Carpinteiro (8 PO, 3 kg).** Força. *Usar Objeto:* lacrar ou abrir uma porta ou recipiente (CD 20). *Fabrica:* Aríete Portável, Baliza, Barril, Baú, Cajado, Clava, Clava Grande, Escada, Tocha.\n\n**Ferramentas de Cartógrafo (15 PO, 3 kg).** Sabedoria. *Usar Objeto:* desenhar o mapa de uma área pequena (CD 15). *Fabrica:* Mapa.\n\n**Ferramentas de Coureiro (5 PO, 2,5 kg).** Destreza. *Usar Objeto:* decorar um item de couro (CD 10). *Fabrica:* Algibeira, Aljava, Armadura de Couro, Couro Batido, Cantil, Chicote, Estojo de Mapa ou Pergaminho, Estojo de Virotes, Funda, Gibão de Peles, Mochila, Pergaminho.\n\n**Ferramentas de Entalhador (1 PO, 2,5 kg).** Destreza. *Usar Objeto:* entalhar um padrão em madeira (CD 10). *Fabrica:* armas à distância (exceto Funda, Mosquete e Pistola), Cajado, Caneta Tinteiro, Clava, Clava Grande, Dardos, Flechas, Foco Arcano, Foco Druídico, Virotes.\n\n**Ferramentas de Ferreiro (20 PO, 4 kg).** Força. *Usar Objeto:* forçar a abertura de uma porta ou recipiente (CD 20). *Fabrica:* armas corpo a corpo (exceto Cajado, Chicote, Clava e Clava Grande), armaduras Médias (exceto Gibão de Peles) e Pesadas, Arpéu, Balas, Balde, Corrente, Esferas de Metal, Estacas de Ferro, Estrepes, Pote de Ferro, Pé de Cabra.\n\n**Ferramentas de Funileiro (50 PO, 5 kg).** Destreza. *Usar Objeto:* montar com sucata um item Minúsculo que se desfaz em 1 minuto (CD 20). *Fabrica:* Apito Sinalizador, Armadilha de Caça, Cadeado, Caixa para Fogo, Espelho, Grilhões, Lanternas, Mosquete, Pá, Pistola, Pote, Sino.\n\n**Ferramentas de Joalheiro (25 PO, 1 kg).** Inteligência. *Usar Objeto:* avaliar o valor de uma gema (CD 15). *Fabrica:* Foco Arcano, Símbolo Sagrado.\n\n**Ferramentas de Oleiro (10 PO, 1,5 kg).** Inteligência. *Usar Objeto:* descobrir o que foi feito com um objeto de cerâmica nas últimas 24 horas (CD 15). *Fabrica:* Jarro, Lâmpada.\n\n**Ferramentas de Pedreiro (10 PO, 4 kg).** Força. *Usar Objeto:* gravar um símbolo ou abrir um furo em pedra (CD 10). *Fabrica:* Roldana e Polias.\n\n**Ferramentas de Sapateiro (5 PO, 2,5 kg).** Destreza. *Usar Objeto:* ajustar um calçado para dar Vantagem no próximo teste de Destreza (Acrobacia) de quem o usa (CD 10). *Fabrica:* Kit de Escalada.\n\n**Ferramentas de Tecelão (1 PO, 2,5 kg).** Destreza. *Usar Objeto:* consertar um rasgo em roupa ou costurar um enfeite Minúsculo (CD 10). *Fabrica:* Armadura Acolchoada, Cesta, Cobertor, Corda, Cordão, Rede, Roupas Finas, Roupas de Viagem, Saca, Saco de Dormir, Tenda, Túnica.\n\n**Ferramentas de Vidreiro (30 PO, 2,5 kg).** Inteligência. *Usar Objeto:* descobrir o que foi feito com um objeto de vidro nas últimas 24 horas (CD 15). *Fabrica:* Frasco, Garrafa de Vidro, Luneta, Lupa.\n\n**Suprimentos de Alquimista (50 PO, 4 kg).** Inteligência. *Usar Objeto:* identificar uma substância (CD 15) ou acender fogo (CD 15). *Fabrica:* Ácido, Bolsa de Componentes, Fogo Alquímico, Óleo, Papel, Perfume.\n\n**Suprimentos de Calígrafo (10 PO, 2,5 kg).** Destreza. *Usar Objeto:* escrever com uma caligrafia difícil de falsificar (CD 15). *Fabrica:* Pergaminho Mágico, Tinta.\n\n**Suprimentos de Cervejeiro (20 PO, 4,5 kg).** Inteligência. *Usar Objeto:* perceber bebida envenenada (CD 15) ou identificar uma bebida alcoólica (CD 10). *Fabrica:* Antitoxina.\n\n**Suprimentos de Pintor (10 PO, 2,5 kg).** Sabedoria. *Usar Objeto:* pintar uma imagem reconhecível de algo que você viu (CD 10). *Fabrica:* Foco Druídico, Símbolo Sagrado.\n\n**Utensílios de Cozinheiro (1 PO, 4 kg).** Sabedoria. *Usar Objeto:* melhorar o sabor da comida (CD 10) ou perceber comida estragada ou envenenada (CD 15). *Fabrica:* Rações.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Ferramentas"
+  },
+  {
+    "id": "outras-ferramentas",
+    "nome": "Outras Ferramentas",
+    "nome_en": "Other Tools",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "ferramenta",
+      "ladrão",
+      "instrumento",
+      "disfarce",
+      "herbalismo",
+      "jogos",
+      "veneno",
+      "navegador"
+    ],
+    "resumo": "Ferramentas de Ladrão, de Navegador, kits de Disfarce, Falsificação, Herbalismo, Jogos, Venenos e Instrumentos.",
+    "texto": "**Ferramentas de Ladrão (25 PO, 0,5 kg).** Destreza. *Usar Objeto:* abrir uma fechadura (CD 15) ou desarmar uma armadilha (CD 15).\n\n**Ferramentas de Navegador (25 PO, 1 kg).** Sabedoria. *Usar Objeto:* traçar uma rota (CD 10) ou descobrir sua posição pelas estrelas (CD 15).\n\n**Instrumento Musical (varia).** Carisma. *Usar Objeto:* tocar uma música conhecida (CD 10) ou improvisar (CD 15). *Variantes:* Alaúde (35 PO), Flauta (2 PO), Flauta de Pã (12 PO), Gaita de Foles (30 PO), Lira (30 PO), Oboé (2 PO), Tambor (6 PO), Trombeta (3 PO), Violino (30 PO), Xilofone (25 PO).\n\n**Kit de Disfarce (25 PO, 1,5 kg).** Carisma. *Usar Objeto:* aplicar maquiagem (CD 10). *Fabrica:* Fantasia.\n\n**Kit de Falsificação (15 PO, 2,5 kg).** Destreza. *Usar Objeto:* imitar até 10 palavras escritas por outra pessoa (CD 15) ou copiar um selo de cera (CD 20).\n\n**Kit de Herbalismo (5 PO, 1,5 kg).** Inteligência. *Usar Objeto:* identificar uma planta (CD 10). *Fabrica:* Antitoxina, Kit de Curandeiro, Poção de Cura, Vela.\n\n**Kit de Jogos (varia).** Sabedoria. *Usar Objeto:* perceber se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20). *Variantes:* Dados (1 PP), Xadrez-do-Dragão (1 PO), Baralho (5 PP), Jogo dos Três Dragões (1 PO).\n\n**Kit de Venenos (50 PO, 1 kg).** Inteligência. *Usar Objeto:* perceber um objeto envenenado (CD 10). *Fabrica:* [[veneno-basico|Veneno Básico]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Ferramentas"
+  },
+  {
+    "id": "equipamento-de-aventura",
+    "nome": "Equipamento de Aventura",
+    "nome_en": "Adventuring Gear",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "equipamento",
+      "preço",
+      "loja",
+      "comprar"
+    ],
+    "resumo": "Tabela de preços e pesos de todos os itens de aventura.",
+    "texto": "Itens com regras próprias têm ficha separada (toque no nome).\n\n| Item | Peso | Custo |\n|---|---|---|\n| [[acido|Ácido]] | 0,5 kg | 25 PO |\n| [[agua-benta|Água Benta]] | 0,5 kg | 25 PO |\n| Algibeira (3 kg de carga) | 0,5 kg | 5 PP |\n| Aljava (20 Flechas) | 0,5 kg | 1 PO |\n| [[antitoxina|Antitoxina]] | — | 50 PO |\n| Apito Sinalizador (ouvido a 180 m) | — | 5 PC |\n| Aríete Portável (+4 em Força para arrombar) | 16,5 kg | 4 PO |\n| [[armadilha-de-caca|Armadilha de Caça]] | 12,5 kg | 5 PO |\n| [[arpeu|Arpéu]] | 2 kg | 2 PO |\n| Balde | 1 kg | 5 PC |\n| Baliza (3 m) | 3,5 kg | 5 PC |\n| Barril (160 litros) | 35 kg | 2 PO |\n| Baú | 12,5 kg | 5 PO |\n| Bolsa de Componentes | 1 kg | 25 PO |\n| Cadeado (abrir sem chave: CD 15) | 0,5 kg | 10 PO |\n| Caixa para Fogo | 0,5 kg | 5 PP |\n| Caneta Tinteiro | — | 2 PC |\n| Cantil (2 litros) | 2,5 kg | 2 PP |\n| Cesta | 1 kg | 4 PP |\n| Cobertor | 1,5 kg | 5 PP |\n| [[corda|Corda]] | 2,5 kg | 1 PO |\n| Cordão (3 m) | — | 1 PP |\n| [[corrente|Corrente]] | 5 kg | 5 PO |\n| Escada (3 m) | 12,5 kg | 1 PP |\n| [[esferas-de-metal|Esferas de Metal]] | 1 kg | 1 PO |\n| Espelho | 0,25 kg | 5 PO |\n| Estacas de Ferro (10) | 2,5 kg | 1 PO |\n| Estojo de Mapa ou Pergaminho | 0,5 kg | 1 PO |\n| Estojo de Virotes (20) | 0,5 kg | 1 PO |\n| [[estrepes|Estrepes]] | 1 kg | 1 PO |\n| Fantasia | 2 kg | 5 PO |\n| [[focos-de-conjuracao|Foco Arcano / Druídico]] | varia | varia |\n| [[fogo-alquimico|Fogo Alquímico]] | 0,5 kg | 50 PO |\n| Frasco (150 ml) | — | 1 PO |\n| Garrafa de Vidro (1 litro) | 1 kg | 2 PO |\n| [[grilhoes|Grilhões]] | 3 kg | 2 PO |\n| Jarro (4 litros) | 2 kg | 2 PC |\n| [[pacotes-de-equipamento|Kits (pacotes)]] | varia | 10–40 PO |\n| [[kit-de-curandeiro|Kit de Curandeiro]] | 1,5 kg | 5 PO |\n| Kit de Escalada | 6 kg | 25 PO |\n| [[iluminacao|Lâmpada]] | 0,5 kg | 5 PP |\n| [[iluminacao|Lanterna Coberta]] | 1 kg | 5 PO |\n| [[iluminacao|Lanterna Foca-Facho]] | 1 kg | 10 PO |\n| Livro | 2,5 kg | 25 PO |\n| Luneta | 0,5 kg | 1.000 PO |\n| Lupa | — | 100 PO |\n| Mapa | — | 1 PO |\n| Mochila (15 kg de carga) | 2,5 kg | 2 PO |\n| [[municao-itens|Munição]] | varia | varia |\n| [[oleo|Óleo]] | 0,5 kg | 1 PP |\n| Pá | 2,5 kg | 2 PO |\n| Papel | — | 2 PP |\n| Pé de Cabra | 2,5 kg | 2 PO |\n| Perfume | — | 5 PO |\n| Pergaminho | — | 1 PP |\n| [[pergaminho-magico|Pergaminho Mágico]] (truque / 1º círculo) | — | 30 / 50 PO |\n| [[pocao-de-cura|Poção de Cura]] | 0,25 kg | 50 PO |\n| Pote (meio litro) | 0,5 kg | 2 PC |\n| Pote de Ferro (4 litros) | 5 kg | 2 PO |\n| Rações (1 dia) | 1 kg | 5 PP |\n| [[rede|Rede]] | 1,5 kg | 1 PO |\n| Roldana e Polias | 2,5 kg | 1 PO |\n| Roupas Finas | 3 kg | 15 PO |\n| Roupas de Viagem | 2 kg | 2 PO |\n| Saca (15 kg de carga) | 0,25 kg | 1 PC |\n| Saco de Dormir | 3,5 kg | 1 PO |\n| [[focos-de-conjuracao|Símbolo Sagrado]] | varia | 5 PO |\n| Sino (ouvido a 18 m) | — | 1 PO |\n| Tenda (2 pessoas) | 10 kg | 2 PO |\n| Tinta | — | 10 PO |\n| [[iluminacao|Tocha]] | 0,5 kg | 1 PC |\n| Túnica | 2 kg | 1 PO |\n| [[iluminacao|Vela]] | — | 1 PC |\n| [[veneno-basico|Veneno Básico]] | — | 100 PO |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Regras"
+  },
+  {
+    "id": "acido",
+    "nome": "Ácido",
+    "nome_en": "Acid",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "acid",
+      "arremessar"
+    ],
+    "resumo": "Arremesso: salvaguarda de Destreza ou 2d6 de dano Ácido.",
+    "texto": "*Equipamento de aventura · 25 PO*\n\nNa ação [[atacar|Atacar]], troque um ataque por arremessar um frasco de Ácido numa criatura ou objeto que você veja a até 6 m. O alvo faz salvaguarda de Destreza (CD 8 + mod. de Destreza + Bônus de Proficiência) ou sofre 2d6 de dano Ácido.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "agua-benta",
+    "nome": "Água Benta",
+    "nome_en": "Holy Water",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "holy water",
+      "morto-vivo"
+    ],
+    "resumo": "Arremesso: 2d8 Radiante em Ínferos e Mortos-vivos.",
+    "texto": "*Equipamento de aventura · 25 PO*\n\nNa ação Atacar, troque um ataque por arremessar um frasco de Água Benta numa criatura que você veja a até 6 m. Ela faz salvaguarda de Destreza (CD 8 + mod. de Destreza + Bônus de Proficiência) ou, se for um Ínfero ou Morto-vivo, sofre 2d8 de dano Radiante.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "antitoxina",
+    "nome": "Antitoxina",
+    "nome_en": "Antitoxin",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "antitoxin",
+      "veneno"
+    ],
+    "resumo": "Ação Bônus: Vantagem contra Envenenado por 1 hora.",
+    "texto": "*Equipamento de aventura · 50 PO*\n\nComo Ação Bônus, beba um frasco para ter Vantagem por 1 hora nas salvaguardas para evitar ou encerrar a condição [[envenenado|Envenenado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "armadilha-de-caca",
+    "nome": "Armadilha de Caça",
+    "nome_en": "Hunting Trap",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "trap",
+      "armadilha"
+    ],
+    "resumo": "Salvaguarda de Destreza CD 13 ou 1d4 Perfurante e Deslocamento 0.",
+    "texto": "*Equipamento de aventura · 5 PO*\n\nCom a ação Usar Objeto você arma a armadilha, presa por corrente a algo fixo. Quem pisa na placa faz salvaguarda de Destreza CD 13 ou sofre 1d4 de dano Perfurante e fica com Deslocamento 0 até o início do próximo turno dela. Depois, enquanto presa, só se move até o limite da corrente (geralmente 1 m).\n\nUma criatura pode usar uma ação para fazer um teste de Força (Atletismo) CD 13 e soltar a si mesma ou outra ao seu alcance. Cada falha causa 1 de dano Perfurante à presa.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "arpeu",
+    "nome": "Arpéu",
+    "nome_en": "Grappling Hook",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "grappling hook",
+      "escalar"
+    ],
+    "resumo": "Arremessa a até 15 m e prende com teste de Destreza (Acrobacia) CD 13.",
+    "texto": "*Equipamento de aventura · 2 PO*\n\nCom a ação Usar Objeto, arremesse o Arpéu num parapeito, beiral ou outra superfície a até 15 m; ele prende se você passar num teste de Destreza (Acrobacia) CD 13. Com uma corda amarrada, dá para escalar.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "corda",
+    "nome": "Corda",
+    "nome_en": "Rope",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "rope",
+      "amarrar"
+    ],
+    "resumo": "Nó (CD 10), romper (CD 20) e amarrar criaturas.",
+    "texto": "*Equipamento de aventura · 1 PO*\n\nCom a ação Usar Objeto, você dá um nó com um teste de Destreza (Prestidigitação) CD 10. Romper a corda exige Força (Atletismo) CD 20.\n\nVocê só amarra uma criatura que não queira se ela estiver [[agarrado|Imobilizada]], [[impedido|Contida]] ou [[incapacitado|Incapacitada]]. Com as pernas amarradas, ela fica Contida até escapar. Escapar exige uma ação e um teste de Destreza (Acrobacia) CD 15.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "corrente",
+    "nome": "Corrente",
+    "nome_en": "Chain",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "chain",
+      "prender"
+    ],
+    "resumo": "Prende uma criatura (Força CD 13); escapar CD 18; arrebentar CD 20.",
+    "texto": "*Equipamento de aventura · 5 PO*\n\nCom a ação Usar Objeto, você enrola a corrente numa criatura que não queira, a até 1,5 m, que esteja [[agarrado|Imobilizada]], [[impedido|Contida]] ou [[incapacitado|Incapacitada]], se passar num teste de Força (Atletismo) CD 13. Com as pernas presas, ela fica Contida até escapar.\n\nEscapar exige uma ação e Destreza (Acrobacia) CD 18. Arrebentar a corrente exige uma ação e Força (Atletismo) CD 20.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "esferas-de-metal",
+    "nome": "Esferas de Metal",
+    "nome_en": "Ball Bearings",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "ball bearings",
+      "bolinhas"
+    ],
+    "resumo": "Área de 3 m: salvaguarda de Destreza CD 10 ou Caído.",
+    "texto": "*Equipamento de aventura · 1 PO*\n\nCom a ação Usar Objeto, espalhe as esferas num quadrado plano de 3 m de lado a até 3 m de você. Quem entra na área pela primeira vez num turno faz salvaguarda de Destreza CD 10 ou fica [[caido|Caído]]. Recolher leva 10 minutos.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "estrepes",
+    "nome": "Estrepes",
+    "nome_en": "Caltrops",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "caltrops"
+    ],
+    "resumo": "Área de 1,5 m: salvaguarda de Destreza CD 15 ou 1 Perfurante e Deslocamento 0.",
+    "texto": "*Equipamento de aventura · 1 PO*\n\nCom a ação Usar Objeto, espalhe os estrepes num quadrado de 1,5 m de lado a até 1,5 m de você. Quem entra na área pela primeira vez num turno faz salvaguarda de Destreza CD 15 ou sofre 1 de dano Perfurante e fica com Deslocamento 0 até o início do próximo turno dela. Recolher leva 10 minutos.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "fogo-alquimico",
+    "nome": "Fogo Alquímico",
+    "nome_en": "Alchemist's Fire",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "alchemist's fire",
+      "fogo"
+    ],
+    "resumo": "Arremesso: 1d4 Ígneo e o alvo pega fogo.",
+    "texto": "*Equipamento de aventura · 50 PO*\n\nNa ação Atacar, troque um ataque por arremessar um frasco numa criatura ou objeto que você veja a até 6 m. O alvo faz salvaguarda de Destreza (CD 8 + mod. de Destreza + Bônus de Proficiência) ou sofre 1d4 de dano Ígneo e entra em combustão (veja Em Chamas no Glossário).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "grilhoes",
+    "nome": "Grilhões",
+    "nome_en": "Manacles",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "manacles",
+      "algemas"
+    ],
+    "resumo": "Prende criatura Pequena ou Média: Desvantagem em ataques; escapar CD 20.",
+    "texto": "*Equipamento de aventura · 2 PO*\n\nCom a ação Usar Objeto, você prende uma criatura Pequena ou Média que não queira, a até 1,5 m, que esteja Imobilizada, Contida ou Incapacitada, se passar num teste de Destreza (Prestidigitação) CD 13. Presa, ela tem Desvantagem nas jogadas de ataque, e fica [[impedido|Contida]] se os grilhões estiverem presos a uma corrente ou gancho fixo.\n\nEscapar: ação e Destreza (Prestidigitação) CD 20. Arrebentar: ação e Força (Atletismo) CD 25. Vem com chave; sem ela, abrir com Ferramentas de Ladrão exige Destreza (Prestidigitação) CD 15.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "kit-de-curandeiro",
+    "nome": "Kit de Curandeiro",
+    "nome_en": "Healer's Kit",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "healer's kit",
+      "estabilizar"
+    ],
+    "resumo": "10 usos: estabiliza uma criatura a 0 PV sem teste.",
+    "texto": "*Equipamento de aventura · 5 PO*\n\nTem dez usos. Com a ação Usar Objeto, gaste um uso para estabilizar uma criatura [[inconsciente|Inconsciente]] com 0 PV, sem precisar de teste de Sabedoria (Medicina). Veja também o talento [[curandeiro|Curandeiro]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "iluminacao",
+    "nome": "Lâmpada, Lanterna, Tocha e Vela",
+    "nome_en": "Light Sources",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "luz",
+      "tocha",
+      "lanterna",
+      "lâmpada",
+      "vela",
+      "iluminação"
+    ],
+    "resumo": "Quanto cada fonte de luz ilumina e por quanto tempo.",
+    "texto": "*Equipamento de aventura · 1 PC a 10 PO*\n\n| Fonte | Luz Plena | Meia-luz extra | Duração |\n|---|---|---|---|\n| Vela | 1,5 m | +1,5 m | 1 hora |\n| Tocha | 6 m | +6 m | 1 hora |\n| Lâmpada | 4,5 m | +9 m | 6 h por pote de Óleo |\n| Lanterna Coberta | 9 m | +9 m | 6 h por pote de Óleo |\n| Lanterna Foca-Facho | Cone de 18 m | +18 m | 6 h por pote de Óleo |\n\n- **Lanterna Coberta.** Com uma Ação Bônus você baixa a cobertura (só Meia-luz em 1,5 m) ou levanta de novo.\n- **Tocha como arma.** Na ação Atacar, você pode golpear com a Tocha como arma Simples corpo a corpo; se acertar, causa 1 de dano Ígneo.\n- **Acender.** Com uma Caixa para Fogo, acender Lâmpada, Lanterna, Tocha ou Vela é uma Ação Bônus; outro fogo leva 1 minuto.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "municao-itens",
+    "nome": "Munição",
+    "nome_en": "Ammunition",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "flecha",
+      "virote",
+      "bala",
+      "agulha"
+    ],
+    "resumo": "Quantidade, onde guardar, peso e custo de cada tipo de munição.",
+    "texto": "*Equipamento de aventura · varia*\n\n| Tipo | Qtd. | Guardada em | Peso | Custo |\n|---|---|---|---|---|\n| Agulhas | 50 | Algibeira | 0,5 kg | 1 PO |\n| Balas de arma de fogo | 10 | Algibeira | 1 kg | 3 PO |\n| Balas de funda | 20 | Algibeira | 0,75 kg | 4 PC |\n| Flechas | 20 | Aljava | 0,5 kg | 1 PO |\n| Virotes | 20 | Estojo | 0,75 kg | 1 PO |\n\nO recipiente é comprado à parte. Veja a propriedade [[municao|Munição]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "oleo",
+    "nome": "Óleo",
+    "nome_en": "Oil",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "oil",
+      "fogo"
+    ],
+    "resumo": "Arremesso para encharcar (+5 Ígneo), poça em chamas ou combustível.",
+    "texto": "*Equipamento de aventura · 1 PP*\n\n**Encharcar.** Na ação Atacar, troque um ataque por arremessar um pote de Óleo numa criatura ou objeto a até 6 m. O alvo faz salvaguarda de Destreza (CD 8 + mod. de Destreza + Bônus de Proficiência) ou fica coberto de óleo. Se sofrer dano Ígneo antes de o óleo secar (1 minuto), sofre mais 5 de dano Ígneo.\n\n**Poça.** Com a ação Usar Objeto, despeje o pote num quadrado de 1,5 m a até 1,5 m de você. Aceso, queima até o fim do turno 2 rodadas depois e causa 5 de dano Ígneo a quem entrar ou terminar o turno na área (uma vez por turno).\n\n**Combustível.** Um pote dura 6 horas numa Lâmpada ou Lanterna, não necessariamente seguidas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "pergaminho-magico",
+    "nome": "Pergaminho Mágico",
+    "nome_en": "Spell Scroll",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "spell scroll",
+      "pergaminho"
+    ],
+    "resumo": "Conjura a magia escrita se ela estiver na lista da sua classe; CD 13 e ataque +5.",
+    "texto": "*Equipamento de aventura · 30 PO (truque) / 50 PO (1º círculo)*\n\nItem mágico com um truque ou magia de 1º círculo. Se a magia estiver na lista da sua classe, você lê o pergaminho e conjura a magia no tempo normal, sem componentes Materiais. Se a magia exigir salvaguarda ou ataque, a CD é 13 e o bônus de ataque é +5. O pergaminho se desfaz ao fim da conjuração.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "pocao-de-cura",
+    "nome": "Poção de Cura",
+    "nome_en": "Potion of Healing",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "potion",
+      "poção",
+      "cura"
+    ],
+    "resumo": "Ação Bônus: beber ou dar a alguém a 1,5 m; recupera 2d4 + 2 PV.",
+    "texto": "*Equipamento de aventura · 50 PO*\n\nItem mágico. Como Ação Bônus, você bebe a poção ou a dá a outra criatura a até 1,5 m. Quem bebe recupera 2d4 + 2 PV.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "rede",
+    "nome": "Rede",
+    "nome_en": "Net",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "net",
+      "contido"
+    ],
+    "resumo": "Arremesso a 4,5 m: salvaguarda de Destreza ou Contido.",
+    "texto": "*Equipamento de aventura · 1 PO*\n\nNa ação Atacar, troque um ataque por arremessar a Rede numa criatura que você veja a até 4,5 m. Ela faz salvaguarda de Destreza (CD 8 + mod. de Destreza + Bônus de Proficiência) ou fica [[impedido|Contida]] até se soltar. Criaturas Enormes ou maiores passam automaticamente.\n\nPara soltar, o alvo ou alguém a até 1,5 m usa uma ação para um teste de Força (Atletismo) CD 10. Destruir a rede (CA 10, 5 PV, imune a dano Contundente, Psíquico e Venenoso) também solta.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "veneno-basico",
+    "nome": "Veneno Básico",
+    "nome_en": "Basic Poison",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "poison",
+      "veneno"
+    ],
+    "resumo": "Ação Bônus: cobre uma arma ou 3 munições; +1d4 Venenoso por 1 minuto.",
+    "texto": "*Equipamento de aventura · 100 PO*\n\nComo Ação Bônus, cubra uma arma ou até três peças de munição. Uma criatura que sofrer dano Perfurante ou Cortante dela sofre mais 1d4 de dano Venenoso. O veneno dura 1 minuto ou até seu dano ser causado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "focos-de-conjuracao",
+    "nome": "Focos de Conjuração",
+    "nome_en": "Spellcasting Focus",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "foco",
+      "foco arcano",
+      "símbolo sagrado",
+      "foco druídico",
+      "bolsa de componentes"
+    ],
+    "resumo": "Foco Arcano, Foco Druídico e Símbolo Sagrado: formas, quem usa e preços.",
+    "texto": "*Equipamento de aventura · varia*\n\n**Foco Arcano** (Bruxo, Feiticeiro, Mago): Cajado (2 kg, 5 PO), Cetro (1 kg, 10 PO), Cristal (0,5 kg, 10 PO), Orbe (1,5 kg, 20 PO), Varinha (0,5 kg, 10 PO).\n\n**Foco Druídico** (Druida, Guardião): Cajado de madeira (2 kg, 5 PO), Ramo de visco (1 PO), Varinha de teixo (0,5 kg, 10 PO).\n\n**Símbolo Sagrado** (Clérigo, Paladino): Amuleto, usado ou segurado (0,5 kg, 5 PO); Emblema, exibido em tecido ou num Escudo (5 PO); Relicário, segurado (1 kg, 5 PO).\n\n**Bolsa de Componentes (25 PO).** À prova d'água, guarda todos os componentes Materiais sem custo das suas magias.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "pacotes-de-equipamento",
+    "nome": "Kits de Equipamento",
+    "nome_en": "Equipment Packs",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item",
+      "kit",
+      "pacote",
+      "pack",
+      "kit de aventureiro",
+      "kit de explorador de masmorras"
+    ],
+    "resumo": "O que vem em cada kit: Aventureiro, Explorador de Masmorras, Sacerdote, Erudito e outros.",
+    "texto": "*Equipamento de aventura · 10 a 40 PO*\n\n- **Kit de Artista (40 PO).** Caixa para Fogo, Cantil, Espelho, 3 Fantasias, Lanterna Foca-Facho, Mochila, 8 potes de Óleo, 9 dias de Rações, Saco de Dormir, Sino.\n- **Kit de Assaltante (16 PO).** Caixa para Fogo, Cantil, Corda, Esferas de Metal, Lanterna Coberta, Mochila, 7 potes de Óleo, Pé de Cabra, 5 dias de Rações, Sino, 10 Velas.\n- **Kit de Aventureiro (10 PO).** Caixa para Fogo, Cantil, Corda, Mochila, 2 potes de Óleo, 10 dias de Rações, Saco de Dormir, 10 Tochas.\n- **Kit de Diplomata (39 PO).** Baú, Caixa para Fogo, 5 Canetas Tinteiro, 2 Estojos de Mapa ou Pergaminho, Lâmpada, 4 potes de Óleo, Perfume, 5 folhas de Papel, 5 folhas de Pergaminho, Roupas Finas, Tinta.\n- **Kit de Erudito (40 PO).** Caixa para Fogo, Caneta Tinteiro, Lâmpada, Livro, Mochila, 10 potes de Óleo, 10 folhas de Pergaminho, Tinta.\n- **Kit de Explorador de Masmorras (12 PO).** Caixa para Fogo, Cantil, Corda, Estrepes, Mochila, 2 potes de Óleo, Pé de Cabra, 10 dias de Rações, 10 Tochas.\n- **Kit de Sacerdote (33 PO).** Água Benta, Caixa para Fogo, Cobertor, Lâmpada, Mochila, 7 dias de Rações, Túnica.\n\n**Outros itens úteis:** Kit de Escalada (ancora você: não cai mais de 7,5 m do ponto, e soltar é Ação Bônus); Livro de não ficção (+5 em testes de Inteligência sobre o tema); Mapa (+5 em Sabedoria (Sobrevivência) para se orientar ali); Lupa (Vantagem para examinar algo muito detalhado); Pé de Cabra (Vantagem em testes de Força onde a alavanca ajuda); Perfume (Vantagem em Persuasão com Humanoide Indiferente a 1,5 m, por 1 hora); Fantasia (Vantagem para se passar pelo tipo de pessoa que ela representa); Cobertor e Saco de Dormir (ajudam contra frio extremo).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Item"
+  },
+  {
+    "id": "montarias-e-veiculos",
+    "nome": "Montarias e Veículos",
+    "nome_en": "Mounts and Vehicles",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "montaria",
+      "cavalo",
+      "veículo",
+      "navio",
+      "barco",
+      "sela",
+      "carroça"
+    ],
+    "resumo": "Preços e carga de montarias, selas, veículos de tração e embarcações.",
+    "texto": "Um animal puxando um veículo move até cinco vezes sua carga básica (incluindo o veículo); vários animais somam as capacidades. Armadura de montaria custa 4× e pesa 2× a armadura normal. A Sela Militar dá Vantagem para continuar montado; a Sela Exótica é necessária para montarias aquáticas ou voadoras.\n\n### Montarias e Animais\n| Animal | Carga | Custo |\n|---|---|---|\n| Camelo | 225 kg | 50 PO |\n| Cavalo de Carga | 270 kg | 50 PO |\n| Cavalo de Guerra | 270 kg | 400 PO |\n| Cavalo de Montaria | 240 kg | 75 PO |\n| Elefante | 660 kg | 200 PO |\n| Mastim | 93 kg | 25 PO |\n| Mula | 210 kg | 8 PO |\n| Pônei | 112 kg | 30 PO |\n\n### Arreios e Veículos de Tração\n| Item | Peso | Custo |\n|---|---|---|\n| Alimentação (por dia) | 5 kg | 5 PC |\n| Biga | 50 kg | 250 PO |\n| Carroça | 100 kg | 15 PO |\n| Carruagem | 300 kg | 100 PO |\n| Estábulo (por dia) | — | 5 PP |\n| Sela Exótica | 20 kg | 60 PO |\n| Sela Militar | 15 kg | 20 PO |\n| Sela de Viagem | 12,5 kg | 10 PO |\n| Trenó | 150 kg | 20 PO |\n| Vagão | 200 kg | 35 PO |\n\n### Embarcações\n| Embarcação | Desloc. | Tripul. | Passag. | Carga (t) | CA | PV | Limiar | Custo |\n|---|---|---|---|---|---|---|---|---|\n| Aeronau | 13 km/h | 10 | 20 | 1 | 13 | 300 | — | 40.000 PO |\n| Barco a Remo | 2,4 km/h | 1 | 3 | — | 11 | 50 | — | 50 PO |\n| Barco de Quilha | 1,6 km/h | 1 | 6 | 0,5 | 15 | 100 | 10 | 3.000 PO |\n| Dracar | 4,8 km/h | 40 | 150 | 10 | 15 | 300 | 15 | 10.000 PO |\n| Galera | 6,5 km/h | 80 | — | 150 | 15 | 500 | 20 | 30.000 PO |\n| Navio de Guerra | 4 km/h | 60 | 60 | 200 | 15 | 500 | 20 | 25.000 PO |\n| Veleiro | 3,2 km/h | 20 | 20 | 100 | 15 | 300 | 15 | 10.000 PO |\n\n- **Vento.** Contra vento forte, metade do deslocamento; sem vento, só a remo. Rio abaixo, some a correnteza (cerca de 4,5 km/h).\n- **Tripulação.** Embarcações maiores que Barco a Remo ou de Quilha precisam do mínimo de trabalhadores qualificados indicado.\n- **Passageiros.** Número em redes de dormir; com cabines privadas, um quinto. Rede: cerca de 5 PP por dia; cabine pequena: 2 PO por dia.\n- **Reparos.** Atracado: 1 dia e 20 PO por PV; metade do tempo e custo num estaleiro.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "servicos",
+    "nome": "Serviços e Estilo de Vida",
+    "nome_en": "Services",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "serviço",
+      "estilo de vida",
+      "hospedagem",
+      "comida",
+      "taverna",
+      "contratar",
+      "conjuração paga"
+    ],
+    "resumo": "Custo de vida, comida, hospedagem, viagem, trabalhadores e magias pagas.",
+    "texto": "### Estilo de Vida\nNo início de cada semana ou mês (o Mestre decide), escolha um estilo de vida e pague por ele. Cobre moradia, comida e manutenção.\n\n| Estilo | Custo por dia |\n|---|---|\n| Miserável | grátis (dorme ao relento, exposto a perigos) |\n| Desvalido | 1 PP |\n| Pobre | 2 PP |\n| Modesto | 1 PO |\n| Confortável | 2 PO |\n| Abastado | 4 PO |\n| Aristocrático | 10 PO |\n\n### Comida, Bebida e Hospedagem\n| Nível | Hospedagem (noite) | Refeição |\n|---|---|---|\n| Desvalido | 7 PC | 1 PC |\n| Pobre | 1 PP | 2 PC |\n| Modesto | 5 PP | 1 PP |\n| Confortável | 8 PP | 2 PP |\n| Abastado | 2 PO | 3 PP |\n| Aristocrático | 4 PO | 6 PP |\n\nCerveja (caneca) 4 PC · Pão (fatia) 2 PC · Queijo (fatia) 1 PP · Vinho comum (garrafa) 2 PP · Vinho bom 10 PO.\n\n### Viagem e Trabalhadores\n| Serviço | Custo |\n|---|---|\n| Carroça dentro da cidade | 1 PC por km |\n| Carroça entre cidades | 2 PC por km |\n| Passagem de navio | 6 PC por km |\n| Pedágio | 1 PC |\n| Mensageiro | 1 PC por km |\n| Trabalhador não qualificado | 2 PP por dia |\n| Trabalhador qualificado | 2 PO por dia (mínimo) |\n\n### Magias Pagas\n| Círculo | Onde encontrar | Custo |\n|---|---|---|\n| Truque | vila, aldeia ou cidade | 30 PO |\n| 1 | vila, aldeia ou cidade | 50 PO |\n| 2 | vila, aldeia ou cidade | 200 PO |\n| 3 | aldeia ou cidade | 300 PO |\n| 4–5 | aldeia ou cidade | 2.000 PO |\n| 6–8 | só cidade | 20.000 PO |\n| 9 | só cidade | 100.000 PO |\n\nComponentes caros da magia são cobrados à parte.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "itens-magicos",
+    "nome": "Itens Mágicos",
+    "nome_en": "Magic Items",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "item mágico",
+      "sintonização",
+      "sintonizar",
+      "attunement",
+      "identificar"
+    ],
+    "resumo": "Identificar, Sintonização (máximo 3), vestir e itens em par.",
+    "texto": "**Identificar.** A magia *Identificar* revela as propriedades. Outra forma: concentre-se no item durante um Descanso Curto, tocando nele; ao fim, você sabe o que ele faz e como usar (mas não descobre maldições). Provar um gole de uma poção revela o efeito dela.\n\n**Sintonização.** Alguns itens exigem um vínculo antes de usar a magia deles; sem ele, só valem os benefícios comuns (um Escudo mágico ainda dá +2 na CA).\n\n- Para se sintonizar, passe um Descanso Curto focado só no item e em contato com ele (não pode ser o mesmo descanso usado para identificá-lo). Se o descanso for interrompido, falha.\n- **No máximo três itens** sintonizados ao mesmo tempo, e nunca duas cópias do mesmo item.\n- A sintonização termina se você deixar de cumprir os pré-requisitos, se o item ficar a mais de 30 m por 24 horas, se você morrer ou se outra criatura se sintonizar com ele. Você também pode encerrá-la com outro Descanso Curto focado no item, salvo se for amaldiçoado.\n\n**Vestir e empunhar.** O item precisa ser usado do jeito certo: botas nos pés, anel no dedo, armadura vestida, arma empunhada. Itens vestíveis se ajustam a qualquer tamanho. Normalmente você só usa um de cada: um par de calçados, de luvas, de braçadeiras, uma armadura, um item de cabeça e uma capa.\n\n**Itens em par.** Botas, luvas e afins só funcionam se você usar as duas peças do mesmo par.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "fabricacao",
+    "nome": "Fabricação",
+    "nome_en": "Crafting",
+    "categoria": "equipamento",
+    "capitulo": "equipamento",
+    "tags": [
+      "fabricar",
+      "crafting",
+      "criar item",
+      "pergaminho",
+      "poção"
+    ],
+    "resumo": "Itens não mágicos, Poções de Cura e Pergaminhos Mágicos: ferramentas, custo e tempo.",
+    "texto": "### Itens Não Mágicos\n- **Ferramentas.** Use a ferramenta indicada em [[ferramentas-de-artesao|Ferramentas de Artesão]] (o Mestre define para itens não listados) e tenha proficiência com ela. Quem ajudar também precisa ter.\n- **Matéria-prima.** Metade do preço de compra (arredondado para baixo). Ex.: Armadura de Placas (1.500 PO) exige 750 PO.\n- **Tempo.** Dias de 8 horas = preço em PO ÷ 10, arredondando para cima. Ex.: Besta Pesada (50 PO) leva 5 dias. Os dias não precisam ser seguidos.\n- **Ajuda.** Divida o tempo pelo número de pessoas trabalhando (normalmente só um ajudante, a critério do Mestre).\n\n### Poção de Cura\nCom proficiência no Kit de Herbalismo, use o kit e 25 PO de matéria-prima por 1 dia (8 horas) para fazer uma [[pocao-de-cura|Poção de Cura]].\n\n### Pergaminho Mágico\nPara escrever um, você precisa de proficiência em Arcanismo, usar tinta com Suprimentos de Calígrafo, ter a magia preparada em cada dia de trabalho e ter os componentes Materiais (consumidos só ao terminar). A magia usa sua CD e seu bônus de ataque; um truque funciona no seu nível.\n\n| Círculo | Tempo | Custo |\n|---|---|---|\n| Truque | 1 dia | 15 PO |\n| 1 | 1 dia | 25 PO |\n| 2 | 3 dias | 100 PO |\n| 3 | 5 dias | 150 PO |\n| 4 | 10 dias | 1.000 PO |\n| 5 | 25 dias | 1.500 PO |\n| 6 | 40 dias | 10.000 PO |\n| 7 | 50 dias | 12.500 PO |\n| 8 | 60 dias | 15.000 PO |\n| 9 | 120 dias | 50.000 PO |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  }
+]
