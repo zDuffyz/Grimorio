@@ -84,3 +84,5 @@ Dentro desta pasta, rode `python -m http.server 8000` e abra `http://localhost:8
 Este trabalho inclui material do System Reference Document 5.2 ("SRD 5.2") da Wizards of the Coast LLC, disponível em https://www.dndbeyond.com/srd. O SRD 5.2 é licenciado sob a Licença Creative Commons Atribuição 4.0 Internacional, disponível em https://creativecommons.org/licenses/by/4.0/legalcode. O texto foi traduzido e adaptado para o português.
 
 Esse aviso de atribuição precisa continuar no app (tela **Sobre e licença**) enquanto houver conteúdo do SRD nele.
+
+Ícones das classes: [game-icons.net](https://game-icons.net), de Lorc e Delapouite, sob a licença [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
