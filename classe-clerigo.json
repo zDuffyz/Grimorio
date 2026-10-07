@@ -1,0 +1,597 @@
+[
+  {
+    "id": "clerigo",
+    "nome": "Clérigo",
+    "nome_en": "Cleric",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "divino",
+      "cura",
+      "sabedoria",
+      "conjurador",
+      "cleric"
+    ],
+    "resumo": "Conjurador divino que cura e protege. D8, Sabedoria.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Clérigo |\n|---|---|\n| Atributo primário | Sabedoria |\n| Dado de Ponto de Vida | D8 por nível de Clérigo |\n| Salvaguardas | Sabedoria e Carisma |\n| Perícias | Escolha 2: História, Intuição, Medicina, Persuasão ou Religião |\n| Armas | Simples |\n| Armaduras | Leves e Médias, e Escudos |\n| Equipamento inicial | (A) Cota de Malha Parcial, Escudo, Maça, Símbolo Sagrado, Kit de Sacerdote e 7 PO; ou (B) 110 PO |\n\n### Pontos de Vida\n- **Nível 1:** 8 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d8 (ou 5) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, treinamento com armaduras Leves e Médias e Escudos, e as características de nível 1. Os espaços de magia seguem as regras de multiclasse.\n\n### Progressão\n| Nível | Prof. | Características | Canalizar | Truques | Magias prep. |\n|---|---|---|---|---|---|\n| 1 | +2 | Conjuração, Ordem Divina | — | 3 | 4 |\n| 2 | +2 | Canalizar Divindade | 2 | 3 | 5 |\n| 3 | +2 | Subclasse | 2 | 3 | 6 |\n| 4 | +2 | Aumento no Valor de Atributo | 2 | 4 | 7 |\n| 5 | +3 | Fulminar Mortos-Vivos | 2 | 4 | 9 |\n| 6 | +3 | Característica de subclasse | 3 | 4 | 10 |\n| 7 | +3 | Golpes Abençoados | 3 | 4 | 11 |\n| 8 | +3 | Aumento no Valor de Atributo | 3 | 4 | 12 |\n| 9 | +4 | — | 3 | 4 | 14 |\n| 10 | +4 | Intervenção Divina | 3 | 5 | 15 |\n| 11 | +4 | — | 3 | 5 | 16 |\n| 12 | +4 | Aumento no Valor de Atributo | 3 | 5 | 16 |\n| 13 | +5 | — | 3 | 5 | 17 |\n| 14 | +5 | Golpes Abençoados Aprimorados | 3 | 5 | 17 |\n| 15 | +5 | — | 3 | 5 | 18 |\n| 16 | +5 | Aumento no Valor de Atributo | 3 | 5 | 18 |\n| 17 | +6 | Característica de subclasse | 3 | 5 | 19 |\n| 18 | +6 | — | 4 | 5 | 20 |\n| 19 | +6 | Dádiva Épica | 4 | 5 | 21 |\n| 20 | +6 | Intervenção Divina Maior | 4 | 5 | 22 |\n\n### Espaços de magia por nível\n| Nível | 1º | 2º | 3º | 4º | 5º | 6º | 7º | 8º | 9º |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | 2 | — | — | — | — | — | — | — | — |\n| 2 | 3 | — | — | — | — | — | — | — | — |\n| 3 | 4 | 2 | — | — | — | — | — | — | — |\n| 4 | 4 | 3 | — | — | — | — | — | — | — |\n| 5 | 4 | 3 | 2 | — | — | — | — | — | — |\n| 6 | 4 | 3 | 3 | — | — | — | — | — | — |\n| 7 | 4 | 3 | 3 | 1 | — | — | — | — | — |\n| 8 | 4 | 3 | 3 | 2 | — | — | — | — | — |\n| 9 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |\n| 10 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |\n| 11 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |\n| 18 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |\n| 19 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |\n| 20 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |\n\n### Características\n- **Nível 1:** [[conjuracao-clerigo|Conjuração]], [[ordem-divina]]\n- **Nível 2:** [[canalizar-divindade-clerigo]]\n- **Nível 3:** subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[fulminar-mortos-vivos]]\n- **Nível 7:** [[golpes-abencoados]]\n- **Nível 10:** [[intervencao-divina]]\n- **Nível 14:** [[golpes-abencoados-aprimorados]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva do Destino)\n- **Nível 20:** [[intervencao-divina-maior]]\n\n### Subclasses\n- [[dominio-da-guerra]]\n- [[dominio-da-luz]]\n- [[dominio-da-trapaca]]\n- [[dominio-da-vida]]"
+  },
+  {
+    "id": "conjuracao-clerigo",
+    "nome": "Conjuração (Clérigo)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 1,
+    "tags": [
+      "clérigo",
+      "magias",
+      "espaços de magia",
+      "truques"
+    ],
+    "resumo": "Magias de Clérigo com Sabedoria; troca a lista inteira a cada Descanso Longo.",
+    "texto": "- **Truques.** Você conhece **3 truques** da lista de Clérigo (sugeridos: [[chama-sagrada|Chama Sagrada]], [[orientacao|Orientação]] e Taumaturgia). Ganha mais um no nível 4 e outro no 10, e pode trocar um a cada nível.\n- **Espaços de magia.** Veja a tabela na [[clerigo|ficha do Clérigo]]. Recupera todos num [[descanso-longo|Descanso Longo]].\n- **Magias preparadas.** Comece com **4 magias de 1º círculo** (sugeridas: [[bencao|Bênção]], [[curar-ferimentos|Curar Ferimentos]], Escudo da Fé e Raio Guia). A quantidade cresce pela coluna *Magias prep.*, sempre de círculos para os quais tenha espaços. Magias sempre preparadas por outras características não contam.\n- **Trocar magias.** Ao terminar um **Descanso Longo**, você pode refazer a lista inteira com outras magias de Clérigo.\n- **Atributo de conjuração:** Sabedoria. **Foco:** Símbolo Sagrado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ordem-divina",
+    "nome": "Ordem Divina",
+    "nome_en": "Divine Order",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 1,
+    "tags": [
+      "clérigo",
+      "protetor",
+      "taumaturgo"
+    ],
+    "resumo": "Escolha Protetor (armas Marciais e armadura Pesada) ou Taumaturgo (truque extra e bônus em Arcanismo/Religião).",
+    "texto": "Escolha um papel sagrado:\n\n- **Protetor.** Proficiência com **armas Marciais** e treinamento com **armadura Pesada**.\n- **Taumaturgo.** Um **truque extra** de Clérigo, e você soma seu modificador de Sabedoria (mínimo +1) aos testes de Inteligência (Arcanismo ou Religião).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "canalizar-divindade-clerigo",
+    "nome": "Canalizar Divindade (Clérigo)",
+    "nome_en": "Channel Divinity",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 2,
+    "tags": [
+      "clérigo",
+      "canalizar divindade",
+      "centelha divina",
+      "expulsar mortos-vivos",
+      "mortos-vivos"
+    ],
+    "resumo": "Usos de poder divino: Centelha Divina e Expulsar Mortos-Vivos (mais com a subclasse).",
+    "texto": "Você canaliza energia divina para efeitos mágicos. A cada uso, escolha um efeito. Você tem **2 usos**, recupera **um** num Descanso Curto e **todos** num Descanso Longo; os usos aumentam para 3 no nível 6 e 4 no 18. A CD dos efeitos é a CD das suas magias de Clérigo.\n\n### Centelha Divina\nCom a ação [[acao-magia|Usar Magia]], aponte o Símbolo Sagrado para outra criatura que você vê a até **9 metros**. Role **1d8 + Sabedoria** e escolha:\n- **curar** a criatura nesse valor; ou\n- obrigá-la a uma **salvaguarda de Constituição**: se falhar, sofre esse valor em dano Necrótico ou Radiante (à sua escolha); se passar, metade.\n\nO dado aumenta para 2d8 no nível 7, 3d8 no 13 e 4d8 no 18.\n\n### Expulsar Mortos-Vivos\nCom a ação Usar Magia, mostre o Símbolo Sagrado. Cada Morto-Vivo à sua escolha a até **9 metros** faz **salvaguarda de Sabedoria**. Quem falhar fica [[amedrontado|Amedrontado]] e [[incapacitado|Incapacitado]] por **1 minuto** e tenta se afastar o máximo possível de você nos turnos dele. O efeito termina para a criatura se ela sofrer dano, ou para todas se você ficar Incapacitado ou morrer.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "fulminar-mortos-vivos",
+    "nome": "Fulminar Mortos-Vivos",
+    "nome_en": "Sear Undead",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 5,
+    "tags": [
+      "clérigo",
+      "mortos-vivos",
+      "radiante"
+    ],
+    "resumo": "Expulsar Mortos-Vivos também causa dano Radiante (Sabedoria × d8).",
+    "texto": "Ao usar **Expulsar Mortos-Vivos** ([[canalizar-divindade-clerigo|Canalizar Divindade]]), role uma quantidade de **d8 igual ao seu modificador de Sabedoria** (mínimo 1d8). Cada Morto-Vivo que falhar na salvaguarda sofre esse total em dano Radiante. Esse dano não encerra o efeito de expulsão.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpes-abencoados",
+    "nome": "Golpes Abençoados",
+    "nome_en": "Blessed Strikes",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 7,
+    "tags": [
+      "clérigo",
+      "golpe divino",
+      "conjuração poderosa",
+      "dano"
+    ],
+    "resumo": "Escolha Conjuração Poderosa (Sabedoria no dano de truques) ou Golpe Divino (+1d8 com arma).",
+    "texto": "Escolha uma opção:\n\n- **Conjuração Poderosa.** Some seu modificador de Sabedoria ao dano de qualquer truque de Clérigo.\n- **Golpe Divino.** Uma vez em cada um dos seus turnos, ao acertar uma criatura com uma jogada de ataque com arma, cause **1d8** de dano extra Necrótico ou Radiante (à sua escolha).\n\nMelhora no nível 14 com [[golpes-abencoados-aprimorados|Golpes Abençoados Aprimorados]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "intervencao-divina",
+    "nome": "Intervenção Divina",
+    "nome_en": "Divine Intervention",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 10,
+    "tags": [
+      "clérigo",
+      "intervenção",
+      "milagre"
+    ],
+    "resumo": "1×/Descanso Longo: lança qualquer magia de Clérigo até 5º círculo sem espaço nem componentes materiais.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], escolha qualquer magia de Clérigo de **5º círculo ou menor** que não use Reação como tempo de conjuração. Você a lança como parte da mesma ação, **sem gastar espaço** e sem componentes Materiais. Depois, só pode usar de novo após um Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpes-abencoados-aprimorados",
+    "nome": "Golpes Abençoados Aprimorados",
+    "nome_en": "Improved Blessed Strikes",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 14,
+    "tags": [
+      "clérigo",
+      "golpe divino",
+      "conjuração poderosa"
+    ],
+    "resumo": "Conjuração Poderosa dá PV temporários; Golpe Divino vira 2d8.",
+    "texto": "A opção escolhida em [[golpes-abencoados|Golpes Abençoados]] melhora:\n\n- **Conjuração Poderosa.** Quando um truque de Clérigo seu causa dano a uma criatura, você pode dar a si mesmo ou a outra criatura a até 18 metros PV temporários iguais ao **dobro do seu modificador de Sabedoria**.\n- **Golpe Divino.** O dano extra passa a **2d8**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "intervencao-divina-maior",
+    "nome": "Intervenção Divina Maior",
+    "nome_en": "Greater Divine Intervention",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 20,
+    "tags": [
+      "clérigo",
+      "desejo",
+      "milagre"
+    ],
+    "resumo": "Intervenção Divina pode lançar Desejo; depois, espera 2d4 Descansos Longos.",
+    "texto": "Ao usar [[intervencao-divina|Intervenção Divina]], você pode escolher **Desejo**. Se fizer isso, só pode usar Intervenção Divina de novo depois de **2d4 Descansos Longos**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dominio-da-guerra",
+    "nome": "Domínio da Guerra",
+    "nome_en": "War Domain",
+    "categoria": "classe",
+    "de": "clerigo",
+    "subclasse": "Domínio da Guerra",
+    "sub_curto": "Guerra",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "clérigo",
+      "guerra"
+    ],
+    "resumo": "Clérigo guerreiro: ataques extras e golpes certeiros.",
+    "texto": "Clérigos de deuses da guerra, seja da honra e do cavalheirismo ou da destruição e da pilhagem. Eles se destacam no campo de batalha e inspiram os outros a lutar.\n\n- **Nível 3:** [[magias-dominio-guerra]], [[ataque-direcionado]], [[sacerdote-da-guerra]]\n- **Nível 6:** [[bencao-do-deus-da-guerra]]\n- **Nível 17:** [[avatar-da-guerra]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "magias-dominio-guerra",
+    "nome": "Magias do Domínio da Guerra",
+    "nome_en": "War Domain Spells",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "guerra",
+      "magias de domínio"
+    ],
+    "resumo": "Magias sempre preparadas do domínio.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Clérigo indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Arma Espiritual, Arma Mágica, Escudo da Fé, Raio Guia |\n| 5 | Guardiões Espirituais, Manto do Cruzado |\n| 7 | Escudo Ardente, Movimentação Livre |\n| 9 | Golpe de Aço, Paralisar Monstro |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Guerra",
+    "sub_curto": "Guerra"
+  },
+  {
+    "id": "ataque-direcionado",
+    "nome": "Ataque Direcionado",
+    "nome_en": "Guided Strike",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "guerra",
+      "ataque",
+      "+10"
+    ],
+    "resumo": "Canalizar Divindade: +10 numa jogada de ataque que errou (sua ou de aliado a 9 m).",
+    "texto": "Quando você ou uma criatura a até **9 metros** erra uma jogada de ataque, você pode gastar um uso de [[canalizar-divindade-clerigo|Canalizar Divindade]] para dar **+10** a essa jogada, podendo fazê-la acertar. Se o ataque for de outra criatura, você usa sua **Reação**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Guerra",
+    "sub_curto": "Guerra"
+  },
+  {
+    "id": "sacerdote-da-guerra",
+    "nome": "Sacerdote da Guerra",
+    "nome_en": "War Priest",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "guerra",
+      "ação bônus",
+      "ataque"
+    ],
+    "resumo": "Ataque com Ação Bônus, Sabedoria vezes por descanso.",
+    "texto": "Com uma **Ação Bônus**, você pode fazer um ataque com arma ou um [[ataque-desarmado|Ataque Desarmado]]. Usos iguais ao seu modificador de Sabedoria (mínimo 1); recupera tudo num **Descanso Curto ou Longo**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Guerra",
+    "sub_curto": "Guerra"
+  },
+  {
+    "id": "bencao-do-deus-da-guerra",
+    "nome": "Bênção do Deus da Guerra",
+    "nome_en": "War God's Blessing",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 6,
+    "tags": [
+      "clérigo",
+      "guerra",
+      "concentração"
+    ],
+    "resumo": "Canalizar Divindade lança Arma Espiritual ou Escudo da Fé sem Concentração.",
+    "texto": "Você pode gastar um uso de [[canalizar-divindade-clerigo|Canalizar Divindade]] em vez de um espaço para lançar **Arma Espiritual** ou **Escudo da Fé**. Lançada assim, a magia **não exige Concentração** e dura 1 minuto, terminando antes se você lançá-la de novo, ficar Incapacitado ou morrer.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Guerra",
+    "sub_curto": "Guerra"
+  },
+  {
+    "id": "avatar-da-guerra",
+    "nome": "Avatar da Guerra",
+    "nome_en": "Avatar of Battle",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 17,
+    "tags": [
+      "clérigo",
+      "guerra",
+      "resistência"
+    ],
+    "resumo": "Resistência a dano Contundente, Cortante e Perfurante.",
+    "texto": "Você tem Resistência a dano **Contundente, Cortante e Perfurante**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Guerra",
+    "sub_curto": "Guerra"
+  },
+  {
+    "id": "dominio-da-luz",
+    "nome": "Domínio da Luz",
+    "nome_en": "Light Domain",
+    "categoria": "classe",
+    "de": "clerigo",
+    "subclasse": "Domínio da Luz",
+    "sub_curto": "Luz",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "clérigo",
+      "luz",
+      "sol"
+    ],
+    "resumo": "Clérigo de fogo e luz radiante que dissipa a escuridão.",
+    "texto": "Clérigos de deuses da verdade, da vigilância, da beleza e da renovação, muitas vezes ligados ao sol. Eles afastam mentiras e dissipam as trevas com chamas e revelação.\n\n- **Nível 3:** [[brilho-do-amanhecer]], [[labareda-protetora]], [[magias-dominio-luz]]\n- **Nível 6:** [[labareda-protetora-aprimorada]]\n- **Nível 17:** [[coroa-de-luz]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "brilho-do-amanhecer",
+    "nome": "Brilho do Amanhecer",
+    "nome_en": "Radiance of the Dawn",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "luz",
+      "radiante",
+      "área"
+    ],
+    "resumo": "Canalizar Divindade: dissipa escuridão mágica e causa 2d10 + nível Radiante a 9 m.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste um uso de [[canalizar-divindade-clerigo|Canalizar Divindade]] para emitir luz numa emanação de **9 metros** ao seu redor. Escuridão mágica na área é dissipada, e cada criatura à sua escolha na área faz **salvaguarda de Constituição**: sofre **2d10 + seu nível de Clérigo** de dano Radiante se falhar, ou metade se passar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Luz",
+    "sub_curto": "Luz"
+  },
+  {
+    "id": "labareda-protetora",
+    "nome": "Labareda Protetora",
+    "nome_en": "Warding Flare",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "luz",
+      "reação",
+      "defesa"
+    ],
+    "resumo": "Reação: impõe Desvantagem num ataque de criatura a 9 m.",
+    "texto": "Quando uma criatura que você vê a até **9 metros** faz uma jogada de ataque, você pode usar a **Reação** para impor **Desvantagem** nela, antes de saber se acertou. Usos iguais ao seu modificador de Sabedoria (mínimo 1); recupera tudo num Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Luz",
+    "sub_curto": "Luz"
+  },
+  {
+    "id": "magias-dominio-luz",
+    "nome": "Magias do Domínio da Luz",
+    "nome_en": "Light Domain Spells",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "luz",
+      "magias de domínio"
+    ],
+    "resumo": "Magias sempre preparadas do domínio.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Clérigo indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Fogo das Fadas, Mãos Flamejantes, Raio Ardente, Ver o Invisível |\n| 5 | Bola de Fogo, Luz do Dia |\n| 7 | Muralha de Fogo, Olho Arcano |\n| 9 | Coluna de Chamas, Vidência |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Luz",
+    "sub_curto": "Luz"
+  },
+  {
+    "id": "labareda-protetora-aprimorada",
+    "nome": "Labareda Protetora Aprimorada",
+    "nome_en": "Improved Warding Flare",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 6,
+    "tags": [
+      "clérigo",
+      "luz",
+      "pv temporários"
+    ],
+    "resumo": "Labareda recupera no Descanso Curto e dá 2d6 + Sabedoria de PV temporários ao alvo do ataque.",
+    "texto": "Você recupera os usos de [[labareda-protetora|Labareda Protetora]] também num **Descanso Curto**. Ao usá-la, pode dar ao alvo do ataque **2d6 + Sabedoria** de Pontos de Vida Temporários.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Luz",
+    "sub_curto": "Luz"
+  },
+  {
+    "id": "coroa-de-luz",
+    "nome": "Coroa de Luz",
+    "nome_en": "Corona of Light",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 17,
+    "tags": [
+      "clérigo",
+      "luz",
+      "aura",
+      "desvantagem"
+    ],
+    "resumo": "Aura de luz por 1 min: inimigos nela têm Desvantagem contra seu fogo e luz.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], você emite luz solar por **1 minuto** (ou até encerrar, sem ação): Luz Plena num raio de 18 metros e Meia-luz por mais 9. Inimigos na Luz Plena têm **Desvantagem nas salvaguardas** contra seu [[brilho-do-amanhecer|Brilho do Amanhecer]] e contra magias que causem dano de **Fogo ou Radiante**. Usos iguais ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Luz",
+    "sub_curto": "Luz"
+  },
+  {
+    "id": "dominio-da-trapaca",
+    "nome": "Domínio da Trapaça",
+    "nome_en": "Trickery Domain",
+    "categoria": "classe",
+    "de": "clerigo",
+    "subclasse": "Domínio da Trapaça",
+    "sub_curto": "Trapaça",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "clérigo",
+      "trapaça",
+      "ilusão"
+    ],
+    "resumo": "Clérigo de ilusões, furtividade e duplicatas.",
+    "texto": "Clérigos de deuses trapaceiros e rebeldes, patronos de ladrões, apostadores e libertadores. Preferem truques e armadilhas ao confronto direto e gostam de zombar de tiranos.\n\n- **Nível 3:** [[magias-dominio-trapaca]], [[bencao-do-trapaceiro]], [[invocar-duplicidade]]\n- **Nível 6:** [[transposicao-do-trapaceiro]]\n- **Nível 17:** [[duplicidade-aprimorada]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "magias-dominio-trapaca",
+    "nome": "Magias do Domínio da Trapaça",
+    "nome_en": "Trickery Domain Spells",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "trapaça",
+      "magias de domínio"
+    ],
+    "resumo": "Magias sempre preparadas do domínio.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Clérigo indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Disfarçar-se, Enfeitiçar Pessoa, Invisibilidade, Passo Sem Rastro |\n| 5 | Indetectável, Padrão Hipnótico |\n| 7 | Confusão, Porta Dimensional |\n| 9 | Dominar Pessoa, Modificar Memória |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Trapaça",
+    "sub_curto": "Trapaça"
+  },
+  {
+    "id": "bencao-do-trapaceiro",
+    "nome": "Bênção do Trapaceiro",
+    "nome_en": "Blessing of the Trickster",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "trapaça",
+      "furtividade"
+    ],
+    "resumo": "Dá Vantagem em Furtividade a você ou a um aliado até o próximo Descanso Longo.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], escolha você ou uma criatura voluntária a até 9 metros. Ela tem **Vantagem em testes de Destreza (Furtividade)** até você terminar um Descanso Longo ou usar esta característica de novo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Trapaça",
+    "sub_curto": "Trapaça"
+  },
+  {
+    "id": "invocar-duplicidade",
+    "nome": "Invocar Duplicidade",
+    "nome_en": "Invoke Duplicity",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "trapaça",
+      "ilusão",
+      "duplicata"
+    ],
+    "resumo": "Canalizar Divindade: cria uma ilusão de você por 1 minuto; dá Vantagem e serve de ponto para magias.",
+    "texto": "Com uma **Ação Bônus**, gaste um uso de [[canalizar-divindade-clerigo|Canalizar Divindade]] para criar uma ilusão visual perfeita de você num espaço livre que veja a até **9 metros**. Ela é intangível, imita seus gestos e dura **1 minuto**, ou até você ficar Incapacitado ou encerrá-la (sem ação). Enquanto existir:\n\n- **Lançar magias.** Você pode lançar magias como se estivesse no espaço da ilusão, mas usando seus próprios sentidos.\n- **Distração.** Se você e a ilusão estiverem a até 1,5 metro de uma criatura que vê a ilusão, você tem **Vantagem** nas jogadas de ataque contra ela.\n- **Mover.** Com uma Ação Bônus, mova a ilusão até 9 metros para um espaço livre a até 36 metros de você.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Trapaça",
+    "sub_curto": "Trapaça"
+  },
+  {
+    "id": "transposicao-do-trapaceiro",
+    "nome": "Transposição do Trapaceiro",
+    "nome_en": "Trickster's Transposition",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 6,
+    "tags": [
+      "clérigo",
+      "trapaça",
+      "teleporte"
+    ],
+    "resumo": "Ao criar ou mover a ilusão, troca de lugar com ela.",
+    "texto": "Ao usar a Ação Bônus para criar ou mover a ilusão de [[invocar-duplicidade|Invocar Duplicidade]], você pode se **teleportar, trocando de lugar** com ela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Trapaça",
+    "sub_curto": "Trapaça"
+  },
+  {
+    "id": "duplicidade-aprimorada",
+    "nome": "Duplicidade Aprimorada",
+    "nome_en": "Improved Duplicity",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 17,
+    "tags": [
+      "clérigo",
+      "trapaça",
+      "vantagem",
+      "cura"
+    ],
+    "resumo": "Aliados também ganham Vantagem perto da ilusão; ela cura ao acabar.",
+    "texto": "A ilusão de [[invocar-duplicidade|Invocar Duplicidade]] melhora:\n\n- **Distração compartilhada.** Você e seus aliados têm **Vantagem** em jogadas de ataque contra criaturas a até 1,5 metro da ilusão.\n- **Ilusão de cura.** Quando a ilusão termina, você ou uma criatura à sua escolha a até 1,5 metro dela recupera PV iguais ao seu **nível de Clérigo**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Domínio da Trapaça",
+    "sub_curto": "Trapaça"
+  },
+  {
+    "id": "dominio-da-vida",
+    "nome": "Domínio da Vida",
+    "nome_en": "Life Domain",
+    "categoria": "classe",
+    "de": "clerigo",
+    "subclasse": "Domínio da Vida",
+    "sub_curto": "Vida",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "clérigo",
+      "vida",
+      "cura"
+    ],
+    "resumo": "Clérigo curandeiro, mestre da energia positiva.",
+    "texto": "Clérigos ligados à energia positiva que sustenta a vida: deuses da agricultura, da cura, da resistência, do lar e da comunidade. São os grandes curandeiros.\n\n- **Nível 3:** [[magias-dominio-vida]], [[discipulo-da-vida]], [[preservar-a-vida]]\n- **Nível 6:** [[curandeiro-abencoado]]\n- **Nível 17:** [[cura-suprema]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "magias-dominio-vida",
+    "nome": "Magias do Domínio da Vida",
+    "nome_en": "Life Domain Spells",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "vida",
+      "magias de domínio"
+    ],
+    "resumo": "Magias sempre preparadas do domínio.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Clérigo indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Auxílio, Bênção, Curar Ferimentos, Restauração Menor |\n| 5 | Palavra Curativa em Massa, Revivificar |\n| 7 | Aura de Vida, Proteção Contra a Morte |\n| 9 | Curar Ferimentos em Massa, Restauração Maior |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Domínio da Vida",
+    "sub_curto": "Vida"
+  },
+  {
+    "id": "discipulo-da-vida",
+    "nome": "Discípulo da Vida",
+    "nome_en": "Disciple of Life",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "vida",
+      "cura"
+    ],
+    "resumo": "Magias de cura com espaço curam mais 2 + círculo.",
+    "texto": "Quando uma magia que você lança **com espaço de magia** restaura PV de uma criatura, ela recupera mais **2 + o círculo do espaço** naquele turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Domínio da Vida",
+    "sub_curto": "Vida"
+  },
+  {
+    "id": "preservar-a-vida",
+    "nome": "Preservar a Vida",
+    "nome_en": "Preserve Life",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 3,
+    "tags": [
+      "clérigo",
+      "vida",
+      "cura em grupo"
+    ],
+    "resumo": "Canalizar Divindade: divide 5 × nível em cura entre criaturas Sangrando a 9 m.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste um uso de [[canalizar-divindade-clerigo|Canalizar Divindade]] para curar um total de **5 × seu nível de Clérigo**, dividido como quiser entre criaturas **Sangrando** (com metade dos PV ou menos) a até 9 metros, incluindo você. Ninguém passa da metade do máximo de PV com esta cura.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Domínio da Vida",
+    "sub_curto": "Vida"
+  },
+  {
+    "id": "curandeiro-abencoado",
+    "nome": "Curandeiro Abençoado",
+    "nome_en": "Blessed Healer",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 6,
+    "tags": [
+      "clérigo",
+      "vida",
+      "cura"
+    ],
+    "resumo": "Curar outra criatura com espaço também cura você em 2 + círculo.",
+    "texto": "Logo depois de lançar, com espaço de magia, uma magia que restaure PV de **outra** criatura, você recupera **2 + o círculo do espaço**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Domínio da Vida",
+    "sub_curto": "Vida"
+  },
+  {
+    "id": "cura-suprema",
+    "nome": "Cura Suprema",
+    "nome_en": "Supreme Healing",
+    "categoria": "classe",
+    "de": "clerigo",
+    "nivel": 17,
+    "tags": [
+      "clérigo",
+      "vida",
+      "cura máxima"
+    ],
+    "resumo": "Dados de cura sempre no máximo.",
+    "texto": "Quando você restaura PV com uma magia ou com Canalizar Divindade, não rola os dados: usa o **valor máximo** de cada um. Por exemplo, 2d6 vira 12.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Domínio da Vida",
+    "sub_curto": "Vida"
+  }
+]

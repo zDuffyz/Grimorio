@@ -7,9 +7,11 @@
     regra:    { rotulo: "Regra",    plural: "Regras",    letra: "R", cor: "var(--cat-regra)" },
     condicao: { rotulo: "Condição", plural: "Condições", letra: "C", cor: "var(--cat-condicao)" },
     acao:     { rotulo: "Ação",     plural: "Ações",     letra: "A", cor: "var(--cat-acao)" },
-    magia:    { rotulo: "Magia",    plural: "Magias",    letra: "M", cor: "var(--cat-magia)" }
+    magia:    { rotulo: "Magia",    plural: "Magias",    letra: "M", cor: "var(--cat-magia)" },
+    classe:   { rotulo: "Classe",   plural: "Classes",   letra: "Cl", cor: "var(--cat-classe)" }
   };
-  var ORDEM_CAT = ["regra", "condicao", "acao", "magia"];
+  var ORDEM_CAT = ["regra", "condicao", "acao", "magia", "classe"];
+  var FONTE_PADRAO = "SRD 5.2 · tradução para consulta de mesa";
 
   var estado = {
     entradas: [],
@@ -84,7 +86,7 @@
         while (i < linhas.length && linhas[i].trim().charAt(0) === "|") { bloco.push(linhas[i]); i++; }
         var cab = celulas(bloco[0]);
         var corpo = bloco.slice(1).filter(function (b) { return !/^\|?\s*:?-{2,}/.test(b.trim()); });
-        var t = "<div class=\"tabela\"><table><thead><tr>" +
+        var t = "<div class=\"tabela\"><table" + (cab.length >= 8 ? " class=\"larga muito-larga\"" : cab.length >= 5 ? " class=\"larga\"" : "") + "><thead><tr>" +
           cab.map(function (c) { return "<th>" + inline(c) + "</th>"; }).join("") + "</tr></thead><tbody>" +
           corpo.map(function (b) { return "<tr>" + celulas(b).map(function (c) { return "<td>" + inline(c) + "</td>"; }).join("") + "</tr>"; }).join("") +
           "</tbody></table></div>";
@@ -106,6 +108,17 @@
   }
 
   /* ---------- busca ---------- */
+  // Termos antigos ou alternativos que também devem encontrar a entrada
+  var SINONIMOS = [
+    ["salvaguarda", "teste de resistencia"],
+    ["imobiliz", "agarrado agarrar agarrao"],
+    ["contido", "impedido restrito"],
+    ["correr", "disparada"],
+    ["analisar", "estudar"],
+    ["usar magia", "acao magia conjurar"],
+    ["trilha", "caminho"]
+  ];
+
   function prepararIndice(e) {
     e._nome = normalizar(e.nome);
     e._en = normalizar(e.nome_en);
@@ -113,6 +126,8 @@
     e._resumo = normalizar(e.resumo);
     e._texto = normalizar(String(e.texto || "").replace(/\[\[[a-z0-9\-]+\|?/g, "").replace(/[\]*#|]/g, " "));
     e._refs = referencias(e.texto);
+    var tudo = e._nome + " " + e._tags + " " + e._resumo + " " + e._texto;
+    SINONIMOS.forEach(function (s) { if (tudo.indexOf(s[0]) >= 0) e._tags += " " + s[1]; });
   }
 
   function pontuar(e, consulta, termos) {
@@ -136,6 +151,15 @@
   function ordenarPadrao(a, b) {
     var ca = ORDEM_CAT.indexOf(a.categoria), cb = ORDEM_CAT.indexOf(b.categoria);
     if (ca !== cb) return ca - cb;
+    if (a.categoria === "classe") {
+      var ka = a.de || a.id, kb = b.de || b.id;
+      if (ka !== kb) return ka.localeCompare(kb, "pt-BR");
+      var ra = !a.de ? 0 : (a.subclasse ? 2 : 1), rb = !b.de ? 0 : (b.subclasse ? 2 : 1);
+      if (ra !== rb) return ra - rb;
+      if (a.subclasse !== b.subclasse) return String(a.subclasse).localeCompare(String(b.subclasse), "pt-BR");
+      if (a.tipo !== b.tipo) return a.tipo === "subclasse" ? -1 : 1;
+      if ((a.nivel || 0) !== (b.nivel || 0)) return (a.nivel || 0) - (b.nivel || 0);
+    }
     if (a.magia && b.magia && a.magia.nivel !== b.magia.nivel) return a.magia.nivel - b.magia.nivel;
     return a.nome.localeCompare(b.nome, "pt-BR");
   }
@@ -148,7 +172,10 @@
       return true;
     });
     var consulta = normalizar(estado.busca).trim();
-    if (!consulta) return lista.slice().sort(ordenarPadrao);
+    if (!consulta) {
+      if (estado.filtro !== "favoritos") lista = lista.filter(function (e) { return !e.de; });
+      return lista.sort(ordenarPadrao);
+    }
     var termos = consulta.split(/\s+/);
     return lista
       .map(function (e) { return { e: e, p: pontuar(e, consulta, termos) }; })
@@ -163,11 +190,25 @@
       esc(rotulo) + (n !== undefined ? '<span class="n">' + n + "</span>" : "") + "</button>";
   }
 
-  function contar(cat) { return estado.entradas.filter(function (e) { return e.categoria === cat; }).length; }
+  function contar(cat) { return estado.entradas.filter(function (e) { return (!cat || e.categoria === cat) && !e.de; }).length; }
+
+  function nomeClasse(e) { var c = e.de && estado.porId[e.de]; return c ? c.nome : ""; }
+  function rotuloLado(e) {
+    if (e.magia) return rotuloNivel(e.magia.nivel);
+    if (e.tipo === "subclasse") return "Subclasse";
+    if (e.de) return (e.sub_curto || e.subclasse || nomeClasse(e)) + " " + (e.nivel || "");
+    return (CATEGORIAS[e.categoria] || CATEGORIAS.regra).rotulo;
+  }
+  function rotuloFicha(e, cat) {
+    if (e.magia) return cat.rotulo + " · " + e.magia.escola;
+    if (e.tipo === "subclasse") return "Subclasse de " + nomeClasse(e);
+    if (e.de) return (e.subclasse || nomeClasse(e)) + " · Nível " + e.nivel;
+    return cat.rotulo;
+  }
 
   function itemLista(e) {
     var cat = CATEGORIAS[e.categoria] || CATEGORIAS.regra;
-    var lado = e.magia ? rotuloNivel(e.magia.nivel) : cat.rotulo;
+    var lado = rotuloLado(e);
     var fav = favoritos.indexOf(e.id) >= 0 ? ' <span class="estrela" aria-label="Favorito">★</span>' : "";
     return '<li><a class="item" href="#' + e.id + '" style="--cor:' + cat.cor + '">' +
       '<span class="selo" aria-hidden="true">' + cat.letra + "</span>" +
@@ -178,7 +219,7 @@
 
   function vistaLista() {
     var res = resultados();
-    var filtros = chip("todas", "Tudo", estado.filtro === "todas", estado.entradas.length) +
+    var filtros = chip("todas", "Tudo", estado.filtro === "todas", contar(null)) +
       ORDEM_CAT.map(function (c) { return chip(c, CATEGORIAS[c].plural, estado.filtro === c, contar(c)); }).join("") +
       chip("favoritos", "★ Favoritos", estado.filtro === "favoritos", favoritos.filter(function (id) { return estado.porId[id]; }).length);
 
@@ -235,6 +276,7 @@
     var chegando = estado.entradas.filter(function (o) { return o.id !== e.id && o._refs.indexOf(e.id) >= 0 && saindo.indexOf(o.id) < 0; })
       .map(function (o) { return o.id; });
     var rel = saindo.concat(chegando);
+    if (e.categoria === "classe" && (!e.de || e.tipo === "subclasse")) rel = []; // a ficha já lista tudo
     var relacionados = rel.length
       ? '<section class="relacionados"><h3>Veja também</h3><div>' +
         rel.map(function (id) { var o = estado.porId[id]; return '<a class="chip" href="#' + id + '">' + esc(o.nome) + "</a>"; }).join("") +
@@ -244,14 +286,14 @@
     app.innerHTML = '<article class="vista" style="--cor:' + cat.cor + '">' +
       '<button type="button" class="voltar" id="voltar">← Voltar</button>' +
       '<header class="ficha-cab"><div>' +
-      '<div class="ficha-cat">' + esc(cat.rotulo) + (e.magia ? " · " + esc(e.magia.escola) : "") + "</div>" +
+      '<div class="ficha-cat">' + esc(rotuloFicha(e, cat)) + "</div>" +
       "<h2>" + esc(e.nome) + "</h2>" +
       (e.nome_en ? '<div class="ficha-en">' + esc(e.nome_en) + "</div>" : "") +
       '</div><button type="button" class="favoritar" id="favoritar" aria-pressed="' + fav + '" aria-label="' + (fav ? "Remover dos favoritos" : "Adicionar aos favoritos") + '">' + (fav ? "★" : "☆") + "</button></header>" +
       bloco +
       '<div class="corpo">' + formatar(e.texto) + "</div>" +
       relacionados +
-      '<p class="fonte-ficha">Fonte: ' + esc(e.fonte || "SRD 5.2") + " · tradução para consulta de mesa.</p>" +
+      '<p class="fonte-ficha">Fonte: ' + esc(e.fonte || FONTE_PADRAO) + ".</p>" +
       "</article>";
   }
 
@@ -262,6 +304,7 @@
       "<p>O Grimório de Mesa reúne regras de Dungeons &amp; Dragons (edição 2024) para consulta rápida durante o jogo. O conteúdo é atualizado pelo narrador e chega automaticamente quando o app é aberto com internet. Sem internet, o app mostra a última versão baixada.</p>" +
       "<p>Versão do conteúdo: <strong>" + esc(estado.versao || "—") + "</strong>.</p>" +
       '<p class="licenca">Este trabalho inclui material do System Reference Document 5.2 (“SRD 5.2”) da Wizards of the Coast LLC, disponível em <a href="https://www.dndbeyond.com/srd" target="_blank" rel="noopener">dndbeyond.com/srd</a>. O SRD 5.2 é licenciado sob a Licença Creative Commons Atribuição 4.0 Internacional, disponível em <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" rel="noopener">creativecommons.org/licenses/by/4.0/legalcode</a>. O texto foi traduzido e adaptado para o português.</p>' +
+      '<p class="licenca">Algumas entradas trazem um resumo das regras do Livro do Jogador (2024) escrito com outras palavras, para consulta da mesa. A fonte de cada entrada aparece no fim da ficha.</p>' +
       "</section>";
   }
 

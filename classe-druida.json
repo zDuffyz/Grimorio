@@ -1,0 +1,636 @@
+[
+  {
+    "id": "druida",
+    "nome": "Druida",
+    "nome_en": "Druid",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "natureza",
+      "forma selvagem",
+      "sabedoria",
+      "conjurador",
+      "druid"
+    ],
+    "resumo": "Conjurador da natureza que vira animal. D8, Sabedoria.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Druida |\n|---|---|\n| Atributo primário | Sabedoria |\n| Dado de Ponto de Vida | D8 por nível de Druida |\n| Salvaguardas | Inteligência e Sabedoria |\n| Perícias | Escolha 2: Arcanismo, Intuição, Lidar com Animais, Medicina, Natureza, Percepção, Religião ou Sobrevivência |\n| Armas | Simples |\n| Ferramentas | Kit de Herbalismo |\n| Armaduras | Leves e Escudos |\n| Equipamento inicial | (A) Armadura de Couro, Escudo, Foice, Foco Druídico (cajado), Kit de Explorador, Kit de Herbalismo e 9 PO; ou (B) 50 PO |\n\n### Pontos de Vida\n- **Nível 1:** 8 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d8 (ou 5) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, treinamento com armaduras Leves e Escudos, e as características de nível 1. Os espaços de magia seguem as regras de multiclasse.\n\n### Progressão\n| Nível | Prof. | Características | Forma Selvagem | Truques | Magias prep. |\n|---|---|---|---|---|---|\n| 1 | +2 | Conjuração, Idioma Druídico, Ordem Primal | — | 2 | 4 |\n| 2 | +2 | Companheiro Selvagem, Forma Selvagem | 2 | 2 | 5 |\n| 3 | +2 | Subclasse | 2 | 2 | 6 |\n| 4 | +2 | Aumento no Valor de Atributo | 2 | 3 | 7 |\n| 5 | +3 | Ressurgimento Selvagem | 2 | 3 | 9 |\n| 6 | +3 | Característica de subclasse | 3 | 3 | 10 |\n| 7 | +3 | Fúria Elemental | 3 | 3 | 11 |\n| 8 | +3 | Aumento no Valor de Atributo | 3 | 3 | 12 |\n| 9 | +4 | — | 3 | 3 | 14 |\n| 10 | +4 | Característica de subclasse | 3 | 4 | 15 |\n| 11 | +4 | — | 3 | 4 | 16 |\n| 12 | +4 | Aumento no Valor de Atributo | 3 | 4 | 16 |\n| 13 | +5 | — | 3 | 4 | 17 |\n| 14 | +5 | Característica de subclasse | 3 | 4 | 17 |\n| 15 | +5 | Fúria Elemental Aprimorada | 3 | 4 | 18 |\n| 16 | +5 | Aumento no Valor de Atributo | 3 | 4 | 18 |\n| 17 | +6 | — | 4 | 4 | 19 |\n| 18 | +6 | Magias Bestiais | 4 | 4 | 20 |\n| 19 | +6 | Dádiva Épica | 4 | 4 | 21 |\n| 20 | +6 | Arquidruida | 4 | 4 | 22 |\n\n### Espaços de magia por nível\n| Nível | 1º | 2º | 3º | 4º | 5º | 6º | 7º | 8º | 9º |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | 2 | — | — | — | — | — | — | — | — |\n| 2 | 3 | — | — | — | — | — | — | — | — |\n| 3 | 4 | 2 | — | — | — | — | — | — | — |\n| 4 | 4 | 3 | — | — | — | — | — | — | — |\n| 5 | 4 | 3 | 2 | — | — | — | — | — | — |\n| 6 | 4 | 3 | 3 | — | — | — | — | — | — |\n| 7 | 4 | 3 | 3 | 1 | — | — | — | — | — |\n| 8 | 4 | 3 | 3 | 2 | — | — | — | — | — |\n| 9 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |\n| 10 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |\n| 11 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |\n| 18 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |\n| 19 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |\n| 20 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |\n\n### Características\n- **Nível 1:** [[conjuracao-druida|Conjuração]], [[idioma-druidico]], [[ordem-primal]]\n- **Nível 2:** [[companheiro-selvagem]], [[forma-selvagem]]\n- **Nível 3:** subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[ressurgimento-selvagem]]\n- **Nível 7:** [[furia-elemental]]\n- **Nível 15:** [[furia-elemental-aprimorada]]\n- **Nível 18:** [[magias-bestiais]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva da Viagem Dimensional)\n- **Nível 20:** [[arquidruida]]\n\n### Subclasses\n- [[circulo-da-lua]]\n- [[circulo-da-terra]]\n- [[circulo-das-estrelas]]\n- [[circulo-do-mar]]"
+  },
+  {
+    "id": "conjuracao-druida",
+    "nome": "Conjuração (Druida)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 1,
+    "tags": [
+      "druida",
+      "magias",
+      "espaços de magia",
+      "truques"
+    ],
+    "resumo": "Magias de Druida com Sabedoria; troca a lista inteira a cada Descanso Longo.",
+    "texto": "- **Truques.** Você conhece **2 truques** da lista de Druida (sugeridos: Arte Druídica e Criar Chamas). Ganha mais um no nível 4 e outro no 10, e pode trocar um a cada nível.\n- **Espaços de magia.** Veja a tabela na [[druida|ficha do Druida]]. Recupera todos num [[descanso-longo|Descanso Longo]].\n- **Magias preparadas.** Comece com **4 magias de 1º círculo** (sugeridas: Amizade Animal, [[curar-ferimentos|Curar Ferimentos]], Fogo das Fadas e Onda Trovejante). A quantidade cresce pela coluna *Magias prep.*, de círculos para os quais tenha espaços.\n- **Trocar magias.** Ao terminar um **Descanso Longo**, você pode refazer a lista inteira.\n- **Atributo de conjuração:** Sabedoria. **Foco:** Foco Druídico.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "idioma-druidico",
+    "nome": "Idioma Druídico",
+    "nome_en": "Druidic",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 1,
+    "tags": [
+      "druida",
+      "idioma",
+      "animais"
+    ],
+    "resumo": "Fala Druídico e tem Falar com Animais sempre preparada.",
+    "texto": "Você conhece o **Druídico**, a língua secreta dos Druidas, e sempre tem **Falar com Animais** preparada. Pode deixar mensagens ocultas em Druídico: quem conhece o idioma as percebe na hora; outros podem notar que existe uma mensagem com um teste de Inteligência (Investigação) CD 15, mas não a decifram sem magia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ordem-primal",
+    "nome": "Ordem Primal",
+    "nome_en": "Primal Order",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 1,
+    "tags": [
+      "druida",
+      "protetor",
+      "xamã"
+    ],
+    "resumo": "Escolha Protetor (armas Marciais e armadura Média) ou Xamã (truque extra e bônus em Arcanismo/Natureza).",
+    "texto": "Escolha um papel sagrado:\n\n- **Protetor.** Proficiência com **armas Marciais** e treinamento com **armadura Média**.\n- **Xamã.** Um **truque extra** de Druida, e você soma seu modificador de Sabedoria (mínimo +1) aos testes de Inteligência (Arcanismo ou Natureza).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "companheiro-selvagem",
+    "nome": "Companheiro Selvagem",
+    "nome_en": "Wild Companion",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 2,
+    "tags": [
+      "druida",
+      "familiar"
+    ],
+    "resumo": "Gasta espaço ou Forma Selvagem para lançar Convocar Familiar (feérico).",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste um espaço de magia ou um uso de [[forma-selvagem|Forma Selvagem]] para lançar **Convocar Familiar** sem componentes Materiais. O familiar é uma criatura **Feérica** e some quando você termina um Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "forma-selvagem",
+    "nome": "Forma Selvagem",
+    "nome_en": "Wild Shape",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 2,
+    "tags": [
+      "druida",
+      "forma selvagem",
+      "transformação",
+      "animal",
+      "fera"
+    ],
+    "resumo": "Ação Bônus: vira um animal conhecido por horas; ganha PV temporários.",
+    "texto": "Com uma **Ação Bônus**, você se transforma numa forma de **Fera** que conheça. Fica nela por horas iguais à **metade do seu nível de Druida**, até usar Forma Selvagem de novo, ficar [[incapacitado|Incapacitado]] ou morrer. Pode sair antes com uma Ação Bônus.\n\n### Usos\n**2 usos**; recupera **um** num Descanso Curto e **todos** num Descanso Longo. Os usos aumentam pela coluna *Forma Selvagem* da [[druida|tabela]].\n\n### Formas conhecidas\n| Nível | Formas | ND máximo | Voo |\n|---|---|---|---|\n| 2 | 4 | 1/4 | Não |\n| 4 | 6 | 1/2 | Não |\n| 8 | 8 | 1 | Sim |\n\nSugeridas no início: Aranha, Cavalo de Montaria, Lobo e Rato. A cada Descanso Longo, você pode trocar uma forma conhecida.\n\n### Regras na forma\n- **PV temporários.** Ao assumir a forma, ganha PV temporários iguais ao seu **nível de Druida**.\n- **Estatísticas.** Usa o bloco da Fera, mas mantém tipo de criatura, Pontos de Vida, Dados de PV, Inteligência, Sabedoria e Carisma, características de classe, idiomas, talentos e suas proficiências (usando seu Bônus de Proficiência). Se o bloco da Fera tiver modificador de perícia ou salvaguarda maior, use o dela.\n- **Sem magias.** Você não lança magias (até o nível 18), mas a transformação não quebra sua [[concentracao|Concentração]] nem magias já ativas.\n- **Objetos e equipamento.** Você manipula objetos com os membros da forma. Escolha se seu equipamento cai, se funde à forma ou é usado por ela; o Mestre decide o que a forma consegue usar. Equipamento fundido não tem efeito.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ressurgimento-selvagem",
+    "nome": "Ressurgimento Selvagem",
+    "nome_en": "Wild Resurgence",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 5,
+    "tags": [
+      "druida",
+      "forma selvagem",
+      "espaços de magia"
+    ],
+    "resumo": "Troca espaço por Forma Selvagem quando acabar; 1×/Descanso Longo, troca Forma Selvagem por espaço de 1º.",
+    "texto": "- Uma vez por turno, se não tiver usos de [[forma-selvagem|Forma Selvagem]], pode gastar um **espaço de magia** (sem ação) para recuperar um uso.\n- Pode gastar um uso de Forma Selvagem (sem ação) para recuperar um **espaço de 1º círculo**. Isso só pode ser feito uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "furia-elemental",
+    "nome": "Fúria Elemental",
+    "nome_en": "Elemental Fury",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 7,
+    "tags": [
+      "druida",
+      "dano",
+      "ataque primal",
+      "conjuração poderosa"
+    ],
+    "resumo": "Escolha Ataque Primal (+1d8 elemental) ou Conjuração Poderosa (Sabedoria no dano de truques).",
+    "texto": "Escolha uma opção:\n\n- **Ataque Primal.** Uma vez em cada um dos seus turnos, ao acertar uma criatura com uma jogada de ataque usando arma ou um ataque de forma de Fera, cause **1d8** de dano extra Elétrico, Gélido, de Fogo ou Trovejante (escolha ao acertar).\n- **Conjuração Poderosa.** Some seu modificador de Sabedoria ao dano de qualquer truque de Druida.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "furia-elemental-aprimorada",
+    "nome": "Fúria Elemental Aprimorada",
+    "nome_en": "Improved Elemental Fury",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 15,
+    "tags": [
+      "druida",
+      "dano",
+      "alcance"
+    ],
+    "resumo": "Ataque Primal vira 2d8; truques com alcance 3 m+ passam a 90 m.",
+    "texto": "- **Ataque Primal.** O dano extra passa a **2d8**.\n- **Conjuração Poderosa.** Truques de Druida com alcance de 3 metros ou mais passam a ter alcance de **90 metros (300 pés)**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "magias-bestiais",
+    "nome": "Magias Bestiais",
+    "nome_en": "Beast Spells",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 18,
+    "tags": [
+      "druida",
+      "forma selvagem",
+      "magias"
+    ],
+    "resumo": "Lança magias em Forma Selvagem (exceto com componente material caro ou consumido).",
+    "texto": "Em [[forma-selvagem|Forma Selvagem]], você pode lançar magias, exceto as que tenham componente Material com custo informado ou que consumam o componente.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "arquidruida",
+    "nome": "Arquidruida",
+    "nome_en": "Archdruid",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 20,
+    "tags": [
+      "druida",
+      "forma selvagem",
+      "espaços de magia"
+    ],
+    "resumo": "Recupera Forma Selvagem ao rolar Iniciativa, converte usos em espaço de magia e envelhece devagar.",
+    "texto": "- **Forma Selvagem eterna.** Ao rolar [[iniciativa|Iniciativa]] sem usos de [[forma-selvagem|Forma Selvagem]], você recupera um.\n- **Natureza xamânica.** Uma vez por Descanso Longo, converta usos de Forma Selvagem não gastos em **um espaço de magia** (sem ação): cada uso vale 2 círculos. Exemplo: dois usos viram um espaço de 4º círculo.\n- **Longevidade.** Para cada dez anos que passam, seu corpo envelhece só um.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "circulo-da-lua",
+    "nome": "Círculo da Lua",
+    "nome_en": "Circle of the Moon",
+    "categoria": "classe",
+    "de": "druida",
+    "subclasse": "Círculo da Lua",
+    "sub_curto": "Lua",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "druida",
+      "lua",
+      "moon"
+    ],
+    "resumo": "Druida que luta transformado em feras poderosas.",
+    "texto": "Druidas que usam a magia lunar para se transformar. Como a lua, mudam de forma a cada noite: grande felino, águia, urso.\n\n- **Nível 3:** [[formas-do-circulo]], [[magias-circulo-lua]]\n- **Nível 6:** [[formas-do-circulo-aprimoradas]]\n- **Nível 10:** [[passo-lunar]]\n- **Nível 14:** [[forma-lunar]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "formas-do-circulo",
+    "nome": "Formas do Círculo",
+    "nome_en": "Circle Forms",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "lua",
+      "forma selvagem",
+      "nd"
+    ],
+    "resumo": "Forma Selvagem com ND até nível/3, CA mínima 13 + Sabedoria e PV temporários = 3 × nível.",
+    "texto": "Ao usar [[forma-selvagem|Forma Selvagem]], você ganha:\n\n- **Nível de Desafio.** O ND máximo da forma é seu **nível de Druida ÷ 3** (arredondado para baixo).\n- **Classe de Armadura.** Sua CA passa a ser **13 + Sabedoria**, se for maior que a da Fera.\n- **PV temporários.** Você ganha PV temporários iguais a **3 × seu nível de Druida**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo da Lua",
+    "sub_curto": "Lua"
+  },
+  {
+    "id": "magias-circulo-lua",
+    "nome": "Magias do Círculo da Lua",
+    "nome_en": "Circle of the Moon Spells",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "lua",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas, que podem ser lançadas em Forma Selvagem.",
+    "texto": "Você sempre tem estas magias preparadas e **pode lançá-las em Forma Selvagem**:\n\n| Nível | Magias |\n|---|---|\n| 3 | Curar Ferimentos, Fagulha Estelar, Raio Lunar |\n| 5 | Invocar Animais |\n| 7 | Fonte do Luar |\n| 9 | Curar Ferimentos em Massa |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo da Lua",
+    "sub_curto": "Lua"
+  },
+  {
+    "id": "formas-do-circulo-aprimoradas",
+    "nome": "Formas do Círculo Aprimoradas",
+    "nome_en": "Improved Circle Forms",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 6,
+    "tags": [
+      "druida",
+      "lua",
+      "radiante"
+    ],
+    "resumo": "Em Forma Selvagem: ataques podem causar Radiante; soma Sabedoria às salvaguardas de Constituição.",
+    "texto": "Em [[forma-selvagem|Forma Selvagem]]:\n\n- **Radiância lunar.** Cada ataque da forma pode causar o tipo de dano normal ou **Radiante**, à sua escolha a cada acerto.\n- **Vigor.** Você soma seu modificador de Sabedoria às salvaguardas de Constituição.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo da Lua",
+    "sub_curto": "Lua"
+  },
+  {
+    "id": "passo-lunar",
+    "nome": "Passo Lunar",
+    "nome_en": "Moonlight Step",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 10,
+    "tags": [
+      "druida",
+      "lua",
+      "teleporte",
+      "vantagem"
+    ],
+    "resumo": "Ação Bônus: teleporte de 9 m e Vantagem no próximo ataque do turno.",
+    "texto": "Com uma **Ação Bônus**, teleporte-se até **9 metros** para um espaço livre que veja e tenha **Vantagem** na próxima jogada de ataque antes do fim do turno. Usos iguais ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo; você pode recuperar um uso gastando um espaço de 2º círculo ou maior (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo da Lua",
+    "sub_curto": "Lua"
+  },
+  {
+    "id": "forma-lunar",
+    "nome": "Forma Lunar",
+    "nome_en": "Lunar Form",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 14,
+    "tags": [
+      "druida",
+      "lua",
+      "radiante",
+      "teleporte"
+    ],
+    "resumo": "+2d10 Radiante 1×/turno em Forma Selvagem; Passo Lunar leva um aliado.",
+    "texto": "- **Radiância lunar aprimorada.** Uma vez por turno, um alvo que você acertar com um ataque de [[forma-selvagem|Forma Selvagem]] sofre **2d10** de dano Radiante extra.\n- **Luar compartilhado.** Ao usar [[passo-lunar|Passo Lunar]], você pode levar uma criatura voluntária a até 3 metros; ela aparece num espaço livre que você veja a até 3 metros do seu destino.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo da Lua",
+    "sub_curto": "Lua"
+  },
+  {
+    "id": "circulo-da-terra",
+    "nome": "Círculo da Terra",
+    "nome_en": "Circle of the Land",
+    "categoria": "classe",
+    "de": "druida",
+    "subclasse": "Círculo da Terra",
+    "sub_curto": "Terra",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "druida",
+      "terra",
+      "land"
+    ],
+    "resumo": "Druida sábio cujas magias mudam com o terreno escolhido.",
+    "texto": "Místicos e sábios que guardam ritos antigos e se reúnem em círculos de pedras ou árvores. Os mais sábios servem como sumos sacerdotes de suas comunidades.\n\n- **Nível 3:** [[auxilio-da-terra]], [[magias-circulo-terra]]\n- **Nível 6:** [[recuperacao-natural]]\n- **Nível 10:** [[protecao-natural]]\n- **Nível 14:** [[santuario-natural]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "auxilio-da-terra",
+    "nome": "Auxílio da Terra",
+    "nome_en": "Land's Aid",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "terra",
+      "cura",
+      "dano"
+    ],
+    "resumo": "Forma Selvagem: esfera de 3 m causa 2d6 Necrótico e cura 2d6 uma criatura.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste um uso de [[forma-selvagem|Forma Selvagem]] e escolha um ponto a até **18 metros**. Numa esfera de **3 metros** de raio, cada criatura à sua escolha faz **salvaguarda de Constituição** contra sua CD: sofre **2d6** de dano Necrótico se falhar, ou metade se passar. Uma criatura à sua escolha na área recupera **2d6** PV. O dano e a cura sobem para 3d6 no nível 10 e 4d6 no 14.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Círculo da Terra",
+    "sub_curto": "Terra"
+  },
+  {
+    "id": "magias-circulo-terra",
+    "nome": "Magias do Círculo da Terra",
+    "nome_en": "Circle of the Land Spells",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "terra",
+      "magias",
+      "terreno"
+    ],
+    "resumo": "Escolha um terreno a cada Descanso Longo; ganha as magias dele.",
+    "texto": "Ao terminar um Descanso Longo, escolha um terreno. Você tem preparadas as magias dele até o seu nível de Druida:\n\n| Nível | Árido | Polar | Temperado | Tropical |\n|---|---|---|---|---|\n| 3 | Mãos Flamejantes, Raio de Fogo, Turvar | Névoa Obscurecente, Paralisar Pessoa, Raio de Gelo | Passo Nebuloso, Sono, Toque Chocante | Bolha Ácida, Raio Nauseante, Teia |\n| 5 | Bola de Fogo | Nevasca | Relâmpago | Nuvem Fétida |\n| 7 | Malogro | Tempestade Glacial | Movimentação Livre | Polimorfia |\n| 9 | Muralha de Pedra | Cone de Frio | Passo Arbóreo | Praga de Insetos |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Círculo da Terra",
+    "sub_curto": "Terra"
+  },
+  {
+    "id": "recuperacao-natural",
+    "nome": "Recuperação Natural",
+    "nome_en": "Natural Recovery",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 6,
+    "tags": [
+      "druida",
+      "terra",
+      "espaços de magia"
+    ],
+    "resumo": "Uma magia do círculo grátis por Descanso Longo; recupera espaços no Descanso Curto.",
+    "texto": "- Você pode lançar uma das magias de 1º círculo ou maior das [[magias-circulo-terra|Magias do Círculo da Terra]] que tenha preparada **sem gastar espaço**, uma vez por Descanso Longo.\n- Ao terminar um Descanso Curto, você pode recuperar espaços de magia gastos cuja soma de círculos seja no máximo **metade do seu nível de Druida** (arredondado para cima), nenhum de 6º círculo ou maior. Exemplo: no nível 6, recupera um espaço de 3º, ou um de 2º e um de 1º, ou três de 1º. Uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Círculo da Terra",
+    "sub_curto": "Terra"
+  },
+  {
+    "id": "protecao-natural",
+    "nome": "Proteção Natural",
+    "nome_en": "Nature's Ward",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 10,
+    "tags": [
+      "druida",
+      "terra",
+      "resistência",
+      "veneno"
+    ],
+    "resumo": "Imune a Envenenado e Resistência ligada ao terreno.",
+    "texto": "Você é imune à condição [[envenenado|Envenenado]] e tem Resistência a um tipo de dano conforme o terreno escolhido:\n\n| Terreno | Resistência |\n|---|---|\n| Árido | Fogo |\n| Polar | Gélido |\n| Temperado | Elétrico |\n| Tropical | Venenoso |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Círculo da Terra",
+    "sub_curto": "Terra"
+  },
+  {
+    "id": "santuario-natural",
+    "nome": "Santuário Natural",
+    "nome_en": "Nature's Sanctuary",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 14,
+    "tags": [
+      "druida",
+      "terra",
+      "cobertura",
+      "área"
+    ],
+    "resumo": "Forma Selvagem: cubo de árvores espectrais dá meia cobertura e sua resistência aos aliados.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste um uso de [[forma-selvagem|Forma Selvagem]] para criar árvores e vinhas espectrais num **cubo de 4,5 metros** no chão a até 36 metros. Elas duram **1 minuto** (ou até você morrer ou ficar Incapacitado). Você e seus aliados na área têm [[cobertura|meia cobertura]], e os aliados ganham a Resistência atual da sua [[protecao-natural|Proteção Natural]]. Com uma Ação Bônus, você move o cubo até 18 metros.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Círculo da Terra",
+    "sub_curto": "Terra"
+  },
+  {
+    "id": "circulo-das-estrelas",
+    "nome": "Círculo das Estrelas",
+    "nome_en": "Circle of the Stars",
+    "categoria": "classe",
+    "de": "druida",
+    "subclasse": "Círculo das Estrelas",
+    "sub_curto": "Estrelas",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "druida",
+      "estrelas",
+      "stars"
+    ],
+    "resumo": "Druida das constelações: forma estrelada e presságios.",
+    "texto": "Druidas que estudam os padrões do céu desde tempos antigos e buscam dominar os poderes do cosmos.\n\n- **Nível 3:** [[forma-estrelada]], [[mapa-estelar]]\n- **Nível 6:** [[pressagio-cosmico]]\n- **Nível 10:** [[constelacoes-cintilantes]]\n- **Nível 14:** [[repleto-de-estrelas]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "forma-estrelada",
+    "nome": "Forma Estrelada",
+    "nome_en": "Starry Form",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "estrelas",
+      "arqueiro",
+      "dragão",
+      "taça"
+    ],
+    "resumo": "Gasta Forma Selvagem para brilhar com uma constelação: Arqueiro, Dragão ou Taça.",
+    "texto": "Com uma **Ação Bônus**, gaste um uso de [[forma-selvagem|Forma Selvagem]] para assumir uma forma estrelada em vez de se transformar. Você mantém suas estatísticas, emite Luz Plena em 3 metros e Meia-luz por mais 3, por **10 minutos** (ou até dispensar, ficar Incapacitado ou usar de novo). Escolha a constelação:\n\n- **Arqueiro.** Ao ativar e, nos turnos seguintes, com uma Ação Bônus, faça um ataque mágico à distância contra uma criatura a até 18 metros: **1d8 + Sabedoria** de dano Radiante.\n- **Dragão.** Em testes de Inteligência ou Sabedoria, e em salvaguardas de Constituição para manter Concentração, um 9 ou menos no d20 conta como **10**.\n- **Taça.** Sempre que lançar com espaço de magia uma magia que cure, você ou outra criatura a até 9 metros recupera **1d8 + Sabedoria** PV.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo das Estrelas",
+    "sub_curto": "Estrelas"
+  },
+  {
+    "id": "mapa-estelar",
+    "nome": "Mapa Estelar",
+    "nome_en": "Star Map",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "estrelas",
+      "foco",
+      "raio guia"
+    ],
+    "resumo": "Foco que dá Orientação e Raio Guia; Raio Guia grátis (Sabedoria vezes).",
+    "texto": "Você cria um mapa estelar (objeto Miúdo) que serve de foco para suas magias de Druida. Segurando-o, você tem **Orientação** e **Raio Guia** preparadas, e pode lançar Raio Guia sem gastar espaço um número de vezes igual ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo. Se perder o mapa, um ritual de 1 hora (que pode ser feito num descanso) cria outro e destrói o anterior.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo das Estrelas",
+    "sub_curto": "Estrelas"
+  },
+  {
+    "id": "pressagio-cosmico",
+    "nome": "Presságio Cósmico",
+    "nome_en": "Cosmic Omen",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 6,
+    "tags": [
+      "druida",
+      "estrelas",
+      "reação",
+      "d6"
+    ],
+    "resumo": "A cada Descanso Longo, role um dado: par soma 1d6 a Testes de D20, ímpar subtrai.",
+    "texto": "Ao terminar um Descanso Longo, role um dado. Até o próximo Descanso Longo, você tem uma Reação especial:\n\n- **Prosperidade (par).** Quando uma criatura que você vê a até 9 metros faz um [[testes-de-d20|Teste de D20]], use a Reação para rolar **1d6 e somar** ao total.\n- **Infortúnio (ímpar).** Quando uma criatura que você vê a até 9 metros faz um Teste de D20, use a Reação para rolar **1d6 e subtrair** do total.\n\nUsos iguais ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo das Estrelas",
+    "sub_curto": "Estrelas"
+  },
+  {
+    "id": "constelacoes-cintilantes",
+    "nome": "Constelações Cintilantes",
+    "nome_en": "Twinkling Constellations",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 10,
+    "tags": [
+      "druida",
+      "estrelas",
+      "voo"
+    ],
+    "resumo": "Arqueiro e Taça viram 2d8; Dragão dá voo de 6 m; pode trocar a constelação a cada turno.",
+    "texto": "Na [[forma-estrelada|Forma Estrelada]], o 1d8 do Arqueiro e da Taça vira **2d8**, e com o Dragão você tem Deslocamento de Voo de **6 metros** e pode pairar. No início de cada turno na forma, você pode trocar a constelação.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo das Estrelas",
+    "sub_curto": "Estrelas"
+  },
+  {
+    "id": "repleto-de-estrelas",
+    "nome": "Repleto de Estrelas",
+    "nome_en": "Full of Stars",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 14,
+    "tags": [
+      "druida",
+      "estrelas",
+      "resistência"
+    ],
+    "resumo": "Na Forma Estrelada: Resistência a Contundente, Cortante e Perfurante.",
+    "texto": "Na [[forma-estrelada|Forma Estrelada]], você fica parcialmente incorpóreo e tem Resistência a dano **Contundente, Cortante e Perfurante**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo das Estrelas",
+    "sub_curto": "Estrelas"
+  },
+  {
+    "id": "circulo-do-mar",
+    "nome": "Círculo do Mar",
+    "nome_en": "Circle of the Sea",
+    "categoria": "classe",
+    "de": "druida",
+    "subclasse": "Círculo do Mar",
+    "sub_curto": "Mar",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "druida",
+      "mar",
+      "sea"
+    ],
+    "resumo": "Druida das marés e tempestades: aura de água que fere e empurra.",
+    "texto": "Druidas que canalizam a fúria dos oceanos e das tormentas. Alguns se veem como a ira da natureza; outros buscam unidade com as marés e os ventos.\n\n- **Nível 3:** [[ira-do-mar]], [[magias-circulo-mar]]\n- **Nível 6:** [[afinidade-aquatica]]\n- **Nível 10:** [[filho-da-tempestade]]\n- **Nível 14:** [[manifestacao-oceanica]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "ira-do-mar",
+    "nome": "Ira do Mar",
+    "nome_en": "Wrath of the Sea",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "mar",
+      "gélido",
+      "empurrar",
+      "aura"
+    ],
+    "resumo": "Forma Selvagem: aura de 1,5 m por 10 min; Ação Bônus causa dano Gélido e empurra.",
+    "texto": "Com uma **Ação Bônus**, gaste um uso de [[forma-selvagem|Forma Selvagem]] para criar uma emanação de **1,5 metro** de respingos de mar ao seu redor por **10 minutos** (ou até dispensar, criar de novo ou ficar Incapacitado).\n\nAo criar a emanação e, nos turnos seguintes, com uma Ação Bônus, escolha outra criatura que você vê dentro dela. Ela faz **salvaguarda de Constituição** contra sua CD; se falhar, sofre dano **Gélido** igual a uma quantidade de **d6 igual ao seu modificador de Sabedoria** (mínimo 1) e, se for Grande ou menor, é empurrada até **4,5 metros** para longe de você.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo do Mar",
+    "sub_curto": "Mar"
+  },
+  {
+    "id": "magias-circulo-mar",
+    "nome": "Magias do Círculo do Mar",
+    "nome_en": "Circle of the Sea Spells",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 3,
+    "tags": [
+      "druida",
+      "mar",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas do mar e das tempestades.",
+    "texto": "| Nível | Magias |\n|---|---|\n| 3 | Despedaçar, Lufada de Vento, Névoa Obscurecente, Onda Trovejante, Raio de Gelo |\n| 5 | Relâmpago, Respirar na Água |\n| 7 | Controlar Água, Tempestade Glacial |\n| 9 | Invocar Elemental, Paralisar Monstro |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo do Mar",
+    "sub_curto": "Mar"
+  },
+  {
+    "id": "afinidade-aquatica",
+    "nome": "Afinidade Aquática",
+    "nome_en": "Aquatic Affinity",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 6,
+    "tags": [
+      "druida",
+      "mar",
+      "natação"
+    ],
+    "resumo": "A aura da Ira do Mar vira 3 m; ganha natação.",
+    "texto": "A emanação da [[ira-do-mar|Ira do Mar]] passa a ter **3 metros**, e você ganha Deslocamento de Natação igual ao seu Deslocamento.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo do Mar",
+    "sub_curto": "Mar"
+  },
+  {
+    "id": "filho-da-tempestade",
+    "nome": "Filho da Tempestade",
+    "nome_en": "Stormborn",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 10,
+    "tags": [
+      "druida",
+      "mar",
+      "voo",
+      "resistência"
+    ],
+    "resumo": "Com a Ira do Mar ativa: voo e Resistência a Elétrico, Gélido e Trovejante.",
+    "texto": "Enquanto a [[ira-do-mar|Ira do Mar]] estiver ativa, você tem Deslocamento de **Voo** igual ao seu Deslocamento e Resistência a dano **Elétrico, Gélido e Trovejante**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo do Mar",
+    "sub_curto": "Mar"
+  },
+  {
+    "id": "manifestacao-oceanica",
+    "nome": "Manifestação Oceânica",
+    "nome_en": "Oceanic Gift",
+    "categoria": "classe",
+    "de": "druida",
+    "nivel": 14,
+    "tags": [
+      "druida",
+      "mar",
+      "aliado"
+    ],
+    "resumo": "Cria a Ira do Mar em volta de um aliado (ou dos dois, gastando 2 usos).",
+    "texto": "Em vez de criar a [[ira-do-mar|Ira do Mar]] ao seu redor, você pode criá-la ao redor de uma criatura voluntária a até **18 metros**; ela recebe todos os benefícios, usando sua CD e seu modificador de Sabedoria. Gastando **dois** usos de Forma Selvagem, você cria a emanação ao redor de você **e** dela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Círculo do Mar",
+    "sub_curto": "Mar"
+  }
+]

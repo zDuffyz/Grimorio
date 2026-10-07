@@ -1,5 +1,23 @@
 {
-  "versao": "2026.10.06-1",
-  "notas": "Primeira versão: regras básicas, condições, ações e 10 magias do SRD 5.2.",
-  "arquivos": ["regras.json", "condicoes.json", "acoes.json", "magias.json"]
+  "versao": "2026.10.06-3",
+  "notas": "Novo: as 12 classes do Livro do Jogador 2024 com todas as subclasses, Estilos de Luta e correções de regras.",
+  "arquivos": [
+    "regras.json",
+    "condicoes.json",
+    "acoes.json",
+    "magias.json",
+    "classe-barbaro.json",
+    "classe-bardo.json",
+    "classe-bruxo.json",
+    "classe-clerigo.json",
+    "classe-comum.json",
+    "classe-druida.json",
+    "classe-feiticeiro.json",
+    "classe-guardiao.json",
+    "classe-guerreiro.json",
+    "classe-ladino.json",
+    "classe-mago.json",
+    "classe-monge.json",
+    "classe-paladino.json"
+  ]
 }

@@ -13,6 +13,7 @@ App de consulta rápida de regras de D&D 2024 para a mesa. Funciona no celular c
 | `icon-*.png`, `apple-touch-icon.png` | Ícones do app |
 | `index.json` | Versão do conteúdo e lista de arquivos |
 | `regras.json`, `condicoes.json`, `acoes.json`, `magias.json` | O conteúdo |
+| `classe-*.json` | As 12 classes, subclasses e regras comuns de classe |
 
 ## Publicar no GitHub Pages (uma vez só)
 

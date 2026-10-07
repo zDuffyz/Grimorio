@@ -1,0 +1,579 @@
+[
+  {
+    "id": "mago",
+    "nome": "Mago",
+    "nome_en": "Wizard",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "arcano",
+      "livro de magias",
+      "inteligência",
+      "conjurador",
+      "wizard"
+    ],
+    "resumo": "Conjurador estudioso com livro de magias. D6, Inteligência.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Mago |\n|---|---|\n| Atributo primário | Inteligência |\n| Dado de Ponto de Vida | D6 por nível de Mago |\n| Salvaguardas | Inteligência e Sabedoria |\n| Perícias | Escolha 2: Arcanismo, História, Intuição, Investigação, Medicina, Natureza ou Religião |\n| Armas | Simples |\n| Armaduras | Nenhuma |\n| Equipamento inicial | (A) 2 Adagas, Foco Arcano (cajado), Kit de Erudito, Livro de Magias, Túnica e 5 PO; ou (B) 55 PO |\n\n### Pontos de Vida\n- **Nível 1:** 6 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d6 (ou 4) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida e as características de nível 1. Os espaços de magia seguem as regras de multiclasse.\n\n### Progressão\n| Nível | Prof. | Características | Truques | Magias prep. |\n|---|---|---|---|---|\n| 1 | +2 | Adepto de Ritual, Conjuração, Recuperação Arcana | 3 | 4 |\n| 2 | +2 | Acadêmico | 3 | 5 |\n| 3 | +2 | Subclasse | 3 | 6 |\n| 4 | +2 | Aumento no Valor de Atributo | 4 | 7 |\n| 5 | +3 | Memorizar Magia | 4 | 9 |\n| 6 | +3 | Característica de subclasse | 4 | 10 |\n| 7 | +3 | — | 4 | 11 |\n| 8 | +3 | Aumento no Valor de Atributo | 4 | 12 |\n| 9 | +4 | — | 4 | 14 |\n| 10 | +4 | Característica de subclasse | 5 | 15 |\n| 11 | +4 | — | 5 | 16 |\n| 12 | +4 | Aumento no Valor de Atributo | 5 | 16 |\n| 13 | +5 | — | 5 | 17 |\n| 14 | +5 | Característica de subclasse | 5 | 18 |\n| 15 | +5 | — | 5 | 19 |\n| 16 | +5 | Aumento no Valor de Atributo | 5 | 21 |\n| 17 | +6 | — | 5 | 22 |\n| 18 | +6 | Maestria de Magias | 5 | 23 |\n| 19 | +6 | Dádiva Épica | 5 | 24 |\n| 20 | +6 | Assinatura Mágica | 5 | 25 |\n\n### Espaços de magia por nível\n| Nível | 1º | 2º | 3º | 4º | 5º | 6º | 7º | 8º | 9º |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | 2 | — | — | — | — | — | — | — | — |\n| 2 | 3 | — | — | — | — | — | — | — | — |\n| 3 | 4 | 2 | — | — | — | — | — | — | — |\n| 4 | 4 | 3 | — | — | — | — | — | — | — |\n| 5 | 4 | 3 | 2 | — | — | — | — | — | — |\n| 6 | 4 | 3 | 3 | — | — | — | — | — | — |\n| 7 | 4 | 3 | 3 | 1 | — | — | — | — | — |\n| 8 | 4 | 3 | 3 | 2 | — | — | — | — | — |\n| 9 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |\n| 10 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |\n| 11 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |\n| 18 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |\n| 19 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |\n| 20 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |\n\n### Características\n- **Nível 1:** [[adepto-de-ritual]], [[conjuracao-mago|Conjuração]], [[recuperacao-arcana]]\n- **Nível 2:** [[academico]]\n- **Nível 3:** subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[memorizar-magia]]\n- **Nível 18:** [[maestria-de-magias]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva da Recordação de Magia)\n- **Nível 20:** [[assinatura-magica]]\n\n### Subclasses\n- [[abjurador]]\n- [[adivinhador]]\n- [[evocador]]\n- [[ilusionista]]"
+  },
+  {
+    "id": "adepto-de-ritual",
+    "nome": "Adepto de Ritual",
+    "nome_en": "Ritual Adept",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 1,
+    "tags": [
+      "mago",
+      "ritual",
+      "livro de magias"
+    ],
+    "resumo": "Lança como Ritual qualquer magia ritual do livro, mesmo sem prepará-la.",
+    "texto": "Você pode lançar como **Ritual** qualquer magia com o marcador Ritual que esteja no seu livro de magias, **sem precisar tê-la preparada**. Para isso, precisa ler o livro.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "conjuracao-mago",
+    "nome": "Conjuração (Mago)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 1,
+    "tags": [
+      "mago",
+      "magias",
+      "livro de magias",
+      "espaços de magia",
+      "truques",
+      "copiar"
+    ],
+    "resumo": "Magias de Mago com Inteligência, escolhidas do livro de magias.",
+    "texto": "- **Truques.** Você conhece **3 truques** de Mago (sugeridos: Luz, Mãos Mágicas e Raio de Gelo). Ganha mais um no nível 4 e outro no 10. Ao terminar um **Descanso Longo**, pode trocar um truque.\n- **Livro de magias.** Objeto Miúdo de 1,5 kg com 100 páginas, legível só por você ou com Identificar. Começa com **seis magias de 1º círculo** (sugeridas: [[armadura-arcana|Armadura Arcana]], Detectar Magia, [[misseis-magicos|Mísseis Mágicos]], Onda Trovejante, Queda Suave e Sono). A cada nível de Mago depois do 1º, adicione **duas** magias de Mago de círculos para os quais tenha espaços.\n- **Espaços de magia.** Veja a tabela na [[mago|ficha do Mago]]. Recupera todos num [[descanso-longo|Descanso Longo]].\n- **Magias preparadas.** Prepare **4 magias do livro**, e mais conforme a coluna *Magias prep.*, de círculos para os quais tenha espaços.\n- **Trocar magias.** Ao terminar um Descanso Longo, refaça a lista com quaisquer magias do livro.\n- **Atributo de conjuração:** Inteligência. **Foco:** Foco Arcano ou o próprio livro.\n\n### Copiar magias\n- **Magia nova no livro.** Ao encontrar uma magia de Mago (num pergaminho, por exemplo) de círculo que você possa preparar, copie-a gastando **2 horas e 50 PO por círculo**.\n- **Copiar o próprio livro.** Para passar uma magia que você já tem para outro livro: **1 hora e 10 PO por círculo**. Se perder o livro, pode refazer assim as magias que tem preparadas; as outras precisam ser encontradas de novo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "recuperacao-arcana",
+    "nome": "Recuperação Arcana",
+    "nome_en": "Arcane Recovery",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 1,
+    "tags": [
+      "mago",
+      "espaços de magia",
+      "descanso curto"
+    ],
+    "resumo": "1×/Descanso Longo: recupera espaços (soma até metade do nível) num Descanso Curto.",
+    "texto": "Ao terminar um Descanso Curto, recupere espaços de magia gastos cuja soma de círculos seja no máximo **metade do seu nível de Mago** (arredondado para cima), nenhum de 6º círculo ou maior. Exemplo: no nível 4, um espaço de 2º ou dois de 1º. Uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "academico",
+    "nome": "Acadêmico",
+    "nome_en": "Scholar",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 2,
+    "tags": [
+      "mago",
+      "especialização",
+      "perícias"
+    ],
+    "resumo": "Especialização em Arcanismo, História, Investigação, Medicina, Natureza ou Religião.",
+    "texto": "Escolha uma perícia em que é proficiente entre **Arcanismo, História, Investigação, Medicina, Natureza ou Religião**. Você ganha [[especializacao|Especialização]] nela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "memorizar-magia",
+    "nome": "Memorizar Magia",
+    "nome_en": "Memorize Spell",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 5,
+    "tags": [
+      "mago",
+      "preparar",
+      "descanso curto"
+    ],
+    "resumo": "No Descanso Curto, troca uma magia preparada por outra do livro.",
+    "texto": "Ao terminar um **Descanso Curto**, você pode estudar o livro e trocar uma magia preparada de 1º círculo ou maior por outra de 1º círculo ou maior do livro.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "maestria-de-magias",
+    "nome": "Maestria de Magias",
+    "nome_en": "Spell Mastery",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 18,
+    "tags": [
+      "mago",
+      "à vontade",
+      "magias"
+    ],
+    "resumo": "Uma magia de 1º e uma de 2º círculo à vontade, sem gastar espaço.",
+    "texto": "Escolha uma magia de **1º** e uma de **2º círculo** do seu livro, com tempo de conjuração de uma ação. Elas ficam sempre preparadas e você pode lançá-las no círculo mais baixo **sem gastar espaço**; para lançar num círculo maior, gaste um espaço. A cada Descanso Longo, pode trocar uma delas por outra válida do mesmo círculo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "assinatura-magica",
+    "nome": "Assinatura Mágica",
+    "nome_en": "Signature Spells",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 20,
+    "tags": [
+      "mago",
+      "magias",
+      "grátis"
+    ],
+    "resumo": "Duas magias de 3º círculo grátis 1× cada por Descanso Curto ou Longo.",
+    "texto": "Escolha duas magias de **3º círculo** do livro. Elas ficam sempre preparadas e você pode lançar cada uma **uma vez no 3º círculo sem gastar espaço**, recuperando isso num Descanso Curto ou Longo. Num círculo maior, gaste um espaço.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "abjurador",
+    "nome": "Abjurador",
+    "nome_en": "Abjurer",
+    "categoria": "classe",
+    "de": "mago",
+    "subclasse": "Abjurador",
+    "sub_curto": "Abjurador",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "mago",
+      "abjuração",
+      "proteção"
+    ],
+    "resumo": "Mago de proteção: escudo arcano e contramagia.",
+    "texto": "Mago especializado em magias de bloqueio, banimento e proteção. É chamado para exorcizar espíritos, proteger lugares contra espionagem mágica e fechar portais.\n\n- **Nível 3:** [[protecao-arcana]], [[versado-em-abjuracao]]\n- **Nível 6:** [[protecao-projetada]]\n- **Nível 10:** [[rompe-magia]]\n- **Nível 14:** [[resistencia-a-magia]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "protecao-arcana",
+    "nome": "Proteção Arcana",
+    "nome_en": "Arcane Ward",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "abjurador",
+      "escudo",
+      "proteção"
+    ],
+    "resumo": "Ao lançar Abjuração com espaço, cria um escudo com PV = 2 × nível + Inteligência.",
+    "texto": "Ao lançar uma magia de **Abjuração** com espaço de magia, você pode criar ao seu redor uma proteção que dura até terminar um Descanso Longo. Ela tem PV máximos iguais a **2 × nível de Mago + Inteligência**.\n\n- **Absorver.** Quando você sofre dano, a proteção absorve no seu lugar (aplique Resistência e Vulnerabilidade antes). Se ela chegar a 0, você sofre o resto. Com 0 PV ela não absorve mais, mas continua existindo.\n- **Recarregar.** Sempre que lançar uma magia de Abjuração com espaço, ela recupera **2 × o círculo do espaço**. Com uma **Ação Bônus**, você também pode gastar um espaço para recuperar 2 × o círculo dele.\n- **Criar de novo.** Só depois de um Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Abjurador",
+    "sub_curto": "Abjurador"
+  },
+  {
+    "id": "versado-em-abjuracao",
+    "nome": "Versado em Abjuração",
+    "nome_en": "Abjuração Savant",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "abjuração",
+      "livro de magias"
+    ],
+    "resumo": "Duas magias de Abjuração grátis no livro, e mais uma a cada novo círculo.",
+    "texto": "Escolha **duas magias de Mago de Abjuração** de 2º círculo ou menor e adicione-as de graça ao seu livro de magias. Sempre que ganhar acesso a um novo círculo de espaços nesta classe, adicione de graça mais uma magia de Mago de Abjuração de um círculo para o qual tenha espaços.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Abjurador",
+    "sub_curto": "Abjurador"
+  },
+  {
+    "id": "protecao-projetada",
+    "nome": "Proteção Projetada",
+    "nome_en": "Projected Ward",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 6,
+    "tags": [
+      "mago",
+      "abjurador",
+      "reação",
+      "aliado"
+    ],
+    "resumo": "Reação: a Proteção Arcana absorve dano de outra criatura a 9 m.",
+    "texto": "Quando uma criatura que você vê a até **9 metros** sofre dano, use a **Reação** para que sua [[protecao-arcana|Proteção Arcana]] absorva esse dano. Se a proteção chegar a 0, a criatura sofre o restante (aplique as Resistências e Vulnerabilidades dela antes).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Abjurador",
+    "sub_curto": "Abjurador"
+  },
+  {
+    "id": "rompe-magia",
+    "nome": "Rompe-Magia",
+    "nome_en": "Spell Breaker",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 10,
+    "tags": [
+      "mago",
+      "abjurador",
+      "contramagia",
+      "dissipar"
+    ],
+    "resumo": "Contramagia e Dissipar Magia sempre preparadas; Dissipar como Ação Bônus; espaço não gasto se falhar.",
+    "texto": "Você sempre tem **Contramagia** e **Dissipar Magia** preparadas. Pode lançar Dissipar Magia como **Ação Bônus** e somar seu Bônus de Proficiência ao teste de atributo dela. Se lançar qualquer das duas com espaço e ela **não** conseguir interromper a magia, o espaço não é gasto.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Abjurador",
+    "sub_curto": "Abjurador"
+  },
+  {
+    "id": "resistencia-a-magia",
+    "nome": "Resistência à Magia",
+    "nome_en": "Spell Resistance",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 14,
+    "tags": [
+      "mago",
+      "abjurador",
+      "resistência"
+    ],
+    "resumo": "Vantagem nas salvaguardas contra magias e Resistência ao dano de magias.",
+    "texto": "Você tem **Vantagem** nas salvaguardas contra magias e **Resistência** ao dano de magias.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Abjurador",
+    "sub_curto": "Abjurador"
+  },
+  {
+    "id": "adivinhador",
+    "nome": "Adivinhador",
+    "nome_en": "Diviner",
+    "categoria": "classe",
+    "de": "mago",
+    "subclasse": "Adivinhador",
+    "sub_curto": "Adivinhador",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "mago",
+      "adivinhação",
+      "portent"
+    ],
+    "resumo": "Mago que vê o futuro e troca rolagens por presságios.",
+    "texto": "Mago que busca entender passado, presente e futuro, dominando magias de percepção, visão à distância e previsão.\n\n- **Nível 3:** [[prodigio]], [[versado-em-adivinhacao]]\n- **Nível 6:** [[perito-em-adivinhacao]]\n- **Nível 10:** [[o-terceiro-olho]]\n- **Nível 14:** [[prodigio-maior]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "prodigio",
+    "nome": "Prodígio",
+    "nome_en": "Portent",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "adivinhador",
+      "presságio",
+      "portento"
+    ],
+    "resumo": "Rola 2d20 no Descanso Longo e usa esses números no lugar de Testes de D20.",
+    "texto": "Ao terminar um Descanso Longo, role **dois d20** e anote os resultados. Você pode substituir qualquer [[testes-de-d20|Teste de D20]] feito por você ou por uma criatura que veja por um desses números. Precisa decidir **antes** da rolagem, e só uma vez por turno. Cada número é usado uma vez; os que sobrarem se perdem no próximo Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adivinhador",
+    "sub_curto": "Adivinhador"
+  },
+  {
+    "id": "versado-em-adivinhacao",
+    "nome": "Versado em Adivinhação",
+    "nome_en": "Adivinhação Savant",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "adivinhação",
+      "livro de magias"
+    ],
+    "resumo": "Duas magias de Adivinhação grátis no livro, e mais uma a cada novo círculo.",
+    "texto": "Escolha **duas magias de Mago de Adivinhação** de 2º círculo ou menor e adicione-as de graça ao seu livro de magias. Sempre que ganhar acesso a um novo círculo de espaços nesta classe, adicione de graça mais uma magia de Mago de Adivinhação de um círculo para o qual tenha espaços.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adivinhador",
+    "sub_curto": "Adivinhador"
+  },
+  {
+    "id": "perito-em-adivinhacao",
+    "nome": "Perito em Adivinhação",
+    "nome_en": "Expert Divination",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 6,
+    "tags": [
+      "mago",
+      "adivinhador",
+      "espaços de magia"
+    ],
+    "resumo": "Lançar Adivinhação com espaço de 2º+ recupera um espaço menor.",
+    "texto": "Ao lançar uma magia de **Adivinhação** com espaço de 2º círculo ou maior, recupere um espaço gasto de círculo **menor** que o usado, até no máximo 5º círculo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adivinhador",
+    "sub_curto": "Adivinhador"
+  },
+  {
+    "id": "o-terceiro-olho",
+    "nome": "O Terceiro Olho",
+    "nome_en": "The Third Eye",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 10,
+    "tags": [
+      "mago",
+      "adivinhador",
+      "visão"
+    ],
+    "resumo": "Ação Bônus: lê qualquer idioma, Ver o Invisível grátis ou Visão no Escuro de 36 m.",
+    "texto": "Com uma **Ação Bônus**, escolha um benefício que dura até você começar um Descanso Curto ou Longo. Depois, só pode usar de novo após um Descanso Curto ou Longo.\n\n- **Compreensão superior.** Você lê qualquer idioma.\n- **Ver o invisível.** Você pode lançar Ver o Invisível sem gastar espaço.\n- **Visão no escuro.** Visão no Escuro de 36 metros (120 pés).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adivinhador",
+    "sub_curto": "Adivinhador"
+  },
+  {
+    "id": "prodigio-maior",
+    "nome": "Prodígio Maior",
+    "nome_en": "Greater Portent",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 14,
+    "tags": [
+      "mago",
+      "adivinhador",
+      "presságio"
+    ],
+    "resumo": "Prodígio rola três d20.",
+    "texto": "Role **três d20** para o [[prodigio|Prodígio]] em vez de dois.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adivinhador",
+    "sub_curto": "Adivinhador"
+  },
+  {
+    "id": "evocador",
+    "nome": "Evocador",
+    "nome_en": "Evoker",
+    "categoria": "classe",
+    "de": "mago",
+    "subclasse": "Evocador",
+    "sub_curto": "Evocador",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "mago",
+      "evocação",
+      "dano"
+    ],
+    "resumo": "Mago de explosões elementais que poupa aliados.",
+    "texto": "Mago focado em efeitos elementais poderosos: frio, chamas, trovão, relâmpago e ácido. Alguns servem como artilharia em exércitos; outros protegem ou buscam ganho próprio.\n\n- **Nível 3:** [[truque-potente]], [[versado-em-evocacao]]\n- **Nível 6:** [[esculpir-magias]]\n- **Nível 10:** [[evocacao-potencializada]]\n- **Nível 14:** [[sobrecarga]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "truque-potente",
+    "nome": "Truque Potente",
+    "nome_en": "Potent Cantrip",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "evocador",
+      "truques"
+    ],
+    "resumo": "Truques de dano causam metade mesmo errando ou com salvaguarda bem-sucedida.",
+    "texto": "Quando você lança um truque numa criatura e erra o ataque, ou ela passa na salvaguarda, ela ainda sofre **metade do dano** (se houver), mas nenhum outro efeito do truque.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Evocador",
+    "sub_curto": "Evocador"
+  },
+  {
+    "id": "versado-em-evocacao",
+    "nome": "Versado em Evocação",
+    "nome_en": "Evocação Savant",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "evocação",
+      "livro de magias"
+    ],
+    "resumo": "Duas magias de Evocação grátis no livro, e mais uma a cada novo círculo.",
+    "texto": "Escolha **duas magias de Mago de Evocação** de 2º círculo ou menor e adicione-as de graça ao seu livro de magias. Sempre que ganhar acesso a um novo círculo de espaços nesta classe, adicione de graça mais uma magia de Mago de Evocação de um círculo para o qual tenha espaços.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Evocador",
+    "sub_curto": "Evocador"
+  },
+  {
+    "id": "esculpir-magias",
+    "nome": "Esculpir Magias",
+    "nome_en": "Sculpt Spells",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 6,
+    "tags": [
+      "mago",
+      "evocador",
+      "aliados",
+      "área"
+    ],
+    "resumo": "Em magias de Evocação, até 1 + círculo criaturas passam automaticamente e não sofrem dano.",
+    "texto": "Ao lançar uma magia de **Evocação** que afete criaturas que você vê, escolha até **1 + o círculo da magia** delas. Elas passam automaticamente na salvaguarda e não sofrem dano se normalmente sofreriam metade.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Evocador",
+    "sub_curto": "Evocador"
+  },
+  {
+    "id": "evocacao-potencializada",
+    "nome": "Evocação Potencializada",
+    "nome_en": "Empowered Evocation",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 10,
+    "tags": [
+      "mago",
+      "evocador",
+      "dano"
+    ],
+    "resumo": "Soma Inteligência a uma jogada de dano de magias de Evocação.",
+    "texto": "Ao lançar uma magia de Mago de **Evocação**, some seu modificador de Inteligência a uma jogada de dano dela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Evocador",
+    "sub_curto": "Evocador"
+  },
+  {
+    "id": "sobrecarga",
+    "nome": "Sobrecarga",
+    "nome_en": "Overchannel",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 14,
+    "tags": [
+      "mago",
+      "evocador",
+      "dano máximo"
+    ],
+    "resumo": "Dano máximo em magia de 1º a 5º; repetir antes do Descanso Longo causa dano Necrótico em você.",
+    "texto": "Ao lançar uma magia de Mago que cause dano usando espaço de **1º a 5º círculo**, você pode causar o **dano máximo** com ela no turno em que a lança.\n\n- **Primeira vez:** sem efeito colateral.\n- **Vezes seguintes antes de um Descanso Longo:** logo após lançar, você sofre **2d12 de dano Necrótico por círculo** do espaço, que ignora Resistência e Imunidade. A cada uso extra, o dano por círculo aumenta em 1d12.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Evocador",
+    "sub_curto": "Evocador"
+  },
+  {
+    "id": "ilusionista",
+    "nome": "Ilusionista",
+    "nome_en": "Illusionist",
+    "categoria": "classe",
+    "de": "mago",
+    "subclasse": "Ilusionista",
+    "sub_curto": "Ilusionista",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "mago",
+      "ilusão"
+    ],
+    "resumo": "Mago de ilusões que enganam a mente e chegam a se tornar reais.",
+    "texto": "Mago especializado em magias que deslumbram os sentidos e enganam a mente, fazendo o impossível parecer real.\n\n- **Nível 3:** [[ilusoes-aprimoradas]], [[versado-em-ilusao]]\n- **Nível 6:** [[criaturas-espectrais]]\n- **Nível 10:** [[autoimagem-ilusoria]]\n- **Nível 14:** [[realidade-ilusoria]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "ilusoes-aprimoradas",
+    "nome": "Ilusões Aprimoradas",
+    "nome_en": "Improved Illusions",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "ilusionista",
+      "ilusão menor"
+    ],
+    "resumo": "Ilusões sem componente Verbal e com +18 m de alcance; Ilusão Menor com som e imagem como Ação Bônus.",
+    "texto": "- Você lança magias de **Ilusão** sem componentes Verbais, e as que têm alcance de 3 metros ou mais ganham **+18 metros** de alcance.\n- Você conhece o truque **Ilusão Menor** (se já conhecia, aprende outro truque de Mago); ele não conta no seu total de truques. Com uma única conjuração, ele cria **som e imagem**, e você pode lançá-lo como **Ação Bônus**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Ilusionista",
+    "sub_curto": "Ilusionista"
+  },
+  {
+    "id": "versado-em-ilusao",
+    "nome": "Versado em Ilusão",
+    "nome_en": "Ilusão Savant",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 3,
+    "tags": [
+      "mago",
+      "ilusão",
+      "livro de magias"
+    ],
+    "resumo": "Duas magias de Ilusão grátis no livro, e mais uma a cada novo círculo.",
+    "texto": "Escolha **duas magias de Mago de Ilusão** de 2º círculo ou menor e adicione-as de graça ao seu livro de magias. Sempre que ganhar acesso a um novo círculo de espaços nesta classe, adicione de graça mais uma magia de Mago de Ilusão de um círculo para o qual tenha espaços.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Ilusionista",
+    "sub_curto": "Ilusionista"
+  },
+  {
+    "id": "criaturas-espectrais",
+    "nome": "Criaturas Espectrais",
+    "nome_en": "Phantasmal Creatures",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 6,
+    "tags": [
+      "mago",
+      "ilusionista",
+      "invocação"
+    ],
+    "resumo": "Convocar Feérico e Invocar Fera sempre preparadas; versão ilusória grátis 1×/Descanso Longo.",
+    "texto": "Você sempre tem **Convocar Feérico** e **Invocar Fera** preparadas. Ao lançá-las, pode mudar a escola para Ilusão (a criatura parece espectral). A versão de Ilusão de cada uma pode ser lançada **sem gastar espaço**, mas então a criatura tem **metade dos PV**; depois disso, só de novo após um Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Ilusionista",
+    "sub_curto": "Ilusionista"
+  },
+  {
+    "id": "autoimagem-ilusoria",
+    "nome": "Autoimagem Ilusória",
+    "nome_en": "Illusory Self",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 10,
+    "tags": [
+      "mago",
+      "ilusionista",
+      "reação",
+      "defesa"
+    ],
+    "resumo": "Reação: um ataque que acertaria erra automaticamente.",
+    "texto": "Quando uma criatura acerta você com uma jogada de ataque, use a **Reação** para criar uma duplicata ilusória entre vocês: o ataque **erra automaticamente** e a ilusão some. Uma vez por Descanso Curto ou Longo; você pode recuperar o uso gastando um espaço de 2º círculo ou maior (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Ilusionista",
+    "sub_curto": "Ilusionista"
+  },
+  {
+    "id": "realidade-ilusoria",
+    "nome": "Realidade Ilusória",
+    "nome_en": "Illusory Reality",
+    "categoria": "classe",
+    "de": "mago",
+    "nivel": 14,
+    "tags": [
+      "mago",
+      "ilusionista",
+      "realidade"
+    ],
+    "resumo": "Torna real por 1 minuto um objeto inanimado de uma ilusão sua.",
+    "texto": "Ao lançar uma magia de Ilusão com espaço, você pode escolher um **objeto inanimado e não mágico** que faça parte dela e torná-lo **real**. Isso pode ser feito com uma **Ação Bônus** no seu turno enquanto a magia durar. O objeto fica real por **1 minuto** e não pode causar dano nem impor condições. Exemplo: uma ponte ilusória sobre um abismo vira real e pode ser atravessada.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Ilusionista",
+    "sub_curto": "Ilusionista"
+  }
+]

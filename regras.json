@@ -4,16 +4,26 @@
     "nome": "Testes de D20",
     "nome_en": "D20 Tests",
     "categoria": "regra",
-    "tags": ["teste de atributo", "teste de resistência", "jogada de ataque", "CD", "classe de dificuldade"],
+    "tags": [
+      "teste de atributo",
+      "teste de resistência",
+      "jogada de ataque",
+      "CD",
+      "classe de dificuldade"
+    ],
     "resumo": "Role 1d20, some os modificadores e compare com a CD ou a CA.",
-    "texto": "Testes de atributo, testes de resistência e jogadas de ataque são os três tipos de **teste de D20**. Todos seguem o mesmo procedimento.\n\n- **Role 1d20.** Se tiver [[vantagem|Vantagem ou Desvantagem]], role dois d20 e use o resultado que se aplica.\n- **Some os modificadores.** Use o modificador do atributo relevante, mais o [[bonus-de-proficiencia|Bônus de Proficiência]] se você for proficiente, mais qualquer bônus ou penalidade de circunstância.\n- **Compare com o número-alvo.** Testes de atributo e de resistência usam a Classe de Dificuldade (CD). Jogadas de ataque usam a Classe de Armadura (CA) do alvo. Se o total for igual ou maior que o número-alvo, o teste é um sucesso.\n\n### Dificuldades típicas\n| Tarefa | CD |\n|---|---|\n| Muito fácil | 5 |\n| Fácil | 10 |\n| Média | 15 |\n| Difícil | 20 |\n| Muito difícil | 25 |\n| Quase impossível | 30 |"
+    "texto": "Testes de atributo, salvaguardas e jogadas de ataque são os três tipos de **teste de D20**. Todos seguem o mesmo procedimento.\n\n- **Role 1d20.** Se tiver [[vantagem|Vantagem ou Desvantagem]], role dois d20 e use o resultado que se aplica.\n- **Some os modificadores.** Use o modificador do atributo relevante, mais o [[bonus-de-proficiencia|Bônus de Proficiência]] se você for proficiente, mais qualquer bônus ou penalidade de circunstância.\n- **Compare com o número-alvo.** Testes de atributo e de resistência usam a Classe de Dificuldade (CD). Jogadas de ataque usam a Classe de Armadura (CA) do alvo. Se o total for igual ou maior que o número-alvo, o teste é um sucesso.\n\n### Dificuldades típicas\n| Tarefa | CD |\n|---|---|\n| Muito fácil | 5 |\n| Fácil | 10 |\n| Média | 15 |\n| Difícil | 20 |\n| Muito difícil | 25 |\n| Quase impossível | 30 |"
   },
   {
     "id": "vantagem",
     "nome": "Vantagem e Desvantagem",
     "nome_en": "Advantage / Disadvantage",
     "categoria": "regra",
-    "tags": ["vantagem", "desvantagem", "dois d20"],
+    "tags": [
+      "vantagem",
+      "desvantagem",
+      "dois d20"
+    ],
     "resumo": "Role dois d20: o maior com Vantagem, o menor com Desvantagem.",
     "texto": "Com **Vantagem**, role dois d20 e use o maior resultado. Com **Desvantagem**, role dois d20 e use o menor.\n\n- **Não acumulam.** Várias fontes de Vantagem continuam dando só dois d20. O mesmo vale para Desvantagem.\n- **Se cancelam.** Se o mesmo teste tiver ao menos uma fonte de Vantagem e ao menos uma de Desvantagem, você não tem nenhuma das duas e rola um único d20. Não importa quantas fontes existem de cada lado.\n- **Rolar de novo.** Se você tiver Vantagem ou Desvantagem e algo permitir rolar novamente ou substituir o d20, você só pode refazer ou substituir um dos dados, à sua escolha."
   },
@@ -22,16 +32,28 @@
     "nome": "Bônus de Proficiência",
     "nome_en": "Proficiency Bonus",
     "categoria": "regra",
-    "tags": ["proficiência", "nível", "pb"],
+    "tags": [
+      "proficiência",
+      "nível",
+      "pb",
+      "teste de resistência"
+    ],
     "resumo": "Bônus somado aos testes em que você é proficiente; cresce com o nível.",
-    "texto": "Você soma o Bônus de Proficiência a um [[testes-de-d20|teste de D20]] quando é proficiente no que está fazendo: perícias, ferramentas, armas, testes de resistência e jogadas de ataque com magia. O bônus nunca é somado mais de uma vez à mesma jogada ou CD, mesmo que mais de uma proficiência se aplique.\n\n| Nível do personagem | Bônus |\n|---|---|\n| 1–4 | +2 |\n| 5–8 | +3 |\n| 9–12 | +4 |\n| 13–16 | +5 |\n| 17–20 | +6 |"
+    "texto": "Você soma o Bônus de Proficiência a um [[testes-de-d20|teste de D20]] quando é proficiente no que está fazendo: perícias, ferramentas, armas, salvaguardas e jogadas de ataque com magia. O bônus nunca é somado mais de uma vez à mesma jogada ou CD, mesmo que mais de uma proficiência se aplique.\n\n| Nível do personagem | Bônus |\n|---|---|\n| 1–4 | +2 |\n| 5–8 | +3 |\n| 9–12 | +4 |\n| 13–16 | +5 |\n| 17–20 | +6 |"
   },
   {
     "id": "turno-em-combate",
     "nome": "Seu turno em combate",
     "nome_en": "Your Turn",
     "categoria": "regra",
-    "tags": ["turno", "rodada", "movimento", "ação bônus", "reação", "deslocamento"],
+    "tags": [
+      "turno",
+      "rodada",
+      "movimento",
+      "ação bônus",
+      "reação",
+      "deslocamento"
+    ],
     "resumo": "Mova-se até seu Deslocamento e faça uma ação; Ação Bônus e Reação quando algo permitir.",
     "texto": "Uma rodada de combate representa cerca de 6 segundos. Em seu turno você pode:\n\n- **Mover-se** até uma distância igual ao seu Deslocamento. Você pode dividir o movimento, andando antes e depois da ação.\n- **Fazer uma ação.** As opções estão na categoria [[atacar|Ações]].\n- **Fazer uma Ação Bônus**, apenas se uma característica, magia ou outra regra lhe der uma. Você só tem uma Ação Bônus por turno.\n- **Interagir com um objeto** ou elemento do ambiente de graça, durante o movimento ou a ação (sacar uma arma, abrir uma porta).\n- **Comunicar-se** com frases curtas e gestos.\n\n### Reação\nVocê tem uma **Reação** por rodada. Ela é uma resposta instantânea a um gatilho, como o [[ataque-de-oportunidade]], e pode acontecer no seu turno ou no de outra criatura. Depois de usá-la, você só a recupera no início do seu próximo turno."
   },
@@ -40,7 +62,11 @@
     "nome": "Iniciativa",
     "nome_en": "Initiative",
     "categoria": "regra",
-    "tags": ["ordem", "surpresa", "início do combate"],
+    "tags": [
+      "ordem",
+      "surpresa",
+      "início do combate"
+    ],
     "resumo": "Teste de Destreza que define a ordem dos turnos. Surpreso = Desvantagem.",
     "texto": "No início do combate, todos os envolvidos fazem um **teste de Destreza** para determinar a Iniciativa. Os turnos seguem do maior resultado para o menor.\n\n- **Empates.** O Mestre decide a ordem entre monstros empatados, e os jogadores decidem entre personagens empatados. Num empate entre monstro e personagem, o Mestre decide.\n- **Surpresa.** Uma criatura surpreendida no início do combate tem [[vantagem|Desvantagem]] na jogada de Iniciativa.\n- **Invisível.** Quem está [[invisivel|Invisível]] ao rolar Iniciativa tem Vantagem.\n- **Incapacitado.** Quem está [[incapacitado|Incapacitado]] ao rolar Iniciativa tem Desvantagem."
   },
@@ -49,7 +75,12 @@
     "nome": "Acerto Crítico",
     "nome_en": "Critical Hit",
     "categoria": "regra",
-    "tags": ["20 natural", "crítico", "1 natural", "dano dobrado"],
+    "tags": [
+      "20 natural",
+      "crítico",
+      "1 natural",
+      "dano dobrado"
+    ],
     "resumo": "20 natural acerta sempre e dobra os dados de dano; 1 natural erra sempre.",
     "texto": "- **20 natural.** Se o d20 de uma jogada de ataque mostrar 20, o ataque acerta, sejam quais forem os modificadores e a CA do alvo. Isso é um **Acerto Crítico**.\n- **Dano do crítico.** Role duas vezes os dados de dano do ataque e some tudo. Depois some os modificadores normalmente, uma vez só. Exemplo: um crítico com uma adaga (1d4) rola 2d4 e soma o modificador uma vez.\n- **1 natural.** Se o d20 de uma jogada de ataque mostrar 1, o ataque erra, sejam quais forem os modificadores e a CA do alvo."
   },
@@ -58,7 +89,11 @@
     "nome": "Ataque de Oportunidade",
     "nome_en": "Opportunity Attack",
     "categoria": "regra",
-    "tags": ["reação", "sair do alcance", "desengajar"],
+    "tags": [
+      "reação",
+      "sair do alcance",
+      "desengajar"
+    ],
     "resumo": "Reação para atacar corpo a corpo quem sai do seu alcance.",
     "texto": "Quando uma criatura que você consegue ver sai do seu alcance usando a ação, a Ação Bônus, a Reação ou um dos seus deslocamentos, você pode usar sua **Reação** para fazer um ataque corpo a corpo contra ela, com uma arma ou um [[ataque-desarmado|Ataque Desarmado]]. O ataque acontece logo antes de ela sair do seu alcance.\n\n- **Como evitar.** A ação [[desengajar|Desengajar]] impede que seu movimento provoque Ataques de Oportunidade até o fim do turno.\n- **Teleporte e movimento forçado.** Não provocam Ataque de Oportunidade se a criatura é teleportada ou movida sem usar o próprio movimento, ação, Ação Bônus ou Reação (por exemplo, empurrada por outro)."
   },
@@ -67,53 +102,89 @@
     "nome": "Cobertura",
     "nome_en": "Cover",
     "categoria": "regra",
-    "tags": ["meia cobertura", "três quartos", "cobertura total", "CA"],
+    "tags": [
+      "meia cobertura",
+      "três quartos",
+      "cobertura total",
+      "CA",
+      "teste de resistência"
+    ],
     "resumo": "+2 ou +5 na CA e nos testes de Destreza; total impede ser alvo.",
-    "texto": "Paredes, árvores, criaturas e outros obstáculos podem dar cobertura a um alvo. Se mais de uma fonte de cobertura se aplica, use apenas a mais protetora.\n\n| Cobertura | Benefício | Exemplo |\n|---|---|---|\n| Meia | +2 na CA e nos testes de resistência de Destreza | Obstáculo que cobre ao menos metade do alvo |\n| Três quartos | +5 na CA e nos testes de resistência de Destreza | Obstáculo que cobre ao menos três quartos do alvo |\n| Total | Não pode ser alvo direto de ataques nem de magias | Obstáculo que cobre o alvo por completo |"
+    "texto": "Paredes, árvores, criaturas e outros obstáculos podem dar cobertura a um alvo. Se mais de uma fonte de cobertura se aplica, use apenas a mais protetora.\n\n| Cobertura | Benefício | Exemplo |\n|---|---|---|\n| Meia | +2 na CA e nas salvaguardas de Destreza | Obstáculo que cobre ao menos metade do alvo |\n| Três quartos | +5 na CA e nas salvaguardas de Destreza | Obstáculo que cobre ao menos três quartos do alvo |\n| Total | Não pode ser alvo direto de ataques nem de magias | Obstáculo que cobre o alvo por completo |"
   },
   {
     "id": "concentracao",
     "nome": "Concentração",
     "nome_en": "Concentration",
     "categoria": "regra",
-    "tags": ["magia", "manter magia", "dano", "teste de constituição"],
+    "tags": [
+      "magia",
+      "manter magia",
+      "dano",
+      "teste de constituição",
+      "teste de resistência"
+    ],
     "resumo": "Só uma por vez. Dano exige teste de Constituição (CD 10 ou metade do dano, máx. 30).",
-    "texto": "Algumas magias e efeitos exigem Concentração para continuar ativos. Você pode encerrar a Concentração a qualquer momento, sem gastar ação. Ela termina mais cedo nestes casos:\n\n- **Outro efeito de Concentração.** Começar a lançar uma magia ou usar um efeito que exige Concentração encerra o anterior.\n- **Sofrer dano.** Faça um teste de resistência de Constituição. A CD é 10 ou metade do dano sofrido (arredondada para baixo), o que for maior, até o máximo de CD 30. Cada fonte de dano exige um teste separado.\n- **Ficar [[incapacitado|Incapacitado]] ou morrer.**"
+    "texto": "Algumas magias e efeitos exigem Concentração para continuar ativos. Você pode encerrar a Concentração a qualquer momento, sem gastar ação. Ela termina mais cedo nestes casos:\n\n- **Outro efeito de Concentração.** Começar a lançar uma magia ou usar um efeito que exige Concentração encerra o anterior.\n- **Sofrer dano.** Faça uma salvaguarda de Constituição. A CD é 10 ou metade do dano sofrido (arredondada para baixo), o que for maior, até o máximo de CD 30. Cada fonte de dano exige um teste separado.\n- **Ficar [[incapacitado|Incapacitado]] ou morrer.**"
   },
   {
     "id": "descanso-curto",
     "nome": "Descanso Curto",
     "nome_en": "Short Rest",
     "categoria": "regra",
-    "tags": ["descanso", "dados de vida", "recuperar"],
+    "tags": [
+      "descanso",
+      "dados de vida",
+      "recuperar"
+    ],
     "resumo": "1 hora. Gaste Dados de Pontos de Vida para recuperar PV.",
-    "texto": "Um Descanso Curto dura **1 hora**, em que você não faz nada mais cansativo que ler, conversar, comer ou montar guarda.\n\n- **Dados de Pontos de Vida.** Ao fim do descanso, você pode gastar quantos Dados de Pontos de Vida quiser. Para cada um, role o dado e some seu modificador de Constituição. Você recupera essa quantidade de Pontos de Vida. Você pode decidir gastar mais um dado depois de ver cada resultado.\n- **Interrupção.** O descanso é interrompido se você rolar Iniciativa, lançar uma magia que não seja um truque ou sofrer dano. Um descanso interrompido não traz benefício."
+    "texto": "Um Descanso Curto dura **1 hora**, em que você não faz nada mais cansativo que ler, conversar, comer ou montar guarda. Você precisa ter ao menos 1 Ponto de Vida para começar.\n\n- **Dados de Pontos de Vida.** Ao fim do descanso, você pode gastar quantos Dados de Pontos de Vida quiser. Para cada um, role o dado e some seu modificador de Constituição. Você recupera essa quantidade de Pontos de Vida (no mínimo 1 por dado). Você pode decidir gastar mais um dado depois de ver cada resultado.\n- **Interrupção.** O descanso é interrompido se você rolar Iniciativa, lançar uma magia que não seja um truque ou sofrer dano. Um descanso interrompido não traz benefício."
   },
   {
     "id": "descanso-longo",
     "nome": "Descanso Longo",
     "nome_en": "Long Rest",
     "categoria": "regra",
-    "tags": ["descanso", "dormir", "recuperar", "exaustão"],
+    "tags": [
+      "descanso",
+      "dormir",
+      "recuperar",
+      "exaustão"
+    ],
     "resumo": "8 horas. Recupera todos os PV e Dados de PV e reduz a Exaustão em 1.",
-    "texto": "Um Descanso Longo dura **8 horas**: você dorme ao menos 6 horas e passa no máximo 2 em atividade leve. Você precisa ter ao menos 1 Ponto de Vida para começar, e só pode se beneficiar de um Descanso Longo a cada 24 horas.\n\n### Ao terminar\n- Recupera todos os Pontos de Vida e todos os Dados de Pontos de Vida gastos.\n- Valores de atributo que tenham sido reduzidos voltam ao normal.\n- Seu nível de [[exaustao|Exaustão]] diminui em 1.\n\n### Interrupção\nO descanso é interrompido se você rolar Iniciativa, lançar uma magia que não seja um truque, sofrer dano ou passar 1 hora caminhando ou fazendo outro esforço físico. Se ele for interrompido depois de pelo menos 1 hora, você recebe os benefícios de um [[descanso-curto|Descanso Curto]]."
+    "texto": "Um Descanso Longo dura **8 horas**: você dorme ao menos 6 horas e passa no máximo 2 em atividade leve. Você precisa ter ao menos 1 Ponto de Vida para começar, e, depois de terminar um Descanso Longo, precisa esperar pelo menos 16 horas para começar outro. Durante o sono você está [[inconsciente|Inconsciente]].\n\n### Ao terminar\n- Recupera todos os Pontos de Vida e todos os Dados de Pontos de Vida gastos. Se seu máximo de Pontos de Vida tiver sido reduzido, ele volta ao normal.\n- Valores de atributo que tenham sido reduzidos voltam ao normal.\n- Seu nível de [[exaustao|Exaustão]] diminui em 1.\n\n### Interrupção\nO descanso é interrompido se você rolar Iniciativa, lançar uma magia que não seja um truque, sofrer dano ou passar 1 hora caminhando ou fazendo outro esforço físico. Se ele for interrompido depois de pelo menos 1 hora, você recebe os benefícios de um [[descanso-curto|Descanso Curto]]."
   },
   {
     "id": "zero-pontos-de-vida",
     "nome": "Cair a 0 Pontos de Vida",
     "nome_en": "Dropping to 0 Hit Points",
     "categoria": "regra",
-    "tags": ["morte", "teste contra a morte", "estabilizar", "morte instantânea", "inconsciente"],
+    "tags": [
+      "morte",
+      "teste contra a morte",
+      "estabilizar",
+      "morte instantânea",
+      "inconsciente",
+      "teste de resistência"
+    ],
     "resumo": "Testes contra a morte: 3 sucessos estabiliza, 3 falhas mata.",
-    "texto": "### Morte instantânea\nSe o dano reduzir você a 0 Pontos de Vida e ainda sobrar dano igual ou maior que o seu máximo de Pontos de Vida, você morre.\n\n### Ficando inconsciente\nSe cair a 0 Pontos de Vida sem morrer, você fica [[inconsciente|Inconsciente]]. A condição termina se você recuperar qualquer Ponto de Vida.\n\n### Testes de resistência contra a morte\nNo início de cada turno com 0 Pontos de Vida, role 1d20 sem modificadores.\n\n- **10 ou mais:** sucesso. **9 ou menos:** falha.\n- **3 sucessos:** você fica estável. **3 falhas:** você morre. Os resultados não precisam ser seguidos e zeram quando você recupera PV ou fica estável.\n- **1 natural:** conta como duas falhas.\n- **20 natural:** você recupera 1 Ponto de Vida.\n- **Dano com 0 PV:** conta como uma falha. Se for um [[acerto-critico|Acerto Crítico]], conta como duas. Se o dano for igual ou maior que seu máximo de PV, você morre.\n\n### Estabilizar\nUma criatura pode usar a ação [[ajudar|Ajudar]] para prestar primeiros socorros a outra com 0 PV, com um teste de Sabedoria (Medicina) CD 10. Com sucesso, a criatura fica estável. Uma criatura estável não faz testes contra a morte, mas continua Inconsciente; se sofrer dano, volta a fazer os testes. Se não for curada, ela recupera 1 Ponto de Vida depois de 1d4 horas."
+    "texto": "### Morte instantânea\nSe o dano reduzir você a 0 Pontos de Vida e ainda sobrar dano igual ou maior que o seu máximo de Pontos de Vida, você morre.\n\n### Ficando inconsciente\nSe cair a 0 Pontos de Vida sem morrer, você fica [[inconsciente|Inconsciente]]. A condição termina se você recuperar qualquer Ponto de Vida.\n\n### Salvaguardas contra a morte\nNo início de cada turno com 0 Pontos de Vida, role 1d20 sem modificadores.\n\n- **10 ou mais:** sucesso. **9 ou menos:** falha.\n- **3 sucessos:** você fica estável. **3 falhas:** você morre. Os resultados não precisam ser seguidos e zeram quando você recupera PV ou fica estável.\n- **1 natural:** conta como duas falhas.\n- **20 natural:** você recupera 1 Ponto de Vida.\n- **Dano com 0 PV:** conta como uma falha. Se for um [[acerto-critico|Acerto Crítico]], conta como duas. Se o dano for igual ou maior que seu máximo de PV, você morre.\n\n### Estabilizar\nUma criatura pode usar a ação [[ajudar|Ajudar]] para prestar primeiros socorros a outra com 0 PV, com um teste de Sabedoria (Medicina) CD 10. Com sucesso, a criatura fica estável. Uma criatura estável não faz testes contra a morte, mas continua Inconsciente; se sofrer dano, volta a fazer os testes. Se não for curada, ela recupera 1 Ponto de Vida depois de 1d4 horas."
   },
   {
     "id": "ataque-desarmado",
     "nome": "Ataque Desarmado",
     "nome_en": "Unarmed Strike",
     "categoria": "regra",
-    "tags": ["soco", "agarrar", "empurrar", "derrubar", "chute"],
-    "resumo": "Soco, chute ou cabeçada: causa dano, agarra ou empurra.",
-    "texto": "Em vez de usar uma arma, você pode fazer um Ataque Desarmado como parte da ação [[atacar|Atacar]] ou de um [[ataque-de-oportunidade|Ataque de Oportunidade]]. Escolha um dos efeitos:\n\n- **Dano.** Faça uma jogada de ataque somando seu modificador de Força e seu [[bonus-de-proficiencia|Bônus de Proficiência]]. Se acertar, cause dano de Concussão igual a 1 + seu modificador de Força.\n- **Agarrar.** O alvo pode ser no máximo uma categoria de tamanho maior que você e deve estar ao seu alcance. Você precisa de uma mão livre. Em vez de jogada de ataque, o alvo faz um teste de resistência de Força ou Destreza (à escolha dele) com CD 8 + seu modificador de Força + seu Bônus de Proficiência. Se falhar, fica [[agarrado|Agarrado]] por você.\n- **Empurrar.** Mesmo limite de tamanho e alcance, e mesmo teste de resistência. Se o alvo falhar, você o empurra 1,5 metro (5 pés) para longe ou o deixa [[caido|Caído]]."
+    "tags": [
+      "soco",
+      "agarrar",
+      "empurrar",
+      "derrubar",
+      "chute",
+      "teste de resistência",
+      "imobilizar"
+    ],
+    "resumo": "Soco, chute ou cabeçada: causa dano, imobiliza ou empurra.",
+    "texto": "Em vez de usar uma arma, você pode fazer um Ataque Desarmado como parte da ação [[atacar|Atacar]] ou de um [[ataque-de-oportunidade|Ataque de Oportunidade]]. Escolha um dos efeitos:\n\n- **Dano.** Faça uma jogada de ataque somando seu modificador de Força e seu [[bonus-de-proficiencia|Bônus de Proficiência]]. Se acertar, cause dano de Concussão igual a 1 + seu modificador de Força.\n- **Imobilizar.** O alvo pode ser no máximo uma categoria de tamanho maior que você e deve estar ao seu alcance. Você precisa de uma mão livre. Em vez de jogada de ataque, o alvo faz uma salvaguarda de Força ou Destreza (à escolha dele) com CD 8 + seu modificador de Força + seu Bônus de Proficiência. Se falhar, fica [[agarrado|Imobilizado]] por você.\n- **Empurrar.** Mesmo limite de tamanho e alcance, e mesma salvaguarda. Se o alvo falhar, você o empurra 1,5 metro (5 pés) para longe ou o deixa [[caido|Caído]]."
   }
 ]

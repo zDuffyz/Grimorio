@@ -30,6 +30,7 @@
   --cat-condicao: #A13F37;
   --cat-acao: #8C6619;
   --cat-magia: #4A51A0;
+  --cat-classe: #7B3D6B;
   --bar: #1C2128;
   --bar-ink: #EEF0EA;
   --bar-field: #2A313A;
@@ -43,7 +44,7 @@
   :root:not([data-theme="light"]) {
     --paper: #121518; --surface: #1A1E23; --ink: #E6E3D9; --muted: #9AA1A9; --line: #2B3138;
     --accent: #6BB8AD; --accent-ink: #0F1A19;
-    --cat-regra: #6BB8AD; --cat-condicao: #E2867B; --cat-acao: #D6AE58; --cat-magia: #A3A9F2;
+    --cat-regra: #6BB8AD; --cat-condicao: #E2867B; --cat-acao: #D6AE58; --cat-magia: #A3A9F2; --cat-classe: #D98FC6;
     --bar: #0C0E10; --bar-ink: #E6E3D9; --bar-field: #1F242A;
     color-scheme: dark;
   }
@@ -51,7 +52,7 @@
 :root[data-theme="dark"] {
   --paper: #121518; --surface: #1A1E23; --ink: #E6E3D9; --muted: #9AA1A9; --line: #2B3138;
   --accent: #6BB8AD; --accent-ink: #0F1A19;
-  --cat-regra: #6BB8AD; --cat-condicao: #E2867B; --cat-acao: #D6AE58; --cat-magia: #A3A9F2;
+  --cat-regra: #6BB8AD; --cat-condicao: #E2867B; --cat-acao: #D6AE58; --cat-magia: #A3A9F2; --cat-classe: #D98FC6;
   --bar: #0C0E10; --bar-ink: #E6E3D9; --bar-field: #1F242A;
   color-scheme: dark;
 }
@@ -167,6 +168,9 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
 .corpo a.ref { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 .tabela { overflow-x: auto; margin: 0 0 1rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .tabela table { border-collapse: collapse; width: 100%; font-size: 0.95rem; font-variant-numeric: tabular-nums; }
+.tabela table.larga { min-width: 34rem; }
+.tabela table.muito-larga { min-width: 46rem; }
+.tabela th { white-space: nowrap; }
 .tabela th { text-align: left; font-family: var(--font-label); font-weight: 700; letter-spacing: 0.04em; font-size: 0.85rem; color: var(--muted); }
 .tabela th, .tabela td { padding: 0.45rem 0.75rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 .tabela tr:last-child td { border-bottom: 0; }
@@ -214,7 +218,7 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
     </div>
     <div class="busca" role="search">
       <label for="busca" style="position:absolute;left:-9999px">Buscar regra, condição ou magia</label>
-      <input id="busca" type="search" placeholder="Buscar: agarrado, bola de fogo, cobertura…" autocomplete="off" enterkeyhint="search">
+      <input id="busca" type="search" placeholder="Buscar: fúria, imobilizado, bola de fogo…" autocomplete="off" enterkeyhint="search">
       <button class="limpar" id="limpar" type="button" aria-label="Limpar busca" hidden>×</button>
     </div>
   </div>
@@ -237,6 +241,6 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
   </span>
 </div>
 
-<script src="app.js"></script>
+<script src="app.js?v=1.0.3"></script>
 </body>
 </html>

@@ -1,0 +1,538 @@
+[
+  {
+    "id": "bardo",
+    "nome": "Bardo",
+    "nome_en": "Bard",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "inspiração",
+      "carisma",
+      "conjurador"
+    ],
+    "resumo": "Conjurador inspirador de música e palavras. D8, Carisma.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Bardo |\n|---|---|\n| Atributo primário | Carisma |\n| Dado de Ponto de Vida | D8 por nível de Bardo |\n| Salvaguardas | Destreza e Carisma |\n| Perícias | Escolha quaisquer 3 |\n| Armas | Simples |\n| Ferramentas | 3 Instrumentos Musicais à sua escolha |\n| Armaduras | Leves |\n| Equipamento inicial | (A) Armadura de Couro, 2 Adagas, Instrumento Musical à sua escolha, Kit de Artista e 19 PO; ou (B) 90 PO |\n\n### Pontos de Vida\n- **Nível 1:** 8 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d8 (ou 5) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, proficiência em uma perícia à sua escolha, em um Instrumento Musical à sua escolha, treinamento com armaduras Leves e as características de nível 1. Os espaços de magia seguem as regras de multiclasse.\n\n### Progressão\n| Nível | Prof. | Características | Inspiração | Truques | Magias prep. |\n|---|---|---|---|---|---|\n| 1 | +2 | Inspiração de Bardo, Conjuração | d6 | 2 | 4 |\n| 2 | +2 | Especialista, Pau pra Toda Obra | d6 | 2 | 5 |\n| 3 | +2 | Subclasse | d6 | 2 | 6 |\n| 4 | +2 | Aumento no Valor de Atributo | d6 | 3 | 7 |\n| 5 | +3 | Fonte de Inspiração | d8 | 3 | 9 |\n| 6 | +3 | Característica de subclasse | d8 | 3 | 10 |\n| 7 | +3 | Contra-Encantamento | d8 | 3 | 11 |\n| 8 | +3 | Aumento no Valor de Atributo | d8 | 3 | 12 |\n| 9 | +4 | Especialista | d8 | 3 | 14 |\n| 10 | +4 | Segredos Mágicos | d10 | 4 | 15 |\n| 11 | +4 | — | d10 | 4 | 16 |\n| 12 | +4 | Aumento no Valor de Atributo | d10 | 4 | 16 |\n| 13 | +5 | — | d10 | 4 | 17 |\n| 14 | +5 | Característica de subclasse | d10 | 4 | 17 |\n| 15 | +5 | — | d12 | 4 | 18 |\n| 16 | +5 | Aumento no Valor de Atributo | d12 | 4 | 18 |\n| 17 | +6 | — | d12 | 4 | 19 |\n| 18 | +6 | Inspiração Superior | d12 | 4 | 20 |\n| 19 | +6 | Dádiva Épica | d12 | 4 | 21 |\n| 20 | +6 | Palavras de Criação | d12 | 4 | 22 |\n\n### Espaços de magia por nível\n| Nível | 1º | 2º | 3º | 4º | 5º | 6º | 7º | 8º | 9º |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | 2 | — | — | — | — | — | — | — | — |\n| 2 | 3 | — | — | — | — | — | — | — | — |\n| 3 | 4 | 2 | — | — | — | — | — | — | — |\n| 4 | 4 | 3 | — | — | — | — | — | — | — |\n| 5 | 4 | 3 | 2 | — | — | — | — | — | — |\n| 6 | 4 | 3 | 3 | — | — | — | — | — | — |\n| 7 | 4 | 3 | 3 | 1 | — | — | — | — | — |\n| 8 | 4 | 3 | 3 | 2 | — | — | — | — | — |\n| 9 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |\n| 10 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |\n| 11 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |\n| 18 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |\n| 19 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |\n| 20 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |\n\n### Características\n- **Nível 1:** [[inspiracao-de-bardo]], [[conjuracao-bardo|Conjuração]]\n- **Níveis 2 e 9:** [[especialista-bardo|Especialista]]\n- **Nível 2:** [[pau-pra-toda-obra]]\n- **Nível 3:** subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[fonte-de-inspiracao]]\n- **Nível 7:** [[contra-encantamento]]\n- **Nível 10:** [[segredos-magicos]]\n- **Nível 18:** [[inspiracao-superior]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva da Recordação de Magia)\n- **Nível 20:** [[palavras-de-criacao]]\n\n### Subclasses\n- [[colegio-da-bravura]]\n- [[colegio-da-danca]]\n- [[colegio-do-conhecimento]]\n- [[colegio-do-glamour]]"
+  },
+  {
+    "id": "inspiracao-de-bardo",
+    "nome": "Inspiração de Bardo",
+    "nome_en": "Bardic Inspiration",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 1,
+    "tags": [
+      "bardo",
+      "inspiração",
+      "dado de inspiração"
+    ],
+    "resumo": "Ação Bônus: dá a um aliado um dado para somar a um Teste de D20 que falhou.",
+    "texto": "Com uma **Ação Bônus**, escolha outra criatura a até **18 metros (60 pés)** que consiga ver ou ouvir você. Ela recebe um dado de Inspiração de Bardo (**d6** no início). Uma criatura só pode ter um desses dados por vez.\n\n- **Como usar.** Na próxima hora, uma vez, quando essa criatura **falhar num [[testes-de-d20|Teste de D20]]**, ela pode rolar o dado e somar ao d20, podendo transformar a falha em sucesso. O dado é gasto ao ser rolado.\n- **Usos.** Você pode dar a Inspiração um número de vezes igual ao seu modificador de Carisma (mínimo 1). Recupera todos os usos num [[descanso-longo|Descanso Longo]] (e também no Descanso Curto a partir do nível 5, com [[fonte-de-inspiracao|Fonte de Inspiração]]).\n- **Dado maior.** O dado vira **d8** no nível 5, **d10** no 10 e **d12** no 15.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "conjuracao-bardo",
+    "nome": "Conjuração (Bardo)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 1,
+    "tags": [
+      "bardo",
+      "magias",
+      "espaços de magia",
+      "truques"
+    ],
+    "resumo": "Magias de Bardo com Carisma; prepara magias e troca uma a cada nível.",
+    "texto": "- **Truques.** Você conhece **2 truques** da lista de Bardo (sugeridos: Luzes Dançantes e Zombaria Perversa). Ganha mais um no nível 4 e outro no 10. A cada nível de Bardo, pode trocar um truque por outro da lista.\n- **Espaços de magia.** Veja a tabela na [[bardo|ficha do Bardo]]. Você recupera todos os espaços gastos num [[descanso-longo|Descanso Longo]].\n- **Magias preparadas.** Comece com **4 magias de 1º círculo** (sugeridas: Enfeitiçar Pessoa, Leque Cromático, Palavra Curativa e Sussurros Dissonantes). A quantidade cresce conforme a coluna *Magias prep.*; as novas precisam ser de círculos para os quais você tem espaços. Magias que outra característica deixa sempre preparadas não contam nesse limite.\n- **Trocar magias.** A cada nível de Bardo, você pode trocar uma magia preparada por outra da lista de Bardo para a qual tenha espaços.\n- **Atributo de conjuração:** Carisma. **Foco:** um Instrumento Musical.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "especialista-bardo",
+    "nome": "Especialista (Bardo)",
+    "nome_en": "Expertise",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 2,
+    "tags": [
+      "bardo",
+      "especialização",
+      "perícias"
+    ],
+    "resumo": "Especialização em 2 perícias no nível 2 e mais 2 no nível 9.",
+    "texto": "Você ganha [[especializacao|Especialização]] em **duas perícias** em que já é proficiente (sugeridas: Atuação e Persuasão). No **nível 9**, ganha Especialização em mais duas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "pau-pra-toda-obra",
+    "nome": "Pau pra Toda Obra",
+    "nome_en": "Jack of All Trades",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 2,
+    "tags": [
+      "bardo",
+      "perícias",
+      "proficiência"
+    ],
+    "resumo": "Soma metade da proficiência em testes de perícias em que não é proficiente.",
+    "texto": "Em qualquer teste de atributo que use uma perícia em que você **não** é proficiente, e que não esteja somando seu Bônus de Proficiência por outro motivo, some **metade do Bônus de Proficiência** (arredondado para baixo).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "fonte-de-inspiracao",
+    "nome": "Fonte de Inspiração",
+    "nome_en": "Font of Inspiration",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 5,
+    "tags": [
+      "bardo",
+      "inspiração",
+      "descanso curto"
+    ],
+    "resumo": "Recupera Inspirações no Descanso Curto; pode trocar espaço de magia por uma Inspiração.",
+    "texto": "- Você recupera todos os usos de [[inspiracao-de-bardo|Inspiração de Bardo]] ao terminar um **Descanso Curto ou Longo**.\n- Você pode gastar um **espaço de magia** (sem ação) para recuperar um uso de Inspiração de Bardo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "contra-encantamento",
+    "nome": "Contra-Encantamento",
+    "nome_en": "Countercharm",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 7,
+    "tags": [
+      "bardo",
+      "medo",
+      "encanto",
+      "reação"
+    ],
+    "resumo": "Reação: você ou aliado a 9 m refaz com Vantagem uma salvaguarda contra medo ou encanto.",
+    "texto": "Quando você ou uma criatura a até **9 metros (30 pés)** falha numa salvaguarda contra um efeito que causa [[amedrontado|Amedrontado]] ou [[enfeiticado|Enfeitiçado]], você pode usar sua **Reação** para que a salvaguarda seja rolada de novo, **com Vantagem**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "segredos-magicos",
+    "nome": "Segredos Mágicos",
+    "nome_en": "Magical Secrets",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 10,
+    "tags": [
+      "bardo",
+      "magias",
+      "outras listas"
+    ],
+    "resumo": "Pode preparar magias das listas de Bardo, Clérigo, Druida e Mago.",
+    "texto": "Sempre que você sobe de nível de Bardo (incluindo este) e o número de magias preparadas aumenta, as magias novas podem vir das listas de **Bardo, Clérigo, Druida ou Mago**; elas contam como magias de Bardo para você. Quando trocar uma magia preparada desta classe, a nova também pode vir dessas listas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "inspiracao-superior",
+    "nome": "Inspiração Superior",
+    "nome_en": "Superior Inspiration",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 18,
+    "tags": [
+      "bardo",
+      "inspiração",
+      "iniciativa"
+    ],
+    "resumo": "Ao rolar Iniciativa, volta a ter pelo menos 2 usos de Inspiração.",
+    "texto": "Ao rolar [[iniciativa|Iniciativa]], se tiver menos de **dois** usos de [[inspiracao-de-bardo|Inspiração de Bardo]], você recupera usos até ter dois.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "palavras-de-criacao",
+    "nome": "Palavras de Criação",
+    "nome_en": "Words of Creation",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 20,
+    "tags": [
+      "bardo",
+      "palavra de poder"
+    ],
+    "resumo": "Palavra de Poder: Matar e Salvar sempre preparadas, atingindo um segundo alvo.",
+    "texto": "Você sempre tem preparadas **Palavra de Poder: Matar** e **Palavra de Poder: Salvar**. Ao lançar qualquer uma delas, pode escolher um **segundo alvo** a até 3 metros (10 pés) do primeiro.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "colegio-da-bravura",
+    "nome": "Colégio da Bravura",
+    "nome_en": "College of Valor",
+    "categoria": "classe",
+    "de": "bardo",
+    "subclasse": "Colégio da Bravura",
+    "sub_curto": "Bravura",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bardo",
+      "valor"
+    ],
+    "resumo": "Bardo combatente que canta os feitos dos heróis.",
+    "texto": "Bardos que guardam a memória dos grandes heróis e inspiram novas gerações a repetir seus feitos, muitas vezes indo eles mesmos para a linha de frente.\n\n- **Nível 3:** [[inspiracao-em-combate]], [[treinamento-marcial-bravura]]\n- **Nível 6:** [[ataque-extra-bravura]]\n- **Nível 14:** [[magia-de-batalha]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "inspiracao-em-combate",
+    "nome": "Inspiração em Combate",
+    "nome_en": "Combat Inspiration",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "bravura",
+      "ca",
+      "dano"
+    ],
+    "resumo": "Quem tem sua Inspiração pode usá-la na CA ou no dano.",
+    "texto": "Uma criatura com um dado de [[inspiracao-de-bardo|Inspiração de Bardo]] seu pode usá-lo de uma destas formas:\n\n- **Defesa.** Quando for atingida por uma jogada de ataque, usa a própria **Reação** para rolar o dado e somar à CA contra aquele ataque, podendo fazê-lo errar.\n- **Ataque.** Logo depois de acertar um alvo com uma jogada de ataque, rola o dado e soma ao dano daquele ataque.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Bravura",
+    "sub_curto": "Bravura"
+  },
+  {
+    "id": "treinamento-marcial-bravura",
+    "nome": "Treinamento Marcial",
+    "nome_en": "Martial Training",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "bravura",
+      "armas",
+      "armadura"
+    ],
+    "resumo": "Armas Marciais, armaduras Médias e Escudos; arma como foco.",
+    "texto": "Você ganha proficiência com **armas Marciais** e treinamento com **armaduras Médias e Escudos**. Também pode usar uma arma Simples ou Marcial como foco de conjuração para suas magias de Bardo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Bravura",
+    "sub_curto": "Bravura"
+  },
+  {
+    "id": "ataque-extra-bravura",
+    "nome": "Ataque Extra (Bravura)",
+    "nome_en": "Extra Attack",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 6,
+    "tags": [
+      "bardo",
+      "bravura",
+      "dois ataques",
+      "truque"
+    ],
+    "resumo": "Dois ataques na ação Atacar; um pode virar truque.",
+    "texto": "Quando usa a ação [[atacar|Atacar]] no seu turno, você ataca **duas vezes**. Pode trocar um desses ataques por um **truque** com tempo de conjuração de uma ação.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Bravura",
+    "sub_curto": "Bravura"
+  },
+  {
+    "id": "magia-de-batalha",
+    "nome": "Magia de Batalha",
+    "nome_en": "Battle Magic",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 14,
+    "tags": [
+      "bardo",
+      "bravura",
+      "ação bônus"
+    ],
+    "resumo": "Depois de lançar magia de uma ação, ataca com arma como Ação Bônus.",
+    "texto": "Depois de lançar uma magia com tempo de conjuração de uma ação, você pode fazer **um ataque com arma** como **Ação Bônus**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Bravura",
+    "sub_curto": "Bravura"
+  },
+  {
+    "id": "colegio-da-danca",
+    "nome": "Colégio da Dança",
+    "nome_en": "College of Dance",
+    "categoria": "classe",
+    "de": "bardo",
+    "subclasse": "Colégio da Dança",
+    "sub_curto": "Dança",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bardo",
+      "dança",
+      "desarmado"
+    ],
+    "resumo": "Bardo ágil que luta dançando, sem armadura.",
+    "texto": "Para estes Bardos, as Palavras de Criação também se expressam no movimento, dos astros às menores criaturas. Eles buscam agilidade, velocidade e graça.\n\n- **Nível 3:** [[ginga-fascinante]]\n- **Nível 6:** [[gingado-coordenado]], [[movimento-inspirador]]\n- **Nível 14:** [[evasao-liderada]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "ginga-fascinante",
+    "nome": "Ginga Fascinante",
+    "nome_en": "Dazzling Footwork",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "dança",
+      "ca",
+      "desarmado"
+    ],
+    "resumo": "Sem armadura nem Escudo: CA 10+Des+Car, Ataques Desarmados com Destreza e dano do dado de Inspiração.",
+    "texto": "Enquanto não estiver usando armadura nem empunhando Escudo:\n\n- **Dança virtuosa.** Vantagem em testes de Carisma (Atuação) que envolvam dançar.\n- **Defesa sem armadura.** Sua CA base é **10 + Destreza + Carisma**.\n- **Dano de Bardo.** Seus [[ataque-desarmado|Ataques Desarmados]] podem usar Destreza na jogada de ataque. Ao causar dano com eles, você pode causar dano Contundente igual a **um rolamento do dado de Inspiração de Bardo + modificador de Destreza** no lugar do dano normal. Isso não gasta Inspiração.\n- **Golpes ágeis.** Quando gasta uma [[inspiracao-de-bardo|Inspiração de Bardo]] como parte de uma ação, Ação Bônus ou Reação, você pode fazer um Ataque Desarmado como parte dela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Dança",
+    "sub_curto": "Dança"
+  },
+  {
+    "id": "gingado-coordenado",
+    "nome": "Gingado Coordenado",
+    "nome_en": "Tandem Footwork",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 6,
+    "tags": [
+      "bardo",
+      "dança",
+      "iniciativa"
+    ],
+    "resumo": "Ao rolar Iniciativa, gasta uma Inspiração e soma o dado à Iniciativa do grupo.",
+    "texto": "Ao rolar [[iniciativa|Iniciativa]], se não estiver Incapacitado, você pode gastar um uso de [[inspiracao-de-bardo|Inspiração de Bardo]]. Role o dado: você e cada aliado a até **9 metros (30 pés)** que consiga ver ou ouvir você somam o resultado à Iniciativa.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Dança",
+    "sub_curto": "Dança"
+  },
+  {
+    "id": "movimento-inspirador",
+    "nome": "Movimento Inspirador",
+    "nome_en": "Inspiring Movement",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 6,
+    "tags": [
+      "bardo",
+      "dança",
+      "movimento",
+      "reação"
+    ],
+    "resumo": "Reação quando inimigo termina o turno colado: você e um aliado se movem.",
+    "texto": "Quando um inimigo que você consegue ver termina o turno a até **1,5 metro** de você, você pode usar a **Reação** e gastar uma [[inspiracao-de-bardo|Inspiração de Bardo]] para se mover até metade do seu Deslocamento. Depois, um aliado a até 9 metros pode usar a Reação dele para se mover até metade do Deslocamento dele.\n\nNenhum desses movimentos provoca [[ataque-de-oportunidade|Ataques de Oportunidade]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Dança",
+    "sub_curto": "Dança"
+  },
+  {
+    "id": "evasao-liderada",
+    "nome": "Evasão Liderada",
+    "nome_en": "Leading Evasion",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 14,
+    "tags": [
+      "bardo",
+      "dança",
+      "evasão",
+      "destreza"
+    ],
+    "resumo": "Evasão para você e criaturas a 1,5 m em salvaguardas de Destreza.",
+    "texto": "Quando um efeito permite uma salvaguarda de Destreza para sofrer metade do dano, você não sofre dano se passar e sofre só metade se falhar. Criaturas a até **1,5 metro** de você que façam a mesma salvaguarda também podem receber esse benefício.\n\nNão funciona se você estiver [[incapacitado|Incapacitado]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio da Dança",
+    "sub_curto": "Dança"
+  },
+  {
+    "id": "colegio-do-conhecimento",
+    "nome": "Colégio do Conhecimento",
+    "nome_en": "College of Lore",
+    "categoria": "classe",
+    "de": "bardo",
+    "subclasse": "Colégio do Conhecimento",
+    "sub_curto": "Conhecimento",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bardo",
+      "lore",
+      "saber"
+    ],
+    "resumo": "Bardo erudito que coleciona magias e segredos.",
+    "texto": "Bardos que reúnem magias e segredos de livros, ritos e histórias populares, e usam esse saber para desmontar mentiras e satirizar os poderosos.\n\n- **Nível 3:** [[palavras-de-interrupcao]], [[proficiencias-bonus-conhecimento]]\n- **Nível 6:** [[descobertas-magicas]]\n- **Nível 14:** [[pericia-inigualavel]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "palavras-de-interrupcao",
+    "nome": "Palavras de Interrupção",
+    "nome_en": "Cutting Words",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "conhecimento",
+      "reação",
+      "palavras cortantes"
+    ],
+    "resumo": "Reação: subtrai o dado de Inspiração do dano, teste ou ataque de uma criatura.",
+    "texto": "Quando uma criatura que você vê a até **18 metros (60 pés)** faz uma jogada de dano, ou **passa** num teste de atributo ou jogada de ataque, você pode usar a **Reação** e gastar uma [[inspiracao-de-bardo|Inspiração de Bardo]]. Role o dado e **subtraia** do resultado dela, reduzindo o dano ou podendo transformar o sucesso em falha.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Colégio do Conhecimento",
+    "sub_curto": "Conhecimento"
+  },
+  {
+    "id": "proficiencias-bonus-conhecimento",
+    "nome": "Proficiências Bônus",
+    "nome_en": "Bonus Proficiencies",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "conhecimento",
+      "perícias"
+    ],
+    "resumo": "Proficiência em 3 perícias à sua escolha.",
+    "texto": "Você ganha proficiência em **três perícias** à sua escolha.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Colégio do Conhecimento",
+    "sub_curto": "Conhecimento"
+  },
+  {
+    "id": "descobertas-magicas",
+    "nome": "Descobertas Mágicas",
+    "nome_en": "Magical Discoveries",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 6,
+    "tags": [
+      "bardo",
+      "conhecimento",
+      "magias"
+    ],
+    "resumo": "Duas magias de Clérigo, Druida ou Mago sempre preparadas.",
+    "texto": "Você aprende **duas magias** das listas de **Clérigo, Druida ou Mago** (pode misturar). Cada uma deve ser um truque ou de um círculo para o qual você tenha espaços. Elas ficam **sempre preparadas**, e a cada nível de Bardo você pode trocar uma delas por outra que cumpra as mesmas regras.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Colégio do Conhecimento",
+    "sub_curto": "Conhecimento"
+  },
+  {
+    "id": "pericia-inigualavel",
+    "nome": "Perícia Inigualável",
+    "nome_en": "Peerless Skill",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 14,
+    "tags": [
+      "bardo",
+      "conhecimento",
+      "inspiração"
+    ],
+    "resumo": "Falhou num teste ou ataque: soma o dado de Inspiração; se ainda falhar, não gasta.",
+    "texto": "Quando você falha num teste de atributo ou numa jogada de ataque, pode gastar uma [[inspiracao-de-bardo|Inspiração de Bardo]], rolar o dado e somar ao d20, podendo transformar a falha em sucesso. Se mesmo assim falhar, a Inspiração **não** é gasta.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Colégio do Conhecimento",
+    "sub_curto": "Conhecimento"
+  },
+  {
+    "id": "colegio-do-glamour",
+    "nome": "Colégio do Glamour",
+    "nome_en": "College of Glamour",
+    "categoria": "classe",
+    "de": "bardo",
+    "subclasse": "Colégio do Glamour",
+    "sub_curto": "Glamour",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bardo",
+      "feérico",
+      "fada"
+    ],
+    "resumo": "Bardo de magia feérica que encanta e assusta.",
+    "texto": "Bardos que estudam a magia encantadora de Faéria e misturam beleza e terror em suas apresentações; os mais poderosos assumem uma majestade sobrenatural.\n\n- **Nível 3:** [[magia-fascinante]], [[manto-de-inspiracao]]\n- **Nível 6:** [[manto-de-majestade]]\n- **Nível 14:** [[majestade-inquebravel]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "magia-fascinante",
+    "nome": "Magia Fascinante",
+    "nome_en": "Beguiling Magic",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "glamour",
+      "encanto",
+      "medo"
+    ],
+    "resumo": "Enfeitiçar Pessoa e Reflexos preparadas; após magia de Encantamento ou Ilusão, assusta ou encanta um alvo.",
+    "texto": "- **Magias.** Você sempre tem **Enfeitiçar Pessoa** e **Reflexos** preparadas.\n- **Efeito extra.** Logo depois de lançar uma magia de Encantamento ou Ilusão usando um espaço de magia, você pode obrigar uma criatura que vê a até **18 metros (60 pés)** a fazer uma **salvaguarda de Sabedoria** contra a CD das suas magias. Se falhar, fica [[amedrontado|Amedrontada]] ou [[enfeiticado|Enfeitiçada]] (à sua escolha) por 1 minuto, repetindo a salvaguarda no fim de cada turno dela.\n- **Uso.** Uma vez por Descanso Longo; você pode recuperar o uso gastando uma [[inspiracao-de-bardo|Inspiração de Bardo]] (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Glamour",
+    "sub_curto": "Glamour"
+  },
+  {
+    "id": "manto-de-inspiracao",
+    "nome": "Manto de Inspiração",
+    "nome_en": "Mantle of Inspiration",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 3,
+    "tags": [
+      "bardo",
+      "glamour",
+      "pv temporários",
+      "movimento"
+    ],
+    "resumo": "Ação Bônus + Inspiração: aliados ganham PV temporários e se movem de graça.",
+    "texto": "Com uma **Ação Bônus**, gaste uma [[inspiracao-de-bardo|Inspiração de Bardo]] e role o dado. Escolha um número de criaturas a até **18 metros** igual ao seu modificador de Carisma (mínimo 1). Cada uma ganha Pontos de Vida Temporários iguais ao **dobro do número rolado** e pode usar a própria **Reação** para se mover até o seu Deslocamento sem provocar Ataques de Oportunidade.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Glamour",
+    "sub_curto": "Glamour"
+  },
+  {
+    "id": "manto-de-majestade",
+    "nome": "Manto de Majestade",
+    "nome_en": "Mantle of Majesty",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 6,
+    "tags": [
+      "bardo",
+      "glamour",
+      "comando"
+    ],
+    "resumo": "Comando sem gastar espaço como Ação Bônus por 1 minuto; encantados falham.",
+    "texto": "Você sempre tem **Comando** preparada. Com uma **Ação Bônus**, lance Comando sem gastar espaço e assuma uma aparência sobrenatural por **1 minuto** ou até sua [[concentracao|Concentração]] acabar. Durante esse tempo, pode lançar Comando como Ação Bônus sem gastar espaço.\n\nCriaturas [[enfeiticado|Enfeitiçadas]] por você falham automaticamente na salvaguarda contra esse Comando.\n\n- **Uso.** Uma vez por Descanso Longo; você pode recuperar o uso gastando um espaço de magia de **3º círculo ou maior** (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Glamour",
+    "sub_curto": "Glamour"
+  },
+  {
+    "id": "majestade-inquebravel",
+    "nome": "Majestade Inquebrável",
+    "nome_en": "Unbreakable Majesty",
+    "categoria": "classe",
+    "de": "bardo",
+    "nivel": 14,
+    "tags": [
+      "bardo",
+      "glamour",
+      "defesa"
+    ],
+    "resumo": "Por 1 minuto, o primeiro ataque de cada criatura contra você no turno pode falhar por salvaguarda de Carisma.",
+    "texto": "Com uma **Ação Bônus**, você assume uma presença majestosa por **1 minuto** ou até ficar [[incapacitado|Incapacitado]]. Enquanto durar, na **primeira vez em cada turno** que uma criatura acertar você com uma jogada de ataque, ela faz uma **salvaguarda de Carisma** contra a CD das suas magias; se falhar, o ataque erra.\n\n- **Uso.** Uma vez por Descanso Curto ou Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Colégio do Glamour",
+    "sub_curto": "Glamour"
+  }
+]

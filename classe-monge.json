@@ -1,0 +1,753 @@
+[
+  {
+    "id": "monge",
+    "nome": "Monge",
+    "nome_en": "Monk",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "artes marciais",
+      "foco",
+      "desarmado",
+      "monk",
+      "ki"
+    ],
+    "resumo": "Lutador de artes marciais movido por Pontos de Foco. D8, Destreza e Sabedoria.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Monge |\n|---|---|\n| Atributo primário | Destreza e Sabedoria |\n| Dado de Ponto de Vida | D8 por nível de Monge |\n| Salvaguardas | Força e Destreza |\n| Perícias | Escolha 2: Acrobacia, Atletismo, Furtividade, História, Intuição ou Religião |\n| Armas | Simples, e Marciais com a propriedade Leve |\n| Ferramentas | Um tipo de Ferramentas de Artesão ou um Instrumento Musical |\n| Armaduras | Nenhuma |\n| Equipamento inicial | (A) Lança, 5 Adagas, as Ferramentas de Artesão ou o Instrumento Musical escolhido, Kit de Aventureiro e 11 PO; ou (B) 50 PO |\n\n### Pontos de Vida\n- **Nível 1:** 8 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d8 (ou 5) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe só o Dado de Ponto de Vida e as características de nível 1.\n\n### Progressão\n| Nível | Prof. | Características | Artes Marciais | Pontos de Foco | Movimento |\n|---|---|---|---|---|---|\n| 1 | +2 | Artes Marciais, Defesa sem Armadura | 1d6 | — | — |\n| 2 | +2 | Foco do Monge, Movimento sem Armadura, Metabolismo Incomum | 1d6 | 2 | +3 m |\n| 3 | +2 | Defletir Ataques, Subclasse | 1d6 | 3 | +3 m |\n| 4 | +2 | Aumento no Valor de Atributo, Queda Lenta | 1d6 | 4 | +3 m |\n| 5 | +3 | Ataque Extra, Golpe Atordoante | 1d8 | 5 | +3 m |\n| 6 | +3 | Golpes Potencializados, Característica de subclasse | 1d8 | 6 | +4,5 m |\n| 7 | +3 | Evasão | 1d8 | 7 | +4,5 m |\n| 8 | +3 | Aumento no Valor de Atributo | 1d8 | 8 | +4,5 m |\n| 9 | +4 | Movimento Acrobático | 1d8 | 9 | +4,5 m |\n| 10 | +4 | Foco Aprimorado, Restauro Pessoal | 1d8 | 10 | +6 m |\n| 11 | +4 | Característica de subclasse | 1d10 | 11 | +6 m |\n| 12 | +4 | Aumento no Valor de Atributo | 1d10 | 12 | +6 m |\n| 13 | +5 | Defletir Energia | 1d10 | 13 | +6 m |\n| 14 | +5 | Sobrevivente Disciplinado | 1d10 | 14 | +7,5 m |\n| 15 | +5 | Foco Perfeito | 1d10 | 15 | +7,5 m |\n| 16 | +5 | Aumento no Valor de Atributo | 1d10 | 16 | +7,5 m |\n| 17 | +6 | Característica de subclasse | 1d12 | 17 | +7,5 m |\n| 18 | +6 | Defesa Superior | 1d12 | 18 | +9 m |\n| 19 | +6 | Dádiva Épica | 1d12 | 19 | +9 m |\n| 20 | +6 | Corpo e Mente | 1d12 | 20 | +9 m |\n\n### Características\n- **Nível 1:** [[artes-marciais]], [[defesa-sem-armadura-monge|Defesa sem Armadura]]\n- **Nível 2:** [[foco-do-monge]], [[movimento-sem-armadura]], [[metabolismo-incomum]]\n- **Nível 3:** [[defletir-ataques]], subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 4:** [[queda-lenta]]\n- **Nível 5:** [[ataque-extra-monge|Ataque Extra]], [[golpe-atordoante]]\n- **Nível 6:** [[golpes-potencializados]]\n- **Nível 7:** [[evasao-monge|Evasão]]\n- **Nível 9:** [[movimento-acrobatico]]\n- **Nível 10:** [[foco-aprimorado]], [[restauro-pessoal]]\n- **Nível 13:** [[defletir-energia]]\n- **Nível 14:** [[sobrevivente-disciplinado]]\n- **Nível 15:** [[foco-perfeito]]\n- **Nível 18:** [[defesa-superior]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva do Ataque Irresistível)\n- **Nível 20:** [[corpo-e-mente]]\n\n### Subclasses\n- [[combatente-da-mao-espalmada]]\n- [[combatente-da-misericordia]]\n- [[combatente-das-sombras]]\n- [[combatente-dos-elementos]]"
+  },
+  {
+    "id": "artes-marciais",
+    "nome": "Artes Marciais",
+    "nome_en": "Martial Arts",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 1,
+    "tags": [
+      "monge",
+      "desarmado",
+      "armas de monge",
+      "dado de artes marciais"
+    ],
+    "resumo": "Desarmado ou com armas de Monge: ataque bônus desarmado, dado de Artes Marciais e Destreza.",
+    "texto": "**Armas de Monge:** armas Simples corpo a corpo e armas Marciais corpo a corpo com a propriedade **Leve**.\n\nEnquanto estiver desarmado ou usando só armas de Monge, sem armadura e sem Escudo:\n\n- **Ataque desarmado bônus.** Você pode fazer um [[ataque-desarmado|Ataque Desarmado]] como **Ação Bônus**.\n- **Dado de Artes Marciais.** Pode rolar **1d6** no lugar do dano normal do Ataque Desarmado ou das armas de Monge. O dado cresce pela coluna *Artes Marciais* da [[monge|tabela]].\n- **Ataques com Destreza.** Use Destreza em vez de Força nas jogadas de ataque e dano com Ataques Desarmados e armas de Monge, e também para a CD de **Imobilizar** e **Empurrar** do Ataque Desarmado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "defesa-sem-armadura-monge",
+    "nome": "Defesa sem Armadura (Monge)",
+    "nome_en": "Unarmored Defense",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 1,
+    "tags": [
+      "monge",
+      "ca"
+    ],
+    "resumo": "Sem armadura nem Escudo: CA = 10 + Destreza + Sabedoria.",
+    "texto": "Sem armadura e sem Escudo, sua CA base é **10 + Destreza + Sabedoria**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "foco-do-monge",
+    "nome": "Foco do Monge",
+    "nome_en": "Monk's Focus",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 2,
+    "tags": [
+      "monge",
+      "pontos de foco",
+      "ki",
+      "torrente de golpes",
+      "defesa paciente",
+      "passo do vento"
+    ],
+    "resumo": "Pontos de Foco para Defesa Paciente, Passo do Vento e Torrente de Golpes.",
+    "texto": "Você tem **Pontos de Foco** iguais ao seu nível de Monge (a partir do 2) e recupera todos num **Descanso Curto ou Longo**. CD das características de Foco: **8 + Sabedoria + Bônus de Proficiência**.\n\n- **Defesa Paciente.** [[desengajar|Desengajar]] como Ação Bônus. Ou gaste **1 ponto** para fazer Desengajar **e** [[esquivar|Esquivar]] como Ação Bônus.\n- **Passo do Vento.** [[disparada|Correr]] como Ação Bônus. Ou gaste **1 ponto** para fazer Desengajar **e** Correr como Ação Bônus, com a distância de salto dobrada no turno.\n- **Torrente de Golpes.** Gaste **1 ponto** para fazer **dois Ataques Desarmados** como Ação Bônus.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "movimento-sem-armadura",
+    "nome": "Movimento sem Armadura",
+    "nome_en": "Unarmored Movement",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 2,
+    "tags": [
+      "monge",
+      "deslocamento"
+    ],
+    "resumo": "Deslocamento extra sem armadura nem Escudo (+3 m a +9 m).",
+    "texto": "Sem armadura e sem Escudo, seu Deslocamento aumenta em **3 metros**, crescendo pela coluna *Movimento* da [[monge|tabela]] até +9 metros.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "metabolismo-incomum",
+    "nome": "Metabolismo Incomum",
+    "nome_en": "Uncanny Metabolism",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 2,
+    "tags": [
+      "monge",
+      "pontos de foco",
+      "cura",
+      "iniciativa"
+    ],
+    "resumo": "1×/Descanso Longo, ao rolar Iniciativa: recupera todos os Pontos de Foco e se cura.",
+    "texto": "Ao rolar [[iniciativa|Iniciativa]], você pode recuperar **todos** os Pontos de Foco gastos. Se fizer isso, role o dado de Artes Marciais e recupere PV iguais a **nível de Monge + resultado**. Uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "defletir-ataques",
+    "nome": "Defletir Ataques",
+    "nome_en": "Deflect Attacks",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "reação",
+      "defletir projéteis",
+      "defesa"
+    ],
+    "resumo": "Reação: reduz dano físico em 1d10 + Des + nível; se zerar, devolve o golpe com 1 Foco.",
+    "texto": "Quando um ataque acerta você e o dano inclui **Contundente, Cortante ou Perfurante**, use a **Reação** para reduzir o dano total em **1d10 + Destreza + nível de Monge**.\n\nSe reduzir o dano a 0, você pode gastar **1 Ponto de Foco** para redirecionar o golpe: escolha uma criatura que vê a até 1,5 metro (ataque corpo a corpo) ou a até 18 metros sem cobertura total (ataque à distância). Ela faz **salvaguarda de Destreza** ou sofre **dois dados de Artes Marciais + Destreza** de dano do mesmo tipo do ataque.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "queda-lenta",
+    "nome": "Queda Lenta",
+    "nome_en": "Slow Fall",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 4,
+    "tags": [
+      "monge",
+      "queda"
+    ],
+    "resumo": "Reação: reduz dano de queda em 5 × nível.",
+    "texto": "Ao cair, use a **Reação** para reduzir o dano da queda em **5 × seu nível de Monge**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ataque-extra-monge",
+    "nome": "Ataque Extra (Monge)",
+    "nome_en": "Extra Attack",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 5,
+    "tags": [
+      "monge",
+      "dois ataques"
+    ],
+    "resumo": "Ataca duas vezes ao usar a ação Atacar.",
+    "texto": "Quando você usa a ação [[atacar|Atacar]] no seu turno, pode atacar **duas vezes**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpe-atordoante",
+    "nome": "Golpe Atordoante",
+    "nome_en": "Stunning Strike",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 5,
+    "tags": [
+      "monge",
+      "atordoar",
+      "stunning strike"
+    ],
+    "resumo": "1×/turno, 1 Foco: Atordoado até seu próximo turno (Constituição); se passar, fica lento e vulnerável.",
+    "texto": "Uma vez por turno, ao acertar uma criatura com arma de Monge ou Ataque Desarmado, gaste **1 Ponto de Foco**. O alvo faz **salvaguarda de Constituição**: se falhar, fica [[atordoado|Atordoado]] até o início do seu próximo turno; se passar, seu Deslocamento cai pela metade e o próximo ataque contra ele antes disso tem Vantagem.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpes-potencializados",
+    "nome": "Golpes Potencializados",
+    "nome_en": "Empowered Strikes",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 6,
+    "tags": [
+      "monge",
+      "energético"
+    ],
+    "resumo": "Ataques Desarmados podem causar dano Energético.",
+    "texto": "Seus Ataques Desarmados podem causar dano **Energético** ou o tipo normal, à sua escolha.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "evasao-monge",
+    "nome": "Evasão (Monge)",
+    "nome_en": "Evasion",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 7,
+    "tags": [
+      "monge",
+      "evasão",
+      "destreza"
+    ],
+    "resumo": "Salvaguarda de Destreza para metade do dano: nenhum se passar, metade se falhar.",
+    "texto": "Quando um efeito permite salvaguarda de Destreza para sofrer metade do dano, você não sofre dano se passar e sofre só metade se falhar. Não funciona se estiver [[incapacitado|Incapacitado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "movimento-acrobatico",
+    "nome": "Movimento Acrobático",
+    "nome_en": "Acrobatic Movement",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 9,
+    "tags": [
+      "monge",
+      "parede",
+      "água"
+    ],
+    "resumo": "Sem armadura nem Escudo: corre por paredes e sobre líquidos no seu turno.",
+    "texto": "Sem armadura e sem Escudo, você pode se mover no seu turno por **superfícies verticais** e **sobre líquidos** sem cair durante o movimento.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "foco-aprimorado",
+    "nome": "Foco Aprimorado",
+    "nome_en": "Heightened Focus",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 10,
+    "tags": [
+      "monge",
+      "pontos de foco",
+      "torrente de golpes"
+    ],
+    "resumo": "Defesa Paciente dá PV temporários, Passo do Vento leva um aliado, Torrente faz 3 ataques.",
+    "texto": "Ao gastar Foco nas opções do [[foco-do-monge|Foco do Monge]]:\n\n- **Defesa Paciente.** Você ganha PV temporários iguais a **dois dados de Artes Marciais**.\n- **Passo do Vento.** Leve junto uma criatura voluntária Grande ou menor a até 1,5 metro; ela se move com você até o fim do turno sem provocar Ataques de Oportunidade.\n- **Torrente de Golpes.** Faça **três** Ataques Desarmados em vez de dois.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "restauro-pessoal",
+    "nome": "Restauro Pessoal",
+    "nome_en": "Self-Restoration",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 10,
+    "tags": [
+      "monge",
+      "condições",
+      "autocura"
+    ],
+    "resumo": "No fim do turno, remove Amedrontado, Enfeitiçado ou Envenenado; não sofre exaustão por fome e sede.",
+    "texto": "No fim de cada turno seu, você pode remover de si uma destas condições: [[amedrontado|Amedrontado]], [[enfeiticado|Enfeitiçado]] ou [[envenenado|Envenenado]]. Você também não sofre [[exaustao|Exaustão]] por falta de comida e água.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "defletir-energia",
+    "nome": "Defletir Energia",
+    "nome_en": "Deflect Energy",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 13,
+    "tags": [
+      "monge",
+      "reação",
+      "defesa"
+    ],
+    "resumo": "Defletir Ataques funciona contra qualquer tipo de dano.",
+    "texto": "[[defletir-ataques|Defletir Ataques]] passa a funcionar contra ataques de **qualquer** tipo de dano.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "sobrevivente-disciplinado",
+    "nome": "Sobrevivente Disciplinado",
+    "nome_en": "Disciplined Survivor",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 14,
+    "tags": [
+      "monge",
+      "salvaguarda"
+    ],
+    "resumo": "Proficiência em todas as salvaguardas; 1 Foco para refazer uma que falhou.",
+    "texto": "Você é proficiente em **todas as salvaguardas**. Quando falhar numa, pode gastar **1 Ponto de Foco** para rolar de novo e usar o novo resultado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "foco-perfeito",
+    "nome": "Foco Perfeito",
+    "nome_en": "Perfect Focus",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 15,
+    "tags": [
+      "monge",
+      "pontos de foco"
+    ],
+    "resumo": "Ao rolar Iniciativa sem usar Metabolismo Incomum, volta a ter pelo menos 4 Pontos de Foco.",
+    "texto": "Ao rolar Iniciativa sem usar [[metabolismo-incomum|Metabolismo Incomum]], se tiver 3 Pontos de Foco ou menos, recupera até ficar com **4**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "defesa-superior",
+    "nome": "Defesa Superior",
+    "nome_en": "Superior Defense",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 18,
+    "tags": [
+      "monge",
+      "resistência"
+    ],
+    "resumo": "3 Foco: Resistência a todo dano (exceto Energético) por 1 minuto.",
+    "texto": "No início do seu turno, gaste **3 Pontos de Foco** para ter **Resistência a todos os tipos de dano, exceto Energético**, por 1 minuto ou até ficar [[incapacitado|Incapacitado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "corpo-e-mente",
+    "nome": "Corpo e Mente",
+    "nome_en": "Body and Mind",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 20,
+    "tags": [
+      "monge",
+      "atributos"
+    ],
+    "resumo": "+4 em Destreza e Sabedoria, até 25.",
+    "texto": "Seus valores de **Destreza e Sabedoria aumentam em 4**, até o máximo de 25.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "combatente-da-mao-espalmada",
+    "nome": "Combatente da Mão Espalmada",
+    "nome_en": "Warrior of the Open Hand",
+    "categoria": "classe",
+    "de": "monge",
+    "subclasse": "Combatente da Mão Espalmada",
+    "sub_curto": "Mão Espalmada",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "monge",
+      "mão aberta",
+      "open hand"
+    ],
+    "resumo": "Monge mestre do combate desarmado: derruba, empurra e cura a si mesmo.",
+    "texto": "Mestres do combate desarmado que aprendem a empurrar e derrubar oponentes e a usar a própria energia para se proteger.\n\n- **Nível 3:** [[tecnica-da-mao-espalmada]]\n- **Nível 6:** [[integridade-corporal]]\n- **Nível 11:** [[passo-veloz]]\n- **Nível 17:** [[palma-vibrante]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "tecnica-da-mao-espalmada",
+    "nome": "Técnica da Mão Espalmada",
+    "nome_en": "Open Hand Technique",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "mão espalmada",
+      "derrubar",
+      "empurrar"
+    ],
+    "resumo": "Ataques da Torrente de Golpes podem derrubar, desorientar ou empurrar.",
+    "texto": "Ao acertar uma criatura com um ataque da **Torrente de Golpes**, escolha um efeito:\n\n- **Derrubar.** O alvo faz salvaguarda de Destreza ou fica [[caido|Caído]].\n- **Desorientar.** O alvo não pode fazer Ataques de Oportunidade até o início do próximo turno dele.\n- **Empurrar.** O alvo faz salvaguarda de Força ou é empurrado até 4,5 metros para longe de você.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Combatente da Mão Espalmada",
+    "sub_curto": "Mão Espalmada"
+  },
+  {
+    "id": "integridade-corporal",
+    "nome": "Integridade Corporal",
+    "nome_en": "Wholeness of Body",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 6,
+    "tags": [
+      "monge",
+      "mão espalmada",
+      "cura"
+    ],
+    "resumo": "Ação Bônus: cura dado de Artes Marciais + Sabedoria (Sabedoria vezes).",
+    "texto": "Com uma **Ação Bônus**, role o dado de Artes Marciais e recupere **resultado + Sabedoria** de PV (mínimo 1). Usos iguais ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Combatente da Mão Espalmada",
+    "sub_curto": "Mão Espalmada"
+  },
+  {
+    "id": "passo-veloz",
+    "nome": "Passo Veloz",
+    "nome_en": "Fleet Step",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 11,
+    "tags": [
+      "monge",
+      "mão espalmada",
+      "movimento"
+    ],
+    "resumo": "Depois de outra Ação Bônus, usa Passo do Vento na hora.",
+    "texto": "Quando faz uma Ação Bônus que não seja Passo do Vento, você também pode usar **Passo do Vento** logo depois.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Combatente da Mão Espalmada",
+    "sub_curto": "Mão Espalmada"
+  },
+  {
+    "id": "palma-vibrante",
+    "nome": "Palma Vibrante",
+    "nome_en": "Quivering Palm",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 17,
+    "tags": [
+      "monge",
+      "mão espalmada",
+      "vibração",
+      "dano"
+    ],
+    "resumo": "4 Foco: vibrações letais que você detona depois (10d12 Energético).",
+    "texto": "Ao acertar uma criatura com um Ataque Desarmado, gaste **4 Pontos de Foco** para criar vibrações que duram dias iguais ao seu nível de Monge. Elas são inofensivas até você usar uma ação para encerrá-las (ou abrir mão de um ataque da ação Atacar), estando no mesmo plano. Aí o alvo faz **salvaguarda de Constituição**: sofre **10d12 de dano Energético** se falhar, ou metade se passar. Só uma criatura por vez; você pode encerrar as vibrações sem efeito, sem ação.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Combatente da Mão Espalmada",
+    "sub_curto": "Mão Espalmada"
+  },
+  {
+    "id": "combatente-da-misericordia",
+    "nome": "Combatente da Misericórdia",
+    "nome_en": "Warrior of Mercy",
+    "categoria": "classe",
+    "de": "monge",
+    "subclasse": "Combatente da Misericórdia",
+    "sub_curto": "Misericórdia",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "monge",
+      "misericórdia",
+      "cura",
+      "mercy"
+    ],
+    "resumo": "Monge curandeiro e letal, que controla a força vital.",
+    "texto": "Monges errantes que curam com as mãos e eliminam inimigos com a mesma rapidez. Costumam usar máscaras, como portadores sem rosto da vida e da morte.\n\n- **Nível 3:** [[implementos-de-misericordia]], [[mao-de-cura]], [[mao-de-dolo]]\n- **Nível 6:** [[toque-de-medico]]\n- **Nível 11:** [[torrente-de-cura-e-dolo]]\n- **Nível 17:** [[mao-da-misericordia-final]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "implementos-de-misericordia",
+    "nome": "Implementos de Misericórdia",
+    "nome_en": "Implements of Mercy",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "misericórdia",
+      "perícias"
+    ],
+    "resumo": "Proficiência em Intuição, Medicina e Kit de Herbalismo.",
+    "texto": "Você ganha proficiência em **Intuição** e **Medicina** e com o **Kit de Herbalismo**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente da Misericórdia",
+    "sub_curto": "Misericórdia"
+  },
+  {
+    "id": "mao-de-cura",
+    "nome": "Mão de Cura",
+    "nome_en": "Hand of Healing",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "misericórdia",
+      "cura"
+    ],
+    "resumo": "1 Foco: toque cura dado de Artes Marciais + Sabedoria; pode substituir um golpe da Torrente.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste **1 Ponto de Foco** e toque uma criatura: ela recupera **um dado de Artes Marciais + Sabedoria** de PV. Ao usar a Torrente de Golpes, você pode trocar um dos Ataques Desarmados por esta cura, sem gastar Foco para ela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente da Misericórdia",
+    "sub_curto": "Misericórdia"
+  },
+  {
+    "id": "mao-de-dolo",
+    "nome": "Mão de Dolo",
+    "nome_en": "Hand of Harm",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "misericórdia",
+      "necrótico",
+      "dano"
+    ],
+    "resumo": "1×/turno, 1 Foco: dano Necrótico extra de dado de Artes Marciais + Sabedoria.",
+    "texto": "Uma vez por turno, ao acertar e causar dano com um Ataque Desarmado, gaste **1 Ponto de Foco** para causar dano **Necrótico** extra igual a **um dado de Artes Marciais + Sabedoria**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente da Misericórdia",
+    "sub_curto": "Misericórdia"
+  },
+  {
+    "id": "toque-de-medico",
+    "nome": "Toque de Médico",
+    "nome_en": "Physician's Touch",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 6,
+    "tags": [
+      "monge",
+      "misericórdia",
+      "condições",
+      "veneno"
+    ],
+    "resumo": "Mão de Cura remove condições; Mão de Dolo envenena.",
+    "texto": "- **Mão de Cura.** Também encerra uma destas condições na criatura curada: [[atordoado|Atordoado]], [[cego|Cego]], [[envenenado|Envenenado]], [[paralisado|Paralisado]] ou [[surdo|Surdo]].\n- **Mão de Dolo.** O alvo também fica [[envenenado|Envenenado]] até o fim do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente da Misericórdia",
+    "sub_curto": "Misericórdia"
+  },
+  {
+    "id": "torrente-de-cura-e-dolo",
+    "nome": "Torrente de Cura e Dolo",
+    "nome_en": "Flurry of Healing and Harm",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 11,
+    "tags": [
+      "monge",
+      "misericórdia",
+      "torrente de golpes"
+    ],
+    "resumo": "Na Torrente, curas e Mão de Dolo sem gastar Foco (Sabedoria vezes).",
+    "texto": "Ao usar a Torrente de Golpes, você pode trocar **cada** Ataque Desarmado por uma [[mao-de-cura|Mão de Cura]] sem gastar Foco para a cura. E, ao acertar e causar dano com um Ataque Desarmado da Torrente, pode usar a [[mao-de-dolo|Mão de Dolo]] sem gastar Foco (ainda uma vez por turno). Esses benefícios podem ser usados um número de vezes igual ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente da Misericórdia",
+    "sub_curto": "Misericórdia"
+  },
+  {
+    "id": "mao-da-misericordia-final",
+    "nome": "Mão da Misericórdia Final",
+    "nome_en": "Hand of Ultimate Mercy",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 17,
+    "tags": [
+      "monge",
+      "misericórdia",
+      "reviver"
+    ],
+    "resumo": "5 Foco: revive criatura morta há até 24 h com 4d10 + Sabedoria PV.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], toque o corpo de uma criatura que morreu nas últimas **24 horas** e gaste **5 Pontos de Foco**. Ela volta à vida com **4d10 + Sabedoria** PV, sem as condições Atordoado, Cego, Envenenado, Paralisado e Surdo que tivesse ao morrer. Uma vez por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente da Misericórdia",
+    "sub_curto": "Misericórdia"
+  },
+  {
+    "id": "combatente-das-sombras",
+    "nome": "Combatente das Sombras",
+    "nome_en": "Warrior of Shadow",
+    "categoria": "classe",
+    "de": "monge",
+    "subclasse": "Combatente das Sombras",
+    "sub_curto": "Sombras",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "monge",
+      "sombras",
+      "shadow"
+    ],
+    "resumo": "Monge furtivo que salta de sombra em sombra.",
+    "texto": "Monges de furtividade e subterfúgio que usam o poder do Sombral: atraem a escuridão para se esconder, pulam de sombra em sombra e assumem forma fantasmagórica.\n\n- **Nível 3:** [[artes-das-sombras]]\n- **Nível 6:** [[passo-da-sombra]]\n- **Nível 11:** [[passo-da-sombra-aprimorado]]\n- **Nível 17:** [[manto-da-sombra]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "artes-das-sombras",
+    "nome": "Artes das Sombras",
+    "nome_en": "Shadow Arts",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "sombras",
+      "escuridão",
+      "visão no escuro"
+    ],
+    "resumo": "Escuridão com 1 Foco (e você enxerga nela), Ilusão Menor e Visão no Escuro.",
+    "texto": "- **Escuridão.** Gaste **1 Ponto de Foco** para lançar **Escuridão** sem componentes. Você enxerga dentro da área e, enquanto durar, pode movê-la para um ponto a até 18 metros no início de cada turno seu.\n- **Ilusão sombria.** Você conhece **Ilusão Menor**, com Sabedoria como atributo de conjuração.\n- **Visão no escuro.** Visão no Escuro de **18 metros** (ou +18 metros, se já tiver).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "passo-da-sombra",
+    "nome": "Passo da Sombra",
+    "nome_en": "Shadow Step",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 6,
+    "tags": [
+      "monge",
+      "sombras",
+      "teleporte"
+    ],
+    "resumo": "Ação Bônus na penumbra: teleporte de 18 m para outra sombra e Vantagem no próximo ataque corpo a corpo.",
+    "texto": "Estando inteiramente em Meia-luz ou Escuridão, use uma **Ação Bônus** para se teleportar até **18 metros** para um espaço livre que veja e que também esteja em Meia-luz ou Escuridão. Você tem **Vantagem** no próximo ataque corpo a corpo antes do fim do turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "passo-da-sombra-aprimorado",
+    "nome": "Passo da Sombra Aprimorado",
+    "nome_en": "Improved Shadow Step",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 11,
+    "tags": [
+      "monge",
+      "sombras",
+      "teleporte",
+      "ataque"
+    ],
+    "resumo": "1 Foco: Passo da Sombra sem exigir escuridão, com Ataque Desarmado logo após.",
+    "texto": "Ao usar [[passo-da-sombra|Passo da Sombra]], gaste **1 Ponto de Foco** para dispensar a exigência de Meia-luz ou Escuridão. Como parte da mesma Ação Bônus, faça um **Ataque Desarmado** logo após o teleporte.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "manto-da-sombra",
+    "nome": "Manto da Sombra",
+    "nome_en": "Cloak of Shadows",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 17,
+    "tags": [
+      "monge",
+      "sombras",
+      "invisível"
+    ],
+    "resumo": "3 Foco na penumbra: 1 minuto Invisível, atravessa criaturas e Torrente de graça.",
+    "texto": "Estando inteiramente em Meia-luz ou Escuridão, use a ação [[acao-magia|Usar Magia]] e gaste **3 Pontos de Foco** para se envolver em sombras por **1 minuto**, até ficar Incapacitado ou terminar o turno em Luz Plena. Enquanto durar:\n\n- **Invisibilidade.** Você está [[invisivel|Invisível]].\n- **Parcialmente incorpóreo.** Atravessa espaços ocupados como terreno difícil. Se terminar o turno num deles, volta ao último espaço livre onde esteve.\n- **Torrente de sombras.** Usa a Torrente de Golpes **sem gastar Foco**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "combatente-dos-elementos",
+    "nome": "Combatente dos Elementos",
+    "nome_en": "Warrior of the Elements",
+    "categoria": "classe",
+    "de": "monge",
+    "subclasse": "Combatente dos Elementos",
+    "sub_curto": "Elementos",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "monge",
+      "elementos",
+      "elemental"
+    ],
+    "resumo": "Monge que canaliza energia elemental em golpes e explosões.",
+    "texto": "Monges que dominam por instantes a energia do Caos Elemental, reforçando os golpes com fogo, gelo, ácido, raio e trovão.\n\n- **Nível 3:** [[manipular-elementos]], [[sintonia-elemental]]\n- **Nível 6:** [[explosao-elemental]]\n- **Nível 11:** [[passo-dos-elementos]]\n- **Nível 17:** [[apice-elemental]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "manipular-elementos",
+    "nome": "Manipular Elementos",
+    "nome_en": "Manipulate Elements",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "elementos",
+      "truque"
+    ],
+    "resumo": "Conhece a magia Elementalismo (Sabedoria).",
+    "texto": "Você conhece a magia **Elementalismo**, com Sabedoria como atributo de conjuração.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente dos Elementos",
+    "sub_curto": "Elementos"
+  },
+  {
+    "id": "sintonia-elemental",
+    "nome": "Sintonia Elemental",
+    "nome_en": "Elemental Attunement",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 3,
+    "tags": [
+      "monge",
+      "elementos",
+      "alcance",
+      "dano elemental"
+    ],
+    "resumo": "1 Foco por 10 min: golpes com dano elemental que puxam ou empurram e +3 m de alcance.",
+    "texto": "No início do seu turno, gaste **1 Ponto de Foco** para se imbuir de energia elemental por **10 minutos** (ou até ficar Incapacitado):\n\n- **Ataques elementais.** Seus Ataques Desarmados podem causar dano **Ácido, Elétrico, Gélido, de Fogo ou Trovejante**. Quando causar um desses, você pode obrigar o alvo a uma salvaguarda de Força; se falhar, você o move até 3 metros para perto ou para longe de você.\n- **Extensão.** O alcance dos seus Ataques Desarmados aumenta em **3 metros**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente dos Elementos",
+    "sub_curto": "Elementos"
+  },
+  {
+    "id": "explosao-elemental",
+    "nome": "Explosão Elemental",
+    "nome_en": "Elemental Burst",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 6,
+    "tags": [
+      "monge",
+      "elementos",
+      "área",
+      "explosão"
+    ],
+    "resumo": "2 Foco: esfera de 6 m a até 36 m, três dados de Artes Marciais de dano (Destreza).",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste **2 Pontos de Foco** para criar uma esfera de **6 metros** de raio centrada num ponto a até **36 metros**. Escolha Ácido, Elétrico, Gélido, Fogo ou Trovejante. Cada criatura na área faz **salvaguarda de Destreza**: sofre **três dados de Artes Marciais** desse tipo se falhar, ou metade se passar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente dos Elementos",
+    "sub_curto": "Elementos"
+  },
+  {
+    "id": "passo-dos-elementos",
+    "nome": "Passo dos Elementos",
+    "nome_en": "Stride of the Elements",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 11,
+    "tags": [
+      "monge",
+      "elementos",
+      "voo",
+      "natação"
+    ],
+    "resumo": "Com a Sintonia ativa: voo e natação iguais ao Deslocamento.",
+    "texto": "Enquanto a [[sintonia-elemental|Sintonia Elemental]] estiver ativa, você tem Deslocamento de **Voo** e de **Natação** iguais ao seu Deslocamento.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente dos Elementos",
+    "sub_curto": "Elementos"
+  },
+  {
+    "id": "apice-elemental",
+    "nome": "Ápice Elemental",
+    "nome_en": "Elemental Epitome",
+    "categoria": "classe",
+    "de": "monge",
+    "nivel": 17,
+    "tags": [
+      "monge",
+      "elementos",
+      "resistência",
+      "dano"
+    ],
+    "resumo": "Com a Sintonia ativa: dano extra, Passo do Vento destrutivo e Resistência elemental.",
+    "texto": "Enquanto a [[sintonia-elemental|Sintonia Elemental]] estiver ativa:\n\n- **Golpes potencializados.** Uma vez em cada turno seu, ao acertar com um Ataque Desarmado, cause dano extra igual a **um dado de Artes Marciais**, do mesmo tipo do ataque.\n- **Passo destrutivo.** Ao usar Passo do Vento, seu Deslocamento aumenta em 6 metros até o fim do turno, e criaturas à sua escolha sofrem **um dado de Artes Marciais** (Ácido, Elétrico, Gélido, Fogo ou Trovejante) quando você entra num espaço a até 1,5 metro delas. Cada criatura sofre isso só uma vez por turno.\n- **Resistência.** Resistência a Ácido, Elétrico, Gélido, Fogo ou Trovejante (à sua escolha), que você pode trocar no início de cada turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente dos Elementos",
+    "sub_curto": "Elementos"
+  }
+]

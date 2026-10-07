@@ -1,0 +1,65 @@
+[
+  {
+    "id": "aumento-no-valor-de-atributo",
+    "nome": "Aumento no Valor de Atributo",
+    "nome_en": "Ability Score Improvement",
+    "categoria": "regra",
+    "tags": [
+      "asi",
+      "talento",
+      "atributo"
+    ],
+    "resumo": "Característica de várias classes: o talento Aumento no Valor de Atributo ou outro talento.",
+    "texto": "Quando sua classe concede esta característica (em geral nos níveis 4, 8, 12 e 16), você ganha o talento **Aumento no Valor de Atributo** ou outro talento cujos pré-requisitos você cumpra.\n\nO talento Aumento no Valor de Atributo permite aumentar um valor de atributo em 2, ou dois valores em 1 cada. Nenhum valor pode passar de 20 por esse talento.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dadiva-epica",
+    "nome": "Dádiva Épica",
+    "nome_en": "Epic Boon",
+    "categoria": "regra",
+    "tags": [
+      "talento",
+      "nível 19"
+    ],
+    "resumo": "Nível 19 de todas as classes: um talento de Dádiva Épica ou outro talento.",
+    "texto": "No nível 19, todas as classes ganham um talento de **Dádiva Épica** ou outro talento cujos pré-requisitos você cumpra. Cada classe sugere uma Dádiva Épica na própria ficha.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "especializacao",
+    "nome": "Especialização",
+    "nome_en": "Expertise",
+    "categoria": "regra",
+    "tags": [
+      "perícia",
+      "expertise",
+      "proficiência dobrada"
+    ],
+    "resumo": "Dobra o Bônus de Proficiência nos testes com aquela perícia.",
+    "texto": "Quando você tem Especialização numa perícia em que é proficiente, seu **Bônus de Proficiência é dobrado** nos testes de atributo com ela. Você não pode ter Especialização duas vezes na mesma perícia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "estilos-de-luta",
+    "nome": "Estilos de Luta",
+    "nome_en": "Fighting Styles",
+    "categoria": "regra",
+    "tags": [
+      "estilo de luta",
+      "arquearia",
+      "duelismo",
+      "defensivo",
+      "armas grandes",
+      "duas armas",
+      "interceptação",
+      "protetivo",
+      "luta às cegas",
+      "desarmado",
+      "arremesso"
+    ],
+    "resumo": "Talentos de Estilo de Luta para Guerreiro, Paladino e Guardião.",
+    "texto": "Classes com a característica **Estilo de Luta** escolhem um destes talentos:\n\n| Estilo | Efeito |\n|---|---|\n| Arquearia | +2 nas jogadas de ataque com armas à distância. |\n| Combate com Armas de Arremesso | +2 no dano de ataques à distância com armas de Arremesso. |\n| Combate com Armas Grandes | Com arma corpo a corpo de Duas Mãos ou Versátil empunhada com as duas mãos, 1 ou 2 nos dados de dano contam como 3. |\n| Combate com Duas Armas | No ataque extra da propriedade Leve, some o modificador de atributo ao dano. |\n| Combate Desarmado | Ataque Desarmado causa 1d6 + Força (1d8 sem arma nem Escudo). No início do seu turno, cause 1d4 Contundente a uma criatura que você esteja imobilizando. |\n| Defensivo | +1 na CA usando armadura Leve, Média ou Pesada. |\n| Duelismo | Com arma corpo a corpo numa mão e nenhuma outra arma, +2 no dano dela. |\n| Interceptação | Reação: quando uma criatura que você vê acerta outra a até 1,5 m de você, reduza o dano em 1d10 + Bônus de Proficiência. Exige Escudo ou arma Simples ou Marcial na mão. |\n| Luta às Cegas | Visão às Cegas de 3 metros. |\n| Protetivo | Reação com Escudo: quando uma criatura que você vê ataca outro alvo a até 1,5 m de você, imponha Desvantagem nesse ataque e em todos contra o alvo até o início do seu próximo turno, enquanto você estiver a até 1,5 m dele. |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  }
+]

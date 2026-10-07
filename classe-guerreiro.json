@@ -1,0 +1,1079 @@
+[
+  {
+    "id": "guerreiro",
+    "nome": "Guerreiro",
+    "nome_en": "Fighter",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "armas",
+      "armadura",
+      "marcial",
+      "fighter"
+    ],
+    "resumo": "Mestre das armas e da armadura. D10, Força ou Destreza.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Guerreiro |\n|---|---|\n| Atributo primário | Força ou Destreza |\n| Dado de Ponto de Vida | D10 por nível de Guerreiro |\n| Salvaguardas | Força e Constituição |\n| Perícias | Escolha 2: Acrobacia, Atletismo, História, Intimidação, Intuição, Lidar com Animais, Percepção, Persuasão ou Sobrevivência |\n| Armas | Simples e Marciais |\n| Armaduras | Leves, Médias e Pesadas, e Escudos |\n| Equipamento inicial | (A) Cota de Malha, Espada Grande, Mangual, 8 Azagaias, Kit de Explorador de Masmorras e 4 PO; (B) Armadura de Couro Batido, Cimitarra, Espada Curta, Arco Longo, 20 Flechas, Aljava, Kit de Explorador de Masmorras e 11 PO; ou (C) 155 PO |\n\n### Pontos de Vida\n- **Nível 1:** 10 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d10 (ou 6) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, proficiência com armas Marciais, treinamento com armaduras Leves e Médias e Escudos, e as características de nível 1.\n\n### Progressão\n| Nível | Prof. | Características | Recuperar Fôlego | Maestria |\n|---|---|---|---|---|\n| 1 | +2 | Estilo de Luta, Maestria em Arma, Recuperar Fôlego | 2 | 3 |\n| 2 | +2 | Mente Tática, Surto de Ação | 2 | 3 |\n| 3 | +2 | Subclasse | 2 | 3 |\n| 4 | +2 | Aumento no Valor de Atributo | 3 | 4 |\n| 5 | +3 | Ajuste Tático, Ataque Extra | 3 | 4 |\n| 6 | +3 | Aumento no Valor de Atributo | 3 | 4 |\n| 7 | +3 | Característica de subclasse | 3 | 4 |\n| 8 | +3 | Aumento no Valor de Atributo | 3 | 4 |\n| 9 | +4 | Indomável, Mestre Tático | 3 | 4 |\n| 10 | +4 | Característica de subclasse | 4 | 5 |\n| 11 | +4 | Dois Ataques Extras | 4 | 5 |\n| 12 | +4 | Aumento no Valor de Atributo | 4 | 5 |\n| 13 | +5 | Ataques Estudados, Indomável (2 usos) | 4 | 5 |\n| 14 | +5 | Aumento no Valor de Atributo | 4 | 5 |\n| 15 | +5 | Característica de subclasse | 4 | 5 |\n| 16 | +5 | Aumento no Valor de Atributo | 4 | 6 |\n| 17 | +6 | Indomável (3 usos), Surto de Ação (2 usos) | 4 | 6 |\n| 18 | +6 | Característica de subclasse | 4 | 6 |\n| 19 | +6 | Dádiva Épica | 4 | 6 |\n| 20 | +6 | Três Ataques Extras | 4 | 6 |\n\n### Características\n- **Nível 1:** [[estilo-de-luta-guerreiro|Estilo de Luta]], [[maestria-em-arma-guerreiro|Maestria em Arma]], [[recuperar-folego]]\n- **Nível 2:** [[mente-tatica]], [[surto-de-acao]]\n- **Nível 3:** subclasse\n- **Níveis 4, 6, 8, 12, 14 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[ajuste-tatico]], [[ataque-extra-guerreiro|Ataque Extra]]\n- **Nível 9:** [[indomavel]], [[mestre-tatico]]\n- **Nível 11:** [[dois-ataques-extras]]\n- **Nível 13:** [[ataques-estudados]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva da Proeza em Combate)\n- **Nível 20:** [[tres-ataques-extras]]\n\n### Subclasses\n- [[campeao]]\n- [[cavaleiro-mistico]]\n- [[combatente-psiquico]]\n- [[mestre-da-batalha]]"
+  },
+  {
+    "id": "estilo-de-luta-guerreiro",
+    "nome": "Estilo de Luta (Guerreiro)",
+    "nome_en": "Fighting Style",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 1,
+    "tags": [
+      "guerreiro",
+      "estilo de luta"
+    ],
+    "resumo": "Um talento de Estilo de Luta; pode trocar a cada nível.",
+    "texto": "Você ganha um talento de [[estilos-de-luta|Estilo de Luta]] à sua escolha. A cada nível de Guerreiro, pode trocá-lo por outro talento de Estilo de Luta.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "maestria-em-arma-guerreiro",
+    "nome": "Maestria em Arma (Guerreiro)",
+    "nome_en": "Weapon Mastery",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 1,
+    "tags": [
+      "guerreiro",
+      "maestria"
+    ],
+    "resumo": "Usa a maestria de 3 tipos de arma (até 6); troca uma no Descanso Longo.",
+    "texto": "Você usa a propriedade de maestria de **três tipos** de armas Simples ou Marciais à sua escolha. Ao terminar um Descanso Longo, pode trocar uma delas. O número aumenta pela coluna *Maestria* da [[guerreiro|tabela]]: 4 no nível 4, 5 no 10 e 6 no 16.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "recuperar-folego",
+    "nome": "Recuperar Fôlego",
+    "nome_en": "Second Wind",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 1,
+    "tags": [
+      "guerreiro",
+      "cura",
+      "second wind",
+      "retomar o fôlego"
+    ],
+    "resumo": "Ação Bônus: recupera 1d10 + nível de PV.",
+    "texto": "Com uma **Ação Bônus**, recupere **1d10 + seu nível de Guerreiro** de Pontos de Vida. Você tem **2 usos**, recupera um num Descanso Curto e todos num Descanso Longo; os usos aumentam pela coluna *Recuperar Fôlego* da [[guerreiro|tabela]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "mente-tatica",
+    "nome": "Mente Tática",
+    "nome_en": "Tactical Mind",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 2,
+    "tags": [
+      "guerreiro",
+      "teste de atributo"
+    ],
+    "resumo": "Falhou num teste de atributo: gasta Recuperar Fôlego para somar 1d10.",
+    "texto": "Quando falha num teste de atributo, você pode gastar um uso de [[recuperar-folego|Recuperar Fôlego]] para rolar **1d10** e somar ao teste em vez de se curar. Se ainda assim falhar, o uso **não** é gasto.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "surto-de-acao",
+    "nome": "Surto de Ação",
+    "nome_en": "Action Surge",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 2,
+    "tags": [
+      "guerreiro",
+      "ação extra",
+      "action surge"
+    ],
+    "resumo": "Uma ação extra no turno (exceto Usar Magia), 1× por descanso.",
+    "texto": "No seu turno, você pode fazer **uma ação extra**, exceto a ação [[acao-magia|Usar Magia]]. Depois, só de novo após um Descanso Curto ou Longo. A partir do nível **17**, você tem **dois usos** por descanso, mas só um por turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ajuste-tatico",
+    "nome": "Ajuste Tático",
+    "nome_en": "Tactical Shift",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 5,
+    "tags": [
+      "guerreiro",
+      "movimento"
+    ],
+    "resumo": "Ao usar Recuperar Fôlego, move metade do Deslocamento sem provocar ataques.",
+    "texto": "Sempre que usar a Ação Bônus de [[recuperar-folego|Recuperar Fôlego]], você pode se mover até **metade do seu Deslocamento** sem provocar Ataques de Oportunidade.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ataque-extra-guerreiro",
+    "nome": "Ataque Extra (Guerreiro)",
+    "nome_en": "Extra Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 5,
+    "tags": [
+      "guerreiro",
+      "dois ataques"
+    ],
+    "resumo": "Ataca duas vezes ao usar a ação Atacar.",
+    "texto": "Quando você usa a ação [[atacar|Atacar]] no seu turno, pode atacar **duas vezes**. Isso aumenta para três no nível 11 e quatro no 20.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "indomavel",
+    "nome": "Indomável",
+    "nome_en": "Indomitable",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 9,
+    "tags": [
+      "guerreiro",
+      "salvaguarda"
+    ],
+    "resumo": "Refaz uma salvaguarda que falhou somando o nível de Guerreiro.",
+    "texto": "Quando falha numa salvaguarda, você pode rolá-la de novo com bônus igual ao seu **nível de Guerreiro**, e precisa usar o novo resultado. **1 uso** por Descanso Longo; 2 a partir do nível 13 e 3 a partir do 17.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "mestre-tatico",
+    "nome": "Mestre Tático",
+    "nome_en": "Tactical Master",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 9,
+    "tags": [
+      "guerreiro",
+      "maestria"
+    ],
+    "resumo": "Troca a maestria da arma por Empurrar, Drenar ou Lentidão num ataque.",
+    "texto": "Ao atacar com uma arma cuja maestria você pode usar, você pode trocar a propriedade dela por **Empurrar, Drenar ou Lentidão** naquele ataque.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "dois-ataques-extras",
+    "nome": "Dois Ataques Extras",
+    "nome_en": "Two Extra Attacks",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 11,
+    "tags": [
+      "guerreiro",
+      "três ataques"
+    ],
+    "resumo": "Ataca três vezes ao usar a ação Atacar.",
+    "texto": "Quando você usa a ação [[atacar|Atacar]] no seu turno, pode atacar **três vezes**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ataques-estudados",
+    "nome": "Ataques Estudados",
+    "nome_en": "Studied Attacks",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 13,
+    "tags": [
+      "guerreiro",
+      "vantagem"
+    ],
+    "resumo": "Errou um ataque: Vantagem no próximo contra a mesma criatura.",
+    "texto": "Se você errar uma jogada de ataque contra uma criatura, tem **Vantagem** na próxima jogada de ataque contra ela antes do fim do seu próximo turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "tres-ataques-extras",
+    "nome": "Três Ataques Extras",
+    "nome_en": "Three Extra Attacks",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 20,
+    "tags": [
+      "guerreiro",
+      "quatro ataques"
+    ],
+    "resumo": "Ataca quatro vezes ao usar a ação Atacar.",
+    "texto": "Quando você usa a ação [[atacar|Atacar]] no seu turno, pode atacar **quatro vezes**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "campeao",
+    "nome": "Campeão",
+    "nome_en": "Champion",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "subclasse": "Campeão",
+    "sub_curto": "Campeão",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guerreiro",
+      "champion"
+    ],
+    "resumo": "Guerreiro de excelência física: críticos frequentes e resistência.",
+    "texto": "O Campeão busca a vitória com treino rigoroso e excelência física, seja em competições ou em batalhas sangrentas.\n\n- **Nível 3:** [[atleta-extraordinario]], [[critico-aprimorado]]\n- **Nível 7:** [[estilo-de-luta-adicional]]\n- **Nível 10:** [[combatente-heroico]]\n- **Nível 15:** [[critico-superior]]\n- **Nível 18:** [[sobrevivente]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "atleta-extraordinario",
+    "nome": "Atleta Extraordinário",
+    "nome_en": "Remarkable Athlete",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "campeão",
+      "iniciativa",
+      "atletismo"
+    ],
+    "resumo": "Vantagem em Iniciativa e Atletismo; após um crítico, move metade do Deslocamento.",
+    "texto": "Você tem **Vantagem** nas jogadas de [[iniciativa|Iniciativa]] e nos testes de Força (Atletismo). Logo depois de conseguir um [[acerto-critico|Acerto Crítico]], pode se mover até metade do seu Deslocamento sem provocar Ataques de Oportunidade.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Campeão",
+    "sub_curto": "Campeão"
+  },
+  {
+    "id": "critico-aprimorado",
+    "nome": "Crítico Aprimorado",
+    "nome_en": "Improved Critical",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "campeão",
+      "crítico"
+    ],
+    "resumo": "Crítico com 19 ou 20 em armas e Ataques Desarmados.",
+    "texto": "Suas jogadas de ataque com armas e [[ataque-desarmado|Ataques Desarmados]] são [[acerto-critico|Acerto Crítico]] com **19 ou 20** no d20.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Campeão",
+    "sub_curto": "Campeão"
+  },
+  {
+    "id": "estilo-de-luta-adicional",
+    "nome": "Estilo de Luta Adicional",
+    "nome_en": "Additional Fighting Style",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 7,
+    "tags": [
+      "guerreiro",
+      "campeão",
+      "estilo de luta"
+    ],
+    "resumo": "Mais um talento de Estilo de Luta.",
+    "texto": "Você ganha outro talento de [[estilos-de-luta|Estilo de Luta]] à sua escolha.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Campeão",
+    "sub_curto": "Campeão"
+  },
+  {
+    "id": "combatente-heroico",
+    "nome": "Combatente Heroico",
+    "nome_en": "Heroic Warrior",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 10,
+    "tags": [
+      "guerreiro",
+      "campeão",
+      "inspiração"
+    ],
+    "resumo": "Em combate, ganha Inspiração Heroica ao começar o turno sem ela.",
+    "texto": "Durante um combate, você pode se dar **Inspiração Heroica** sempre que começar seu turno sem ela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Campeão",
+    "sub_curto": "Campeão"
+  },
+  {
+    "id": "critico-superior",
+    "nome": "Crítico Superior",
+    "nome_en": "Superior Critical",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 15,
+    "tags": [
+      "guerreiro",
+      "campeão",
+      "crítico"
+    ],
+    "resumo": "Crítico com 18 a 20.",
+    "texto": "Suas jogadas de ataque com armas e Ataques Desarmados são [[acerto-critico|Acerto Crítico]] com **18 a 20** no d20.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Campeão",
+    "sub_curto": "Campeão"
+  },
+  {
+    "id": "sobrevivente",
+    "nome": "Sobrevivente",
+    "nome_en": "Survivor",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 18,
+    "tags": [
+      "guerreiro",
+      "campeão",
+      "regeneração",
+      "morte"
+    ],
+    "resumo": "Vantagem nos testes contra a morte (18+ vira 20) e regenera 5 + Con quando Sangrando.",
+    "texto": "- **Desafiar a morte.** Você tem Vantagem nas [[zero-pontos-de-vida|salvaguardas contra a morte]], e um resultado de 18 a 20 conta como 20.\n- **Regeneração heroica.** No início de cada turno seu, se estiver **Sangrando** (com metade dos PV ou menos) e com pelo menos 1 PV, recupere **5 + Constituição** de PV.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Campeão",
+    "sub_curto": "Campeão"
+  },
+  {
+    "id": "cavaleiro-mistico",
+    "nome": "Cavaleiro Místico",
+    "nome_en": "Eldritch Knight",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "subclasse": "Cavaleiro Místico",
+    "sub_curto": "Cav. Místico",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guerreiro",
+      "eldritch knight",
+      "magia"
+    ],
+    "resumo": "Guerreiro que mistura armas e magia arcana.",
+    "texto": "Cavaleiros Místicos unem o combate do Guerreiro ao estudo da magia, que reforça a defesa e permite enfrentar vários inimigos com explosões.\n\n- **Nível 3:** [[conjuracao-cavaleiro-mistico]], [[vinculo-com-arma]]\n- **Nível 7:** [[magia-de-guerra]]\n- **Nível 10:** [[golpe-mistico]]\n- **Nível 15:** [[investida-mistica]]\n- **Nível 18:** [[magia-de-guerra-aprimorada]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "conjuracao-cavaleiro-mistico",
+    "nome": "Conjuração (Cavaleiro Místico)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "cavaleiro místico",
+      "magias",
+      "espaços de magia"
+    ],
+    "resumo": "Magias de Mago com Inteligência, como um terço de conjurador.",
+    "texto": "- **Truques.** Você conhece **2 truques** de Mago (sugeridos: Raio de Gelo e Toque Chocante). Ganha mais um no nível 10, e pode trocar um a cada nível de Guerreiro.\n- **Magias preparadas.** Comece com **3 magias de Mago de 1º círculo** (sugeridas: [[escudo-arcano|Escudo Arcano]], Mãos Flamejantes e Salto). A quantidade cresce pela tabela abaixo, de círculos para os quais tenha espaços. A cada nível de Guerreiro, pode trocar uma.\n- **Espaços de magia.** Pela tabela abaixo; recupera todos num Descanso Longo.\n- **Atributo de conjuração:** Inteligência. **Foco:** Foco Arcano.\n\n| Nível | Magias prep. | 1º | 2º | 3º | 4º |\n|---|---|---|---|---|---|\n| 3 | 3 | 2 | — | — | — |\n| 4 | 4 | 3 | — | — | — |\n| 5 | 4 | 3 | — | — | — |\n| 6 | 4 | 3 | — | — | — |\n| 7 | 5 | 4 | 2 | — | — |\n| 8 | 6 | 4 | 2 | — | — |\n| 9 | 6 | 4 | 2 | — | — |\n| 10 | 7 | 4 | 3 | — | — |\n| 11 | 8 | 4 | 3 | — | — |\n| 12 | 8 | 4 | 3 | — | — |\n| 13 | 9 | 4 | 3 | 2 | — |\n| 14 | 10 | 4 | 3 | 2 | — |\n| 15 | 10 | 4 | 3 | 2 | — |\n| 16 | 11 | 4 | 3 | 3 | — |\n| 17 | 11 | 4 | 3 | 3 | — |\n| 18 | 11 | 4 | 3 | 3 | — |\n| 19 | 12 | 4 | 3 | 3 | 1 |\n| 20 | 13 | 4 | 3 | 3 | 1 |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Cavaleiro Místico",
+    "sub_curto": "Cav. Místico"
+  },
+  {
+    "id": "vinculo-com-arma",
+    "nome": "Vínculo com Arma",
+    "nome_en": "War Bond",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "cavaleiro místico",
+      "arma"
+    ],
+    "resumo": "Ritual de 1 hora: a arma não pode ser tomada e volta à sua mão com Ação Bônus.",
+    "texto": "Com um ritual de **1 hora** (pode ser feito num Descanso Curto), você se vincula a uma arma ao seu alcance. Ela não pode ser tirada de você, a menos que esteja Incapacitado, e, se estiver no mesmo plano, você a chama para a mão com uma **Ação Bônus**. Pode ter até **duas** armas vinculadas (só chama uma por Ação Bônus); vincular uma terceira quebra um dos vínculos. Não funciona se outro Guerreiro estiver vinculado à arma ou se alguém estiver sintonizado a ela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Cavaleiro Místico",
+    "sub_curto": "Cav. Místico"
+  },
+  {
+    "id": "magia-de-guerra",
+    "nome": "Magia de Guerra",
+    "nome_en": "War Magic",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 7,
+    "tags": [
+      "guerreiro",
+      "cavaleiro místico",
+      "truque"
+    ],
+    "resumo": "Troca um ataque da ação Atacar por um truque.",
+    "texto": "Ao usar a ação [[atacar|Atacar]], você pode trocar **um** dos ataques por um **truque de Mago** com tempo de conjuração de uma ação.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Cavaleiro Místico",
+    "sub_curto": "Cav. Místico"
+  },
+  {
+    "id": "golpe-mistico",
+    "nome": "Golpe Místico",
+    "nome_en": "Eldritch Strike",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 10,
+    "tags": [
+      "guerreiro",
+      "cavaleiro místico",
+      "desvantagem"
+    ],
+    "resumo": "Acertou com arma: o alvo tem Desvantagem na próxima salvaguarda contra sua magia.",
+    "texto": "Quando você acerta uma criatura com um ataque com arma, ela tem **Desvantagem** na próxima salvaguarda que fizer contra uma magia sua antes do fim do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Cavaleiro Místico",
+    "sub_curto": "Cav. Místico"
+  },
+  {
+    "id": "investida-mistica",
+    "nome": "Investida Mística",
+    "nome_en": "Arcane Charge",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 15,
+    "tags": [
+      "guerreiro",
+      "cavaleiro místico",
+      "teleporte"
+    ],
+    "resumo": "Ao usar Surto de Ação, teleporte de 9 m.",
+    "texto": "Ao usar [[surto-de-acao|Surto de Ação]], você pode se teleportar até **9 metros** para um espaço livre que veja, antes ou depois da ação extra.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Cavaleiro Místico",
+    "sub_curto": "Cav. Místico"
+  },
+  {
+    "id": "magia-de-guerra-aprimorada",
+    "nome": "Magia de Guerra Aprimorada",
+    "nome_en": "Improved War Magic",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 18,
+    "tags": [
+      "guerreiro",
+      "cavaleiro místico",
+      "magia"
+    ],
+    "resumo": "Troca dois ataques por uma magia de 1º ou 2º círculo.",
+    "texto": "Ao usar a ação [[atacar|Atacar]], você pode trocar **dois** ataques por uma magia de Mago de **1º ou 2º círculo** com tempo de conjuração de uma ação.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Cavaleiro Místico",
+    "sub_curto": "Cav. Místico"
+  },
+  {
+    "id": "combatente-psiquico",
+    "nome": "Combatente Psíquico",
+    "nome_en": "Psi Warrior",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "subclasse": "Combatente Psíquico",
+    "sub_curto": "Psíquico",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guerreiro",
+      "psiônico",
+      "psi warrior"
+    ],
+    "resumo": "Guerreiro psiônico: golpes de força mental e telecinese.",
+    "texto": "Combatentes Psíquicos despertam o poder da mente para reforçar o corpo: ataques com energia psiônica, telecinese e barreiras de força mental.\n\n- **Nível 3:** [[poder-psionico]]\n- **Nível 7:** [[adepto-telecinetico]]\n- **Nível 10:** [[resguardo-mental]]\n- **Nível 15:** [[baluarte-de-energia]]\n- **Nível 18:** [[mestre-telecinetico]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "poder-psionico",
+    "nome": "Poder Psiônico",
+    "nome_en": "Psionic Power",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "psíquico",
+      "dados psiônicos",
+      "telecinese"
+    ],
+    "resumo": "Dados de Energia Psiônica para Golpe Psiônico, Movimento Telecinético e Vínculo Protetivo.",
+    "texto": "Você tem **Dados de Energia Psiônica**, usados só por esta subclasse. Recupera **um** num Descanso Curto e **todos** num Descanso Longo.\n\n| Nível | Dado | Quantidade |\n|---|---|---|\n| 3 | d6 | 4 |\n| 5 | d8 | 6 |\n| 9 | d8 | 8 |\n| 11 | d10 | 8 |\n| 13 | d10 | 10 |\n| 17 | d12 | 12 |\n\n- **Golpe Psiônico.** Uma vez em cada turno seu, logo após acertar e causar dano com uma arma a um alvo a até 9 metros, gaste um dado, role-o e cause **resultado + Inteligência** de dano Energético.\n- **Movimento Telecinético.** Com a ação [[acao-magia|Usar Magia]], mova até 9 metros um objeto solto Grande ou menor, ou uma criatura voluntária (não você), que veja a até 9 metros, para um espaço livre à vista; um objeto Miúdo pode ir para a sua mão ou sair dela. Uma vez por Descanso Curto ou Longo, ou gastando um dado (sem ação).\n- **Vínculo Protetivo.** Quando você ou uma criatura que vê a até 9 metros sofre dano, use a **Reação**, gaste um dado e reduza o dano em **resultado + Inteligência** (mínimo 1).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente Psíquico",
+    "sub_curto": "Psíquico"
+  },
+  {
+    "id": "adepto-telecinetico",
+    "nome": "Adepto Telecinético",
+    "nome_en": "Telekinetic Adept",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 7,
+    "tags": [
+      "guerreiro",
+      "psíquico",
+      "voo",
+      "derrubar"
+    ],
+    "resumo": "Golpe Psiônico derruba ou empurra; Salto Psíquico dá voo por um turno.",
+    "texto": "- **Estocada Telecinética.** Ao causar dano com o Golpe Psiônico, você pode obrigar o alvo a uma **salvaguarda de Força** (CD 8 + Inteligência + Bônus de Proficiência). Se falhar, você o deixa [[caido|Caído]] ou o move até 3 metros na horizontal.\n- **Salto com Impulsão Psíquica.** Com uma **Ação Bônus**, ganhe Deslocamento de Voo igual ao **dobro** do seu Deslocamento até o fim do turno. Uma vez por Descanso Curto ou Longo, ou gastando um dado psiônico (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente Psíquico",
+    "sub_curto": "Psíquico"
+  },
+  {
+    "id": "resguardo-mental",
+    "nome": "Resguardo Mental",
+    "nome_en": "Guarded Mind",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 10,
+    "tags": [
+      "guerreiro",
+      "psíquico",
+      "resistência"
+    ],
+    "resumo": "Resistência a Psíquico; gasta um dado para encerrar medo e encanto.",
+    "texto": "Você tem Resistência a dano **Psíquico**. Se começar o turno [[amedrontado|Amedrontado]] ou [[enfeiticado|Enfeitiçado]], pode gastar um dado psiônico (sem ação) para encerrar todos os efeitos que causam essas condições em você.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente Psíquico",
+    "sub_curto": "Psíquico"
+  },
+  {
+    "id": "baluarte-de-energia",
+    "nome": "Baluarte de Energia",
+    "nome_en": "Bulwark of Force",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 15,
+    "tags": [
+      "guerreiro",
+      "psíquico",
+      "cobertura",
+      "defesa"
+    ],
+    "resumo": "Ação Bônus: meia cobertura para criaturas escolhidas por 1 minuto.",
+    "texto": "Com uma **Ação Bônus**, escolha criaturas a até 9 metros (você incluído), até um número igual ao seu modificador de Inteligência (mínimo 1). Elas têm [[cobertura|meia cobertura]] por **1 minuto** ou até você ficar Incapacitado. Uma vez por Descanso Longo, ou gastando um dado psiônico (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente Psíquico",
+    "sub_curto": "Psíquico"
+  },
+  {
+    "id": "mestre-telecinetico",
+    "nome": "Mestre Telecinético",
+    "nome_en": "Telekinetic Master",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 18,
+    "tags": [
+      "guerreiro",
+      "psíquico",
+      "telecinese"
+    ],
+    "resumo": "Telecinese grátis 1×/Descanso Longo; ataque com Ação Bônus enquanto concentrado nela.",
+    "texto": "Você sempre tem **Telecinese** preparada e pode lançá-la sem espaço nem componentes, usando Inteligência. Em cada turno em que mantém Concentração nela (inclusive o turno em que a lança), pode fazer **um ataque com arma como Ação Bônus**. Uma vez por Descanso Longo, ou gastando um dado psiônico (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Combatente Psíquico",
+    "sub_curto": "Psíquico"
+  },
+  {
+    "id": "mestre-da-batalha",
+    "nome": "Mestre da Batalha",
+    "nome_en": "Battle Master",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Mestre Batalha",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guerreiro",
+      "manobras",
+      "battle master"
+    ],
+    "resumo": "Guerreiro tático com manobras e Dados de Superioridade.",
+    "texto": "Mestres da Batalha estudam técnicas de combate passadas por gerações e equilibram a prática marcial com estudos de história, teoria e artes.\n\n- **Nível 3:** [[estudioso-da-guerra]], [[superioridade-em-combate]]\n- **Nível 7:** [[conheca-seu-inimigo]]\n- **Nível 10:** [[superioridade-em-combate-aprimorada]]\n- **Nível 15:** [[implacavel]]\n- **Nível 18:** [[superioridade-em-combate-suprema]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "estudioso-da-guerra",
+    "nome": "Estudioso da Guerra",
+    "nome_en": "Student of War",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "mestre da batalha",
+      "perícia",
+      "ferramentas"
+    ],
+    "resumo": "Proficiência com um tipo de Ferramentas de Artesão e uma perícia de Guerreiro.",
+    "texto": "Você ganha proficiência com um tipo de **Ferramentas de Artesão** à sua escolha e com uma **perícia** da lista de Guerreiro do nível 1.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Mestre Batalha"
+  },
+  {
+    "id": "superioridade-em-combate",
+    "nome": "Superioridade em Combate",
+    "nome_en": "Combat Superiority",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "mestre da batalha",
+      "manobras",
+      "dados de superioridade"
+    ],
+    "resumo": "Aprende manobras e tem Dados de Superioridade (d8) para usá-las.",
+    "texto": "- **Manobras.** Você aprende **3 manobras**, e mais duas nos níveis 7, 10 e 15 (podendo trocar uma conhecida a cada vez). Só uma manobra por ataque.\n- **Dados de Superioridade.** Você tem **4 dados (d8)**, gastos ao usar uma manobra, e recupera todos num **Descanso Curto ou Longo**. Ganha mais um no nível 7 e outro no 15. O dado vira d10 no nível 10 e d12 no 18.\n- **CD das manobras:** 8 + Força ou Destreza (à sua escolha) + Bônus de Proficiência.\n\n### Manobras\n- [[manobra-aparar|Aparar]]: Reação: reduz dano corpo a corpo em dado + For ou Des.\n- [[manobra-ataque-ameacador|Ataque Ameaçador]]: Soma o dado ao dano e o alvo fica Amedrontado (Sabedoria).\n- [[manobra-ataque-de-varredura|Ataque de Varredura]]: Acerto corpo a corpo também fere uma criatura vizinha.\n- [[manobra-ataque-estendido|Ataque Estendido]]: Ação Bônus: Correr; se avançar 1,5 m antes do ataque, soma o dado ao dano.\n- [[manobra-ataque-para-distrair|Ataque para Distrair]]: Soma o dado ao dano; o próximo ataque de outro contra o alvo tem Vantagem.\n- [[manobra-ataque-preciso|Ataque Preciso]]: Errou: soma o dado à jogada de ataque.\n- [[manobra-ataque-provocante|Ataque Provocante]]: Soma o dado ao dano; o alvo tem Desvantagem contra outros (Sabedoria).\n- [[manobra-avaliacao-tatica|Avaliação Tática]]: Soma o dado a História, Investigação ou Intuição.\n- [[manobra-contra-ataque|Contra-ataque]]: Reação quando erram corpo a corpo: ataca e soma o dado ao dano.\n- [[manobra-desarme|Desarme]]: Soma o dado ao dano; o alvo larga um objeto (Força).\n- [[manobra-emboscada|Emboscada]]: Soma o dado a Furtividade ou Iniciativa.\n- [[manobra-encontrao|Encontrão]]: Soma o dado ao dano e empurra 4,5 m (Força).\n- [[manobra-finta|Finta]]: Ação Bônus: Vantagem no próximo ataque contra um alvo a 1,5 m e soma o dado ao dano.\n- [[manobra-gato-por-lebre|Gato Por Lebre]]: Troca de lugar com um aliado e dá o dado de bônus na CA.\n- [[manobra-golpe-do-comandante|Golpe do Comandante]]: Troca um ataque seu por um ataque de aliado com o dado no dano.\n- [[manobra-manobrar|Manobrar]]: Soma o dado ao dano e um aliado se move sem provocar o alvo.\n- [[manobra-movimentacao-evasiva|Movimentação Evasiva]]: Ação Bônus: Desengajar e soma o dado à CA.\n- [[manobra-presenca-de-autoridade|Presença de Autoridade]]: Soma o dado a Atuação, Intimidação ou Persuasão.\n- [[manobra-prostrar|Prostrar]]: Soma o dado ao dano e derruba (Força).\n- [[manobra-recuperar-energia|Recuperar Energia]]: Ação Bônus: aliado ganha PV temporários (dado + metade do nível).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Mestre Batalha"
+  },
+  {
+    "id": "conheca-seu-inimigo",
+    "nome": "Conheça Seu Inimigo",
+    "nome_en": "Know Your Enemy",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 7,
+    "tags": [
+      "guerreiro",
+      "mestre da batalha",
+      "conhecimento"
+    ],
+    "resumo": "Ação Bônus: descobre Imunidades, Resistências e Vulnerabilidades de uma criatura.",
+    "texto": "Com uma **Ação Bônus**, examine uma criatura que você vê a até 9 metros e descubra se ela tem Imunidades, Resistências ou Vulnerabilidades, e quais. Uma vez por Descanso Longo, ou gastando um Dado de Superioridade (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Mestre Batalha"
+  },
+  {
+    "id": "superioridade-em-combate-aprimorada",
+    "nome": "Superioridade em Combate Aprimorada",
+    "nome_en": "Improved Combat Superiority",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 10,
+    "tags": [
+      "guerreiro",
+      "mestre da batalha"
+    ],
+    "resumo": "Dados de Superioridade viram d10.",
+    "texto": "Seus Dados de Superioridade passam a ser **d10**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Mestre Batalha"
+  },
+  {
+    "id": "implacavel",
+    "nome": "Implacável",
+    "nome_en": "Relentless",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 15,
+    "tags": [
+      "guerreiro",
+      "mestre da batalha"
+    ],
+    "resumo": "1×/turno, usa 1d8 no lugar de gastar um Dado de Superioridade.",
+    "texto": "Uma vez por turno, ao usar uma manobra, você pode rolar **1d8** e usar o resultado em vez de gastar um Dado de Superioridade.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Mestre Batalha"
+  },
+  {
+    "id": "superioridade-em-combate-suprema",
+    "nome": "Superioridade em Combate Suprema",
+    "nome_en": "Ultimate Combat Superiority",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 18,
+    "tags": [
+      "guerreiro",
+      "mestre da batalha"
+    ],
+    "resumo": "Dados de Superioridade viram d12.",
+    "texto": "Seus Dados de Superioridade passam a ser **d12**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Mestre Batalha"
+  },
+  {
+    "id": "manobra-aparar",
+    "nome": "Aparar",
+    "nome_en": "Parry",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Reação: reduz dano corpo a corpo em dado + For ou Des.",
+    "texto": "Ao sofrer dano de um ataque corpo a corpo de outra criatura, use a **Reação** e gaste um Dado de Superioridade para reduzir o dano em **resultado + Força ou Destreza** (à sua escolha).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-ataque-ameacador",
+    "nome": "Ataque Ameaçador",
+    "nome_en": "Menacing Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado ao dano e o alvo fica Amedrontado (Sabedoria).",
+    "texto": "Ao acertar, gaste um dado e some ao dano. O alvo faz **salvaguarda de Sabedoria**; se falhar, fica [[amedrontado|Amedrontado]] até o fim do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-ataque-de-varredura",
+    "nome": "Ataque de Varredura",
+    "nome_en": "Sweeping Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Acerto corpo a corpo também fere uma criatura vizinha.",
+    "texto": "Ao acertar um ataque corpo a corpo com arma ou Ataque Desarmado, gaste um dado e escolha outra criatura a até 1,5 metro do alvo e ao seu alcance. Se a jogada original atingiria essa criatura, ela sofre dano igual ao dado, do mesmo tipo do ataque.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-ataque-estendido",
+    "nome": "Ataque Estendido",
+    "nome_en": "Lunging Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Ação Bônus: Correr; se avançar 1,5 m antes do ataque, soma o dado ao dano.",
+    "texto": "Com uma **Ação Bônus**, gaste um dado e faça a ação [[disparada|Correr]]. Se você se mover pelo menos 1,5 metro em linha reta logo antes de um ataque corpo a corpo da ação Atacar neste turno, some o dado ao dano desse ataque.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-ataque-para-distrair",
+    "nome": "Ataque para Distrair",
+    "nome_en": "Distracting Strike",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado ao dano; o próximo ataque de outro contra o alvo tem Vantagem.",
+    "texto": "Ao acertar, gaste um dado e some ao dano. O próximo ataque contra o alvo feito por **outra** criatura antes do início do seu próximo turno tem **Vantagem**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-ataque-preciso",
+    "nome": "Ataque Preciso",
+    "nome_en": "Precision Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Errou: soma o dado à jogada de ataque.",
+    "texto": "Ao errar uma jogada de ataque, gaste um dado e some o resultado à jogada, podendo fazê-la acertar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-ataque-provocante",
+    "nome": "Ataque Provocante",
+    "nome_en": "Goading Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado ao dano; o alvo tem Desvantagem contra outros (Sabedoria).",
+    "texto": "Ao acertar, gaste um dado e some ao dano. O alvo faz **salvaguarda de Sabedoria**; se falhar, tem Desvantagem em ataques contra alvos que não sejam você até o fim do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-avaliacao-tatica",
+    "nome": "Avaliação Tática",
+    "nome_en": "Tactical Assessment",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado a História, Investigação ou Intuição.",
+    "texto": "Ao fazer um teste de Inteligência (História ou Investigação) ou de Sabedoria (Intuição), gaste um dado e some ao teste.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-contra-ataque",
+    "nome": "Contra-ataque",
+    "nome_en": "Riposte",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Reação quando erram corpo a corpo: ataca e soma o dado ao dano.",
+    "texto": "Quando uma criatura erra um ataque corpo a corpo contra você, use a **Reação** e gaste um dado para fazer um ataque corpo a corpo com arma ou Ataque Desarmado contra ela. Se acertar, some o dado ao dano.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-desarme",
+    "nome": "Desarme",
+    "nome_en": "Disarming Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado ao dano; o alvo larga um objeto (Força).",
+    "texto": "Ao acertar, gaste um dado e some ao dano. O alvo faz **salvaguarda de Força**; se falhar, larga um objeto que você escolher entre os que segura, e ele cai no espaço do alvo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-emboscada",
+    "nome": "Emboscada",
+    "nome_en": "Ambush",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado a Furtividade ou Iniciativa.",
+    "texto": "Ao fazer um teste de Destreza (Furtividade) ou rolar Iniciativa, gaste um dado e some ao resultado, se não estiver Incapacitado.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-encontrao",
+    "nome": "Encontrão",
+    "nome_en": "Pushing Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado ao dano e empurra 4,5 m (Força).",
+    "texto": "Ao acertar com arma ou Ataque Desarmado, gaste um dado e some ao dano. Se o alvo for Grande ou menor, faz **salvaguarda de Força**; se falhar, é empurrado até 4,5 metros para longe de você.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-finta",
+    "nome": "Finta",
+    "nome_en": "Feinting Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Ação Bônus: Vantagem no próximo ataque contra um alvo a 1,5 m e soma o dado ao dano.",
+    "texto": "Com uma **Ação Bônus**, gaste um dado e escolha uma criatura a até 1,5 metro. Você tem **Vantagem** na próxima jogada de ataque contra ela neste turno; se acertar, some o dado ao dano.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-gato-por-lebre",
+    "nome": "Gato Por Lebre",
+    "nome_en": "Bait and Switch",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Troca de lugar com um aliado e dá o dado de bônus na CA.",
+    "texto": "No seu turno, estando a até 1,5 metro de uma criatura voluntária que não esteja Incapacitada, gaste um dado e pelo menos 1,5 metro de movimento para **trocar de lugar** com ela, sem provocar Ataques de Oportunidade. Role o dado: você ou ela (à sua escolha) ganha esse valor de bônus na CA até o início do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-golpe-do-comandante",
+    "nome": "Golpe do Comandante",
+    "nome_en": "Commander's Strike",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Troca um ataque seu por um ataque de aliado com o dado no dano.",
+    "texto": "Ao usar a ação Atacar, troque um dos seus ataques para comandar um aliado voluntário que possa ver ou ouvir você. Gaste um dado: o aliado pode usar a **Reação** dele para atacar com arma ou Ataque Desarmado, somando o dado ao dano se acertar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-manobrar",
+    "nome": "Manobrar",
+    "nome_en": "Maneuvering Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado ao dano e um aliado se move sem provocar o alvo.",
+    "texto": "Ao acertar, gaste um dado e some ao dano. Escolha uma criatura voluntária que possa ver ou ouvir você: ela pode usar a **Reação** para se mover até metade do Deslocamento sem provocar Ataques de Oportunidade do alvo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-movimentacao-evasiva",
+    "nome": "Movimentação Evasiva",
+    "nome_en": "Evasive Footwork",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Ação Bônus: Desengajar e soma o dado à CA.",
+    "texto": "Com uma **Ação Bônus**, gaste um dado e faça a ação [[desengajar|Desengajar]]. Role o dado e some à sua CA até o início do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-presenca-de-autoridade",
+    "nome": "Presença de Autoridade",
+    "nome_en": "Commanding Presence",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado a Atuação, Intimidação ou Persuasão.",
+    "texto": "Ao fazer um teste de Carisma (Atuação, Intimidação ou Persuasão), gaste um dado e some ao teste.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-prostrar",
+    "nome": "Prostrar",
+    "nome_en": "Trip Attack",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Soma o dado ao dano e derruba (Força).",
+    "texto": "Ao acertar com arma ou Ataque Desarmado, gaste um dado e some ao dano. Se o alvo for Grande ou menor, faz **salvaguarda de Força**; se falhar, fica [[caido|Caído]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  },
+  {
+    "id": "manobra-recuperar-energia",
+    "nome": "Recuperar Energia",
+    "nome_en": "Rally",
+    "categoria": "classe",
+    "de": "guerreiro",
+    "nivel": 3,
+    "tags": [
+      "guerreiro",
+      "manobra",
+      "mestre da batalha",
+      "dado de superioridade"
+    ],
+    "resumo": "Ação Bônus: aliado ganha PV temporários (dado + metade do nível).",
+    "texto": "Com uma **Ação Bônus**, gaste um dado e escolha um aliado a até 9 metros que possa ver ou ouvir você. Ele ganha PV temporários iguais ao **dado + metade do seu nível de Guerreiro** (arredondado para baixo).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Mestre da Batalha",
+    "sub_curto": "Manobra"
+  }
+]

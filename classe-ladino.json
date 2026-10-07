@@ -1,0 +1,703 @@
+[
+  {
+    "id": "ladino",
+    "nome": "Ladino",
+    "nome_en": "Rogue",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "furtividade",
+      "ataque furtivo",
+      "destreza",
+      "rogue"
+    ],
+    "resumo": "Especialista furtivo do Ataque Furtivo. D8, Destreza.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Ladino |\n|---|---|\n| Atributo primário | Destreza |\n| Dado de Ponto de Vida | D8 por nível de Ladino |\n| Salvaguardas | Destreza e Inteligência |\n| Perícias | Escolha 4: Acrobacia, Atletismo, Enganação, Furtividade, Intimidação, Intuição, Investigação, Percepção, Persuasão ou Prestidigitação |\n| Armas | Simples, e Marciais com a propriedade Acuidade ou Leve |\n| Ferramentas | Ferramentas de Ladrão |\n| Armaduras | Leves |\n| Equipamento inicial | (A) Armadura de Couro, 2 Adagas, Espada Curta, Arco Curto, 20 Flechas, Aljava, Ferramentas de Ladrão, Kit de Assaltante e 8 PO; ou (B) 100 PO |\n\n### Pontos de Vida\n- **Nível 1:** 8 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d8 (ou 5) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, proficiência em uma perícia da lista do Ladino, proficiência com Ferramentas de Ladrão, treinamento com armaduras Leves e as características de nível 1.\n\n### Progressão\n| Nível | Prof. | Características | Ataque Furtivo |\n|---|---|---|---|\n| 1 | +2 | Ataque Furtivo, Especialista, Gíria dos Ladrões, Maestria em Arma | 1d6 |\n| 2 | +2 | Ação Ardilosa | 1d6 |\n| 3 | +2 | Mira Firme, Subclasse | 2d6 |\n| 4 | +2 | Aumento no Valor de Atributo | 2d6 |\n| 5 | +3 | Esquiva Sobrenatural, Golpe Astuto | 3d6 |\n| 6 | +3 | Especialista | 3d6 |\n| 7 | +3 | Evasão, Talento Confiável | 4d6 |\n| 8 | +3 | Aumento no Valor de Atributo | 4d6 |\n| 9 | +4 | Característica de subclasse | 5d6 |\n| 10 | +4 | Aumento no Valor de Atributo | 5d6 |\n| 11 | +4 | Golpe Astuto Aprimorado | 6d6 |\n| 12 | +4 | Aumento no Valor de Atributo | 6d6 |\n| 13 | +5 | Característica de subclasse | 7d6 |\n| 14 | +5 | Golpes Sujos | 7d6 |\n| 15 | +5 | Mente Escorregadia | 8d6 |\n| 16 | +5 | Aumento no Valor de Atributo | 8d6 |\n| 17 | +6 | Característica de subclasse | 9d6 |\n| 18 | +6 | Elusivo | 9d6 |\n| 19 | +6 | Dádiva Épica | 10d6 |\n| 20 | +6 | Golpe de Sorte | 10d6 |\n\n### Características\n- **Nível 1:** [[ataque-furtivo]], [[especialista-ladino|Especialista]], [[giria-dos-ladroes]], [[maestria-em-arma-ladino|Maestria em Arma]]\n- **Nível 2:** [[acao-ardilosa]]\n- **Nível 3:** [[mira-firme]], subclasse\n- **Níveis 4, 8, 10, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[golpe-astuto]], [[esquiva-sobrenatural]]\n- **Nível 7:** [[evasao]], [[talento-confiavel]]\n- **Nível 11:** [[golpe-astuto-aprimorado]]\n- **Nível 14:** [[golpes-sujos]]\n- **Nível 15:** [[mente-escorregadia]]\n- **Nível 18:** [[elusivo]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva do Espírito da Noite)\n- **Nível 20:** [[golpe-de-sorte]]\n\n### Subclasses\n- [[adaga-espiritual]]\n- [[assassino]]\n- [[ladrao]]\n- [[trapaceiro-arcano]]"
+  },
+  {
+    "id": "ataque-furtivo",
+    "nome": "Ataque Furtivo",
+    "nome_en": "Sneak Attack",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 1,
+    "tags": [
+      "ladino",
+      "sneak attack",
+      "dano extra"
+    ],
+    "resumo": "1×/turno: dano extra com arma de Acuidade ou à distância, com Vantagem ou aliado ao lado do alvo.",
+    "texto": "Uma vez por turno, ao acertar uma criatura com uma jogada de ataque usando arma com **Acuidade** ou arma **à distância**, cause dano extra do tipo da arma: **1d6** no nível 1, aumentando pela coluna *Ataque Furtivo* da [[ladino|tabela]].\n\nVocê precisa de uma destas condições:\n- ter **Vantagem** na jogada de ataque; ou\n- ter um **aliado a até 1,5 metro do alvo** que não esteja Incapacitado, e você **não** ter Desvantagem na jogada.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "especialista-ladino",
+    "nome": "Especialista (Ladino)",
+    "nome_en": "Expertise",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 1,
+    "tags": [
+      "ladino",
+      "especialização",
+      "perícias"
+    ],
+    "resumo": "Especialização em 2 perícias no nível 1 e mais 2 no nível 6.",
+    "texto": "Você ganha [[especializacao|Especialização]] em **duas perícias** em que é proficiente (sugeridas: Furtividade e Prestidigitação). No **nível 6**, ganha em mais duas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "giria-dos-ladroes",
+    "nome": "Gíria dos Ladrões",
+    "nome_en": "Thieves' Cant",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 1,
+    "tags": [
+      "ladino",
+      "idioma"
+    ],
+    "resumo": "Conhece a Gíria dos Ladrões e mais um idioma.",
+    "texto": "Você conhece a **Gíria dos Ladrões** e mais **um idioma** à sua escolha.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "maestria-em-arma-ladino",
+    "nome": "Maestria em Arma (Ladino)",
+    "nome_en": "Weapon Mastery",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 1,
+    "tags": [
+      "ladino",
+      "maestria"
+    ],
+    "resumo": "Usa a maestria de 2 tipos de arma; troca no Descanso Longo.",
+    "texto": "Você usa a propriedade de maestria de **dois tipos de arma** em que é proficiente (por exemplo, Adaga e Arco Curto). Ao terminar um Descanso Longo, pode trocar essas escolhas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "acao-ardilosa",
+    "nome": "Ação Ardilosa",
+    "nome_en": "Cunning Action",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 2,
+    "tags": [
+      "ladino",
+      "ação bônus",
+      "cunning action"
+    ],
+    "resumo": "Correr, Desengajar ou Esconder como Ação Bônus.",
+    "texto": "No seu turno, você pode fazer [[disparada|Correr]], [[desengajar|Desengajar]] ou [[esconder|Esconder]] como **Ação Bônus**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "mira-firme",
+    "nome": "Mira Firme",
+    "nome_en": "Steady Aim",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "vantagem",
+      "steady aim"
+    ],
+    "resumo": "Ação Bônus sem ter se movido: Vantagem no próximo ataque; Deslocamento vira 0.",
+    "texto": "Com uma **Ação Bônus**, você ganha **Vantagem** na próxima jogada de ataque deste turno. Só pode usar se não se moveu neste turno, e depois seu Deslocamento fica 0 até o fim do turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpe-astuto",
+    "nome": "Golpe Astuto",
+    "nome_en": "Cunning Strike",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 5,
+    "tags": [
+      "ladino",
+      "ataque furtivo",
+      "envenenar",
+      "derrubar"
+    ],
+    "resumo": "Troca dados do Ataque Furtivo por efeitos: Envenenar, Retirada ou Tropeço.",
+    "texto": "Ao causar dano de [[ataque-furtivo|Ataque Furtivo]], você pode aplicar **um** efeito, pagando seu custo em dados: tire esses dados antes de rolar o dano; o efeito acontece logo depois. CD das salvaguardas: **8 + Destreza + Bônus de Proficiência**.\n\n- **Envenenar (1d6).** O alvo faz salvaguarda de Constituição; se falhar, fica [[envenenado|Envenenado]] por 1 minuto, repetindo a salvaguarda no fim de cada turno dele. Exige um Kit de Veneno com você.\n- **Retirada (1d6).** Logo após o ataque, mova-se até metade do seu Deslocamento sem provocar Ataques de Oportunidade.\n- **Tropeço (1d6).** Se o alvo for Grande ou menor, faz salvaguarda de Destreza; se falhar, fica [[caido|Caído]].\n\nMais efeitos em [[golpes-sujos|Golpes Sujos]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "esquiva-sobrenatural",
+    "nome": "Esquiva Sobrenatural",
+    "nome_en": "Uncanny Dodge",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 5,
+    "tags": [
+      "ladino",
+      "reação",
+      "defesa"
+    ],
+    "resumo": "Reação: reduz à metade o dano de um ataque que acertou.",
+    "texto": "Quando um atacante que você vê acerta você com uma jogada de ataque, use a **Reação** para reduzir o dano desse ataque **à metade** (arredondado para baixo).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "evasao",
+    "nome": "Evasão",
+    "nome_en": "Evasion",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 7,
+    "tags": [
+      "ladino",
+      "destreza",
+      "evasion"
+    ],
+    "resumo": "Salvaguarda de Destreza para metade do dano: nenhum dano se passar, metade se falhar.",
+    "texto": "Quando um efeito permite salvaguarda de Destreza para sofrer metade do dano, você não sofre dano se passar e sofre só metade se falhar. Não funciona se estiver [[incapacitado|Incapacitado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "talento-confiavel",
+    "nome": "Talento Confiável",
+    "nome_en": "Reliable Talent",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 7,
+    "tags": [
+      "ladino",
+      "perícias",
+      "mínimo 10"
+    ],
+    "resumo": "Em testes com proficiência, um 9 ou menos no d20 conta como 10.",
+    "texto": "Em testes de atributo em que você soma o Bônus de Proficiência (perícia ou ferramenta), um resultado de **9 ou menos** no d20 conta como **10**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpe-astuto-aprimorado",
+    "nome": "Golpe Astuto Aprimorado",
+    "nome_en": "Improved Cunning Strike",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 11,
+    "tags": [
+      "ladino",
+      "ataque furtivo"
+    ],
+    "resumo": "Até dois efeitos de Golpe Astuto por Ataque Furtivo.",
+    "texto": "Você pode usar até **dois** efeitos de [[golpe-astuto|Golpe Astuto]] no mesmo dano de Ataque Furtivo, pagando o custo de cada um.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpes-sujos",
+    "nome": "Golpes Sujos",
+    "nome_en": "Devious Strikes",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 14,
+    "tags": [
+      "ladino",
+      "ataque furtivo",
+      "nocaute",
+      "cegar"
+    ],
+    "resumo": "Novos efeitos: Aturdir, Nocaute e Obscurecer.",
+    "texto": "Novos efeitos de [[golpe-astuto|Golpe Astuto]]:\n\n- **Aturdir (2d6).** O alvo faz salvaguarda de Constituição; se falhar, no próximo turno dele só pode fazer **uma** destas coisas: mover-se, uma ação ou uma Ação Bônus.\n- **Nocaute (6d6).** O alvo faz salvaguarda de Constituição; se falhar, fica [[inconsciente|Inconsciente]] por 1 minuto ou até sofrer dano, repetindo a salvaguarda no fim de cada turno dele.\n- **Obscurecer (3d6).** O alvo faz salvaguarda de Destreza; se falhar, fica [[cego|Cego]] até o fim do próximo turno dele.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "mente-escorregadia",
+    "nome": "Mente Escorregadia",
+    "nome_en": "Slippery Mind",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 15,
+    "tags": [
+      "ladino",
+      "salvaguarda"
+    ],
+    "resumo": "Proficiência em salvaguardas de Sabedoria e Carisma.",
+    "texto": "Você ganha proficiência em salvaguardas de **Sabedoria** e **Carisma**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "elusivo",
+    "nome": "Elusivo",
+    "nome_en": "Elusive",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 18,
+    "tags": [
+      "ladino",
+      "defesa"
+    ],
+    "resumo": "Ataques contra você não têm Vantagem, salvo se Incapacitado.",
+    "texto": "Nenhuma jogada de ataque contra você pode ter **Vantagem**, a menos que você esteja [[incapacitado|Incapacitado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpe-de-sorte",
+    "nome": "Golpe de Sorte",
+    "nome_en": "Stroke of Luck",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 20,
+    "tags": [
+      "ladino",
+      "sorte",
+      "20 natural"
+    ],
+    "resumo": "Transforma um Teste de D20 que falhou em 20 (1× por descanso).",
+    "texto": "Se você falhar num [[testes-de-d20|Teste de D20]], pode transformar o resultado do d20 em **20**. Uma vez por Descanso Curto ou Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "adaga-espiritual",
+    "nome": "Adaga Espiritual",
+    "nome_en": "Soulknife",
+    "categoria": "classe",
+    "de": "ladino",
+    "subclasse": "Adaga Espiritual",
+    "sub_curto": "Adaga Esp.",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "ladino",
+      "psiônico",
+      "soulknife"
+    ],
+    "resumo": "Ladino psiônico que cria lâminas de energia mental.",
+    "texto": "Um Adaga Espiritual ataca com a mente, atravessando barreiras físicas e psíquicas. O poder pode ter surgido desde a infância ou depois de anos numa ordem de adeptos psíquicos.\n\n- **Nível 3:** [[laminas-psiquicas]], [[poder-psionico-ladino]]\n- **Nível 9:** [[laminas-da-alma]]\n- **Nível 13:** [[veu-psiquico]]\n- **Nível 17:** [[rasgar-mente]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "laminas-psiquicas",
+    "nome": "Lâminas Psíquicas",
+    "nome_en": "Psychic Blades",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "adaga espiritual",
+      "lâmina",
+      "psíquico"
+    ],
+    "resumo": "Cria lâminas de energia para atacar (1d6 Psíquico; segunda lâmina 1d4 como Ação Bônus).",
+    "texto": "Ao usar a ação [[atacar|Atacar]] ou fazer um [[ataque-de-oportunidade|Ataque de Oportunidade]], você pode criar uma **Lâmina Psíquica** na mão livre e atacar com ela:\n\n| Propriedade | Valor |\n|---|---|\n| Categoria | Arma Simples corpo a corpo |\n| Dano | 1d6 Psíquico + modificador usado no ataque |\n| Propriedades | Acuidade, Arremesso (18/36 m) |\n| Maestria | Afligir (pode usar, e não conta no seu limite de maestrias) |\n\nA lâmina some logo após acertar ou errar e não deixa marca. Depois de atacar com ela no turno, você pode atacar com uma **segunda lâmina** como **Ação Bônus**, se a outra mão estiver livre; esse ataque causa **1d4** em vez de 1d6.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adaga Espiritual",
+    "sub_curto": "Adaga Esp."
+  },
+  {
+    "id": "poder-psionico-ladino",
+    "nome": "Poder Psiônico (Adaga Espiritual)",
+    "nome_en": "Psionic Power",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "adaga espiritual",
+      "dados psiônicos",
+      "telepatia"
+    ],
+    "resumo": "Dados de Energia Psiônica para reforçar testes e falar por telepatia.",
+    "texto": "Você tem **Dados de Energia Psiônica**, usados só por esta subclasse. Recupera **um** num Descanso Curto e **todos** num Descanso Longo.\n\n| Nível | Dado | Quantidade |\n|---|---|---|\n| 3 | d6 | 4 |\n| 5 | d8 | 6 |\n| 9 | d8 | 8 |\n| 11 | d10 | 8 |\n| 13 | d10 | 10 |\n| 17 | d12 | 12 |\n\n- **Aptidão Reforçada.** Ao falhar num teste de atributo com perícia ou ferramenta em que é proficiente, role um dado e some ao teste. O dado só é gasto se o teste passar.\n- **Sussurros Psíquicos.** Com a ação [[acao-magia|Usar Magia]], escolha até um número de criaturas que vê igual ao seu Bônus de Proficiência e role um dado. Por horas iguais ao resultado, vocês se falam por telepatia a até 1,5 km. Qualquer um pode encerrar a ligação. O primeiro uso após cada Descanso Longo não gasta o dado.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adaga Espiritual",
+    "sub_curto": "Adaga Esp."
+  },
+  {
+    "id": "laminas-da-alma",
+    "nome": "Lâminas da Alma",
+    "nome_en": "Soul Blades",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 9,
+    "tags": [
+      "ladino",
+      "adaga espiritual",
+      "teleporte"
+    ],
+    "resumo": "Soma dado psiônico a ataques que erraram; teleporte arremessando a lâmina.",
+    "texto": "- **Golpes teleguiados.** Ao errar um ataque com a [[laminas-psiquicas|Lâmina Psíquica]], role um dado psiônico e some à jogada. O dado só é gasto se o ataque passar a acertar.\n- **Teleporte psíquico.** Com uma **Ação Bônus**, crie uma lâmina, gaste e role um dado psiônico e arremesse a lâmina num espaço livre que veja a até **3 metros × o resultado**. Você se teleporta para lá e a lâmina some.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adaga Espiritual",
+    "sub_curto": "Adaga Esp."
+  },
+  {
+    "id": "veu-psiquico",
+    "nome": "Véu Psíquico",
+    "nome_en": "Psychic Veil",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 13,
+    "tags": [
+      "ladino",
+      "adaga espiritual",
+      "invisível"
+    ],
+    "resumo": "Fica Invisível por 1 hora até causar dano ou forçar salvaguarda.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], você fica [[invisivel|Invisível]] por **1 hora** (ou até encerrar, sem ação). A invisibilidade acaba se você causar dano a uma criatura ou obrigá-la a uma salvaguarda. Uma vez por Descanso Longo, ou gastando um dado psiônico (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adaga Espiritual",
+    "sub_curto": "Adaga Esp."
+  },
+  {
+    "id": "rasgar-mente",
+    "nome": "Rasgar Mente",
+    "nome_en": "Rend Mind",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 17,
+    "tags": [
+      "ladino",
+      "adaga espiritual",
+      "atordoar"
+    ],
+    "resumo": "Ataque Furtivo com a lâmina pode Atordoar por 1 minuto (Sabedoria).",
+    "texto": "Ao causar dano de [[ataque-furtivo|Ataque Furtivo]] com a Lâmina Psíquica, você pode obrigar o alvo a uma **salvaguarda de Sabedoria** (CD 8 + Destreza + Bônus de Proficiência). Se falhar, fica [[atordoado|Atordoado]] por 1 minuto, repetindo a salvaguarda no fim de cada turno dele. Uma vez por Descanso Longo, ou gastando **três** dados psiônicos (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Adaga Espiritual",
+    "sub_curto": "Adaga Esp."
+  },
+  {
+    "id": "assassino",
+    "nome": "Assassino",
+    "nome_en": "Assassin",
+    "categoria": "classe",
+    "de": "ladino",
+    "subclasse": "Assassino",
+    "sub_curto": "Assassino",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "ladino",
+      "assassino"
+    ],
+    "resumo": "Ladino de emboscadas, venenos e disfarces.",
+    "texto": "O treino do Assassino foca furtividade, veneno e disfarce para eliminar inimigos com eficiência, útil tanto para espiões e caçadores de recompensa quanto para aventureiros.\n\n- **Nível 3:** [[assassinar]], [[ferramentas-de-assassino]]\n- **Nível 9:** [[especialista-em-infiltracao]]\n- **Nível 13:** [[armas-venenosas]]\n- **Nível 17:** [[golpe-mortal]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "assassinar",
+    "nome": "Assassinar",
+    "nome_en": "Assassinate",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "assassino",
+      "iniciativa",
+      "emboscada"
+    ],
+    "resumo": "Vantagem na Iniciativa; na 1ª rodada, Vantagem contra quem não agiu e +nível no Ataque Furtivo.",
+    "texto": "- **Iniciativa.** Você tem Vantagem nas jogadas de [[iniciativa|Iniciativa]].\n- **Golpe surpreendente.** Na primeira rodada de cada combate, você tem **Vantagem** nas jogadas de ataque contra criaturas que ainda não tiveram turno. Se seu [[ataque-furtivo|Ataque Furtivo]] acertar alguém nessa rodada, o alvo sofre dano extra (do tipo da arma) igual ao seu **nível de Ladino**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Assassino",
+    "sub_curto": "Assassino"
+  },
+  {
+    "id": "ferramentas-de-assassino",
+    "nome": "Ferramentas de Assassino",
+    "nome_en": "Assassin's Tools",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "assassino",
+      "veneno",
+      "disfarce"
+    ],
+    "resumo": "Ganha Kit de Disfarce e Kit de Veneno, com proficiência.",
+    "texto": "Você recebe um **Kit de Disfarce** e um **Kit de Veneno** e tem proficiência com ambos.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Assassino",
+    "sub_curto": "Assassino"
+  },
+  {
+    "id": "especialista-em-infiltracao",
+    "nome": "Especialista em Infiltração",
+    "nome_en": "Infiltration Expertise",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 9,
+    "tags": [
+      "ladino",
+      "assassino",
+      "disfarce"
+    ],
+    "resumo": "Imita voz e caligrafia; Mira Firme não zera o Deslocamento.",
+    "texto": "- **Mimetismo magistral.** Depois de estudar por pelo menos 1 hora, você imita perfeitamente a fala, a caligrafia ou ambas de outra pessoa.\n- **Mira móvel.** Usar [[mira-firme|Mira Firme]] não reduz seu Deslocamento a 0.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Assassino",
+    "sub_curto": "Assassino"
+  },
+  {
+    "id": "armas-venenosas",
+    "nome": "Armas Venenosas",
+    "nome_en": "Envenom Weapons",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 13,
+    "tags": [
+      "ladino",
+      "assassino",
+      "veneno"
+    ],
+    "resumo": "Envenenar do Golpe Astuto também causa 2d6 Venenoso, ignorando Resistência.",
+    "texto": "Quando você usa **Envenenar** do [[golpe-astuto|Golpe Astuto]], o alvo também sofre **2d6 de dano Venenoso** sempre que falhar na salvaguarda. Esse dano ignora Resistência a Venenoso.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Assassino",
+    "sub_curto": "Assassino"
+  },
+  {
+    "id": "golpe-mortal",
+    "nome": "Golpe Mortal",
+    "nome_en": "Death Strike",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 17,
+    "tags": [
+      "ladino",
+      "assassino",
+      "dano dobrado"
+    ],
+    "resumo": "Ataque Furtivo na 1ª rodada: dano dobrado se o alvo falhar em Constituição.",
+    "texto": "Ao acertar com [[ataque-furtivo|Ataque Furtivo]] na primeira rodada de um combate, o alvo faz **salvaguarda de Constituição** (CD 8 + Destreza + Bônus de Proficiência). Se falhar, o dano do ataque contra ele é **dobrado**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Assassino",
+    "sub_curto": "Assassino"
+  },
+  {
+    "id": "ladrao",
+    "nome": "Ladrão",
+    "nome_en": "Thief",
+    "categoria": "classe",
+    "de": "ladino",
+    "subclasse": "Ladrão",
+    "sub_curto": "Ladrão",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "ladino",
+      "ladrão",
+      "thief"
+    ],
+    "resumo": "Ladino clássico: escalada, mãos rápidas e itens mágicos.",
+    "texto": "Mistura de ladrão, caçador de tesouros e explorador: o aventureiro por excelência, ágil, furtivo e capaz de tirar o máximo dos itens mágicos que encontra.\n\n- **Nível 3:** [[andarilho-de-telhados]], [[mao-leve]]\n- **Nível 9:** [[furtividade-suprema]]\n- **Nível 13:** [[usar-dispositivo-magico]]\n- **Nível 17:** [[reflexos-de-ladrao]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "andarilho-de-telhados",
+    "nome": "Andarilho de Telhados",
+    "nome_en": "Second-Story Work",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "ladrão",
+      "escalada",
+      "salto"
+    ],
+    "resumo": "Escalada igual ao Deslocamento; salta usando Destreza.",
+    "texto": "Você ganha Deslocamento de **Escalada** igual ao seu Deslocamento e pode calcular a distância dos seus saltos usando **Destreza** em vez de Força.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Ladrão",
+    "sub_curto": "Ladrão"
+  },
+  {
+    "id": "mao-leve",
+    "nome": "Mão Leve",
+    "nome_en": "Fast Hands",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "ladrão",
+      "ação bônus",
+      "fechadura"
+    ],
+    "resumo": "Ação Bônus: Prestidigitação (fechadura, armadilha, bolso) ou Usar Objeto / item mágico.",
+    "texto": "Com uma **Ação Bônus**, você pode:\n\n- **Prestidigitação.** Fazer um teste de Destreza (Prestidigitação) para abrir uma fechadura ou desarmar uma armadilha com Ferramentas de Ladrão, ou para bater uma carteira.\n- **Usar objeto.** Fazer a ação [[usar|Usar Objeto]], ou a ação [[acao-magia|Usar Magia]] para usar um item mágico que exija essa ação.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Ladrão",
+    "sub_curto": "Ladrão"
+  },
+  {
+    "id": "furtividade-suprema",
+    "nome": "Furtividade Suprema",
+    "nome_en": "Supreme Sneak",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 9,
+    "tags": [
+      "ladino",
+      "ladrão",
+      "furtividade"
+    ],
+    "resumo": "Novo Golpe Astuto: Ataque Escondido (atacar sem perder a invisibilidade de Esconder).",
+    "texto": "Você ganha uma opção de [[golpe-astuto|Golpe Astuto]]: **Ataque Escondido (1d6).** Se estiver [[invisivel|Invisível]] pela ação [[esconder|Esconder]], este ataque não acaba com a condição, desde que você termine o turno atrás de cobertura de três quartos ou total.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Ladrão",
+    "sub_curto": "Ladrão"
+  },
+  {
+    "id": "usar-dispositivo-magico",
+    "nome": "Usar Dispositivo Mágico",
+    "nome_en": "Use Magic Device",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 13,
+    "tags": [
+      "ladino",
+      "ladrão",
+      "itens mágicos",
+      "pergaminho"
+    ],
+    "resumo": "4 sintonias, chance de não gastar cargas e uso de qualquer pergaminho.",
+    "texto": "- **Sintonia.** Você pode se sintonizar com até **quatro** itens mágicos ao mesmo tempo.\n- **Cargas.** Sempre que usar uma propriedade que gaste cargas, role 1d6: com **6**, não gasta as cargas.\n- **Pergaminhos.** Você pode usar qualquer Pergaminho Mágico, com Inteligência como atributo de conjuração. Truques e magias de 1º círculo funcionam sempre; de círculo maior, exigem teste de Inteligência (Arcanismo) CD 10 + círculo; se falhar, o pergaminho se desfaz.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Ladrão",
+    "sub_curto": "Ladrão"
+  },
+  {
+    "id": "reflexos-de-ladrao",
+    "nome": "Reflexos de Ladrão",
+    "nome_en": "Thief's Reflexes",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 17,
+    "tags": [
+      "ladino",
+      "ladrão",
+      "iniciativa"
+    ],
+    "resumo": "Dois turnos na primeira rodada (Iniciativa normal e −10).",
+    "texto": "Na primeira rodada de cada combate, você tem **dois turnos**: um na sua Iniciativa normal e outro na sua Iniciativa **menos 10**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Ladrão",
+    "sub_curto": "Ladrão"
+  },
+  {
+    "id": "trapaceiro-arcano",
+    "nome": "Trapaceiro Arcano",
+    "nome_en": "Arcane Trickster",
+    "categoria": "classe",
+    "de": "ladino",
+    "subclasse": "Trapaceiro Arcano",
+    "sub_curto": "Trap. Arcano",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "ladino",
+      "arcane trickster",
+      "magia"
+    ],
+    "resumo": "Ladino que usa magia de Mago para furtos e travessuras.",
+    "texto": "Alguns Ladinos reforçam a furtividade e a agilidade com magia, aprendendo truques úteis ao ofício, seja para assaltos ou para pura travessura.\n\n- **Nível 3:** [[conjuracao-trapaceiro-arcano]], [[maos-magicas-ligeiras]]\n- **Nível 9:** [[emboscada-magica]]\n- **Nível 13:** [[trapaceiro-versatil]]\n- **Nível 17:** [[ladrao-de-magias]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "conjuracao-trapaceiro-arcano",
+    "nome": "Conjuração (Trapaceiro Arcano)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "trapaceiro arcano",
+      "magias",
+      "espaços de magia"
+    ],
+    "resumo": "Magias de Mago com Inteligência, como um terço de conjurador; Mãos Mágicas obrigatória.",
+    "texto": "- **Truques.** Você conhece **Mãos Mágicas** e mais **2 truques** de Mago (sugeridos: Ilusão Menor e Talho Mental). Ganha mais um no nível 10. A cada nível de Ladino, pode trocar um, exceto Mãos Mágicas.\n- **Magias preparadas.** Comece com **3 magias de Mago de 1º círculo** (sugeridas: Disfarçar-se, Enfeitiçar Pessoa e Névoa Obscurecente). A quantidade cresce pela tabela abaixo. A cada nível de Ladino, pode trocar uma.\n- **Espaços de magia.** Pela tabela abaixo; recupera todos num Descanso Longo.\n- **Atributo de conjuração:** Inteligência. **Foco:** Foco Arcano.\n\n| Nível | Magias prep. | 1º | 2º | 3º | 4º |\n|---|---|---|---|---|---|\n| 3 | 3 | 2 | — | — | — |\n| 4 | 4 | 3 | — | — | — |\n| 5 | 4 | 3 | — | — | — |\n| 6 | 4 | 3 | — | — | — |\n| 7 | 5 | 4 | 2 | — | — |\n| 8 | 6 | 4 | 2 | — | — |\n| 9 | 6 | 4 | 2 | — | — |\n| 10 | 7 | 4 | 3 | — | — |\n| 11 | 8 | 4 | 3 | — | — |\n| 12 | 8 | 4 | 3 | — | — |\n| 13 | 9 | 4 | 3 | 2 | — |\n| 14 | 10 | 4 | 3 | 2 | — |\n| 15 | 10 | 4 | 3 | 2 | — |\n| 16 | 11 | 4 | 3 | 3 | — |\n| 17 | 11 | 4 | 3 | 3 | — |\n| 18 | 11 | 4 | 3 | 3 | — |\n| 19 | 12 | 4 | 3 | 3 | 1 |\n| 20 | 13 | 4 | 3 | 3 | 1 |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trapaceiro Arcano",
+    "sub_curto": "Trap. Arcano"
+  },
+  {
+    "id": "maos-magicas-ligeiras",
+    "nome": "Mãos Mágicas Ligeiras",
+    "nome_en": "Mage Hand Legerdemain",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 3,
+    "tags": [
+      "ladino",
+      "trapaceiro arcano",
+      "mãos mágicas"
+    ],
+    "resumo": "Mãos Mágicas como Ação Bônus, invisível, e capaz de Prestidigitação.",
+    "texto": "Você lança **Mãos Mágicas** como **Ação Bônus** e pode deixar a mão espectral **Invisível**. Controla a mão com uma Ação Bônus e pode fazer testes de Destreza (Prestidigitação) através dela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trapaceiro Arcano",
+    "sub_curto": "Trap. Arcano"
+  },
+  {
+    "id": "emboscada-magica",
+    "nome": "Emboscada Mágica",
+    "nome_en": "Magical Ambush",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 9,
+    "tags": [
+      "ladino",
+      "trapaceiro arcano",
+      "desvantagem"
+    ],
+    "resumo": "Invisível ao lançar magia: o alvo tem Desvantagem na salvaguarda neste turno.",
+    "texto": "Se você estiver [[invisivel|Invisível]] ao lançar uma magia numa criatura, ela tem **Desvantagem** nas salvaguardas contra essa magia neste turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trapaceiro Arcano",
+    "sub_curto": "Trap. Arcano"
+  },
+  {
+    "id": "trapaceiro-versatil",
+    "nome": "Trapaceiro Versátil",
+    "nome_en": "Versatile Trickster",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 13,
+    "tags": [
+      "ladino",
+      "trapaceiro arcano",
+      "golpe astuto"
+    ],
+    "resumo": "Golpe Astuto também afeta uma criatura perto da mão mágica.",
+    "texto": "Ao usar uma opção de [[golpe-astuto|Golpe Astuto]] numa criatura, você também pode aplicá-la a outra criatura a até 1,5 metro da sua mão espectral.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trapaceiro Arcano",
+    "sub_curto": "Trap. Arcano"
+  },
+  {
+    "id": "ladrao-de-magias",
+    "nome": "Ladrão de Magias",
+    "nome_en": "Spell Thief",
+    "categoria": "classe",
+    "de": "ladino",
+    "nivel": 17,
+    "tags": [
+      "ladino",
+      "trapaceiro arcano",
+      "roubar magia",
+      "reação"
+    ],
+    "resumo": "Reação: anula uma magia contra você e a rouba por 8 horas.",
+    "texto": "Logo depois que uma criatura lança uma magia que tenha você como alvo ou inclua você na área, use a **Reação** para obrigá-la a uma **salvaguarda de Inteligência** contra a CD das suas magias. Se falhar, você anula o efeito da magia **em você** e, se ela for de 1º círculo ou de um círculo que você consiga lançar (de qualquer lista), você a **rouba**: fica com ela preparada por **8 horas**, e a criatura não pode lançá-la nesse período. Uma vez por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trapaceiro Arcano",
+    "sub_curto": "Trap. Arcano"
+  }
+]

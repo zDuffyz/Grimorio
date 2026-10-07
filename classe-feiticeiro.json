@@ -1,0 +1,772 @@
+[
+  {
+    "id": "feiticeiro",
+    "nome": "Feiticeiro",
+    "nome_en": "Sorcerer",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "metamagia",
+      "pontos de feitiçaria",
+      "carisma",
+      "conjurador",
+      "sorcerer"
+    ],
+    "resumo": "Conjurador de magia inata com Metamagia. D6, Carisma.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Feiticeiro |\n|---|---|\n| Atributo primário | Carisma |\n| Dado de Ponto de Vida | D6 por nível de Feiticeiro |\n| Salvaguardas | Constituição e Carisma |\n| Perícias | Escolha 2: Arcanismo, Enganação, Intimidação, Intuição, Persuasão ou Religião |\n| Armas | Simples |\n| Armaduras | Nenhuma |\n| Equipamento inicial | (A) Lança, 2 Adagas, Foco Arcano (cristal), Kit de Explorador de Masmorras e 28 PO; ou (B) 50 PO |\n\n### Pontos de Vida\n- **Nível 1:** 6 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d6 (ou 4) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida e as características de nível 1. Os espaços de magia seguem as regras de multiclasse.\n\n### Progressão\n| Nível | Prof. | Características | Pontos de Feitiçaria | Truques | Magias prep. |\n|---|---|---|---|---|---|\n| 1 | +2 | Conjuração, Feitiçaria Inata | — | 4 | 2 |\n| 2 | +2 | Fonte de Magia, Metamagia | 2 | 4 | 4 |\n| 3 | +2 | Subclasse | 3 | 4 | 6 |\n| 4 | +2 | Aumento no Valor de Atributo | 4 | 5 | 7 |\n| 5 | +3 | Restauração Feiticeira | 5 | 5 | 9 |\n| 6 | +3 | Característica de subclasse | 6 | 5 | 10 |\n| 7 | +3 | Feitiçaria Encarnada | 7 | 5 | 11 |\n| 8 | +3 | Aumento no Valor de Atributo | 8 | 5 | 12 |\n| 9 | +4 | — | 9 | 5 | 14 |\n| 10 | +4 | Metamagia | 10 | 6 | 15 |\n| 11 | +4 | — | 11 | 6 | 16 |\n| 12 | +4 | Aumento no Valor de Atributo | 12 | 6 | 16 |\n| 13 | +5 | — | 13 | 6 | 17 |\n| 14 | +5 | Característica de subclasse | 14 | 6 | 17 |\n| 15 | +5 | — | 15 | 6 | 18 |\n| 16 | +5 | Aumento no Valor de Atributo | 16 | 6 | 18 |\n| 17 | +6 | Metamagia | 17 | 6 | 19 |\n| 18 | +6 | Característica de subclasse | 18 | 6 | 20 |\n| 19 | +6 | Dádiva Épica | 19 | 6 | 21 |\n| 20 | +6 | Apoteose Arcana | 20 | 6 | 22 |\n\n### Espaços de magia por nível\n| Nível | 1º | 2º | 3º | 4º | 5º | 6º | 7º | 8º | 9º |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | 2 | — | — | — | — | — | — | — | — |\n| 2 | 3 | — | — | — | — | — | — | — | — |\n| 3 | 4 | 2 | — | — | — | — | — | — | — |\n| 4 | 4 | 3 | — | — | — | — | — | — | — |\n| 5 | 4 | 3 | 2 | — | — | — | — | — | — |\n| 6 | 4 | 3 | 3 | — | — | — | — | — | — |\n| 7 | 4 | 3 | 3 | 1 | — | — | — | — | — |\n| 8 | 4 | 3 | 3 | 2 | — | — | — | — | — |\n| 9 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |\n| 10 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |\n| 11 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |\n| 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |\n| 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |\n| 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |\n| 18 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |\n| 19 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |\n| 20 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |\n\n### Características\n- **Nível 1:** [[conjuracao-feiticeiro|Conjuração]], [[feiticaria-inata]]\n- **Nível 2:** [[fonte-de-magia]], [[metamagia]]\n- **Nível 3:** subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[restauracao-feiticeira]]\n- **Nível 7:** [[feiticaria-encarnada]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva da Viagem Dimensional)\n- **Nível 20:** [[apoteose-arcana]]\n- **Opções de Metamagia:** [[magia-acelerada]], [[magia-agravada]], [[magia-buscadora]], [[magia-cautelosa]], [[magia-distante]], [[magia-duplicada]], [[magia-persistente]], [[magia-potencializada]], [[magia-sutil]], [[magia-transmutada]]\n\n### Subclasses\n- [[feiticaria-aberrante]]\n- [[feiticaria-draconica]]\n- [[feiticaria-mecanica]]\n- [[feiticaria-selvagem]]"
+  },
+  {
+    "id": "conjuracao-feiticeiro",
+    "nome": "Conjuração (Feiticeiro)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 1,
+    "tags": [
+      "feiticeiro",
+      "magias",
+      "espaços de magia",
+      "truques"
+    ],
+    "resumo": "Magias de Feiticeiro com Carisma; troca uma magia a cada nível.",
+    "texto": "- **Truques.** Você conhece **4 truques** de Feiticeiro (sugeridos: Explosão Elemental, Luz, Prestidigitação Arcana e Toque Chocante). Ganha mais um no nível 4 e outro no 10, e pode trocar um a cada nível.\n- **Espaços de magia.** Veja a tabela na [[feiticeiro|ficha do Feiticeiro]]. Recupera todos num [[descanso-longo|Descanso Longo]].\n- **Magias preparadas.** Comece com **2 magias de 1º círculo** (sugeridas: Detectar Magia e Mãos Flamejantes). A quantidade cresce pela coluna *Magias prep.*, de círculos para os quais tenha espaços.\n- **Trocar magias.** A cada nível de Feiticeiro, troque uma magia preparada por outra de Feiticeiro.\n- **Atributo de conjuração:** Carisma. **Foco:** Foco Arcano.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "feiticaria-inata",
+    "nome": "Feitiçaria Inata",
+    "nome_en": "Innate Sorcery",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 1,
+    "tags": [
+      "feiticeiro",
+      "vantagem",
+      "cd"
+    ],
+    "resumo": "Ação Bônus por 1 min: +1 na CD das magias e Vantagem nos ataques de magia. 2×/Descanso Longo.",
+    "texto": "Com uma **Ação Bônus**, você libera sua magia latente por **1 minuto**:\n- a CD das suas magias de Feiticeiro aumenta em **1**;\n- você tem **Vantagem** nas jogadas de ataque das suas magias de Feiticeiro.\n\n**Usos:** 2 por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "fonte-de-magia",
+    "nome": "Fonte de Magia",
+    "nome_en": "Font of Magic",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "pontos de feitiçaria",
+      "espaços de magia"
+    ],
+    "resumo": "Pontos de Feitiçaria: converte espaços em pontos e pontos em espaços.",
+    "texto": "Você tem **Pontos de Feitiçaria** iguais ao seu nível de Feiticeiro (a partir do 2), e recupera todos num Descanso Longo. Eles alimentam a [[metamagia|Metamagia]] e as opções abaixo.\n\n- **Espaço → pontos.** Gaste um espaço de magia (sem ação) para ganhar pontos iguais ao círculo dele.\n- **Pontos → espaço.** Com uma **Ação Bônus**, transforme pontos em um espaço de magia (máximo 5º círculo). Espaços criados assim somem num Descanso Longo.\n\n| Círculo do espaço | Custo | Nível mínimo |\n|---|---|---|\n| 1º | 2 | 2 |\n| 2º | 3 | 3 |\n| 3º | 5 | 5 |\n| 4º | 6 | 7 |\n| 5º | 7 | 9 |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "metamagia",
+    "nome": "Metamagia",
+    "nome_en": "Metamagic",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia"
+    ],
+    "resumo": "Duas opções para modificar magias gastando Pontos de Feitiçaria (+2 nos níveis 10 e 17).",
+    "texto": "Você aprende **duas opções de Metamagia**, e mais duas nos níveis **10** e **17**. Cada uma modifica uma magia que você lança, gastando [[fonte-de-magia|Pontos de Feitiçaria]]. Normalmente só uma opção por magia, salvo quando a opção diz o contrário.\n\nA cada nível de Feiticeiro, você pode trocar uma opção por outra que não conheça. A lista completa está na [[feiticeiro|ficha do Feiticeiro]]; busque \"metamagia\" para ver todas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "restauracao-feiticeira",
+    "nome": "Restauração Feiticeira",
+    "nome_en": "Sorcerous Restoration",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 5,
+    "tags": [
+      "feiticeiro",
+      "pontos de feitiçaria",
+      "descanso curto"
+    ],
+    "resumo": "1×/Descanso Longo: recupera Pontos de Feitiçaria (até metade do nível) num Descanso Curto.",
+    "texto": "Ao terminar um Descanso Curto, recupere Pontos de Feitiçaria gastos, até **metade do seu nível de Feiticeiro** (arredondado para baixo). Uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "feiticaria-encarnada",
+    "nome": "Feitiçaria Encarnada",
+    "nome_en": "Sorcery Incarnate",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 7,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "feitiçaria inata"
+    ],
+    "resumo": "Ativa Feitiçaria Inata com 2 pontos; com ela ativa, usa 2 Metamagias por magia.",
+    "texto": "Sem usos de [[feiticaria-inata|Feitiçaria Inata]], você pode ativá-la gastando **2 Pontos de Feitiçaria** na Ação Bônus. Enquanto ela estiver ativa, você pode usar até **duas** opções de Metamagia em cada magia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "apoteose-arcana",
+    "nome": "Apoteose Arcana",
+    "nome_en": "Arcane Apotheosis",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 20,
+    "tags": [
+      "feiticeiro",
+      "metamagia"
+    ],
+    "resumo": "Com Feitiçaria Inata ativa: uma Metamagia por turno de graça.",
+    "texto": "Enquanto [[feiticaria-inata|Feitiçaria Inata]] estiver ativa, você pode usar uma opção de Metamagia por turno **sem gastar** Pontos de Feitiçaria.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "magia-acelerada",
+    "nome": "Magia Acelerada",
+    "nome_en": "Quickened Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "ação bônus"
+    ],
+    "resumo": "Magia de uma ação vira Ação Bônus.",
+    "texto": "**Custo:** 2 Pontos de Feitiçaria\n\nUma magia com tempo de conjuração de uma ação passa a usar uma **Ação Bônus** nesta conjuração. Não funciona se você já lançou uma magia de 1º círculo ou maior neste turno, e depois dela você não pode lançar outra de 1º círculo ou maior no mesmo turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-agravada",
+    "nome": "Magia Agravada",
+    "nome_en": "Heightened Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "desvantagem"
+    ],
+    "resumo": "Um alvo tem Desvantagem nas salvaguardas contra a magia.",
+    "texto": "**Custo:** 2 Pontos de Feitiçaria\n\nAo lançar uma magia que exige salvaguarda, escolha um alvo dela: ele tem **Desvantagem** nas salvaguardas contra essa magia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-buscadora",
+    "nome": "Magia Buscadora",
+    "nome_en": "Seeking Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "ataque"
+    ],
+    "resumo": "Errou um ataque mágico: rola o d20 de novo.",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nSe errar uma jogada de ataque de magia, role o d20 de novo e use o novo resultado. Pode ser usada mesmo que outra Metamagia já esteja na magia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-cautelosa",
+    "nome": "Magia Cautelosa",
+    "nome_en": "Careful Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "área",
+      "aliados"
+    ],
+    "resumo": "Protege aliados da sua magia de área.",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nAo lançar uma magia que exige salvaguarda de outras criaturas, escolha até um número delas igual ao seu modificador de Carisma (mínimo 1). Elas **passam automaticamente** na salvaguarda e não sofrem dano se normalmente sofreriam metade.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-distante",
+    "nome": "Magia Distante",
+    "nome_en": "Distant Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "alcance"
+    ],
+    "resumo": "Dobra o alcance; magia de toque passa a 9 m.",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nUma magia com alcance de 1,5 metro ou mais tem o **alcance dobrado**. Uma magia de alcance Toque passa a ter alcance de **9 metros (30 pés)**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-duplicada",
+    "nome": "Magia Duplicada",
+    "nome_en": "Twinned Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "alvo extra",
+      "twin"
+    ],
+    "resumo": "Aumenta em 1 o círculo efetivo de magias que ganham alvos extras.",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nAo lançar uma magia que, num círculo maior, pode afetar uma criatura a mais (como Enfeitiçar Pessoa), aumente em **1 o círculo efetivo** dela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-persistente",
+    "nome": "Magia Persistente",
+    "nome_en": "Extended Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "duração",
+      "concentração"
+    ],
+    "resumo": "Dobra a duração (máx. 24 h); Vantagem para manter Concentração.",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nUma magia com duração de 1 minuto ou mais tem a **duração dobrada**, até 24 horas. Se ela exigir Concentração, você tem Vantagem nas salvaguardas para mantê-la.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-potencializada",
+    "nome": "Magia Potencializada",
+    "nome_en": "Empowered Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "dano"
+    ],
+    "resumo": "Rola de novo dados de dano (até Carisma dados).",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nAo rolar o dano de uma magia, role de novo até um número de dados igual ao seu modificador de Carisma (mínimo 1) e use os novos resultados. Pode ser usada mesmo que outra Metamagia já esteja na magia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-sutil",
+    "nome": "Magia Sutil",
+    "nome_en": "Subtle Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "componentes",
+      "furtivo"
+    ],
+    "resumo": "Lança sem componentes Verbais, Somáticos e Materiais comuns.",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nLance a magia sem componentes Verbais, Somáticos ou Materiais, exceto Materiais consumidos ou com custo informado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "magia-transmutada",
+    "nome": "Magia Transmutada",
+    "nome_en": "Transmuted Spell",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 2,
+    "tags": [
+      "feiticeiro",
+      "metamagia",
+      "tipo de dano"
+    ],
+    "resumo": "Troca o tipo de dano entre Ácido, Elétrico, Gélido, Fogo, Trovejante e Venenoso.",
+    "texto": "**Custo:** 1 Ponto de Feitiçaria\n\nSe a magia causar dano de um destes tipos, troque-o por outro da lista: **Ácido, Elétrico, Gélido, Fogo, Trovejante ou Venenoso**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "sub_curto": "Metamagia"
+  },
+  {
+    "id": "feiticaria-aberrante",
+    "nome": "Feitiçaria Aberrante",
+    "nome_en": "Aberrant Sorcery",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "subclasse": "Feitiçaria Aberrante",
+    "sub_curto": "Aberrante",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "feiticeiro",
+      "psiônico",
+      "aberração"
+    ],
+    "resumo": "Feiticeiro psiônico tocado por algo alienígena.",
+    "texto": "Uma influência alienígena deu a você poder psiônico: um vento psíquico do Plano Astral, o Reino Distante ou um girino de devorador de mentes que nunca completou a transformação.\n\n- **Nível 3:** [[fala-telepatica]], [[magias-psionicas]]\n- **Nível 6:** [[defesas-psiquicas]], [[feiticaria-psionica]]\n- **Nível 14:** [[revelacao-em-carne]]\n- **Nível 18:** [[implosao-de-distorcao]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "fala-telepatica",
+    "nome": "Fala Telepática",
+    "nome_en": "Telepathic Speech",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "aberrante",
+      "telepatia"
+    ],
+    "resumo": "Ação Bônus: telepatia com uma criatura a 9 m.",
+    "texto": "Com uma **Ação Bônus**, escolha uma criatura que você vê a até **9 metros**. Vocês se comunicam por telepatia a até **1,5 km × seu modificador de Carisma** (mínimo 1,5 km), desde que um conheça um idioma do outro. Dura minutos iguais ao seu nível de Feiticeiro, ou até você se ligar a outra criatura.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Aberrante",
+    "sub_curto": "Aberrante"
+  },
+  {
+    "id": "magias-psionicas",
+    "nome": "Magias Psiônicas",
+    "nome_en": "Psionic Spells",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "aberrante",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas de poder psiônico.",
+    "texto": "| Nível | Magias |\n|---|---|\n| 3 | Acalmar Emoções, Braços de Hadar, Detectar Pensamentos, Sussurros Dissonantes, Talho Mental |\n| 5 | Fome de Hadar, Remeter |\n| 7 | Invocar Aberração, Tentáculos Negros de Evard |\n| 9 | Ligação Telepática de Rary, Telecinese |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Aberrante",
+    "sub_curto": "Aberrante"
+  },
+  {
+    "id": "defesas-psiquicas",
+    "nome": "Defesas Psíquicas",
+    "nome_en": "Psychic Defenses",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 6,
+    "tags": [
+      "feiticeiro",
+      "aberrante",
+      "resistência"
+    ],
+    "resumo": "Resistência a Psíquico; Vantagem contra medo e encanto.",
+    "texto": "Você tem Resistência a dano **Psíquico** e Vantagem nas salvaguardas para evitar ou encerrar [[amedrontado|Amedrontado]] e [[enfeiticado|Enfeitiçado]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Aberrante",
+    "sub_curto": "Aberrante"
+  },
+  {
+    "id": "feiticaria-psionica",
+    "nome": "Feitiçaria Psiônica",
+    "nome_en": "Psionic Sorcery",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 6,
+    "tags": [
+      "feiticeiro",
+      "aberrante",
+      "pontos de feitiçaria",
+      "sutil"
+    ],
+    "resumo": "Lança Magias Psiônicas com Pontos de Feitiçaria e sem componentes.",
+    "texto": "Você pode lançar qualquer magia de 1º círculo ou maior das [[magias-psionicas|Magias Psiônicas]] gastando **Pontos de Feitiçaria iguais ao círculo** em vez de espaço. Lançada assim, ela não precisa de componentes Verbais, Somáticos nem Materiais (exceto os consumidos ou com custo).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Aberrante",
+    "sub_curto": "Aberrante"
+  },
+  {
+    "id": "revelacao-em-carne",
+    "nome": "Revelação em Carne",
+    "nome_en": "Revelation in Flesh",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 14,
+    "tags": [
+      "feiticeiro",
+      "aberrante",
+      "voo",
+      "transformação"
+    ],
+    "resumo": "Gasta pontos para ganhar natação, voo, ver o invisível ou se espremer, por 10 min.",
+    "texto": "Com uma **Ação Bônus**, gaste **1 ou mais Pontos de Feitiçaria** para alterar o corpo por **10 minutos**. Para cada ponto, escolha um benefício:\n\n- **Adaptação aquática.** Natação igual ao dobro do Deslocamento e respiração debaixo d'água.\n- **Movimento vermiforme.** Você (e o equipamento) passa por espaços de 2,5 cm e pode gastar 1,5 metro de movimento para escapar de amarras não mágicas ou da condição [[agarrado|Imobilizado]].\n- **Ver o invisível.** Vê criaturas Invisíveis a até 18 metros que não estejam atrás de cobertura total.\n- **Voo reluzente.** Deslocamento de Voo igual ao Deslocamento, podendo pairar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Aberrante",
+    "sub_curto": "Aberrante"
+  },
+  {
+    "id": "implosao-de-distorcao",
+    "nome": "Implosão de Distorção",
+    "nome_en": "Warping Implosion",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 18,
+    "tags": [
+      "feiticeiro",
+      "aberrante",
+      "teleporte",
+      "área"
+    ],
+    "resumo": "Teleporte de 36 m que puxa e fere criaturas próximas ao ponto de partida.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], teleporte-se até **36 metros** para um espaço livre que veja. Cada criatura a até **9 metros** do lugar de onde saiu faz **salvaguarda de Força** contra sua CD: se falhar, sofre **3d10** de dano Energético e é puxada para o espaço que você deixou (ou o mais próximo livre); se passar, sofre metade.\n\n- **Uso.** Uma vez por Descanso Longo, ou gastando 5 Pontos de Feitiçaria (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Aberrante",
+    "sub_curto": "Aberrante"
+  },
+  {
+    "id": "feiticaria-draconica",
+    "nome": "Feitiçaria Dracônica",
+    "nome_en": "Draconic Sorcery",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "subclasse": "Feitiçaria Dracônica",
+    "sub_curto": "Dracônica",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "feiticeiro",
+      "dragão"
+    ],
+    "resumo": "Feiticeiro com sangue ou dádiva de dragão.",
+    "texto": "Sua magia vem de um dragão: um ancestral, a herança de um dragão moribundo, um lugar ou tesouro impregnado de poder dracônico.\n\n- **Nível 3:** [[magias-draconicas]], [[resiliencia-draconica]]\n- **Nível 6:** [[afinidade-elemental]]\n- **Nível 14:** [[asas-de-dragao]]\n- **Nível 18:** [[companheiro-draconico]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "magias-draconicas",
+    "nome": "Magias Dracônicas",
+    "nome_en": "Draconic Spells",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "dracônica",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas de origem dracônica.",
+    "texto": "| Nível | Magias |\n|---|---|\n| 3 | Alterar-se, Comando, Orbe Cromático, Sopro de Dragão |\n| 5 | Medo, Voo |\n| 7 | Enfeitiçar Monstro, Olho Arcano |\n| 9 | Invocar Dragão, Lendas e Histórias |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Feitiçaria Dracônica",
+    "sub_curto": "Dracônica"
+  },
+  {
+    "id": "resiliencia-draconica",
+    "nome": "Resiliência Dracônica",
+    "nome_en": "Draconic Resilience",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "dracônica",
+      "ca",
+      "pv"
+    ],
+    "resumo": "+3 PV máximos e +1 por nível; sem armadura, CA 10 + Destreza + Carisma.",
+    "texto": "Seus PV máximos aumentam em **3**, e em mais **1** a cada nível de Feiticeiro seguinte. Escamas cobrem partes da sua pele: sem armadura, sua CA base é **10 + Destreza + Carisma**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Feitiçaria Dracônica",
+    "sub_curto": "Dracônica"
+  },
+  {
+    "id": "afinidade-elemental",
+    "nome": "Afinidade Elemental",
+    "nome_en": "Elemental Affinity",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 6,
+    "tags": [
+      "feiticeiro",
+      "dracônica",
+      "resistência",
+      "dano"
+    ],
+    "resumo": "Escolhe um tipo dracônico: Resistência e Carisma no dano de magias desse tipo.",
+    "texto": "Escolha **Ácido, Elétrico, Gélido, Fogo ou Venenoso**. Você tem Resistência a esse tipo e, ao lançar uma magia que cause dano dele, soma seu modificador de Carisma a uma jogada de dano da magia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Feitiçaria Dracônica",
+    "sub_curto": "Dracônica"
+  },
+  {
+    "id": "asas-de-dragao",
+    "nome": "Asas de Dragão",
+    "nome_en": "Dragon Wings",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 14,
+    "tags": [
+      "feiticeiro",
+      "dracônica",
+      "voo"
+    ],
+    "resumo": "Ação Bônus: asas por 1 hora com voo de 18 m.",
+    "texto": "Com uma **Ação Bônus**, asas dracônicas surgem nas suas costas por **1 hora** (ou até você encerrar, sem ação): Deslocamento de Voo de **18 metros**. Uma vez por Descanso Longo, ou gastando 3 Pontos de Feitiçaria (sem ação).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Feitiçaria Dracônica",
+    "sub_curto": "Dracônica"
+  },
+  {
+    "id": "companheiro-draconico",
+    "nome": "Companheiro Dracônico",
+    "nome_en": "Dragon Companion",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 18,
+    "tags": [
+      "feiticeiro",
+      "dracônica",
+      "invocação",
+      "dragão"
+    ],
+    "resumo": "Invocar Dragão sem componente material, 1× grátis e sem Concentração.",
+    "texto": "Você lança **Invocar Dragão** sem componente Material, e uma vez por Descanso Longo sem gastar espaço. Ao lançá-la, pode fazer com que não exija Concentração; nesse caso, dura 1 minuto.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Feitiçaria Dracônica",
+    "sub_curto": "Dracônica"
+  },
+  {
+    "id": "feiticaria-mecanica",
+    "nome": "Feitiçaria Mecânica",
+    "nome_en": "Clockwork Sorcery",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "subclasse": "Feitiçaria Mecânica",
+    "sub_curto": "Mecânica",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "feiticeiro",
+      "ordem",
+      "clockwork"
+    ],
+    "resumo": "Feiticeiro da ordem cósmica de Mecanus: equilíbrio e proteção.",
+    "texto": "A força cósmica da ordem tocou você, vinda de Mecanus, o plano dos mecanismos e dos modrons. Para os outros, esse poder parece estranho; para você, é parte de um sistema glorioso.\n\n- **Nível 3:** [[magias-mecanicas]], [[restaurar-equilibrio]]\n- **Nível 6:** [[bastiao-da-lei]]\n- **Nível 14:** [[transe-da-ordem]]\n- **Nível 18:** [[cavalgada-mecanica]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "magias-mecanicas",
+    "nome": "Magias Mecânicas",
+    "nome_en": "Clockwork Spells",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "mecânica",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas da ordem; manifestação visual ao conjurar.",
+    "texto": "| Nível | Magias |\n|---|---|\n| 3 | Alarme, Auxílio, Proteção Contra o Bem e o Mal, Restauração Menor |\n| 5 | Dissipar Magia, Proteção contra Energia |\n| 7 | Invocar Constructo, Movimentação Livre |\n| 9 | Muralha de Energia, Restauração Maior |\n\nEscolha (ou role 1d6) como a ordem se manifesta quando você lança magias: engrenagens espectrais, ponteiros de relógio nos olhos, pele acobreada, equações flutuando, foco virando um pequeno mecanismo, ou um tique-taque audível.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Mecânica",
+    "sub_curto": "Mecânica"
+  },
+  {
+    "id": "restaurar-equilibrio",
+    "nome": "Restaurar Equilíbrio",
+    "nome_en": "Restore Balance",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "mecânica",
+      "reação",
+      "vantagem"
+    ],
+    "resumo": "Reação: anula Vantagem ou Desvantagem de uma rolagem a 18 m.",
+    "texto": "Quando uma criatura que você vê a até **18 metros** vai rolar um d20 com Vantagem ou Desvantagem, você pode usar a **Reação** para que a rolagem não tenha nem uma nem outra. Usos iguais ao seu modificador de Carisma (mínimo 1) por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Mecânica",
+    "sub_curto": "Mecânica"
+  },
+  {
+    "id": "bastiao-da-lei",
+    "nome": "Bastião da Lei",
+    "nome_en": "Bastion of Law",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 6,
+    "tags": [
+      "feiticeiro",
+      "mecânica",
+      "proteção",
+      "reduzir dano"
+    ],
+    "resumo": "Gasta 1 a 5 pontos para dar uma proteção de d8s que reduz dano.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste **1 a 5 Pontos de Feitiçaria** para proteger você ou uma criatura que vê a até 9 metros. A proteção tem **1d8 por ponto gasto**. Quando a criatura protegida sofre dano, pode gastar quantos desses dados quiser, rolá-los e reduzir o dano pelo total. Dura até você terminar um Descanso Longo ou usar de novo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Mecânica",
+    "sub_curto": "Mecânica"
+  },
+  {
+    "id": "transe-da-ordem",
+    "nome": "Transe da Ordem",
+    "nome_en": "Trance of Order",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 14,
+    "tags": [
+      "feiticeiro",
+      "mecânica",
+      "defesa"
+    ],
+    "resumo": "1 min: ataques contra você sem Vantagem e d20 mínimo 10.",
+    "texto": "Com uma **Ação Bônus**, entre em transe por **1 minuto**: jogadas de ataque contra você não podem ter Vantagem, e em seus [[testes-de-d20|Testes de D20]] um 9 ou menos no d20 conta como **10**. Uma vez por Descanso Longo, ou gastando 5 Pontos de Feitiçaria (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Mecânica",
+    "sub_curto": "Mecânica"
+  },
+  {
+    "id": "cavalgada-mecanica",
+    "nome": "Cavalgada Mecânica",
+    "nome_en": "Clockwork Cavalcade",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 18,
+    "tags": [
+      "feiticeiro",
+      "mecânica",
+      "cura",
+      "dissipar"
+    ],
+    "resumo": "Cubo de 9 m: cura 100 PV divididos, encerra magias até 6º e conserta objetos.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], você chama espíritos da ordem num **cubo de 9 metros** a partir de você. Eles são intangíveis e invulneráveis e, antes de sumir:\n\n- **Cura.** Restauram até **100 PV**, divididos como você quiser entre criaturas à sua escolha no cubo.\n- **Dissipar.** Encerram magias de **6º círculo ou menor** em criaturas e objetos à sua escolha no cubo.\n- **Reparar.** Consertam objetos danificados que estejam inteiramente no cubo.\n\nUma vez por Descanso Longo, ou gastando 7 Pontos de Feitiçaria (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Mecânica",
+    "sub_curto": "Mecânica"
+  },
+  {
+    "id": "feiticaria-selvagem",
+    "nome": "Feitiçaria Selvagem",
+    "nome_en": "Wild Magic Sorcery",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "subclasse": "Feitiçaria Selvagem",
+    "sub_curto": "Selvagem",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "feiticeiro",
+      "magia selvagem",
+      "caos"
+    ],
+    "resumo": "Feiticeiro de magia caótica e surtos imprevisíveis.",
+    "texto": "Sua magia vem das forças do caos: um portal para o Limbo, um toque feérico, uma marca demoníaca ou puro acaso. Ela fervilha esperando a hora de escapar.\n\n- **Nível 3:** [[mares-do-caos]], [[surto-de-magia-selvagem]]\n- **Nível 6:** [[distorcer-a-sorte]]\n- **Nível 14:** [[caos-controlado]]\n- **Nível 18:** [[surto-controlado]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "mares-do-caos",
+    "nome": "Marés do Caos",
+    "nome_en": "Tides of Chaos",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "selvagem",
+      "vantagem"
+    ],
+    "resumo": "Vantagem num Teste de D20; recarrega ao lançar magia com espaço (o que causa um surto).",
+    "texto": "Antes de rolar um [[testes-de-d20|Teste de D20]], você pode se dar **Vantagem**. Depois disso, recupera o uso ao lançar uma magia de Feiticeiro com espaço ou ao terminar um Descanso Longo. Se lançar uma magia de Feiticeiro com espaço antes do Descanso Longo, ocorre **automaticamente** um [[surto-de-magia-selvagem|Surto de Magia Selvagem]], e Marés do Caos volta a ficar disponível.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Selvagem",
+    "sub_curto": "Selvagem"
+  },
+  {
+    "id": "surto-de-magia-selvagem",
+    "nome": "Surto de Magia Selvagem",
+    "nome_en": "Wild Magic Surge",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 3,
+    "tags": [
+      "feiticeiro",
+      "selvagem",
+      "surto",
+      "tabela"
+    ],
+    "resumo": "1×/turno, após magia com espaço, role d20; com 20, role na tabela de surtos.",
+    "texto": "Uma vez por turno, logo depois de lançar uma magia de Feiticeiro com espaço, você pode rolar **1d20**. Com **20**, role na tabela abaixo. Se o efeito for uma magia, sua Metamagia não a afeta.\n\n| 1d100 | Efeito |\n|---|---|\n| 01–04 | Role nesta tabela no início de cada turno seu pelo próximo minuto (ignore este resultado nessas rolagens). |\n| 05–08 | Uma criatura Amigável controlada pelo Mestre aparece a até 18 m por 1 minuto (1d4: Modron Duodrone, Flumph, Modron Monodrone ou Unicórnio). |\n| 09–12 | Por 1 minuto, recupera 5 PV no início de cada turno seu. |\n| 13–16 | Criaturas têm Desvantagem na salvaguarda da próxima magia sua com salvaguarda no próximo minuto. |\n| 17–20 | Efeito estranho por 1 minuto (1d8): música etérea; você cresce uma categoria; barba de penas até espirrar; precisa gritar para falar; borboletas ilusórias; um terceiro olho (Vantagem em Percepção); bolhas rosas ao falar; pele azul por 24 h. |\n| 21–24 | Por 1 minuto, magias de uma ação viram Ação Bônus. |\n| 25–28 | Vai ao Plano Astral até o fim do seu próximo turno e depois volta. |\n| 29–32 | A próxima magia de dano no próximo minuto causa dano máximo. |\n| 33–36 | Resistência a todo dano por 1 minuto. |\n| 37–40 | Vira um vaso de planta até o início do seu próximo turno (Incapacitado e Vulnerável a todo dano; a 0 PV, o vaso quebra e você volta). |\n| 41–44 | Por 1 minuto, teleporte de 6 m como Ação Bônus a cada turno. |\n| 45–48 | Você e até três criaturas a até 9 m ficam Invisíveis por 1 minuto (acaba ao atacar, causar dano ou lançar magia). |\n| 49–52 | Escudo espectral por 1 minuto: +2 na CA e imunidade a Mísseis Mágicos. |\n| 53–56 | Uma ação extra neste turno. |\n| 57–60 | Lança uma magia aleatória sem Concentração (1d10): Confusão, Bola de Fogo, Névoa Obscurecente, Voo (em criatura aleatória a 18 m), Graxa, Levitação (em si), Mísseis Mágicos (5º círculo), Reflexos, Polimorfia (em si; falhou, vira Cabra), Ver o Invisível. |\n| 61–64 | Por 1 minuto, objetos inflamáveis não mágicos que você tocar (e que ninguém segure) pegam fogo e sofrem 1d4 de Fogo. |\n| 65–68 | Se morrer na próxima hora, volta como pela magia Reencarnar. |\n| 69–72 | Fica Amedrontado até o fim do seu próximo turno (o Mestre escolhe a fonte). |\n| 73–76 | Teleporta-se até 18 m para um espaço que veja. |\n| 77–80 | Uma criatura aleatória a até 18 m fica Envenenada por 1d4 horas. |\n| 81–84 | Luz Plena em 9 m por 1 minuto; quem terminar o turno a até 1,5 m de você fica Cego até o fim do próximo turno dele. |\n| 85–88 | Até três criaturas que você vê a até 9 m sofrem 1d10 Necrótico; você recupera o total. |\n| 89–92 | Até três criaturas que você vê a até 9 m sofrem 4d10 Elétrico. |\n| 93–96 | Você e todos a até 9 m ficam Vulneráveis a dano Perfurante por 1 minuto. |\n| 97–00 | 1d6: você recupera 2d10 PV; um aliado a até 90 m recupera 2d10 PV; você recupera seu menor espaço gasto; um aliado recupera o menor espaço gasto; você recupera todos os Pontos de Feitiçaria; todos os efeitos de 17–20 ao mesmo tempo. |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Selvagem",
+    "sub_curto": "Selvagem"
+  },
+  {
+    "id": "distorcer-a-sorte",
+    "nome": "Distorcer a Sorte",
+    "nome_en": "Bend Luck",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 6,
+    "tags": [
+      "feiticeiro",
+      "selvagem",
+      "reação",
+      "sorte"
+    ],
+    "resumo": "Reação + 1 ponto: soma ou subtrai 1d4 de um Teste de D20 de outra criatura.",
+    "texto": "Logo depois que outra criatura que você vê rola o d20 de um [[testes-de-d20|Teste de D20]], use a **Reação** e gaste **1 Ponto de Feitiçaria** para rolar **1d4** e aplicar como bônus ou penalidade (à sua escolha).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Selvagem",
+    "sub_curto": "Selvagem"
+  },
+  {
+    "id": "caos-controlado",
+    "nome": "Caos Controlado",
+    "nome_en": "Controlled Chaos",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 14,
+    "tags": [
+      "feiticeiro",
+      "selvagem",
+      "surto"
+    ],
+    "resumo": "Rola duas vezes na tabela de surtos e escolhe.",
+    "texto": "Ao rolar na tabela de [[surto-de-magia-selvagem|Surto de Magia Selvagem]], role **duas vezes** e escolha qual resultado usar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Selvagem",
+    "sub_curto": "Selvagem"
+  },
+  {
+    "id": "surto-controlado",
+    "nome": "Surto Controlado",
+    "nome_en": "Tamed Surge",
+    "categoria": "classe",
+    "de": "feiticeiro",
+    "nivel": 18,
+    "tags": [
+      "feiticeiro",
+      "selvagem",
+      "surto"
+    ],
+    "resumo": "1×/Descanso Longo: escolhe o efeito de surto em vez de rolar.",
+    "texto": "Logo depois de lançar uma magia de Feiticeiro com espaço, você pode **escolher** um efeito da tabela de [[surto-de-magia-selvagem|Surto de Magia Selvagem]] em vez de rolar, exceto a última linha. Se o efeito exigir rolagem, você rola normalmente. Uma vez por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Feitiçaria Selvagem",
+    "sub_curto": "Selvagem"
+  }
+]

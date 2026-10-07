@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "bruxo",
+    "nome": "Bruxo",
+    "nome_en": "Warlock",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "pacto",
+      "invocações",
+      "carisma",
+      "conjurador",
+      "warlock"
+    ],
+    "resumo": "Conjurador de pacto com invocações. D8, Carisma.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Bruxo |\n|---|---|\n| Atributo primário | Carisma |\n| Dado de Ponto de Vida | D8 por nível de Bruxo |\n| Salvaguardas | Sabedoria e Carisma |\n| Perícias | Escolha 2: Arcanismo, Enganação, História, Intimidação, Investigação, Natureza ou Religião |\n| Armas | Simples |\n| Armaduras | Leves |\n| Equipamento inicial | (A) Armadura de Couro, Foice, 2 Adagas, Foco Arcano (orbe), Livro (conhecimento oculto), Kit de Erudito e 15 PO; ou (B) 100 PO |\n\n### Pontos de Vida\n- **Nível 1:** 8 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d8 (ou 5) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, treinamento com armaduras Leves e as características de nível 1. Os espaços de Magia de Pacto não se somam aos espaços das outras classes, mas podem ser usados para lançar magias delas.\n\n### Progressão\n| Nível | Prof. | Características | Invocações | Truques | Magias prep. | Espaços | Círculo |\n|---|---|---|---|---|---|---|---|\n| 1 | +2 | Invocações Místicas, Magia de Pacto | 1 | 2 | 2 | 1 | 1º |\n| 2 | +2 | Astúcia Mágica | 3 | 2 | 3 | 2 | 1º |\n| 3 | +2 | Subclasse | 3 | 2 | 4 | 2 | 2º |\n| 4 | +2 | Aumento no Valor de Atributo | 3 | 3 | 5 | 2 | 2º |\n| 5 | +3 | — | 5 | 3 | 6 | 2 | 3º |\n| 6 | +3 | Característica de subclasse | 5 | 3 | 7 | 2 | 3º |\n| 7 | +3 | — | 6 | 3 | 8 | 2 | 4º |\n| 8 | +3 | Aumento no Valor de Atributo | 6 | 3 | 9 | 2 | 4º |\n| 9 | +4 | Contatar Patrono | 7 | 3 | 10 | 2 | 5º |\n| 10 | +4 | Característica de subclasse | 7 | 4 | 10 | 2 | 5º |\n| 11 | +4 | Arcana Mística (6º) | 7 | 4 | 11 | 3 | 5º |\n| 12 | +4 | Aumento no Valor de Atributo | 8 | 4 | 11 | 3 | 5º |\n| 13 | +5 | Arcana Mística (7º) | 8 | 4 | 12 | 3 | 5º |\n| 14 | +5 | Característica de subclasse | 8 | 4 | 12 | 3 | 5º |\n| 15 | +5 | Arcana Mística (8º) | 9 | 4 | 13 | 3 | 5º |\n| 16 | +5 | Aumento no Valor de Atributo | 9 | 4 | 13 | 3 | 5º |\n| 17 | +6 | Arcana Mística (9º) | 9 | 4 | 14 | 4 | 5º |\n| 18 | +6 | — | 10 | 4 | 14 | 4 | 5º |\n| 19 | +6 | Dádiva Épica | 10 | 4 | 15 | 4 | 5º |\n| 20 | +6 | Mestre Místico | 10 | 4 | 15 | 4 | 5º |\n\n### Características\n- **Nível 1:** [[invocacoes-misticas]], [[magia-de-pacto]]\n- **Nível 2:** [[astucia-magica]]\n- **Nível 3:** subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 9:** [[contatar-patrono]]\n- **Níveis 11, 13, 15 e 17:** [[arcana-mistica]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva do Destino)\n- **Nível 20:** [[mestre-mistico]]\n- **Invocações:** [[armadura-de-sombras]], [[explosao-agonizante]], [[explosao-repulsiva]], [[investimento-do-mestre-da-corrente]], [[lamento-das-sepulturas]], [[lanca-mistica]], [[licoes-dos-grandes-antigos]], [[lamina-devoradora]], [[lamina-sedenta]], [[mente-mistica]], [[mestre-das-infindaveis-formas]], [[mascara-das-muitas-faces]], [[olhar-de-duas-mentes]], [[pacto-da-corrente]], [[pacto-da-lamina]], [[pacto-do-tomo]], [[passo-ascendente]], [[presente-das-profundezas]], [[presente-dos-protetores]], [[punicao-mistica]], [[salto-sobrenatural]], [[sorvedouro-de-vida]], [[uno-com-as-sombras]], [[vigor-infero]], [[visao-diabolica]], [[visao-da-bruxa]], [[visoes-nebulosas]], [[visoes-de-reinos-distantes]]\n\n### Subclasses\n- [[patrono-arquifada]]\n- [[patrono-celestial]]\n- [[patrono-o-grande-antigo]]\n- [[patrono-infero]]"
+  },
+  {
+    "id": "invocacoes-misticas",
+    "nome": "Invocações Místicas",
+    "nome_en": "Eldritch Invocations",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 1,
+    "tags": [
+      "bruxo",
+      "invocação"
+    ],
+    "resumo": "Fragmentos de saber proibido; ganha mais conforme sobe de nível.",
+    "texto": "Você ganha **uma Invocação Mística** à sua escolha (por exemplo, [[pacto-do-tomo|Pacto do Tomo]]). O número de invocações cresce conforme a coluna *Invocações* da [[bruxo|tabela do Bruxo]].\n\n- **Pré-requisitos.** Só pode escolher invocações cujos pré-requisitos cumpra.\n- **Trocar.** Ao subir de nível de Bruxo, pode trocar uma invocação por outra, desde que ela não seja pré-requisito de outra que você tenha.\n- **Sem repetir**, exceto as marcadas como repetíveis.\n\nA lista completa está na [[bruxo|ficha do Bruxo]]; busque por \"invocação\" para ver todas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "magia-de-pacto",
+    "nome": "Magia de Pacto",
+    "nome_en": "Pact Magic",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 1,
+    "tags": [
+      "bruxo",
+      "magias",
+      "espaços de magia",
+      "truques",
+      "pacto"
+    ],
+    "resumo": "Poucos espaços, todos do mesmo círculo, recuperados no Descanso Curto.",
+    "texto": "- **Truques.** Você conhece **2 truques** de Bruxo (sugeridos: Prestidigitação Arcana e Raio Místico). Ganha mais um no nível 4 e outro no 10, e pode trocar um a cada nível.\n- **Espaços de magia.** Todos os seus espaços são **do mesmo círculo**, conforme as colunas *Espaços* e *Círculo* da [[bruxo|tabela]]. Você recupera todos num **Descanso Curto ou Longo**. Exemplo: no nível 5, você tem dois espaços de 3º círculo, e qualquer magia de 1º círculo lançada com eles sai como de 3º.\n- **Magias preparadas.** Comece com **2 magias de 1º círculo** (sugeridas: Danação e Enfeitiçar Pessoa). A quantidade cresce pela coluna *Magias prep.*; as novas podem ser de qualquer círculo até o da coluna *Círculo*.\n- **Trocar magias.** A cada nível de Bruxo, pode trocar uma magia preparada por outra de Bruxo de círculo permitido.\n- **Atributo de conjuração:** Carisma. **Foco:** Foco Arcano.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "astucia-magica",
+    "nome": "Astúcia Mágica",
+    "nome_en": "Magical Cunning",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "espaços de magia",
+      "recuperar"
+    ],
+    "resumo": "Ritual de 1 minuto recupera metade dos espaços de Pacto (1×/Descanso Longo).",
+    "texto": "Ao fim de um rito de **1 minuto**, você recupera espaços de Magia de Pacto gastos em número igual à **metade do seu máximo** (arredondado para cima). Depois de usar, só pode usar de novo após um Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "contatar-patrono",
+    "nome": "Contatar Patrono",
+    "nome_en": "Contact Patron",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 9,
+    "tags": [
+      "bruxo",
+      "patrono"
+    ],
+    "resumo": "Contato Extraplanar sempre preparada; 1×/Descanso Longo sem espaço e passando na salvaguarda.",
+    "texto": "Você sempre tem **Contato Extraplanar** preparada. Uma vez por Descanso Longo, pode lançá-la sem gastar espaço para falar com seu patrono, e passa automaticamente na salvaguarda da magia.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "arcana-mistica",
+    "nome": "Arcana Mística",
+    "nome_en": "Mystic Arcanum",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 11,
+    "tags": [
+      "bruxo",
+      "arcanum",
+      "magias altas"
+    ],
+    "resumo": "Uma magia de 6º círculo 1×/Descanso Longo sem espaço; depois de 7º, 8º e 9º.",
+    "texto": "Escolha uma magia de Bruxo de **6º círculo** como seu *arcanum*. Você pode lançá-la **uma vez sem gastar espaço**, recuperando o uso num Descanso Longo.\n\nVocê ganha outro arcanum nos níveis **13 (7º círculo)**, **15 (8º)** e **17 (9º)**. A cada nível de Bruxo, pode trocar um arcanum por outra magia de Bruxo do mesmo círculo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "mestre-mistico",
+    "nome": "Mestre Místico",
+    "nome_en": "Eldritch Master",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 20,
+    "tags": [
+      "bruxo",
+      "espaços de magia"
+    ],
+    "resumo": "Astúcia Mágica recupera todos os espaços de Pacto.",
+    "texto": "Quando você usa [[astucia-magica|Astúcia Mágica]], recupera **todos** os espaços de Magia de Pacto gastos.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "armadura-de-sombras",
+    "nome": "Armadura de Sombras",
+    "nome_en": "Armor of Shadows",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 1,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística"
+    ],
+    "resumo": "Lança Armadura Arcana em si sem gastar espaço.",
+    "texto": "Você pode lançar [[armadura-arcana|Armadura Arcana]] em si mesmo sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "explosao-agonizante",
+    "nome": "Explosão Agonizante",
+    "nome_en": "Agonizing Blast",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "raio místico"
+    ],
+    "resumo": "Soma Carisma ao dano de um truque de Bruxo.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+, um truque de Bruxo que cause dano\n\nEscolha um truque de Bruxo que você conheça e que cause dano. Você soma seu **modificador de Carisma** às jogadas de dano dele.\n\n**Repetível:** pode pegar de novo, escolhendo outro truque.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "explosao-repulsiva",
+    "nome": "Explosão Repulsiva",
+    "nome_en": "Repelling Blast",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "empurrar",
+      "raio místico"
+    ],
+    "resumo": "Truque de ataque empurra a criatura 3 m.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+, um truque de Bruxo que cause dano com jogada de ataque\n\nEscolha um truque de Bruxo que você conheça e que use jogada de ataque. Ao acertar uma criatura Grande ou menor com ele, você pode empurrá-la até **3 metros (10 pés)** para longe de você.\n\n**Repetível:** pode pegar de novo, escolhendo outro truque.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "investimento-do-mestre-da-corrente",
+    "nome": "Investimento do Mestre da Corrente",
+    "nome_en": "Investment of the Chain Master",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "familiar"
+    ],
+    "resumo": "Familiar com voo ou natação, ataque com Ação Bônus, sua CD e mais.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+, [[pacto-da-corrente|Pacto da Corrente]]\n\nQuando você lança **Convocar Familiar**, o familiar ganha:\n\n- **Aéreo ou aquático.** Deslocamento de Voo ou de Natação (à sua escolha) de 12 metros (40 pés).\n- **Ataque rápido.** Com uma Ação Bônus, você pode mandá-lo fazer a ação Atacar.\n- **Sua CD.** Se ele obrigar uma criatura a fazer uma salvaguarda, usa a CD das suas magias.\n- **Dano Necrótico ou Radiante.** Quando ele causar dano Contundente, Cortante ou Perfurante, você pode trocar o tipo por Necrótico ou Radiante.\n- **Resistência.** Quando ele sofrer dano, você pode usar sua Reação para lhe dar Resistência a esse dano.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "lamento-das-sepulturas",
+    "nome": "Lamento das Sepulturas",
+    "nome_en": "Whispers of the Grave",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 7,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "mortos"
+    ],
+    "resumo": "Lança Falar com Mortos sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 7+\n\nVocê pode lançar **Falar com Mortos** sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "lamina-devoradora",
+    "nome": "Lâmina Devoradora",
+    "nome_en": "Devouring Blade",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 12,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "ataque extra"
+    ],
+    "resumo": "Lâmina Sedenta passa a dar dois ataques extras.",
+    "texto": "**Pré-requisito:** Bruxo nível 12+, [[lamina-sedenta|Lâmina Sedenta]]\n\nO Ataque Extra da invocação [[lamina-sedenta|Lâmina Sedenta]] passa a dar **dois** ataques extras em vez de um (três ataques no total).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "lamina-sedenta",
+    "nome": "Lâmina Sedenta",
+    "nome_en": "Thirsting Blade",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "ataque extra"
+    ],
+    "resumo": "Ataque Extra só com a arma de pacto.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+, [[pacto-da-lamina|Pacto da Lâmina]]\n\nVocê ganha Ataque Extra apenas com sua **arma de pacto**: ao usar a ação [[atacar|Atacar]], pode atacar duas vezes com ela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "lanca-mistica",
+    "nome": "Lança Mística",
+    "nome_en": "Eldritch Spear",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "alcance",
+      "raio místico"
+    ],
+    "resumo": "Aumenta muito o alcance de um truque de dano.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+, um truque de Bruxo que cause dano\n\nEscolha um truque de Bruxo que você conheça, que cause dano e tenha alcance de 3 metros ou mais. Quando você o lança, o alcance aumenta em **9 metros (30 pés) por nível de Bruxo**.\n\n**Repetível:** pode pegar de novo, escolhendo outro truque.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "licoes-dos-grandes-antigos",
+    "nome": "Lições dos Grandes Antigos",
+    "nome_en": "Lessons of the First Ones",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "talento"
+    ],
+    "resumo": "Ganha um talento de Origem.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+\n\nVocê ganha um **talento de Origem** à sua escolha.\n\n**Repetível:** pode pegar de novo, escolhendo outro talento de Origem.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "mascara-das-muitas-faces",
+    "nome": "Máscara das Muitas Faces",
+    "nome_en": "Mask of Many Faces",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "disfarce"
+    ],
+    "resumo": "Lança Disfarçar-se sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+\n\nVocê pode lançar **Disfarçar-se** sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "mente-mistica",
+    "nome": "Mente Mística",
+    "nome_en": "Eldritch Mind",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 1,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "concentração"
+    ],
+    "resumo": "Vantagem nas salvaguardas para manter Concentração.",
+    "texto": "Você tem Vantagem nas salvaguardas de Constituição para manter a [[concentracao|Concentração]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "mestre-das-infindaveis-formas",
+    "nome": "Mestre das Infindáveis Formas",
+    "nome_en": "Master of Myriad Forms",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística"
+    ],
+    "resumo": "Lança Alterar-se sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+\n\nVocê pode lançar **Alterar-se** sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "olhar-de-duas-mentes",
+    "nome": "Olhar de Duas Mentes",
+    "nome_en": "Gaze of Two Minds",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "sentidos",
+      "espionar"
+    ],
+    "resumo": "Ação Bônus: vê e ouve pelos sentidos de uma criatura voluntária que tocou.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+\n\nCom uma **Ação Bônus**, toque uma criatura voluntária e perceba o mundo pelos sentidos dela até o fim do seu próximo turno. Enquanto ela estiver no mesmo plano que você, você pode gastar uma Ação Bônus nos turnos seguintes para manter a ligação até o fim do turno seguinte; se não mantiver, ela acaba.\n\nDurante a ligação, você usa os sentidos especiais da criatura e, se estiverem a até 18 metros (60 pés) um do outro, pode lançar magias como se estivesse no seu espaço ou no dela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "pacto-da-corrente",
+    "nome": "Pacto da Corrente",
+    "nome_en": "Pact of the Chain",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 1,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "familiar",
+      "pacto"
+    ],
+    "resumo": "Convocar Familiar sem espaço, com formas especiais; o familiar pode atacar no seu lugar.",
+    "texto": "Você aprende **Convocar Familiar** e pode lançá-la com a ação [[acao-magia|Usar Magia]] sem gastar espaço.\n\n- **Formas especiais.** Além das formas normais, o familiar pode ser: Cobra Peçonhenta, Diabrete, Esfinge Maravilhosa, Esqueleto, Pseudodragão, Quasit, Slaad Girino ou Sprite.\n- **Ataque do familiar.** Quando você faz a ação [[atacar|Atacar]], pode abrir mão de um dos seus ataques para que o familiar faça um ataque com a Reação dele.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "pacto-da-lamina",
+    "nome": "Pacto da Lâmina",
+    "nome_en": "Pact of the Blade",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 1,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "arma de pacto",
+      "pacto",
+      "hexblade"
+    ],
+    "resumo": "Ação Bônus: cria ou vincula uma arma de pacto que usa Carisma.",
+    "texto": "Com uma **Ação Bônus**, você cria na mão uma **arma de pacto** (arma corpo a corpo Simples ou Marcial à sua escolha) ou se vincula a uma arma mágica que esteja tocando (não pode ser uma arma à qual outra pessoa esteja sintonizada ou vinculada a outro Bruxo).\n\nEnquanto o vínculo durar:\n- você é proficiente com a arma e pode usá-la como foco de conjuração;\n- pode usar o modificador de **Carisma** nas jogadas de ataque e dano com ela, em vez de Força ou Destreza;\n- pode fazer o dano dela ser **Necrótico, Psíquico ou Radiante**, ou manter o tipo normal.\n\nO vínculo termina se você usar esta Ação Bônus de novo, se a arma ficar a mais de 1,5 metro de você por 1 minuto ou mais, ou se você morrer. Uma arma criada some quando o vínculo acaba.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "pacto-do-tomo",
+    "nome": "Pacto do Tomo",
+    "nome_en": "Pact of the Tome",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 1,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "livro das sombras",
+      "pacto",
+      "rituais"
+    ],
+    "resumo": "Livro das Sombras com 3 truques e 2 rituais de 1º círculo de qualquer lista.",
+    "texto": "Ao fim de um Descanso Curto ou Longo, você cria na mão um **Livro das Sombras**. Ele some se você criar outro ou se morrer.\n\n- **Truques e rituais.** Quando o livro aparece, escolha **três truques** e **duas magias de 1º círculo com o marcador Ritual**, de qualquer lista de classe, que você ainda não tenha preparadas. Enquanto estiver com o livro, elas ficam preparadas e contam como magias de Bruxo.\n- **Foco.** Você pode usar o livro como foco de conjuração.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "passo-ascendente",
+    "nome": "Passo Ascendente",
+    "nome_en": "Ascendant Step",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística"
+    ],
+    "resumo": "Lança Levitação em si sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+\n\nVocê pode lançar **Levitação** em si mesmo sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "presente-das-profundezas",
+    "nome": "Presente das Profundezas",
+    "nome_en": "Gift of the Depths",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "água",
+      "natação"
+    ],
+    "resumo": "Respira na água, nada com seu Deslocamento e lança Respirar na Água 1×/Descanso Longo.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+\n\nVocê respira debaixo d'água e tem Deslocamento de Natação igual ao seu Deslocamento. Também pode lançar **Respirar na Água** uma vez sem gastar espaço, recuperando o uso num Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "presente-dos-protetores",
+    "nome": "Presente dos Protetores",
+    "nome_en": "Gift of the Protectors",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 9,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "0 pv"
+    ],
+    "resumo": "Nomes escritos no seu livro ficam com 1 PV em vez de cair a 0 (1×/Descanso Longo).",
+    "texto": "**Pré-requisito:** Bruxo nível 9+, [[pacto-do-tomo|Pacto do Tomo]]\n\nSeu Livro das Sombras ganha uma página nova. Com sua permissão, uma criatura pode usar uma ação para escrever o nome nela; cabem nomes iguais ao seu modificador de Carisma (mínimo 1).\n\nQuando uma criatura cujo nome está na página cai a 0 Pontos de Vida sem morrer na hora, ela fica com **1 Ponto de Vida**. Depois que isso acontece, ninguém se beneficia de novo até você terminar um Descanso Longo.\n\nCom a ação [[acao-magia|Usar Magia]], você pode apagar um nome tocando nele.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "punicao-mistica",
+    "nome": "Punição Mística",
+    "nome_en": "Eldritch Smite",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "smite",
+      "dano extra"
+    ],
+    "resumo": "Gasta espaço de Pacto ao acertar com a arma de pacto: dano Energético extra e pode derrubar.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+, [[pacto-da-lamina|Pacto da Lâmina]]\n\nUma vez por turno, ao acertar uma criatura com sua arma de pacto, você pode gastar um espaço de Magia de Pacto para causar **1d8 de dano Energético extra, mais 1d8 por círculo do espaço**. Se o alvo for Enorme ou menor, você também pode deixá-lo [[caido|Caído]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "salto-sobrenatural",
+    "nome": "Salto Sobrenatural",
+    "nome_en": "Otherworldly Leap",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística"
+    ],
+    "resumo": "Lança Salto em si sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+\n\nVocê pode lançar **Salto** em si mesmo sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "sorvedouro-de-vida",
+    "nome": "Sorvedouro de Vida",
+    "nome_en": "Lifedrinker",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 9,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "cura",
+      "dano extra"
+    ],
+    "resumo": "1×/turno com a arma de pacto: +1d6 de dano e pode gastar um Dado de PV para se curar.",
+    "texto": "**Pré-requisito:** Bruxo nível 9+, [[pacto-da-lamina|Pacto da Lâmina]]\n\nUma vez por turno, ao acertar uma criatura com sua arma de pacto, ela sofre **1d6** de dano extra Necrótico, Psíquico ou Radiante (à sua escolha). Você também pode gastar um Dado de Ponto de Vida, rolar e recuperar PV iguais ao resultado + seu modificador de Constituição (mínimo 1).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "uno-com-as-sombras",
+    "nome": "Uno com as Sombras",
+    "nome_en": "One with Shadows",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 5,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "invisibilidade"
+    ],
+    "resumo": "Na Meia-luz ou Escuridão, lança Invisibilidade em si sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 5+\n\nEnquanto estiver numa área de Meia-luz ou Escuridão, você pode lançar **Invisibilidade** em si mesmo sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "vigor-infero",
+    "nome": "Vigor Ínfero",
+    "nome_en": "Fiendish Vigor",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "pv temporários"
+    ],
+    "resumo": "Lança Vitalidade Vazia em si sem espaço e com o máximo de PV temporários.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+\n\nVocê pode lançar **Vitalidade Vazia** em si mesmo sem gastar espaço de magia. Quando faz isso, não rola o dado: recebe automaticamente o **valor máximo** de Pontos de Vida Temporários.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "visao-da-bruxa",
+    "nome": "Visão da Bruxa",
+    "nome_en": "Witch Sight",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 15,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística"
+    ],
+    "resumo": "Visão Verdadeira a 9 m.",
+    "texto": "**Pré-requisito:** Bruxo nível 15+\n\nVocê tem **Visão Verdadeira** com alcance de 9 metros (30 pés).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "visao-diabolica",
+    "nome": "Visão Diabólica",
+    "nome_en": "Devil's Sight",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "escuridão",
+      "visão no escuro"
+    ],
+    "resumo": "Enxerga normalmente na escuridão, inclusive mágica, até 36 m.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+\n\nVocê enxerga normalmente em Meia-luz e Escuridão, **mágicas ou não**, até 36 metros (120 pés).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "visoes-de-reinos-distantes",
+    "nome": "Visões de Reinos Distantes",
+    "nome_en": "Visions of Distant Realms",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 9,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística"
+    ],
+    "resumo": "Lança Olho Arcano sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 9+\n\nVocê pode lançar **Olho Arcano** sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "visoes-nebulosas",
+    "nome": "Visões Nebulosas",
+    "nome_en": "Misty Visions",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 2,
+    "tags": [
+      "bruxo",
+      "invocação",
+      "invocação mística",
+      "ilusão"
+    ],
+    "resumo": "Lança Imagem Silenciosa sem gastar espaço.",
+    "texto": "**Pré-requisito:** Bruxo nível 2+\n\nVocê pode lançar **Imagem Silenciosa** sem gastar espaço de magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "sub_curto": "Invocação"
+  },
+  {
+    "id": "patrono-arquifada",
+    "nome": "Patrono Arquifada",
+    "nome_en": "Archfey Patron",
+    "categoria": "classe",
+    "de": "bruxo",
+    "subclasse": "Patrono Arquifada",
+    "sub_curto": "Arquifada",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bruxo",
+      "fada",
+      "feérico"
+    ],
+    "resumo": "Pacto com um ser poderoso de Faéria: teleporte e encantos.",
+    "texto": "Seu pacto vem de Faéria: um senhor feérico como o Príncipe do Gelo ou Titânia, uma megera antiga ou uma teia de favores com vários espíritos feéricos. Esses patronos costumam ser enigmáticos e caprichosos.\n\n- **Nível 3:** [[magias-da-arquifada]], [[passos-feericos]]\n- **Nível 6:** [[fuga-em-nevoa]]\n- **Nível 10:** [[defesas-sedutoras]]\n- **Nível 14:** [[magia-sedutora]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "magias-da-arquifada",
+    "nome": "Magias da Arquifada",
+    "nome_en": "Archfey Spells",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "arquifada",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas do patrono feérico.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Bruxo indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Acalmar Emoções, Fogo das Fadas, Força Espectral, Passo Nebuloso, Sono |\n| 5 | Crescimento de Plantas, Piscar |\n| 7 | Dominar Fera, Invisibilidade Maior |\n| 9 | Dominar Pessoa, Similaridade |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Arquifada",
+    "sub_curto": "Arquifada"
+  },
+  {
+    "id": "passos-feericos",
+    "nome": "Passos Feéricos",
+    "nome_en": "Steps of the Fey",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "arquifada",
+      "teleporte",
+      "passo nebuloso"
+    ],
+    "resumo": "Passo Nebuloso grátis (Carisma vezes) com efeito extra.",
+    "texto": "Você pode lançar **Passo Nebuloso** sem gastar espaço um número de vezes igual ao seu modificador de Carisma (mínimo 1), recuperando os usos num Descanso Longo. Ao lançá-la, pode escolher um efeito:\n\n- **Passo Provocante.** Criaturas a até 1,5 metro do lugar de onde você saiu fazem salvaguarda de Sabedoria contra sua CD; quem falhar tem Desvantagem em ataques contra outras criaturas que não você até o início do seu próximo turno.\n- **Passo Revigorante.** Logo após o teleporte, você ou uma criatura que você vê a até 3 metros ganha **1d10** Pontos de Vida Temporários.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Arquifada",
+    "sub_curto": "Arquifada"
+  },
+  {
+    "id": "fuga-em-nevoa",
+    "nome": "Fuga em Névoa",
+    "nome_en": "Misty Escape",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 6,
+    "tags": [
+      "bruxo",
+      "arquifada",
+      "reação",
+      "invisível"
+    ],
+    "resumo": "Passo Nebuloso como Reação ao sofrer dano; novos efeitos de Passos Feéricos.",
+    "texto": "Você pode lançar **Passo Nebuloso** como **Reação** ao sofrer dano. Dois novos efeitos entram nas opções de [[passos-feericos|Passos Feéricos]]:\n\n- **Passo Desvanecedor.** Você fica [[invisivel|Invisível]] até o início do seu próximo turno ou até fazer uma jogada de ataque, causar dano ou lançar uma magia.\n- **Passo Terrível.** Criaturas a até 1,5 metro do espaço de onde saiu ou para onde foi (à sua escolha) fazem salvaguarda de Sabedoria contra sua CD ou sofrem **2d10** de dano Psíquico.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Arquifada",
+    "sub_curto": "Arquifada"
+  },
+  {
+    "id": "defesas-sedutoras",
+    "nome": "Defesas Sedutoras",
+    "nome_en": "Beguiling Defenses",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 10,
+    "tags": [
+      "bruxo",
+      "arquifada",
+      "defesa",
+      "reação"
+    ],
+    "resumo": "Imune a Enfeitiçado; Reação para reduzir dano à metade e devolvê-lo como Psíquico.",
+    "texto": "- Você é imune à condição [[enfeiticado|Enfeitiçado]].\n- Logo depois que uma criatura que você vê acerta você com uma jogada de ataque, você pode usar a **Reação** para reduzir o dano à metade (arredondado para baixo). O atacante faz salvaguarda de Sabedoria contra sua CD; se falhar, sofre dano Psíquico igual ao dano que você sofreu.\n- **Uso.** A Reação funciona uma vez por Descanso Longo; você pode recuperá-la gastando um espaço de Magia de Pacto (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Arquifada",
+    "sub_curto": "Arquifada"
+  },
+  {
+    "id": "magia-sedutora",
+    "nome": "Magia Sedutora",
+    "nome_en": "Bewitching Magic",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 14,
+    "tags": [
+      "bruxo",
+      "arquifada",
+      "teleporte"
+    ],
+    "resumo": "Após magia de Encantamento ou Ilusão, Passo Nebuloso grátis na mesma ação.",
+    "texto": "Logo depois de lançar uma magia de Encantamento ou Ilusão usando uma ação e um espaço de magia, você pode lançar **Passo Nebuloso** como parte da mesma ação, sem gastar espaço.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Arquifada",
+    "sub_curto": "Arquifada"
+  },
+  {
+    "id": "patrono-celestial",
+    "nome": "Patrono Celestial",
+    "nome_en": "Celestial Patron",
+    "categoria": "classe",
+    "de": "bruxo",
+    "subclasse": "Patrono Celestial",
+    "sub_curto": "Celestial",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bruxo",
+      "celestial",
+      "cura"
+    ],
+    "resumo": "Pacto com um ser dos Planos Superiores: cura e luz.",
+    "texto": "Seu pacto vem dos Planos Superiores: um empíreo, um couatl, uma esfinge, um unicórnio ou outra entidade celestial. Ele permite tocar uma fração da luz sagrada do multiverso.\n\n- **Nível 3:** [[luz-medicinal]], [[magias-do-celestial]]\n- **Nível 6:** [[alma-radiante]]\n- **Nível 10:** [[resiliencia-celestial]]\n- **Nível 14:** [[vinganca-calcinante]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "luz-medicinal",
+    "nome": "Luz Medicinal",
+    "nome_en": "Healing Light",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "celestial",
+      "cura",
+      "ação bônus"
+    ],
+    "resumo": "Reserva de d6 (1 + nível) para curar com Ação Bônus.",
+    "texto": "Você tem uma reserva de **d6** igual a **1 + seu nível de Bruxo**. Com uma **Ação Bônus**, cure você ou uma criatura que vê a até **18 metros**, gastando dados da reserva (no máximo um número igual ao seu modificador de Carisma, mínimo 1). Role os dados gastos; o alvo recupera PV igual ao total.\n\nA reserva volta inteira num Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Celestial",
+    "sub_curto": "Celestial"
+  },
+  {
+    "id": "magias-do-celestial",
+    "nome": "Magias do Celestial",
+    "nome_en": "Celestial Spells",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "celestial",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas do patrono celestial.",
+    "texto": "| Nível | Magias |\n|---|---|\n| 3 | Auxílio, Chama Sagrada, Curar Ferimentos, Luz, Raio Guia, Restauração Menor |\n| 5 | Luz do Dia, Revivificar |\n| 7 | Defensor da Fé, Muralha de Fogo |\n| 9 | Convocar Celestial, Restauração Maior |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Celestial",
+    "sub_curto": "Celestial"
+  },
+  {
+    "id": "alma-radiante",
+    "nome": "Alma Radiante",
+    "nome_en": "Radiant Soul",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 6,
+    "tags": [
+      "bruxo",
+      "celestial",
+      "dano",
+      "radiante"
+    ],
+    "resumo": "Resistência a Radiante; soma Carisma ao dano de magias de Fogo ou Radiante.",
+    "texto": "Você tem Resistência a dano Radiante. Uma vez por turno, ao lançar uma magia que cause dano de **Fogo ou Radiante**, você soma seu **modificador de Carisma** ao dano contra um dos alvos.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Celestial",
+    "sub_curto": "Celestial"
+  },
+  {
+    "id": "resiliencia-celestial",
+    "nome": "Resiliência Celestial",
+    "nome_en": "Celestial Resilience",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 10,
+    "tags": [
+      "bruxo",
+      "celestial",
+      "pv temporários"
+    ],
+    "resumo": "PV temporários para você e até 5 aliados ao descansar ou usar Astúcia Mágica.",
+    "texto": "Sempre que usar [[astucia-magica|Astúcia Mágica]] ou terminar um Descanso Curto ou Longo, você ganha PV temporários iguais a **nível de Bruxo + Carisma**, e até cinco criaturas que você vê ganham **metade do nível de Bruxo + Carisma**.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Celestial",
+    "sub_curto": "Celestial"
+  },
+  {
+    "id": "vinganca-calcinante",
+    "nome": "Vingança Calcinante",
+    "nome_en": "Searing Vengeance",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 14,
+    "tags": [
+      "bruxo",
+      "celestial",
+      "reviver",
+      "radiante"
+    ],
+    "resumo": "Quem ia fazer teste contra a morte volta com metade dos PV e inimigos próximos sofrem dano e ficam Cegos.",
+    "texto": "Quando você ou um aliado a até **18 metros** está prestes a fazer uma [[zero-pontos-de-vida|salvaguarda contra a morte]], você pode liberar energia radiante: a criatura recupera **metade do máximo de PV** e pode deixar de estar [[caido|Caída]]. Cada criatura à sua escolha a até 9 metros dela sofre **2d8 + Carisma** de dano Radiante e fica [[cego|Cega]] até o fim do turno.\n\n- **Uso.** Uma vez por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono Celestial",
+    "sub_curto": "Celestial"
+  },
+  {
+    "id": "patrono-o-grande-antigo",
+    "nome": "Patrono O Grande Antigo",
+    "nome_en": "Great Old One Patron",
+    "categoria": "classe",
+    "de": "bruxo",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bruxo",
+      "aberração",
+      "lovecraft"
+    ],
+    "resumo": "Pacto com uma entidade alienígena: telepatia e magia psíquica.",
+    "texto": "Seu pacto liga você a algo inefável do Reino Distante ou a um deus ancestral (como Tharizdun, Hadar ou Cthulhu). Os motivos desse ser são incompreensíveis, mas os segredos que você aprendeu têm poder.\n\n- **Nível 3:** [[magias-do-grande-antigo]], [[mente-desperta]], [[magias-psiquicas]]\n- **Nível 6:** [[combatente-clarividente]]\n- **Nível 10:** [[danacao-mistica]], [[escudo-mental]]\n- **Nível 14:** [[criar-servo]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "magias-do-grande-antigo",
+    "nome": "Magias do Grande Antigo",
+    "nome_en": "Great Old One Spells",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "grande antigo",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas do patrono alienígena.",
+    "texto": "| Nível | Magias |\n|---|---|\n| 3 | Detectar Pensamentos, Força Espectral, Gargalhada Nefasta de Tasha, Sussurros Dissonantes |\n| 5 | Clarividência, Fome de Hadar |\n| 7 | Confusão, Invocar Aberração |\n| 9 | Modificar Memória, Telecinese |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo"
+  },
+  {
+    "id": "mente-desperta",
+    "nome": "Mente Desperta",
+    "nome_en": "Awakened Mind",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "grande antigo",
+      "telepatia"
+    ],
+    "resumo": "Ação Bônus: liga-se telepaticamente a uma criatura a 9 m.",
+    "texto": "Com uma **Ação Bônus**, escolha uma criatura que você vê a até **9 metros**. Vocês podem se comunicar por telepatia a uma distância de até **1,5 km × seu modificador de Carisma** (mínimo 1,5 km), desde que tenham um idioma em comum. A ligação dura minutos iguais ao seu nível de Bruxo, ou até você se ligar a outra criatura.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo"
+  },
+  {
+    "id": "magias-psiquicas",
+    "nome": "Magias Psíquicas",
+    "nome_en": "Psychic Spells",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "grande antigo",
+      "psíquico",
+      "furtivo"
+    ],
+    "resumo": "Muda dano de magias de Bruxo para Psíquico; Encantamento e Ilusão sem V/S.",
+    "texto": "Ao lançar uma magia de Bruxo que cause dano, você pode mudar o tipo para **Psíquico**. Você também pode lançar magias de Bruxo de **Encantamento ou Ilusão** sem componentes Verbais nem Somáticos.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo"
+  },
+  {
+    "id": "combatente-clarividente",
+    "nome": "Combatente Clarividente",
+    "nome_en": "Clairvoyant Combatant",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 6,
+    "tags": [
+      "bruxo",
+      "grande antigo",
+      "vantagem"
+    ],
+    "resumo": "Ao usar Mente Desperta: alvo com Desvantagem contra você e você com Vantagem contra ele.",
+    "texto": "Ao criar a ligação de [[mente-desperta|Mente Desperta]], você pode obrigar a criatura a fazer salvaguarda de Sabedoria contra sua CD. Se falhar, enquanto a ligação durar ela tem **Desvantagem** em ataques contra você e você tem **Vantagem** em ataques contra ela.\n\n- **Uso.** Uma vez por Descanso Curto ou Longo, ou gastando um espaço de Magia de Pacto (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo"
+  },
+  {
+    "id": "danacao-mistica",
+    "nome": "Danação Mística",
+    "nome_en": "Eldritch Hex",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 10,
+    "tags": [
+      "bruxo",
+      "grande antigo",
+      "danação",
+      "hex"
+    ],
+    "resumo": "Danação também dá Desvantagem nas salvaguardas do atributo escolhido.",
+    "texto": "Você sempre tem **Danação** preparada. Quando a lança e escolhe um atributo, o alvo também tem **Desvantagem nas salvaguardas** daquele atributo enquanto a magia durar.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo"
+  },
+  {
+    "id": "escudo-mental",
+    "nome": "Escudo Mental",
+    "nome_en": "Psychic Defenses",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 10,
+    "tags": [
+      "bruxo",
+      "grande antigo",
+      "psíquico",
+      "defesa"
+    ],
+    "resumo": "Mente protegida, Resistência a Psíquico e quem causa dano Psíquico sofre o mesmo.",
+    "texto": "Ninguém lê seus pensamentos por telepatia ou outros meios sem sua permissão. Você tem **Resistência a dano Psíquico**, e quem causar dano Psíquico a você sofre a **mesma quantidade** de dano.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo"
+  },
+  {
+    "id": "criar-servo",
+    "nome": "Criar Servo",
+    "nome_en": "Create Thrall",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 14,
+    "tags": [
+      "bruxo",
+      "grande antigo",
+      "invocação",
+      "aberração"
+    ],
+    "resumo": "Invocar Aberração sem Concentração (1 min), com PV temporários e dano extra contra alvos amaldiçoados.",
+    "texto": "Ao lançar **Invocar Aberração**, você pode fazer com que ela não exija Concentração; nesse caso a duração vira 1 minuto, e a Aberração surge com PV temporários iguais a **nível de Bruxo + Carisma**.\n\nAlém disso, na primeira vez em cada turno que a Aberração acertar uma criatura afetada pela sua **Danação**, ela causa dano Psíquico extra igual ao dano bônus da Danação.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Patrono O Grande Antigo",
+    "sub_curto": "Grande Antigo"
+  },
+  {
+    "id": "patrono-infero",
+    "nome": "Patrono Ínfero",
+    "nome_en": "Fiend Patron",
+    "categoria": "classe",
+    "de": "bruxo",
+    "subclasse": "Patrono Ínfero",
+    "sub_curto": "Ínfero",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bruxo",
+      "demônio",
+      "diabo",
+      "fiend"
+    ],
+    "resumo": "Pacto com um demônio ou diabo: fogo, resistência e sorte.",
+    "texto": "Seu pacto vem dos Planos Inferiores: um lorde demônio, um arquidiabo, um diabo do fosso, um balor ou outra criatura poderosa. Os objetivos desse patrono são malignos, e seu caminho depende do quanto você resiste a eles.\n\n- **Nível 3:** [[bencao-do-tenebroso]], [[magias-do-infero]]\n- **Nível 6:** [[sorte-do-tenebroso]]\n- **Nível 10:** [[resistencia-infera]]\n- **Nível 14:** [[lancar-no-inferno]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "bencao-do-tenebroso",
+    "nome": "Bênção do Tenebroso",
+    "nome_en": "Dark One's Blessing",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "ínfero",
+      "pv temporários"
+    ],
+    "resumo": "Ao derrubar um inimigo a 0 PV: PV temporários = Carisma + nível.",
+    "texto": "Quando você reduz um inimigo a 0 Pontos de Vida, ganha PV temporários iguais a **modificador de Carisma + nível de Bruxo** (mínimo 1). Também ganha se **outra criatura** reduzir a 0 PV um inimigo a até 3 metros de você.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Patrono Ínfero",
+    "sub_curto": "Ínfero"
+  },
+  {
+    "id": "magias-do-infero",
+    "nome": "Magias do Ínfero",
+    "nome_en": "Fiend Spells",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 3,
+    "tags": [
+      "bruxo",
+      "ínfero",
+      "magias",
+      "fogo"
+    ],
+    "resumo": "Magias sempre preparadas do patrono ínfero.",
+    "texto": "| Nível | Magias |\n|---|---|\n| 3 | Comando, Mãos Flamejantes, Raio Ardente, Sugestão |\n| 5 | Bola de Fogo, Nuvem Fétida |\n| 7 | Escudo Ardente, Muralha de Fogo |\n| 9 | Missão, Praga de Insetos |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Patrono Ínfero",
+    "sub_curto": "Ínfero"
+  },
+  {
+    "id": "sorte-do-tenebroso",
+    "nome": "A Sorte do Próprio Tenebroso",
+    "nome_en": "Dark One's Own Luck",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 6,
+    "tags": [
+      "bruxo",
+      "ínfero",
+      "sorte",
+      "d10"
+    ],
+    "resumo": "Soma 1d10 a um teste de atributo ou salvaguarda (Carisma vezes por Descanso Longo).",
+    "texto": "Ao fazer um teste de atributo ou uma salvaguarda, você pode somar **1d10** à jogada, mesmo depois de ver o resultado, desde que antes dos efeitos acontecerem. Usos iguais ao seu modificador de Carisma (mínimo 1), no máximo um por jogada; recupera tudo num Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Patrono Ínfero",
+    "sub_curto": "Ínfero"
+  },
+  {
+    "id": "resistencia-infera",
+    "nome": "Resistência Ínfera",
+    "nome_en": "Fiendish Resilience",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 10,
+    "tags": [
+      "bruxo",
+      "ínfero",
+      "resistência"
+    ],
+    "resumo": "Escolhe um tipo de dano (exceto Energético) para ter Resistência a cada descanso.",
+    "texto": "Ao terminar um Descanso Curto ou Longo, escolha um tipo de dano que não seja Energético. Você tem Resistência a ele até escolher outro com esta característica.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Patrono Ínfero",
+    "sub_curto": "Ínfero"
+  },
+  {
+    "id": "lancar-no-inferno",
+    "nome": "Lançar no Inferno",
+    "nome_en": "Hurl Through Hell",
+    "categoria": "classe",
+    "de": "bruxo",
+    "nivel": 14,
+    "tags": [
+      "bruxo",
+      "ínfero",
+      "dano psíquico",
+      "banir"
+    ],
+    "resumo": "Ao acertar: o alvo some, sofre 8d10 Psíquico e fica Incapacitado até o fim do seu próximo turno.",
+    "texto": "Uma vez por turno, ao acertar uma criatura com uma jogada de ataque, você pode tentar mandá-la aos Planos Inferiores. Ela faz **salvaguarda de Carisma** contra sua CD; se falhar, desaparece numa paisagem de pesadelo, sofre **8d10 de dano Psíquico** (se não for um Ínfero) e fica [[incapacitado|Incapacitada]] até o fim do seu próximo turno, quando volta ao espaço onde estava (ou ao mais próximo livre).\n\n- **Uso.** Uma vez por Descanso Longo; você pode recuperar o uso gastando um espaço de Magia de Pacto (sem ação).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Patrono Ínfero",
+    "sub_curto": "Ínfero"
+  }
+]

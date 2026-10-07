@@ -1,0 +1,708 @@
+[
+  {
+    "id": "barbaro",
+    "nome": "Bárbaro",
+    "nome_en": "Barbarian",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "fúria",
+      "força"
+    ],
+    "resumo": "Combatente movido pela Fúria. D12, Força.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "\n### Traços básicos\n| Traço | Bárbaro |\n|---|---|\n| Atributo primário | Força |\n| Dado de Ponto de Vida | D12 por nível de Bárbaro |\n| Salvaguardas | Força e Constituição |\n| Perícias | Escolha 2: Atletismo, Intimidação, Lidar com Animais, Natureza, Percepção ou Sobrevivência |\n| Armas | Simples e Marciais |\n| Armaduras | Leves e Médias, e Escudos |\n| Equipamento inicial | (A) Machado Grande, 4 Machadinhas, Kit de Aventureiro e 15 PO; ou (B) 75 PO |\n\n### Pontos de Vida\n- **Nível 1:** 12 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d12 (ou 7) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe só o Dado de Ponto de Vida, a proficiência com armas Marciais, o treinamento com Escudos e as características de nível 1.\n\n### Progressão\n| Nível | Prof. | Características | Fúrias | Dano da Fúria | Maestria |\n|---|---|---|---|---|---|\n| 1 | +2 | Fúria, Defesa sem Armadura, Maestria em Arma | 2 | +2 | 2 |\n| 2 | +2 | Ataque Imprudente, Sentido de Perigo | 2 | +2 | 2 |\n| 3 | +2 | Subclasse, Conhecimento Primordial | 3 | +2 | 2 |\n| 4 | +2 | Aumento no Valor de Atributo | 3 | +2 | 3 |\n| 5 | +3 | Ataque Extra, Movimento Rápido | 3 | +2 | 3 |\n| 6 | +3 | Característica de subclasse | 4 | +2 | 3 |\n| 7 | +3 | Bote Instintivo, Instintos Primitivos | 4 | +2 | 3 |\n| 8 | +3 | Aumento no Valor de Atributo | 4 | +2 | 3 |\n| 9 | +4 | Golpe Brutal | 4 | +3 | 3 |\n| 10 | +4 | Característica de subclasse | 4 | +3 | 4 |\n| 11 | +4 | Fúria Implacável | 4 | +3 | 4 |\n| 12 | +4 | Aumento no Valor de Atributo | 5 | +3 | 4 |\n| 13 | +5 | Golpe Brutal Aprimorado | 5 | +3 | 4 |\n| 14 | +5 | Característica de subclasse | 5 | +3 | 4 |\n| 15 | +5 | Fúria Persistente | 5 | +3 | 4 |\n| 16 | +5 | Aumento no Valor de Atributo | 5 | +4 | 4 |\n| 17 | +6 | Golpe Brutal Aprimorado | 6 | +4 | 4 |\n| 18 | +6 | Força Indomável | 6 | +4 | 4 |\n| 19 | +6 | Dádiva Épica | 6 | +4 | 4 |\n| 20 | +6 | Campeão Primitivo | 6 | +4 | 4 |\n\n### Características\n- **Nível 1:** [[furia]], [[defesa-sem-armadura-barbaro|Defesa sem Armadura]], [[maestria-em-arma-barbaro|Maestria em Arma]]\n- **Nível 2:** [[ataque-imprudente]], [[sentido-de-perigo]]\n- **Nível 3:** [[conhecimento-primordial]], subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[ataque-extra-barbaro|Ataque Extra]], [[movimento-rapido]]\n- **Nível 7:** [[bote-instintivo]], [[instintos-primitivos]]\n- **Nível 9:** [[golpe-brutal]]\n- **Nível 11:** [[furia-implacavel]]\n- **Níveis 13 e 17:** [[golpe-brutal-aprimorado]]\n- **Nível 15:** [[furia-persistente]]\n- **Nível 18:** [[forca-indomavel]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva do Ataque Irresistível)\n- **Nível 20:** [[campeao-primitivo]]\n\n### Subclasses\n- [[trilha-da-arvore-do-mundo]]\n- [[trilha-do-berserker]]\n- [[trilha-do-coracao-selvagem]]\n- [[trilha-do-fanatico]]\n"
+  },
+  {
+    "id": "furia",
+    "nome": "Fúria",
+    "nome_en": "Rage",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 1,
+    "tags": [
+      "bárbaro",
+      "fúrias",
+      "dano da fúria",
+      "resistência"
+    ],
+    "resumo": "Ação Bônus: Resistência a dano físico, bônus de dano com Força e Vantagem em Força.",
+    "texto": "Com uma **Ação Bônus**, você entra em Fúria, desde que não esteja usando armadura Pesada. O número de usos aparece na coluna Fúrias da [[barbaro|tabela do Bárbaro]]. Você recupera **um** uso num [[descanso-curto|Descanso Curto]] e **todos** num [[descanso-longo|Descanso Longo]].\n\n### Enquanto a Fúria está ativa\n- **Resistência a dano.** Você tem Resistência a dano Contundente, Cortante e Perfurante.\n- **Dano da Fúria.** Quando você ataca usando Força (com arma ou [[ataque-desarmado|Ataque Desarmado]]) e causa dano, soma o bônus de Dano da Fúria do seu nível.\n- **Vantagem com Força.** Você tem Vantagem em testes de Força e salvaguardas de Força.\n- **Sem Concentração nem magias.** Você não consegue manter [[concentracao|Concentração]] nem lançar magias.\n\n### Duração\nA Fúria dura até o fim do seu próximo turno. Ela termina antes se você vestir armadura Pesada ou ficar [[incapacitado|Incapacitado]].\n\nPara que ela continue no turno seguinte, faça uma destas coisas no seu turno:\n- uma jogada de ataque contra um inimigo;\n- obrigar um inimigo a fazer uma salvaguarda;\n- gastar uma Ação Bônus para prolongá-la.\n\nCada vez que for prolongada, ela vai até o fim do seu próximo turno. O máximo é 10 minutos.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "defesa-sem-armadura-barbaro",
+    "nome": "Defesa sem Armadura",
+    "nome_en": "Unarmored Defense",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 1,
+    "tags": [
+      "bárbaro",
+      "ca",
+      "classe de armadura"
+    ],
+    "resumo": "Sem armadura: CA = 10 + Destreza + Constituição. Escudo permitido.",
+    "texto": "Sem vestir armadura, sua CA base é **10 + modificador de Destreza + modificador de Constituição**. Você pode usar um Escudo e manter esse benefício.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "maestria-em-arma-barbaro",
+    "nome": "Maestria em Arma",
+    "nome_en": "Weapon Mastery",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 1,
+    "tags": [
+      "bárbaro",
+      "maestria",
+      "propriedade de maestria"
+    ],
+    "resumo": "Usa a propriedade de maestria de 2 tipos de arma corpo a corpo (mais com o nível).",
+    "texto": "Você pode usar a propriedade de maestria de **dois tipos** de arma corpo a corpo Simples ou Marcial à sua escolha (por exemplo, Machado Grande e Machadinha).\n\n- **Trocar.** Ao terminar um [[descanso-longo|Descanso Longo]], você pode trocar um desses tipos de arma por outro.\n- **Mais armas.** O número de tipos aumenta conforme a coluna Maestria da [[barbaro|tabela do Bárbaro]]: 3 no nível 4 e 4 no nível 10.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ataque-imprudente",
+    "nome": "Ataque Imprudente",
+    "nome_en": "Reckless Attack",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 2,
+    "tags": [
+      "bárbaro",
+      "imprudente",
+      "reckless"
+    ],
+    "resumo": "Vantagem nos ataques com Força, mas ataques contra você também têm Vantagem.",
+    "texto": "Na sua **primeira jogada de ataque** do turno, você pode decidir atacar de forma imprudente. Se fizer isso, até o início do seu próximo turno:\n\n- suas jogadas de ataque usando Força têm **Vantagem**;\n- jogadas de ataque contra você também têm **Vantagem**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "sentido-de-perigo",
+    "nome": "Sentido de Perigo",
+    "nome_en": "Danger Sense",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 2,
+    "tags": [
+      "bárbaro",
+      "destreza",
+      "armadilhas"
+    ],
+    "resumo": "Vantagem em salvaguardas de Destreza, se não estiver Incapacitado.",
+    "texto": "Você tem Vantagem em salvaguardas de Destreza, a menos que esteja [[incapacitado|Incapacitado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "conhecimento-primordial",
+    "nome": "Conhecimento Primordial",
+    "nome_en": "Primal Knowledge",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "perícia",
+      "acrobacia",
+      "furtividade",
+      "percepção"
+    ],
+    "resumo": "Ganha uma perícia; em Fúria, certos testes podem usar Força.",
+    "texto": "- **Perícia extra.** Você ganha proficiência em mais uma perícia da lista de perícias do Bárbaro no nível 1.\n- **Força primordial.** Enquanto sua [[furia|Fúria]] está ativa, quando você faz um teste de **Acrobacia, Furtividade, Intimidação, Percepção ou Sobrevivência**, pode fazê-lo como um teste de Força, mesmo que normalmente use outro atributo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ataque-extra-barbaro",
+    "nome": "Ataque Extra",
+    "nome_en": "Extra Attack",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 5,
+    "tags": [
+      "bárbaro",
+      "dois ataques"
+    ],
+    "resumo": "Ataca duas vezes ao usar a ação Atacar.",
+    "texto": "Quando você usa a ação [[atacar|Atacar]] no seu turno, pode atacar **duas vezes** em vez de uma.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "movimento-rapido",
+    "nome": "Movimento Rápido",
+    "nome_en": "Fast Movement",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 5,
+    "tags": [
+      "bárbaro",
+      "deslocamento",
+      "velocidade"
+    ],
+    "resumo": "+3 m de Deslocamento sem armadura Pesada.",
+    "texto": "Seu Deslocamento aumenta em **3 metros (10 pés)** enquanto você não estiver usando armadura Pesada.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "bote-instintivo",
+    "nome": "Bote Instintivo",
+    "nome_en": "Instinctive Pounce",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 7,
+    "tags": [
+      "bárbaro",
+      "movimento",
+      "investida"
+    ],
+    "resumo": "Ao entrar em Fúria, move-se até metade do Deslocamento.",
+    "texto": "Como parte da Ação Bônus usada para entrar em [[furia|Fúria]], você pode se mover até **metade do seu Deslocamento**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "instintos-primitivos",
+    "nome": "Instintos Primitivos",
+    "nome_en": "Feral Instinct",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 7,
+    "tags": [
+      "bárbaro",
+      "iniciativa",
+      "instinto feral"
+    ],
+    "resumo": "Vantagem nas jogadas de Iniciativa.",
+    "texto": "Você tem Vantagem nas jogadas de [[iniciativa|Iniciativa]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpe-brutal",
+    "nome": "Golpe Brutal",
+    "nome_en": "Brutal Strike",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 9,
+    "tags": [
+      "bárbaro",
+      "golpe poderoso",
+      "golpe debilitador",
+      "empurrar"
+    ],
+    "resumo": "Troca a Vantagem do Ataque Imprudente por +1d10 de dano e um efeito.",
+    "texto": "Quando você usa [[ataque-imprudente|Ataque Imprudente]], pode abrir mão da Vantagem em **uma** jogada de ataque com Força à sua escolha naquele turno. Essa jogada não pode estar com Desvantagem.\n\nSe ela acertar, o alvo sofre **1d10** de dano extra, do mesmo tipo da arma ou do Ataque Desarmado, e você aplica **um** efeito de Golpe Brutal:\n\n- **Golpe Poderoso.** O alvo é empurrado 4,5 metros (15 pés) em linha reta para longe de você. Depois, você pode se mover até metade do seu Deslocamento em linha reta na direção dele sem provocar [[ataque-de-oportunidade|Ataques de Oportunidade]].\n- **Golpe Debilitador.** O Deslocamento do alvo diminui 4,5 metros (15 pés) até o início do seu próximo turno. Um alvo só sofre um Golpe Debilitador por vez: vale o mais recente.\n\nNovos efeitos e mais dano chegam em [[golpe-brutal-aprimorado|Golpe Brutal Aprimorado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "furia-implacavel",
+    "nome": "Fúria Implacável",
+    "nome_en": "Relentless Rage",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 11,
+    "tags": [
+      "bárbaro",
+      "0 pv",
+      "não cair",
+      "morte"
+    ],
+    "resumo": "Caiu a 0 PV em Fúria: salvaguarda de Constituição para voltar com PV = 2× nível.",
+    "texto": "Se você cair a 0 Pontos de Vida com a [[furia|Fúria]] ativa e não morrer na hora, pode fazer uma **salvaguarda de Constituição CD 10**. Com sucesso, seus Pontos de Vida passam a ser **o dobro do seu nível de Bárbaro**.\n\nCada uso depois do primeiro aumenta a CD em 5. A CD volta a 10 quando você termina um Descanso Curto ou Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpe-brutal-aprimorado",
+    "nome": "Golpe Brutal Aprimorado",
+    "nome_en": "Improved Brutal Strike",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 13,
+    "tags": [
+      "bárbaro",
+      "golpe brutal fortalecido",
+      "golpe atordoante",
+      "golpe destruidor"
+    ],
+    "resumo": "Nível 13: mais dois efeitos. Nível 17: 2d10 e dois efeitos por golpe.",
+    "texto": "### Nível 13\nDois novos efeitos passam a valer para o [[golpe-brutal|Golpe Brutal]]:\n\n- **Golpe Atordoante.** O alvo tem Desvantagem na próxima salvaguarda que fizer e não pode fazer Ataques de Oportunidade até o início do seu próximo turno.\n- **Golpe Destruidor.** Antes do início do seu próximo turno, a próxima jogada de ataque de outra criatura contra o alvo recebe +5. Uma jogada de ataque só recebe um bônus de Golpe Destruidor.\n\n### Nível 17\nO dano extra do Golpe Brutal passa a ser **2d10**, e você aplica **dois efeitos diferentes** a cada uso.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "furia-persistente",
+    "nome": "Fúria Persistente",
+    "nome_en": "Persistent Rage",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 15,
+    "tags": [
+      "bárbaro",
+      "fúria",
+      "duração"
+    ],
+    "resumo": "Recupera Fúrias ao rolar Iniciativa (1×/Descanso Longo); Fúria dura 10 min direto.",
+    "texto": "- **Recuperar Fúrias.** Ao rolar [[iniciativa|Iniciativa]], você pode recuperar todos os usos gastos de [[furia|Fúria]]. Depois disso, só pode fazer isso de novo após um Descanso Longo.\n- **Duração fixa.** Sua Fúria dura 10 minutos sem precisar ser prolongada a cada rodada. Ela só termina antes se você ficar [[inconsciente|Inconsciente]] (estar só Incapacitado não basta) ou vestir armadura Pesada.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "forca-indomavel",
+    "nome": "Força Indomável",
+    "nome_en": "Indomitable Might",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 18,
+    "tags": [
+      "bárbaro",
+      "força"
+    ],
+    "resumo": "Testes e salvaguardas de Força nunca ficam abaixo do seu valor de Força.",
+    "texto": "Se o total de um teste de Força ou de uma salvaguarda de Força for menor que o seu **valor de Força**, você pode usar esse valor no lugar do total.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "campeao-primitivo",
+    "nome": "Campeão Primitivo",
+    "nome_en": "Primal Champion",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 20,
+    "tags": [
+      "bárbaro",
+      "força",
+      "constituição"
+    ],
+    "resumo": "+4 em Força e Constituição, até o máximo de 25.",
+    "texto": "Seus valores de **Força e Constituição aumentam em 4**, até o máximo de 25.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "trilha-do-berserker",
+    "nome": "Trilha do Berserker",
+    "nome_en": "Path of the Berserker",
+    "categoria": "classe",
+    "de": "barbaro",
+    "subclasse": "Trilha do Berserker",
+    "sub_curto": "Berserker",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "subclasse",
+      "caminho do berserker",
+      "berserker"
+    ],
+    "resumo": "Subclasse de Bárbaro voltada ao frenesi violento.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "\nBárbaros desta trilha transformam a [[furia|Fúria]] em frenesi e violência pura.\n\n- **Nível 3:** [[frenesi]]\n- **Nível 6:** [[furia-irracional]]\n- **Nível 10:** [[retaliacao]]\n- **Nível 14:** [[presenca-intimidante]]\n"
+  },
+  {
+    "id": "frenesi",
+    "nome": "Frenesi",
+    "nome_en": "Frenzy",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "berserker",
+      "dano extra"
+    ],
+    "resumo": "Ataque Imprudente em Fúria: dano extra de d6s iguais ao Dano da Fúria.",
+    "texto": "Se você usar [[ataque-imprudente|Ataque Imprudente]] com a [[furia|Fúria]] ativa, o **primeiro alvo** que você acertar no turno com um ataque baseado em Força sofre dano extra.\n\nRole uma quantidade de **d6 igual ao seu bônus de Dano da Fúria** e some. O dano é do mesmo tipo da arma ou do Ataque Desarmado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Trilha do Berserker",
+    "sub_curto": "Berserker"
+  },
+  {
+    "id": "furia-irracional",
+    "nome": "Fúria Irracional",
+    "nome_en": "Mindless Rage",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 6,
+    "tags": [
+      "bárbaro",
+      "berserker",
+      "imunidade",
+      "medo"
+    ],
+    "resumo": "Em Fúria: imune a Amedrontado e Enfeitiçado.",
+    "texto": "Com a [[furia|Fúria]] ativa, você tem Imunidade às condições [[amedrontado|Amedrontado]] e [[enfeiticado|Enfeitiçado]]. Se estiver com uma delas ao entrar em Fúria, ela termina.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Trilha do Berserker",
+    "sub_curto": "Berserker"
+  },
+  {
+    "id": "retaliacao",
+    "nome": "Retaliação",
+    "nome_en": "Retaliation",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 10,
+    "tags": [
+      "bárbaro",
+      "berserker",
+      "reação",
+      "contra-ataque"
+    ],
+    "resumo": "Reação: ataca quem causou dano a você a até 1,5 m.",
+    "texto": "Quando uma criatura a até **1,5 metro (5 pés)** causa dano a você, você pode usar sua **Reação** para fazer um ataque corpo a corpo contra ela, com uma arma ou um [[ataque-desarmado|Ataque Desarmado]].",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Trilha do Berserker",
+    "sub_curto": "Berserker"
+  },
+  {
+    "id": "presenca-intimidante",
+    "nome": "Presença Intimidante",
+    "nome_en": "Intimidating Presence",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 14,
+    "tags": [
+      "bárbaro",
+      "berserker",
+      "medo",
+      "amedrontar"
+    ],
+    "resumo": "Ação Bônus: criaturas a até 9 m fazem salvaguarda de Sabedoria ou ficam Amedrontadas.",
+    "texto": "Com uma **Ação Bônus**, cada criatura à sua escolha numa emanação de **9 metros (30 pés)** a partir de você faz uma **salvaguarda de Sabedoria** (CD 8 + seu modificador de Força + seu Bônus de Proficiência). Quem falhar fica [[amedrontado|Amedrontado]] por 1 minuto e repete a salvaguarda no fim de cada turno dela, encerrando o efeito com sucesso.\n\n- **Uso.** Uma vez por Descanso Longo. Você pode recuperar o uso gastando um uso de [[furia|Fúria]], sem precisar de ação.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Trilha do Berserker",
+    "sub_curto": "Berserker"
+  },
+  {
+    "id": "trilha-do-fanatico",
+    "nome": "Trilha do Fanático",
+    "nome_en": "Path of the Zealot",
+    "categoria": "classe",
+    "de": "barbaro",
+    "subclasse": "Trilha do Fanático",
+    "sub_curto": "Fanático",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "subclasse",
+      "caminho do fanático",
+      "zelote",
+      "divino"
+    ],
+    "resumo": "Subclasse de Bárbaro movida por fúria divina.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "texto": "\nBárbaros desta trilha recebem poder de um deus ou panteão e o canalizam na [[furia|Fúria]].\n\n- **Nível 3:** [[furia-divina]], [[campeao-dos-deuses]]\n- **Nível 6:** [[concentracao-fanatica]]\n- **Nível 10:** [[presenca-zelosa]]\n- **Nível 14:** [[furia-dos-deuses]]\n"
+  },
+  {
+    "id": "furia-divina",
+    "nome": "Fúria Divina",
+    "nome_en": "Divine Fury",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "fanático",
+      "dano extra",
+      "radiante",
+      "necrótico"
+    ],
+    "resumo": "Em Fúria: o primeiro acerto do turno causa 1d6 + metade do nível (Necrótico ou Radiante).",
+    "texto": "Em cada um dos seus turnos com a [[furia|Fúria]] ativa, a **primeira criatura** que você acertar com uma arma ou um [[ataque-desarmado|Ataque Desarmado]] sofre dano extra de **1d6 + metade do seu nível de Bárbaro** (arredondado para baixo).\n\nVocê escolhe se o dano é **Necrótico ou Radiante** a cada vez.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Fanático",
+    "sub_curto": "Fanático"
+  },
+  {
+    "id": "campeao-dos-deuses",
+    "nome": "Campeão dos Deuses",
+    "nome_en": "Warrior of the Gods",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "fanático",
+      "cura",
+      "pontos de vida",
+      "guerreiro dos deuses"
+    ],
+    "resumo": "Reserva de d12 para se curar com Ação Bônus. Recarrega no Descanso Longo.",
+    "texto": "Você tem uma **reserva de 4d12** para se curar. Com uma **Ação Bônus**, gaste quantos dados quiser da reserva, role-os e recupere Pontos de Vida iguais ao total.\n\n- **Recarga.** A reserva volta inteira ao fim de um [[descanso-longo|Descanso Longo]].\n- **Mais dados.** O tamanho máximo da reserva sobe para 5 dados no nível 6, 6 no nível 12 e 7 no nível 17.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Fanático",
+    "sub_curto": "Fanático"
+  },
+  {
+    "id": "concentracao-fanatica",
+    "nome": "Concentração Fanática",
+    "nome_en": "Fanatical Focus",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 6,
+    "tags": [
+      "bárbaro",
+      "fanático",
+      "salvaguarda",
+      "foco fanático"
+    ],
+    "resumo": "1× por Fúria: refaz uma salvaguarda falha somando o Dano da Fúria.",
+    "texto": "Uma vez por [[furia|Fúria]] ativa, se você **falhar numa salvaguarda**, pode rolá-la de novo somando seu bônus de **Dano da Fúria**. Você precisa usar o novo resultado.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Fanático",
+    "sub_curto": "Fanático"
+  },
+  {
+    "id": "presenca-zelosa",
+    "nome": "Presença Zelosa",
+    "nome_en": "Zealous Presence",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 10,
+    "tags": [
+      "bárbaro",
+      "fanático",
+      "vantagem",
+      "grito de guerra",
+      "aliados"
+    ],
+    "resumo": "Ação Bônus: até 10 aliados a 18 m ganham Vantagem em ataques e salvaguardas.",
+    "texto": "Com uma **Ação Bônus**, você solta um grito de guerra carregado de poder divino. Até **dez outras criaturas** à sua escolha a até **18 metros (60 pés)** ganham **Vantagem em jogadas de ataque e salvaguardas** até o início do seu próximo turno.\n\n- **Uso.** Uma vez por Descanso Longo. Você pode recuperar o uso gastando um uso de [[furia|Fúria]], sem precisar de ação.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Fanático",
+    "sub_curto": "Fanático"
+  },
+  {
+    "id": "furia-dos-deuses",
+    "nome": "Fúria dos Deuses",
+    "nome_en": "Rage of the Gods",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 14,
+    "tags": [
+      "bárbaro",
+      "fanático",
+      "voo",
+      "forma divina",
+      "reviver"
+    ],
+    "resumo": "Ao entrar em Fúria: forma divina por 1 min com voo, resistências e Revivificação.",
+    "texto": "Quando você ativa a [[furia|Fúria]], pode assumir uma forma de guerreiro divino. Ela dura **1 minuto** ou até você cair a 0 Pontos de Vida. Depois de usar, só pode usar de novo após um [[descanso-longo|Descanso Longo]].\n\n### Na forma divina\n- **Voo.** Você tem Deslocamento de Voo igual ao seu Deslocamento e pode pairar.\n- **Resistência.** Você tem Resistência a dano Necrótico, Psíquico e Radiante.\n- **Revivificação.** Quando uma criatura a até **9 metros (30 pés)** de você cairia a 0 Pontos de Vida, você pode usar sua **Reação** e gastar um uso de Fúria para que, em vez disso, os Pontos de Vida dela fiquem iguais ao seu nível de Bárbaro.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Fanático",
+    "sub_curto": "Fanático"
+  },
+  {
+    "id": "trilha-da-arvore-do-mundo",
+    "nome": "Trilha da Árvore do Mundo",
+    "nome_en": "Path of the World Tree",
+    "categoria": "classe",
+    "de": "barbaro",
+    "subclasse": "Trilha da Árvore do Mundo",
+    "sub_curto": "Árvore do Mundo",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bárbaro",
+      "caminho da árvore do mundo",
+      "yggdrasil"
+    ],
+    "resumo": "Subclasse de Bárbaro ligada à Yggdrasil: vida e teleporte.",
+    "texto": "Bárbaros desta trilha ligam a [[furia|Fúria]] à árvore cósmica Yggdrasil, que une os Planos Exteriores ao Plano Material, e tiram dela vitalidade e passagem entre lugares.\n\n- **Nível 3:** [[vitalidade-da-arvore]]\n- **Nível 6:** [[ramos-da-arvore]]\n- **Nível 10:** [[raizes-devastadoras]]\n- **Nível 14:** [[percorrer-a-arvore]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "vitalidade-da-arvore",
+    "nome": "Vitalidade da Árvore",
+    "nome_en": "Vitality of the Tree",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "árvore do mundo",
+      "pv temporários",
+      "cura"
+    ],
+    "resumo": "Ao entrar em Fúria: PV temporários = nível. Em cada turno, dá PV temporários a um aliado.",
+    "texto": "- **Surto de Vitalidade.** Ao ativar a [[furia|Fúria]], você ganha Pontos de Vida Temporários iguais ao seu **nível de Bárbaro**.\n- **Força Revigorante.** No início de cada turno seu com a Fúria ativa, você pode escolher **outra criatura a até 3 metros (10 pés)**. Ela ganha Pontos de Vida Temporários: role uma quantidade de **d6 igual ao seu bônus de Dano da Fúria** e some. Esses PV temporários somem quando a Fúria acaba.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha da Árvore do Mundo",
+    "sub_curto": "Árvore do Mundo"
+  },
+  {
+    "id": "ramos-da-arvore",
+    "nome": "Ramos da Árvore",
+    "nome_en": "Branches of the Tree",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 6,
+    "tags": [
+      "bárbaro",
+      "árvore do mundo",
+      "teleporte",
+      "puxar",
+      "reação"
+    ],
+    "resumo": "Reação: puxa por teleporte uma criatura a até 9 m para perto de você.",
+    "texto": "Com a [[furia|Fúria]] ativa, quando uma criatura que você consegue ver começa o turno a até **9 metros (30 pés)** de você, você pode usar sua **Reação** para envolvê-la com ramos espectrais.\n\nEla faz uma **salvaguarda de Força** (CD 8 + seu modificador de Força + seu Bônus de Proficiência). Se falhar, é teleportada para um espaço desocupado que você veja a até 1,5 metro de você (ou o mais próximo disponível). Depois disso, você pode reduzir o Deslocamento dela a 0 até o fim daquele turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha da Árvore do Mundo",
+    "sub_curto": "Árvore do Mundo"
+  },
+  {
+    "id": "raizes-devastadoras",
+    "nome": "Raízes Devastadoras",
+    "nome_en": "Battering Roots",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 10,
+    "tags": [
+      "bárbaro",
+      "árvore do mundo",
+      "alcance",
+      "maestria"
+    ],
+    "resumo": "No seu turno: +3 m de alcance com armas Pesadas ou Versáteis e maestria extra.",
+    "texto": "Durante o seu turno, seu alcance aumenta em **3 metros (10 pés)** com qualquer arma corpo a corpo que tenha a propriedade **Pesada** ou **Versátil**.\n\nQuando você acerta com uma arma assim no seu turno, pode ativar a maestria **Derrubar** ou **Empurrar**, além de outra maestria que já esteja usando com aquela arma.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha da Árvore do Mundo",
+    "sub_curto": "Árvore do Mundo"
+  },
+  {
+    "id": "percorrer-a-arvore",
+    "nome": "Percorrer a Árvore",
+    "nome_en": "Travel along the Tree",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 14,
+    "tags": [
+      "bárbaro",
+      "árvore do mundo",
+      "teleporte"
+    ],
+    "resumo": "Teleporte de 18 m ao entrar em Fúria e com Ação Bônus; 1× por Fúria, 45 m levando aliados.",
+    "texto": "- **Teleporte.** Quando ativa a [[furia|Fúria]], e também com uma **Ação Bônus** enquanto ela estiver ativa, você pode se teleportar até **18 metros (60 pés)** para um espaço desocupado que consiga ver.\n- **Viagem em grupo.** Uma vez por Fúria, o alcance desse teleporte pode ser de **45 metros (150 pés)**. Nesse caso, você pode levar até **seis criaturas voluntárias** a até 3 metros de você; cada uma aparece num espaço desocupado à sua escolha a até 3 metros do seu destino.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha da Árvore do Mundo",
+    "sub_curto": "Árvore do Mundo"
+  },
+  {
+    "id": "trilha-do-coracao-selvagem",
+    "nome": "Trilha do Coração Selvagem",
+    "nome_en": "Path of the Wild Heart",
+    "categoria": "classe",
+    "de": "barbaro",
+    "subclasse": "Trilha do Coração Selvagem",
+    "sub_curto": "Coração Selvagem",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "bárbaro",
+      "caminho do coração selvagem",
+      "totem",
+      "animais"
+    ],
+    "resumo": "Subclasse de Bárbaro ligada aos animais: escolhe um aspecto a cada Fúria.",
+    "texto": "Bárbaros desta trilha se veem como parentes dos animais. Eles falam com as feras por meios mágicos, e a [[furia|Fúria]] lhes dá poderes ligados a esses animais.\n\n- **Nível 3:** [[arauto-da-fauna]], [[furia-dos-selvagens]]\n- **Nível 6:** [[aspecto-dos-selvagens]]\n- **Nível 10:** [[arauto-da-natureza]]\n- **Nível 14:** [[poder-dos-selvagens]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "arauto-da-fauna",
+    "nome": "Arauto da Fauna",
+    "nome_en": "Animal Speaker",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "coração selvagem",
+      "ritual",
+      "animais"
+    ],
+    "resumo": "Lança Falar com Animais e Sentido Feral, só como ritual.",
+    "texto": "Você pode lançar as magias **Falar com Animais** e **Sentido Feral**, mas apenas como **Rituais**. Sabedoria é seu atributo de conjuração para elas.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Coração Selvagem",
+    "sub_curto": "Coração Selvagem"
+  },
+  {
+    "id": "furia-dos-selvagens",
+    "nome": "Fúria dos Selvagens",
+    "nome_en": "Rage of the Wilds",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 3,
+    "tags": [
+      "bárbaro",
+      "coração selvagem",
+      "águia",
+      "lobo",
+      "urso",
+      "totem"
+    ],
+    "resumo": "A cada Fúria, escolha Águia, Lobo ou Urso.",
+    "texto": "Sempre que ativar a [[furia|Fúria]], escolha uma opção, que vale enquanto ela durar:\n\n- **Águia.** Ao ativar a Fúria, você pode fazer as ações [[disparada|Correr]] e [[desengajar|Desengajar]] como parte da mesma Ação Bônus. Com a Fúria ativa, uma Ação Bônus faz as duas ações.\n- **Lobo.** Seus aliados têm Vantagem em jogadas de ataque contra qualquer inimigo seu que esteja a até 1,5 metro de você.\n- **Urso.** Você tem Resistência a todos os tipos de dano, exceto Energético, Necrótico, Psíquico e Radiante.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Coração Selvagem",
+    "sub_curto": "Coração Selvagem"
+  },
+  {
+    "id": "aspecto-dos-selvagens",
+    "nome": "Aspecto dos Selvagens",
+    "nome_en": "Aspect of the Wilds",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 6,
+    "tags": [
+      "bárbaro",
+      "coração selvagem",
+      "coruja",
+      "pantera",
+      "salmão",
+      "visão no escuro"
+    ],
+    "resumo": "Escolha Coruja, Pantera ou Salmão; troca no Descanso Longo.",
+    "texto": "Escolha uma opção. Você pode trocá-la ao terminar um [[descanso-longo|Descanso Longo]].\n\n- **Coruja.** Você tem Visão no Escuro de 18 metros (60 pés). Se já tiver, o alcance aumenta em 18 metros.\n- **Pantera.** Você tem Deslocamento de Escalada igual ao seu Deslocamento.\n- **Salmão.** Você tem Deslocamento de Natação igual ao seu Deslocamento.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Coração Selvagem",
+    "sub_curto": "Coração Selvagem"
+  },
+  {
+    "id": "arauto-da-natureza",
+    "nome": "Arauto da Natureza",
+    "nome_en": "Nature Speaker",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 10,
+    "tags": [
+      "bárbaro",
+      "coração selvagem",
+      "ritual"
+    ],
+    "resumo": "Lança Comunhão com a Natureza, só como ritual.",
+    "texto": "Você pode lançar a magia **Comunhão com a Natureza**, mas apenas como **Ritual**. Sabedoria é seu atributo de conjuração para ela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Coração Selvagem",
+    "sub_curto": "Coração Selvagem"
+  },
+  {
+    "id": "poder-dos-selvagens",
+    "nome": "Poder dos Selvagens",
+    "nome_en": "Power of the Wilds",
+    "categoria": "classe",
+    "de": "barbaro",
+    "nivel": 14,
+    "tags": [
+      "bárbaro",
+      "coração selvagem",
+      "carneiro",
+      "falcão",
+      "leão",
+      "voo"
+    ],
+    "resumo": "A cada Fúria, escolha Carneiro, Falcão ou Leão.",
+    "texto": "Sempre que ativar a [[furia|Fúria]], escolha uma opção, que vale enquanto ela durar:\n\n- **Carneiro.** Quando você acerta uma criatura Grande ou menor com um ataque corpo a corpo, pode deixá-la [[caido|Caída]].\n- **Falcão.** Se não estiver usando armadura, você tem Deslocamento de Voo igual ao seu Deslocamento.\n- **Leão.** Seus inimigos a até 1,5 metro de você têm Desvantagem em jogadas de ataque contra qualquer alvo que não seja você ou outro Bárbaro com esta opção ativa.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Trilha do Coração Selvagem",
+    "sub_curto": "Coração Selvagem"
+  }
+]

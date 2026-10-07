@@ -1,0 +1,707 @@
+[
+  {
+    "id": "paladino",
+    "nome": "Paladino",
+    "nome_en": "Paladin",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "juramento",
+      "aura",
+      "destruição divina",
+      "smite",
+      "meio-conjurador"
+    ],
+    "resumo": "Guerreiro sagrado de juramento, auras e Destruição Divina. D10, Força e Carisma.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Paladino |\n|---|---|\n| Atributo primário | Força e Carisma |\n| Dado de Ponto de Vida | D10 por nível de Paladino |\n| Salvaguardas | Sabedoria e Carisma |\n| Perícias | Escolha 2: Atletismo, Intimidação, Intuição, Medicina, Persuasão ou Religião |\n| Armas | Simples e Marciais |\n| Armaduras | Leves, Médias e Pesadas, e Escudos |\n| Equipamento inicial | (A) Cota de Malha, Escudo, Espada Longa, 6 Azagaias, Símbolo Sagrado, Kit de Sacerdote e 9 PO; ou (B) 150 PO |\n\n### Pontos de Vida\n- **Nível 1:** 10 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d10 (ou 6) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, proficiência com armas Marciais, treinamento com armaduras Leves e Médias e Escudos, e as características de nível 1. Os espaços de magia seguem as regras de multiclasse.\n\n### Progressão\n| Nível | Prof. | Características | Canalizar | Magias prep. | 1º | 2º | 3º | 4º | 5º |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | +2 | Conjuração, Maestria em Arma, Mãos Consagradas | — | 2 | 2 | — | — | — | — |\n| 2 | +2 | Destruição do Paladino, Estilo de Luta | — | 3 | 2 | — | — | — | — |\n| 3 | +2 | Canalizar Divindade, Subclasse | 2 | 4 | 3 | — | — | — | — |\n| 4 | +2 | Aumento no Valor de Atributo | 2 | 5 | 3 | — | — | — | — |\n| 5 | +3 | Ataque Extra, Montaria Fiel | 2 | 6 | 4 | 2 | — | — | — |\n| 6 | +3 | Aura de Proteção | 2 | 6 | 4 | 2 | — | — | — |\n| 7 | +3 | Característica de subclasse | 2 | 7 | 4 | 3 | — | — | — |\n| 8 | +3 | Aumento no Valor de Atributo | 2 | 7 | 4 | 3 | — | — | — |\n| 9 | +4 | Repudiar Inimigos | 2 | 9 | 4 | 3 | 2 | — | — |\n| 10 | +4 | Aura de Coragem | 2 | 9 | 4 | 3 | 2 | — | — |\n| 11 | +4 | Golpes Radiantes | 3 | 10 | 4 | 3 | 3 | — | — |\n| 12 | +4 | Aumento no Valor de Atributo | 3 | 10 | 4 | 3 | 3 | — | — |\n| 13 | +5 | — | 3 | 11 | 4 | 3 | 3 | 1 | — |\n| 14 | +5 | Toque Restaurador | 3 | 11 | 4 | 3 | 3 | 1 | — |\n| 15 | +5 | Característica de subclasse | 3 | 12 | 4 | 3 | 3 | 2 | — |\n| 16 | +5 | Aumento no Valor de Atributo | 3 | 12 | 4 | 3 | 3 | 2 | — |\n| 17 | +6 | — | 3 | 14 | 4 | 3 | 3 | 3 | 1 |\n| 18 | +6 | Aura Expandida | 3 | 14 | 4 | 3 | 3 | 3 | 1 |\n| 19 | +6 | Dádiva Épica | 3 | 15 | 4 | 3 | 3 | 3 | 2 |\n| 20 | +6 | Característica de subclasse | 3 | 15 | 4 | 3 | 3 | 3 | 2 |\n\n### Características\n- **Nível 1:** [[conjuracao-paladino|Conjuração]], [[maestria-em-arma-paladino|Maestria em Arma]], [[maos-consagradas]]\n- **Nível 2:** [[destruicao-do-paladino]], [[estilo-de-luta-paladino|Estilo de Luta]]\n- **Nível 3:** [[canalizar-divindade-paladino]], subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[ataque-extra-paladino|Ataque Extra]], [[montaria-fiel]]\n- **Nível 6:** [[aura-de-protecao]]\n- **Nível 9:** [[repudiar-inimigos]]\n- **Nível 10:** [[aura-de-coragem]]\n- **Nível 11:** [[golpes-radiantes]]\n- **Nível 14:** [[toque-restaurador]]\n- **Nível 18:** [[aura-expandida]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva da Visão Verdadeira)\n\n### Subclasses\n- [[juramento-da-devocao]]\n- [[juramento-da-gloria]]\n- [[juramento-da-vinganca]]\n- [[juramento-dos-ancioes]]"
+  },
+  {
+    "id": "conjuracao-paladino",
+    "nome": "Conjuração (Paladino)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 1,
+    "tags": [
+      "paladino",
+      "magias",
+      "espaços de magia"
+    ],
+    "resumo": "Magias de Paladino com Carisma; troca uma magia a cada Descanso Longo.",
+    "texto": "- **Espaços de magia.** Veja a tabela na [[paladino|ficha do Paladino]]. Recupera todos num [[descanso-longo|Descanso Longo]].\n- **Magias preparadas.** Comece com **2 magias de 1º círculo** (sugeridas: Destruição Cauterizante e Heroísmo). A quantidade cresce pela coluna *Magias prep.*, de círculos para os quais tenha espaços.\n- **Trocar magias.** Ao terminar um Descanso Longo, troque **uma** magia preparada por outra de Paladino.\n- **Atributo de conjuração:** Carisma. **Foco:** Símbolo Sagrado.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "maestria-em-arma-paladino",
+    "nome": "Maestria em Arma (Paladino)",
+    "nome_en": "Weapon Mastery",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 1,
+    "tags": [
+      "paladino",
+      "maestria"
+    ],
+    "resumo": "Usa a maestria de 2 tipos de arma; troca no Descanso Longo.",
+    "texto": "Você usa a propriedade de maestria de **dois tipos de arma** em que é proficiente (por exemplo, Azagaia e Espada Longa). Ao terminar um Descanso Longo, pode trocar essas escolhas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "maos-consagradas",
+    "nome": "Mãos Consagradas",
+    "nome_en": "Lay On Hands",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 1,
+    "tags": [
+      "paladino",
+      "cura",
+      "lay on hands"
+    ],
+    "resumo": "Reserva de cura de 5 × nível; Ação Bônus para curar ou gastar 5 para tirar Envenenado.",
+    "texto": "Você tem uma reserva de cura de **5 × seu nível de Paladino** PV, que se renova num Descanso Longo. Com uma **Ação Bônus**, toque uma criatura (pode ser você) e restaure PV da reserva, até o que sobrar nela. Você também pode gastar **5 pontos** da reserva para remover a condição [[envenenado|Envenenado]] (esses pontos não curam).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "destruicao-do-paladino",
+    "nome": "Destruição do Paladino",
+    "nome_en": "Paladin's Smite",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 2,
+    "tags": [
+      "paladino",
+      "destruição divina",
+      "smite",
+      "divine smite"
+    ],
+    "resumo": "Destruição Divina sempre preparada e 1× grátis por Descanso Longo.",
+    "texto": "Você sempre tem a magia **Destruição Divina** preparada e pode lançá-la **sem gastar espaço** uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "estilo-de-luta-paladino",
+    "nome": "Estilo de Luta (Paladino)",
+    "nome_en": "Fighting Style",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 2,
+    "tags": [
+      "paladino",
+      "estilo de luta",
+      "truques"
+    ],
+    "resumo": "Um talento de Estilo de Luta ou Combatente Abençoado (2 truques de Clérigo).",
+    "texto": "Você ganha um talento de [[estilos-de-luta|Estilo de Luta]] à sua escolha. No lugar dele, pode escolher:\n\n- **Combatente Abençoado.** Aprenda **dois truques de Clérigo** (sugeridos: [[chama-sagrada|Chama Sagrada]] e [[orientacao|Orientação]]). Eles contam como magias de Paladino e usam Carisma. A cada nível de Paladino, pode trocar um por outro truque de Clérigo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "canalizar-divindade-paladino",
+    "nome": "Canalizar Divindade (Paladino)",
+    "nome_en": "Channel Divinity",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "canalizar divindade",
+      "sentido divino"
+    ],
+    "resumo": "2 usos (3 no nível 11); começa com Sentido Divino.",
+    "texto": "Você canaliza energia divina para efeitos mágicos, escolhendo um efeito a cada uso. **2 usos** (3 a partir do nível 11); recupera **um** num Descanso Curto e **todos** num Descanso Longo. A CD é a das suas magias de Paladino. Outras características (como o juramento) dão mais efeitos.\n\n### Sentido Divino\nCom uma **Ação Bônus**, por **10 minutos** (ou até ficar Incapacitado) você sabe onde estão e de que tipo são **Celestiais, Ínferos e Mortos-Vivos** a até 18 metros. No mesmo raio, também percebe lugares ou objetos consagrados ou profanados.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ataque-extra-paladino",
+    "nome": "Ataque Extra (Paladino)",
+    "nome_en": "Extra Attack",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 5,
+    "tags": [
+      "paladino",
+      "dois ataques"
+    ],
+    "resumo": "Ataca duas vezes ao usar a ação Atacar.",
+    "texto": "Quando você usa a ação [[atacar|Atacar]] no seu turno, pode atacar **duas vezes**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "montaria-fiel",
+    "nome": "Montaria Fiel",
+    "nome_en": "Faithful Steed",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 5,
+    "tags": [
+      "paladino",
+      "montaria",
+      "cavalo"
+    ],
+    "resumo": "Convocar Montaria sempre preparada e 1× grátis por Descanso Longo.",
+    "texto": "Você sempre tem **Convocar Montaria** preparada e pode lançá-la **sem gastar espaço** uma vez por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "aura-de-protecao",
+    "nome": "Aura de Proteção",
+    "nome_en": "Aura of Protection",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 6,
+    "tags": [
+      "paladino",
+      "aura",
+      "salvaguarda"
+    ],
+    "resumo": "Aura de 3 m: você e aliados somam seu Carisma às salvaguardas.",
+    "texto": "Você emana uma aura invisível de **3 metros (10 pés)**, inativa se você estiver Incapacitado. Você e seus aliados nela somam seu **modificador de Carisma** (mínimo +1) às salvaguardas. Com mais de um Paladino, cada criatura recebe só uma Aura de Proteção por vez, à escolha dela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "repudiar-inimigos",
+    "nome": "Repudiar Inimigos",
+    "nome_en": "Abjure Foes",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 9,
+    "tags": [
+      "paladino",
+      "medo",
+      "canalizar divindade"
+    ],
+    "resumo": "Canalizar Divindade: amedronta inimigos (Carisma alvos) a 18 m.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste um uso de [[canalizar-divindade-paladino|Canalizar Divindade]] e escolha criaturas que vê a até **18 metros**, até seu modificador de Carisma (mínimo 1). Cada uma faz **salvaguarda de Sabedoria** ou fica [[amedrontado|Amedrontada]] por 1 minuto ou até sofrer dano. Assim amedrontada, em cada turno só pode fazer **uma** destas coisas: mover-se, uma ação ou uma Ação Bônus.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "aura-de-coragem",
+    "nome": "Aura de Coragem",
+    "nome_en": "Aura of Courage",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 10,
+    "tags": [
+      "paladino",
+      "aura",
+      "medo"
+    ],
+    "resumo": "Você e aliados na aura são imunes a Amedrontado.",
+    "texto": "Você e seus aliados têm Imunidade à condição [[amedrontado|Amedrontado]] enquanto estiverem na sua [[aura-de-protecao|Aura de Proteção]]. Um aliado que entre já Amedrontado não sofre os efeitos enquanto estiver nela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "golpes-radiantes",
+    "nome": "Golpes Radiantes",
+    "nome_en": "Radiant Strikes",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 11,
+    "tags": [
+      "paladino",
+      "radiante",
+      "dano"
+    ],
+    "resumo": "+1d8 Radiante em ataques corpo a corpo com arma ou desarmados.",
+    "texto": "Quando você acerta com uma arma corpo a corpo ou um Ataque Desarmado, o alvo sofre **1d8** de dano **Radiante** extra.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "toque-restaurador",
+    "nome": "Toque Restaurador",
+    "nome_en": "Restoring Touch",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 14,
+    "tags": [
+      "paladino",
+      "cura",
+      "condições"
+    ],
+    "resumo": "Mãos Consagradas também removem condições (5 pontos cada).",
+    "texto": "Ao usar [[maos-consagradas|Mãos Consagradas]], você também pode remover uma ou mais destas condições, gastando **5 pontos** da reserva para cada uma: Amedrontado, Atordoado, Cego, Enfeitiçado, Paralisado ou Surdo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "aura-expandida",
+    "nome": "Aura Expandida",
+    "nome_en": "Aura Expansion",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 18,
+    "tags": [
+      "paladino",
+      "aura"
+    ],
+    "resumo": "A Aura de Proteção passa a 9 m.",
+    "texto": "Sua [[aura-de-protecao|Aura de Proteção]] passa a ter **9 metros (30 pés)**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "juramento-da-devocao",
+    "nome": "Juramento da Devoção",
+    "nome_en": "Oath of Devotion",
+    "categoria": "classe",
+    "de": "paladino",
+    "subclasse": "Juramento da Devoção",
+    "sub_curto": "Devoção",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "paladino",
+      "devoção"
+    ],
+    "resumo": "O cavaleiro de armadura brilhante: justiça, ordem e honra.",
+    "texto": "O arquétipo do cavaleiro de armadura brilhante, ligado à justiça e à ordem. **Princípios:** sua palavra é sua garantia; proteja os fracos e não tema agir; que seus atos de honra sejam exemplo.\n\n- **Nível 3:** [[magias-juramento-devocao]], [[arma-sagrada]]\n- **Nível 7:** [[aura-de-devocao]]\n- **Nível 15:** [[destruicao-protetora]]\n- **Nível 20:** [[resplendor-sagrado]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "magias-juramento-devocao",
+    "nome": "Magias do Juramento da Devoção",
+    "nome_en": "Oath of Devotion Spells",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "devoção",
+      "magias de juramento"
+    ],
+    "resumo": "Magias sempre preparadas do juramento.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Paladino indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Escudo da Fé, Proteção Contra o Bem e o Mal |\n| 5 | Auxílio, Zona da Verdade |\n| 9 | Dissipar Magia, Sinal de Esperança |\n| 13 | Defensor da Fé, Movimentação Livre |\n| 17 | Coluna de Chamas, Comunhão |",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Juramento da Devoção",
+    "sub_curto": "Devoção"
+  },
+  {
+    "id": "arma-sagrada",
+    "nome": "Arma Sagrada",
+    "nome_en": "Sacred Weapon",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "devoção",
+      "arma",
+      "radiante"
+    ],
+    "resumo": "Canalizar Divindade: soma Carisma aos ataques da arma, dano Radiante e luz por 10 min.",
+    "texto": "Ao usar a ação [[atacar|Atacar]], gaste um uso de [[canalizar-divindade-paladino|Canalizar Divindade]] para imbuir uma arma corpo a corpo que esteja empunhando. Por **10 minutos** (ou até usar de novo), você soma seu **modificador de Carisma** (mínimo +1) às jogadas de ataque com ela, e cada acerto pode causar o tipo normal ou dano **Radiante**. A arma emite Luz Plena em 6 metros e Meia-luz por mais 6. Termina antes se você encerrar (sem ação) ou deixar de carregar a arma.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Juramento da Devoção",
+    "sub_curto": "Devoção"
+  },
+  {
+    "id": "aura-de-devocao",
+    "nome": "Aura de Devoção",
+    "nome_en": "Aura of Devotion",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 7,
+    "tags": [
+      "paladino",
+      "devoção",
+      "aura",
+      "encanto"
+    ],
+    "resumo": "Você e aliados na aura são imunes a Enfeitiçado.",
+    "texto": "Você e seus aliados têm Imunidade à condição [[enfeiticado|Enfeitiçado]] enquanto estiverem na sua [[aura-de-protecao|Aura de Proteção]]. Um aliado que entre já Enfeitiçado não sofre os efeitos enquanto estiver nela.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Juramento da Devoção",
+    "sub_curto": "Devoção"
+  },
+  {
+    "id": "destruicao-protetora",
+    "nome": "Destruição Protetora",
+    "nome_en": "Smite of Protection",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 15,
+    "tags": [
+      "paladino",
+      "devoção",
+      "cobertura"
+    ],
+    "resumo": "Ao lançar Destruição Divina, a aura dá meia cobertura até seu próximo turno.",
+    "texto": "Ao lançar **Destruição Divina**, você e seus aliados na [[aura-de-protecao|Aura de Proteção]] têm [[cobertura|meia cobertura]] até o início do seu próximo turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Juramento da Devoção",
+    "sub_curto": "Devoção"
+  },
+  {
+    "id": "resplendor-sagrado",
+    "nome": "Resplendor Sagrado",
+    "nome_en": "Holy Nimbus",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 20,
+    "tags": [
+      "paladino",
+      "devoção",
+      "aura",
+      "radiante"
+    ],
+    "resumo": "Aura sagrada por 10 min: dano Radiante a inimigos, luz do sol e Vantagem contra Ínferos e Mortos-Vivos.",
+    "texto": "Com uma **Ação Bônus**, sua [[aura-de-protecao|Aura de Proteção]] ganha estes benefícios por **10 minutos** (ou até encerrar, sem ação):\n\n- **Dano radiante.** Inimigos que começam o turno na aura sofrem dano Radiante igual a **Carisma + Bônus de Proficiência**.\n- **Luz solar.** A aura fica cheia de Luz Plena que conta como luz do sol.\n- **Vigília consagrada.** Você tem Vantagem nas salvaguardas exigidas por Ínferos ou Mortos-Vivos.\n\nUma vez por Descanso Longo, ou gastando um espaço de 5º círculo (sem ação).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Juramento da Devoção",
+    "sub_curto": "Devoção"
+  },
+  {
+    "id": "juramento-da-gloria",
+    "nome": "Juramento da Glória",
+    "nome_en": "Oath of Glory",
+    "categoria": "classe",
+    "de": "paladino",
+    "subclasse": "Juramento da Glória",
+    "sub_curto": "Glória",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "paladino",
+      "glória"
+    ],
+    "resumo": "Paladino heroico e atlético que inspira o grupo.",
+    "texto": "Paladinos que acreditam estar destinados à glória por feitos heroicos, treinando duro e incentivando os companheiros. **Princípios:** seja conhecido por seus atos; enfrente as dificuldades com coragem; inspire outros a buscar a glória.\n\n- **Nível 3:** [[atleta-inigualavel]], [[destruicao-inspiradora]], [[magias-juramento-gloria]]\n- **Nível 7:** [[aura-de-vivacidade]]\n- **Nível 15:** [[defesa-gloriosa]]\n- **Nível 20:** [[lenda-viva]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "atleta-inigualavel",
+    "nome": "Atleta Inigualável",
+    "nome_en": "Peerless Athlete",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "glória",
+      "atletismo",
+      "salto"
+    ],
+    "resumo": "Canalizar Divindade: 1 hora com Vantagem em Atletismo e Acrobacia e saltos +3 m.",
+    "texto": "Com uma **Ação Bônus**, gaste um uso de [[canalizar-divindade-paladino|Canalizar Divindade]]. Por **1 hora**, você tem Vantagem em testes de Força (Atletismo) e Destreza (Acrobacia), e seus saltos em distância e em altura aumentam em **3 metros** (pagos com movimento normal).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Glória",
+    "sub_curto": "Glória"
+  },
+  {
+    "id": "destruicao-inspiradora",
+    "nome": "Destruição Inspiradora",
+    "nome_en": "Inspiring Smite",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "glória",
+      "pv temporários"
+    ],
+    "resumo": "Após Destruição Divina, Canalizar Divindade distribui 2d8 + nível de PV temporários.",
+    "texto": "Logo depois de lançar **Destruição Divina**, gaste um uso de [[canalizar-divindade-paladino|Canalizar Divindade]] para distribuir **2d8 + seu nível de Paladino** de PV temporários entre criaturas à sua escolha a até 9 metros, incluindo você, como quiser.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Glória",
+    "sub_curto": "Glória"
+  },
+  {
+    "id": "magias-juramento-gloria",
+    "nome": "Magias do Juramento da Glória",
+    "nome_en": "Oath of Glory Spells",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "glória",
+      "magias de juramento"
+    ],
+    "resumo": "Magias sempre preparadas do juramento.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Paladino indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Heroísmo, Raio Guia |\n| 5 | Aprimorar Atributo, Arma Mágica |\n| 9 | Celeridade, Proteção contra Energia |\n| 13 | Compulsão, Movimentação Livre |\n| 17 | Lendas e Histórias, Presença Régia de Yolande |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Glória",
+    "sub_curto": "Glória"
+  },
+  {
+    "id": "aura-de-vivacidade",
+    "nome": "Aura de Vivacidade",
+    "nome_en": "Aura of Alacrity",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 7,
+    "tags": [
+      "paladino",
+      "glória",
+      "aura",
+      "deslocamento"
+    ],
+    "resumo": "+3 m de Deslocamento para você e para aliados que entram ou começam o turno na aura.",
+    "texto": "Seu Deslocamento aumenta em **3 metros**. Quando um aliado entra na sua [[aura-de-protecao|Aura de Proteção]] pela primeira vez num turno, ou começa o turno nela, o Deslocamento dele aumenta em 3 metros até o fim do próximo turno dele.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Glória",
+    "sub_curto": "Glória"
+  },
+  {
+    "id": "defesa-gloriosa",
+    "nome": "Defesa Gloriosa",
+    "nome_en": "Glorious Defense",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 15,
+    "tags": [
+      "paladino",
+      "glória",
+      "reação",
+      "ca"
+    ],
+    "resumo": "Reação: soma Carisma à CA de quem foi atingido a 3 m; se errar, você contra-ataca.",
+    "texto": "Quando você ou outra criatura que vê a até **3 metros** é atingida por uma jogada de ataque, use a **Reação** para somar seu **modificador de Carisma** (mínimo +1) à CA do alvo contra esse ataque. Se o ataque errar, você pode fazer um ataque com arma contra o atacante como parte da mesma Reação, se ele estiver ao seu alcance. Usos iguais ao seu modificador de Carisma (mínimo 1) por Descanso Longo.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Glória",
+    "sub_curto": "Glória"
+  },
+  {
+    "id": "lenda-viva",
+    "nome": "Lenda Viva",
+    "nome_en": "Living Legend",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 20,
+    "tags": [
+      "paladino",
+      "glória",
+      "acerto garantido"
+    ],
+    "resumo": "10 min: Vantagem em Carisma, um ataque que erra vira acerto por turno e refaz salvaguardas.",
+    "texto": "Com uma **Ação Bônus**, você ganha por **10 minutos**:\n\n- **Carismático.** Vantagem em todos os testes de Carisma.\n- **Golpe infalível.** Uma vez em cada turno seu, se errar uma jogada de ataque com arma, pode fazer com que acerte.\n- **Salvaguarda de novo.** Se falhar numa salvaguarda, pode usar a Reação para rolar de novo e usar o novo resultado.\n\nUma vez por Descanso Longo, ou gastando um espaço de 5º círculo (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Glória",
+    "sub_curto": "Glória"
+  },
+  {
+    "id": "juramento-da-vinganca",
+    "nome": "Juramento da Vingança",
+    "nome_en": "Oath of Vengeance",
+    "categoria": "classe",
+    "de": "paladino",
+    "subclasse": "Juramento da Vingança",
+    "sub_curto": "Vingança",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "paladino",
+      "vingança"
+    ],
+    "resumo": "Paladino que caça e pune malfeitores a qualquer custo.",
+    "texto": "Um compromisso solene de punir quem comete atos terríveis. **Princípios:** nenhuma misericórdia aos ímpios; combata a injustiça e suas causas; ajude as vítimas da injustiça.\n\n- **Nível 3:** [[magias-juramento-vinganca]], [[voto-de-inimizade]]\n- **Nível 7:** [[vingador-implacavel]]\n- **Nível 15:** [[alma-vingativa]]\n- **Nível 20:** [[anjo-vingador]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "magias-juramento-vinganca",
+    "nome": "Magias do Juramento da Vingança",
+    "nome_en": "Oath of Vengeance Spells",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "vingança",
+      "magias de juramento"
+    ],
+    "resumo": "Magias sempre preparadas do juramento.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Paladino indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Marca do Predador, Perdição |\n| 5 | Paralisar Pessoa, Passo Nebuloso |\n| 9 | Celeridade, Proteção contra Energia |\n| 13 | Banimento, Porta Dimensional |\n| 17 | Paralisar Monstro, Vidência |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Vingança",
+    "sub_curto": "Vingança"
+  },
+  {
+    "id": "voto-de-inimizade",
+    "nome": "Voto de Inimizade",
+    "nome_en": "Vow of Enmity",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "vingança",
+      "vantagem"
+    ],
+    "resumo": "Canalizar Divindade: Vantagem nos ataques contra uma criatura por 1 minuto.",
+    "texto": "Ao usar a ação [[atacar|Atacar]], gaste um uso de [[canalizar-divindade-paladino|Canalizar Divindade]] para jurar inimizade contra uma criatura que vê a até **9 metros**. Você tem **Vantagem** nas jogadas de ataque contra ela por **1 minuto** ou até usar de novo. Se ela cair a 0 PV antes, você pode passar o voto para outra criatura a até 9 metros (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Vingança",
+    "sub_curto": "Vingança"
+  },
+  {
+    "id": "vingador-implacavel",
+    "nome": "Vingador Implacável",
+    "nome_en": "Relentless Avenger",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 7,
+    "tags": [
+      "paladino",
+      "vingança",
+      "ataque de oportunidade"
+    ],
+    "resumo": "Acertou Ataque de Oportunidade: zera o Deslocamento do alvo e você se move metade.",
+    "texto": "Ao acertar uma criatura com um [[ataque-de-oportunidade|Ataque de Oportunidade]], você pode reduzir o Deslocamento dela a **0** até o fim do turno e, como parte da mesma Reação, mover-se até metade do seu Deslocamento sem provocar Ataques de Oportunidade.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Vingança",
+    "sub_curto": "Vingança"
+  },
+  {
+    "id": "alma-vingativa",
+    "nome": "Alma Vingativa",
+    "nome_en": "Soul of Vengeance",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 15,
+    "tags": [
+      "paladino",
+      "vingança",
+      "reação",
+      "ataque"
+    ],
+    "resumo": "Reação: ataca corpo a corpo o alvo do Voto depois que ele ataca.",
+    "texto": "Logo depois que uma criatura sob seu [[voto-de-inimizade|Voto de Inimizade]] faz uma jogada de ataque (acertando ou errando), use a **Reação** para fazer um ataque corpo a corpo contra ela, se estiver ao seu alcance.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Vingança",
+    "sub_curto": "Vingança"
+  },
+  {
+    "id": "anjo-vingador",
+    "nome": "Anjo Vingador",
+    "nome_en": "Avenging Angel",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 20,
+    "tags": [
+      "paladino",
+      "vingança",
+      "voo",
+      "medo"
+    ],
+    "resumo": "10 min: asas com voo de 18 m e aura que amedronta inimigos.",
+    "texto": "Com uma **Ação Bônus**, por **10 minutos** (ou até encerrar, sem ação):\n\n- **Voo.** Asas espectrais dão Deslocamento de Voo de **18 metros**, podendo pairar.\n- **Aura amedrontadora.** Inimigos que começam o turno na sua [[aura-de-protecao|Aura de Proteção]] fazem salvaguarda de Sabedoria ou ficam [[amedrontado|Amedrontados]] por 1 minuto ou até sofrerem dano. Ataques contra eles têm Vantagem.\n\nUma vez por Descanso Longo, ou gastando um espaço de 5º círculo (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento da Vingança",
+    "sub_curto": "Vingança"
+  },
+  {
+    "id": "juramento-dos-ancioes",
+    "nome": "Juramento dos Anciões",
+    "nome_en": "Oath of the Ancients",
+    "categoria": "classe",
+    "de": "paladino",
+    "subclasse": "Juramento dos Anciões",
+    "sub_curto": "Anciões",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "paladino",
+      "anciões",
+      "natureza"
+    ],
+    "resumo": "Paladino da natureza e da luz, que preserva a vida.",
+    "texto": "Um juramento antigo, dos primeiros elfos, que valoriza a luz e a beleza viva do mundo. Esses Paladinos enfeitam armaduras com folhas, galhadas e flores. **Princípios:** acenda a luz da esperança; preserve a vida; alegre-se com a arte e a alegria.\n\n- **Nível 3:** [[ira-da-natureza]], [[magias-juramento-ancioes]]\n- **Nível 7:** [[aura-de-resistencia]]\n- **Nível 15:** [[sentinela-imortal]]\n- **Nível 20:** [[campeao-ancestral]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "ira-da-natureza",
+    "nome": "A Ira da Natureza",
+    "nome_en": "Nature's Wrath",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "anciões",
+      "contido",
+      "vinhas"
+    ],
+    "resumo": "Canalizar Divindade: vinhas espectrais deixam inimigos a 4,5 m Contidos.",
+    "texto": "Com a ação [[acao-magia|Usar Magia]], gaste um uso de [[canalizar-divindade-paladino|Canalizar Divindade]] para criar vinhas espectrais. Cada criatura à sua escolha que você vê a até **4,5 metros** faz **salvaguarda de Força** ou fica [[impedido|Contida]] por 1 minuto, repetindo a salvaguarda no fim de cada turno dela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento dos Anciões",
+    "sub_curto": "Anciões"
+  },
+  {
+    "id": "magias-juramento-ancioes",
+    "nome": "Magias do Juramento dos Anciões",
+    "nome_en": "Oath of the Ancients Spells",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 3,
+    "tags": [
+      "paladino",
+      "anciões",
+      "magias de juramento"
+    ],
+    "resumo": "Magias sempre preparadas do juramento.",
+    "texto": "Você sempre tem estas magias preparadas a partir do nível de Paladino indicado:\n\n| Nível | Magias |\n|---|---|\n| 3 | Falar com Animais, Golpe Constritor |\n| 5 | Passo Nebuloso, Raio Lunar |\n| 9 | Crescimento de Plantas, Proteção contra Energia |\n| 13 | Pele-Rocha, Tempestade Glacial |\n| 17 | Comunhão com a Natureza, Passo Arbóreo |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento dos Anciões",
+    "sub_curto": "Anciões"
+  },
+  {
+    "id": "aura-de-resistencia",
+    "nome": "Aura de Resistência",
+    "nome_en": "Aura of Warding",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 7,
+    "tags": [
+      "paladino",
+      "anciões",
+      "aura",
+      "resistência"
+    ],
+    "resumo": "Você e aliados na aura têm Resistência a Necrótico, Psíquico e Radiante.",
+    "texto": "Você e seus aliados têm Resistência a dano **Necrótico, Psíquico e Radiante** enquanto estiverem na sua [[aura-de-protecao|Aura de Proteção]].",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento dos Anciões",
+    "sub_curto": "Anciões"
+  },
+  {
+    "id": "sentinela-imortal",
+    "nome": "Sentinela Imortal",
+    "nome_en": "Undying Sentinel",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 15,
+    "tags": [
+      "paladino",
+      "anciões",
+      "0 pv",
+      "sobrevivência"
+    ],
+    "resumo": "1×/Descanso Longo: cai a 1 PV em vez de 0 e recupera 3 × nível; não envelhece.",
+    "texto": "Quando for reduzido a 0 PV sem morrer na hora, você pode ficar com **1 PV** e recuperar **3 × seu nível de Paladino**. Uma vez por Descanso Longo. Além disso, você não pode ser envelhecido por magia e sua aparência não envelhece.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento dos Anciões",
+    "sub_curto": "Anciões"
+  },
+  {
+    "id": "campeao-ancestral",
+    "nome": "Campeão Ancestral",
+    "nome_en": "Elder Champion",
+    "categoria": "classe",
+    "de": "paladino",
+    "nivel": 20,
+    "tags": [
+      "paladino",
+      "anciões",
+      "regeneração"
+    ],
+    "resumo": "1 min: inimigos na aura com Desvantagem contra você, magias como Ação Bônus e regenera 10 PV.",
+    "texto": "Com uma **Ação Bônus**, sua [[aura-de-protecao|Aura de Proteção]] ganha por **1 minuto** (ou até encerrar, sem ação):\n\n- **Enfraquecer.** Inimigos na aura têm Desvantagem nas salvaguardas contra suas magias e seus efeitos de Canalizar Divindade.\n- **Magias ágeis.** Magias com tempo de conjuração de uma ação podem ser lançadas como **Ação Bônus**.\n- **Regeneração.** No início de cada turno seu, você recupera **10 PV**.\n\nUma vez por Descanso Longo, ou gastando um espaço de 5º círculo (sem ação).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Juramento dos Anciões",
+    "sub_curto": "Anciões"
+  }
+]

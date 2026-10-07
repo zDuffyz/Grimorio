@@ -1,0 +1,777 @@
+[
+  {
+    "id": "guardiao",
+    "nome": "Guardião",
+    "nome_en": "Ranger",
+    "categoria": "classe",
+    "tags": [
+      "classe",
+      "patrulheiro",
+      "ranger",
+      "natureza",
+      "meio-conjurador"
+    ],
+    "resumo": "Caçador dos ermos com magia da natureza. D10, Destreza e Sabedoria.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "texto": "### Traços básicos\n| Traço | Guardião |\n|---|---|\n| Atributo primário | Destreza e Sabedoria |\n| Dado de Ponto de Vida | D10 por nível de Guardião |\n| Salvaguardas | Força e Destreza |\n| Perícias | Escolha 3: Atletismo, Furtividade, Intuição, Investigação, Lidar com Animais, Natureza, Percepção ou Sobrevivência |\n| Armas | Simples e Marciais |\n| Armaduras | Leves e Médias, e Escudos |\n| Equipamento inicial | (A) Armadura de Couro Batido, Cimitarra, Espada Curta, Arco Longo, 20 Flechas, Aljava, Foco Druídico (ramo de visco), Kit de Aventureiro e 7 PO; ou (B) 150 PO |\n\n### Pontos de Vida\n- **Nível 1:** 10 + seu modificador de Constituição.\n- **Cada nível seguinte:** 1d10 (ou 6) + seu modificador de Constituição.\n\n### Multiclasse\nAo entrar na classe por multiclasse, você recebe o Dado de Ponto de Vida, proficiência em uma perícia da lista do Guardião, proficiência com armas Marciais, treinamento com armaduras Leves e Médias e Escudos, e as características de nível 1. Os espaços de magia seguem as regras de multiclasse.\n\n### Progressão\n| Nível | Prof. | Características | Inimigo Favorito | Magias prep. | 1º | 2º | 3º | 4º | 5º |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | +2 | Conjuração, Inimigo Favorito, Maestria em Arma | 2 | 2 | 2 | — | — | — | — |\n| 2 | +2 | Estilo de Luta, Explorador Hábil | 2 | 3 | 2 | — | — | — | — |\n| 3 | +2 | Subclasse | 2 | 4 | 3 | — | — | — | — |\n| 4 | +2 | Aumento no Valor de Atributo | 2 | 5 | 3 | — | — | — | — |\n| 5 | +3 | Ataque Extra | 3 | 6 | 4 | 2 | — | — | — |\n| 6 | +3 | Errante | 3 | 6 | 4 | 2 | — | — | — |\n| 7 | +3 | Característica de subclasse | 3 | 7 | 4 | 3 | — | — | — |\n| 8 | +3 | Aumento no Valor de Atributo | 3 | 7 | 4 | 3 | — | — | — |\n| 9 | +4 | Especialista | 4 | 9 | 4 | 3 | 2 | — | — |\n| 10 | +4 | Incansável | 4 | 9 | 4 | 3 | 2 | — | — |\n| 11 | +4 | Característica de subclasse | 4 | 10 | 4 | 3 | 3 | — | — |\n| 12 | +4 | Aumento no Valor de Atributo | 4 | 10 | 4 | 3 | 3 | — | — |\n| 13 | +5 | Predador Implacável | 5 | 11 | 4 | 3 | 3 | 1 | — |\n| 14 | +5 | Véu da Natureza | 5 | 11 | 4 | 3 | 3 | 1 | — |\n| 15 | +5 | Característica de subclasse | 5 | 12 | 4 | 3 | 3 | 2 | — |\n| 16 | +5 | Aumento no Valor de Atributo | 5 | 12 | 4 | 3 | 3 | 2 | — |\n| 17 | +6 | Caçador Preciso | 6 | 14 | 4 | 3 | 3 | 3 | 1 |\n| 18 | +6 | Sentidos Selvagens | 6 | 14 | 4 | 3 | 3 | 3 | 1 |\n| 19 | +6 | Dádiva Épica | 6 | 15 | 4 | 3 | 3 | 3 | 2 |\n| 20 | +6 | Matador de Inimigos Favoritos | 6 | 15 | 4 | 3 | 3 | 3 | 2 |\n\n### Características\n- **Nível 1:** [[conjuracao-guardiao|Conjuração]], [[inimigo-favorito]], [[maestria-em-arma-guardiao|Maestria em Arma]]\n- **Nível 2:** [[estilo-de-luta-guardiao|Estilo de Luta]], [[explorador-habil]]\n- **Nível 3:** subclasse\n- **Níveis 4, 8, 12 e 16:** [[aumento-no-valor-de-atributo]]\n- **Nível 5:** [[ataque-extra-guardiao|Ataque Extra]]\n- **Nível 6:** [[errante]]\n- **Nível 9:** [[especialista-guardiao|Especialista]]\n- **Nível 10:** [[incansavel]]\n- **Nível 13:** [[predador-implacavel]]\n- **Nível 14:** [[veu-da-natureza]]\n- **Nível 17:** [[cacador-preciso]]\n- **Nível 18:** [[sentidos-selvagens]]\n- **Nível 19:** [[dadiva-epica]] (sugerida: Dádiva da Viagem Dimensional)\n- **Nível 20:** [[matador-de-inimigos-favoritos]]\n\n### Subclasses\n- [[andarilho-feerico]]\n- [[cacador]]\n- [[senhor-das-feras]]\n- [[vigilante-das-sombras]]"
+  },
+  {
+    "id": "conjuracao-guardiao",
+    "nome": "Conjuração (Guardião)",
+    "nome_en": "Spellcasting",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 1,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "magias",
+      "espaços de magia"
+    ],
+    "resumo": "Magias de Guardião com Sabedoria; troca uma magia a cada Descanso Longo.",
+    "texto": "- **Espaços de magia.** Veja a tabela na [[guardiao|ficha do Guardião]]. Recupera todos num [[descanso-longo|Descanso Longo]].\n- **Magias preparadas.** Comece com **2 magias de 1º círculo** (sugeridas: [[curar-ferimentos|Curar Ferimentos]] e Golpe Constritor). A quantidade cresce pela coluna *Magias prep.*, de círculos para os quais tenha espaços.\n- **Trocar magias.** Ao terminar um Descanso Longo, troque **uma** magia preparada por outra de Guardião.\n- **Atributo de conjuração:** Sabedoria. **Foco:** Foco Druídico.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "inimigo-favorito",
+    "nome": "Inimigo Favorito",
+    "nome_en": "Favored Enemy",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 1,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "marca do predador",
+      "hunter's mark"
+    ],
+    "resumo": "Marca do Predador sempre preparada e lançada grátis algumas vezes.",
+    "texto": "Você sempre tem **Marca do Predador** preparada e pode lançá-la **sem gastar espaço** um número de vezes igual à coluna *Inimigo Favorito* da [[guardiao|tabela]] (2 no nível 1). Recupera os usos num Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "maestria-em-arma-guardiao",
+    "nome": "Maestria em Arma (Guardião)",
+    "nome_en": "Weapon Mastery",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 1,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "maestria"
+    ],
+    "resumo": "Usa a maestria de 2 tipos de arma; troca no Descanso Longo.",
+    "texto": "Você pode usar a propriedade de maestria de **dois tipos de arma** em que é proficiente (por exemplo, Arco Longo e Espada Curta). Ao terminar um Descanso Longo, pode trocar essas escolhas.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "estilo-de-luta-guardiao",
+    "nome": "Estilo de Luta (Guardião)",
+    "nome_en": "Fighting Style",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 2,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "estilo de luta",
+      "truques"
+    ],
+    "resumo": "Um talento de Estilo de Luta ou Combatente Druídico (2 truques de Druida).",
+    "texto": "Você ganha um talento de [[estilos-de-luta|Estilo de Luta]] à sua escolha. No lugar dele, pode escolher:\n\n- **Combatente Druídico.** Aprenda **dois truques de Druida** (sugeridos: Fagulha Estelar e Orientação). Eles contam como magias de Guardião e usam Sabedoria. A cada nível de Guardião, pode trocar um por outro truque de Druida.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "explorador-habil",
+    "nome": "Explorador Hábil",
+    "nome_en": "Deft Explorer",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 2,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "especialização",
+      "idiomas"
+    ],
+    "resumo": "Especialização em uma perícia e dois idiomas.",
+    "texto": "Você ganha [[especializacao|Especialização]] em uma perícia em que é proficiente (e que ainda não tenha Especialização) e aprende **dois idiomas** à sua escolha.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "ataque-extra-guardiao",
+    "nome": "Ataque Extra (Guardião)",
+    "nome_en": "Extra Attack",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 5,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "dois ataques"
+    ],
+    "resumo": "Ataca duas vezes ao usar a ação Atacar.",
+    "texto": "Quando você usa a ação [[atacar|Atacar]] no seu turno, pode atacar **duas vezes**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "errante",
+    "nome": "Errante",
+    "nome_en": "Roving",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 6,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "deslocamento",
+      "escalada",
+      "natação"
+    ],
+    "resumo": "+3 m de Deslocamento sem armadura Pesada; escalada e natação.",
+    "texto": "Seu Deslocamento aumenta em **3 metros** enquanto não usar armadura Pesada, e você ganha Deslocamento de **Escalada** e de **Natação** iguais ao seu Deslocamento.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "especialista-guardiao",
+    "nome": "Especialista (Guardião)",
+    "nome_en": "Expertise",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 9,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "especialização"
+    ],
+    "resumo": "Especialização em mais duas perícias.",
+    "texto": "Você ganha [[especializacao|Especialização]] em **duas perícias** em que é proficiente e ainda não tem Especialização.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "incansavel",
+    "nome": "Incansável",
+    "nome_en": "Tireless",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 10,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "pv temporários",
+      "exaustão"
+    ],
+    "resumo": "Ganha PV temporários com uma ação; o Descanso Curto reduz Exaustão.",
+    "texto": "- **PV temporários.** Com a ação [[acao-magia|Usar Magia]], ganhe **1d8 + Sabedoria** (mínimo 1) de PV temporários. Usos iguais ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo.\n- **Menos exaustão.** Ao terminar um Descanso Curto, seu nível de [[exaustao|Exaustão]] diminui em 1.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "predador-implacavel",
+    "nome": "Predador Implacável",
+    "nome_en": "Relentless Hunter",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 13,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "marca do predador",
+      "concentração"
+    ],
+    "resumo": "Sofrer dano não quebra a Concentração na Marca do Predador.",
+    "texto": "Sofrer dano não quebra sua [[concentracao|Concentração]] na **Marca do Predador**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "veu-da-natureza",
+    "nome": "Véu da Natureza",
+    "nome_en": "Nature's Veil",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 14,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "invisível"
+    ],
+    "resumo": "Ação Bônus: fica Invisível até o fim do próximo turno.",
+    "texto": "Com uma **Ação Bônus**, você fica [[invisivel|Invisível]] até o fim do seu próximo turno. Usos iguais ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "cacador-preciso",
+    "nome": "Caçador Preciso",
+    "nome_en": "Precise Hunter",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 17,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "marca do predador",
+      "vantagem"
+    ],
+    "resumo": "Vantagem nos ataques contra o alvo da Marca do Predador.",
+    "texto": "Você tem **Vantagem** nas jogadas de ataque contra a criatura marcada pela sua **Marca do Predador**.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "sentidos-selvagens",
+    "nome": "Sentidos Selvagens",
+    "nome_en": "Feral Senses",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 18,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "visão às cegas"
+    ],
+    "resumo": "Visão às Cegas de 9 m.",
+    "texto": "Você tem **Visão às Cegas** com alcance de 9 metros (30 pés).",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "matador-de-inimigos-favoritos",
+    "nome": "Matador de Inimigos Favoritos",
+    "nome_en": "Foe Slayer",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 20,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "marca do predador"
+    ],
+    "resumo": "O dado da Marca do Predador vira d10.",
+    "texto": "O dado de dano da sua **Marca do Predador** passa a ser **d10** em vez de d6.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "andarilho-feerico",
+    "nome": "Andarilho Feérico",
+    "nome_en": "Fey Wanderer",
+    "categoria": "classe",
+    "de": "guardiao",
+    "subclasse": "Andarilho Feérico",
+    "sub_curto": "Feérico",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guardião",
+      "feérico",
+      "fada"
+    ],
+    "resumo": "Guardião tocado por Faéria: charme, dano psíquico e teleporte.",
+    "texto": "A bênção de um senhor feérico ou um lugar de Faéria transformou você. Sua alegria anima os oprimidos e sua fúria aterroriza os inimigos.\n\n- **Nível 3:** [[glamour-transcendental]], [[golpes-terriveis]], [[magias-andarilho-feerico]]\n- **Nível 7:** [[detalhe-sedutor]]\n- **Nível 11:** [[reforcos-feericos]]\n- **Nível 15:** [[andarilho-nebuloso]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "glamour-transcendental",
+    "nome": "Glamour Transcendental",
+    "nome_en": "Otherworldly Glamour",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "feérico",
+      "carisma",
+      "social"
+    ],
+    "resumo": "Soma Sabedoria aos testes de Carisma; proficiência em Atuação, Enganação ou Persuasão.",
+    "texto": "Você soma seu modificador de Sabedoria (mínimo +1) a todos os testes de **Carisma** e ganha proficiência em **Atuação, Enganação ou Persuasão** (à sua escolha).",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Andarilho Feérico",
+    "sub_curto": "Feérico"
+  },
+  {
+    "id": "golpes-terriveis",
+    "nome": "Golpes Terríveis",
+    "nome_en": "Dreadful Strikes",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "feérico",
+      "psíquico",
+      "dano"
+    ],
+    "resumo": "1×/turno ao acertar com arma: +1d4 Psíquico (1d6 no nível 11).",
+    "texto": "Uma vez por turno, ao acertar uma criatura com uma arma, cause **1d4** de dano **Psíquico** extra. Passa a **1d6** no nível 11.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Andarilho Feérico",
+    "sub_curto": "Feérico"
+  },
+  {
+    "id": "magias-andarilho-feerico",
+    "nome": "Magias do Andarilho Feérico",
+    "nome_en": "Fey Wanderer Spells",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "feérico",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas e uma marca feérica cosmética.",
+    "texto": "| Nível | Magia |\n|---|---|\n| 3 | Enfeitiçar Pessoa |\n| 5 | Passo Nebuloso |\n| 9 | Convocar Feérico |\n| 13 | Porta Dimensional |\n| 17 | Despistar |\n\nVocê também tem uma **dádiva de Faéria** (escolha ou role 1d6): borboletas ilusórias quando descansa, flores que nascem no cabelo ao amanhecer, um leve cheiro de erva ou especiaria, uma sombra que dança quando ninguém olha, chifres ou galhadas, ou pele e cabelo que mudam de cor a cada amanhecer.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Andarilho Feérico",
+    "sub_curto": "Feérico"
+  },
+  {
+    "id": "detalhe-sedutor",
+    "nome": "Detalhe Sedutor",
+    "nome_en": "Beguiling Twist",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 7,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "feérico",
+      "reação",
+      "encanto",
+      "medo"
+    ],
+    "resumo": "Vantagem contra medo e encanto; quando alguém resiste, você amedronta ou encanta outro.",
+    "texto": "Você tem Vantagem nas salvaguardas para evitar ou encerrar [[amedrontado|Amedrontado]] e [[enfeiticado|Enfeitiçado]]. Quando você ou uma criatura que vê a até **36 metros** passa numa dessas salvaguardas, pode usar a **Reação** para obrigar **outra** criatura que vê a até 36 metros a fazer salvaguarda de Sabedoria contra sua CD; se falhar, fica Amedrontada ou Enfeitiçada (à sua escolha) por 1 minuto, repetindo a salvaguarda no fim de cada turno dela.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Andarilho Feérico",
+    "sub_curto": "Feérico"
+  },
+  {
+    "id": "reforcos-feericos",
+    "nome": "Reforços Feéricos",
+    "nome_en": "Fey Reinforcements",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 11,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "feérico",
+      "invocação"
+    ],
+    "resumo": "Convocar Feérico sem componente material, 1× grátis, e opcionalmente sem Concentração.",
+    "texto": "Você lança **Convocar Feérico** sem componente Material, e uma vez por Descanso Longo sem gastar espaço. Ao lançá-la, pode fazer com que não exija Concentração; nesse caso, dura 1 minuto.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Andarilho Feérico",
+    "sub_curto": "Feérico"
+  },
+  {
+    "id": "andarilho-nebuloso",
+    "nome": "Andarilho Nebuloso",
+    "nome_en": "Misty Wanderer",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 15,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "feérico",
+      "teleporte"
+    ],
+    "resumo": "Passo Nebuloso grátis (Sabedoria vezes) levando um aliado junto.",
+    "texto": "Você lança **Passo Nebuloso** sem gastar espaço um número de vezes igual ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo. Sempre que lançá-la, pode levar uma criatura voluntária que vê a até 1,5 metro; ela aparece num espaço livre à sua escolha a até 1,5 metro do seu destino.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Andarilho Feérico",
+    "sub_curto": "Feérico"
+  },
+  {
+    "id": "cacador",
+    "nome": "Caçador",
+    "nome_en": "Hunter",
+    "categoria": "classe",
+    "de": "guardiao",
+    "subclasse": "Caçador",
+    "sub_curto": "Caçador",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guardião",
+      "caçador",
+      "hunter"
+    ],
+    "resumo": "Guardião que protege a natureza e as pessoas caçando ameaças.",
+    "texto": "Você persegue presas nos ermos e onde mais for preciso, protegendo a natureza e as pessoas das forças que as destruiriam.\n\n- **Nível 3:** [[conhecimento-do-cacador]], [[presa-do-cacador]]\n- **Nível 7:** [[taticas-defensivas]]\n- **Nível 11:** [[presa-do-cacador-superior]]\n- **Nível 15:** [[defesa-do-cacador-superior]]",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa"
+  },
+  {
+    "id": "conhecimento-do-cacador",
+    "nome": "Conhecimento do Caçador",
+    "nome_en": "Hunter's Lore",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "caçador",
+      "marca do predador"
+    ],
+    "resumo": "Sabe Imunidades, Resistências e Vulnerabilidades do alvo da Marca do Predador.",
+    "texto": "Enquanto uma criatura estiver marcada pela sua **Marca do Predador**, você sabe se ela tem Imunidades, Resistências ou Vulnerabilidades, e quais são.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Caçador",
+    "sub_curto": "Caçador"
+  },
+  {
+    "id": "presa-do-cacador",
+    "nome": "Presa do Caçador",
+    "nome_en": "Hunter's Prey",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "caçador",
+      "colossos",
+      "hordas"
+    ],
+    "resumo": "Escolha Assassino de Colossos (+1d8 em alvo ferido) ou Destruidor de Hordas (ataque extra num vizinho).",
+    "texto": "Escolha uma opção; pode trocá-la num Descanso Curto ou Longo.\n\n- **Assassino de Colossos.** Uma vez por turno, ao acertar com arma uma criatura que não esteja com os PV máximos, cause **1d8** de dano extra.\n- **Destruidor de Hordas.** Uma vez em cada turno seu, ao atacar com uma arma, faça **outro ataque** com a mesma arma contra uma criatura diferente a até 1,5 metro do alvo original, dentro do alcance da arma, e que você ainda não atacou neste turno.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Caçador",
+    "sub_curto": "Caçador"
+  },
+  {
+    "id": "taticas-defensivas",
+    "nome": "Táticas Defensivas",
+    "nome_en": "Defensive Tactics",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 7,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "caçador",
+      "defesa"
+    ],
+    "resumo": "Escolha Defesa Contra Ataques Múltiplos ou Escapar de Hordas.",
+    "texto": "Escolha uma opção; pode trocá-la num Descanso Curto ou Longo.\n\n- **Defesa Contra Ataques Múltiplos.** Quando uma criatura acerta você com uma jogada de ataque, ela tem Desvantagem em todas as outras jogadas de ataque contra você neste turno.\n- **Escapar de Hordas.** [[ataque-de-oportunidade|Ataques de Oportunidade]] contra você têm Desvantagem.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Caçador",
+    "sub_curto": "Caçador"
+  },
+  {
+    "id": "presa-do-cacador-superior",
+    "nome": "Presa do Caçador Superior",
+    "nome_en": "Superior Hunter's Prey",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 11,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "caçador",
+      "marca do predador"
+    ],
+    "resumo": "O dano da Marca do Predador também atinge uma segunda criatura a 9 m.",
+    "texto": "Uma vez por turno, ao causar dano a uma criatura marcada pela sua **Marca do Predador**, você também pode causar o dano extra da magia a **outra** criatura que você vê a até 9 metros da primeira.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Caçador",
+    "sub_curto": "Caçador"
+  },
+  {
+    "id": "defesa-do-cacador-superior",
+    "nome": "Defesa do Caçador Superior",
+    "nome_en": "Superior Hunter's Defense",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 15,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "caçador",
+      "resistência",
+      "reação"
+    ],
+    "resumo": "Reação: Resistência ao dano recebido e a esse tipo até o fim do turno.",
+    "texto": "Ao sofrer dano, use a **Reação** para ter Resistência a esse dano e a qualquer outro do mesmo tipo até o fim do turno atual.",
+    "fonte": "SRD 5.2 · tradução para consulta de mesa",
+    "subclasse": "Caçador",
+    "sub_curto": "Caçador"
+  },
+  {
+    "id": "senhor-das-feras",
+    "nome": "Senhor das Feras",
+    "nome_en": "Beast Master",
+    "categoria": "classe",
+    "de": "guardiao",
+    "subclasse": "Senhor das Feras",
+    "sub_curto": "Feras",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guardião",
+      "fera",
+      "pet",
+      "beast master"
+    ],
+    "resumo": "Guardião com uma fera primal companheira.",
+    "texto": "Você forma um laço místico com uma fera especial, nascido da magia primal e da sua ligação com o mundo natural.\n\n- **Nível 3:** [[companheiro-primal]]\n- **Nível 7:** [[treinamento-excepcional]]\n- **Nível 11:** [[furia-bestial]]\n- **Nível 15:** [[compartilhar-magias]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "companheiro-primal",
+    "nome": "Companheiro Primal",
+    "nome_en": "Primal Companion",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "fera",
+      "companheiro",
+      "pet"
+    ],
+    "resumo": "Uma fera primal (terra, céu ou mar) que obedece você e luta no seu turno.",
+    "texto": "Você invoca uma **fera primal**. Escolha o bloco (Fera da Terra, do Céu ou do Mar) e o tipo de animal; ela tem sinais visíveis da origem sobrenatural. É Amigável a você e aos aliados, obedece seus comandos e some se você morrer.\n\n### Em combate\n- Age no **seu turno**. Pode se mover e usar a própria Reação, mas a única ação que faz sozinha é [[esquivar|Esquivar]].\n- Com uma **Ação Bônus**, você manda ela fazer uma ação do bloco dela ou outra ação.\n- Ao usar a ação [[atacar|Atacar]], você pode abrir mão de um dos seus ataques para ela fazer **Golpe da Fera**.\n- Se você estiver Incapacitado, ela age livremente.\n\n### Reviver ou trocar\n- Se morreu na última hora, toque nela com a ação [[acao-magia|Usar Magia]] e gaste um espaço de magia: ela volta após 1 minuto com todos os PV.\n- Ao terminar um Descanso Longo, você pode invocar outra fera (a anterior some).\n\n### Blocos de estatísticas\nTodas: CA **13 + sua Sabedoria**; Int 8, Sab 14, Car 11; Visão no Escuro 18 m; entendem seus idiomas; **Vínculo Primal** (somam seu Bônus de Proficiência a testes de atributo e salvaguardas); Golpe da Fera usa seu modificador de ataque mágico, alcance 1,5 m.\n\n| Fera | Tamanho | PV | Deslocamento | For/Des/Con | Golpe da Fera |\n|---|---|---|---|---|---|\n| Terra | Média | 5 + 5 × nível (d8) | 12 m, escalada 12 m | 14/14/15 | 1d8 + 2 + Sab (Contundente, Cortante ou Perfurante); se andou 6 m em linha até o alvo, +1d6 e derruba (Grande ou menor) |\n| Céu | Pequena | 4 + 5 × nível (d6) | 3 m, voo 18 m | 6/16/13 | 1d4 + 3 + Sab Cortante; **Sobrevoo:** não provoca Ataques de Oportunidade ao sair voando |\n| Mar | Média | 5 + 5 × nível (d8) | 1,5 m, natação 18 m | 14/14/15 | 1d6 + 2 + Sab (Contundente ou Perfurante) e o alvo fica Imobilizado (CD de fuga = sua CD); **Anfíbia** |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Senhor das Feras",
+    "sub_curto": "Feras"
+  },
+  {
+    "id": "treinamento-excepcional",
+    "nome": "Treinamento Excepcional",
+    "nome_en": "Exceptional Training",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 7,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "fera",
+      "ação bônus"
+    ],
+    "resumo": "A fera também pode Ajudar, Correr, Desengajar ou Esquivar como Ação Bônus; dano Energético.",
+    "texto": "Quando você usa a Ação Bônus para comandar o [[companheiro-primal|Companheiro Primal]], ele também pode usar a **Ação Bônus dele** para [[ajudar|Ajudar]], [[disparada|Correr]], [[desengajar|Desengajar]] ou [[esquivar|Esquivar]]. Quando ele acerta e causa dano, pode causar dano **Energético** ou o tipo normal.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Senhor das Feras",
+    "sub_curto": "Feras"
+  },
+  {
+    "id": "furia-bestial",
+    "nome": "Fúria Bestial",
+    "nome_en": "Bestial Fury",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 11,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "fera",
+      "dois ataques"
+    ],
+    "resumo": "Golpe da Fera duas vezes; dano extra contra alvo da Marca do Predador.",
+    "texto": "Quando você manda o [[companheiro-primal|Companheiro Primal]] usar **Golpe da Fera**, ele usa **duas vezes**. Na primeira vez em cada turno que ele acertar uma criatura marcada pela sua **Marca do Predador**, causa dano Energético extra igual ao dano bônus da magia.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Senhor das Feras",
+    "sub_curto": "Feras"
+  },
+  {
+    "id": "compartilhar-magias",
+    "nome": "Compartilhar Magias",
+    "nome_en": "Share Spells",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 15,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "fera",
+      "magias"
+    ],
+    "resumo": "Magias que você lança em si também afetam a fera a até 9 m.",
+    "texto": "Ao lançar uma magia em si mesmo, você pode fazer com que ela também afete o [[companheiro-primal|Companheiro Primal]], se ele estiver a até 9 metros.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Senhor das Feras",
+    "sub_curto": "Feras"
+  },
+  {
+    "id": "vigilante-das-sombras",
+    "nome": "Vigilante das Sombras",
+    "nome_en": "Gloom Stalker",
+    "categoria": "classe",
+    "de": "guardiao",
+    "subclasse": "Vigilante das Sombras",
+    "sub_curto": "Sombras",
+    "tipo": "subclasse",
+    "nivel": 3,
+    "tags": [
+      "subclasse",
+      "guardião",
+      "sombras",
+      "gloom stalker"
+    ],
+    "resumo": "Guardião das trevas: emboscadas e invisibilidade no escuro.",
+    "texto": "Vigilantes das Sombras atuam nos lugares mais escuros, usando magia tirada do Sombral para combater inimigos que se escondem na escuridão.\n\n- **Nível 3:** [[emboscador-das-sombras]], [[magias-vigilante-das-sombras]], [[visao-umbrosa]]\n- **Nível 7:** [[mente-de-ferro]]\n- **Nível 11:** [[torrente-do-vigilante]]\n- **Nível 15:** [[esquiva-sombria]]",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa"
+  },
+  {
+    "id": "emboscador-das-sombras",
+    "nome": "Emboscador das Sombras",
+    "nome_en": "Dread Ambusher",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "sombras",
+      "iniciativa",
+      "psíquico"
+    ],
+    "resumo": "Sabedoria na Iniciativa, +2d6 Psíquico algumas vezes e +3 m no primeiro turno.",
+    "texto": "- **Bônus de Iniciativa.** Some seu modificador de Sabedoria às jogadas de [[iniciativa|Iniciativa]].\n- **Golpe Terrível.** Ao acertar uma criatura com uma arma, cause **2d6** de dano **Psíquico** extra. Uma vez por turno, e um número de vezes igual ao seu modificador de Sabedoria (mínimo 1) por Descanso Longo.\n- **Impulso do Emboscador.** No início do seu primeiro turno de cada combate, seu Deslocamento aumenta em **3 metros** até o fim desse turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Vigilante das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "magias-vigilante-das-sombras",
+    "nome": "Magias do Vigilante das Sombras",
+    "nome_en": "Gloom Stalker Spells",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "sombras",
+      "magias"
+    ],
+    "resumo": "Magias sempre preparadas de sombra e medo.",
+    "texto": "| Nível | Magia |\n|---|---|\n| 3 | Disfarçar-se |\n| 5 | Corda Extradimensional |\n| 9 | Medo |\n| 13 | Invisibilidade Maior |\n| 17 | Similaridade |",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Vigilante das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "visao-umbrosa",
+    "nome": "Visão Umbrosa",
+    "nome_en": "Umbral Sight",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 3,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "sombras",
+      "visão no escuro",
+      "invisível"
+    ],
+    "resumo": "Visão no Escuro de 18 m; invisível para quem depende de Visão no Escuro.",
+    "texto": "Você ganha Visão no Escuro de **18 metros** (ou +18 metros, se já tiver). Enquanto estiver inteiramente na Escuridão, você fica [[invisivel|Invisível]] para criaturas que dependem de Visão no Escuro para ver você ali.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Vigilante das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "mente-de-ferro",
+    "nome": "Mente de Ferro",
+    "nome_en": "Iron Mind",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 7,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "sombras",
+      "salvaguarda"
+    ],
+    "resumo": "Proficiência em salvaguardas de Sabedoria (ou Int/Car, se já tiver).",
+    "texto": "Você ganha proficiência em salvaguardas de **Sabedoria**. Se já tiver, escolha Inteligência ou Carisma.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Vigilante das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "torrente-do-vigilante",
+    "nome": "Torrente do Vigilante",
+    "nome_en": "Stalker's Flurry",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 11,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "sombras",
+      "ataque extra",
+      "medo"
+    ],
+    "resumo": "Golpe Terrível vira 2d8 e ganha um efeito: ataque extra ou medo em área.",
+    "texto": "O dano Psíquico do Golpe Terrível ([[emboscador-das-sombras|Emboscador das Sombras]]) passa a **2d8**. Ao usá-lo, você também pode escolher um efeito:\n\n- **Golpe repentino.** Faça outro ataque com a mesma arma contra uma criatura diferente a até 1,5 metro do alvo original e dentro do alcance da arma.\n- **Medo em massa.** O alvo e cada criatura a até 3 metros dele fazem salvaguarda de Sabedoria contra sua CD; quem falhar fica [[amedrontado|Amedrontado]] até o início do seu próximo turno.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Vigilante das Sombras",
+    "sub_curto": "Sombras"
+  },
+  {
+    "id": "esquiva-sombria",
+    "nome": "Esquiva Sombria",
+    "nome_en": "Shadowy Dodge",
+    "categoria": "classe",
+    "de": "guardiao",
+    "nivel": 15,
+    "tags": [
+      "guardião",
+      "patrulheiro",
+      "ranger",
+      "sombras",
+      "reação",
+      "teleporte"
+    ],
+    "resumo": "Reação: Desvantagem num ataque contra você e teleporte de 9 m.",
+    "texto": "Quando uma criatura faz uma jogada de ataque contra você, use a **Reação** para impor **Desvantagem**. Acertando ou errando, você pode depois se teleportar até **9 metros** para um espaço livre que veja.",
+    "fonte": "Livro do Jogador (2024) · resumo das regras com outras palavras, para consulta de mesa",
+    "subclasse": "Vigilante das Sombras",
+    "sub_curto": "Sombras"
+  }
+]
