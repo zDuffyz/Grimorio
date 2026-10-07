@@ -12,13 +12,27 @@
   };
   var ORDEM_CAT = ["regra", "condicao", "acao", "magia", "classe"];
   var FONTE_PADRAO = "SRD 5.2 · tradução para consulta de mesa";
+  // Abas seguindo os capítulos do Livro do Jogador
+  var ABAS = [
+    { id: "jogo",      cap: "Cap. 1", nome: "Jogando o Jogo" },
+    { id: "classes",   cap: "Cap. 3", nome: "Classes" },
+    { id: "talentos",  cap: "Cap. 5", nome: "Talentos" },
+    { id: "magias",    cap: "Cap. 7", nome: "Magias" },
+    { id: "favoritos", cap: "Seus",   nome: "★ Favoritos" }
+  ];
+  function capitulo(e) {
+    if (e.capitulo) return e.capitulo;
+    if (e.categoria === "classe") return "classes";
+    if (e.categoria === "magia") return "magias";
+    return "jogo";
+  }
+  var NOMES_OPCOES = { "Invocação": "Invocações Místicas", "Metamagia": "Opções de Metamagia", "Manobra": "Manobras" };
 
   var estado = {
     entradas: [],
     porId: {},
     versao: null,
-    filtro: "todas",
-    nivel: null,
+    aba: "jogo",
     busca: "",
     scrollLista: 0,
     veioDaLista: false,
@@ -66,7 +80,8 @@
     return linha.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map(function (c) { return c.trim(); });
   }
 
-  function formatar(texto) {
+  function formatar(texto, aninhado) {
+    var hTag = aninhado ? "h4" : "h3";
     var linhas = String(texto || "").split("\n");
     var html = [];
     var i = 0;
@@ -74,7 +89,7 @@
       var l = linhas[i];
       if (!l.trim()) { i++; continue; }
       if (l.indexOf("### ") === 0) {
-        html.push("<h3>" + inline(l.slice(4)) + "</h3>"); i++; continue;
+        html.push("<" + hTag + ">" + inline(l.slice(4)) + "</" + hTag + ">"); i++; continue;
       }
       if (l.indexOf("- ") === 0) {
         var itens = [];
@@ -165,19 +180,10 @@
   }
 
   function resultados() {
-    var lista = estado.entradas.filter(function (e) {
-      if (estado.filtro === "favoritos") return favoritos.indexOf(e.id) >= 0;
-      if (estado.filtro !== "todas" && e.categoria !== estado.filtro) return false;
-      if (estado.filtro === "magia" && estado.nivel !== null && (!e.magia || e.magia.nivel !== estado.nivel)) return false;
-      return true;
-    });
     var consulta = normalizar(estado.busca).trim();
-    if (!consulta) {
-      if (estado.filtro !== "favoritos") lista = lista.filter(function (e) { return !e.de; });
-      return lista.sort(ordenarPadrao);
-    }
+    if (!consulta) return [];
     var termos = consulta.split(/\s+/);
-    return lista
+    return estado.entradas
       .map(function (e) { return { e: e, p: pontuar(e, consulta, termos) }; })
       .filter(function (r) { return r.p > 0; })
       .sort(function (a, b) { return b.p - a.p || ordenarPadrao(a.e, b.e); })
@@ -217,38 +223,117 @@
       '<span class="item-lado">' + esc(lado) + fav + "</span></a></li>";
   }
 
+  function renderAbas() {
+    var nav = document.getElementById("abas");
+    if (!nav) return;
+    var buscando = !!estado.busca.trim();
+    nav.innerHTML = ABAS.map(function (a) {
+      var ativa = !buscando && estado.aba === a.id;
+      return '<button type="button" class="aba" data-aba="' + a.id + '" aria-pressed="' + ativa + '">' +
+        '<span class="aba-cap">' + esc(a.cap) + '</span><span class="aba-nome">' + esc(a.nome) + "</span></button>";
+    }).join("");
+    var ativa = nav.querySelector('[aria-pressed="true"]');
+    if (ativa) nav.scrollLeft = Math.max(0, ativa.offsetLeft - 8);
+  }
+
+  function secao(titulo, itens, extra) {
+    if (!itens.length) return "";
+    return '<section class="secao"><h2 class="secao-titulo">' + esc(titulo) + '<span class="n">' + itens.length + "</span></h2>" +
+      (extra || "") + '<ul class="lista">' + itens.map(itemLista).join("") + "</ul></section>";
+  }
+
+  function porCapitulo(cap) {
+    return estado.entradas.filter(function (e) { return capitulo(e) === cap && !e.de; });
+  }
+
   function vistaLista() {
-    var res = resultados();
-    var filtros = chip("todas", "Tudo", estado.filtro === "todas", contar(null)) +
-      ORDEM_CAT.map(function (c) { return chip(c, CATEGORIAS[c].plural, estado.filtro === c, contar(c)); }).join("") +
-      chip("favoritos", "★ Favoritos", estado.filtro === "favoritos", favoritos.filter(function (id) { return estado.porId[id]; }).length);
-
-    var niveis = "";
-    if (estado.filtro === "magia") {
-      var ns = [];
-      estado.entradas.forEach(function (e) { if (e.magia && ns.indexOf(e.magia.nivel) < 0) ns.push(e.magia.nivel); });
-      ns.sort(function (a, b) { return a - b; });
-      niveis = '<div class="filtros" role="group" aria-label="Nível da magia">' +
-        chip("todos", "Todos os níveis", estado.nivel === null, undefined, "data-nivel") +
-        ns.map(function (n) { return chip(String(n), rotuloNivel(n), estado.nivel === n, undefined, "data-nivel"); }).join("") + "</div>";
-    }
-
-    var cabecalho = estado.busca.trim()
-      ? res.length + (res.length === 1 ? " resultado" : " resultados") + " para “" + esc(estado.busca.trim()) + "”"
-      : res.length + (res.length === 1 ? " entrada" : " entradas");
-
-    var corpo;
-    if (res.length) {
-      corpo = '<ul class="lista">' + res.map(itemLista).join("") + "</ul>";
-    } else if (estado.filtro === "favoritos" && !estado.busca.trim()) {
-      corpo = '<p class="vazio">Nenhum favorito ainda. Abra uma regra e toque na estrela para guardá-la aqui.</p>';
+    renderAbas();
+    var html = "";
+    if (estado.busca.trim()) {
+      var res = resultados();
+      html = '<p class="contagem">' + res.length + (res.length === 1 ? " resultado" : " resultados") + " para “" + esc(estado.busca.trim()) + "” em todos os capítulos</p>" +
+        (res.length ? '<ul class="lista">' + res.map(itemLista).join("") + "</ul>"
+                    : '<p class="vazio">Nada encontrado. Tente outra palavra ou o nome em inglês.</p>');
+    } else if (estado.aba === "jogo") {
+      var jogo = porCapitulo("jogo").sort(ordenarPadrao);
+      html = '<header class="cap-cab"><span class="cap-num">Capítulo 1</span><h2>Jogando o Jogo</h2></header>' +
+        secao("Regras", jogo.filter(function (e) { return e.categoria === "regra"; })) +
+        secao("Ações", jogo.filter(function (e) { return e.categoria === "acao"; })) +
+        secao("Condições", jogo.filter(function (e) { return e.categoria === "condicao"; }));
+    } else if (estado.aba === "classes") {
+      var classes = porCapitulo("classes").sort(ordenarPadrao);
+      html = '<header class="cap-cab"><span class="cap-num">Capítulo 3</span><h2>Classes de Personagem</h2></header>' +
+        '<ul class="lista">' + classes.map(function (c) {
+          var subs = estado.entradas.filter(function (s) { return s.de === c.id && s.tipo === "subclasse"; })
+            .sort(function (a, b) { return a.nome.localeCompare(b.nome, "pt-BR"); });
+          return itemLista(c).replace("</a></li>", "</a>" +
+            '<div class="subs">' + subs.map(function (s) { return '<a class="chip" href="#' + s.id + '">' + esc(s.sub_curto || s.nome) + "</a>"; }).join("") + "</div></li>");
+        }).join("") + "</ul>";
+    } else if (estado.aba === "talentos") {
+      html = '<header class="cap-cab"><span class="cap-num">Capítulo 5</span><h2>Talentos</h2></header>' +
+        secao("Talentos", porCapitulo("talentos").sort(ordenarPadrao));
+    } else if (estado.aba === "magias") {
+      var magias = porCapitulo("magias").sort(ordenarPadrao);
+      var niveis = [];
+      magias.forEach(function (m) { if (niveis.indexOf(m.magia.nivel) < 0) niveis.push(m.magia.nivel); });
+      html = '<header class="cap-cab"><span class="cap-num">Capítulo 7</span><h2>Magias</h2></header>' +
+        niveis.map(function (n) {
+          return secao(n === 0 ? "Truques" : n + "º círculo", magias.filter(function (m) { return m.magia.nivel === n; }));
+        }).join("");
     } else {
-      corpo = '<p class="vazio">Nada encontrado. Tente outra palavra, o nome em inglês ou limpe os filtros.</p>';
+      var favs = favoritos.map(function (id) { return estado.porId[id]; }).filter(Boolean);
+      html = '<header class="cap-cab"><span class="cap-num">Seus</span><h2>Favoritos</h2></header>' +
+        (favs.length ? '<ul class="lista">' + favs.map(itemLista).join("") + "</ul>"
+                     : '<p class="vazio">Nenhum favorito ainda. Abra uma regra e toque na estrela para guardá-la aqui.</p>');
     }
+    app.innerHTML = '<div class="vista">' + html + "</div>";
+  }
 
-    app.innerHTML = '<div class="vista">' +
-      '<div class="filtros" role="group" aria-label="Categoria">' + filtros + "</div>" + niveis +
-      '<p class="contagem">' + cabecalho + "</p>" + corpo + "</div>";
+  // Características escritas por extenso dentro da ficha da classe ou subclasse
+  function blocoCarac(f) {
+    return '<section class="carac" id="c-' + f.id + '">' +
+      '<h3 class="carac-titulo"><span class="carac-nivel">Nível ' + (f.nivel || "") + '</span>' +
+      '<a href="#' + f.id + '">' + esc(f.nome) + "</a></h3>" +
+      '<div class="carac-corpo">' + formatar(f.texto, true) + "</div></section>";
+  }
+
+  function blocoOpcoes(lista) {
+    var grupos = {};
+    lista.forEach(function (f) { (grupos[f.sub_curto] = grupos[f.sub_curto] || []).push(f); });
+    return Object.keys(grupos).map(function (g) {
+      var itens = grupos[g].sort(function (a, b) { return a.nome.localeCompare(b.nome, "pt-BR"); });
+      return '<details class="opcoes"><summary>' + esc(NOMES_OPCOES[g] || g) + ' <span class="n">' + itens.length + "</span></summary>" +
+        itens.map(function (f) {
+          return '<section class="opcao" id="c-' + f.id + '"><h4><a href="#' + f.id + '">' + esc(f.nome) + "</a></h4>" + formatar(f.texto, true) + "</section>";
+        }).join("") + "</details>";
+    }).join("");
+  }
+
+  function porNivel(a, b) { return (a.nivel || 0) - (b.nivel || 0) || a.nome.localeCompare(b.nome, "pt-BR"); }
+
+  function corpoClasse(e) {
+    var texto = String(e.texto || "");
+    if (!e.de) {
+      // Ficha da classe: troca a lista de links pelas características completas
+      var iCar = texto.indexOf("### Características"), iSub = texto.indexOf("### Subclasses");
+      var antes = iCar >= 0 ? texto.slice(0, iCar) : texto;
+      var subs = iSub >= 0 ? texto.slice(iSub) : "";
+      var feats = estado.entradas.filter(function (f) { return f.de === e.id && !f.subclasse && f.tipo !== "subclasse"; });
+      var nucleo = feats.filter(function (f) { return !f.sub_curto; }).sort(porNivel);
+      var opcoes = feats.filter(function (f) { return f.sub_curto; });
+      return formatar(antes) +
+        '<h3>Características da classe</h3>' + nucleo.map(blocoCarac).join("") + blocoOpcoes(opcoes) +
+        formatar(subs);
+    }
+    // Ficha da subclasse: introdução + todas as características por nível
+    var corte = texto.indexOf("\n\n- **Nível");
+    var intro = corte >= 0 ? texto.slice(0, corte) : texto;
+    var todas = estado.entradas.filter(function (f) { return f.subclasse === e.subclasse && f.tipo !== "subclasse" && f.de === e.de; });
+    var proprias = todas.filter(function (f) { return !f.sub_curto || f.sub_curto === e.sub_curto; }).sort(porNivel);
+    var opcoesS = todas.filter(function (f) { return f.sub_curto && f.sub_curto !== e.sub_curto; });
+    var classe = estado.porId[e.de];
+    return formatar(intro) + proprias.map(blocoCarac).join("") + blocoOpcoes(opcoesS) +
+      (classe ? '<p class="volta-classe">Classe: <a class="ref" href="#' + classe.id + '">' + esc(classe.nome) + "</a></p>" : "");
   }
 
   function vistaFicha(e) {
@@ -277,6 +362,8 @@
       .map(function (o) { return o.id; });
     var rel = saindo.concat(chegando);
     if (e.categoria === "classe" && (!e.de || e.tipo === "subclasse")) rel = []; // a ficha já lista tudo
+    var pai = e.de && e.tipo !== "subclasse" ? (e.subclasse ? estado.entradas.filter(function (s) { return s.tipo === "subclasse" && s.subclasse === e.subclasse && s.de === e.de; })[0] : estado.porId[e.de]) : null;
+    if (pai) rel = [pai.id].concat(rel.filter(function (id) { return id !== pai.id; }));
     var relacionados = rel.length
       ? '<section class="relacionados"><h3>Veja também</h3><div>' +
         rel.map(function (id) { var o = estado.porId[id]; return '<a class="chip" href="#' + id + '">' + esc(o.nome) + "</a>"; }).join("") +
@@ -291,7 +378,7 @@
       (e.nome_en ? '<div class="ficha-en">' + esc(e.nome_en) + "</div>" : "") +
       '</div><button type="button" class="favoritar" id="favoritar" aria-pressed="' + fav + '" aria-label="' + (fav ? "Remover dos favoritos" : "Adicionar aos favoritos") + '">' + (fav ? "★" : "☆") + "</button></header>" +
       bloco +
-      '<div class="corpo">' + formatar(e.texto) + "</div>" +
+      '<div class="corpo">' + (e.categoria === "classe" && (!e.de || e.tipo === "subclasse") ? corpoClasse(e) : formatar(e.texto)) + "</div>" +
       relacionados +
       '<p class="fonte-ficha">Fonte: ' + esc(e.fonte || FONTE_PADRAO) + ".</p>" +
       "</article>";
@@ -316,7 +403,7 @@
     var rota = rotaAtual();
     if (rota === "sobre") { vistaSobre(); window.scrollTo(0, 0); return; }
     var e = estado.porId[rota];
-    if (e) { vistaFicha(e); window.scrollTo(0, 0); return; }
+    if (e) { estado.aba = capitulo(e); renderAbas(); vistaFicha(e); window.scrollTo(0, 0); return; }
     vistaLista();
     window.scrollTo(0, estado.scrollLista);
   }
@@ -348,19 +435,16 @@
       vistaFicha(estado.porId[id]);
       return;
     }
-    if (alvo.hasAttribute("data-filtro")) {
-      estado.filtro = alvo.getAttribute("data-filtro");
-      estado.nivel = null;
-      estado.scrollLista = 0;
-      gravar("grimorio:filtro", estado.filtro);
-      vistaLista();
-      return;
-    }
-    if (alvo.hasAttribute("data-nivel")) {
-      var n = alvo.getAttribute("data-nivel");
-      estado.nivel = n === "todos" ? null : Number(n);
-      vistaLista();
-    }
+  });
+
+  document.getElementById("abas").addEventListener("click", function (ev) {
+    var b = ev.target.closest("[data-aba]");
+    if (!b) return;
+    estado.aba = b.getAttribute("data-aba");
+    gravar("grimorio:aba", estado.aba);
+    estado.scrollLista = 0;
+    if (estado.busca) { campoBusca.value = ""; estado.busca = ""; botaoLimpar.hidden = true; }
+    if (rotaAtual() !== "") location.hash = ""; else { vistaLista(); window.scrollTo(0, 0); }
   });
 
   campoBusca.addEventListener("input", function () {
@@ -371,7 +455,7 @@
   });
   campoBusca.addEventListener("keydown", function (ev) {
     if (ev.key === "Escape") { campoBusca.value = ""; campoBusca.dispatchEvent(new Event("input")); }
-    if (ev.key === "Enter") {
+    if (ev.key === "Enter" && estado.busca.trim()) {
       var r = resultados();
       if (r.length) { campoBusca.blur(); location.hash = r[0].id; }
     }
@@ -437,8 +521,8 @@
     });
   }
 
-  var filtroSalvo = ler("grimorio:filtro", "todas");
-  if (filtroSalvo === "todas" || filtroSalvo === "favoritos" || CATEGORIAS[filtroSalvo]) estado.filtro = filtroSalvo;
+  var abaSalva = ler("grimorio:aba", "jogo");
+  if (ABAS.some(function (a) { return a.id === abaSalva; })) estado.aba = abaSalva;
   carregar(false);
 
   // Ao voltar para o app depois de um tempo, verifica se há conteúdo novo

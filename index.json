@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.06-3",
-  "notas": "Novo: as 12 classes do Livro do Jogador 2024 com todas as subclasses, Estilos de Luta e correções de regras.",
+  "versao": "2026.10.06-4",
+  "notas": "Novo visual com abas por capítulo; classes e subclasses mostram todas as características na própria ficha.",
   "arquivos": [
     "regras.json",
     "condicoes.json",
