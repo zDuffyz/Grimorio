@@ -1,0 +1,975 @@
+[
+ {
+  "id": "animais-introducao",
+  "nome": "Animais (Apêndice A)",
+  "nome_en": "Animals",
+  "categoria": "regra",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "O Apêndice A traz Feras reais e suas versões gigantes ou fantásticas; use-as também para bichos parecidos.",
+  "texto": "O Apêndice A do *Livro dos Monstros* reúne, em ordem alfabética, as fichas de animais do tipo Fera, junto com muitos parentes gigantes ou míticos deles (veja [[tipo-de-criatura|Tipo de Criatura]]). A maioria corresponde a animais que existem ou já existiram no mundo real.\n\n### Reaproveitando fichas\n\nUma ficha serve tanto para o animal do nome quanto para criaturas parecidas. Exemplos do livro:\n\n- a ficha de **Pantera** também vale para um puma (leão-da-montanha);\n- a de **Cabra Gigante** pode representar um búfalo.\n\nVocê também pode usar qualquer uma delas como um animal fantástico do seu mundo, só trocando o nome e a aparência.\n\n### Animais fantásticos\n\nAlgumas fichas do apêndice são versões fantásticas de animais reais:\n\n- **Gavião Sangrento:** aves parecidas com gaviões, agressivas demais e famosas por roubar gemas.\n- **Cobra Voadora:** serpentes aladas e venenosas, muitas vezes treinadas como mensageiras.\n- **Águia Gigante:** águias poderosas que ajudam heróis.\n- **Alce Gigante:** guardiões místicos da floresta.\n- **Besouro de Fogo Gigante:** besouros luminosos que vivem em cavernas.\n- **Coruja Gigante:** aves sábias e videntes.\n- **Abutre Gigante:** abutres cruéis a serviço de vilões.",
+  "tags": [
+   "animal",
+   "animals",
+   "fera",
+   "apêndice a",
+   "animais fantásticos"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-alossauro",
+  "nome": "Alossauro",
+  "nome_en": "Allosaurus",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera (Dinossauro) Grande, ND 2. Predador veloz: investida com Garras derruba e emenda uma Mordida.",
+  "texto": "*Fera (Dinossauro) Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +1 (11) |\n| PV | 51 (6d10 + 18) |\n| Deslocamento | 18 m |\n| Atributos | For 19 (+4), Des 13 (+1), Con 17 (+3), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Perícias | Percepção +5 |\n| Sentidos | Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 15 (2d10 + 4) de dano Perfurante.\n\n**Garras.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 8 (1d8 + 4) de dano Cortante. Se o alvo for Grande ou menor e o alossauro tiver se movido 9 metros ou mais em linha reta na direção dele logo antes do acerto, o alvo recebe a condição [[caido|Caído]] e o alossauro pode fazer um ataque de Mordida contra ele.",
+  "tags": [
+   "animal",
+   "allosaurus",
+   "dinossauro",
+   "alossauro"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-anquilossauro",
+  "nome": "Anquilossauro",
+  "nome_en": "Ankylosaurus",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera (Dinossauro) Enorme, ND 3. Couraçado; dois golpes de Cauda por turno que derrubam.",
+  "texto": "*Fera (Dinossauro) Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 15 |\n| Iniciativa | +0 (10) |\n| PV | 68 (8d12 + 16) |\n| Deslocamento | 9 m |\n| Atributos | For 19 (+4), Des 11 (+0), Con 15 (+2), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Salvaguardas | For +6 |\n| Sentidos | Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 3 (XP 700; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O anquilossauro faz dois ataques de Cauda.\n\n**Cauda.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 3 m. *Acerto:* 9 (1d10 + 4) de dano Contundente. Se o alvo for Enorme ou menor, recebe a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "ankylosaurus",
+   "dinossauro",
+   "anquilossauro"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-arquelonte",
+  "nome": "Arquelonte",
+  "nome_en": "Archelon",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera (Dinossauro) Enorme, ND 4. Tartaruga marinha pré-histórica, anfíbia, com duas Mordidas.",
+  "texto": "*Fera (Dinossauro) Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 17 |\n| Iniciativa | +3 (13) |\n| PV | 90 (12d12 + 12) |\n| Deslocamento | 6 m, Natação 24 m |\n| Atributos | For 18 (+4), Des 16 (+3), Con 13 (+1), Int 4 (–3), Sab 14 (+2), Car 6 (–2) |\n| Perícias | Furtividade +5 |\n| Sentidos | Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 4 (XP 1.100; BP +2) |\n\n### Traços\n\n**Anfíbio.** O arquelonte respira tanto ar quanto água.\n\n### Ações\n\n**Ataques Múltiplos.** O arquelonte faz dois ataques de Mordida.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 14 (3d6 + 4) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "archelon",
+   "dinossauro",
+   "tartaruga",
+   "marinho"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-babuino",
+  "nome": "Babuíno",
+  "nome_en": "Baboon",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Pequena, ND 0. Primata que anda em bando e ataca com Táticas de Grupo.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 3 (1d6) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 8 (–1), Des 14 (+2), Con 11 (+0), Int 4 (–3), Sab 12 (+1), Car 6 (–2) |\n| Sentidos | Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** O babuíno tem [[vantagem|Vantagem]] numa jogada de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 metro dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +1 para acertar, alcance 1,5 m. *Acerto:* 1 (1d4 – 1) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "baboon",
+   "macaco",
+   "primata"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-gaviao-sangrento",
+  "nome": "Gavião Sangrento",
+  "nome_en": "Blood Hawk",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Pequena, ND 1/8. Ave agressiva que caça em bando e bica mais forte quem está Sangrando.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 7 (2d6) |\n| Deslocamento | 3 m, Voo 18 m |\n| Atributos | For 6 (–2), Des 14 (+2), Con 10 (+0), Int 3 (–4), Sab 14 (+2), Car 5 (–3) |\n| Perícias | Percepção +6 |\n| Sentidos | Percepção Passiva 16 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** O gavião tem [[vantagem|Vantagem]] numa jogada de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 metro dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Bico.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Perfurante, ou 6 (1d8 + 2) de dano Perfurante se o alvo estiver [[sangrando|Sangrando]].",
+  "tags": [
+   "animal",
+   "blood hawk",
+   "ave",
+   "gavião",
+   "fantástico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-cervo",
+  "nome": "Cervo",
+  "nome_en": "Deer",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média, ND 0. Ágil: sai do alcance dos inimigos sem provocar Ataque de Oportunidade.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 4 (1d8) |\n| Deslocamento | 15 m |\n| Atributos | For 11 (+0), Des 16 (+3), Con 11 (+0), Int 2 (–4), Sab 14 (+2), Car 5 (–3) |\n| Perícias | Percepção +4 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 14 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Ágil.** O cervo não provoca [[ataque-de-oportunidade|Ataque de Oportunidade]] ao sair do alcance de um inimigo.\n\n### Ações\n\n**Chifrada.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 2 (1d4) de dano Contundente.",
+  "tags": [
+   "animal",
+   "deer",
+   "veado",
+   "corça"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-aguia",
+  "nome": "Águia",
+  "nome_en": "Eagle",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Pequena, ND 0. Ave de rapina de visão aguçada (Percepção +6) que ataca com as Garras.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 4 (1d6 + 1) |\n| Deslocamento | 3 m, Voo 18 m |\n| Atributos | For 6 (–2), Des 15 (+2), Con 12 (+1), Int 2 (–4), Sab 14 (+2), Car 7 (–2) |\n| Perícias | Percepção +6 |\n| Sentidos | Percepção Passiva 16 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Garras.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Cortante.",
+  "tags": [
+   "animal",
+   "eagle",
+   "ave",
+   "rapina"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-cobra-voadora",
+  "nome": "Cobra Voadora",
+  "nome_en": "Flying Snake",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Monstruosidade Minúscula, ND 1/8. Serpente alada e venenosa; voa sem provocar Ataque de Oportunidade.",
+  "texto": "*Monstruosidade Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +2 (12) |\n| PV | 5 (2d4) |\n| Deslocamento | 9 m, Voo 18 m, Natação 9 m |\n| Atributos | For 4 (–3), Des 15 (+2), Con 11 (+0), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Sentidos | Visão às Cegas 3 m, Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Traços\n\n**Voo Rasante.** A cobra não provoca [[ataque-de-oportunidade|Ataque de Oportunidade]] ao sair voando do alcance de um inimigo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Perfurante mais 5 (2d4) de dano Venenoso.",
+  "tags": [
+   "animal",
+   "flying snake",
+   "serpente",
+   "mensageira",
+   "fantástico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-gorila-gigante",
+  "nome": "Gorila Gigante",
+  "nome_en": "Giant Ape",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme, ND 7. Socos de 3 m de alcance, arremesso de pedregulho em área e saltos enormes.",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +5 (15) |\n| PV | 168 (16d12 + 64) |\n| Deslocamento | 12 m, Escalada 12 m |\n| Atributos | For 23 (+6), Des 14 (+2), Con 18 (+4), Int 5 (–3), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Atletismo +9, Percepção +4, Sobrevivência +4 |\n| Sentidos | Percepção Passiva 14 |\n| Idiomas | — |\n| ND | 7 (XP 2.900; BP +3) |\n\n### Ações\n\n**Ataques Múltiplos.** O gorila faz dois ataques de Soco.\n\n**Soco.** *Jogada de Ataque Corpo a Corpo:* +9 para acertar, alcance 3 m. *Acerto:* 22 (3d10 + 6) de dano Contundente.\n\n**Arremessar Pedregulho (Recarga 6).** O gorila atira um pedregulho num ponto que consiga ver a até 27 metros. *Salvaguarda de Destreza:* CD 17, cada criatura numa Esfera de 1,5 metro de raio centrada nesse ponto. *Falha:* 24 (7d6) de dano Contundente, e o alvo Grande ou menor recebe a condição [[caido|Caído]]. *Sucesso:* só metade do dano.\n\n### Ações Bônus\n\n**Salto.** O gorila salta até 9 metros gastando 3 metros de movimento.",
+  "tags": [
+   "animal",
+   "giant ape",
+   "macaco gigante",
+   "gorila",
+   "primata"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-morcego-gigante",
+  "nome": "Morcego Gigante",
+  "nome_en": "Giant Bat",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 1/4. Voador que se guia por Visão às Cegas de 36 m.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 22 (4d10) |\n| Deslocamento | 3 m, Voo 18 m |\n| Atributos | For 15 (+2), Des 16 (+3), Con 11 (+0), Int 2 (–4), Sab 12 (+1), Car 6 (–2) |\n| Sentidos | Visão às Cegas 36 m, Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 6 (1d6 + 3) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "giant bat",
+   "morcego",
+   "montaria voadora"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-javali-gigante",
+  "nome": "Javali Gigante",
+  "nome_en": "Giant Boar",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 2. Investida com presas derruba; fica mais perigoso quando está Sangrando.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +0 (10) |\n| PV | 42 (5d10 + 15) |\n| Deslocamento | 12 m |\n| Atributos | For 17 (+3), Des 10 (+0), Con 16 (+3), Int 2 (–4), Sab 7 (–2), Car 5 (–3) |\n| Salvaguardas | For +5 |\n| Sentidos | Percepção Passiva 8 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Traços\n\n**Fúria Sangrenta.** Enquanto estiver [[sangrando|Sangrando]], o javali tem [[vantagem|Vantagem]] nas jogadas de ataque corpo a corpo.\n\n### Ações\n\n**Presas.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 10 (2d6 + 3) de dano Perfurante. Se o alvo for Grande ou menor e o javali tiver se movido 6 metros ou mais em linha reta na direção dele logo antes do acerto, o alvo sofre 7 (2d6) de dano Perfurante extra e recebe a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "giant boar",
+   "javali",
+   "porco selvagem"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-centopeia-gigante",
+  "nome": "Centopeia Gigante",
+  "nome_en": "Giant Centipede",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Pequena, ND 1/4. A mordida deixa o alvo Envenenado até o próximo turno dela.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +2 (12) |\n| PV | 9 (2d6 + 2) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 5 (–3), Des 14 (+2), Con 12 (+1), Int 1 (–5), Sab 7 (–2), Car 3 (–4) |\n| Sentidos | Visão às Cegas 9 m, Percepção Passiva 8 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 4 (1d4 + 2) de dano Perfurante, e o alvo fica com a condição [[envenenado|Envenenado]] até o início do próximo turno da centopeia.",
+  "tags": [
+   "animal",
+   "giant centipede",
+   "centopeia",
+   "inseto",
+   "veneno"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-cobra-constritora-gigante",
+  "nome": "Cobra Constritora Gigante",
+  "nome_en": "Giant Constrictor Snake",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme, ND 2. Morde e esmaga no mesmo turno, deixando a vítima Imobilizada (CD 14).",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 60 (8d12 + 8) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 19 (+4), Des 14 (+2), Con 12 (+1), Int 1 (–5), Sab 10 (+0), Car 3 (–4) |\n| Perícias | Percepção +2 |\n| Sentidos | Visão às Cegas 3 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** A cobra faz um ataque de Mordida e usa Constringir.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 3 m. *Acerto:* 11 (2d6 + 4) de dano Perfurante.\n\n**Constringir.** *Salvaguarda de Força:* CD 14, uma criatura Grande ou menor que a cobra consiga ver a até 3 metros. *Falha:* 13 (2d8 + 4) de dano Contundente, e o alvo recebe a condição [[agarrado|Imobilizado]] (CD 14 para escapar).",
+  "tags": [
+   "animal",
+   "giant constrictor snake",
+   "serpente",
+   "sucuri",
+   "jiboia"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-crocodilo-gigante",
+  "nome": "Crocodilo Gigante",
+  "nome_en": "Giant Crocodile",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme, ND 5. Mordida que prende e deixa Contido; rabada de 3 m que derruba.",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | –1 (9) |\n| PV | 85 (9d12 + 27) |\n| Deslocamento | 9 m, Natação 15 m |\n| Atributos | For 21 (+5), Des 9 (–1), Con 17 (+3), Int 2 (–4), Sab 10 (+0), Car 7 (–2) |\n| Perícias | Furtividade +5 |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 5 (XP 1.800; BP +3) |\n\n### Traços\n\n**Prender a Respiração.** O crocodilo consegue prender a respiração por 1 hora.\n\n### Ações\n\n**Ataques Múltiplos.** O crocodilo faz um ataque de Mordida e um de Cauda.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +8 para acertar, alcance 1,5 m. *Acerto:* 21 (3d10 + 5) de dano Perfurante. Se o alvo for Grande ou menor, recebe a condição [[agarrado|Imobilizado]] (CD 15 para escapar). Enquanto estiver Imobilizado assim, o alvo fica com a condição [[impedido|Contido]] e não pode ser alvo da Cauda do crocodilo.\n\n**Cauda.** *Jogada de Ataque Corpo a Corpo:* +8 para acertar, alcance 3 m. *Acerto:* 18 (3d8 + 5) de dano Contundente. Se o alvo for Grande ou menor, recebe a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "giant crocodile",
+   "crocodilo",
+   "jacaré",
+   "aquático"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-aguia-gigante",
+  "nome": "Águia Gigante",
+  "nome_en": "Giant Eagle",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Celestial Grande, ND 1. Águia nobre que ajuda heróis; garras com dano Radiante extra.",
+  "texto": "*Celestial Grande, Neutro e Bom*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 26 (4d10 + 4) |\n| Deslocamento | 3 m, Voo 24 m |\n| Atributos | For 16 (+3), Des 17 (+3), Con 13 (+1), Int 8 (–1), Sab 14 (+2), Car 10 (+0) |\n| Perícias | Percepção +6 |\n| Resistências | Necrótico, Radiante |\n| Sentidos | Percepção Passiva 16 |\n| Idiomas | Celestial; entende Comum e Primordial (Auran), mas não fala |\n| ND | 1 (XP 200; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** A águia faz dois ataques de Rasgar.\n\n**Rasgar.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Cortante mais 3 (1d6) de dano Radiante.",
+  "tags": [
+   "animal",
+   "giant eagle",
+   "ave",
+   "celestial",
+   "montaria voadora",
+   "fantástico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-alce-gigante",
+  "nome": "Alce Gigante",
+  "nome_en": "Giant Elk",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Celestial Enorme, ND 2. Guardião místico da floresta; investida com chifres derruba e causa dano Radiante.",
+  "texto": "*Celestial Enorme, Neutro e Bom*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +6 (16) |\n| PV | 42 (5d12 + 10) |\n| Deslocamento | 18 m |\n| Atributos | For 19 (+4), Des 18 (+4), Con 14 (+2), Int 7 (–2), Sab 14 (+2), Car 10 (+0) |\n| Salvaguardas | For +6, Des +6 |\n| Perícias | Percepção +4 |\n| Resistências | Necrótico, Radiante |\n| Sentidos | Visão no Escuro 27 m, Percepção Passiva 14 |\n| Idiomas | Celestial; entende Comum, Élfico e Silvestre, mas não fala |\n| ND | 2 (XP 450; BP +2) |\n\n### Ações\n\n**Chifrada.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 3 m. *Acerto:* 11 (2d6 + 4) de dano Contundente mais 5 (2d4) de dano Radiante. Se o alvo for Enorme ou menor e o alce tiver se movido 6 metros ou mais em linha reta na direção dele logo antes do acerto, o alvo sofre 5 (2d4) de dano Contundente extra e recebe a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "giant elk",
+   "alce",
+   "celestial",
+   "floresta",
+   "fantástico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-besouro-de-fogo-gigante",
+  "nome": "Besouro de Fogo Gigante",
+  "nome_en": "Giant Fire Beetle",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Pequena, ND 0. Besouro de caverna que brilha: Luz Plena em 3 m e Meia-luz em mais 3 m.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +0 (10) |\n| PV | 4 (1d6 + 1) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 8 (–1), Des 10 (+0), Con 12 (+1), Int 1 (–5), Sab 7 (–2), Car 3 (–4) |\n| Resistências | Ígneo |\n| Sentidos | Visão às Cegas 9 m, Percepção Passiva 8 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Iluminação.** O besouro emite [[luz-plena|Luz Plena]] num raio de 3 metros e Meia-luz por mais 3 metros.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +1 para acertar, alcance 1,5 m. *Acerto:* 1 de dano Ígneo.",
+  "tags": [
+   "animal",
+   "giant fire beetle",
+   "besouro",
+   "inseto",
+   "luz",
+   "fantástico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-ra-gigante",
+  "nome": "Rã Gigante",
+  "nome_en": "Giant Frog",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média, ND 1/4. Prende com a língua/mordida e engole alvos Pequenos ou menores.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 18 (4d8) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 12 (+1), Des 13 (+1), Con 11 (+0), Int 2 (–4), Sab 10 (+0), Car 3 (–4) |\n| Perícias | Furtividade +4, Percepção +2 |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Anfíbio.** A rã respira tanto ar quanto água.\n\n**Salto Parado.** O [[salto-em-distancia|Salto em Distância]] da rã chega a 6 metros e o [[salto-em-altura|Salto em Altura]] a 3 metros, com ou sem corrida.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (1d6 + 2) de dano Perfurante. Se o alvo for Médio ou menor, recebe a condição [[agarrado|Imobilizado]] (CD 11 para escapar).\n\n**Engolir.** A rã engole um alvo Pequeno ou menor que esteja agarrando. Engolido, o alvo deixa de estar Imobilizado, mas fica com as condições [[cego|Cego]] e [[impedido|Contido]] e tem [[cobertura|Cobertura Total]] contra ataques e outros efeitos vindos de fora da rã. Enquanto tem alguém engolido, a rã não pode usar Mordida. Se a rã morrer, o alvo deixa de estar Contido e pode sair do cadáver gastando 1,5 metro de movimento, saindo com a condição [[caido|Caído]].\n\nNo fim do próximo turno da rã, o alvo engolido sofre 5 (2d4) de dano Ácido. Se esse dano não o matar, a rã o regurgita, e ele sai Caído.",
+  "tags": [
+   "animal",
+   "giant frog",
+   "rã",
+   "sapo",
+   "anfíbio"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-hiena-gigante",
+  "nome": "Hiena Gigante",
+  "nome_en": "Giant Hyena",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 1. Ao ferir quem já está Sangrando, avança e morde de novo (1/dia).",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 45 (6d10 + 12) |\n| Deslocamento | 15 m |\n| Atributos | For 16 (+3), Des 14 (+2), Con 14 (+2), Int 2 (–4), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 10 (2d6 + 3) de dano Perfurante.\n\n### Ações Bônus\n\n**Frenesi (1/Dia).** Logo depois de causar dano a uma criatura que já estava [[sangrando|Sangrando]], a hiena pode se mover até metade do seu Deslocamento e faz um ataque de Mordida.",
+  "tags": [
+   "animal",
+   "giant hyena",
+   "hiena",
+   "carniceiro"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-lagarto-gigante",
+  "nome": "Lagarto Gigante",
+  "nome_en": "Giant Lizard",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 1/4. Escala até pelo teto; usado como montaria em túneis.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +1 (11) |\n| PV | 19 (3d10 + 3) |\n| Deslocamento | 12 m, Escalada 12 m |\n| Atributos | For 15 (+2), Des 12 (+1), Con 13 (+1), Int 2 (–4), Sab 10 (+0), Car 5 (–3) |\n| Salvaguardas | Des +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Escalada de Aranha.** O lagarto escala superfícies difíceis, até de cabeça para baixo no teto, sem precisar de teste de atributo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 6 (1d8 + 2) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "giant lizard",
+   "lagarto",
+   "réptil",
+   "montaria"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-polvo-gigante",
+  "nome": "Polvo Gigante",
+  "nome_en": "Giant Octopus",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 1. Tentáculos de 3 m que prendem e deixam Contido; nuvem de tinta para fugir.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 45 (7d10 + 7) |\n| Deslocamento | 3 m, Natação 18 m |\n| Atributos | For 17 (+3), Des 13 (+1), Con 13 (+1), Int 5 (–3), Sab 10 (+0), Car 4 (–3) |\n| Perícias | Furtividade +5, Percepção +4 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 14 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Respiração Aquática.** O polvo só respira debaixo d'água. Fora dela, consegue prender a respiração por 1 hora.\n\n### Ações\n\n**Tentáculos.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 3 m. *Acerto:* 10 (2d6 + 3) de dano Contundente. Se o alvo for Médio ou menor, recebe a condição [[agarrado|Imobilizado]] (CD 13 para escapar), presa pelos oito tentáculos. Enquanto estiver Imobilizado assim, o alvo fica com a condição [[impedido|Contido]].\n\n### Reações\n\n**Nuvem de Tinta (1/Dia).** *Gatilho:* o polvo sofre dano enquanto está debaixo d'água. *Resposta:* ele solta tinta que enche um Cubo de 3 metros centrado nele e se move até seu Deslocamento de Natação. O Cubo fica [[totalmente-obscurecido|Totalmente Obscurecido]] por 1 minuto ou até uma correnteza forte ou efeito parecido dispersar a tinta.",
+  "tags": [
+   "animal",
+   "giant octopus",
+   "polvo",
+   "aquático",
+   "tentáculos"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-coruja-gigante",
+  "nome": "Coruja Gigante",
+  "nome_en": "Giant Owl",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Celestial Grande, ND 1/4. Ave sábia e vidente: detecta magia e o bem e o mal; Clarividência 1/dia.",
+  "texto": "*Celestial Grande, Neutro*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 19 (3d10 + 3) |\n| Deslocamento | 1,5 m, Voo 18 m |\n| Atributos | For 13 (+1), Des 15 (+2), Con 12 (+1), Int 10 (+0), Sab 14 (+2), Car 10 (+0) |\n| Salvaguardas | Sab +4 |\n| Perícias | Furtividade +6, Percepção +6 |\n| Resistências | Necrótico, Radiante |\n| Sentidos | Visão no Escuro 36 m, Percepção Passiva 16 |\n| Idiomas | Celestial; entende Comum, Élfico e Silvestre, mas não fala |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Voo Rasante.** A coruja não provoca [[ataque-de-oportunidade|Ataque de Oportunidade]] ao sair voando do alcance de um inimigo.\n\n### Ações\n\n**Garras.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 7 (1d10 + 2) de dano Cortante.\n\n**Conjuração.** A coruja conjura uma das magias abaixo, sem precisar de componentes, usando Sabedoria como atributo de conjuração:\n\n- **À vontade:** [[detectar-o-bem-e-o-mal|Detectar o Bem e o Mal]], [[detectar-magia|Detectar Magia]]\n- **1/dia:** [[clarividencia|Clarividência]]",
+  "tags": [
+   "animal",
+   "giant owl",
+   "coruja",
+   "celestial",
+   "ave",
+   "fantástico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-rato-gigante",
+  "nome": "Rato Gigante",
+  "nome_en": "Giant Rat",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Pequena, ND 1/8. Ratazana de esgoto que ataca em bando com Táticas de Grupo.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 7 (2d6) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 7 (–2), Des 16 (+3), Con 11 (+0), Int 2 (–4), Sab 10 (+0), Car 4 (–3) |\n| Salvaguardas | Des +5 |\n| Perícias | Percepção +2 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 1/8 (XP 25; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** O rato tem [[vantagem|Vantagem]] numa jogada de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 metro dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "giant rat",
+   "rato",
+   "ratazana",
+   "esgoto"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-escorpiao-gigante",
+  "nome": "Escorpião Gigante",
+  "nome_en": "Giant Scorpion",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 3. Duas pinças que agarram e um ferrão com 2d10 de veneno.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 15 |\n| Iniciativa | +1 (11) |\n| PV | 52 (7d10 + 14) |\n| Deslocamento | 12 m |\n| Atributos | For 16 (+3), Des 13 (+1), Con 15 (+2), Int 1 (–5), Sab 9 (–1), Car 3 (–4) |\n| Sentidos | Visão às Cegas 18 m, Percepção Passiva 9 |\n| Idiomas | — |\n| ND | 3 (XP 700; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O escorpião faz dois ataques de Pinça e um de Ferrão.\n\n**Pinça.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 6 (1d6 + 3) de dano Contundente. Se o alvo for Grande ou menor, recebe a condição [[agarrado|Imobilizado]] (CD 13 para escapar), preso por uma das duas pinças.\n\n**Ferrão.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 7 (1d8 + 3) de dano Perfurante mais 11 (2d10) de dano Venenoso.",
+  "tags": [
+   "animal",
+   "giant scorpion",
+   "escorpião",
+   "aracnídeo",
+   "veneno"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-tubarao-gigante",
+  "nome": "Tubarão Gigante",
+  "nome_en": "Giant Shark",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme, ND 5. Duas mordidas de 3d10 + 6, com Vantagem contra alvos já feridos.",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 92 (8d12 + 40) |\n| Deslocamento | 1,5 m, Natação 18 m |\n| Atributos | For 23 (+6), Des 11 (+0), Con 21 (+5), Int 1 (–5), Sab 10 (+0), Car 5 (–3) |\n| Perícias | Percepção +3 |\n| Sentidos | Visão às Cegas 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 5 (XP 1.800; BP +3) |\n\n### Traços\n\n**Respiração Aquática.** O tubarão só respira debaixo d'água.\n\n### Ações\n\n**Ataques Múltiplos.** O tubarão faz dois ataques de Mordida.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +9 para acertar (com [[vantagem|Vantagem]] se o alvo não estiver com todos os seus Pontos de Vida), alcance 1,5 m. *Acerto:* 22 (3d10 + 6) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "giant shark",
+   "tubarão",
+   "aquático",
+   "megalodonte"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-lula-gigante",
+  "nome": "Lula Gigante",
+  "nome_en": "Giant Squid",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme, ND 6. Tentáculo de 4,5 m que agarra e puxa; mordida de 4d10 + 6; nuvem de tinta.",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 120 (16d12 + 16) |\n| Deslocamento | 1,5 m, Natação 24 m |\n| Atributos | For 23 (+6), Des 14 (+2), Con 12 (+1), Int 5 (–3), Sab 11 (+0), Car 4 (–3) |\n| Salvaguardas | For +9, Des +5 |\n| Perícias | Percepção +6 |\n| Sentidos | Visão no Escuro 36 m, Percepção Passiva 16 |\n| Idiomas | — |\n| ND | 6 (XP 2.300; BP +3) |\n\n### Traços\n\n**Respiração Aquática.** A lula só respira debaixo d'água.\n\n### Ações\n\n**Ataques Múltiplos.** A lula faz um ataque de Mordida e um de Tentáculo.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +9 para acertar, alcance 1,5 m. *Acerto:* 28 (4d10 + 6) de dano Perfurante.\n\n**Tentáculo.** *Jogada de Ataque Corpo a Corpo:* +9 para acertar, alcance 4,5 m. *Acerto:* 19 (3d8 + 6) de dano Contundente. Se o alvo for Enorme ou menor, recebe a condição [[agarrado|Imobilizado]] (CD 16 para escapar), preso por um dos dois tentáculos, e a lula pode puxá-lo até 3 metros em linha reta na direção dela.\n\n### Reações\n\n**Nuvem de Tinta (1/Dia).** *Gatilho:* a lula sofre dano enquanto está debaixo d'água. *Resposta:* ela solta tinta que enche um Cubo de 4,5 metros centrado nela e se move até seu Deslocamento de Natação. O Cubo fica [[totalmente-obscurecido|Totalmente Obscurecido]] por 1 minuto ou até uma correnteza forte ou efeito parecido dispersar a tinta.",
+  "tags": [
+   "animal",
+   "giant squid",
+   "lula",
+   "kraken",
+   "aquático"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-sapo-gigante",
+  "nome": "Sapo Gigante",
+  "nome_en": "Giant Toad",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 1. Mordida venenosa que prende; engole alvos Médios ou menores e os digere com ácido.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 39 (6d10 + 6) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 15 (+2), Des 13 (+1), Con 13 (+1), Int 2 (–4), Sab 10 (+0), Car 3 (–4) |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Anfíbio.** O sapo respira tanto ar quanto água.\n\n**Salto Parado.** O [[salto-em-distancia|Salto em Distância]] do sapo chega a 6 metros e o [[salto-em-altura|Salto em Altura]] a 3 metros, com ou sem corrida.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (1d6 + 2) de dano Perfurante mais 5 (2d4) de dano Venenoso. Se o alvo for Médio ou menor, recebe a condição [[agarrado|Imobilizado]] (CD 12 para escapar).\n\n**Engolir.** O sapo engole um alvo Médio ou menor que esteja agarrando. Engolido, o alvo deixa de estar Imobilizado, mas fica com as condições [[cego|Cego]] e [[impedido|Contido]] e tem [[cobertura|Cobertura Total]] contra ataques e outros efeitos vindos de fora do sapo. Além disso, sofre 10 (3d6) de dano Ácido no fim de cada turno do sapo. O sapo só consegue ter um alvo engolido por vez e não pode usar Mordida enquanto isso. Se o sapo morrer, a criatura engolida deixa de estar Contida e pode sair do cadáver gastando 1,5 metro de movimento, saindo com a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "giant toad",
+   "sapo",
+   "anfíbio",
+   "engolir"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-cobra-peconhenta-gigante",
+  "nome": "Cobra Peçonhenta Gigante",
+  "nome_en": "Giant Venomous Snake",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média, ND 1/4. Cobra grande com mordida de 3 m de alcance que injeta veneno.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +4 (14) |\n| PV | 11 (2d8 + 2) |\n| Deslocamento | 12 m, Natação 12 m |\n| Atributos | For 10 (+0), Des 18 (+4), Con 13 (+1), Int 2 (–4), Sab 10 (+0), Car 3 (–4) |\n| Perícias | Percepção +2 |\n| Sentidos | [[visao-as-cegas|Visão às Cegas]] 3 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 3 m. *Acerto:* 6 (1d4 + 4) de dano Perfurante mais 4 (1d8) de dano Venenoso.",
+  "tags": [
+   "animal",
+   "giant venomous snake",
+   "cobra",
+   "serpente",
+   "veneno"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-abutre-gigante",
+  "nome": "Abutre Gigante",
+  "nome_en": "Giant Vulture",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Monstruosidade Grande, ND 1. Ave carniceira maligna que ataca em bando e envenena com o bico.",
+  "texto": "*Monstruosidade Grande, Neutro e Mau*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 25 (3d10 + 9) |\n| Deslocamento | 3 m, Voo 18 m |\n| Atributos | For 15 (+2), Des 10 (+0), Con 16 (+3), Int 6 (–2), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Percepção +3 |\n| Resistências | Necrótico |\n| Sentidos | [[visao-no-escuro-sentido|Visão no Escuro]] 18 m, Percepção Passiva 13 |\n| Idiomas | Entende Comum, mas não fala |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** O abutre tem [[vantagem|Vantagem]] em jogadas de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 m dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Bicada Rasgante.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 9 (2d6 + 2) de dano Perfurante, e o alvo fica com a condição [[envenenado|Envenenado]] até o fim do próximo turno dele.",
+  "tags": [
+   "animal",
+   "giant vulture",
+   "abutre",
+   "ave",
+   "carniceiro"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-vespa-gigante",
+  "nome": "Vespa Gigante",
+  "nome_en": "Giant Wasp",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média, ND 1/2. Inseto voador que ferroa com veneno e foge sem provocar ataques.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +2 (12) |\n| PV | 22 (5d8) |\n| Deslocamento | 3 m, Voo 15 m |\n| Atributos | For 10 (+0), Des 14 (+2), Con 10 (+0), Int 1 (–5), Sab 10 (+0), Car 3 (–4) |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Traços\n\n**Voo Rasante.** A vespa não provoca [[ataque-de-oportunidade|Ataque de Oportunidade]] quando sai voando do alcance de um inimigo.\n\n### Ações\n\n**Ferrão.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (1d6 + 2) de dano Perfurante mais 5 (2d4) de dano Venenoso.",
+  "tags": [
+   "animal",
+   "giant wasp",
+   "vespa",
+   "inseto",
+   "ferrao"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-aranha-lobo-gigante",
+  "nome": "Aranha-Lobo Gigante",
+  "nome_en": "Giant Wolf Spider",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média, ND 1/4. Aranha caçadora furtiva que anda pelo teto e tem mordida venenosa.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 11 (2d8 + 2) |\n| Deslocamento | 12 m, Escalada 12 m |\n| Atributos | For 12 (+1), Des 16 (+3), Con 13 (+1), Int 3 (–4), Sab 12 (+1), Car 4 (–3) |\n| Perícias | Furtividade +7, Percepção +3 |\n| Sentidos | Visão às Cegas 3 m, Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Escalada de Aranha.** A aranha pode escalar superfícies difíceis, inclusive de cabeça para baixo no teto, sem precisar de teste de atributo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar, alcance 1,5 m. *Acerto:* 5 (1d4 + 3) de dano Perfurante mais 5 (2d4) de dano Venenoso.",
+  "tags": [
+   "animal",
+   "giant wolf spider",
+   "aranha",
+   "aracnideo",
+   "veneno"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-hipopotamo",
+  "nome": "Hipopótamo",
+  "nome_en": "Hippopotamus",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 4. Brutamontes de rio que morde duas vezes por turno.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | –2 (8) |\n| PV | 82 (11d10 + 22) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 21 (+5), Des 7 (–2), Con 15 (+2), Int 2 (–4), Sab 12 (+1), Car 4 (–3) |\n| Salvaguardas | For +7 |\n| Perícias | Percepção +3 |\n| Sentidos | Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 4 (XP 1.100; BP +2) |\n\n### Traços\n\n**Prender a Respiração.** O hipopótamo consegue prender a respiração por 10 minutos.\n\n### Ações\n\n**Ataques Múltiplos.** O hipopótamo faz dois ataques de Mordida.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +7 para acertar, alcance 1,5 m. *Acerto:* 16 (2d10 + 5) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "hippopotamus",
+   "hipopotamo",
+   "rio",
+   "aquatico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-tubarao-cacador",
+  "nome": "Tubarão Caçador",
+  "nome_en": "Hunter Shark",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 2. Tubarão de mar aberto que ataca melhor quem já está ferido.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 45 (6d10 + 12) |\n| Deslocamento | 1,5 m, Natação 12 m |\n| Atributos | For 18 (+4), Des 14 (+2), Con 15 (+2), Int 1 (–5), Sab 10 (+0), Car 4 (–3) |\n| Perícias | Percepção +2 |\n| Sentidos | Visão às Cegas 18 m, Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Traços\n\n**Respiração Aquática.** O tubarão só consegue respirar debaixo d’água.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar (com Vantagem se o alvo não estiver com todos os PV), alcance 1,5 m. *Acerto:* 14 (3d6 + 4) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "hunter shark",
+   "tubarao",
+   "mar",
+   "aquatico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-hiena",
+  "nome": "Hiena",
+  "nome_en": "Hyena",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média, ND 0. Carniceira rápida que só é perigosa em bando.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 5 (1d8 + 1) |\n| Deslocamento | 15 m |\n| Atributos | For 11 (+0), Des 13 (+1), Con 12 (+1), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Perícias | Percepção +3 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** A hiena tem [[vantagem|Vantagem]] em jogadas de ataque contra uma criatura se pelo menos um aliado dela estiver a até 1,5 m dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 3 (1d6) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "hyena",
+   "hiena",
+   "matilha",
+   "carniceiro"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-chacal",
+  "nome": "Chacal",
+  "nome_en": "Jackal",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Pequena, ND 0. Canídeo pequeno, atento e furtivo, de mordida fraca.",
+  "texto": "*Fera Pequena, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 3 (1d6) |\n| Deslocamento | 12 m |\n| Atributos | For 8 (–1), Des 15 (+2), Con 11 (+0), Int 3 (–4), Sab 12 (+1), Car 6 (–2) |\n| Perícias | Furtividade +4, Percepção +5 |\n| Sentidos | Visão no Escuro 27 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +1 para acertar, alcance 1,5 m. *Acerto:* 1 (1d4 – 1) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "jackal",
+   "chacal",
+   "canideo",
+   "cao selvagem"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-orca",
+  "nome": "Orca",
+  "nome_en": "Killer Whale",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme, ND 3. Predador marinho com mordida brutal e ecolocalização de 36 m.",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 90 (12d12 + 12) |\n| Deslocamento | 1,5 m, Natação 18 m |\n| Atributos | For 19 (+4), Des 14 (+2), Con 13 (+1), Int 3 (–4), Sab 12 (+1), Car 7 (–2) |\n| Perícias | Furtividade +4, Percepção +3 |\n| Sentidos | Visão às Cegas 36 m, Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 3 (XP 700; BP +2) |\n\n### Traços\n\n**Prender a Respiração.** A orca consegue prender a respiração por 30 minutos.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 21 (5d6 + 4) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "killer whale",
+   "baleia assassina",
+   "baleia",
+   "mar",
+   "aquatico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-mamute",
+  "nome": "Mamute",
+  "nome_en": "Mammoth",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme, ND 6. Investe com as presas, derruba o alvo e o pisoteia.",
+  "texto": "*Fera Enorme, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +2 (12) |\n| PV | 126 (11d12 + 55) |\n| Deslocamento | 15 m |\n| Atributos | For 24 (+7), Des 9 (–1), Con 21 (+5), Int 3 (–4), Sab 11 (+0), Car 6 (–2) |\n| Salvaguardas | For +10, Con +8 |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 6 (XP 2.300; BP +3) |\n\n### Ações\n\n**Ataques Múltiplos.** O mamute faz dois ataques de Chifrada.\n\n**Chifrada.** *Jogada de Ataque Corpo a Corpo:* +10 para acertar, alcance 3 m. *Acerto:* 18 (2d10 + 7) de dano Perfurante. Se o alvo for Enorme ou menor e o mamute tiver se movido 6 m ou mais em linha reta na direção dele logo antes de acertar, o alvo fica com a condição [[caido|Caído]].\n\n### Ações Bônus\n\n**Pisotear.** *Salvaguarda de Destreza:* CD 18, uma criatura a até 1,5 m que esteja com a condição Caído. *Falha:* 29 (4d10 + 7) de dano Contundente. *Sucesso:* metade do dano.",
+  "tags": [
+   "animal",
+   "mammoth",
+   "mamute",
+   "elefante",
+   "pre-historico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-piranha",
+  "nome": "Piranha",
+  "nome_en": "Piranha",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Minúscula, ND 0. Peixe carnívoro que morde melhor quem já está ferido.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 1,5 m, Natação 12 m |\n| Atributos | For 2 (–4), Des 16 (+3), Con 9 (–1), Int 1 (–5), Sab 7 (–2), Car 2 (–4) |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 8 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Respiração Aquática.** A piranha só consegue respirar debaixo d’água.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar (com Vantagem se o alvo não estiver com todos os PV), alcance 1,5 m. *Acerto:* 1 de dano Perfurante.",
+  "tags": [
+   "animal",
+   "piranha",
+   "peixe",
+   "rio",
+   "aquatico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-plesiossauro",
+  "nome": "Plesiossauro",
+  "nome_en": "Plesiosaurus",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande (dinossauro), ND 2. Réptil marinho de pescoço longo; mordida com 3 m de alcance.",
+  "texto": "*Fera Grande (Dinossauro), Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +2 (12) |\n| PV | 68 (8d10 + 24) |\n| Deslocamento | 6 m, Natação 12 m |\n| Atributos | For 18 (+4), Des 15 (+2), Con 16 (+3), Int 2 (–4), Sab 12 (+1), Car 5 (–3) |\n| Perícias | Furtividade +4, Percepção +3 |\n| Sentidos | Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Traços\n\n**Prender a Respiração.** O plesiossauro consegue prender a respiração por 1 hora.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 3 m. *Acerto:* 11 (2d6 + 4) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "plesiosaurus",
+   "dinossauro",
+   "reptil marinho",
+   "aquatico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-urso-polar",
+  "nome": "Urso Polar",
+  "nome_en": "Polar Bear",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 2. Urso das regiões geladas, resistente ao frio, que dilacera duas vezes.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 42 (5d10 + 15) |\n| Deslocamento | 12 m, Natação 12 m |\n| Atributos | For 20 (+5), Des 14 (+2), Con 16 (+3), Int 2 (–4), Sab 13 (+1), Car 7 (–2) |\n| Perícias | Furtividade +4, Percepção +5 |\n| Resistências | Gélido |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Ações\n\n**Ataques Múltiplos.** O urso faz dois ataques de Dilacerar.\n\n**Dilacerar.** *Jogada de Ataque Corpo a Corpo:* +7 para acertar, alcance 1,5 m. *Acerto:* 9 (1d8 + 5) de dano Cortante.",
+  "tags": [
+   "animal",
+   "polar bear",
+   "urso",
+   "neve",
+   "artico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-pteranodonte",
+  "nome": "Pteranodonte",
+  "nome_en": "Pteranodon",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média (dinossauro), ND 1/4. Réptil voador que bica e se afasta sem provocar ataques.",
+  "texto": "*Fera Média (Dinossauro), Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +2 (12) |\n| PV | 13 (3d8) |\n| Deslocamento | 3 m, Voo 18 m |\n| Atributos | For 12 (+1), Des 15 (+2), Con 10 (+0), Int 2 (–4), Sab 9 (–1), Car 5 (–3) |\n| Perícias | Percepção +1 |\n| Sentidos | Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Voo Rasante.** O pteranodonte não provoca [[ataque-de-oportunidade|Ataque de Oportunidade]] quando sai voando do alcance de um inimigo.\n\n### Ações\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 6 (1d8 + 2) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "pteranodon",
+   "dinossauro",
+   "reptil voador",
+   "pterossauro"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-rinoceronte",
+  "nome": "Rinoceronte",
+  "nome_en": "Rhinoceros",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 2. Investe com o chifre para causar dano extra e derrubar.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | –1 (9) |\n| PV | 45 (6d10 + 12) |\n| Deslocamento | 12 m |\n| Atributos | For 21 (+5), Des 8 (–1), Con 15 (+2), Int 2 (–4), Sab 12 (+1), Car 6 (–2) |\n| Sentidos | Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Ações\n\n**Chifrada.** *Jogada de Ataque Corpo a Corpo:* +7 para acertar, alcance 1,5 m. *Acerto:* 14 (2d8 + 5) de dano Perfurante. Se o alvo for Grande ou menor e o rinoceronte tiver se movido 6 m ou mais em linha reta na direção dele logo antes de acertar, o alvo sofre mais 9 (2d8) de dano Perfurante e fica com a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "rhinoceros",
+   "rinoceronte",
+   "investida",
+   "savana"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-tigre-dentes-de-sabre",
+  "nome": "Tigre-Dentes-de-Sabre",
+  "nome_en": "Saber-Toothed Tiger",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Grande, ND 2. Felino pré-histórico que salta longe, dilacera duas vezes e escapa.",
+  "texto": "*Fera Grande, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 52 (7d10 + 14) |\n| Deslocamento | 12 m |\n| Atributos | For 18 (+4), Des 17 (+3), Con 15 (+2), Int 3 (–4), Sab 12 (+1), Car 8 (–1) |\n| Salvaguardas | For +6, Des +5 |\n| Perícias | Furtividade +7, Percepção +5 |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Traços\n\n**Salto com Impulso.** Com 3 m de corrida antes, o tigre faz um [[salto-em-distancia|Salto em Distância]] de até 7,5 m.\n\n### Ações\n\n**Ataques Múltiplos.** O tigre faz dois ataques de Dilacerar.\n\n**Dilacerar.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 11 (2d6 + 4) de dano Cortante.\n\n### Ações Bônus\n\n**Fuga Ágil.** O tigre usa a ação [[desengajar|Desengajar]] ou [[esconder|Esconder]].",
+  "tags": [
+   "animal",
+   "saber-toothed tiger",
+   "tigre",
+   "felino",
+   "pre-historico",
+   "smilodon"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-cavalo-marinho",
+  "nome": "Cavalo-Marinho",
+  "nome_en": "Seahorse",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Minúscula, ND 0 (XP 0). Peixinho inofensivo que só sabe fugir debaixo d’água.",
+  "texto": "*Fera Minúscula, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +1 (11) |\n| PV | 1 (1d4 – 1) |\n| Deslocamento | 1,5 m, Natação 6 m |\n| Atributos | For 1 (–5), Des 12 (+1), Con 8 (–1), Int 1 (–5), Sab 10 (+0), Car 2 (–4) |\n| Perícias | Furtividade +5, Percepção +2 |\n| Sentidos | Percepção Passiva 12 |\n| Idiomas | — |\n| ND | 0 (XP 0; BP +2) |\n\n### Traços\n\n**Respiração Aquática.** O cavalo-marinho só consegue respirar debaixo d’água.\n\n### Ações\n\n**Disparada de Bolhas.** Enquanto está debaixo d’água, o cavalo-marinho se move até seu Deslocamento de Natação sem provocar [[ataque-de-oportunidade|Ataques de Oportunidade]].",
+  "tags": [
+   "animal",
+   "seahorse",
+   "peixe",
+   "mar",
+   "aquatico"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-enxame-de-morcegos",
+  "nome": "Enxame de Morcegos",
+  "nome_en": "Swarm of Bats",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Enxame Grande, ND 1/4. Nuvem de morcegos que morde quem estiver no caminho.",
+  "texto": "*Enxame Grande de Feras Minúsculas, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 11 (2d10) |\n| Deslocamento | 1,5 m, Voo 9 m |\n| Atributos | For 5 (–3), Des 15 (+2), Con 10 (+0), Int 2 (–4), Sab 12 (+1), Car 4 (–3) |\n| Resistências | Contundente, Cortante, Perfurante |\n| Imunidades | Amedrontado, Atordoado, Caído, Contido, Enfeitiçado, Imobilizado, Paralisado, Petrificado |\n| Sentidos | Visão às Cegas 18 m, Percepção Passiva 11 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Enxame.** O enxame pode ocupar o espaço de outra criatura, e vice-versa, e passa por qualquer abertura onde caiba um morcego Minúsculo. Ele não pode recuperar PV nem ganhar [[pontos-de-vida-temporarios|Pontos de Vida Temporários]].\n\n### Ações\n\n**Mordidas.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (2d4) de dano Perfurante, ou 2 (1d4) de dano Perfurante se o enxame estiver [[sangrando|Sangrando]].",
+  "tags": [
+   "animal",
+   "swarm of bats",
+   "enxame",
+   "morcego",
+   "swarm"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-enxame-de-insetos",
+  "nome": "Enxame de Insetos",
+  "nome_en": "Swarm of Insects",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Enxame Médio, ND 1/2. Massa de insetos (rastejantes ou voadores) com picadas venenosas.",
+  "texto": "*Enxame Médio de Feras Minúsculas, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 11 |\n| Iniciativa | +1 (11) |\n| PV | 19 (3d8 + 6) |\n| Deslocamento | 6 m, Escalada ou Voo 6 m (à escolha do Mestre) |\n| Atributos | For 3 (–4), Des 13 (+1), Con 14 (+2), Int 1 (–5), Sab 7 (–2), Car 1 (–5) |\n| Resistências | Contundente, Cortante, Perfurante |\n| Imunidades | Amedrontado, Atordoado, Caído, Contido, Enfeitiçado, Imobilizado, Paralisado, Petrificado |\n| Sentidos | Visão às Cegas 9 m, Percepção Passiva 8 |\n| Idiomas | — |\n| ND | 1/2 (XP 100; BP +2) |\n\n### Traços\n\n**Escalada de Aranha.** Se o enxame tiver Deslocamento de Escalada, ele pode escalar superfícies difíceis, inclusive de cabeça para baixo no teto, sem precisar de teste de atributo.\n\n**Enxame.** O enxame pode ocupar o espaço de outra criatura, e vice-versa, e passa por qualquer abertura onde caiba um inseto Minúsculo. Ele não pode recuperar PV nem ganhar [[pontos-de-vida-temporarios|Pontos de Vida Temporários]].\n\n### Ações\n\n**Mordidas.** *Jogada de Ataque Corpo a Corpo:* +3 para acertar, alcance 1,5 m. *Acerto:* 6 (2d4 + 1) de dano Venenoso, ou 3 (1d4 + 1) de dano Venenoso se o enxame estiver [[sangrando|Sangrando]].",
+  "tags": [
+   "animal",
+   "swarm of insects",
+   "enxame",
+   "inseto",
+   "swarm"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-enxame-de-piranhas",
+  "nome": "Enxame de Piranhas",
+  "nome_en": "Swarm of Piranhas",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Enxame Médio, ND 1. Cardume voraz que morde melhor quem já está ferido.",
+  "texto": "*Enxame Médio de Feras Minúsculas, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 28 (8d8 – 8) |\n| Deslocamento | 1,5 m, Natação 12 m |\n| Atributos | For 13 (+1), Des 16 (+3), Con 9 (–1), Int 1 (–5), Sab 7 (–2), Car 2 (–4) |\n| Resistências | Contundente, Cortante, Perfurante |\n| Imunidades | Amedrontado, Atordoado, Caído, Contido, Enfeitiçado, Imobilizado, Paralisado, Petrificado |\n| Sentidos | Visão no Escuro 18 m, Percepção Passiva 8 |\n| Idiomas | — |\n| ND | 1 (XP 200; BP +2) |\n\n### Traços\n\n**Enxame.** O enxame pode ocupar o espaço de outra criatura, e vice-versa, e passa por qualquer abertura onde caiba uma piranha Minúsculo. Ele não pode recuperar PV nem ganhar [[pontos-de-vida-temporarios|Pontos de Vida Temporários]].\n\n**Respiração Aquática.** O enxame só consegue respirar debaixo d’água.\n\n### Ações\n\n**Mordidas.** *Jogada de Ataque Corpo a Corpo:* +5 para acertar (com Vantagem se o alvo não estiver com todos os PV), alcance 1,5 m. *Acerto:* 8 (2d4 + 3) de dano Perfurante, ou 5 (1d4 + 3) de dano Perfurante se o enxame estiver [[sangrando|Sangrando]].",
+  "tags": [
+   "animal",
+   "swarm of piranhas",
+   "enxame",
+   "piranha",
+   "peixe",
+   "swarm"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-enxame-de-ratos",
+  "nome": "Enxame de Ratos",
+  "nome_en": "Swarm of Rats",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Enxame Médio, ND 1/4. Onda de ratos que sobe paredes e roe tudo pelo caminho.",
+  "texto": "*Enxame Médio de Feras Minúsculas, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 14 (4d8 – 4) |\n| Deslocamento | 9 m, Escalada 9 m |\n| Atributos | For 9 (–1), Des 11 (+0), Con 9 (–1), Int 2 (–4), Sab 10 (+0), Car 3 (–4) |\n| Salvaguardas | Des +2 |\n| Resistências | Contundente, Cortante, Perfurante |\n| Imunidades | Amedrontado, Atordoado, Caído, Contido, Enfeitiçado, Imobilizado, Paralisado, Petrificado |\n| Sentidos | Visão no Escuro 9 m, Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Enxame.** O enxame pode ocupar o espaço de outra criatura, e vice-versa, e passa por qualquer abertura onde caiba um rato Minúsculo. Ele não pode recuperar PV nem ganhar [[pontos-de-vida-temporarios|Pontos de Vida Temporários]].\n\n### Ações\n\n**Mordidas.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 5 (2d4) de dano Perfurante, ou 2 (1d4) de dano Perfurante se o enxame estiver [[sangrando|Sangrando]].",
+  "tags": [
+   "animal",
+   "swarm of rats",
+   "enxame",
+   "rato",
+   "swarm"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-enxame-de-corvos",
+  "nome": "Enxame de Corvos",
+  "nome_en": "Swarm of Ravens",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Enxame Médio, ND 1/4. Revoada que bica e ensurdece com sua algazarra.",
+  "texto": "*Enxame Médio de Feras Minúsculas, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 12 |\n| Iniciativa | +2 (12) |\n| PV | 11 (2d8 + 2) |\n| Deslocamento | 3 m, Voo 15 m |\n| Atributos | For 6 (–2), Des 14 (+2), Con 12 (+1), Int 5 (–3), Sab 12 (+1), Car 6 (–2) |\n| Perícias | Percepção +5 |\n| Resistências | Contundente, Cortante, Perfurante |\n| Imunidades | Amedrontado, Atordoado, Caído, Contido, Enfeitiçado, Imobilizado, Paralisado, Petrificado |\n| Sentidos | Percepção Passiva 15 |\n| Idiomas | — |\n| ND | 1/4 (XP 50; BP +2) |\n\n### Traços\n\n**Enxame.** O enxame pode ocupar o espaço de outra criatura, e vice-versa, e passa por qualquer abertura onde caiba um corvo Minúsculo. Ele não pode recuperar PV nem ganhar [[pontos-de-vida-temporarios|Pontos de Vida Temporários]].\n\n### Ações\n\n**Bicadas.** *Jogada de Ataque Corpo a Corpo:* +4 para acertar, alcance 1,5 m. *Acerto:* 5 (1d6 + 2) de dano Perfurante, ou 2 (1d4) de dano Perfurante se o enxame estiver [[sangrando|Sangrando]].\n\n**Cacofonia (Recarga 6).** *Salvaguarda de Sabedoria:* CD 10, uma criatura no espaço do enxame. *Falha:* o alvo fica com a condição [[surdo|Surdo]] até o início do próximo turno do enxame. Enquanto estiver Surdo assim, ele também tem Desvantagem em testes de atributo e jogadas de ataque.",
+  "tags": [
+   "animal",
+   "swarm of ravens",
+   "enxame",
+   "corvo",
+   "ave",
+   "swarm"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-enxame-de-cobras-peconhentas",
+  "nome": "Enxame de Cobras Peçonhentas",
+  "nome_en": "Swarm of Venomous Snakes",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Enxame Médio, ND 2. Ninho de cobras cujas mordidas somam muito veneno.",
+  "texto": "*Enxame Médio de Feras Minúsculas, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | +4 (14) |\n| PV | 36 (8d8) |\n| Deslocamento | 9 m, Natação 9 m |\n| Atributos | For 8 (–1), Des 18 (+4), Con 11 (+0), Int 1 (–5), Sab 10 (+0), Car 3 (–4) |\n| Resistências | Contundente, Cortante, Perfurante |\n| Imunidades | Amedrontado, Atordoado, Caído, Contido, Enfeitiçado, Imobilizado, Paralisado, Petrificado |\n| Sentidos | Visão às Cegas 3 m, Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 2 (XP 450; BP +2) |\n\n### Traços\n\n**Enxame.** O enxame pode ocupar o espaço de outra criatura, e vice-versa, e passa por qualquer abertura onde caiba uma cobra Minúsculo. Ele não pode recuperar PV nem ganhar [[pontos-de-vida-temporarios|Pontos de Vida Temporários]].\n\n### Ações\n\n**Mordidas.** *Jogada de Ataque Corpo a Corpo:* +6 para acertar, alcance 1,5 m. *Acerto:* 8 (1d8 + 4) de dano Perfurante (ou 6 (1d4 + 4) de dano Perfurante se o enxame estiver [[sangrando|Sangrando]]) mais 10 (3d6) de dano Venenoso.",
+  "tags": [
+   "animal",
+   "swarm of venomous snakes",
+   "enxame",
+   "cobra",
+   "serpente",
+   "swarm"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-triceratopo",
+  "nome": "Tricerátopo",
+  "nome_en": "Triceratops",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme (dinossauro), ND 5. Investe com os chifres, causando dano extra e derrubando.",
+  "texto": "*Fera Enorme (Dinossauro), Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 14 |\n| Iniciativa | –1 (9) |\n| PV | 114 (12d12 + 36) |\n| Deslocamento | 15 m |\n| Atributos | For 22 (+6), Des 9 (–1), Con 17 (+3), Int 2 (–4), Sab 11 (+0), Car 5 (–3) |\n| Sentidos | Percepção Passiva 10 |\n| Idiomas | — |\n| ND | 5 (XP 1.800; BP +3) |\n\n### Ações\n\n**Ataques Múltiplos.** O tricerátopo faz dois ataques de Chifrada.\n\n**Chifrada.** *Jogada de Ataque Corpo a Corpo:* +9 para acertar, alcance 1,5 m. *Acerto:* 19 (2d12 + 6) de dano Perfurante. Se o alvo for Enorme ou menor e o tricerátopo tiver se movido 6 m ou mais em linha reta na direção dele logo antes de acertar, o alvo sofre mais 9 (2d8) de dano Perfurante e fica com a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "triceratops",
+   "dinossauro",
+   "triceratops",
+   "chifres"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-tiranossauro-rex",
+  "nome": "Tiranossauro Rex",
+  "nome_en": "Tyrannosaurus Rex",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Enorme (dinossauro), ND 8. Agarra com a mordida e derruba com a cauda.",
+  "texto": "*Fera Enorme (Dinossauro), Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 13 |\n| Iniciativa | +3 (13) |\n| PV | 136 (13d12 + 52) |\n| Deslocamento | 15 m |\n| Atributos | For 25 (+7), Des 10 (+0), Con 19 (+4), Int 2 (–4), Sab 12 (+1), Car 9 (–1) |\n| Salvaguardas | For +10, Sab +4 |\n| Perícias | Percepção +4 |\n| Sentidos | Percepção Passiva 14 |\n| Idiomas | — |\n| ND | 8 (XP 3.900; BP +3) |\n\n### Ações\n\n**Ataques Múltiplos.** O tiranossauro faz um ataque de Mordida e um de Cauda.\n\n**Mordida.** *Jogada de Ataque Corpo a Corpo:* +10 para acertar, alcance 3 m. *Acerto:* 33 (4d12 + 7) de dano Perfurante. Se o alvo for Grande ou menor, fica com a condição [[agarrado|Imobilizado]] (CD 17 para escapar). Enquanto estiver Imobilizado assim, o alvo também fica com a condição [[impedido|Contido]] e não pode ser alvo da Cauda do tiranossauro.\n\n**Cauda.** *Jogada de Ataque Corpo a Corpo:* +10 para acertar, alcance 4,5 m. *Acerto:* 25 (4d8 + 7) de dano Contundente. Se o alvo for Enorme ou menor, fica com a condição [[caido|Caído]].",
+  "tags": [
+   "animal",
+   "tyrannosaurus rex",
+   "dinossauro",
+   "t-rex",
+   "tiranossauro"
+  ],
+  "livro": "mm"
+ },
+ {
+  "id": "criatura-abutre",
+  "nome": "Abutre",
+  "nome_en": "Vulture",
+  "categoria": "criatura",
+  "capitulo": "apendices",
+  "fonte": "Livro dos Monstros (2024) · resumo das regras com outras palavras, para consulta de mesa",
+  "resumo": "Fera Média, ND 0. Ave carniceira fraca que só incomoda em bando.",
+  "texto": "*Fera Média, Sem Alinhamento*\n\n| Atributo | Valor |\n|---|---|\n| CA | 10 |\n| Iniciativa | +0 (10) |\n| PV | 5 (1d8 + 1) |\n| Deslocamento | 3 m, Voo 15 m |\n| Atributos | For 7 (–2), Des 10 (+0), Con 13 (+1), Int 2 (–4), Sab 12 (+1), Car 4 (–3) |\n| Perícias | Percepção +3 |\n| Sentidos | Percepção Passiva 13 |\n| Idiomas | — |\n| ND | 0 (XP 10; BP +2) |\n\n### Traços\n\n**Táticas de Grupo.** O abutre tem [[vantagem|Vantagem]] em jogadas de ataque contra uma criatura se pelo menos um aliado dele estiver a até 1,5 m dessa criatura e não estiver com a condição [[incapacitado|Incapacitado]].\n\n### Ações\n\n**Bico.** *Jogada de Ataque Corpo a Corpo:* +2 para acertar, alcance 1,5 m. *Acerto:* 2 (1d4) de dano Perfurante.",
+  "tags": [
+   "animal",
+   "vulture",
+   "ave",
+   "carniceiro",
+   "urubu"
+  ],
+  "livro": "mm"
+ }
+]

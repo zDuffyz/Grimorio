@@ -348,7 +348,8 @@
       html = '<header class="cap-cab"><span class="cap-num">Apêndices A e B</span><h2>Multiverso e Criaturas</h2></header>' +
         secao("O Multiverso", ap.filter(function (e) { return e.id.indexOf("multiverso") === 0; })) +
         secao("Como ler as estatísticas", ap.filter(function (e) { return e.categoria === "regra" && e.id.indexOf("multiverso") !== 0; })) +
-        secao("Criaturas", ap.filter(function (e) { return e.categoria === "criatura"; }));
+        secao("Criaturas do Livro do Jogador", ap.filter(function (e) { return e.categoria === "criatura" && e.livro !== "mm"; })) +
+        secao("Animais do Livro dos Monstros", ap.filter(function (e) { return e.livro === "mm"; }));
     } else if (estado.aba === "glossario") {
       var gl = porCapitulo("glossario").sort(function (a, b) { return a.nome.localeCompare(b.nome, "pt-BR"); });
       html = '<header class="cap-cab"><span class="cap-num">Apêndice C</span><h2>Glossário de Regras</h2></header>' +

@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.06-9",
-  "notas": "Eberron: classe Artífice com 5 subclasses, Dracossinais, espécies e antecedentes de Eberron, e o Colégio do Cantor Fúnebre do Bardo.",
+  "versao": "2026.10.07-1",
+  "notas": "Novos: 53 animais do Livro dos Monstros (aba Apêndices). Changeling agora é Visitante e Shifter é Morfera.",
   "arquivos": [
     "regras.json",
     "condicoes.json",
@@ -32,6 +32,7 @@
     "eberron-forge-origens.json",
     "eberron-expl-origens.json",
     "eberron-itens.json",
-    "eberron-magias.json"
+    "eberron-magias.json",
+    "animais.json"
   ]
 }

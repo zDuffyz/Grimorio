@@ -1,18 +1,18 @@
 [
   {
-    "id": "viajante-changeling",
-    "nome": "Viajante Changeling",
+    "id": "viajante-visitante",
+    "nome": "Viajante Visitante",
     "nome_en": "Changeling Traveler",
     "categoria": "antecedente",
     "capitulo": "origens",
     "tags": [
       "antecedente",
       "changeling traveler",
-      "changeling",
+      "visitante",
       "eberron"
     ],
     "resumo": "Destreza, Sabedoria, Carisma · Personas Focadas · Enganação, Prestidigitação",
-    "texto": "*Você é um nômade urbano que vai de cidade em cidade. Cresceu viajando com a família e usando seus dons para escapar de inimigos. Quer mudar o mundo para melhor ou só cuida de si? Quase todo Viajante é Changeling; se você não for, nasceu de um pai ou mãe changeling, viajou com essa família e imita os dons dela com Kit de Disfarce ou magia de ilusão.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Sabedoria, Carisma |\n| Talento de Origem | [[personas-focadas|Personas Focadas]] |\n| Perícias | Enganação, Prestidigitação |\n| Ferramenta | Ferramentas de Ladrão |\n| Equipamento | Escolha (A) 2 Adagas, Ferramentas de Ladrão, Saco de Dormir, 2 Algibeiras, roupas de tecido mutável (shiftweave), 10 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
+    "texto": "*Você é um nômade urbano que vai de cidade em cidade. Cresceu viajando com a família e usando seus dons para escapar de inimigos. Quer mudar o mundo para melhor ou só cuida de si? Quase todo Viajante é Visitante; se você não for, nasceu de um pai ou mãe changeling, viajou com essa família e imita os dons dela com Kit de Disfarce ou magia de ilusão.*\n\n| | |\n|---|---|\n| Valores de Atributo | Destreza, Sabedoria, Carisma |\n| Talento de Origem | [[personas-focadas|Personas Focadas]] |\n| Perícias | Enganação, Prestidigitação |\n| Ferramenta | Ferramentas de Ladrão |\n| Equipamento | Escolha (A) 2 Adagas, Ferramentas de Ladrão, Saco de Dormir, 2 Algibeiras, roupas de tecido mutável (shiftweave), 10 PO; ou (B) 50 PO |\n\nDos três atributos listados, aumente um em 2 e outro em 1, ou os três em 1 (nenhum passa de 20). Veja [[antecedentes]].",
     "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
     "cenario": "eberron"
   },
@@ -325,14 +325,14 @@
       "talento",
       "origem",
       "focused personas",
-      "changeling",
+      "visitante",
       "eberron"
     ],
     "resumo": "Duas personas: uma dá ferramenta com +1d4, outra dá Especialização; fala a Língua da Pele.",
-    "texto": "*Talento de Origem · Pré-requisito: Changeling*\n\nVocê criou personas que ajudam a concentrar seus talentos. Com o Mestre, defina **duas personas** diferentes, cada uma com aparência e personalidade próprias.\n\n**Persona Hábil.** Escolha uma ferramenta e associe a ela uma persona. Sempre que assumir essa persona com o traço Mudar de Forma (Shape-Shifter), você ganha proficiência com a ferramenta e, ao fazer um teste de atributo com ela, pode rolar **1d4** e somar ao resultado.\n\n**Persona Especialista.** Escolha uma perícia em que é proficiente e associe a ela a outra persona. Sempre que assumir essa persona com Mudar de Forma, você ganha [[especializacao|Especialização]] nessa perícia.\n\n**Língua da Pele.** Você fala fluentemente a Língua da Pele (Skin Cant), idioma dos Viajantes Changeling.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
+    "texto": "*Talento de Origem · Pré-requisito: Visitante*\n\nVocê criou personas que ajudam a concentrar seus talentos. Com o Mestre, defina **duas personas** diferentes, cada uma com aparência e personalidade próprias.\n\n**Persona Hábil.** Escolha uma ferramenta e associe a ela uma persona. Sempre que assumir essa persona com o traço Mudar de Forma (Shape-Shifter), você ganha proficiência com a ferramenta e, ao fazer um teste de atributo com ela, pode rolar **1d4** e somar ao resultado.\n\n**Persona Especialista.** Escolha uma perícia em que é proficiente e associe a ela a outra persona. Sempre que assumir essa persona com Mudar de Forma, você ganha [[especializacao|Especialização]] nessa perícia.\n\n**Língua da Pele.** Você fala fluentemente a Língua da Pele (Skin Cant), idioma dos Viajantes Visitantes.\n\n*Com a permissão do Mestre, você pode trocar o talento de Origem do seu antecedente por um talento de Origem ligado à sua espécie ou à sua história.*",
     "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
     "cenario": "eberron",
-    "especie": "Changeling"
+    "especie": "Visitante"
   },
   {
     "id": "cantor-de-pensamentos",
@@ -398,8 +398,8 @@
     "especie": "Elfo"
   },
   {
-    "id": "metamorfose-changeling",
-    "nome": "Metamorfose Changeling",
+    "id": "metamorfose-visitante",
+    "nome": "Metamorfose do Visitante",
     "nome_en": "Changeling Metamorphosis",
     "categoria": "talento",
     "capitulo": "talentos",
@@ -408,14 +408,14 @@
       "talento",
       "geral",
       "changeling metamorphosis",
-      "changeling",
+      "visitante",
       "eberron"
     ],
     "resumo": "+1 Con ou Des; +1 na CA e, ao mudar de forma, guelras, Visão no Escuro ou armas naturais.",
-    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Changeling*\n\n**Aumento no Valor de Atributo.** +1 em Constituição ou Destreza (máximo 20).\n\n**Pele Endurecida.** +1 na sua Classe de Armadura.\n\n**Metamorfose.** Ao usar seu traço Mudar de Forma (Shape-Shifter), você pode escolher uma opção abaixo. O benefício dura até você usar Mudar de Forma de novo.\n\n- **Adaptação Aquática.** Guelras e membranas entre os dedos: você respira debaixo d'água e ganha [[deslocamento-de-natacao|Deslocamento de Natação]] igual ao seu Deslocamento.\n- **Visão no Escuro.** 18 metros.\n- **Armas Naturais.** Garras (Cortante), presas (Perfurante), chifres (Perfurante) ou cascos (Contundente). Ao causar dano com elas num [[ataque-desarmado|Ataque Desarmado]], o dano é **1d6** do tipo indicado em vez do normal, e você pode usar Destreza em vez de Força nas jogadas de ataque e dano.",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Visitante*\n\n**Aumento no Valor de Atributo.** +1 em Constituição ou Destreza (máximo 20).\n\n**Pele Endurecida.** +1 na sua Classe de Armadura.\n\n**Metamorfose.** Ao usar seu traço Mudar de Forma (Shape-Shifter), você pode escolher uma opção abaixo. O benefício dura até você usar Mudar de Forma de novo.\n\n- **Adaptação Aquática.** Guelras e membranas entre os dedos: você respira debaixo d'água e ganha [[deslocamento-de-natacao|Deslocamento de Natação]] igual ao seu Deslocamento.\n- **Visão no Escuro.** 18 metros.\n- **Armas Naturais.** Garras (Cortante), presas (Perfurante), chifres (Perfurante) ou cascos (Contundente). Ao causar dano com elas num [[ataque-desarmado|Ataque Desarmado]], o dano é **1d6** do tipo indicado em vez do normal, e você pode usar Destreza em vez de Força nas jogadas de ataque e dano.",
     "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
     "cenario": "eberron",
-    "especie": "Changeling"
+    "especie": "Visitante"
   },
   {
     "id": "couraca-de-colosso",
@@ -470,14 +470,14 @@
       "talento",
       "geral",
       "superior shifting",
-      "metamorfo",
+      "morfera",
       "shifter",
       "eberron"
     ],
     "resumo": "+1 For, Des ou Sab; transforma-se sem ação por 10 minutos e ganha um uso extra.",
-    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Metamorfo*\n\n**Aumento no Valor de Atributo.** +1 em Força, Destreza ou Sabedoria (máximo 20).\n\nSua ligação com a fera interior é poderosa.\n\n**Resistência na Metamorfose.** No início do seu turno, você pode usar seu traço Metamorfose (Shifting) sem gastar ação. A transformação agora dura **10 minutos**.\n\n**Recuperação do Metamorfo.** Você pode usar o traço Metamorfose **uma vez a mais**. Recupera 1 uso gasto ao terminar um [[descanso-curto|Descanso Curto]] e todos ao terminar um [[descanso-longo|Descanso Longo]].",
+    "texto": "*Talento Geral · Pré-requisito: Nível 4 ou superior, Morfera*\n\n**Aumento no Valor de Atributo.** +1 em Força, Destreza ou Sabedoria (máximo 20).\n\nSua ligação com a fera interior é poderosa.\n\n**Resistência na Metamorfose.** No início do seu turno, você pode usar seu traço Metamorfose (Shifting) sem gastar ação. A transformação agora dura **10 minutos**.\n\n**Recuperação do Morfera.** Você pode usar o traço Metamorfose **uma vez a mais**. Recupera 1 uso gasto ao terminar um [[descanso-curto|Descanso Curto]] e todos ao terminar um [[descanso-longo|Descanso Longo]].",
     "fonte": "Exploring Eberron (Keith Baker) · resumo das regras com outras palavras, para consulta de mesa",
     "cenario": "eberron",
-    "especie": "Metamorfo"
+    "especie": "Morfera"
   }
 ]
