@@ -85,4 +85,3 @@ Este trabalho inclui material do System Reference Document 5.2 ("SRD 5.2") da Wi
 
 Esse aviso de atribuição precisa continuar no app (tela **Sobre e licença**) enquanto houver conteúdo do SRD nele.
 
-Ícones das classes: [game-icons.net](https://game-icons.net), de Lorc e Delapouite, sob a licença [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
