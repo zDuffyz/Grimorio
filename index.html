@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Grimório de Mesa</title>
 <meta name="description" content="Consulta rápida de regras de D&D 2024 (SRD 5.2) para a mesa.">
-<meta name="theme-color" content="#1C2128">
+<meta name="theme-color" content="#17202B">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Grimório">
@@ -15,7 +15,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Federo&family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
 <style>
 /* Layout: uma coluna de leitura (máx. 40rem), barra de busca fixa no topo, lista → ficha por âncora. */
 :root {
@@ -250,10 +250,77 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
   .vista { animation: entrar 160ms ease-out; }
   @keyframes entrar { from { opacity: 0.4; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 }
+
+/* ===== Tema Eberron: Sharn à noite, latão e fragmentos de dragão ===== */
+:root {
+  --paper: #E4E8E5; --surface: #F4F5F2; --ink: #1B2430; --muted: #535E69; --line: #C6CDC8;
+  --accent: #865617; --accent-ink: #FBF6EC;
+  --brass: #C9A15A; --siberys: #E2B85A; --khyber: #4E3F86; --eberron: #9C2F2A;
+  --cat-regra: #2F5D73; --cat-condicao: #9C2F2A; --cat-acao: #865617; --cat-magia: #4E3F86;
+  --cat-classe: #6B2F4F; --cat-origem: #3B6647; --cat-talento: #9A4E1A; --cat-equip: #4B5966; --cat-criatura: #6B4F2E;
+  --bar: #17202B; --bar-ink: #EDE6D6; --bar-field: #222E3C;
+  --font-display: "Federo", "Alegreya SC", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111821; --surface: #18222E; --ink: #E8E2D4; --muted: #9AA3AE; --line: #283342;
+    --accent: #D6AC62; --accent-ink: #1A1408;
+    --cat-regra: #7FB2C9; --cat-condicao: #E08A7F; --cat-acao: #D6AC62; --cat-magia: #A99BEA;
+    --cat-classe: #D795B6; --cat-origem: #8FC09A; --cat-talento: #E3A06A; --cat-equip: #A9B7C4; --cat-criatura: #CFA77A;
+    --bar: #0B1118; --bar-field: #1A2532;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111821; --surface: #18222E; --ink: #E8E2D4; --muted: #9AA3AE; --line: #283342;
+  --accent: #D6AC62; --accent-ink: #1A1408;
+  --cat-regra: #7FB2C9; --cat-condicao: #E08A7F; --cat-acao: #D6AC62; --cat-magia: #A99BEA;
+  --cat-classe: #D795B6; --cat-origem: #8FC09A; --cat-talento: #E3A06A; --cat-equip: #A9B7C4; --cat-criatura: #CFA77A;
+  --bar: #0B1118; --bar-field: #1A2532;
+}
+.topo { position: sticky; overflow: hidden; background:
+  radial-gradient(120% 90% at 82% 0%, rgba(226,184,90,.16), transparent 60%), var(--bar); }
+.horizonte { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 34px; pointer-events: none; }
+.horizonte .torres { fill: #0E151D; opacity: .9; }
+.horizonte .flutuante { fill: #0E151D; opacity: .9; }
+.horizonte .trilho { stroke: var(--brass); stroke-width: 1; opacity: .7; }
+.topo-interno { position: relative; }
+.marca h1 { font-weight: 400; font-size: 1.5rem; letter-spacing: .04em; }
+.marca .fonte { color: var(--brass); opacity: 1; font-family: var(--font-body); letter-spacing: 0; }
+.busca input { border-color: rgba(201,161,90,.25); }
+.aba-cap { text-transform: none; letter-spacing: .02em; font-family: var(--font-body); font-style: italic; }
+.aba-nome { font-weight: 400; letter-spacing: .03em; text-shadow: 0 0 6px var(--bar), 0 0 2px var(--bar); }
+.aba[aria-pressed="true"] { border-bottom-color: var(--brass); }
+.cap-num { text-transform: none; letter-spacing: .02em; font-family: var(--font-body); font-style: italic; color: var(--accent); }
+.cap-cab h2, .ficha-cab h2 { font-weight: 400; letter-spacing: .02em; }
+.secao-titulo { text-transform: none !important; letter-spacing: .02em !important; }
+/* Selos em forma de fragmento de dragão */
+.selo, .ficha-icone {
+  border-radius: 0;
+  clip-path: polygon(50% 0, 100% 22%, 100% 78%, 50% 100%, 0 78%, 0 22%);
+  background: linear-gradient(155deg, color-mix(in srgb, var(--cor) 70%, #fff) 0%, var(--cor) 45%, color-mix(in srgb, var(--cor) 70%, #000) 100%);
+}
+.selo { width: 2.5rem; height: 2.85rem; }
+.ficha-icone { width: 3.5rem; height: 4rem; }
+.ficha-cab { border-bottom: 1px solid var(--line); box-shadow: 0 1px 0 var(--brass); }
+.horizonte .torres, .horizonte .flutuante { fill: #263446; opacity: 1; }
+.horizonte .janelas { fill: var(--siberys); opacity: .85; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .horizonte .torres, :root:not([data-theme="light"]) .horizonte .flutuante { fill: #1B2633; } }
+:root { --font-label: "Alegreya Sans", system-ui, sans-serif; }
+.selo, .ficha-icone { color: #F7F0E1;
+  background: linear-gradient(155deg, color-mix(in srgb, var(--cor) 62%, #fff 8%) 0%, color-mix(in srgb, var(--cor) 72%, #000) 52%, color-mix(in srgb, var(--cor) 40%, #000) 100%); }
+.ficha-cat, .item-lado, .chip, .voltar { font-variant: normal; letter-spacing: .01em; }
+.ficha-cat { font-style: italic; }
+
 </style>
 </head>
 <body>
 <header class="topo">
+  <svg class="horizonte" viewBox="0 0 400 46" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <path class="torres" d="M0 46V34h14V22h6V12l3-6 3 6v10h6v24h8V28h10V16h4V4l2-4 2 4v12h4v30h10V30h8V20l5-8 5 8v26h6V36h12V24h4v-8h6v8h4v22h10V30h7V8l3-6 3 6v38h8V26h12v20h6V34h10V18h3V10l3-5 3 5v8h3v28h8V30h14V14h5V6l2-4 2 4v8h5v32h8V38h10V24h6V16l4-6 4 6v30h12V32h8v14h10V22h6v-6h8v6h6v24h8V36h12V28h6v18h12V30h10v16z"/>
+      <path class="flutuante" d="M318 10h22l-4 8h-14z M322 18h14l-7 10z"/>
+      <g class="janelas"><rect x="17" y="30" width="1.6" height="2.2"/><rect x="30" y="38" width="1.6" height="2.2"/><rect x="48" y="22" width="1.6" height="2.2"/><rect x="62" y="33" width="1.6" height="2.2"/><rect x="77" y="26" width="1.6" height="2.2"/><rect x="98" y="38" width="1.6" height="2.2"/><rect x="112" y="30" width="1.6" height="2.2"/><rect x="131" y="16" width="1.6" height="2.2"/><rect x="150" y="34" width="1.6" height="2.2"/><rect x="174" y="22" width="1.6" height="2.2"/><rect x="196" y="38" width="1.6" height="2.2"/><rect x="214" y="30" width="1.6" height="2.2"/><rect x="236" y="20" width="1.6" height="2.2"/><rect x="262" y="36" width="1.6" height="2.2"/><rect x="281" y="26" width="1.6" height="2.2"/><rect x="300" y="40" width="1.6" height="2.2"/><rect x="322" y="13" width="1.6" height="2.2"/><rect x="344" y="30" width="1.6" height="2.2"/><rect x="366" y="38" width="1.6" height="2.2"/><rect x="385" y="34" width="1.6" height="2.2"/></g>
+      <path class="trilho" d="M0 45.5H400"/>
+    </svg>
   <div class="topo-interno">
     <div class="marca">
       <h1><a href="#" id="link-inicio">Grimório de Mesa</a></h1>
@@ -285,6 +352,6 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
   </span>
 </div>
 
-<script src="app.js?v=1.8.1"></script>
+<script src="app.js?v=1.9.0"></script>
 </body>
 </html>
