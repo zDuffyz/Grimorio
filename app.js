@@ -71,7 +71,8 @@
     scrollLista: 0,
     veioDaLista: false,
     ultimaCarga: 0,
-    filtroClasse: ""
+    filtroClasse: "",
+    filtroND: ""
   };
   try { estado.filtroClasse = localStorage.getItem("grimorio:classe-magias") || ""; } catch (e) {}
 
@@ -177,9 +178,16 @@
     e._resumo = normalizar(e.resumo);
     e._texto = normalizar(String(e.texto || "").replace(/\[\[[a-z0-9\-]+\|?/g, "").replace(/[\]*#|]/g, " "));
     e._refs = referencias(e.texto);
+    if (e.categoria === "criatura") {
+      var mnd = /\|\s*\**ND\**\s*\|\s*(\d+(?:\/\d+)?)/.exec(String(e.texto || ""));
+      if (mnd) { e.nd = mnd[1]; e._nd = valorND(mnd[1]); }
+    }
     var tudo = e._nome + " " + e._tags + " " + e._resumo + " " + e._texto;
     SINONIMOS.forEach(function (s) { if (tudo.indexOf(s[0]) >= 0) e._tags += " " + s[1]; });
   }
+
+  // Nível de Desafio: "1/4" -> 0.25
+  function valorND(t) { var p = String(t).split("/"); return p.length === 2 ? Number(p[0]) / Number(p[1]) : Number(t); }
 
   function pontuar(e, consulta, termos) {
     var total = 0;
@@ -218,6 +226,19 @@
   function resultados() {
     var consulta = normalizar(estado.busca).trim();
     if (!consulta) return [];
+    // "nd 2", "nd 1/4", "cr 3": filtra criaturas por Nível de Desafio
+    var mnd = /(?:^|\s)(?:nd|cr)\s*(\d+(?:\/\d+)?)(?=\s|$)/.exec(consulta);
+    if (mnd) {
+      var alvo = valorND(mnd[1]);
+      var resto = consulta.replace(mnd[0], " ").trim();
+      var termosR = resto ? resto.split(/\s+/) : [];
+      return estado.entradas
+        .filter(function (e) { return e.nd !== undefined && e._nd === alvo; })
+        .map(function (e) { return { e: e, p: termosR.length ? pontuar(e, resto, termosR) : 1 }; })
+        .filter(function (r) { return r.p > 0; })
+        .sort(function (a, b) { return b.p - a.p || a.e.nome.localeCompare(b.e.nome, "pt-BR"); })
+        .map(function (r) { return r.e; });
+    }
     var termos = consulta.split(/\s+/);
     return estado.entradas
       .map(function (e) { return { e: e, p: pontuar(e, consulta, termos) }; })
@@ -236,6 +257,7 @@
 
   function nomeClasse(e) { var c = e.de && estado.porId[e.de]; return c ? c.nome : ""; }
   function rotuloLado(e) {
+    if (e.nd !== undefined) return "ND " + e.nd;
     if (e.magia) return rotuloNivel(e.magia.nivel);
     if (e.tipo === "subclasse") return "Subclasse";
     if (e.categoria === "talento" && e.sub_curto) return e.sub_curto;
@@ -360,11 +382,23 @@
         secao("Criação e avanço", porCapitulo("criacao").sort(ordenarPadrao));
     } else if (estado.aba === "apendices") {
       var ap = porCapitulo("apendices").sort(ordenarPadrao);
+      var fnd = estado.filtroND || "";
+      var bichos = ap.filter(function (e) { return e.categoria === "criatura"; });
+      var nds = [];
+      bichos.forEach(function (e) { if (e.nd !== undefined && nds.indexOf(e.nd) < 0) nds.push(e.nd); });
+      nds.sort(function (a, b) { return valorND(a) - valorND(b); });
+      if (fnd && nds.indexOf(fnd) < 0) fnd = "";
+      var porND = function (e) { return !fnd || e.nd === fnd; };
+      var nCont = function (n) { return bichos.filter(function (e) { return e.nd === n; }).length; };
+      var filtroND = '<p class="filtro-rotulo">Filtrar criaturas por Nível de Desafio (ND)</p>' +
+        '<div class="chips filtro-nd">' + chip("", "Todos", !fnd, undefined, "data-nd-f") +
+        nds.map(function (n) { return chip(n, "ND " + n, fnd === n, nCont(n), "data-nd-f"); }).join("") + "</div>";
       html = '<header class="cap-cab"><span class="cap-num">Apêndices A e B</span><h2>Multiverso e Criaturas</h2></header>' +
-        secao("O Multiverso", ap.filter(function (e) { return e.id.indexOf("multiverso") === 0; })) +
-        secao("Como ler as estatísticas", ap.filter(function (e) { return e.categoria === "regra" && e.id.indexOf("multiverso") !== 0; })) +
-        secao("Criaturas do Livro do Jogador", ap.filter(function (e) { return e.categoria === "criatura" && e.livro !== "mm"; })) +
-        secao("Animais do Livro dos Monstros", ap.filter(function (e) { return e.livro === "mm"; }));
+        (fnd ? "" : secao("O Multiverso", ap.filter(function (e) { return e.id.indexOf("multiverso") === 0; })) +
+          secao("Como ler as estatísticas", ap.filter(function (e) { return e.categoria === "regra" && e.id.indexOf("multiverso") !== 0 && e.livro !== "mm"; }))) +
+        filtroND +
+        secao("Criaturas do Livro do Jogador", bichos.filter(function (e) { return e.livro !== "mm" && porND(e); })) +
+        secao("Animais do Livro dos Monstros", ap.filter(function (e) { return e.livro === "mm" && (e.categoria === "criatura" ? porND(e) : !fnd); }));
     } else if (estado.aba === "glossario") {
       var gl = porCapitulo("glossario").sort(function (a, b) { return a.nome.localeCompare(b.nome, "pt-BR"); });
       html = '<header class="cap-cab"><span class="cap-num">Apêndice C</span><h2>Glossário de Regras</h2></header>' +
@@ -528,6 +562,11 @@
 
     if (alvo.matches(".item") || (alvo.matches("a") && rotaAtual() === "")) {
       estado.scrollLista = window.scrollY;
+    }
+    if (alvo.hasAttribute("data-nd-f")) {
+      estado.filtroND = alvo.getAttribute("data-nd-f");
+      vistaLista();
+      return;
     }
     if (alvo.hasAttribute("data-classe-f")) {
       estado.filtroClasse = alvo.getAttribute("data-classe-f");

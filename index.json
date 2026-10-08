@@ -1,6 +1,6 @@
 {
- "versao": "2026.10.07-5",
- "notas": "Mapa: estimativa automática do tamanho do grid e ajuste fino com prévia ao vivo, para os tokens ficarem proporcionais ao mapa.",
+ "versao": "2026.10.08-1",
+ "notas": "Criaturas e animais agora mostram o ND na lista, têm filtro por ND nos Apêndices e a busca entende “nd 2”, “nd 1/4”.",
  "arquivos": [
   "regras.json",
   "condicoes.json",
