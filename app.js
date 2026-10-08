@@ -21,6 +21,7 @@
   var ABAS = [
     { id: "campanha",  cap: "Mesa",   nome: "Campanha" },
     { id: "missoes",   cap: "Mesa",   nome: "Missões" },
+    { id: "mapa",      cap: "Mesa",   nome: "Mapa" },
     { id: "jogo",      cap: "Cap. 1", nome: "Jogando o Jogo" },
     { id: "criacao",   cap: "Cap. 2", nome: "Criação" },
     { id: "classes",   cap: "Cap. 3", nome: "Classes" },
@@ -288,6 +289,12 @@
   function vistaLista() {
     renderAbas();
     var html = "";
+    document.body.classList.remove("modo-tela");
+    if (!estado.busca.trim() && estado.aba === "mapa") {
+      app.innerHTML = '<div class="vista vista-mapa" id="mapa"></div>';
+      if (window.MapaMesa) window.MapaMesa.render(document.getElementById("mapa"), false);
+      return;
+    }
     if (!estado.busca.trim() && (estado.aba === "campanha" || estado.aba === "missoes")) {
       app.innerHTML = '<div class="vista" id="mesa"></div>';
       if (window.Mesa) window.Mesa.render(document.getElementById("mesa"), estado.aba);
@@ -501,6 +508,7 @@
     if (!estado.entradas.length) return;
     var rota = rotaAtual();
     if (rota === "sobre") { vistaSobre(); window.scrollTo(0, 0); return; }
+    if (rota === "tela") { app.innerHTML = '<div id="tela-mesa" class="tela-mesa"></div>'; if (window.MapaMesa) window.MapaMesa.render(document.getElementById("tela-mesa"), true); return; }
     var e = estado.porId[rota];
     if (e) { estado.aba = capitulo(e); renderAbas(); vistaFicha(e); window.scrollTo(0, 0); return; }
     vistaLista();

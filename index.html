@@ -363,6 +363,68 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
 .mesa-grupo { list-style: none; padding: 0; margin: 0 0 .8rem; display: grid; gap: .35rem; }
 .mesa-vaga { font-weight: 700; }
 .mesa-uso { color: var(--muted); font-size: .85rem; }
+
+/* ===== Mapa de combate ===== */
+.vista-mapa { max-width: none; }
+main:has(.vista-mapa) { max-width: 72rem; }
+.mapa-topo { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; margin: 0 0 .5rem; }
+.mapa-topo select { font: inherit; font-size: .95rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: .4rem .5rem; max-width: 12rem; }
+.mapa-nome { font-family: var(--font-display); font-size: 1.15rem; }
+.mapa-ferramentas { display: flex; gap: .3rem; overflow-x: auto; scrollbar-width: none; margin: 0 0 .5rem; }
+.mapa-ferr { flex: none; display: grid; justify-items: center; gap: .05rem; min-width: 3.6rem; padding: .3rem .45rem; border: 1px solid var(--line); border-radius: 10px;
+  background: var(--surface); color: var(--ink); font: inherit; font-size: .78rem; cursor: pointer; text-decoration: none; }
+.mapa-ferr span { font-size: 1.1rem; line-height: 1.1; }
+.mapa-ferr[aria-pressed="true"] { background: var(--bar); color: var(--bar-ink); border-color: var(--brass, var(--accent)); }
+.mapa-vp { position: relative; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none;
+  height: max(22rem, calc(100vh - 21rem)); border-radius: var(--radius); border: 1px solid var(--line); background: #0B1016; }
+.mapa-mundo { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.mapa-fundo { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.mapa-sem-img { background: repeating-linear-gradient(45deg, #1b2532 0 14px, #1f2a38 14px 28px); }
+.mapa-grade, .mapa-regua, .mapa-nevoa { position: absolute; left: 0; top: 0; pointer-events: none; }
+.mapa-token { position: absolute; border-radius: 50%; display: grid; place-items: center; box-sizing: border-box;
+  border: 3px solid var(--cor); background: color-mix(in srgb, var(--cor) 55%, #10161e); box-shadow: 0 2px 6px rgba(0,0,0,.5); cursor: grab; touch-action: none; }
+.mapa-token img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; pointer-events: none; }
+.mapa-ini { color: #fff; font-weight: 700; font-size: 1.3em; text-transform: uppercase; pointer-events: none; }
+.mapa-token.oculto { opacity: .45; border-style: dashed; }
+.mapa-token.meu { box-shadow: 0 0 0 3px rgba(255,255,255,.55), 0 2px 6px rgba(0,0,0,.5); }
+.mapa-token.vez { box-shadow: 0 0 0 4px #E2B85A, 0 0 18px 4px rgba(226,184,90,.65); }
+.mapa-token.arrastando { opacity: .85; z-index: 5; cursor: grabbing; }
+.mapa-pv { position: absolute; left: 8%; right: 8%; bottom: -9px; height: 6px; background: rgba(0,0,0,.65); border-radius: 3px; overflow: hidden; pointer-events: none; }
+.mapa-pv > b { display: block; height: 100%; }
+.mapa-cond { position: absolute; top: -8px; right: -8px; display: flex; gap: 2px; pointer-events: none; }
+.mapa-cond i { font-style: normal; font-size: 11px; line-height: 1; padding: 2px 3px; border-radius: 4px; background: #17202B; color: #F7F0E1; border: 1px solid #E2B85A; }
+.mapa-rotulo { position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 13px; color: #fff;
+  background: rgba(10,14,20,.75); padding: 1px 6px; border-radius: 6px; pointer-events: none; }
+.mapa-iniciativa { margin: .7rem 0 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .8rem; }
+.mapa-ini-cab { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; }
+.mapa-ini-cab strong { margin-right: auto; font-family: var(--font-display); font-weight: 400; font-size: 1.1rem; }
+.mapa-ordem { list-style: none; padding: 0; margin: .5rem 0 0; display: flex; gap: .35rem; overflow-x: auto; scrollbar-width: thin; }
+.mapa-ordem li { flex: none; display: flex; align-items: center; gap: .35rem; padding: .3rem .6rem; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); cursor: pointer; font-size: .92rem; }
+.mapa-ordem li.vez { border-color: #E2B85A; box-shadow: 0 0 0 2px #E2B85A inset; font-weight: 700; }
+.mapa-ordem-n { font-variant-numeric: tabular-nums; color: var(--muted); font-size: .85rem; }
+.mapa-ordem-cor { display: inline-block; width: .75rem; height: .75rem; border-radius: 50%; vertical-align: middle; margin-right: .3rem; }
+.mapa-sua-vez { margin: .5rem 0 0; color: var(--accent); font-weight: 700; }
+.mapa-folha { position: fixed; inset: auto 0 0 0; z-index: 30; display: flex; justify-content: center; pointer-events: none; }
+.mapa-folha-corpo { pointer-events: auto; position: relative; width: min(40rem, 100%); max-height: 75vh; overflow-y: auto; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-bottom: 0; border-radius: 16px 16px 0 0; box-shadow: 0 -8px 28px rgba(0,0,0,.35); padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom, 0px)); }
+.mapa-folha h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.3rem; margin: 0 2rem .3rem 0; }
+.mapa-fechar { position: absolute; right: .6rem; top: .5rem; width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); font-size: 1.3rem; cursor: pointer; }
+.mapa-pv-linha { font-size: 1.1rem; margin: .2rem 0 .4rem; }
+.mapa-conds { display: flex; flex-wrap: wrap; gap: .35rem; margin: .6rem 0; }
+.mapa-ini-linha { display: flex; gap: .4rem; }
+.mapa-ini-linha input { max-width: 7rem; }
+.mapa-cores { display: flex; flex-wrap: wrap; gap: .45rem; }
+.mapa-cor input { position: absolute; opacity: 0; }
+.mapa-cor span { display: block; width: 2rem; height: 2rem; border-radius: 50%; background: var(--c); border: 3px solid transparent; cursor: pointer; }
+.mapa-cor input:checked + span { border-color: var(--ink); }
+.mapa-cor input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Tela da mesa: só o mapa, em tela cheia */
+body.modo-tela .topo, body.modo-tela .rodape, body.modo-tela footer { display: none !important; }
+body.modo-tela { background: #0B1016; }
+body.modo-tela main, body.modo-tela #app { max-width: none !important; padding: 0 !important; margin: 0 !important; }
+.tela-mesa .mapa-vp { height: 100vh; border: 0; border-radius: 0; }
+.tela-mesa .mapa-iniciativa { position: fixed; left: 1rem; bottom: 1rem; max-width: min(90vw, 60rem); margin: 0; background: rgba(23,32,43,.88); color: #EDE6D6; border-color: rgba(201,161,90,.4); }
+.tela-mesa .mapa-ordem li { background: rgba(255,255,255,.06); color: #EDE6D6; border-color: rgba(255,255,255,.15); }
 </style>
 </head>
 <body>
@@ -404,8 +466,9 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
   </span>
 </div>
 
-<script src="config.js?v=2.0.0"></script>
-<script src="app.js?v=2.0.0"></script>
-<script src="campanha.js?v=2.0.0"></script>
+<script src="config.js?v=2.1.0"></script>
+<script src="app.js?v=2.1.0"></script>
+<script src="campanha.js?v=2.1.0"></script>
+<script src="mapa.js?v=2.1.0"></script>
 </body>
 </html>

@@ -490,5 +490,11 @@
   document.addEventListener("click", aoClicar);
   document.addEventListener("change", aoMudar);
 
-  window.Mesa = { render: render };
+  // Usado pelo mapa (mapa.js): conexão e campanha atual
+  function contexto() {
+    return conectar().then(function () { return est.atual ? null : carregarCampanhas(); })
+      .then(function () { return { sb: sb, atual: est.atual, rpc: rpc, q: q }; });
+  }
+
+  window.Mesa = { render: render, contexto: contexto, msgErro: msgErro, nomePapel: nomePapel };
 })();

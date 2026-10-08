@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.07-3",
-  "notas": "Novas abas Campanha e Missões, com login por código e senha.",
+  "versao": "2026.10.07-4",
+  "notas": "Nova aba Mapa: grid, tokens, iniciativa, régua, PV e condições, névoa de guerra e tela da mesa.",
   "arquivos": [
     "regras.json",
     "condicoes.json",

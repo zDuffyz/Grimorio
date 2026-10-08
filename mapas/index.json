@@ -1,0 +1,11 @@
+[
+ {
+  "nome": "Exemplo: masmorra (20×15)",
+  "arquivo": "mapas/exemplo-masmorra.webp",
+  "largura": 1400,
+  "altura": 1050,
+  "grid": 70,
+  "grid_x": 0,
+  "grid_y": 0
+ }
+]
