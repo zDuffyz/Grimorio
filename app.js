@@ -389,10 +389,9 @@
       nds.sort(function (a, b) { return valorND(a) - valorND(b); });
       if (fnd && nds.indexOf(fnd) < 0) fnd = "";
       var porND = function (e) { return !fnd || e.nd === fnd; };
-      var nCont = function (n) { return bichos.filter(function (e) { return e.nd === n; }).length; };
       var filtroND = '<p class="filtro-rotulo">Filtrar criaturas por Nível de Desafio (ND)</p>' +
         '<div class="chips filtro-nd">' + chip("", "Todos", !fnd, undefined, "data-nd-f") +
-        nds.map(function (n) { return chip(n, "ND " + n, fnd === n, nCont(n), "data-nd-f"); }).join("") + "</div>";
+        nds.map(function (n) { return chip(n, "ND " + n, fnd === n, undefined, "data-nd-f"); }).join("") + "</div>";
       html = '<header class="cap-cab"><span class="cap-num">Apêndices A e B</span><h2>Multiverso e Criaturas</h2></header>' +
         (fnd ? "" : secao("O Multiverso", ap.filter(function (e) { return e.id.indexOf("multiverso") === 0; })) +
           secao("Como ler as estatísticas", ap.filter(function (e) { return e.categoria === "regra" && e.id.indexOf("multiverso") !== 0 && e.livro !== "mm"; }))) +
