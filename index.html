@@ -407,12 +407,18 @@ main:has(.vista-mapa) { max-width: 72rem; }
 .mapa-folha { position: fixed; inset: auto 0 0 0; z-index: 30; display: flex; justify-content: center; pointer-events: none; }
 .mapa-folha-corpo { pointer-events: auto; position: relative; width: min(40rem, 100%); max-height: 75vh; overflow-y: auto; background: var(--surface); color: var(--ink);
   border: 1px solid var(--line); border-bottom: 0; border-radius: 16px 16px 0 0; box-shadow: 0 -8px 28px rgba(0,0,0,.35); padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom, 0px)); }
+.mapa-folha.espiar .mapa-folha-corpo { background: transparent; box-shadow: none; border-color: transparent; }
+.mapa-folha.espiar .mapa-folha-corpo * { visibility: hidden; }
+.mapa-folha.espiar .mapa-fino, .mapa-folha.espiar .mapa-fino * { visibility: visible; }
+.mapa-folha.espiar .mapa-fino { background: var(--surface); border-radius: .6rem; padding: .3rem .6rem; }
 .mapa-folha h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.3rem; margin: 0 2rem .3rem 0; }
 .mapa-fechar { position: absolute; right: .6rem; top: .5rem; width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); font-size: 1.3rem; cursor: pointer; }
 .mapa-pv-linha { font-size: 1.1rem; margin: .2rem 0 .4rem; }
 .mapa-conds { display: flex; flex-wrap: wrap; gap: .35rem; margin: .6rem 0; }
 .mapa-ini-linha { display: flex; gap: .4rem; }
 .mapa-ini-linha input { max-width: 7rem; }
+.mapa-estimar { display: grid; gap: .3rem; }
+.mesa-form input[type="range"] { padding: 0; accent-color: var(--accent); }
 .mapa-cores { display: flex; flex-wrap: wrap; gap: .45rem; }
 .mapa-cor input { position: absolute; opacity: 0; }
 .mapa-cor span { display: block; width: 2rem; height: 2rem; border-radius: 50%; background: var(--c); border: 3px solid transparent; cursor: pointer; }
@@ -469,6 +475,6 @@ body.modo-tela main, body.modo-tela #app { max-width: none !important; padding: 
 <script src="config.js?v=2.1.0"></script>
 <script src="app.js?v=2.1.0"></script>
 <script src="campanha.js?v=2.1.0"></script>
-<script src="mapa.js?v=2.1.0"></script>
+<script src="mapa.js?v=2.2.0"></script>
 </body>
 </html>

@@ -326,6 +326,9 @@
       '<label>Mapa da biblioteca<select name="mapa"><option value="">' + (lib.length ? "Escolha um mapa…" : "Biblioteca vazia: mande os mapas na conversa") + "</option>" +
       lib.map(function (m) { return '<option value="' + esc(m.arquivo) + '"' + (c && c.imagem === m.arquivo ? " selected" : "") + ">" + esc(m.nome) + "</option>"; }).join("") + "</select></label>" +
       '<label>…ou link de uma imagem<input name="url" type="url" inputmode="url" value="' + esc(c && !lib.some(function (m) { return m.arquivo === c.imagem; }) ? c.imagem : "") + '" placeholder="https://…"></label>' +
+      '<div class="mapa-estimar"><button type="button" class="mesa-btn-sec" data-mapa="estimar">Estimar grid automaticamente</button><span class="mesa-ajuda" id="mapa-estimativa"></span></div>' +
+      '<label class="mapa-fino">Ajuste fino do quadrado<input name="grid_fino" type="range" min="10" max="300" step="1" value="' + (c ? c.grid : 70) + '"></label>' +
+      (c ? '<p class="mesa-ajuda">Segure e arraste o ajuste fino: a janela fica transparente e você vê o grid e os tokens mudando no mapa. Um personagem Médio deve ocupar um quadrado, mais ou menos do tamanho de uma porta.</p>' : "") +
       '<div class="mesa-linha2"><label>Tamanho do quadrado (px)<input name="grid" type="number" min="10" max="500" value="' + (c ? c.grid : 70) + '"></label>' +
       '<label>Metros por quadrado<input name="metros" type="number" step="0.5" min="0.5" value="' + (c ? c.metros : 1.5) + '"></label></div>' +
       '<div class="mesa-linha2"><label>Deslocar grid X (px)<input name="grid_x" type="number" value="' + (c ? c.grid_x : 0) + '"></label>' +
@@ -551,7 +554,7 @@
     var b = ev.target.closest("[data-mapa]");
     if (!b || b.tagName === "SELECT") return;
     var a = b.getAttribute("data-mapa"), id = b.getAttribute("data-id"), c = est.cena;
-    if (a === "fechar") { est.painel = null; redesenharPainel(); }
+    if (a === "fechar") { if (gridOriginal) { desfazerPrevia(); est.painel = null; desenhar(); return; } est.painel = null; redesenharPainel(); }
     else if (a === "centralizar") enquadrar();
     else if (a === "nova-cena") { est.painel = { tipo: "nova-cena" }; redesenharPainel(); }
     else if (a === "editar-cena") { est.painel = { tipo: "cena" }; redesenharPainel(); }
@@ -573,6 +576,17 @@
       if (i >= 0) lista.splice(i, 1); else lista.push(n);
       tk.condicoes = lista; b.setAttribute("aria-pressed", i < 0); posicionarTokens();
       salvarMeuToken(tk, { condicoes: lista });
+    }
+    else if (a === "estimar") {
+      var form = b.closest("form"), u = String(form.url.value || "").trim() || form.mapa.value || (c && c.imagem);
+      var saida = document.getElementById("mapa-estimativa");
+      if (!u) { G.avisar("Escolha um mapa primeiro."); return; }
+      saida.textContent = "Analisando o mapa…"; b.disabled = true;
+      estimarGrid(u).then(function (r) {
+        form.grid.value = r.grid; form.grid_fino.value = r.grid; form.grid_x.value = r.x; form.grid_y.value = r.y;
+        saida.textContent = textoEstimativa(r);
+        previa(form);
+      }).catch(function (e) { saida.textContent = e.message; }).then(function () { b.disabled = false; });
     }
     else if (a === "limpar-nevoa") q(ctx.sb.from("cenas").update({ nevoa: [] }).eq("id", c.id)).then(function () { est.painel = null; return recarregarTudo("Névoa reiniciada: tudo escondido de novo."); }).catch(erro);
     else if (a === "apagar-cena") { if (confirmar("Apagar esta cena e todos os tokens dela?")) q(ctx.sb.from("cenas").delete().eq("id", c.id)).then(function () { est.painel = null; est.cena = null; return recarregarTudo("Cena apagada."); }).catch(erro); }
@@ -626,6 +640,118 @@
     }
   }
 
+  /* ----- Estimativa do grid a partir da imagem -----
+     1) procura linhas de grid repetidas (autocorrelação das bordas nas duas direções);
+     2) se não achar, usa tamanhos comuns de exportação que dividem bem a imagem. */
+  var TAMANHOS_COMUNS = [50, 56, 60, 64, 70, 72, 75, 80, 90, 96, 100, 110, 112, 120, 128, 140, 144, 150, 160, 180, 200, 240, 256, 280, 300];
+
+  function carregarImagem(u) {
+    return new Promise(function (ok, falha) {
+      var i = new Image(); i.crossOrigin = "anonymous";
+      i.onload = function () { ok(i); }; i.onerror = function () { falha(new Error("Não consegui abrir a imagem do mapa.")); };
+      i.src = urlImg(u);
+    });
+  }
+
+  function perfil(cinza, w, h, horizontal) {
+    // soma da diferença entre pixels vizinhos ao longo de cada coluna (ou linha)
+    var n = horizontal ? w : h, p = new Float64Array(n);
+    if (horizontal) { for (var y = 0; y < h; y++) for (var x = 1; x < w; x++) p[x] += Math.abs(cinza[y * w + x] - cinza[y * w + x - 1]); }
+    else { for (var y2 = 1; y2 < h; y2++) for (var x2 = 0; x2 < w; x2++) p[y2] += Math.abs(cinza[y2 * w + x2] - cinza[(y2 - 1) * w + x2]); }
+    // tira a tendência (média móvel) para sobrar só o que se repete
+    var r = 6, out = new Float64Array(n);
+    for (var i = 0; i < n; i++) {
+      var a = Math.max(0, i - r), b = Math.min(n - 1, i + r), soma = 0;
+      for (var k = a; k <= b; k++) soma += p[k];
+      out[i] = Math.max(0, p[i] - soma / (b - a + 1));
+    }
+    return out;
+  }
+
+  function periodo(pf, min, max) {
+    var n = pf.length, media = 0, i;
+    for (i = 0; i < n; i++) media += pf[i]; media /= n;
+    var c = new Float64Array(max + 1), var0 = 0;
+    for (i = 0; i < n; i++) var0 += (pf[i] - media) * (pf[i] - media);
+    if (!var0) return null;
+    for (var L = min; L <= max; L++) {
+      var s = 0;
+      for (i = 0; i + L < n; i++) s += (pf[i] - media) * (pf[i + L] - media);
+      c[L] = s / var0 * n / (n - L);
+    }
+    var melhor = min;
+    for (L = min; L <= max; L++) if (c[L] > c[melhor]) melhor = L;
+    if (c[melhor] < 0.12) return null;
+    // o pico mais alto às vezes é 2 ou 3 quadrados; testa as frações e fica com a menor que ainda é um pico forte
+    var base = melhor;
+    for (var k = 6; k >= 2; k--) {
+      var alvo = base / k;
+      if (alvo < min) continue;
+      var a0 = Math.max(min, Math.floor(alvo) - 2), a1 = Math.min(max, Math.ceil(alvo) + 2), pico = a0;
+      for (var t = a0; t <= a1; t++) if (c[t] > c[pico]) pico = t;
+      if (c[pico] >= 0.5 * c[base] && c[pico] >= (c[pico - 1] || 0) && c[pico] >= (c[pico + 1] || 0)) { melhor = pico; break; }
+    }
+    // refina com interpolação parabólica
+    var y0 = c[melhor - 1] || 0, y1 = c[melhor], y2 = c[melhor + 1] || 0, d = y0 - 2 * y1 + y2;
+    var fino = d ? melhor + 0.5 * (y0 - y2) / d : melhor;
+    return { p: fino, forca: c[melhor] };
+  }
+
+  function fase(pf, P) {
+    var bins = Math.max(1, Math.round(P)), acc = new Float64Array(bins);
+    for (var i = 0; i < pf.length; i++) acc[Math.round(i % P) % bins] += pf[i];
+    var m = 0; for (var k = 1; k < bins; k++) if (acc[k] > acc[m]) m = k;
+    return m;
+  }
+
+  function estimarGrid(u) {
+    return carregarImagem(u).then(function (img) {
+      var W = img.naturalWidth, H = img.naturalHeight;
+      var esc = Math.min(1, 1600 / Math.max(W, H)), w = Math.round(W * esc), h = Math.round(H * esc);
+      var resultado = null;
+      try {
+        var cv = document.createElement("canvas"); cv.width = w; cv.height = h;
+        var g = cv.getContext("2d"); g.drawImage(img, 0, 0, w, h);
+        var dados = g.getImageData(0, 0, w, h).data, cinza = new Float32Array(w * h);
+        for (var i = 0, j = 0; i < dados.length; i += 4, j++) cinza[j] = dados[i] * 0.3 + dados[i + 1] * 0.59 + dados[i + 2] * 0.11;
+        var px = perfil(cinza, w, h, true), py = perfil(cinza, w, h, false);
+        var min = Math.max(8, Math.round(20 * esc)), max = Math.min(Math.round(320 * esc), Math.floor(Math.min(w, h) / 3));
+        var ax = periodo(px, min, max), ay = periodo(py, min, max);
+        // se um eixo achou o dobro/triplo do outro, fica com o menor
+        if (ax && ay) {
+          var maior = Math.max(ax.p, ay.p), menor = Math.min(ax.p, ay.p), razao = maior / menor;
+          if (razao > 1.5 && Math.abs(razao - Math.round(razao)) < 0.06) { if (ax.p > ay.p) ax.p = ay.p; else ay.p = ax.p; }
+        }
+        if (ax && ay && Math.abs(ax.p - ay.p) / Math.max(ax.p, ay.p) < 0.06) {
+          var P = (ax.p + ay.p) / 2;
+          resultado = { grid: Math.round(P / esc), x: Math.round(fase(px, P) / esc), y: Math.round(fase(py, P) / esc),
+            metodo: "linhas", confianca: Math.min(ax.forca, ay.forca) > 0.3 ? "alta" : "média" };
+        }
+      } catch (e) { /* imagem de outro site sem permissão de leitura: cai na estimativa por tamanho */ }
+      if (!resultado) {
+        var melhor = null;
+        TAMANHOS_COMUNS.forEach(function (t) {
+          var cw = W / t, ch = H / t, resto = Math.abs(cw - Math.round(cw)) + Math.abs(ch - Math.round(ch));
+          var maior = Math.max(cw, ch);
+          if (maior < 8 || maior > 70) return;
+          var nota = resto * 4 + Math.abs(maior - 28) / 28;          // divide certinho e dá um mapa de ~20 a 40 quadrados
+          if (!melhor || nota < melhor.nota) melhor = { t: t, nota: nota, resto: resto };
+        });
+        var t = melhor ? melhor.t : Math.round(Math.max(W, H) / 30);
+        resultado = { grid: t, x: 0, y: 0, metodo: "tamanho", confianca: melhor && melhor.resto < 0.02 ? "média" : "baixa" };
+      }
+      resultado.largura = W; resultado.altura = H;
+      resultado.colunas = Math.round(W / resultado.grid); resultado.linhas = Math.round(H / resultado.grid);
+      return resultado;
+    });
+  }
+
+  function textoEstimativa(r) {
+    var base = r.grid + " px por quadrado (" + r.colunas + " × " + r.linhas + " quadrados)";
+    if (r.metodo === "linhas") return "Encontrei as linhas do grid no mapa: " + base + ". Confiança " + r.confianca + ".";
+    return "O mapa não tem linhas de grid visíveis; pelo tamanho da imagem, o provável é " + base + ". Confira com o ajuste fino.";
+  }
+
   function medirImagem(u) {
     return new Promise(function (ok) {
       if (!u) return ok(null);
@@ -651,6 +777,7 @@
   function nomeArquivo(u) { return String(u || "").split("/").pop().split("?")[0].toLowerCase(); }
 
   function salvarCena(id, d, foundry) {
+    gridOriginal = null;
     var imagem = String(d.get("url") || "").trim() || d.get("mapa") || "";
     var fd = foundry ? lerFoundry(foundry) : null;
     if (fd && !imagem) {
@@ -691,6 +818,42 @@
     }).then(function () { est.painel = null; return recarregarTudo(foundry ? "Cena do Foundry importada." : "Cena salva."); });
   }
 
+  // Pré-visualização: aplica o grid do formulário na cena aberta, sem salvar
+  var gridOriginal = null;
+  function previa(form) {
+    var c = est.cena;
+    if (!c || !form || form.getAttribute("data-id") !== c.id) return;
+    if (!gridOriginal) gridOriginal = { grid: c.grid, grid_x: c.grid_x, grid_y: c.grid_y };
+    c.grid = Math.max(10, Number(form.grid.value) || c.grid);
+    c.grid_x = Number(form.grid_x.value) || 0; c.grid_y = Number(form.grid_y.value) || 0;
+    var velha = raiz.querySelector(".mapa-grade");
+    if (velha) velha.outerHTML = gradeSVG(c);
+    posicionarTokens(); desenharNevoa();
+  }
+  function desfazerPrevia() {
+    if (gridOriginal && est.cena) { Object.assign(est.cena, gridOriginal); }
+    gridOriginal = null;
+  }
+
+  document.addEventListener("input", function (ev) {
+    var t = ev.target, f = t.form;
+    if (!f || !raiz || !raiz.contains(f) || f.getAttribute("data-mapa-form") !== "cena") return;
+    if (t.name === "grid_fino") f.grid.value = t.value;
+    if (t.name === "grid") f.grid_fino.value = t.value;
+    if (["grid", "grid_fino", "grid_x", "grid_y"].indexOf(t.name) >= 0) previa(f);
+  });
+
+  // Enquanto arrasta o ajuste fino, a janela fica transparente para mostrar o mapa
+  function espiar(ev, on) {
+    var t = ev.target;
+    if (!t || t.name !== "grid_fino" || !raiz || !raiz.contains(t)) return;
+    var folha = t.closest(".mapa-folha"); if (folha) folha.classList.toggle("espiar", on);
+  }
+  document.addEventListener("pointerdown", function (ev) { espiar(ev, true); });
+  ["pointerup", "pointercancel", "change"].forEach(function (n) {
+    document.addEventListener(n, function () { var f = raiz && raiz.querySelector(".mapa-folha.espiar"); if (f) f.classList.remove("espiar"); });
+  });
+
   function aoMudar(ev) {
     var t = ev.target;
     if (!raiz || !raiz.contains(t)) return;
@@ -700,8 +863,9 @@
       carregarTokens().then(desenhar).catch(erro);
     } else if (t.name === "mapa" && t.form && t.form.getAttribute("data-mapa-form") === "cena") {
       var m = est.biblioteca.mapas.filter(function (x) { return x.arquivo === t.value; })[0];
+      if (m && !m.grid) { var be = t.form.querySelector('[data-mapa="estimar"]'); if (be) be.click(); }
       if (m) {
-        if (m.grid) t.form.grid.value = m.grid;
+        if (m.grid) { t.form.grid.value = m.grid; t.form.grid_fino.value = m.grid; }
         if (m.grid_x != null) t.form.grid_x.value = m.grid_x;
         if (m.grid_y != null) t.form.grid_y.value = m.grid_y;
         if (!t.form.nome.value) t.form.nome.value = m.nome;
@@ -722,5 +886,5 @@
   document.addEventListener("change", aoMudar);
   window.addEventListener("resize", function () { if (modoTela && est.cena) enquadrar(); });
 
-  window.MapaMesa = { render: render };
+  window.MapaMesa = { render: render, estimarGrid: estimarGrid };
 })();
