@@ -1,6 +1,6 @@
 {
-  "versao": "2026.10.07-2",
-  "notas": "A lista de magias do Artífice agora fica na aba Magias (filtro Artífice).",
+  "versao": "2026.10.07-3",
+  "notas": "Novas abas Campanha e Missões, com login por código e senha.",
   "arquivos": [
     "regras.json",
     "condicoes.json",

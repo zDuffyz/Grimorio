@@ -19,6 +19,8 @@
   var FONTE_PADRAO = "SRD 5.2 · tradução para consulta de mesa";
   // Abas seguindo os capítulos do Livro do Jogador
   var ABAS = [
+    { id: "campanha",  cap: "Mesa",   nome: "Campanha" },
+    { id: "missoes",   cap: "Mesa",   nome: "Missões" },
     { id: "jogo",      cap: "Cap. 1", nome: "Jogando o Jogo" },
     { id: "criacao",   cap: "Cap. 2", nome: "Criação" },
     { id: "classes",   cap: "Cap. 3", nome: "Classes" },
@@ -286,6 +288,11 @@
   function vistaLista() {
     renderAbas();
     var html = "";
+    if (!estado.busca.trim() && (estado.aba === "campanha" || estado.aba === "missoes")) {
+      app.innerHTML = '<div class="vista" id="mesa"></div>';
+      if (window.Mesa) window.Mesa.render(document.getElementById("mesa"), estado.aba);
+      return;
+    }
     if (estado.busca.trim()) {
       var res = resultados();
       html = '<p class="contagem">' + res.length + (res.length === 1 ? " resultado" : " resultados") + " para “" + esc(estado.busca.trim()) + "” em todos os capítulos</p>" +
@@ -582,6 +589,8 @@
   }
   avisoAcao.addEventListener("click", function () { aviso.hidden = true; if (acaoAtual) acaoAtual(); });
   document.getElementById("aviso-fechar").addEventListener("click", function () { aviso.hidden = true; });
+
+  window.Grimorio = { formatar: formatar, avisar: avisar, esc: esc };
 
   /* ---------- carregamento do conteúdo ---------- */
   function buscarJSON(caminho) {

@@ -311,6 +311,58 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
 .ficha-cat, .item-lado, .chip, .voltar { font-variant: normal; letter-spacing: .01em; }
 .ficha-cat { font-style: italic; }
 
+
+/* ===== Mesa: Campanha e Missões ===== */
+.mesa-vazio { color: var(--muted); font-style: italic; margin: 1rem 0; }
+.mesa-aviso { background: color-mix(in srgb, var(--cat-acao) 14%, var(--surface)); border: 1px solid color-mix(in srgb, var(--cat-acao) 40%, var(--line)); border-radius: var(--radius); padding: .6rem .8rem; font-size: .95rem; }
+.mesa-erro { color: var(--cat-condicao); }
+.mesa-ajuda { color: var(--muted); font-size: .92rem; margin: .2rem 0 .6rem; }
+.mesa-cartao { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: .9rem 1rem 1rem; margin: 0 0 1rem; }
+.mesa-cartao h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.25rem; margin: 0 0 .5rem; }
+.mesa-form { display: grid; gap: .65rem; }
+.mesa-form label { display: grid; gap: .25rem; font-size: .92rem; color: var(--muted); }
+.mesa-form input:not([type="checkbox"]), .mesa-form select, .mesa-form textarea, .mesa-barra select {
+  font: inherit; font-size: 1rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: .55rem .65rem; width: 100%; }
+.mesa-form textarea { resize: vertical; line-height: 1.45; }
+.mesa-form label.mesa-check { display: flex; align-items: center; gap: .5rem; color: var(--ink); }
+.mesa-linha2 { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem; }
+.mesa-acoes { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .5rem; }
+.mesa-btn, .mesa-btn-sec { font: inherit; font-size: .95rem; border-radius: 999px; padding: .45rem 1rem; cursor: pointer; }
+.mesa-btn { background: var(--accent); color: var(--accent-ink); border: 1px solid var(--accent); font-weight: 700; }
+.mesa-btn:disabled { opacity: .6; }
+.mesa-btn-sec { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
+.mesa-perigo { color: var(--cat-condicao); }
+.mesa-link { background: none; border: 0; padding: 0 .2rem; color: var(--accent); font: inherit; font-size: .9rem; cursor: pointer; text-decoration: underline; }
+.mesa-novo { margin: .2rem 0 1rem; }
+.mesa-barra { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .6rem; padding: .7rem .9rem; margin: 0 0 1rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: inset 3px 0 0 var(--brass, var(--accent)); }
+.mesa-campanha { font-family: var(--font-display); font-size: 1.2rem; }
+.mesa-papel { color: var(--muted); font-size: .9rem; }
+.mesa-codigo { letter-spacing: .12em; color: var(--ink); }
+.mesa-barra-acoes { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.mesa-barra select { width: auto; padding: .35rem .5rem; font-size: .9rem; }
+.mesa-linha { list-style: none; padding: 0; margin: 0; border-left: 2px solid var(--line); }
+.mesa-linha > li { position: relative; padding: 0 0 1.2rem 1rem; }
+.mesa-linha > li::before { content: ""; position: absolute; left: -7px; top: .35rem; width: 12px; height: 12px; background: var(--brass, var(--accent));
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+.mesa-sessao h3, .mesa-missao h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.3rem; margin: .1rem 0 .35rem; }
+.mesa-sessao-cab { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
+.mesa-num { color: var(--accent); font-style: italic; font-size: .92rem; }
+.mesa-selo { font-size: .78rem; border: 1px solid var(--line); border-radius: 999px; padding: .05rem .5rem; color: var(--muted); }
+.mesa-oculta { opacity: .72; }
+.mesa-nota { margin: .4rem 0; border: 1px dashed var(--line); border-radius: 8px; padding: .3rem .7rem; }
+.mesa-nota summary { cursor: pointer; color: var(--accent); font-size: .92rem; }
+.mesa-missao { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--cat-magia); border-radius: var(--radius); padding: .75rem .9rem .85rem; margin: 0 0 .8rem; }
+.mesa-missao.mesa-concluida { border-left-color: var(--cat-origem); }
+.mesa-missao.mesa-falhou { border-left-color: var(--cat-condicao); }
+.mesa-obj-cab { font-size: .85rem; color: var(--muted); margin-top: .4rem; }
+.mesa-objetivos { list-style: none; padding: 0; margin: .2rem 0 .4rem; display: grid; gap: .25rem; }
+.mesa-objetivos .feito { color: var(--muted); text-decoration: line-through; }
+.mesa-objetivos label { display: flex; gap: .45rem; align-items: baseline; }
+.mesa-marca { display: inline-block; width: 1rem; color: var(--accent); }
+.mesa-recompensa { margin: .35rem 0 0; font-size: .95rem; }
+.mesa-grupo { list-style: none; padding: 0; margin: 0 0 .8rem; display: grid; gap: .35rem; }
+.mesa-vaga { font-weight: 700; }
+.mesa-uso { color: var(--muted); font-size: .85rem; }
 </style>
 </head>
 <body>
@@ -352,6 +404,8 @@ main { max-width: 40rem; margin: 0 auto; padding-inline: 1rem; padding-block: 0.
   </span>
 </div>
 
-<script src="app.js?v=1.9.1"></script>
+<script src="config.js?v=2.0.0"></script>
+<script src="app.js?v=2.0.0"></script>
+<script src="campanha.js?v=2.0.0"></script>
 </body>
 </html>
